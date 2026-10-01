@@ -1,0 +1,153 @@
+{
+  "lastAttemptAt": "2026-10-01T18:23:27.878117Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4412/assessed-ca20ac0bd6d0709319b8d0da71b65941044d56057f0c6453aa6d1e2bab02299d.json",
+        "sha256": "ca20ac0bd6d0709319b8d0da71b65941044d56057f0c6453aa6d1e2bab02299d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset is an official 2024 capture of home.bank, inside the last independent brand period 2023-07-01..2025-04-07 (Wikipedia, RBC, Sovcombank press release).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched arc mark is the «ХОУМ БАНК» brand mark (official archived home.bank favicon, touch icon, RuStore APK icon).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official archived home.bank assets corroborated by an independent app-store icon and encyclopedic/press lifecycle sources; not mirrors of one publication.",
+        "uncertainties": [
+          "Whether a red-circle inverse variant was also officially used in the period could not be verified (brandbook not retrieved); the fetched candidate is nonetheless the variant observed in all found official icon assets."
+        ],
+        "variant": {
+          "basis": "Both observed official icon variants (favicon.svg, apple-touch-icon, RuStore APK) use white background with red #C8102E arc; the accepted inverse red-circle variant with #cd1232 is not observed in any period source.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/261c2d47fdff5367e6140e5ad821f33906a1ff37339d3143fe71d9686548301e.json",
+        "sha256": "261c2d47fdff5367e6140e5ad821f33906a1ff37339d3143fe71d9686548301e"
+      },
+      "baseIconHash": "7c6a0712fd23dccf4d210758f97aaa35b0e03fb6aef1cb960a72ae95c9be6f61",
+      "candidate": {
+        "detailsJudgement": "Arc thickness, opening and proportions identical between source, working, optimized and final renders; no lost details.",
+        "faithful": true,
+        "iconHash": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81",
+        "path": "evidence/4412/candidate-022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81.svg",
+        "proportionsJudgement": "32×32 viewBox scales cleanly into the icon cell; mark centered, no stretching or clipping.",
+        "rationale": "Official period favicon.svg (Wayback capture of home.bank) replaces the accepted unobserved color-inverse variant; period-official icon variant is a white circle with red #C8102E arc.",
+        "role": "standalone symbol/app mark (official favicon), no accompanying text",
+        "sha256": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81",
+        "sourceAssetUrl": "https://web.archive.org/web/20240601064224im_/https://home.bank/upload/favicons/favicon.svg",
+        "sourceUrl": "https://web.archive.org/web/20240601064224/https://home.bank/",
+        "transforms": [
+          "No geometric transformation; downloaded source used as the working SVG. SVGO 4.1.0 with repository config (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 765→626 bytes; optimized selected — visually identical at 240px on both themes (max channel diff ≤4/255), smaller, converter-compatible."
+        ],
+        "variant": "white circle with red #C8102E arc — period-official icon variant",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Variant inverted: accepted red #cd1232 disc with white arc replaced by the period-official white disc with red #C8102E arc, matching archived home.bank favicon/apple-touch-icon and the RuStore APK icon."
+      },
+      "candidateIconHash": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81",
+      "checkedAt": "2026-10-01T18:23:27.878117Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "3a640613eecb6538a9c3967679c7d295e1a7e2aaca9bf72b8567a9547da50a80",
+        "head": "bank-icon-maintenance/4412",
+        "headCommit": "38537f74136878d3de3250ceb7ee6e9cf39a8e31",
+        "number": 2,
+        "observedAt": "2026-10-01T18:34:20.527193Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ХОУМ БАНК (Company.id 4412)",
+        "url": "https://github.com/zenmoney/banks/pull/2"
+      },
+      "reason": "Historical record (Хоум банк, last independent period 2023-07-01..2025-04-07). Fetched official period favicon.svg (archived home.bank asset, capture 2024-06-06) shows the period mark: white circle with red #C8102E arc. The accepted SVG is an unobserved color-inverse variant (red #cd1232 circle, white arc) — supported variant/color correction candidate.",
+      "reviewPackage": {
+        "path": "evidence/4412/candidate-9ee4cebb7240ba00425a2222cda32bccf3c12ff7449083847e80630b392cdbf3.json",
+        "sha256": "9ee4cebb7240ba00425a2222cda32bccf3c12ff7449083847e80630b392cdbf3"
+      },
+      "sourceCandidate": {
+        "iconHash": "efbb7823861d880f67ce64947fcd6d48450969cf0d9d89113b4fd99e10460743",
+        "path": "evidence/4412/research-c151c39ea94c40bbaf2a4877d5d1c6d5/fetch-d3c10397f33d4798ac50a8231c87b3e7/attempt-2/body.bin",
+        "rationale": "Official period favicon.svg (Wayback capture 2024-06-06): standalone white-circle/red-arc mark replacing the unobserved inverse variant in the accepted SVG; evidenced variant/color correction for a historical record.",
+        "retrieval": {
+          "path": "evidence/4412/research-c151c39ea94c40bbaf2a4877d5d1c6d5/fetch-d3c10397f33d4798ac50a8231c87b3e7/receipt.json",
+          "sha256": "8efd0d4389c3ac0f230303f68426e3d2ed8e561103e2eb8aa8d2282d8ba106b0"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20240601064224im_/https://home.bank/upload/favicons/favicon.svg",
+        "sourceUrl": "https://web.archive.org/web/20240601064224/https://home.bank/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20240601064224im_/https://home.bank/upload/favicons/favicon.svg",
+          "checkedAt": "2026-10-01T18:11:01Z",
+          "independenceGroup": "home.bank official capture",
+          "kind": "official",
+          "observation": "Archived official favicon.svg of the «ХОУМ БАНК» period: white circle, red #C8102E arc, standalone mark, no text. Body saved and receipt-bound (sha256 efbb7823861d880f67ce64947fcd6d48450969cf0d9d89113b4fd99e10460743).",
+          "url": "https://web.archive.org/web/20240601064224/https://home.bank/"
+        },
+        {
+          "assetUrl": "https://web.archive.org/web/20240601064224im_/https://home.bank/upload/favicons/favicon_180x180.png",
+          "checkedAt": "2026-10-01T18:11:01Z",
+          "independenceGroup": "home.bank official capture",
+          "kind": "official",
+          "observation": "Archived official apple-touch-icon shows the same white-background/red-arc design — corroborates the period variant.",
+          "url": "https://web.archive.org/web/20240601064224im_/https://home.bank/upload/favicons/favicon_180x180.png"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:11:01Z",
+          "independenceGroup": "app-store",
+          "kind": "third-party",
+          "observation": "RuStore page of «Хоум Банк» (ru.homecredit.mycredit): APK icon shows the same red arc on white — independent corroboration of the period design.",
+          "url": "https://www.rustore.ru/catalog/app/ru.homecredit.mycredit"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:11:01Z",
+          "independenceGroup": "encyclopedic",
+          "kind": "third-party",
+          "observation": "Lifecycle: renamed «Хоум банк» from 2023-07-01; Sovcombank merger completed 2025-04-07 — defines the relevant historical period.",
+          "url": "https://ru.wikipedia.org/wiki/Хоум_Банк"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:04:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-issue",
+          "observation": "1 closed issue #495 (sync error report), no icon content.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A5%D0%9E%D0%A3%D0%9C+%D0%91%D0%90%D0%9D%D0%9A%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:04:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-pr",
+          "observation": "0 results including closed.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A5%D0%9E%D0%A3%D0%9C+%D0%91%D0%90%D0%9D%D0%9A%22+is%3Apr"
+        },
+        {
+          "assetUrl": "https://web.archive.org/web/20240601064224im_/https://home.bank/upload/favicons/favicon.svg",
+          "checkedAt": "2026-10-01T18:11:01Z",
+          "independenceGroup": "home.bank official capture",
+          "kind": "official",
+          "observation": "Exact fetched asset (receipt-bound): archived official favicon.svg — white circle, red #C8102E arc, standalone mark, sha256 efbb7823861d880f67ce64947fcd6d48450969cf0d9d89113b4fd99e10460743.",
+          "url": "https://web.archive.org/web/20240606014034im_/https://home.bank/upload/favicons/favicon.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T18:29:07.956404Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81",
+        "xmlSha256": "0c45c13f324fa3d7c553653fdd680c230c35d9fc95072e711dec7ef1129111e3"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
