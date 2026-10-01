@@ -1,0 +1,126 @@
+{
+  "lastAttemptAt": "2026-10-01T21:34:26.952926Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4902/assessed-030c32aa105575eaa492a4714c642418ef567a63255fee012abcc096f024e84d.json",
+        "sha256": "030c32aa105575eaa492a4714c642418ef567a63255fee012abcc096f024e84d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live fetch 2026-10-01 via the HTTPS helper (caRetry after MITM-certificate interference on direct curl); homepage apple-touch-icon link observed in the same fetch.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset served from the bank's own CDN and referenced by tbank.ru homepage; mark is the Т-Банк shield.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank homepage and its CDN asset fetched together; single official publication origin.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current variant is the white shield on the yellow field; baseline draws the Т on the yellow shield directly.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d1af83a3ac383a073ce8a5a622c0ad9edb7c36464cf35ee20aba7f5a89d5ea4a.json",
+        "sha256": "d1af83a3ac383a073ce8a5a622c0ad9edb7c36464cf35ee20aba7f5a89d5ea4a"
+      },
+      "baseIconHash": "57d41d058be7aebe23edada5ae9509061cb5607b75a76c77eb0ca384522443b9",
+      "candidate": {
+        "detailsJudgement": "Shield outline and Т proportions match the source asset; fills measured from source pixels; soft raster shadow omitted as a rendering artifact.",
+        "faithful": true,
+        "iconHash": "b2298a4930c054cecfb23e91116f0c01f31c512b4159e426356160f249c44b6a",
+        "path": "evidence/4902/candidate-b2298a4930c054cecfb23e91116f0c01f31c512b4159e426356160f249c44b6a.svg",
+        "proportionsJudgement": "White shield centered with source margins; Т centered in the shield.",
+        "rationale": "Current official tbank.ru apple-touch-icon shows the present Т-Банк mark: a white shield with a dark Т on a yellow #FFDD2D square field. The accepted icon is the older yellow shield with the dark Т directly on it. Supported current-design update.",
+        "role": "standalone brand mark (app/favicon tile)",
+        "sha256": "b2298a4930c054cecfb23e91116f0c01f31c512b4159e426356160f249c44b6a",
+        "sourceAssetUrl": "https://cdn.tbank.ru/params/common_front/resourses/icons/apple-touch-icon-180x180.png",
+        "sourceUrl": "https://www.tbank.ru/",
+        "transforms": [
+          "Faithful vector adaptation of the flat official raster (180px): contour-traced white shield and dark #333333 Т at the 50% threshold, RDP eps 1.2px, flat #FFDD2D background rect; the faint raster drop shadow intentionally not reproduced.",
+          "SVGO trial with repo svgo.config.mjs (sha256 f2a406e0…): 643 -> 386 bytes, optimized selected (visually identical on light/dark, smaller)."
+        ],
+        "variant": "yellow square field, white shield, dark Т",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Old yellow-shield-with-dark-Т replaced by the current yellow field with white shield and dark Т."
+      },
+      "candidateIconHash": "b2298a4930c054cecfb23e91116f0c01f31c512b4159e426356160f249c44b6a",
+      "checkedAt": "2026-10-01T21:34:26.952926Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "fb863591505c57a5b6a668ab8112db1ca64f0359adb42aca1e58b4745454d853",
+        "head": "bank-icon-maintenance/bank-icon-4902",
+        "headCommit": "d5d6e5d0c64f5e92e22811e2dbe0efdf572170bc",
+        "number": 14,
+        "observedAt": "2026-10-01T21:51:47.428232Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Т-Банк (Company.id 4902)",
+        "url": "https://github.com/zenmoney/banks/pull/14"
+      },
+      "reason": "The current official tbank.ru apple-touch-icon shows the present Т-Банк mark: a white shield containing a dark Т on a yellow #FFDD2D field. The accepted baseline is a yellow shield with the dark Т directly on it (no yellow field/white shield inversion). Evidenced current design differs from the accepted SVG.",
+      "reviewPackage": {
+        "path": "evidence/4902/candidate-a5922c414433d2a4ca60380f539c39a72384a7041fb7489ed9f77c90b0de649d.json",
+        "sha256": "a5922c414433d2a4ca60380f539c39a72384a7041fb7489ed9f77c90b0de649d"
+      },
+      "sourceCandidate": {
+        "iconHash": "bea1efe3786b869ebe5ecbe7618ba0aab977dde72c64a284a4449a029af18571",
+        "path": "evidence/4902/research-3388b53b280442098246213e6bfe58cb/fetch-dbc4eafd316d412f9cab3ab21a2f23e2/attempt-2/body.bin",
+        "rationale": "Official current app/favicon mark, standalone, flat design suitable for faithful vector adaptation.",
+        "retrieval": {
+          "path": "evidence/4902/research-3388b53b280442098246213e6bfe58cb/fetch-dbc4eafd316d412f9cab3ab21a2f23e2/receipt.json",
+          "sha256": "2e7b4b0aa77edc4db099762a42d4c5f34a3fc0a912c75562cd08e2901aca67ff"
+        },
+        "sourceAssetUrl": "https://cdn.tbank.ru/params/common_front/resourses/icons/apple-touch-icon-180x180.png",
+        "sourceUrl": "https://www.tbank.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.tbank.ru/params/common_front/resourses/icons/apple-touch-icon-180x180.png",
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "tbank-official",
+          "kind": "official",
+          "observation": "Homepage (fetched via helper, receipt /sessions/bank-icon-c172b48a/evidence/4902/research-3388b53b280442098246213e6bfe58cb/fetch-f71add93db654054902ed495ab528b45/receipt.json, 1915985 bytes) contains: link rel=apple-touch-icon sizes=180x180 href=https://cdn.tbank.ru/params/common_front/resourses/icons/apple-touch-icon-180x180.png ; link rel=\"shortcut icon\" sizes=32x32 href=https://cdn.tbank.ru/params/common_front/resourses/icons/favicon-32x32.png ; og:image=https://cdn.tbank.ru/static/pfa-multimedia/images/5847e532-8ea6-4648-a407-e6ccc8f0515c.png",
+          "url": "https://www.tbank.ru/"
+        },
+        {
+          "assetUrl": "https://cdn.tbank.ru/params/common_front/resourses/icons/apple-touch-icon-180x180.png",
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "tbank-official",
+          "kind": "official",
+          "observation": "Retrieved 7514 bytes, 180x180 image; visual: yellow field, white shield with dark 'Т' — current Т-Банк mark.",
+          "url": "https://cdn.tbank.ru/params/common_front/resourses/icons/apple-touch-icon-180x180.png"
+        },
+        {
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-issue",
+          "observation": "GitHub search API rate-limited anonymously (HTTP 403); rerun authenticated via gh CLI: gh search issues --repo zenmoney/ZenPlugins \"Т-Банк\" --include-prs=false. Results (incl. closed): #879 open '[Т-Банк] неправильное отображение стоимости брокерского счета с заблокированными бумагами' (functionality, not icon); #925, #214 unrelated (MTS-Bank, Альфа-банк). No icon-related T-Bank issue.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A2-%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-pr",
+          "observation": "Rerun authenticated via gh CLI: gh search prs --repo zenmoney/ZenPlugins \"Т-Банк\". Results (incl. closed): #499 solutionbank, #513 Капиталбанк, #338 Belarusbank, #281 Bnbank — all unrelated to T-Bank or icons. No T-Bank icon PR.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A2-%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T21:44:14.300196Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b2298a4930c054cecfb23e91116f0c01f31c512b4159e426356160f249c44b6a",
+        "xmlSha256": "1193a657e288a82f9232e9b70e9ab139a380839cf228317125f96b2492af5ffa"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
