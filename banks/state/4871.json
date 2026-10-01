@@ -1,0 +1,132 @@
+{
+  "lastAttemptAt": "2026-10-01T21:33:38.721706Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4871/assessed-5d7cb578402ccab2eed2a61518725837d2c11d68a9bb8470f8fa1111ad793548.json",
+        "sha256": "5d7cb578402ccab2eed2a61518725837d2c11d68a9bb8470f8fa1111ad793548"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "App listing version 3.220.0 with dateModified 2026-09-29 fetched 2026-10-01; akbars.ru origin itself returned a 403 anti-bot page.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "RuStore listing for ru.akbars.mobile is described as the official Ak Bars Bank app; icon matches current АББ monoline branding observed on the bank's channels.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official RuStore listing metadata plus independent observation of current branding on the bank's Telegram channel.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Icon is the standalone АББ monoline mark, no accompanying text; second fetched icon (Госуслуги) was a different app and rejected.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/80e589957fae25bb6e1417c34dc9029ec90a2879eb629f0932cc4ad8ab93b75e.json",
+        "sha256": "80e589957fae25bb6e1417c34dc9029ec90a2879eb629f0932cc4ad8ab93b75e"
+      },
+      "baseIconHash": "6ca2737218be3fb81e8fda2073db62272e5157044a3ed90d725af1eea59ea8aa",
+      "candidate": {
+        "detailsJudgement": "Monoline stroke weight, rounded terminals and letter shapes preserved; counters intact via even-odd holes; fills measured from source pixels.",
+        "faithful": true,
+        "iconHash": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3",
+        "path": "evidence/4871/candidate-4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3.svg",
+        "proportionsJudgement": "Mark centered with source margins; container proportions match the app icon.",
+        "rationale": "Current official Ак Барс Онлайн app icon (RuStore, v3.220.0, 2026-09-29) uses a green #009B3A rounded square with the white monoline АББ mark; the accepted icon renders the same mark in an older #50A855 circle. Supported container/colour update.",
+        "role": "standalone brand mark (mobile app tile)",
+        "sha256": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3",
+        "sourceAssetUrl": "https://static.rustore.ru/2026/1/22/93/apk/1759974847/content/ICON/efc59cca-de1c-4295-a598-44584edd769d.png",
+        "sourceUrl": "https://www.rustore.ru/catalog/app/ru.akbars.mobile",
+        "transforms": [
+          "Faithful vector adaptation of the flat official raster: pixel-accurate contour tracing of the white mark at the 50% threshold (512px source), RDP simplification eps 2.2px, rounded-rect background rx 59 with measured #009B3A.",
+          "SVGO trial with repo svgo.config.mjs (sha256 f2a406e0…): 957 -> 527 bytes, optimized selected (visually identical on light/dark, smaller)."
+        ],
+        "variant": "green rounded square, white monoline АББ mark",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Container changed from mid-green circle to the current bright-green rounded square; the АББ mark itself is effectively unchanged."
+      },
+      "candidateIconHash": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3",
+      "checkedAt": "2026-10-01T21:33:38.721706Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "83203d04dcd0fee029896dc071cb0f0e411b366b23a66996997250acf5ac76be",
+        "head": "bank-icon-maintenance/bank-icon-4871",
+        "headCommit": "c4861ff28ef40aa17553b5b6a26a879bb0b77fbe",
+        "number": 13,
+        "observedAt": "2026-10-01T21:50:23.081729Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ак Барс Банк (Company.id 4871)",
+        "url": "https://github.com/zenmoney/banks/pull/13"
+      },
+      "reason": "Ak Bars Bank's current standalone mark (official Ак Барс Онлайн app icon on RuStore, v3.220.0 modified 2026-09-29) is a green rounded square with a white monoline АББ mark; the accepted baseline uses an older green square with a different leopard/paw-style emblem. Evidenced rebrand justifies the update.",
+      "reviewPackage": {
+        "path": "evidence/4871/candidate-1d740037f565698bc56298d9c3407bf34bfb616c8c615b5d2e71c59c569a4c71.json",
+        "sha256": "1d740037f565698bc56298d9c3407bf34bfb616c8c615b5d2e71c59c569a4c71"
+      },
+      "sourceCandidate": {
+        "iconHash": "812a9e22dfeb5e5f3e52b268fb3e9342964baaced07616d73c044619fa8a2228",
+        "path": "evidence/4871/research-0495e728b4a0479daa3cb45568b49ef8/fetch-ec325329aafc4c8480ac945ea01961c3/attempt-1/body.bin",
+        "rationale": "Official current app icon, 512x512 flat design suitable for faithful vector adaptation.",
+        "retrieval": {
+          "path": "evidence/4871/research-0495e728b4a0479daa3cb45568b49ef8/fetch-ec325329aafc4c8480ac945ea01961c3/receipt.json",
+          "sha256": "9d6f002277f6196d03b26c4ff0c65778befaac9c724c5dc8ca95cf89fa464b57"
+        },
+        "sourceAssetUrl": "https://static.rustore.ru/2026/1/22/93/apk/1759974847/content/ICON/efc59cca-de1c-4295-a598-44584edd769d.png",
+        "sourceUrl": "https://www.rustore.ru/catalog/app/ru.akbars.mobile"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://static.rustore.ru/2026/1/22/93/apk/1759974847/content/ICON/efc59cca-de1c-4295-a598-44584edd769d.png",
+          "checkedAt": "2026-10-01T21:22:00Z",
+          "independenceGroup": "rustore-appicon",
+          "kind": "third-party",
+          "observation": "RuStore listing 'Ак Барс Онлайн' (ru.akbars.mobile). Embedded JSON-LD: name='Ак Барс Онлайн', description='Официальное приложение Ак Барс Банка', image=<assetUrl>, softwareVersion 3.220.0, dateModified 2026-09-29T15:36:18Z. Rendered the icon: green rounded square, white monoline 'АББ' mark.",
+          "url": "https://www.rustore.ru/catalog/app/ru.akbars.mobile"
+        },
+        {
+          "checkedAt": "2026-10-01T21:15:00Z",
+          "independenceGroup": "akbars-site",
+          "kind": "official",
+          "observation": "HTTP 403 anti-bot block page ('Запрос заблокирован', webcheck@akbars.ru) for both / and favicon URLs; site identity/assets could not be read directly from the bank's web origin.",
+          "url": "https://www.akbars.ru/"
+        },
+        {
+          "checkedAt": "2026-10-01T21:24:00Z",
+          "independenceGroup": "zenplugins-search",
+          "kind": "zenplugins-issue",
+          "observation": "Query 'repo:zenmoney/ZenPlugins \"Ак Барс Банк\" is:issue' (all states, authenticated) — total_count=0.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%BA+%D0%91%D0%B0%D1%80%D1%81+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "checkedAt": "2026-10-01T21:24:00Z",
+          "independenceGroup": "zenplugins-search",
+          "kind": "zenplugins-pr",
+          "observation": "Query 'repo:zenmoney/ZenPlugins \"Ак Барс Банк\" is:pr' (all states, authenticated) — total_count=0. Supplemental query 'repo:zenmoney/ZenPlugins akbars' returned only PR #42 '[akbars] first version' (closed) and PR #55 'Plugins refactoring & bugfix' (closed); neither concerns the icon.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%BA+%D0%91%D0%B0%D1%80%D1%81+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        },
+        {
+          "checkedAt": "2026-10-01T21:18:00Z",
+          "independenceGroup": "appstore-search",
+          "kind": "third-party",
+          "observation": "App Store search shows only 'Ак Барс Дом' (real-estate app, bank subsidiary) and unrelated apps; the bank's own banking app is not available via iTunes API (RU banking apps withdrawn from the store). RuStore used instead.",
+          "url": "https://itunes.apple.com/search?term=akbars&entity=software&limit=10&country=ru"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T21:44:12.355111Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3",
+        "xmlSha256": "d0f1b1eb99bfc55ed18b8dd4c8ff7f759f8ad3525ba9189a7fd09716e117f448"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
