@@ -1,0 +1,137 @@
+{
+  "lastAttemptAt": "2026-10-01T16:30:17.479958Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/3/assessed-7cf4e187a47b4a120cd501c136fa4419ddf5631adf74475fed093fcae96aea1a.json",
+        "sha256": "7cf4e187a47b4a120cd501c136fa4419ddf5631adf74475fed093fcae96aea1a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official app listing observed 2026-10-01; official favicon shows the same mark today; 2015 Wikimedia geometry corroborates continuity of the mark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The fetched asset is АО «Альфа-Банк»'s own app icon on its official RuStore listing: white А+underscore monogram on red — the bank's documented mark.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary evidence is the bank's own app-store listing and site favicon; Wikimedia (independent) corroborates mark geometry/color continuity.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone monogram treatment (no wordmark/slogan), square-cell native; the documented red-square composition differs from the accepted red-circle backing.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3e0affec7ec930d952aae368c8c0f2cede458ca56a86f9dd9df7b0b40b34b37f.json",
+        "sha256": "3e0affec7ec930d952aae368c8c0f2cede458ca56a86f9dd9df7b0b40b34b37f"
+      },
+      "baseIconHash": "c08119921a3858373c36aad8567dd3c2d54c55630cdc076b6f6cd999f0de2ce5",
+      "candidate": {
+        "detailsJudgement": "Underscore bar and А counters render cleanly at 240px on both themes; square corners sharp; no artifacts after conversion.",
+        "faithful": true,
+        "iconHash": "64b6ed24fae72289f0ba9f839e8ee0e2bce264dbfc50a8aa749091df2bbf4052",
+        "path": "evidence/3/candidate-64b6ed24fae72289f0ba9f839e8ee0e2bce264dbfc50a8aa749091df2bbf4052.svg",
+        "proportionsJudgement": "Glyph occupies slightly less of the square than in the official 368px icon (accepted glyph geometry preserved verbatim); composition, alignment and margins read correctly and match the documented red-square mark.",
+        "rationale": "Update backing composition to the bank's documented current red-square app mark while preserving the exact accepted glyph geometry.",
+        "role": "app mark: full-bleed red square with white А+underscore monogram, no lettering",
+        "sha256": "64b6ed24fae72289f0ba9f839e8ee0e2bce264dbfc50a8aa749091df2bbf4052",
+        "sourceAssetUrl": "https://static.rustore.ru/afb07f02-5399-4f45-a366-e49a7b3420ad",
+        "sourceUrl": "https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android",
+        "transforms": [
+          "Backing replaced: accepted red circle (r=27, #ee3424) removed; full-bleed 54x54 rect added with #ef3124 sampled from the official 368px app icon PNG (corner pixel 239,49,36).",
+          "White А+underscore glyph paths copied byte-identically from the accepted SVG; no scaling, repositioning or geometry edits.",
+          "SVGO 4.1.0 (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 721 -> 682 bytes; working vs optimized rsvg reference renders pixel-identical (identical SHA-256); optimized selected."
+        ],
+        "variant": "standalone monogram on full-bleed red square (#EF3124), matching АО «Альфа-Банк»'s current official app icon",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is the А+underscore mark on a red circle; candidate is the same mark on a full-bleed red square — the composition of the bank's current official app icon (visible in the bound before/after pairs on both themes)."
+      },
+      "candidateIconHash": "64b6ed24fae72289f0ba9f839e8ee0e2bce264dbfc50a8aa749091df2bbf4052",
+      "checkedAt": "2026-10-01T16:30:17.479958Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "495b2f092365ec63023a87fcb42c175e9d03f6376f171a0056ba15be22a163e1",
+        "head": "bank-icons-3",
+        "headCommit": "de214223b067a15f3674c038ff266537dc3551ae",
+        "number": 1,
+        "observedAt": "2026-10-01T16:42:22.820468Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Альфа-Банк (Company.id 3)",
+        "url": "https://github.com/zenmoney/banks/pull/1"
+      },
+      "reason": "Found the current official standalone app icon of Альфа-Банк: full-bleed red square (#EF3124) with white 'А' + underscore, from the bank's own RuStore listing of ru.alfabank.mobile.android, verified visually 2026-10-01. The accepted SVG shows the same А+underscore mark on a red circle — an outdated composition vs the documented red-square brand mark. Candidate asset is raster only (368x368 PNG); no official vector was retrievable (brandbook PDF exceeds the 16 MiB helper cap; alfabank.ru asset pages HTTP 403).",
+      "reviewPackage": {
+        "path": "evidence/3/candidate-fef1cc8e68fc33cdfd7bd0c04c9bc6f8831e3607a4516c1ef24443af5cf4a5ff.json",
+        "sha256": "fef1cc8e68fc33cdfd7bd0c04c9bc6f8831e3607a4516c1ef24443af5cf4a5ff"
+      },
+      "sourceCandidate": {
+        "iconHash": "66f692610918f12caf7fac6b1509e3ffd4c72a0ca87c7f8e383f989fb1a28620",
+        "path": "evidence/3/research-0065f96ab17749d8bb43be36ed697171/fetch-57620afd535a402e8362322f9b7b69c0/attempt-1/body.bin",
+        "rationale": "Current official app icon: documented red-square brand composition (А+underscore monogram, #EF3124) replacing the outdated red-circle backing in the accepted icon while preserving the same evidenced glyph design.",
+        "retrieval": {
+          "path": "evidence/3/research-0065f96ab17749d8bb43be36ed697171/fetch-57620afd535a402e8362322f9b7b69c0/receipt.json",
+          "sha256": "5bb7491dee197513b03865e46e807983664207b6f3f2c44e6f180e3dcbf78b38"
+        },
+        "sourceAssetUrl": "https://static.rustore.ru/afb07f02-5399-4f45-a366-e49a7b3420ad",
+        "sourceUrl": "https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://static.rustore.ru/afb07f02-5399-4f45-a366-e49a7b3420ad",
+          "checkedAt": "2026-10-01T16:22:00Z",
+          "independenceGroup": "official publisher listing (АО «Альфа-Банк»)",
+          "kind": "official",
+          "observation": "368x368 PNG app icon from АО «Альфа-Банк»'s own RuStore developer account: white А + underscore on full-bleed red square, monogram only, no wordmark or slogan. Observed live 2026-10-01; receipt evidence/3/research-0065f96ab17749d8bb43be36ed697171/fetch-57620afd535a402e8362322f9b7b69c0/.",
+          "url": "https://www.rustore.ru/catalog/app/ru.alfabank.mobile.android"
+        },
+        {
+          "assetUrl": "https://alfabank.ru/favicon.ico",
+          "checkedAt": "2026-10-01T16:22:00Z",
+          "independenceGroup": "official site of АО «Альфа-Банк»",
+          "kind": "official",
+          "observation": "Official favicon 32x32 transparent: red А + underscore (same mark, small raster). Main-site pages returned HTTP 403 bot protection (TLS verified, packaged-CA retry used); receipt evidence/3/research-0065f96ab17749d8bb43be36ed697171/.",
+          "url": "https://alfabank.ru/favicon.ico"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T16:22:00Z",
+          "independenceGroup": "Wikimedia Commons",
+          "kind": "third-party",
+          "observation": "2015 public-domain full logo (#ee2a23) confirms the А+underscore mark geometry and red color; rejected as replacement (includes wordmark).",
+          "url": "https://commons.wikimedia.org/wiki/File:Alfa-Bank.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T16:22:00Z",
+          "independenceGroup": "zenmoney/ZenPlugins search",
+          "kind": "zenplugins-issue",
+          "observation": "11 results (HTTP 200, open+closed), all sync/plugin topics (notably #1169 open, alfabank-by); none about the icon/logo.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T16:22:00Z",
+          "independenceGroup": "zenmoney/ZenPlugins search",
+          "kind": "zenplugins-pr",
+          "observation": "0 results (HTTP 200), including closed.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T16:34:12.099170Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "64b6ed24fae72289f0ba9f839e8ee0e2bce264dbfc50a8aa749091df2bbf4052",
+        "xmlSha256": "1b45f54c28c06518543cac097224d996d023f5fdc7bc0c1a589be87bdd9cd77d"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
