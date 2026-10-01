@@ -1,0 +1,83 @@
+{
+  "lastAttemptAt": "2026-10-01T20:25:49.809139Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Live mkb.ru/ir.mkb.ru (2026-10-01) use the gradient circle mark; no rebrand found.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched mkb.ru apple-touch-icon shows the identical white angular monogram as the accepted baseline; same bank mkb.ru.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two separate official mkb.ru properties (touch icon and IR header logo) plus absence of rebrand reports; ZenPlugins searches empty.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone circle-only variant is published as the official touch icon; ir.mkb.ru symbol part matches.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "b1fdf2c1b0ac514504a677502d0dc34305707c94f1eeabe12945a823f20659ac",
+      "candidate": {
+        "iconHash": "0b4811cca24a33ceea4c588ca4730b70542083c69fe688c9c1194ee8ba031f83",
+        "path": "evidence/4713/research-4fe32215f5c24a2ca1518febd5008889/fetch-d0a91a7e60504bc680d50835a3395e66/attempt-2/body.bin",
+        "rationale": "Documented current color treatment (red→orange→teal gradient circle) for the unchanged monogram geometry; official mkb.ru asset. Vector reconstruction planned from baseline geometry with gradient fill because the only public asset is raster.",
+        "retrieval": {
+          "path": "evidence/4713/research-4fe32215f5c24a2ca1518febd5008889/fetch-d0a91a7e60504bc680d50835a3395e66/receipt.json",
+          "sha256": "a5a59f62e484e9707f130294b725e69a25b0165d74aeaa676087ac94d60c3488"
+        },
+        "sourceAssetUrl": "https://mkb.ru/apple-touch-icon.png",
+        "sourceUrl": "https://mkb.ru/apple-touch-icon.png"
+      },
+      "candidateIconHash": "0b4811cca24a33ceea4c588ca4730b70542083c69fe688c9c1194ee8ba031f83",
+      "checkedAt": "2026-10-01T20:25:49.809139Z",
+      "reason": "Current МКБ mark keeps the accepted baseline's exact white angular monogram geometry but the circle fill changed from solid dark-red to the current red→orange→teal diagonal gradient, served by mkb.ru as its official apple-touch-icon and used on ir.mkb.ru. The baseline predates this color treatment.",
+      "sources": [
+        {
+          "assetUrl": "https://mkb.ru/apple-touch-icon.png",
+          "checkedAt": "2026-10-01T20:25:49Z",
+          "independenceGroup": "mkb.ru-assets",
+          "kind": "official",
+          "observation": "180x180 PNG: standalone gradient circle (red→orange→teal) with the same white angular МКБ monogram as the accepted baseline; served as mkb.ru's official touch icon.",
+          "url": "https://mkb.ru/apple-touch-icon.png"
+        },
+        {
+          "assetUrl": "https://ir.mkb.ru/Content/i/logo-new.png",
+          "checkedAt": "2026-10-01T20:25:49Z",
+          "independenceGroup": "mkb.ru-assets",
+          "kind": "official",
+          "observation": "Header logo uses the same gradient circle symbol plus 'МКБ' wordmark; symbol-only part matches. Wordmark lockup rejected as candidate asset.",
+          "url": "https://ir.mkb.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:25:49Z",
+          "independenceGroup": "wikipedia",
+          "kind": "third-party",
+          "observation": "No news of any post-gradient rebrand; monogram geometry unchanged. Operating brand confirmed.",
+          "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BD%D1%8B%D0%B9_%D0%B1%D0%B0%D0%BD%D0%BA"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:25:49Z",
+          "independenceGroup": "zenplugins-search",
+          "kind": "zenplugins-issue",
+          "observation": "total_count 0 including closed.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%9A%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BD%D1%8B%D0%B9+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:25:49Z",
+          "independenceGroup": "zenplugins-search",
+          "kind": "zenplugins-pr",
+          "observation": "total_count 0 including closed.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%9A%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BD%D1%8B%D0%B9+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
