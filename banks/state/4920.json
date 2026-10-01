@@ -1,0 +1,136 @@
+{
+  "lastAttemptAt": "2026-10-01T23:35:11.861339Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4920/assessed-81bdfcce38cbba95c2a337e40b02338a322036b6ff1a8dc980454901ce47e3ad.json",
+        "sha256": "81bdfcce38cbba95c2a337e40b02338a322036b6ff1a8dc980454901ce47e3ad"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official homepage and live marketplace use the pale-gold rounded-square white-dot mark. Regulator confirms operating lifecycle; no successor substitution.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official website, regulator and independently labelled marketplace asset identify the same operating Russian bank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site is primary design evidence; regulator independently establishes identity/lifecycle; marketplace independently deploys standalone vector matching primary source.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone eleven-dot hourglass on source-supported rounded-square backing fits square cell without lettering. Preserve downloaded SVG geometry and colors.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/f6467db496050c0929349f0f125c90462dd2f243fa0a1aed5d31e0620613874c.json",
+        "sha256": "f6467db496050c0929349f0f125c90462dd2f243fa0a1aed5d31e0620613874c"
+      },
+      "baseIconHash": "0834c207f87b7b72418499103c22b2715fa65ca89cf27f81e4261e88a5132764",
+      "candidate": {
+        "detailsJudgement": "Full source and source/final pairs preserve eleven circular dots in 3-2-1-2-3 rows, spacing, smooth backing corners and pale-gold color.",
+        "faithful": true,
+        "iconHash": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f",
+        "path": "evidence/4920/candidate-5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f.svg",
+        "proportionsJudgement": "Source and final retain square viewport, dot scale and positioning; both themes show proportional centered marks without stretch or clipping.",
+        "rationale": "Current official artwork and independently distributed original vector support replacing the darker circular backing with the pale-gold rounded-square mark.",
+        "role": "standalone symbol",
+        "sha256": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f",
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-040507803.svg",
+        "sourceUrl": "https://finuslugi.ru/banki/primsocbank",
+        "transforms": [
+          "Preserved downloaded standalone vector geometry, viewport and backing; no crop, tracing or recoloring.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 2580 to 1985 bytes; faithful optimized result selected after independent working/trial inspection."
+        ],
+        "variant": "Eleven white dots on source-supported pale-gold rounded-square backing",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted darker circular backing becomes the current paler rounded square; the white-dot layout follows the source. Visible in both exact before/after pairs."
+      },
+      "candidateIconHash": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f",
+      "checkedAt": "2026-10-01T23:35:11.861339Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "1d18f1f68e7aaac27d7e7f4c6efacec03c69ad9bdb608ccd8189ef4123f8473a",
+        "head": "bank-icon-maintenance-4920",
+        "headCommit": "1f9e80ac65e23c5aa9bcf6c95809bae9b1a302de",
+        "number": 15,
+        "observedAt": "2026-10-01T23:43:51.923511Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: СКБ Приморья \"Примсоцбанк\" (Company.id 4920)",
+        "url": "https://github.com/zenmoney/banks/pull/15"
+      },
+      "reason": "Current official Примсоцбанк logo has a pale-gold rounded-square backing and eleven-white-dot hourglass. Accepted SVG has a darker #B49F65 circular backing. Finuslugi distributes an original standalone SVG with current rounded-square design, supporting a visible correction.",
+      "reviewPackage": {
+        "path": "evidence/4920/candidate-4a7cbb5739aeb02db853f668446e69a89ffd913eb800e76e84019bdfcd57d438.json",
+        "sha256": "4a7cbb5739aeb02db853f668446e69a89ffd913eb800e76e84019bdfcd57d438"
+      },
+      "sourceCandidate": {
+        "iconHash": "bc5c0b065b26c50bd3692b3abaa65b09689bb36e7f16f7e723f2584f40ebba02",
+        "path": "evidence/4920/research-915a341a7e2b4dc0a44fcc0cfa254103/fetch-ad10a73491fc4ae1b4e0cac44d29827b/attempt-1/body.bin",
+        "rationale": "Replace unsupported darker circular backing with current pale-gold rounded-square design using actual source SVG. Compact smooth authored-vector curves without embedded raster or trace-like noise and independently matching official artwork support original-vector provenance. No tracing or redrawing.",
+        "retrieval": {
+          "path": "evidence/4920/research-915a341a7e2b4dc0a44fcc0cfa254103/fetch-ad10a73491fc4ae1b4e0cac44d29827b/receipt.json",
+          "sha256": "faa1bfbfa30ca939cd102d31ddd8cd70fcfa79780afde3d9baf0598a78a4c67f"
+        },
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-040507803.svg",
+        "sourceUrl": "https://finuslugi.ru/banki/primsocbank"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://pskb.com/images/interface/pskb-new-logo.png",
+          "checkedAt": "2026-10-01T23:31:13Z",
+          "independenceGroup": "bank official website",
+          "kind": "official",
+          "observation": "Live homepage main_logo identifies Примсоцбанк. Downloaded asset is JPEG despite PNG URL. Inspected original and decoded research PNG: white dots in 3-2-1-2-3 hourglass rows on pale-gold rounded-square backing beside black wordmark. Full lockup rejected as icon; standalone mark suitable.",
+          "url": "https://pskb.com/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T23:31:13Z",
+          "independenceGroup": "Bank of Russia",
+          "kind": "third-party",
+          "observation": "Regulator lists ПАО СКБ Приморья «Примсоцбанк», Действует, bank with universal licence, and pskb.com official domain.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1022500001061"
+        },
+        {
+          "assetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-040507803.svg",
+          "checkedAt": "2026-10-01T23:31:13Z",
+          "independenceGroup": "Finuslugi marketplace",
+          "kind": "third-party",
+          "observation": "Profile explicitly labels this SVG Логотип Примсоцбанк, matching bank name, telephone and Vladivostok address. Downloaded 40x40 SVG contains compact smooth vector paths, #BEA980 rounded-square backing and white eleven-dot hourglass; no raster or trace-like contour noise. Inspected independent librsvg PNG: clean dots and source-supported rounded-square design matches official artwork. Authored vector brandmark distributed by financial marketplace, not locally reconstructed from raster.",
+          "url": "https://finuslugi.ru/banki/primsocbank"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T23:31:13Z",
+          "independenceGroup": "ZenPlugins",
+          "kind": "zenplugins-issue",
+          "observation": "Exact required query repo:zenmoney/ZenPlugins \"СКБ Приморья \"Примсоцбанк\"\" is:issue searched all states; total_count 0, incomplete_results false, empty items. Not currency confirmation.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A1%D0%9A%D0%91+%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D1%8F+%22%D0%9F%D1%80%D0%B8%D0%BC%D1%81%D0%BE%D1%86%D0%B1%D0%B0%D0%BD%D0%BA%22%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T23:31:13Z",
+          "independenceGroup": "ZenPlugins",
+          "kind": "zenplugins-pr",
+          "observation": "Exact required query repo:zenmoney/ZenPlugins \"СКБ Приморья \"Примсоцбанк\"\" is:pr searched all states; total_count 0, incomplete_results false, empty items. Not currency confirmation.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A1%D0%9A%D0%91+%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D1%8F+%22%D0%9F%D1%80%D0%B8%D0%BC%D1%81%D0%BE%D1%86%D0%B1%D0%B0%D0%BD%D0%BA%22%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T23:37:55.871376Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f",
+        "xmlSha256": "097cb6e53694271413d1a41618223abe45ca0a71615fc1b94eec9fa6b288f36f"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
