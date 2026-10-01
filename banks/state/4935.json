@@ -1,0 +1,128 @@
+{
+  "lastAttemptAt": "2026-10-01T23:37:22.031507Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4935/assessed-900fe1a2fea69dec872ea2b23d7b7de5206a0a51cd00ea884812b5c691aec7d1.json",
+        "sha256": "900fe1a2fea69dec872ea2b23d7b7de5206a0a51cd00ea884812b5c691aec7d1"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official brand-system modal and currently maintained Banki.ru page agree on black emblem / lime-or-white variant; no successor substitution.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official otpbank.ru identifies Russian АО «ОТП Банк»; independent Banki.ru labels exact regional brand and asset.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official bank brand guidance and independent Banki.ru banking catalog are separate publications, agree visually on the exact black emblem. ZenPlugins searches are issue evidence, not independent brand corroboration.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Three-part circular emblem remains standalone-identifiable; black color is explicitly in both official variants. Original SVG separates emblem from accompanying wordmark; square adaptation can preserve emblem paths without tracing.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/a0c5f5c3d5ba5335e0360c27f9395102864c4d77e4597efa70cc8b2fdee6b28f.json",
+        "sha256": "a0c5f5c3d5ba5335e0360c27f9395102864c4d77e4597efa70cc8b2fdee6b28f"
+      },
+      "baseIconHash": "6c76d4c022ee331d96b4a5bdf8db3245f2741bd4e9abf3b820588a0cc18f5144",
+      "candidate": {
+        "detailsJudgement": "Full original raster and source/final pairs preserve open ring, central disk, satellite dot and lime color. Small separate wordmark fragment at right edge of reference crop is intentionally absent from final; emblem unchanged.",
+        "faithful": true,
+        "iconHash": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511",
+        "path": "evidence/4935/candidate-26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511.svg",
+        "proportionsJudgement": "Original emblem proportions and clearances remain intact; source reference crop and final align except raster rounding and removal of separate wordmark. Centered square adaptation preserves backing, without stretching or emblem clipping.",
+        "rationale": "Current official brand guidance and independently distributed original vector support black emblem on lime rather than accepted dark-green and lime transparent mark.",
+        "role": "standalone symbol",
+        "sha256": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511",
+        "sourceAssetUrl": "https://cdn.banki.ru/cdn/bank/16196_modern_logo_url.svg",
+        "sourceUrl": "https://www.banki.ru/services/responses/bank/otpbank/",
+        "transforms": [
+          "Extracted original backing and three emblem paths; removed separate wordmark and unused clip definitions. Square viewport 3.1672 12.2702 48 48 centered on original emblem clips only existing lime backing. No tracing, recoloring or changed emblem geometry.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 1020 to 808 bytes; faithful optimized trial selected after independent working/trial inspection."
+        ],
+        "variant": "Original black emblem on existing lime backing, square extraction; not a separately documented official app tile",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted dark-green ring and satellite with lime central disk become current black emblem on source-supported lime square. Both exact before/after pairs show the current color variant and improved dark-theme contrast."
+      },
+      "candidateIconHash": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511",
+      "checkedAt": "2026-10-01T23:37:22.031507Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "a80eec6b3137b82e2d3bbb692dd2d9730abde38e9d8b4971465f35d4f56549e5",
+        "head": "bank-icon-maintenance-4935",
+        "headCommit": "020b6de60cc0a50ef848e41c9a658362c8fb1971",
+        "number": 16,
+        "observedAt": "2026-10-01T23:47:19.597409Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ОТП Банк (Company.id 4935)",
+        "url": "https://github.com/zenmoney/banks/pull/16"
+      },
+      "reason": "Accepted standalone mark uses dark-green outer ring and satellite dot, lime central disk. Current official Russian brand page instead shows all-black emblem on lime or white; independent Banki.ru vector matches this current variant. Propose source-preserving extraction of standalone black emblem from genuine vector, not the accompanying wordmark.",
+      "reviewPackage": {
+        "path": "evidence/4935/candidate-1c4f2352a49f9381a5eca373e4e874013c24ed4754438fd9afceda29a0a8f433.json",
+        "sha256": "1c4f2352a49f9381a5eca373e4e874013c24ed4754438fd9afceda29a0a8f433"
+      },
+      "sourceCandidate": {
+        "iconHash": "a1fded1501d1adafbfa942b543841d76e8d9048f356558f36fc9f6dd6beea8ad",
+        "path": "evidence/4935/research-9b6a13960a0f483a9d21827583ff9cfb/fetch-0b8c8a4ba390409d9d6be82deaf72c80/attempt-1/body.bin",
+        "rationale": "Banki.ru retained original SVG uses clean native vector geometry, corroborated visually by official current brand-owner logo variants. Select only three emblem paths (ring, center, satellite); exclude all separate wordmark paths. Preserve lime backing if choosing that variant; official white variant independently supports black-on-white selection. This is vector extraction, not raster tracing.",
+        "retrieval": {
+          "path": "evidence/4935/research-9b6a13960a0f483a9d21827583ff9cfb/fetch-0b8c8a4ba390409d9d6be82deaf72c80/receipt.json",
+          "sha256": "6a8d62aa454475b03f8a258de864d82a51dfd09e5618ee76d2cfc554741a0065"
+        },
+        "sourceAssetUrl": "https://cdn.banki.ru/cdn/bank/16196_modern_logo_url.svg",
+        "sourceUrl": "https://www.banki.ru/services/responses/bank/otpbank/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.otpbank.ru/about/press-centr/logos/file/logo.svg",
+          "checkedAt": "2026-10-01T23:31:39Z",
+          "independenceGroup": "otpbank.ru current brand owner",
+          "kind": "official",
+          "observation": "Headless live page identifies legal name АО «ОТП Банк» and brand ОТП Банк. Opened Логотип modal: current variants are black circular emblem plus black wordmark on lime and on white. Official screenshot and accessibility snapshot retained. HTTP workflow retrieval of downloadable SVG returned 403; browser visual observation succeeded.",
+          "url": "https://www.otpbank.ru/about/press-centr/logos/"
+        },
+        {
+          "assetUrl": "https://cdn.banki.ru/cdn/bank/16196_modern_logo_url.svg",
+          "checkedAt": "2026-10-01T23:31:39Z",
+          "independenceGroup": "Banki.ru independent banking catalog",
+          "kind": "third-party",
+          "observation": "Current Banki.ru page labels SVG ОТП Банк and contains September 2026 customer reports. Retained SVG contains clean separate geometric vector paths for black emblem and wordmark on #C1FF05 backing. Render inspected using read: same black emblem and lime lockup as official current brand modal. Emblem comprises three separate paths, not a raster embed or apparent tracing.",
+          "url": "https://www.banki.ru/services/responses/bank/otpbank/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T23:31:39Z",
+          "independenceGroup": "ZenPlugins GitHub search",
+          "kind": "zenplugins-issue",
+          "observation": "All-state exact query returned total_count 0, incomplete_results false; no matching issue results.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9E%D0%A2%D0%9F+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T23:31:39Z",
+          "independenceGroup": "ZenPlugins GitHub search",
+          "kind": "zenplugins-pr",
+          "observation": "All-state exact query returned total_count 0, incomplete_results false; no matching pr results.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9E%D0%A2%D0%9F+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T23:41:08.474827Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511",
+        "xmlSha256": "6f2c77efdd41156ca1c7878c76120a7e32a0d2e4c1b5b5de8bacbd84ee629679"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
