@@ -1,0 +1,146 @@
+{
+  "lastAttemptAt": "2026-10-01T20:27:08.935711Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4761/assessed-07fcbb1cebfd87a2f2cb487b7d493a68654d1cc1c525a585996050e7ed63b275.json",
+        "sha256": "07fcbb1cebfd87a2f2cb487b7d493a68654d1cc1c525a585996050e7ed63b275"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "For this historical record, currency means the final independent brand period (2020 design until the 2025-01-01 merger); dated press coverage and the open.ru-sourced 2020 lockup support it.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Commons Otkritie_Bank_logo.svg (sourced from open.ru) emblem is the '(' ')' arcs mark of Банк «Открытие», the record's brand; successor VTB mark explicitly NOT used.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "open.ru-sourced Commons lockup, VTB official client page, Interfax and Bosfera press coverage independently establish period and design; ZenPlugins searches show no competing icon work.",
+        "uncertainties": [
+          "Direct fetch of open.ru/vtb.ru blocked by TLS interception in this environment; period and merger established via multiple independent sources."
+        ],
+        "variant": {
+          "basis": "Emblem-only variant (disc + arcs, no wordmark) is a faithful crop of the final-period lockup; standalone circle asset does not exist separately.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3df58e06a7adb12e9f81504af3141dcc85fba4c8ecb012fad328c9b41195222e.json",
+        "sha256": "3df58e06a7adb12e9f81504af3141dcc85fba4c8ecb012fad328c9b41195222e"
+      },
+      "baseIconHash": "d5da05b0e5cd89c6e3fb2a6034ed5d12a3ab4e04d634e34198c326276afb1396",
+      "candidate": {
+        "detailsJudgement": "Disc geometry, arc cutout shapes and color identical to the lockup emblem; transparent cutouts preserved so the background shows through as in the source design.",
+        "faithful": true,
+        "iconHash": "11f57a281f898deeed1c48c26c7b03ff33af7d3b42383dbf77770cc00c9731cb",
+        "path": "evidence/4761/candidate-11f57a281f898deeed1c48c26c7b03ff33af7d3b42383dbf77770cc00c9731cb.svg",
+        "proportionsJudgement": "44x44 emblem viewBox preserved 1:1 from the lockup's emblem region.",
+        "rationale": "Replace the older lighter-blue/white-ring variant with the record's final independent-period (2020) emblem: cyan disc with arc cutouts, per the open.ru-sourced lockup.",
+        "role": "standalone brand emblem (app mark)",
+        "sha256": "11f57a281f898deeed1c48c26c7b03ff33af7d3b42383dbf77770cc00c9731cb",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otkritie_Bank_logo.svg",
+        "transforms": [
+          "Extracted the emblem disc path (with its two cutout subpaths) from the observed 280x44 lockup; wordmark and divider omitted; fill #02BAE8 unchanged",
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), 737→675 bytes, optimized output selected"
+        ],
+        "variant": "cyan disc with two transparent arc cutouts, no wordmark",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Disc color lightens from #4AB9E4 to the final-period #02BAE8 and the white inner ring/oval is removed, matching the 2020 open.ru design; on dark themes the cutouts show the background, as the transparent source design does."
+      },
+      "candidateIconHash": "11f57a281f898deeed1c48c26c7b03ff33af7d3b42383dbf77770cc00c9731cb",
+      "checkedAt": "2026-10-01T20:27:08.935711Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "96809331d325835fc96b1933679050601c24728ff5b3240f43c38d5f67088561",
+        "head": "bank-icon-maintenance/4761",
+        "headCommit": "1adc917f08eb01abc24e4fc01edbbbf993a7b22e",
+        "number": 9,
+        "observedAt": "2026-10-01T20:47:51.865736Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Открытие\" (Company.id 4761)",
+        "url": "https://github.com/zenmoney/banks/pull/9"
+      },
+      "reason": "The record's final independent-period (until 2025-01-01 merger into БМ Банк/VTB) Otkritie mark is the 2020 design: cyan #02BAE8 disc with dark navy #1F232B '(' ')' arcs and no white ring. The accepted baseline uses a lighter blue #4AB9E4 disc, white arcs, and an extra white oval ring — an older variant not matching the final brand period.",
+      "reviewPackage": {
+        "path": "evidence/4761/candidate-76a6bad58b0e33a1aa86635040ea80fad61edcee37a4c9285738ab0dc710aea0.json",
+        "sha256": "76a6bad58b0e33a1aa86635040ea80fad61edcee37a4c9285738ab0dc710aea0"
+      },
+      "sourceCandidate": {
+        "iconHash": "9bb92c2fbfd2188bbdec5d91886093f8ee5b593b77c82b69e0a3bcff7e19b459",
+        "path": "evidence/4761/research-c3fc3042cea4441e8172152318f8a49f/fetch-5da035077faa45098f1cb29375a2d958/attempt-1/body.bin",
+        "rationale": "Final independent-period (2020) emblem design for this historical record: cyan disc with dark navy arcs, replacing the older lighter-blue/white-ring variant in the accepted baseline.",
+        "retrieval": {
+          "path": "evidence/4761/research-c3fc3042cea4441e8172152318f8a49f/fetch-5da035077faa45098f1cb29375a2d958/receipt.json",
+          "sha256": "a96d6ba7cbae216c2e447e04e70a8fe2de42c12bf0ae317896bf4ea1c17b2b0c"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otkritie_Bank_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg",
+          "checkedAt": "2026-10-01T20:27:08Z",
+          "independenceGroup": "wikimedia-openru",
+          "kind": "third-party",
+          "observation": "Final-period (2020 design, sourced from open.ru, uploaded 2024-01-11) RU lockup: cyan #02BAE8 circle emblem with dark #1F232B '(' ')' arcs, no white ring, plus 'Открытие' wordmark. Emblem geometry confirmed by pixel inspection of the fetched SVG; disc cyan, arcs dark navy, center plain disc.",
+          "url": "https://commons.wikimedia.org/wiki/File:Otkritie_Bank_logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:27:08Z",
+          "independenceGroup": "interfax",
+          "kind": "third-party",
+          "observation": "VTB completed rebranding former Otkritie offices; Otkritie ceased as independent bank from 2025-01-01 (merged into БМ Банк). Establishes the record's final independent brand period.",
+          "url": "https://www.interfax.ru/business/1002133"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:27:08Z",
+          "independenceGroup": "bosfera",
+          "kind": "third-party",
+          "observation": "VTB group press release: Otkritie joined to БМ Банк completed.",
+          "url": "https://bosfera.ru/press-release/gruppa-vtb-zavershila-prisoedinenie-banka-otkrytie-k-bm-banku"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:23:13Z",
+          "independenceGroup": "vtb",
+          "kind": "official",
+          "observation": "Official VTB page for former БФКО clients: banks merged, service under VTB brand (snippet-verified; direct fetch blocked by TLS interception).",
+          "url": "https://www.vtb.ru/open/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:23:13Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-issue",
+          "observation": "total_count 2, both closed, neither icon-related (#251, #205).",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:23:13Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-pr",
+          "observation": "total_count 2, both closed (#715 incidental match, #160 openbank plugin, no icon discussion).",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T20:41:49.192983Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "11f57a281f898deeed1c48c26c7b03ff33af7d3b42383dbf77770cc00c9731cb",
+        "xmlSha256": "482bd342c26c78e0e8795ef90511ff881aaf41ad5c222c0410ce798689109ac5"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
