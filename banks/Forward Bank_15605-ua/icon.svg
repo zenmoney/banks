@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="54"
+     height="54">
+    <path
+            fill="#9f2743"
+            d="M4 4.391h45.217V49.61H4z"/>
+    <path
+            fill="#00bef5"
+            d="M23.217 1h2.487v52h-2.487z"/>
+    <path
+            fill="#ffdc41"
+            d="M27.513 1H30v52h-2.487z"/>
+</svg>

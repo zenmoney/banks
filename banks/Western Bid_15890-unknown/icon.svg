@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="54"
+     height="54">
+    <path
+            fill="url(#a)"
+            d="M54 13.5h-8.365a8 8 0 0 0-6.526 3.373L24.127 38l4.123 3h3.666a5 5 0 0 0 4.079-2.108z"/>
+    <path d="M17.408 38.049 0 13.5h9.4a6 6 0 0 1 4.894 2.53L32 41h-8.882a7 7 0 0 1-5.71-2.951m18 0L18 13.5h9.4a6 6 0 0 1 4.894 2.53L50 41h-8.882a7 7 0 0 1-5.71-2.951"/>
+    <defs>
+        <linearGradient
+                id="a"
+                x1="38"
+                x2="49"
+                y1="41"
+                y2="14"
+                gradientUnits="userSpaceOnUse">
+            <stop
+                    offset="0"
+                    stop-color="#00a380"/>
+            <stop
+                    offset="1"
+                    stop-color="#00ddad"/>
+        </linearGradient>
+    </defs>
+</svg>

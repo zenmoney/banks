@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="54"
+     height="54">
+    <path
+            fill="#009fdf"
+            d="M0 27a27 27 0 1 1 54 0 27 27 0 1 1-54 0"/>
+    <path
+            fill="#fffffe"
+            fill-rule="evenodd"
+            d="m18.697 17-1.675 4h23.216l1.675-4zm-2.595 7-1.482 4h23.216l1.483-4zm-2.427 7L12 35h23.216l1.675-4z"/>
+</svg>

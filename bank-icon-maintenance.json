@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "recheckAfterDays": 90,
+  "retryUnconfirmedAfterDays": 30,
+  "retryErrorAfterDays": 7,
+  "selectionLimit": 5
+}

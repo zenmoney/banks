@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="54"
+     height="54">
+    <path
+            fill="url(#a)"
+            d="M0 27a27 27 0 1 1 54 0 27 27 0 1 1-54 0"/>
+    <path
+            fill="#fff"
+            d="M34.2 34.2V39H39v-4.8zm-9.6 0h4.8V39h-4.8zM19.8 15H15v9.6h4.8v4.8H15V39h4.8v-4.8h4.8v-4.8h4.8v-4.8h-4.8v-4.8h-4.8z"/>
+    <path
+            fill="#fff"
+            d="M29.4 29.4v4.8h4.8v-4.8z"/>
+    <path
+            fill="#fff"
+            d="M34.2 19.8V15h-9.6v4.8h4.8v4.8h4.8v4.8H39v-9.6z"/>
+    <defs>
+        <linearGradient
+                id="a"
+                x1="13.018"
+                x2="37.607"
+                y1="0"
+                y2="51.107"
+                gradientUnits="userSpaceOnUse">
+            <stop
+                    offset="0"
+                    stop-color="#466dc1"/>
+            <stop
+                    offset="1"
+                    stop-color="#324f91"/>
+        </linearGradient>
+    </defs>
+</svg>
