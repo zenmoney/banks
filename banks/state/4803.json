@@ -1,0 +1,143 @@
+{
+  "lastAttemptAt": "2026-10-01T21:33:31.442549Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4803/assessed-6650d60bf3d733c7fc81ed9b0e09541496fef6cf7db5c95ed96ab05eb300faff.json",
+        "sha256": "6650d60bf3d733c7fc81ed9b0e09541496fef6cf7db5c95ed96ab05eb300faff"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live assets fetched from blanc.ru origin 2026-10-01 (HTTP 200); homepage references recovered from 2026-07-07 Wayback snapshot because the HTML is behind Yandex SmartCaptcha.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Open-ring C mark on official blanc.ru favicon assets matches the record Blanc (blanc.ru); same motif as baseline.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two official asset formats served from the bank origin plus an independent Wayback snapshot referencing them.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current variant is the squircle tile with the C cutout (apple-touch-icon.png 180x180 and safari-pinned-tab.svg). Baseline uses a circular container; container difference is the update reason.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/a7dfbd9f18b1df05248f39f6e7784a5d965349b85860078169c1dcdcdd7281c4.json",
+        "sha256": "a7dfbd9f18b1df05248f39f6e7784a5d965349b85860078169c1dcdcdd7281c4"
+      },
+      "baseIconHash": "eb9391825659f7832b56af8c570a66a5bfcde4d14011a88c43403ac672d89888",
+      "candidate": {
+        "detailsJudgement": "Single official path; C ring terminals and squircle corner radii preserved from the official vector; renders cleanly on both themes.",
+        "faithful": true,
+        "iconHash": "9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63",
+        "path": "evidence/4803/candidate-9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63.svg",
+        "proportionsJudgement": "Squircle fills the square cell edge-to-edge; C ring centered, matches source proportions.",
+        "rationale": "Current official blanc.ru mark is a black squircle with the white open-ring C cutout; the accepted icon uses the older circular container for the same mark. Supported container update to the current official design.",
+        "role": "standalone brand mark (app/favicon tile)",
+        "sha256": "9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63",
+        "sourceAssetUrl": "https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg",
+        "sourceUrl": "https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg",
+        "transforms": [
+          "Official monochrome vector used as the working SVG with no geometry changes; SVGO trial with repo svgo.config.mjs (sha256 f2a406e0…): 1035 -> 1019 bytes, optimized selected (visually identical on light/dark, smaller)."
+        ],
+        "variant": "black squircle tile, monochrome open-ring C cutout",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted circular container replaced by the current official squircle container for the same open-ring C mark."
+      },
+      "candidateIconHash": "9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63",
+      "checkedAt": "2026-10-01T21:33:31.442549Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "67794ec8be17097f20d396d788e79111722e4ce2af229e634593dfc0073ebbdd",
+        "head": "bank-icon-maintenance/bank-icon-4803",
+        "headCommit": "5b5b0957a476a8bddc119f582ad59691409cbad6",
+        "number": 12,
+        "observedAt": "2026-10-01T21:49:01.246986Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Бланк (Company.id 4803)",
+        "url": "https://github.com/zenmoney/banks/pull/12"
+      },
+      "reason": "Live official blanc.ru assets show the current brand mark as a black squircle with a white open-ring C cutout; the accepted baseline is a black circle with a white open-ring C. Same mark motif, current official container is a squircle — supported current design update. Vector official favicon (safari-pinned-tab.svg, single path) selected as source asset; visual comparison of renders is the next stage.",
+      "reviewPackage": {
+        "path": "evidence/4803/candidate-b14659bc2a5a460d107909314e4d1a183651bb35300f95b913d8b55df2b5c678.json",
+        "sha256": "b14659bc2a5a460d107909314e4d1a183651bb35300f95b913d8b55df2b5c678"
+      },
+      "sourceCandidate": {
+        "iconHash": "726a90066a2687a13b40299de71c4d663c412caf3805436c85e450170c2f1d10",
+        "path": "evidence/4803/research-1b4253abfe574becb31859450bee3b9b/fetch-5c57df29662d4613959092a52ef1742b/attempt-1/body.bin",
+        "rationale": "Official monochrome vector of the current squircle+C mark; exact official bytes recovered through the gzip transfer layer and bound by source-material.",
+        "retrieval": {
+          "path": "evidence/4803/research-1b4253abfe574becb31859450bee3b9b/fetch-5c57df29662d4613959092a52ef1742b/receipt.json",
+          "sha256": "522bec700243c474b6152d6682e0b7ab55dc22d7e6b425738023226a2c7d797b"
+        },
+        "sourceAssetUrl": "https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg",
+        "sourceMaterial": {
+          "path": "evidence/4803/source-material-03fa4c8cdbd443fc93c586f28a469776/material.json",
+          "sha256": "135518e451a5eed451352012b95f852c7cc097d90eadc2b564cb46cfd268f8e2"
+        },
+        "sourceUrl": "https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://blanc.ru/assets/img/favicon/apple-touch-icon.png",
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "blanc.ru-favicon",
+          "kind": "official",
+          "observation": "Live fetch HTTP 200 image/png (gzip on wire), 1342 bytes. 180x180 black rounded-square with white open-ring 'C' mark, no text. Confirmed visually from decoded PNG.",
+          "url": "https://blanc.ru/assets/img/favicon/apple-touch-icon.png"
+        },
+        {
+          "assetUrl": "https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg",
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "blanc.ru-favicon",
+          "kind": "official",
+          "observation": "Live fetch HTTP 200 image/svg+xml (gzip on wire), 583 bytes. Single-path monochrome SVG of squircle with open-ring 'C' cutout; rendered via rsvg-convert and visually confirmed.",
+          "url": "https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg"
+        },
+        {
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "wayback-blanc.ru",
+          "kind": "third-party",
+          "observation": "Wayback snapshot of blanc.ru (2026-07-07, HTTP 200) references apple-touch-icon.png, favicon-32x32.png, favicon-16x16.png and safari-pinned-tab.svg under /assets/img/favicon/ plus og:image /assets/img/open-graph/main.jpg. Same favicon paths used to locate the live origin assets.",
+          "url": "http://web.archive.org/web/20260707205139/https://blanc.ru/"
+        },
+        {
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "websearch",
+          "kind": "third-party",
+          "observation": "Search returned no direct SVG logo link; confirmed static.blanc.ru hosts only disclosure PDFs (nginx default page for unknown paths). No third-party SVG asset found; search-agents UI answer admitted no official SVG link. Banki.ru/cbr pages not further pursued once official favicon assets were secured.",
+          "url": "https://web_search: 'Blanc банк blanc.ru логотип SVG'"
+        },
+        {
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "zenplugins-search",
+          "kind": "zenplugins-issue",
+          "observation": "Query 'repo:zenmoney/ZenPlugins \"Бланк\" is:issue' returned total_count 0, no items (open and closed).",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%91%D0%BB%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "checkedAt": "2026-10-01T12:00:00Z",
+          "independenceGroup": "zenplugins-search",
+          "kind": "zenplugins-pr",
+          "observation": "Query 'repo:zenmoney/ZenPlugins \"Бланк\" is:pr' returned total_count 0, no items (open and closed).",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%91%D0%BB%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T21:44:04.562651Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63",
+        "xmlSha256": "e0c3f4fbae15842f1047e7f05767095c90608e35dc6affbbb5af512d6c109b14"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
