@@ -1,0 +1,136 @@
+{
+  "lastAttemptAt": "2026-10-01T20:24:18.540024Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4679/assessed-94c82f3e6dd13e2d514129678ecc557f4dfa03cb08d4045531cbff9adce8ad05.json",
+        "sha256": "94c82f3e6dd13e2d514129678ecc557f4dfa03cb08d4045531cbff9adce8ad05"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "atb.su live site (2026-10-01) uses the gradient sail mark as favicon and header logo; operating brand.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched atb.su favicon.svg sail glyph matches the sail in the header logo and the accepted baseline glyph; same bank atb.su.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official favicon and official header logo asset are separate publications of the same current design from the bank's own site; ZenPlugins searches returned no related issue/PR activity.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone containerless gradient sail is the variant published as the site icon; header symbol confirms gradient colors.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/57b6eec2aded8343215418f3ffddbf2550a715116bc6de5aedc8a80fb8c28969.json",
+        "sha256": "57b6eec2aded8343215418f3ffddbf2550a715116bc6de5aedc8a80fb8c28969"
+      },
+      "baseIconHash": "dc63847ecaceae4bdf86e6942590fee9ea1164bd5547ab89536449397f2353a7",
+      "candidate": {
+        "detailsJudgement": "Sail silhouette, gradient stops #F4711F→#ED4E27 and smooth falloff identical to source; no detail lost by mask removal or SVGO.",
+        "faithful": true,
+        "iconHash": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0",
+        "path": "evidence/4679/candidate-74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0.svg",
+        "proportionsJudgement": "32x32 viewBox preserved; sail fills the canvas identically to the source favicon.",
+        "rationale": "Replace the baseline inverted-colors rounded-square wrapper with the official standalone gradient sail mark as published on atb.su.",
+        "role": "standalone brand symbol (app mark)",
+        "sha256": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0",
+        "sourceAssetUrl": "https://www.atb.su/favicon.svg",
+        "sourceUrl": "https://www.atb.su/favicon.svg",
+        "transforms": [
+          "Removed the SVG alpha mask (full-canvas rect, a no-op) and the redundant luminance mask of the sail path itself; geometry and gradient unchanged",
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), 990→807 bytes, optimized output selected"
+        ],
+        "variant": "containerless gradient sail, transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted baseline draws the sail inside an orange rounded square with an inverted dark sail; the official current standalone mark is the bare gradient sail on transparency, so the rendered icons differ visibly by design."
+      },
+      "candidateIconHash": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0",
+      "checkedAt": "2026-10-01T20:24:18.540024Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "119c217b249101f1e2f92d02cab92df846977bb55c96d6342588f710d662590a",
+        "head": "bank-icon-maintenance/4679",
+        "headCommit": "a0d150a1379c117b1d683049bcc4dc35066416b2",
+        "number": 8,
+        "observedAt": "2026-10-01T20:46:28.159187Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АТБ (Company.id 4679)",
+        "url": "https://github.com/zenmoney/banks/pull/8"
+      },
+      "reason": "Official current АТБ mark is a standalone sail glyph with orange-red vertical gradient #F4711F→#ED4E27 (atb.su favicon.svg and header logo). Accepted baseline wraps the sail in a rounded square with inverted colors (orange fill, dark sail) not present in the official standalone mark.",
+      "reviewPackage": {
+        "path": "evidence/4679/candidate-2ef3ec5368e33c44e4bb5e19a86b34ce0b2e0404bbaece54877e986f851cd46b.json",
+        "sha256": "2ef3ec5368e33c44e4bb5e19a86b34ce0b2e0404bbaece54877e986f851cd46b"
+      },
+      "sourceCandidate": {
+        "iconHash": "adb3ecab889ea17c88b9c4de23390be1a89815b7ea50cc0950967de370f093f2",
+        "path": "evidence/4679/research-6a7f70d0f2d744318304a4ba96b8f12f/fetch-5fccc559116e4b66a1093bea1fcc2538/attempt-1/body.bin",
+        "rationale": "Official current standalone sail mark replaces the baseline's inverted-colors rounded-square wrapper that is absent from the official current design.",
+        "retrieval": {
+          "path": "evidence/4679/research-6a7f70d0f2d744318304a4ba96b8f12f/fetch-5fccc559116e4b66a1093bea1fcc2538/receipt.json",
+          "sha256": "33c5fcf9f92822698ebb0b538f38da42fe497d23dffae8c6614f01a3e3b310ac"
+        },
+        "sourceAssetUrl": "https://www.atb.su/favicon.svg",
+        "sourceUrl": "https://www.atb.su/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.atb.su/favicon.svg",
+          "checkedAt": "2026-10-01T20:24:18Z",
+          "independenceGroup": "atb.su",
+          "kind": "official",
+          "observation": "Standalone sail mark, linear gradient #F4711F→#ED4E27, 32x32, no container, no wordmark; <link rel=icon> of atb.su.",
+          "url": "https://www.atb.su/favicon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:24:18Z",
+          "independenceGroup": "atb.su",
+          "kind": "official",
+          "observation": "Header lockup uses the same gradient sail plus ATB wordmark; symbol itself is containerless. Rejected as candidate asset due to wordmark.",
+          "url": "https://www.atb.su/local/templates/dt_private/img/svgs/icon_logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:24:18Z",
+          "independenceGroup": "atb.su",
+          "kind": "official",
+          "observation": "Homepage title 'Азиатско-Тихоокеанский банк для физических лиц и бизнеса | Официальный сайт АТБ'; favicon.svg referenced as site icon; operating brand confirmed.",
+          "url": "https://www.atb.su/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:24:18Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-issue",
+          "observation": "Query repo:zenmoney/ZenPlugins \"АТБ\" is:issue (incl. closed): total_count 0; raw response saved in evidence dir.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%A2%D0%91%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:24:18Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-pr",
+          "observation": "Query repo:zenmoney/ZenPlugins \"АТБ\" is:pr (incl. closed): total_count 0; raw response saved in evidence dir.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%A2%D0%91%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T20:41:45.494510Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0",
+        "xmlSha256": "f9aab616f5cf086b4a48c1ce8792c4e288891d80e6b4d9007d7decbae15e7eb5"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
