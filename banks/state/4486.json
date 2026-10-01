@@ -1,0 +1,83 @@
+{
+  "lastAttemptAt": "2026-10-01T18:53:15.646160Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Wayback CDX shows apple-touch-icon.png in main_new template with 2023-2025 era activity; sinara.ru press pages archived through 2025-2026. | Candidate reflects the current brand; sinara.ru remains the bank's live domain (2024-2025 Wayback snapshots of the same favicon assets, and 2025 news pages).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official sinara.ru site assets (apple-touch-icon, logo_35.svg) and December 2021 rebrand press coverage. | Baseline icon is the pre-rebrand СКБ-Банк symbol (dark-red/black); current identity of Банк Синара (ex-СКБ-Банк, same legal entity, renamed 2021) uses a crimson square with white S-swirl.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary basis is the bank's own domain (sinara.ru assets, retrieved via Wayback because the origin was unreachable from this environment). Rebrand fact corroborated by independent press (Vedomosti).",
+        "uncertainties": [
+          "Direct TLS access to sinara.ru/skbbank.ru failed from this environment (connection refused/timeout); candidate bytes came via web.archive.org snapshot (2023-07-26 capture, served 2023-08-02).",
+          "Exact brand red varies by source: wordmark SVG uses #EA1E42; favicon appears brighter crimson. Baseline catalog geometry (swirl shape) is close but colors are inverted (dark red/black vs crimson/white)."
+        ],
+        "variant": {
+          "basis": "Visual inspection of both retrieved assets. | Candidate is the standalone mark variant (no lettering), appropriate for a square cell; the lettered variant (logo_35.svg) was rejected as it embeds the 'СИНАРА' wordmark.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "ccfd9a4cfe53c99c9f4914a578a1e1e267415e51b9e3fe5148d83419294da84f",
+      "candidate": {
+        "iconHash": "0e7b7e0a7ead5c7222b8df35c8489a6e87d6307c0b590dfd37fa336354b8988c",
+        "path": "evidence/4486/research-878aa66266f542dfacd737c4f2192458/fetch-1a3d9c4909094e0c8d301c49604f113e/attempt-2/body.bin",
+        "rationale": "Official bank-site standalone square mark of the current Синара brand (crimson square, white swirl), no accompanying lettering.",
+        "retrieval": {
+          "path": "evidence/4486/research-878aa66266f542dfacd737c4f2192458/fetch-1a3d9c4909094e0c8d301c49604f113e/receipt.json",
+          "sha256": "a1a6aea9d01d032adff72ef2c849f617aac59f498b2cb43b7c26163951eb388e"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20230726061204if_/https://sinara.ru/local/templates/main_new/images/favicon/apple-touch-icon.png",
+        "sourceUrl": "https://web.archive.org/web/20230726061204if_/https://sinara.ru/local/templates/main_new/images/favicon/apple-touch-icon.png"
+      },
+      "candidateIconHash": "0e7b7e0a7ead5c7222b8df35c8489a6e87d6307c0b590dfd37fa336354b8988c",
+      "checkedAt": "2026-10-01T18:53:15.646160Z",
+      "reason": "Accepted baseline is the pre-2021 СКБ-Банк mark (dark-red square, black swirl). After the December 2021 rebrand the bank is Банк Синара with a new standalone mark: crimson (#EA1E42-family) square with a white S-swirl, confirmed on the bank's own site assets (apple-touch-icon of the main_new template on sinara.ru) and the site wordmark SVG (crimson mark + grey 'СИНАРА' lettering). A current standalone square-cell asset was retrieved; the catalog icon should be updated to the current brand mark.",
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20230726061204if_/https://sinara.ru/local/templates/main_new/images/favicon/apple-touch-icon.png",
+          "checkedAt": "2026-10-01T00:00:00Z",
+          "independenceGroup": "official-sinara-site",
+          "kind": "official",
+          "observation": "180x180 RGBA PNG, standalone square mark: bright crimson square, white S-swirl; official bank site favicon/apple-touch icon. Retrieved successfully (25530 bytes). Fetched snapshot: web.archive.org 2023-07-26 capture (if_ raw), 180x180 PNG.",
+          "url": "https://web.archive.org/web/20230726061204if_/https://sinara.ru/local/templates/main_new/images/favicon/apple-touch-icon.png"
+        },
+        {
+          "assetUrl": "https://sinara.ru/local/templates/main_new/images/logo/logo_35.svg",
+          "checkedAt": "2026-10-01T00:00:00Z",
+          "independenceGroup": "official-sinara-site",
+          "kind": "official",
+          "observation": "Official horizontal logo SVG (536.6x76.5 viewBox): crimson mark (#EA1E42) with white swirl + grey 'СИНАРА' wordmark (#4E4E50). Confirms brand colors and that the swirl mark is the identity symbol; wordmark is separate, so the mark alone is the square-cell asset.",
+          "url": "https://web.archive.org/web/20250406101246if_/https://sinara.ru/local/templates/main_new/images/logo/logo_35.svg"
+        },
+        {
+          "checkedAt": "2026-10-01T00:00:00Z",
+          "independenceGroup": "third-party-press",
+          "kind": "third-party",
+          "observation": "Press release (via search summary): SKB Bank rebranded December 2021, integrated with shareholder's brand, renamed Банк Синара. Confirms the rebrand is real and the catalog title 'Синара Банк' is current.",
+          "url": "https://www.vedomosti.ru/press_releases/2021/12/22/rebrending-skb-banka-integratsiya-s-brendom-aktsionera-i-novoe-imya"
+        },
+        {
+          "checkedAt": "2026-10-01T00:00:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-issue",
+          "observation": "0 results (total_count=0). No issue mentions 'Синара Банк'.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A1%D0%B8%D0%BD%D0%B0%D1%80%D0%B0+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "checkedAt": "2026-10-01T00:00:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-pr",
+          "observation": "0 results for 'Синара Банк'. Follow-up searches: 'skbbank' → PR #525 (merged, 'Skbbank: first version', 2020, plugin code only, no icon files); '4486' → 0 results.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A1%D0%B8%D0%BD%D0%B0%D1%80%D0%B0+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}

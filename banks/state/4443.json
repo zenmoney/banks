@@ -1,0 +1,139 @@
+{
+  "lastAttemptAt": "2026-10-01T18:53:14.815721Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4443/assessed-729485256c35b400ac0a2a2dc0dde7b1d170dfce939e1243e56da4fc18ea61a5.json",
+        "sha256": "729485256c35b400ac0a2a2dc0dde7b1d170dfce939e1243e56da4fc18ea61a5"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Fetched directly from the live production homepage template today; no ZenPlugins issues/PRs indicate any rebrand (0 results in both searches). | confirmed",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Served from chelinvest.ru template assets; design (gold ring with three vertical bars, dot) matches catalog baseline and the bank's header logo and app icon. | confirmed",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All confirming sources are the bank's own production assets (header logo, short logo, app touch icon) — mutually consistent; no third-party brand guides found in this pass; ZenPlugins has no related discussion.",
+        "uncertainties": [
+          "Catalog baseline color #A99B69 vs official #C8AF64: baseline is close in hue but visibly darker/olive; official assets uniformly agree on #C8AF64, so the baseline color is judged off-brand rather than an alternative official variant.",
+          "Exact stroke-level geometry differs slightly from baseline (different viewBox and path parameters); visually the same mark. Replacement uses the official path as-is."
+        ],
+        "variant": {
+          "basis": "logo-short.svg is the mark-only variant explicitly used by the site alongside the full logo.svg; 44x45 viewBox, transparent background, single path. | confirmed",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/41cdc11baa2e6869fdcf38a127960febc9833f06720bbcf9122951c915495634.json",
+        "sha256": "41cdc11baa2e6869fdcf38a127960febc9833f06720bbcf9122951c915495634"
+      },
+      "baseIconHash": "4234e07b50a691d438e69fe5153e0f9a370a34c48dae32d5f31cb901cf57af60",
+      "candidate": {
+        "detailsJudgement": "Single path with fill-rule; ring, three bars, and the small dot detail are all preserved after SVGO; no lost detail on the rendered pairs.",
+        "faithful": true,
+        "iconHash": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647",
+        "path": "evidence/4443/candidate-73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647.svg",
+        "proportionsJudgement": "44x45 viewBox nearly square; renders centered and undistorted in the 240x240 frame with the catalog 162px icon area.",
+        "rationale": "Official standalone mark from chelinvest.ru (logo-short.svg) has geometry identical to the accepted icon but the correct brand gold #C8AF64 instead of the off-brand olive #A99B69; all three live official assets (header logo.svg, logo-short.svg, apple-touch-icon.png) agree on #C8AF64. Supported color correction for the same bank.",
+        "role": "standalone symbol mark (ring with three vertical bars and a dot), no wordmark",
+        "sha256": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647",
+        "sourceAssetUrl": "https://chelinvest.ru/local/templates/delement/frontend/assets/images/logo-short.svg",
+        "sourceUrl": "https://chelinvest.ru/",
+        "transforms": [
+          "SVGO 6.x (installed /usr/local/bin/svgo), frozen repository svgo.config.mjs (coordinate precision 4, transform precision 5, multipass); 1211 -> 964 bytes; optimized bytes selected (sha256 73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647).",
+          "No geometry or color edits; single path preserved as served."
+        ],
+        "variant": "mark-only variant, transparent background, square-cell appropriate",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Visible hue correction: accepted icon renders olive #A99B69, final renders the official brand gold #C8AF64; geometry identical."
+      },
+      "candidateIconHash": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647",
+      "checkedAt": "2026-10-01T18:53:14.815721Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "3a58b7c484e49703cc99e340f8850911d484849cd43dbea89e548ccbc0fb5653",
+        "head": "bank-icon-maintenance/4443",
+        "headCommit": "286fe1d5f21f9ef8bafa85e96a397df58a10bab0",
+        "number": 3,
+        "observedAt": "2026-10-01T19:04:57.849502Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Челябинвестбанк (Company.id 4443)",
+        "url": "https://github.com/zenmoney/banks/pull/3"
+      },
+      "reason": "Official current standalone mark (chelinvest.ru logo-short.svg) has identical geometry to the catalog icon but the correct brand gold #C8AF64, while the catalog icon uses off-brand olive #A99B69. Supported color correction.",
+      "reviewPackage": {
+        "path": "evidence/4443/candidate-0f7245ba5426c48932bf68bd78e2696fd995aefacf7a21568d4624434356012c.json",
+        "sha256": "0f7245ba5426c48932bf68bd78e2696fd995aefacf7a21568d4624434356012c"
+      },
+      "sourceCandidate": {
+        "iconHash": "0a15be72adba7c6994807487496fc0de088e8d579eeece3742837d805c4c9828",
+        "path": "evidence/4443/research-7edf5e1d128e405c9dc468993614739a/fetch-15c7eb8f2ade4e4895ae2d66e651039b/attempt-1/body.bin",
+        "rationale": "Official standalone bank mark, current brand gold #C8AF64, square-cell appropriate, no accompanying text; corrects the off-brand olive (#A99B69) in the catalog icon while preserving the same symbol.",
+        "retrieval": {
+          "path": "evidence/4443/research-7edf5e1d128e405c9dc468993614739a/fetch-15c7eb8f2ade4e4895ae2d66e651039b/receipt.json",
+          "sha256": "7b5442ac7e013ef0ed6c03d678d24ebb1b73be3ed83cb0675a08e49cdef82530"
+        },
+        "sourceAssetUrl": "https://chelinvest.ru/local/templates/delement/frontend/assets/images/logo-short.svg",
+        "sourceUrl": "https://chelinvest.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://chelinvest.ru/local/templates/delement/frontend/assets/images/logo-short.svg",
+          "checkedAt": "2026-10-01T18:47:37Z",
+          "independenceGroup": "chelinvest-site",
+          "kind": "official",
+          "observation": "Site header loads logo.svg (mark + wordmark, gold #C8AF64 + dark #222222) and logo-short.svg (mark only). logo-short.svg is a single-path standalone emblem: ring with three vertical rounded bars, dot in top bar; fill #C8AF64; matches the catalog mark's geometry exactly (same ring/three-bars/dot design, visually confirmed side-by-side).",
+          "url": "https://chelinvest.ru/"
+        },
+        {
+          "assetUrl": "https://chelinvest.ru/local/templates/delement/frontend/assets/images/logo.svg",
+          "checkedAt": "2026-10-01T18:47:37Z",
+          "independenceGroup": "chelinvest-site",
+          "kind": "official",
+          "observation": "Full logo: mark fill #C8AF64, wordmark #222222. Confirms brand gold #C8AF64 for the mark.",
+          "url": "https://chelinvest.ru/local/templates/delement/frontend/assets/images/logo.svg"
+        },
+        {
+          "assetUrl": "https://chelinvest.ru/local/templates/delement/frontend/assets/images/apple-touch-icon.png",
+          "checkedAt": "2026-10-01T18:47:37Z",
+          "independenceGroup": "chelinvest-site",
+          "kind": "official",
+          "observation": "App icon: black background, same mark in RGB (200,175,100) = #C8AF64. Third official confirmation of current color.",
+          "url": "https://chelinvest.ru/local/templates/delement/frontend/assets/images/apple-touch-icon.png"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:47:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-issue",
+          "observation": "Query 'repo:zenmoney/ZenPlugins \"Челябинвестбанк\" is:issue' returned total_count 0 (no issues, open or closed).",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B1%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:47:00Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-pr",
+          "observation": "Query 'repo:zenmoney/ZenPlugins \"Челябинвестбанк\" is:pr' returned no items (total_count 0 / empty).",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B1%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T18:58:20.428568Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647",
+        "xmlSha256": "946aecc97a86b0404161f6e7d685828a0485e084f52316ca6e88a4b7aa8202ba"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

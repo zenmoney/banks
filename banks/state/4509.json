@@ -1,0 +1,139 @@
+{
+  "lastAttemptAt": "2026-10-01T18:53:05.022998Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4509/assessed-d5f6dcab4e14bf2cbc0e97ba0489d1bd98fbf5c9b7298d12f0c01959eb953700.json",
+        "sha256": "d5f6dcab4e14bf2cbc0e97ba0489d1bd98fbf5c9b7298d12f0c01959eb953700"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Commons copy sourced from wb-bank.ru was uploaded in May 2026; RuStore APK icon dated 2026-07-28 uses the same design; both postdate the accepted baseline's gradient-circle variant and show the brand currently in use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The candidate is the standalone 'Вайлдберриз Банк' logo: Wikimedia Commons file attributed to https://wb-bank.ru/ and described as the bank's logo, corroborated by the RuStore WB Bank app icon using the same magenta 'wb' pill mark. Same bank record (ООО ВБ Банк, RU).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two independent observation channels agree: (1) the wb-bank.ru-attributed logo raster and its vector copy archived on Wikimedia Commons, and (2) the WB Bank app icon distributed through RuStore's own CDN. Colors (#FF00C7 magenta, white mark) and lowercase-'wb' lettering match across both; neither derives from the accepted repository SVG.",
+        "uncertainties": [
+          "Direct inspection of wb-bank.ru was blocked by an antibot JavaScript challenge, so the live site's exact usage was not observed first-hand; reliance is on the Commons copy explicitly sourced to wb-bank.ru plus the RuStore app icon.",
+          "Whether the purple-gradient-circle 'WB' baseline was ever an official bank variant is unresolved; it is recorded here as superseded by the evidenced current design, not as an identity dispute."
+        ],
+        "variant": {
+          "basis": "Candidate is the standalone mark variant: solid #FF00C7 pill with white lowercase 'wb' letters forming the mark, no accompanying bank name/slogan. Matches the isolated left part of the 2026 wb-bank.ru logo raster and the pill element inside the app icon; square-cell appropriate.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/fd3a7464dda1d6908d810d278b5620483a496e859ea7980ac1a1edddfee3dc2c.json",
+        "sha256": "fd3a7464dda1d6908d810d278b5620483a496e859ea7980ac1a1edddfee3dc2c"
+      },
+      "baseIconHash": "e74de1b057596b4bdc307b1a8bf4e1acddb6f61081ef5828070f93e6ca4c6076",
+      "candidate": {
+        "detailsJudgement": "Pill fill #FF00C7 and white 'wb' counters preserved exactly; no invented colors; dark-theme render identical to light.",
+        "faithful": true,
+        "iconHash": "dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e",
+        "path": "evidence/4509/candidate-dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e.svg",
+        "proportionsJudgement": "Pill is a wide rounded rectangle (about 424x250); centered in the square cell with balanced margins, appropriate as an application icon on both backgrounds.",
+        "rationale": "Accepted icon is the retired purple-magenta gradient circle with uppercase 'WB'; the bank's current standalone mark is the solid #FF00C7 pill with white lowercase 'wb', confirmed by the 2026 wb-bank.ru logo (Commons copy) and the 2026-07-28 RuStore app icon. Supported rebrand replacement for the same bank.",
+        "role": "standalone app-style mark: rounded pill containing the lowercase 'wb' lettering, no wordmark",
+        "sha256": "dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/WB_Bank_Logo.svg",
+        "sourceUrl": "https://wb-bank.ru/",
+        "transforms": [
+          "SVGO (installed /usr/local/bin/svgo), frozen repository svgo.config.mjs, multipass; 3302 -> 2017 bytes trial; selected after viewBox isolation (sha256 recorded in final evidence).",
+          "From the official 1000x250.09 lockup SVG, the standalone pill group (pill path + white 'wb' path) was isolated and the viewBox tightened to 0 0 424.36 250.09; the separate black «банк» wordmark path was excluded; no path geometry, colors, or fills were edited. The pill-only variant is source-supported by the RuStore app icon and the standalone-mark Commons raster."
+        ],
+        "variant": "mark-only variant isolated from the official lockup; transparent background, square-cell appropriate",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Evidenced rebrand: gradient purple 'WB' circle replaced by the current solid magenta 'wb' pill; visibly different design confirmed by two independent current sources."
+      },
+      "candidateIconHash": "dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e",
+      "checkedAt": "2026-10-01T18:53:05.022998Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "bb54e6bf970f66f5ab75c902924d9fb1ed187e5bab822349dee6c08f4c444293",
+        "head": "bank-icon-maintenance/4509",
+        "headCommit": "4830da18f1dd665b775e1b08e8516c589e17cffd",
+        "number": 4,
+        "observedAt": "2026-10-01T19:06:04.216713Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Вайлдберриз Банк (Company.id 4509)",
+        "url": "https://github.com/zenmoney/banks/pull/4"
+      },
+      "reason": "Accepted baseline (purple-to-magenta gradient circle with white uppercase 'WB') does not match the bank's current standalone mark: the solid magenta (#FF00C7) pill with white lowercase 'wb', confirmed by the wb-bank.ru-sourced logo uploaded to Wikimedia Commons in 2026 and by the WB Bank app icon published on RuStore (2026-07-28 upload). Fetched the standalone vector mark as a candidate; identity, currency, and suitability are supported by independent sources.",
+      "reviewPackage": {
+        "path": "evidence/4509/candidate-a324ddd7b04060bfd3b1d044ba188ebb3db2d0f0e6ab12603094ccda8b163fd0.json",
+        "sha256": "a324ddd7b04060bfd3b1d044ba188ebb3db2d0f0e6ab12603094ccda8b163fd0"
+      },
+      "sourceCandidate": {
+        "iconHash": "32d53269cd806141798742e77a235cffade373563418d4cb55093a8c2596612e",
+        "path": "evidence/4509/research-c1684bbaf1d242a5a5d443edc8d95a37/fetch-ff75a4759c11471ebf3ed3ec849086c5/attempt-1/body.bin",
+        "rationale": "Vector version of the wb-bank.ru 2026 logo per the Commons raster's own page; standalone magenta pill with white lowercase 'wb' (#FF00C7 fill), 1000x250.09 viewBox, no accompanying text; supported as the bank's current standalone mark by the 2026 Commons upload from wb-bank.ru and the 2026-07-28 RuStore app icon.",
+        "retrieval": {
+          "path": "evidence/4509/research-c1684bbaf1d242a5a5d443edc8d95a37/fetch-ff75a4759c11471ebf3ed3ec849086c5/receipt.json",
+          "sha256": "821b1a291e91944fc383d8ffc784d2f7582cac538696b1fc5ee12f5dd25dc6d4"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/WB_Bank_Logo.svg",
+        "sourceUrl": "https://wb-bank.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/WB_Bank_logo_2026.webp",
+          "checkedAt": "2026-10-01T18:48:33Z",
+          "independenceGroup": "wb-bank.ru logo as archived on Wikimedia Commons",
+          "kind": "third-party",
+          "observation": "Commons file 'WB Bank logo 2026.webp' (300x75, described as Russian 'Логотип «Вайлдберриз Банк»', source https://wb-bank.ru/, uploaded 9 May 2026). Raster shows a solid magenta pill with white lowercase 'wb'. Its page points to vector version File:WB_Bank_Logo.svg.",
+          "url": "https://commons.wikimedia.org/wiki/File:WB_Bank_logo_2026.webp"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a3/WB_Bank_Logo.svg",
+          "checkedAt": "2026-10-01T18:48:33Z",
+          "independenceGroup": "wb-bank.ru logo (Commons archival copy of official asset)",
+          "kind": "official",
+          "observation": "Direct GET of wb-bank.ru returns a JavaScript antibot challenge page (1132 bytes, /__wbaas/challenges/antibot/...), so the homepage itself could not be inspected without a browser. The vector asset is the Commons-uploaded copy attributed to wb-bank.ru (source field on the Commons file page); SVG is 1000x250.09 viewBox, two fills: #FF00C7 (pill) and #FFFFFF (lowercase 'wb'), standalone mark with no accompanying text.",
+          "url": "https://wb-bank.ru/"
+        },
+        {
+          "assetUrl": "https://static.rustore.ru/2026/7/28/18/apk/2063738313/content/ICON/3308ae2b-91e2-49e2-99b0-da45e99d21ed.png",
+          "checkedAt": "2026-10-01T18:48:33Z",
+          "independenceGroup": "RuStore app-store listing (independent distribution channel)",
+          "kind": "third-party",
+          "observation": "RuStore listing for 'ru.wildberries.bank' (WB Bank app, APK uploaded 2026-07-28): app icon is a solid magenta square with white 'wb' pill and 'банк' lettering below — confirms current brand colors and the lowercase-'wb' pill mark, but the app icon itself carries separate lettering so it is not suitable as a standalone cell mark.",
+          "url": "https://www.rustore.ru/catalog/app/ru.wildberries.bank"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:48:33Z",
+          "independenceGroup": "zenmoney/ZenPlugins",
+          "kind": "zenplugins-issue",
+          "observation": "GitHub issue search returned total_count: 0 (no issues, open or closed, mention 'Вайлдберриз Банк').",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%92%D0%B0%D0%B9%D0%BB%D0%B4%D0%B1%D0%B5%D1%80%D0%B8%D0%B7+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T18:48:33Z",
+          "independenceGroup": "zenmoney/ZenPlugins",
+          "kind": "zenplugins-pr",
+          "observation": "GitHub PR search returned total_count: 0 (no PRs, open or closed, mention 'Вайлдберриз Банк').",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%92%D0%B0%D0%B9%D0%BB%D0%B4%D0%B1%D0%B5%D1%80%D0%B8%D0%B7+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T18:58:21.960207Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e",
+        "xmlSha256": "cf127ebeead007a16d62b6d3d1f87862b3b4996f76d92145f05c2a3c06372d28"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
