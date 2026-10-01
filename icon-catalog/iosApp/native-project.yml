@@ -1,0 +1,41 @@
+name: NativeIconCatalogIOS
+options:
+  deploymentTarget:
+    iOS: "16.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+targets:
+  NativeIconCatalogIOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources/NativeIconCatalogApp.swift
+      - path: Sources/NativeCatalogView.swift
+      - path: NativeGenerated/Assets.xcassets
+        buildPhase: resources
+      - path: NativeGenerated/native-manifest.json
+        buildPhase: resources
+    preBuildScripts:
+      - name: Generate original-SVG assets
+        script: bash "$SRCROOT/build_framework.sh" build-native
+        basedOnDependencyAnalysis: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.zen.iconcatalog.native
+        PRODUCT_NAME: NativeIconCatalogIOS
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+schemes:
+  NativeIconCatalogIOS:
+    build:
+      targets:
+        NativeIconCatalogIOS: all
+    run:
+      config: Debug
+    archive:
+      config: Release

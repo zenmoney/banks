@@ -1,0 +1,6 @@
+Generated/
+NativeGenerated/
+*.xcodeproj/
+build/
+DerivedData/
+__pycache__/
