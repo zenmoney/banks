@@ -1,0 +1,146 @@
+{
+  "lastAttemptAt": "2026-10-01T21:08:05.012424Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4783/assessed-2068cd67adaf72adb0638be63c85691b5193bbebba1b0d8d9d24a3e80bf3e422.json",
+        "sha256": "2068cd67adaf72adb0638be63c85691b5193bbebba1b0d8d9d24a3e80bf3e422"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Served live on uralsib.ru today and byte-identical across independent fetches; matches the post-2019 rebrand brandbook reference.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched favicon is УРАЛСИБ's own current U-monogram app tile from the bank's official domain.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary favicon asset plus homepage brand usage and the bank's own brandbook page; the Commons archive corroborates the accepted icon's obsolescence.",
+        "uncertainties": [
+          "Official logo ZIP (potential higher-fidelity source) was inaccessible (HTTP 403); the favicon is the accessible official vector."
+        ],
+        "variant": {
+          "basis": "The served standalone variant is the white tile with the purple monogram; the accepted icon's blue-disc pre-2019 emblem is the superseded variant.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/5dc9757ec7edefb0c10419644963ddbb1f2e6cabd93df37dcdec443343dea465.json",
+        "sha256": "5dc9757ec7edefb0c10419644963ddbb1f2e6cabd93df37dcdec443343dea465"
+      },
+      "baseIconHash": "461eba04225491cbee8fb92d20b4e49ed554e946b782d79600d277444aed7bc2",
+      "candidate": {
+        "detailsJudgement": "Monogram strokes and white tile identical between working, optimized and official source; no detail loss at 240px.",
+        "faithful": true,
+        "iconHash": "26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c",
+        "path": "evidence/4783/candidate-26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c.svg",
+        "proportionsJudgement": "Monogram centered in the tile; proportions preserved; renders show no stretching or clipping.",
+        "rationale": "Official post-2019 standalone app tile of УРАЛСИБ (white rounded square with purple U-flow monogram) replaces the accepted pre-2019 blue-disc building emblem — an evidenced rebrand.",
+        "role": "standalone app tile (rounded square with monogram)",
+        "sha256": "26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c",
+        "sourceAssetUrl": "https://uralsib.ru/favicon.svg",
+        "sourceUrl": "https://uralsib.ru/favicon.svg",
+        "transforms": [
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), multipass; 1588 -> 1197 bytes; optimized bytes selected (evidence/4783/final.svg, sha256 26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c). No geometry transformation was needed.",
+          "No geometric transformation: source 16x16 viewBox preserved; catalog renderer scales it."
+        ],
+        "variant": "current official post-2019 tile with #3B175C monogram; accepted baseline is the superseded pre-rebrand blue-disc emblem",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is the pre-2019 blue disc with the former emblem; the current official mark is the purple monogram on a white rounded square. A supported rebrand, clearly visible on both themes."
+      },
+      "candidateIconHash": "26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c",
+      "checkedAt": "2026-10-01T21:08:05.012424Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "cd2c5b1d79499360562417ce535510831fb860cee54ed0d5cc69afce654b0977",
+        "head": "bank-icon-maintenance/4783",
+        "headCommit": "a4fe0a5671c46fd8dfcbfd56a98ef8e6a867f6ad",
+        "number": 11,
+        "observedAt": "2026-10-01T21:14:40.763018Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: УРАЛСИБ (Company.id 4783)",
+        "url": "https://github.com/zenmoney/banks/pull/11"
+      },
+      "reason": "The accepted icon is the pre-2019 УРАЛСИБ design (blue disc with the former building/wave emblem); the bank's current official standalone mark is the post-2019 white rounded-square app tile with the #3B175C 'U'-flow monogram, served live as uralsib.ru/favicon.svg. This is an evidenced rebrand update, not a byte-only change.",
+      "reviewPackage": {
+        "path": "evidence/4783/candidate-3d16b819da906d00364288f041ad311b294f7f7d80020808d5ce77b1797cd1ae.json",
+        "sha256": "3d16b819da906d00364288f041ad311b294f7f7d80020808d5ce77b1797cd1ae"
+      },
+      "sourceCandidate": {
+        "iconHash": "70d578a3e519bd278908769c0348f3cbf6e7cbce46578bc2b2ce2b8013c8cb0f",
+        "path": "evidence/4783/research-db3fe317026f498c8d4f389c976cb179/fetch-e436fc85e7134c2e879f781547cab906/attempt-2/body.bin",
+        "rationale": "Official current standalone SVG app tile (post-2019 monogram); replaces the accepted pre-2019 blue-disc emblem design.",
+        "retrieval": {
+          "path": "evidence/4783/research-db3fe317026f498c8d4f389c976cb179/fetch-e436fc85e7134c2e879f781547cab906/receipt.json",
+          "sha256": "6d8b8b9f42b93627bb8a0fc1fbd58f190753fd52cb1c3a7f1043cd2c977ac957"
+        },
+        "sourceAssetUrl": "https://uralsib.ru/favicon.svg",
+        "sourceUrl": "https://uralsib.ru/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://uralsib.ru/favicon.svg",
+          "checkedAt": "2026-10-01T20:58:00Z",
+          "independenceGroup": "uralsib.ru primary",
+          "kind": "official",
+          "observation": "Official standalone 16x16 SVG: white rounded square + purple monogram, no wordmark; byte-identical to an independent second fetch; sha256 70d578a3e519bd278908769c0348f3cbf6e7cbce46578bc2b2ce2b8013c8cb0f. Retrieved via the helper's packaged-CA retry (Russian Trusted Root CA from gu-st.ru, receipt evidence/4783/research-db3fe317026f498c8d4f389c976cb179/fetch-e436fc85e7134c2e879f781547cab906/receipt.json); TLS verification never disabled.",
+          "url": "https://uralsib.ru/favicon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:57:00Z",
+          "independenceGroup": "uralsib.ru primary",
+          "kind": "official",
+          "observation": "Homepage inline header/footer SVGs pair the same monogram with the УРАЛСИБ wordmark (not standalone, rejected); page head references matching app icons (apple-touch-icon PNGs, retail-icon.png at site.uralcdn.ru).",
+          "url": "https://www.uralsib.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:57:00Z",
+          "independenceGroup": "uralsib.ru primary",
+          "kind": "official",
+          "observation": "Bank press/brand page lists the official logo pack (ZIP returns HTTP 403 from this environment — recorded access failure) and a Figma brandbook; confirms current brand mark.",
+          "url": "https://uralsib.ru/blog?article_id=dcafd089-eb69-4122-8230-538a0b7cc651"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:59:00Z",
+          "independenceGroup": "Wikimedia Commons",
+          "kind": "third-party",
+          "observation": "Only an outdated raster JPG of the previous logo; matches the accepted icon's superseded design, corroborating that the accepted icon is pre-rebrand.",
+          "url": "https://commons.wikimedia.org/wiki/File:Logo-bank.JPG"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:55:00Z",
+          "independenceGroup": "github search",
+          "kind": "zenplugins-issue",
+          "observation": "0 results.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A3%D0%A0%D0%90%D0%9B%D0%A1%D0%98%D0%91%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:55:00Z",
+          "independenceGroup": "github search",
+          "kind": "zenplugins-pr",
+          "observation": "0 results.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A3%D0%A0%D0%90%D0%9B%D0%A1%D0%98%D0%91%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T21:10:02.186804Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c",
+        "xmlSha256": "f97596a6ed1961bd6ce6307dfb166a507a43c748ff8c9ff53c726a9424e422ef"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

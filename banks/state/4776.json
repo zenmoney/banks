@@ -1,0 +1,154 @@
+{
+  "lastAttemptAt": "2026-10-01T21:04:30.826753Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4776/assessed-89f3e850ff62f2b62c5d6e9e9cc986fcb37fd17206b2ff666b9a260a59150edb.json",
+        "sha256": "89f3e850ff62f2b62c5d6e9e9cc986fcb37fd17206b2ff666b9a260a59150edb"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Served live on mtsbank.ru today and present in Sep 2026 archive captures; 2023 parent rebrand did not replace the bank's egg.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched favicon is МТС Банк's own egg mark on the bank's official domain; egg geometry matches the accepted mark (ratio 0.727 vs 0.714).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary official favicon plus an independent archive mirror of the same URL; identity further corroborated by the brandbook description of the egg mark.",
+        "uncertainties": [
+          "Exact brand-color #e30611 vs accepted #dd1220 is taken from the served asset; no accessible brandbook file states the standalone icon spec directly."
+        ],
+        "variant": {
+          "basis": "Official current standalone presentation is red egg on white square (#e30611); accepted inverse white-on-red-circle presentation is not the currently served standalone variant.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6939a1417f52c017b754703f50e3a37bbdc9dd10ac77495068eead67f7dbfa5c.json",
+        "sha256": "6939a1417f52c017b754703f50e3a37bbdc9dd10ac77495068eead67f7dbfa5c"
+      },
+      "baseIconHash": "09e02451785465124403ba231879d9cc27f5ac06b57be72df030e4ba801d1c13",
+      "candidate": {
+        "detailsJudgement": "Egg silhouette and white square identical between working, optimized and official source; no detail loss.",
+        "faithful": true,
+        "iconHash": "4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38",
+        "path": "evidence/4776/candidate-4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38.svg",
+        "proportionsJudgement": "Egg proportions preserved (ratio ~0.727); square tile centered; no stretching in renders.",
+        "rationale": "Official current standalone mark of МТС Банк (red egg on white square) replaces the accepted superseded inverse presentation (white egg on red circle).",
+        "role": "standalone app/favicon mark (egg symbol on a white square tile)",
+        "sha256": "4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38",
+        "sourceAssetUrl": "https://www.mtsbank.ru/upload/static/favicons/icon.svg",
+        "sourceUrl": "https://www.mtsbank.ru/upload/static/favicons/icon.svg",
+        "transforms": [
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), multipass; 2102 -> 444 bytes; optimized bytes selected (evidence/4776/final.svg, sha256 4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38). No geometry transformation was needed; serialization-only optimization.",
+          "No geometric transformation: source 120x120 SVG kept, scaled by the catalog renderer."
+        ],
+        "variant": "current official: red #e30611 egg on white; accepted baseline is the inverse white-on-red-circle presentation",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Tile presentation inverted and brand red corrected: accepted icon shows a white egg on a red disc; current official mark is the red egg on a white square. Difference is a supported current-design update, clearly visible in both before/after pairs."
+      },
+      "candidateIconHash": "4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38",
+      "checkedAt": "2026-10-01T21:04:30.826753Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "8970626929bebf27373a31b8ac86440eefed51e1dc71b5c83cfeaeefa2248bbd",
+        "head": "bank-icon-maintenance/4776",
+        "headCommit": "b24fefa8b9e741ae8b9cbb1a28279340f3f2cd79",
+        "number": 10,
+        "observedAt": "2026-10-01T21:13:22.666562Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МТС Банк (Company.id 4776)",
+        "url": "https://github.com/zenmoney/banks/pull/10"
+      },
+      "reason": "Current official standalone mark differs from the accepted icon: mtsbank.ru serves a 120x120 SVG favicon — red egg (#e30611) on a white square — while the accepted icon is the inverse presentation (white egg on a #dd1220 red circle). Live fetch corroborated by Sep 2026 archive captures; the МТС parent 2023 grid rebrand did not replace the bank's egg mark. Evidenced supported-current-design update, not a byte-only change.",
+      "reviewPackage": {
+        "path": "evidence/4776/candidate-52a92a9df487b5e988d66d35be8619fe7ca57980cf16d1313b972dda25187d20.json",
+        "sha256": "52a92a9df487b5e988d66d35be8619fe7ca57980cf16d1313b972dda25187d20"
+      },
+      "sourceCandidate": {
+        "iconHash": "e7511b70e0e389782720f6a0c8bb46bc86f71de6a86c0713ce70b1b5c0a832ec",
+        "path": "evidence/4776/research-c4554e936ba74e4cb2797f311b1bc796/fetch-d7795cf0109944c0b751c45c6e69f835/attempt-2/body.bin",
+        "rationale": "Official current standalone SVG mark (red egg on white square); corrects the accepted icon's superseded inverse presentation and color.",
+        "retrieval": {
+          "path": "evidence/4776/research-c4554e936ba74e4cb2797f311b1bc796/fetch-d7795cf0109944c0b751c45c6e69f835/receipt.json",
+          "sha256": "22dad2aec8d7866ebeaa4e90052c9bf74aee17371136066ae82adc5d607e586b"
+        },
+        "sourceAssetUrl": "https://www.mtsbank.ru/upload/static/favicons/icon.svg",
+        "sourceUrl": "https://www.mtsbank.ru/upload/static/favicons/icon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.mtsbank.ru/upload/static/favicons/icon.svg",
+          "checkedAt": "2026-10-01T20:52:00Z",
+          "independenceGroup": "mtsbank.ru primary",
+          "kind": "official",
+          "observation": "Fetched asset page/bytes: official 120x120 SVG favicon, white square with red #e30611 egg, no text; sha256 e7511b70e0e389782720f6a0c8bb46bc86f71de6a86c0713ce70b1b5c0a832ec via packaged-CA retry (receipt evidence/4776/research-c4554e936ba74e4cb2797f311b1bc796/fetch-d7795cf0109944c0b751c45c6e69f835/receipt.json).",
+          "url": "https://www.mtsbank.ru/upload/static/favicons/icon.svg"
+        },
+        {
+          "assetUrl": "https://www.mtsbank.ru/upload/static/favicons/icon.svg",
+          "checkedAt": "2026-10-01T20:52:00Z",
+          "independenceGroup": "mtsbank.ru primary",
+          "kind": "official",
+          "observation": "Official favicon: standalone 120x120 SVG, white square, red egg, no text. Direct TLS to mtsbank.ru fails from this environment; retrieved through the helper's packaged-CA retry (receipt evidence/4776/research-c4554e936ba74e4cb2797f311b1bc796/fetch-d7795cf0109944c0b751c45c6e69f835/receipt.json), sha256 e7511b70e0e389782720f6a0c8bb46bc86f71de6a86c0713ce70b1b5c0a832ec, matching Sep 2026 Wayback captures.",
+          "url": "https://www.mtsbank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:47:00Z",
+          "independenceGroup": "web.archive.org mirrors of mtsbank.ru",
+          "kind": "third-party",
+          "observation": "Sep 2026 archive captures of the same favicon URL show the same red-egg-on-white mark; confirms continued use, not merely a stale live asset.",
+          "url": "https://web.archive.org/web/2026/https://www.mtsbank.ru/upload/static/favicons/icon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:35:00Z",
+          "independenceGroup": "mtsbank.ru primary",
+          "kind": "official",
+          "observation": "2020 bank brandbook describes red background + egg mark; no open official SVG download besides the favicon. og:image uses egg + 'МТС БАНК' lockup (wordmark text, not standalone, rejected).",
+          "url": "https://www.mtsbank.ru/about/press/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:45:00Z",
+          "independenceGroup": "RuStore listing",
+          "kind": "third-party",
+          "observation": "Bank's consumer app is rebranded 'МТС Деньги' with a wallet-monogram icon — a product mark, not the bank mark; rejected as candidate.",
+          "url": "https://apps.rustore.ru/app/ru.lewis.dbo"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:33:00Z",
+          "independenceGroup": "github search",
+          "kind": "zenplugins-issue",
+          "observation": "1 result: issue #925 (open, balance-display bug), not icon-related.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%A2%D0%A1+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:33:00Z",
+          "independenceGroup": "github search",
+          "kind": "zenplugins-pr",
+          "observation": "0 results.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%A2%D0%A1+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-01T21:09:03.954265Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38",
+        "xmlSha256": "8e17e64255416558ea70d48c96d6a93d54dcfbdf4ac17fd741c610d9b8e62ece"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
