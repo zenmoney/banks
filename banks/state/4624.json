@@ -1,0 +1,111 @@
+{
+  "lastAttemptAt": "2026-10-01T20:29:55.671735Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4624/assessed-ec83b0656b94746c11b9b8a766f0404baff31239acf585b6cc0f14d6aea0abc6.json",
+        "sha256": "ec83b0656b94746c11b9b8a766f0404baff31239acf585b6cc0f14d6aea0abc6"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live sber.ru (2026-10-01) serves the gradient version as its official touch icon; no newer redesign found.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched official sber.ru touch icon shows the same ring+checkmark mark as the baseline; same bank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official sber.ru asset plus absence of any newer-design reports; ZenPlugins shows no icon activity. sberbank.ru/sber.com were unreachable from this egress (recorded gap), sber.ru asset suffices.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone circle+check variant without wordmark is the official touch icon; wordmark lockups rejected.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "e6c0fc1fa79c419096a03c13a892ea70dba8cdfa07d9c304ec087ea851b0b659",
+      "candidate": {
+        "detailsJudgement": "Ring break, checkmark shape and stroke weights identical to baseline geometry and to the official asset; gradient hue order (blue top, green right, yellow-green left, yellow bottom-left) matches the source sample.",
+        "faithful": true,
+        "iconHash": "b9ee2684b4f084f76b6f940e96bd72e3a94a9b58b167b4edc60baa6c5e51c5c1",
+        "path": "evidence/4624/candidate-b9ee2684b4f084f76b6f940e96bd72e3a94a9b58b167b4edc60baa6c5e51c5c1.svg",
+        "proportionsJudgement": "Original 63.04x63.89 viewport preserved; geometry untouched.",
+        "rationale": "Apply the current Sber gradient ring treatment to the unchanged ring+checkmark geometry; checkmark stays solid green per the official asset.",
+        "role": "standalone brand symbol (app mark)",
+        "sha256": "b9ee2684b4f084f76b6f940e96bd72e3a94a9b58b167b4edc60baa6c5e51c5c1",
+        "sourceAssetUrl": "https://www.sber.ru/common_static/apple-touch-icon-180x180.png",
+        "sourceUrl": "https://www.sber.ru/common_static/apple-touch-icon-180x180.png",
+        "transforms": [
+          "Ring path recolored from flat #229F49 to a linear gradient sampled from the official sber.ru touch icon (stops #0291EB, #21A038, #A3CD39, #F2E913); checkmark path recolored to sampled #21A038; geometry unchanged",
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e) tried: output 1283 bytes larger than 1205-byte working SVG, so the working version was retained"
+        ],
+        "variant": "broken ring + checkmark, transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Ring color changes from flat green to the current multi-color gradient; geometry identical. The official gradient appears smooth/possibly angular; a single linear gradient is a close but disclosed approximation of hue placement."
+      },
+      "candidateIconHash": "b9ee2684b4f084f76b6f940e96bd72e3a94a9b58b167b4edc60baa6c5e51c5c1",
+      "checkedAt": "2026-10-01T20:29:55.671735Z",
+      "humanReview": "pending",
+      "reason": "Current Sber mark keeps the accepted baseline's ring+checkmark geometry but the flat green #229F49 ring is replaced by the current multi-color gradient (blue #0291EB top → green #21A038 → yellow #F2E913/#A3CD39 bottom-left), while the checkmark remains solid green. The baseline predates this gradient color treatment.",
+      "reviewPackage": {
+        "path": "evidence/4624/candidate-91563095c435450da143803e7be34a2bc607a256925c512fba6d8895c0517641.json",
+        "sha256": "91563095c435450da143803e7be34a2bc607a256925c512fba6d8895c0517641"
+      },
+      "sourceCandidate": {
+        "iconHash": "4598a8ef904333ad5fffa405db26fdeb2bcbe33fbe14baeda4db6d9e5ebfb0e9",
+        "path": "evidence/4624/research-108cbbf16b174940ba73ca98d629e447/fetch-4a24b1da5ad9475f92af7ce1d4977cd1/attempt-2/body.bin",
+        "rationale": "Documented current gradient ring color treatment for the unchanged ring+checkmark geometry; official sber.ru asset. Vector reconstruction planned from baseline geometry because only raster assets are published.",
+        "retrieval": {
+          "path": "evidence/4624/research-108cbbf16b174940ba73ca98d629e447/fetch-4a24b1da5ad9475f92af7ce1d4977cd1/receipt.json",
+          "sha256": "a4ea4dc007fd21471e873e950b5556606b2d9625ce413a7aeb8f90e38f3b6880"
+        },
+        "sourceAssetUrl": "https://www.sber.ru/common_static/apple-touch-icon-180x180.png",
+        "sourceUrl": "https://www.sber.ru/common_static/apple-touch-icon-180x180.png"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.sber.ru/common_static/apple-touch-icon-180x180.png",
+          "checkedAt": "2026-10-01T20:29:55Z",
+          "independenceGroup": "sber.ru-assets",
+          "kind": "official",
+          "observation": "Official sber.ru touch icon, 180x180: standalone gradient circle with green checkmark, no wordmark. Pixel-sampled ring gradient: top #0291EB/#0CA5E5 blue, right/mid #21A038 green, bottom-left #F2E913 yellow and #A3CD39 yellow-green; checkmark solid #21A038.",
+          "url": "https://www.sber.ru/common_static/apple-touch-icon-180x180.png"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:29:55Z",
+          "independenceGroup": "wikipedia",
+          "kind": "third-party",
+          "observation": "No evidence of a newer mark than the gradient circle design; monogram geometry (ring + check) unchanged since 2020, gradient treatment current.",
+          "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:29:55Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-issue",
+          "observation": "3 hits (#670 open, #475/#477 closed), none icon-related.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%22+is%3Aissue"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-01T20:29:55Z",
+          "independenceGroup": "zenplugins",
+          "kind": "zenplugins-pr",
+          "observation": "1 hit (#1075 merged, sberbank-by OAuth), no icon changes.",
+          "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A1%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA%22+is%3Apr"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-01T20:41:47.214658Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b9ee2684b4f084f76b6f940e96bd72e3a94a9b58b167b4edc60baa6c5e51c5c1",
+        "xmlSha256": "b34426a40557db992579c2cd221fad074ffc29eec0222df318232dbcde6ba75e"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
