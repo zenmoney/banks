@@ -1,0 +1,131 @@
+{
+  "lastAttemptAt": "2026-10-02T20:18:29.435573Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4501/assessed-8ceacacf26362d20c9503da8ebd3034db73a1a0feb66136a8455751d1d7975e1.json",
+        "sha256": "8ceacacf26362d20c9503da8ebd3034db73a1a0feb66136a8455751d1d7975e1"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Operating bank. Latest observed official mark is the 2019-07-04 archived official template SVG; CBR confirms the bank operating (reporting 1.01.2025; finorg status «Действует» fetched 2026-10-02). No evidence of rebrand was found; the official site is currently unreachable, so continued use is supported by consistent indirect evidence rather than a live official page.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Catalog record 4501 НКБ «СЛАВЯНБАНК», RU, slavbank.ru (bank's public slug; actual domain slaviabank.ru) matches АО НКБ «СЛАВЯНБАНК», Veliky Novgorod, reg. 804, OGRN 1025300000175 per CBR. The archived logo.svg is served by that bank's own site template.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official provenance chain (bank's own template file captured by the archive) plus an independent CBR registry/reporting corroboration of identity and operating status; archive is a neutral capture channel, not a second author.",
+        "uncertainties": [
+          "Post-2019 continued use is not directly observable (official site unreachable); no rebrand evidence found in searches through 2025."
+        ],
+        "variant": {
+          "basis": "Header variant logo.svg: blue (#0a90e8) knot emblem with wordmark on transparent field. A white footer variant (logo-footer.svg) also existed; the header variant is chosen as the standalone-appropriate colored variant. Emblem region will be isolated without altering its geometry or color.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/cf91547cf376df7d7512314a560df152820f95ed899e3f283f4b57034b4e5478.json",
+        "sha256": "cf91547cf376df7d7512314a560df152820f95ed899e3f283f4b57034b4e5478"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All knot interlacements, strand gaps and internal transparency of the source emblem are present in the final render on both themes; no stroke loss, clipping or artifact at 240/48/32/24 px diagnostics.",
+        "faithful": true,
+        "iconHash": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4",
+        "path": "evidence/4501/candidate-878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4.svg",
+        "proportionsJudgement": "Emblem aspect (~1.76:1) is preserved without stretching; it fits the square cell with comfortable margins at the icon area size and remains recognizable at 24-48 px on both backgrounds. The transparent standalone mark is kept per policy; no backing added.",
+        "rationale": "First addition for an operating bank whose catalog record has no icon. The original official-site SVG (archived 2019-07-04 Bitrix template) is a full lockup; the header lockup's standalone knot emblem is selected unchanged, which the catalog suitability rule requires. Emblem geometry, color #0a90e8 and internal transparency are preserved byte-for-byte in path data.",
+        "role": "Standalone emblem portion of the official header lockup logo.svg; the wordmark «СЛАВЯН БАНК» is separate lettering, not part of the mark.",
+        "sha256": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4",
+        "sourceAssetUrl": "https://web.archive.org/web/20200101190159id_/http://www.slaviabank.ru/bitrix/templates/indexru_new/svg/logo.svg",
+        "sourceUrl": "https://web.archive.org/web/20190704134646id_/http://www.slaviabank.ru/bitrix/templates/indexru_new/svg/logo.svg",
+        "transforms": [
+          "Source selection only: original lockup SVG reduced to its emblem region by restricting the viewport to viewBox 0 0 113.9 64.688 (emblem occupies the full crop; wordmark glyph paths remain in the file but render outside the viewport). No emblem geometry, color, scale or translation change.",
+          "Inline of the single style class cls-1 (fill #0a90e8, fill-rule evenodd) as equivalent path presentation attributes; no visual change.",
+          "SVGO 4.1.0, repository svgo.config.mjs (config sha256 bound to baseCommit): 10219 -> 9792 bytes; optimized trial compared visually against the working version with rsvg-convert on both theme canvases, faithful, selected as final bytes."
+        ],
+        "variant": "Blue header variant of the bank's brand knot on a transparent field; no circular official avatar of this variant was observed, so the source-backed transparent standalone emblem is kept without an added backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this bank, so the visible difference is absence to a rendered standalone emblem; no baseline comparison exists or is invented."
+      },
+      "candidateIconHash": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4",
+      "checkedAt": "2026-10-02T20:18:29.435573Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "84a23112797014c736dca2665cb34b3d6c13d98eebb1c614dbc9aafb9c94e155",
+        "head": "bank-icon-maintenance/4501",
+        "headCommit": "405e1383de1fa36cd5fe1d9d5b689e965902a463",
+        "number": 33,
+        "observedAt": "2026-10-02T20:32:15.235265Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: НКБ \"СЛАВЯНБАНК\" (Company.id 4501)",
+        "url": "https://github.com/zenmoney/banks/pull/33"
+      },
+      "reason": "Original official-site SVG of НКБ «СЛАВЯНБАНК» (Veliky Novgorod, reg. 804) retrieved from the bank's own Bitrix template via web.archive.org capture 2019-07-04: single path, viewBox 0 0 244.344 64.688, fill #0a90e8 (Celtic-knot emblem + «СЛАВЯН БАНК» wordmark). Identity of the record is confirmed (CBR: АО НКБ «СЛАВЯНБАНК», OGRN 1025300000175, operating). The asset is a full lockup; a mark-only working variant will be prepared at candidate review by selecting the emblem region of the original vector (no tracing).",
+      "reviewPackage": {
+        "path": "evidence/4501/candidate-5506fb26b76b67836ec2a3491953078665e8ed6fcd483f25a0fe6a1346822a9a.json",
+        "sha256": "5506fb26b76b67836ec2a3491953078665e8ed6fcd483f25a0fe6a1346822a9a"
+      },
+      "sourceCandidate": {
+        "iconHash": "2cec92eb5490f0f7ad362f169c881f224f370b8a8f790ca6bda587eddc2e256b",
+        "path": "evidence/4501/research-22ac95f3d54847bcab39a90a80a59299/fetch-6bf07253eb1e4acab07942fe20c4823c/attempt-2/body.bin",
+        "rationale": "Original vector from the bank's own website template, confirmed visually after rendering: the emblem of the operating bank's current brand period. It is a lockup; the standalone emblem region will be selected at candidate review without altering emblem geometry, color or transparency.",
+        "retrieval": {
+          "path": "evidence/4501/research-22ac95f3d54847bcab39a90a80a59299/fetch-6bf07253eb1e4acab07942fe20c4823c/receipt.json",
+          "sha256": "4e85f9c9f708496d3df1335f7e4d43d294ab781e5351cdd00ef7dc33466af47b"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20200101190159id_/http://www.slaviabank.ru/bitrix/templates/indexru_new/svg/logo.svg",
+        "sourceUrl": "https://web.archive.org/web/20190704134646id_/http://www.slaviabank.ru/bitrix/templates/indexru_new/svg/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20200101190159id_/http://www.slaviabank.ru/bitrix/templates/indexru_new/svg/logo.svg",
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "slaviabank.ru archived official site",
+          "kind": "official",
+          "observation": "Original vector (10320 bytes, sha256 2cec92eb5490f0f7ad362f169c881f224f370b8a8f790ca6bda587eddc2e256b) served by the bank's own Bitrix template (logo.svg referenced by the archived official homepage). Rendered via rsvg-convert and visually confirmed: blue Celtic-knot emblem + «СЛАВЯН БАНК» wordmark, single path fill #0a90e8. Emblem occupies viewBox x≈0-114 of 244.344.",
+          "url": "https://web.archive.org/web/20190704134646id_/http://www.slaviabank.ru/bitrix/templates/indexru_new/svg/logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "Bank of Russia registry",
+          "kind": "official",
+          "observation": "CBR finorg (fetched 2026-10-02): АО НКБ «СЛАВЯНБАНК», reg. 804, Veliky Novgorod, status «Действует», base license; confirms the catalog record is this operating bank. This corrects the worker's preliminary claim of a 2020 license revocation.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1025300000175"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "slaviabank.ru archived official site",
+          "kind": "official",
+          "observation": "Archived official homepage references template SVGs logo.svg (header), logo-dev.svg, logo-footer.svg; header uses logo.svg. Live slaviabank.ru and www.slaviabank.ru failed HTTPS transfer on 2026-10-02 (site unreachable), so post-2019 official presentation is not directly observable.",
+          "url": "https://web.archive.org/web/2019id_/https://www.slaviabank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "Bank of Russia published reporting",
+          "kind": "third-party",
+          "observation": "CBR published reporting for 1.01.2025 under regnum 804: the bank was still operating in 2025, supporting continued use of the 2019-period brand without evidence of rebrand.",
+          "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f810/1904/?dt=202501&regnum=804"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T20:23:33.699708Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4",
+        "xmlSha256": "e01466724516b716ac2df5b63657d2fc5c7337b7b9dd7e391ef5b83b8344ce67"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
