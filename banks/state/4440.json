@@ -1,0 +1,116 @@
+{
+  "lastAttemptAt": "2026-10-02T14:59:06.864566Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4440/assessed-00e5b253f6aa13a5c0318360dc73451fcbd917ccd525012024add4c2b545a688.json",
+        "sha256": "00e5b253f6aa13a5c0318360dc73451fcbd917ccd525012024add4c2b545a688"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Operating official site currently offers retail/business banking and September 2026 notices. Current official header uses the same three-part orange emblem. No successor substitution or historical period choice is involved.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official domain header alt text identifies Татсоцбанк; page describes AO ТАТСОЦБАНК and license 480. Finuslugi identifies AO ТАТСОЦБАНК with same license and displays this exact SVG as its logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official bank page supports identity/current visual use; Finuslugi independently identifies the bank and publishes the vector. Its upstream design authorship is not explicitly stated, so provenance is publisher-hosted original vector rather than a claim of official vector delivery.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Viewed downloaded official raster and rsvg-convert reference of original SVG: upright three separated orange pointed leaf/flame shapes, no accompanying text in candidate. SVG uses #EB6129, concise intentional bezier geometry, no embedded raster or tracing noise. Suitable standalone mark; official raster supports the emblem variant but does not establish exact vector RGB by itself.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/bf8d6b70a89da93dea31f52c81a373362ca8130c667d19bfb7d29f0c3dac7986.json",
+        "sha256": "bf8d6b70a89da93dea31f52c81a373362ca8130c667d19bfb7d29f0c3dac7986"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Full source and original/final theme pairs retain all three pointed forms, curved contours and two transparent chevron gaps. Actual Desktop output has no clipping or lost detail.",
+        "faithful": true,
+        "iconHash": "b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782",
+        "path": "evidence/4440/candidate-b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782.svg",
+        "proportionsJudgement": "Original narrow upright proportions and placement retained. Complete emblem fits with source clear space. Both themes have strong orange contrast; resized 24/32/48px icon-area diagnostics retain the three-part silhouette and separation. No need to add a circle or shrink further.",
+        "rationale": "First icon for existing ТАТСОЦБАНК record: original publisher-hosted standalone vector matches current official orange emblem; not a successor or a traced raster.",
+        "role": "Standalone transparent bank emblem without accompanying lettering.",
+        "sha256": "b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782",
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-049205703.svg",
+        "sourceUrl": "https://finuslugi.ru/banki/tatsocbank",
+        "transforms": [
+          "Removed redundant peripheral alpha-mask and viewport clip wrappers/definitions after converter rejected the mask. Original emblem path and paint retained; original/unmasked librsvg 400px RGBA comparison had zero differing pixels. No geometry redraw, recoloring, scaling or repositioning.",
+          "SVGO 4.1.0 with frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: unmasked working 695 bytes to 694 bytes; selected b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782. Independently viewed working/trial on both themes; no visible contour, color or alpha change. Initial masked trial was larger and retained only as evidence."
+        ],
+        "variant": "Three stacked orange pointed forms, #EB6129, original transparent 40x40 canvas. No backing added; no official circular-avatar claim.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "No icon.svg exists at frozen base; first addition supplies the supported standalone bank emblem, not an update comparison against a dummy baseline."
+      },
+      "candidateIconHash": "b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782",
+      "checkedAt": "2026-10-02T14:59:06.864566Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "730d4e848f4dd1f24258c6135820f023ff25aacf69a2b32ac255998ee4c0bd3d",
+        "head": "bank-icon-maintenance/ydjutdy8-4440",
+        "headCommit": "687d4e3b5f4491b84dc7dee35f09f873a9a341c8",
+        "number": 25,
+        "observedAt": "2026-10-02T15:10:05.693915Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ТАТСОЦБАНК (Company.id 4440)",
+        "url": "https://github.com/zenmoney/banks/pull/25"
+      },
+      "reason": "Found directly published standalone SVG on Finuslugi's identified ТАТСОЦБАНК record, visually consistent with the orange three-part emblem in the bank's current official header. First addition, not a verified catalog render.",
+      "reviewPackage": {
+        "path": "evidence/4440/candidate-71c1b6f6941ad8cf24c14f3c4768b14359b915236364e551c34d123777860b19.json",
+        "sha256": "71c1b6f6941ad8cf24c14f3c4768b14359b915236364e551c34d123777860b19"
+      },
+      "sourceCandidate": {
+        "iconHash": "ff0d2898816f2648c8671d93f14330dacd72e5f07c1d8533bb536c7ff81fd0ca",
+        "path": "evidence/4440/research-3e7c613902b9491b8a633bb27a0a2338/fetch-9d670c172f834280b498428666668055/attempt-1/body.bin",
+        "rationale": "Original publisher-hosted standalone vector corresponds to current official three-part orange emblem, with no separate lettering. First addition. Kept source bytes unchanged after SVGO trial was larger.",
+        "retrieval": {
+          "path": "evidence/4440/research-3e7c613902b9491b8a633bb27a0a2338/fetch-9d670c172f834280b498428666668055/receipt.json",
+          "sha256": "6469e86835177e661971bc96e84678784adaa47a8406f83df4abac363fa56d1a"
+        },
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-049205703.svg",
+        "sourceMaterial": {
+          "path": "evidence/4440/source-material-376892c82e164bb2aae0ab8a2a9ce8f6/material.json",
+          "sha256": "39945adcfb6bf646121d91ca43925bd74d07f3d5c773e5dc51823841ef25f453"
+        },
+        "sourceUrl": "https://finuslugi.ru/banki/tatsocbank"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://tatsotsbank.ru/local/static/assets/images/main-logo.png",
+          "checkedAt": "2026-10-02T14:51:45.168112Z",
+          "independenceGroup": "Official bank publication",
+          "kind": "official",
+          "observation": "Fetched official header and viewed actual raster bytes (decoded JPEG despite .png URL): bank lettering followed by orange three-part upright emblem. Homepage offers products and dated 2026 notices; CSS only revealed raster preloader/logo references, unrelated font SVGs and loading spinner.",
+          "url": "https://tatsotsbank.ru"
+        },
+        {
+          "assetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-049205703.svg",
+          "checkedAt": "2026-10-02T14:54:25.261029Z",
+          "independenceGroup": "Finuslugi bank catalog",
+          "kind": "third-party",
+          "observation": "Fetched bank record binds exact SVG through img alt Логотип ТАТСОЦБАНК and JSON-LD BankOrCreditUnion. Actual SVG is standalone #EB6129 emblem on transparent 40x40 canvas; square mask does not intersect central emblem.",
+          "url": "https://finuslugi.ru/banki/tatsocbank"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T15:04:31.921853Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782",
+        "xmlSha256": "fc348f71ba53ead4dbc00b8b32d43c057502462abd6a8865a2acc313e3411afa"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
