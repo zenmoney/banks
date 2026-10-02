@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-02T10:47:24.350782Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4380/assessed-3b41dc6fd2edeb645159cb67499d98d08a47dd87274ee8efd885aec3a1d6571b.json",
+        "sha256": "3b41dc6fd2edeb645159cb67499d98d08a47dd87274ee8efd885aec3a1d6571b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "ЦБ РФ license registry (cbr.ru/finorg/foinfo/?ogrn=1027800000194) shows the operating license valid with no revocation; abank.ru is the bank's current site and favicon.svg carries the current mark (retrieved 2026-10-02T10:41:23Z).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "alexbank.ru (metadata URL) 302-redirects to abank.ru, the bank's own domain; favicon.svg is the site's own favicon mark (lowercase 'a' plus arc) matching the bank's branding; ЦБ РФ registry entry for ОГРН 1027800000194, рег. №53, confirms Банк «АЛЕКСАНДРОВСКИЙ» as an operating Saint Petersburg bank distinct from the unrelated revoked Moscow АПИБ «Александровский» (license revoked 1998-10-30).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official domain assets (abank.ru favicon and logo lockup) are one primary publication; the ЦБ РФ registry is an independent regulator source used only for identity/lifecycle, not for the design.",
+        "uncertainties": [
+          "favicon.svg is a compact standalone variant; the full official lockup (abank.ru/css/img/logo.ru.svg, 232x26) pairs the same emblem with wordmark text, which the catalog excludes — the standalone variant is proposed instead of the lockup."
+        ],
+        "variant": {
+          "basis": "Direct official SVG favicon at https://abank.ru/favicon.svg, Adobe Illustrator 25.2.3 export, viewBox 0 0 120 120, single fill #7B66A8, self-contained paths; original bytes kept as receipt with sha256 6541670682c15195dcb02ec49121797cff75ac4b9f7bfe93bca955f0ec01c289.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/aa6608b95f5c9013a4a910a38ae46088e0e8a22b8ce96cdecc0abb2b2626445d.json",
+        "sha256": "aa6608b95f5c9013a4a910a38ae46088e0e8a22b8ce96cdecc0abb2b2626445d"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Both paths (letter 'a' and arc) fully preserved; single flat fill #7B66A8; no internal detail lost by optimization; internal transparency kept.",
+        "faithful": true,
+        "iconHash": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd",
+        "path": "evidence/4380/candidate-8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd.svg",
+        "proportionsJudgement": "Mark fits the 120x120 square with natural margins; complete emblem inside the 54 dp icon area in both theme renders; legible at 24-48 px diagnostics; no clipping or stretching; no backing added (transparent standalone mark policy).",
+        "rationale": "First addition from the bank's own current favicon: standalone 'a'+arc mark, original official vector, no accompanying text.",
+        "role": "standalone transparent brand mark (lowercase 'a' plus arc); favicon of the official site, used as the site's icon",
+        "sha256": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd",
+        "sourceAssetUrl": "https://abank.ru/favicon.svg",
+        "sourceUrl": "https://abank.ru/favicon.svg",
+        "transforms": [
+          "no geometry transformation: source viewBox 0 0 120 120 preserved, emblem untouched, transparency preserved",
+          "SVGO 4.1.0 trial with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1030 -> 592 bytes, selected (smaller, visually identical in rsvg-convert and Desktop renders on both themes)"
+        ],
+        "variant": "current official standalone variant in #7B66A8 on transparent background; the full official lockup (logo.ru.svg) adds a wordmark and was rejected for the catalog",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: there is no existing icon at the frozen base, so the visible difference is absence of any icon versus the new mark."
+      },
+      "candidateIconHash": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd",
+      "checkedAt": "2026-10-02T10:47:24.350782Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "367c017c502ee0c8122b116eacc5fe37890987423e55840dcf0681d308638f10",
+        "head": "bank-icon-maintenance/4380",
+        "headCommit": "b855b30dc86b0cee6ecbb9dc5945a15414a46cc1",
+        "number": 18,
+        "observedAt": "2026-10-02T10:58:30.316065Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"АЛЕКСАНДРОВСКИЙ\" (Company.id 4380)",
+        "url": "https://github.com/zenmoney/banks/pull/18"
+      },
+      "reason": "First addition: bank record has no icon.svg. Found an original official vector (bank's own favicon.svg) whose standalone symbol is suitable for the catalog square cell.",
+      "reviewPackage": {
+        "path": "evidence/4380/candidate-5b811a033286cb981521ec04ad5ac0fd5aab10e51c66fb883322ab23e1805dcb.json",
+        "sha256": "5b811a033286cb981521ec04ad5ac0fd5aab10e51c66fb883322ab23e1805dcb"
+      },
+      "sourceCandidate": {
+        "iconHash": "6541670682c15195dcb02ec49121797cff75ac4b9f7bfe93bca955f0ec01c289",
+        "path": "evidence/4380/research-eb877259321949cdbe47e3ba533860fa/fetch-923a8b0bc31e4800a551f3844acd4d29/attempt-1/body.bin",
+        "rationale": "Original official vector: direct SVG download from the bank's own domain (not traced, not raster-backed, no embedded images). Standalone 'a'+arc symbol without accompanying text fits a square cell; verified visually as rsvg-convert renders at 240px on white and black backgrounds — complete emblem, correct #7B66A8 purple, legible on both themes.",
+        "retrieval": {
+          "path": "evidence/4380/research-eb877259321949cdbe47e3ba533860fa/fetch-923a8b0bc31e4800a551f3844acd4d29/receipt.json",
+          "sha256": "9d60f896129bec11a37ffe5311ebfda458aa42178436a63dd6bc9203e31d613f"
+        },
+        "sourceAssetUrl": "https://abank.ru/favicon.svg",
+        "sourceUrl": "https://abank.ru/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://abank.ru/favicon.svg",
+          "checkedAt": "2026-10-02T10:41:23Z",
+          "independenceGroup": "official primary publication (abank.ru site assets)",
+          "kind": "official",
+          "observation": "Direct SVG favicon of the bank's official site (linked from https://abank.ru/ page markup): standalone 'a'+arc mark, #7B66A8, viewBox 0 0 120 120, 1030 bytes, Illustrator export, no text or embedded raster.",
+          "url": "https://abank.ru/favicon.svg"
+        },
+        {
+          "assetUrl": "https://abank.ru/css/img/logo.ru.svg",
+          "checkedAt": "2026-10-02T10:41:00Z",
+          "independenceGroup": "official primary publication (abank.ru site assets)",
+          "kind": "official",
+          "observation": "Full official lockup 232x26: same emblem accompanied by the bank wordmark; excluded as catalog mark because of accompanying text.",
+          "url": "https://abank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T10:42:30Z",
+          "independenceGroup": "central bank regulator registry",
+          "kind": "third-party",
+          "observation": "ЦБ РФ license registry (cbr.ru/finorg/foinfo/?ogrn=1027800000194): Банк «АЛЕКСАНДРОВСКИЙ» (Санкт-Петербург) has a valid banking license, ОГРН 1027800000194, рег. №53; confirms operating status and identity, distinct from revoked Moscow namesake.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1027800000194"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T10:51:00Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd",
+        "xmlSha256": "91b5791106f02e6d89a6cb92c19eb449439562816ecbbeda69937c75e1bfe9bb"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
