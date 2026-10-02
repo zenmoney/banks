@@ -1,0 +1,71 @@
+{
+  "lastAttemptAt": "2026-10-02T14:28:44.894969Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Operating bank confirmed independently by regulator; currently retrieved official homepage links the standalone mask SVG and publishes September 2026 bank news.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official history explicitly connects catalog MKB Avers to current Avers bank; regulator registration 415 and official host corroborate identity.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official website supports asset and continuous identity; independent Bank of Russia database confirms operating bank and website. Website pages are one publisher, not multiple independent sources.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Observed original standalone vector is a complete circular intertwined Avers emblem, matching the center of the official full wordmark; no separate text or slogan. Square 16x16 viewBox and native circular contour are suitable for a catalog cell. Black source is an official mask, with intended display green #216b36 explicitly declared by the page.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "iconHash": "66809e9107cd01f8abb18f36d81f8972026742c778cb019c08fad91f38c9ce75",
+        "path": "evidence/4426/research-8863f57545e64e83bb45946b969c9b1f/fetch-b4ca06926aec463ebb8bbc575651b4ea/attempt-1/body.bin",
+        "rationale": "Add the officially linked original standalone Avers emblem, not the full wordmark, to the confirmed absent baseline. Independent rsvg source-reference inspection shows complete circular mark with clear internal cutouts and no text.",
+        "retrieval": {
+          "path": "evidence/4426/research-8863f57545e64e83bb45946b969c9b1f/fetch-b4ca06926aec463ebb8bbc575651b4ea/receipt.json",
+          "sha256": "470b6a7cc41526c38dd8a1f9f732d10746beb5db3dfdbeb3d8d3fb13637c592f"
+        },
+        "sourceAssetUrl": "https://aversbank.ru/local/styles/img/safari-pinned-tab.svg",
+        "sourceMaterial": {
+          "path": "evidence/4426/source-material-758077f487b94cd7ad1d939e1c8eff94/material.json",
+          "sha256": "05d4d02198e1e55e8d75cb52e22cacbf4055494ec1ca630258abfda14f178d9b"
+        },
+        "sourceUrl": "https://aversbank.ru/"
+      },
+      "candidateIconHash": "66809e9107cd01f8abb18f36d81f8972026742c778cb019c08fad91f38c9ce75",
+      "checkedAt": "2026-10-02T14:28:44.894969Z",
+      "reason": "First addition: no accepted SVG exists. Found native standalone vector directly linked by current official bank website; identity and operating lifecycle corroborated by Bank of Russia. The full text-bearing logo is rejected for square-cell use; pinned-tab emblem has no accompanying text.",
+      "sources": [
+        {
+          "assetUrl": "https://aversbank.ru/local/styles/img/safari-pinned-tab.svg",
+          "checkedAt": "2026-10-02T14:28:09Z",
+          "independenceGroup": "Avers official website",
+          "kind": "official",
+          "observation": "Live bank page links this standalone SVG as mask-icon with explicitly declared #216b36 display color. Footer identifies AO Bank Avers, licence 415, and news dated 24 September 2026. Official full logogreen.svg is Adobe Illustrator-exported green full bank wordmark with matching circular intertwined emblem.",
+          "url": "https://aversbank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T14:28:09Z",
+          "independenceGroup": "Avers official website",
+          "kind": "official",
+          "observation": "History identifies September 1990 registration as Medical Commercial Bank Avers (MKB Avers); continuous bank history runs through 2025, and same current AO Bank Avers footer. This directly maps abbreviated catalog title to current brand without successor substitution.",
+          "url": "https://aversbank.ru/about/about-the-bank/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T14:28:09Z",
+          "independenceGroup": "Bank of Russia regulator",
+          "kind": "third-party",
+          "observation": "Bank of Russia identifies AO Bank Avers as operating (Действует), universal-licence bank, registration number 415, and links aversbank.ru as official website.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1231600067654"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
