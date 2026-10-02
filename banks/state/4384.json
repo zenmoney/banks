@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-02T11:20:32.159985Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4384/assessed-0c55c0d44221cbee9f6643ac726c157baa6c91b2e9fef1d38551b03473064e7e.json",
+        "sha256": "0c55c0d44221cbee9f6643ac726c157baa6c91b2e9fef1d38551b03473064e7e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset served on the bank's current live website (fetched 2026-10-02); operating bank, current-use evidence.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Live official site title matches metadata title МОРСКОЙ БАНК; favicon emblem matches the emblem in the official header lockup.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from the same official site (one primary publication and its template assets); currency rests on live official serving, not copies.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone emblem variant published by the bank itself as favicon.svg; visually consistent with the emblem in the current lockup.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/a36ee2d8946f38b17d7d99db27093e2e125b3598995fceaa8a2014b4542d2714.json",
+        "sha256": "a36ee2d8946f38b17d7d99db27093e2e125b3598995fceaa8a2014b4542d2714"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem details survive: outer ring stroke, seven sail stripes, internal transparency holes between stripes are transparent (verified on light and dark renders); no clipping, no lost strokes",
+        "faithful": true,
+        "iconHash": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae",
+        "path": "evidence/4384/candidate-bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae.svg",
+        "proportionsJudgement": "Whole emblem fits the circle with original placement; no stretch or crop; recognizable at 24/32/48 px diagnostics on both themes",
+        "rationale": "First icon addition for МОРСКОЙ БАНК: the operating bank publishes a standalone original-vector emblem (favicon.svg) on its live site, matching the emblem in its official header lockup. No existing icon.svg at the frozen base.",
+        "role": "Standalone bank mark (globe with sail stripes), official favicon variant",
+        "sha256": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae",
+        "sourceAssetUrl": "https://maritimebank.com/favicon.svg",
+        "sourceUrl": "https://maritimebank.com",
+        "transforms": [
+          "Backing adaptation only: source rounded-square #FAFBFC field replaced by a same-color circle r=100 centered at 100,100; transparency preserved outside; emblem paths byte-identical, no scale/translation applied",
+          "SVGO 4.1.0 with frozen svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 3645 -> 2585 bytes; optimized selected (sha256 bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae) after visual comparison on both themes"
+        ],
+        "variant": "Same emblem/color variant as the current official header lockup; field adapted from the source rounded-square #FAFBFC canvas to a same-color circle per catalog plain-field policy",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: catalog changes from no icon.svg to a real icon; absent-to-real difference, not a comparison with any prior art."
+      },
+      "candidateIconHash": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae",
+      "checkedAt": "2026-10-02T11:20:32.159985Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ccf6fc908c42cec79bb98be2a4b6cdc122b873f4a43a0dad55b8c08a68965e53",
+        "head": "bank-icon-maintenance/4384",
+        "headCommit": "1f8292d47817332b61858b4fb9df461e139dffaa",
+        "number": 20,
+        "observedAt": "2026-10-02T11:28:21.062642Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МОРСКОЙ БАНК (Company.id 4384)",
+        "url": "https://github.com/zenmoney/banks/pull/20"
+      },
+      "reason": "Official standalone vector mark found on the operating bank's site: https://maritimebank.com/favicon.svg (200x200 globe-with-sail emblem, blues #04396B/#053A6B/#083C6D on a #FAFBFC rounded-square field). Same emblem appears at the left of the header lockup logo.svg, confirming it as the bank mark rather than a generic favicon.",
+      "reviewPackage": {
+        "path": "evidence/4384/candidate-bfa040e6cb944b2022771eb95e1fe94924b1369613c8c07b553e56cc4be02afc.json",
+        "sha256": "bfa040e6cb944b2022771eb95e1fe94924b1369613c8c07b553e56cc4be02afc"
+      },
+      "sourceCandidate": {
+        "iconHash": "53c0c61cffdf4e9c80f8eeb4a6a2cded43382b15793dc0afd098775fcea06a6d",
+        "path": "evidence/4384/research-4dd9892f300f44f4b7543c7a765b8d16/fetch-c397df4343634dd7bf21d11e71cbcfdb/attempt-1/body.bin",
+        "rationale": "Original vector standalone emblem from the bank's own site; no tracing or raster embedding; complete emblem with original colors and alpha.",
+        "retrieval": {
+          "path": "evidence/4384/research-4dd9892f300f44f4b7543c7a765b8d16/fetch-c397df4343634dd7bf21d11e71cbcfdb/receipt.json",
+          "sha256": "aaa81ab8e8121c866500b3879d0a3c1355bca34885f3b1202e4e44ca2b852560"
+        },
+        "sourceAssetUrl": "https://maritimebank.com/favicon.svg",
+        "sourceUrl": "https://maritimebank.com"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://maritimebank.com/favicon.svg",
+          "checkedAt": "2026-10-02T11:19:00Z",
+          "independenceGroup": "maritimebank.com official site",
+          "kind": "official",
+          "observation": "Homepage (84890 bytes) title 'МОРСКОЙ БАНК (АО) — банковские услуги...' matches metadata МОРСКОЙ БАНК (RU, maritimebank.com); bank operating. Header logo /local/templates/main/images/Logo_Onest.svg and logo.svg embed the same emblem left of the wordmark; favicon.svg is the standalone emblem (5728 bytes, sha256 53c0c61cffdf4e9c80f8eeb4a6a2cded43382b15793dc0afd098775fcea06a6d).",
+          "url": "https://maritimebank.com"
+        },
+        {
+          "assetUrl": "https://maritimebank.com/local/templates/main/images/logo.svg",
+          "checkedAt": "2026-10-02T11:19:00Z",
+          "independenceGroup": "maritimebank.com official site",
+          "kind": "official",
+          "observation": "Full lockup 469.59x62.83, single dark-blue fill #06204d; its left emblem equals the favicon emblem shape (globe with sail stripes), corroborating standalone variant currency.",
+          "url": "https://maritimebank.com/local/templates/main/images/logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T11:24:03.853458Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae",
+        "xmlSha256": "e4d40f0769e32b77003905198e4c598d216797dfc2904ea92d0d5a6e031dfa6d"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
