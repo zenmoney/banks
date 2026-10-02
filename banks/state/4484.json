@@ -1,0 +1,115 @@
+{
+  "lastAttemptAt": "2026-10-02T19:04:15.987350Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4484/assessed-4cfd3566d932b3fc383f74abc586d6a81f844b8131f14ff1065c94f0a41f75e9.json",
+        "sha256": "4cfd3566d932b3fc383f74abc586d6a81f844b8131f14ff1065c94f0a41f75e9"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Green NB-monogram-in-circle variant is in current use: raster logo on the live homepage (https://www.nico-bank.ru/, 2026-10-02) and vector logo.svg served by the bank's own internet-bank portal d2g.nico-bank.ru on 2026-10-02 show the same design (#00843E green).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official site nico-bank.ru titled 'НИКО-БАНК, Оренбург' (license 702); CBR registry OGRN 1025600001679 matches; trademark record 'НИКО НИКОБАНК NB НИКО БАНК' (companies.rbc.ru/trademark/428440).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official provenance established directly from the bank's two own domains (www.nico-bank.ru, d2g.nico-bank.ru); lifecycle corroborated by the independent regulator (cbr.ru) and trademark registry data (companies.rbc.ru).",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current variant: monogram 'N' over 'B' inside a circle, green #00843E, flanked by the wordmark 'НИКО' and 'БАНК'. Official SVG is a single self-contained <svg viewBox='0 0 348 99'> with 3 <path> elements, no <text>, no <image>, no external references; lettering is converted to paths.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Full source and both independent source/final pairs inspected: NB serifs, counters, circle and transparent gaps preserved; no lettering visible in final.",
+        "faithful": true,
+        "iconHash": "cf20736015b07cd33fbacc13ec181b3f91a773f77676387a4ae5515671b2f277",
+        "path": "evidence/4484/candidate-cf20736015b07cd33fbacc13ec181b3f91a773f77676387a4ae5515671b2f277.svg",
+        "proportionsJudgement": "Complete circle and NB retain original relative proportions. Both actual 240px Desktop frames show a centered 162px emblem without clipping; dark-theme green is lower contrast but recognizable.",
+        "rationale": "First icon addition: standalone original-vector NB monogram within its meaningful green circle; accompanying wordmark excluded via separate working viewport, no geometry redrawn.",
+        "role": "Standalone NB monogram within its original meaningful circular contour, transparent interior and exterior.",
+        "sha256": "cf20736015b07cd33fbacc13ec181b3f91a773f77676387a4ae5515671b2f277",
+        "sourceAssetUrl": "https://d2g.nico-bank.ru/ru/img/logo.svg",
+        "sourceUrl": "https://d2g.nico-bank.ru/ru/html/login.html",
+        "transforms": [
+          "Original root viewport changed from 0 0 348 99 to 127 0 99 99, width/height 99. Original d/fill bytes retained; viewport contains full circle (x127.015–225.967, y0.017–98.968), excludes separated wordmark.",
+          "SVGO 4.1.0, frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 94583 to 92276 bytes; selected cf20736015b07cd33fbacc13ec181b3f91a773f77676387a4ae5515671b2f277. Both-theme working/optimized images retain identical visible contours/color/alpha."
+        ],
+        "variant": "Current official #00843E green vector NB-in-circle; accompanying lettering excluded. No added backing or official-avatar claim.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon.svg at frozen base; actual final-only theme frames add the supported standalone emblem, not a blank baseline comparison."
+      },
+      "candidateIconHash": "cf20736015b07cd33fbacc13ec181b3f91a773f77676387a4ae5515671b2f277",
+      "checkedAt": "2026-10-02T19:04:15.987350Z",
+      "humanReview": "pending",
+      "reason": "Original vector found on the bank's own internet-bank portal (official, self-contained SVG, current use). The standalone NB-in-circle emblem is a spatially disconnected subpath of the source, isolated losslessly by viewport crop into evidence/4484/working.svg (original receipt/material binding preserved; original bytes retained unchanged). No tracing or redrawing involved; no independent alternative vector was needed.",
+      "reviewPackage": {
+        "path": "evidence/4484/candidate-668d0b76916d0690a325163bd089f995af1c2e41af4afac3a38d37acb6b585d3.json",
+        "sha256": "668d0b76916d0690a325163bd089f995af1c2e41af4afac3a38d37acb6b585d3"
+      },
+      "sourceCandidate": {
+        "iconHash": "2cb3d5c09b439988ec3dcda35f7d38d0e546fbc6c99aa074d5a853b9babf1728",
+        "path": "evidence/4484/research-ed285e4e99f0498581e95ea9d5479178/fetch-5857b1e3acde4a46b5fb89a49711b95a/attempt-1/body.bin",
+        "rationale": "First icon addition: standalone original-vector NB monogram within its meaningful green circle; accompanying wordmark excluded via separate working viewport, no geometry redrawn.",
+        "retrieval": {
+          "path": "evidence/4484/research-ed285e4e99f0498581e95ea9d5479178/fetch-5857b1e3acde4a46b5fb89a49711b95a/receipt.json",
+          "sha256": "3427e634d0277ae0ae9ed461868447c6c97f1b38ef7c88270b37388b63125bc7"
+        },
+        "sourceAssetUrl": "https://d2g.nico-bank.ru/ru/img/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/4484/source-material-3a82c2bf39c5406fa7f59b765e319610/material.json",
+          "sha256": "6215c04951f13ddd3de7c429ece72626ceb71957fa0d22671d99d40b63962e71"
+        },
+        "sourceUrl": "https://d2g.nico-bank.ru/ru/html/login.html"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.nico-bank.ru/wp-content/themes/orenpro/images/logo.png",
+          "checkedAt": "2026-10-02T18:50:00Z",
+          "independenceGroup": "nico-bank.ru official",
+          "kind": "official",
+          "observation": "Homepage title 'НИКО-БАНК, Оренбург | Генеральная лицензия №702'; header logo (485x160 WebP/PNG, sha256 a5f4308cca4edb7c759e5aa734a23563a6054d56be9ad9f9a3343b6627c26365, receipt evidence/4484/research-ed285e4e99f0498581e95ea9d5479178/fetch-268bbfad7a9248ffa51d40004cf4e563/receipt.json) shows green circle NB monogram with 'НИКО БАНК' wordmark on green field. No SVG or sprite on the WordPress homepage; only raster logos.",
+          "url": "https://www.nico-bank.ru/"
+        },
+        {
+          "assetUrl": "https://d2g.nico-bank.ru/ru/img/logo.svg",
+          "checkedAt": "2026-10-02T18:55:00Z",
+          "independenceGroup": "nico-bank.ru official",
+          "kind": "official",
+          "observation": "Internet-bank login page (actively maintained; fraud-prevention news PDF dated 30.09.2026) references ../img/logo.svg. The SVG (94,583 bytes, sha256 2cb3d5c09b439988ec3dcda35f7d38d0e546fbc6c99aa074d5a853b9babf1728) is a self-contained original vector: viewBox '0 0 348 99', fill #00843E, 3 paths, lettering as paths, no text/image elements. Rendered check shows NB monogram in circle between 'НИКО' and 'БАНК'.",
+          "url": "https://d2g.nico-bank.ru/ru/html/login.html"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T18:53:00Z",
+          "independenceGroup": "Central Bank of Russia",
+          "kind": "third-party",
+          "observation": "Bank of Russia registry: ПАО 'НИКО-БАНК', registration 02.11.1990, №702, БИК 045354814, status 'Банк с универсальной лицензией' as of fetch date; general license action date 10.09.2015. Receipt evidence/4484/research-ed285e4e99f0498581e95ea9d5479178/fetch-37328084e2ec490696bd82498725c0fe/receipt.json.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1025600001679"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T18:51:00Z",
+          "independenceGroup": "RBC Companies (trademark registry data)",
+          "kind": "third-party",
+          "observation": "Search-result summary (page not fetched): registered trademark 'НИКО НИКОБАНК NB НИКО БАНК' — supports the NB monogram as the registered mark of this entity.",
+          "url": "https://companies.rbc.ru/trademark/428440/niko-nikobank-nb-niko-bank/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-02T19:05:41.873214Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "cf20736015b07cd33fbacc13ec181b3f91a773f77676387a4ae5515671b2f277",
+        "xmlSha256": "887d80b3afe722233a6ee2440b98ae07a1b7e2d3523f723474d8d068f7b0de42"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
