@@ -1,0 +1,136 @@
+{
+  "lastAttemptAt": "2026-10-02T15:24:21.072363Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4441/assessed-22b6492e9f04b3bce088d0eda99a9402dfedf71dd0f346deba7de394a230e124.json",
+        "sha256": "22b6492e9f04b3bce088d0eda99a9402dfedf71dd0f346deba7de394a230e124"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Bank of Russia status is Действует. The live official business-account site currently links the selected SVG as its shortcut icon and the matching blue logo as an image; its product copy includes an account-opening offer through 31.12.2026. These current official source bytes support the operating brand, not merely the independent 2014 upload.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Bank of Russia identifies operating ПАО ЧЕЛИНДБАНК, OGRN 1027400000110, universal-license bank, and lists chelindbank.ru, chelind.ru and rko.chelind.ru as its websites. The rko.chelind.ru page identifies ПАО ЧЕЛИНДБАНК and its downloaded logo spells ЧЕЛИНДБАНК. No parent or successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank of Russia independently establishes legal identity, operating lifecycle and official domains. The official rko page and its Tilda CDN assets are one primary publication group, not independent confirmations. Cyclowiki is a separate historical upload attributed by search to the bank brandbook; it is corroboration only, not the selected source or current color authority.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The official 40×40 SVG consists of one original vector path filled #0630B8, forming a blue circular emblem with internal transparent lightning/monogram cutouts. Independent source render shows the same emblem geometry beside the bank name, but a different older blue. The official favicon and current official full logo visually agree in geometry and blue. Standalone favicon has no accompanying lettering and fits a square cell without shrinking a wordmark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/61b095e8c94cdac3c9dcdb6aa53594536d04641eb2385db40c4392b7eff422de.json",
+        "sha256": "61b095e8c94cdac3c9dcdb6aa53594536d04641eb2385db40c4392b7eff422de"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Full original raster and both source/final pairs inspected. Circle, sharp lightning tips, rounded internal ends and narrow central gap match; transparent holes show the actual theme, not white paint. No lettering or clipped details.",
+        "faithful": true,
+        "iconHash": "388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a",
+        "path": "evidence/4441/candidate-388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a.svg",
+        "proportionsJudgement": "Exact 240px Compose frames center complete 162px emblem with intact circular boundary. Resized 24/32/48px diagnostics preserve recognizable monogram; blue has lower contrast on dark but remains legible. No arbitrary padding or masking.",
+        "rationale": "First addition of the current official standalone Chelindbank vector favicon; frozen baseline has no icon.",
+        "role": "standalone bank emblem",
+        "sha256": "388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a",
+        "sourceAssetUrl": "https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg",
+        "sourceUrl": "https://rko.chelind.ru/",
+        "transforms": [
+          "No emblem, color, backing or placement transformation; preserve source viewBox 0 0 40 40 and internal alpha.",
+          "SVGO 4.1.0, frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1255 to 997 bytes; selected optimized SHA256 388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a. Independent working/optimized light and dark comparisons show no visible geometry, color or transparency loss."
+        ],
+        "variant": "Official #0630B8 circular emblem with transparent internal lightning/monogram cutouts; meaningful contour, not an added backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no existing icon.svg at frozen base; real standalone bank emblem appears. No dummy baseline or rebrand claim."
+      },
+      "candidateIconHash": "388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a",
+      "checkedAt": "2026-10-02T15:24:21.072363Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "698583f73a1492d210a91b5429ca3619bb0b9ec1c46d6169f70c54fc8e7399eb",
+        "head": "bank-icon-maintenance/vbq3cbi1-4441",
+        "headCommit": "25039abadcfb8c9e94cf16f4836a3000e4015c9b",
+        "number": 26,
+        "observedAt": "2026-10-02T15:32:21.153010Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+        "url": "https://github.com/zenmoney/banks/pull/26"
+      },
+      "reason": "A current official business-account site publishes an original standalone SVG favicon matching its full ЧЕЛИНДБАНК logo. The selected bank has no baseline icon; recommend first addition, subject to coordinator candidate rendering and review.",
+      "reviewPackage": {
+        "path": "evidence/4441/candidate-6adf40d3c1b1d3b09d66f38747ced166545f82046d0ba58a753d0fd8e4741755.json",
+        "sha256": "6adf40d3c1b1d3b09d66f38747ced166545f82046d0ba58a753d0fd8e4741755"
+      },
+      "sourceCandidate": {
+        "iconHash": "24f28596427b825fc6bf46b4b908777a8cf38779683243193003984d8aa76436",
+        "path": "evidence/4441/research-91de63332ab745539315bd3103ee7058/fetch-4cb521dc420843759d8dca53b7a747e6/attempt-1/body.bin",
+        "rationale": "First addition from an officially published original vector favicon; no tracing, no wordmark cropping and no successor substitution. Preserve complete circular blue silhouette and internal alpha. No extra backing or recoloring required. Candidate render approval not performed in research.",
+        "retrieval": {
+          "path": "evidence/4441/research-91de63332ab745539315bd3103ee7058/fetch-4cb521dc420843759d8dca53b7a747e6/receipt.json",
+          "sha256": "48c0a1068cbf2ff4bfe7cc709b6c83be74daec3a016d29a038db75a422e964b1"
+        },
+        "sourceAssetUrl": "https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg",
+        "sourceUrl": "https://rko.chelind.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T15:21:19Z",
+          "independenceGroup": "Bank of Russia registry",
+          "kind": "third-party",
+          "observation": "Downloaded regulator HTML identifies ПАО ЧЕЛИНДБАНК, status Действует, universal-license bank, OGRN 1027400000110 and official rko.chelind.ru / chelindbank.ru / chelind.ru domains.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1027400000110"
+        },
+        {
+          "assetUrl": "https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg",
+          "checkedAt": "2026-10-02T15:21:19.772727Z",
+          "independenceGroup": "Chelindbank official rko publication and CDN",
+          "kind": "official",
+          "observation": "Downloaded official page declares this exact SVG as shortcut icon. Actual 1255-byte SVG is one path, explicit fill #0630B8 and viewBox 0 0 40 40, no raster, external dependency or text. Independently rendered and visually read: blue circular standalone bank emblem with transparent internal cutouts.",
+          "url": "https://rko.chelind.ru/"
+        },
+        {
+          "assetUrl": "https://static.tildacdn.com/tild3966-3363-4764-a265-323463623662/logo_2.svg",
+          "checkedAt": "2026-10-02T15:21:19Z",
+          "independenceGroup": "Chelindbank official rko publication and CDN",
+          "kind": "official",
+          "observation": "Downloaded official page-linked full SVG logo renders the same circular emblem beside ЧЕЛИНДБАНК lettering in the same blue. Full wordmark itself is unsuitable for square catalog use; its separately published favicon is suitable.",
+          "url": "https://rko.chelind.ru/"
+        },
+        {
+          "assetUrl": "https://data.cyclowiki.org/images/b/b2/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg",
+          "checkedAt": "2026-10-02T15:21:19Z",
+          "independenceGroup": "Cyclowiki historical upload",
+          "kind": "third-party",
+          "observation": "Search reports 2014 upload attributed to bank brandbook; provenance page transfer failed. Actual SVG downloaded from observed /images/b/b2 URL, created with sK1/UniConvertor, titled Chelindbank logo; render shows same emblem with full bank wordmark in an older blue. Not selected because official current standalone source is stronger. Earlier search-returned /file URL returned 404.",
+          "url": "https://cyclowiki.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB%3A%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T15:21:19Z",
+          "independenceGroup": "Chelindbank official sites",
+          "kind": "official",
+          "observation": "Official main-site HTTPS transfer failed, packaged-CA retry retained. ibank application returned HTTP 403 or empty response. www.chelind.ru and chelind.ru transfers also failed; these are retrieval limitations, resolved for source selection by the independently attributed working rko site.",
+          "url": "https://chelindbank.ru"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T15:27:54.024399Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a",
+        "xmlSha256": "96847a2393334c190a190077cec4eefca4babb02594c4eab614ddfc705c29e3b"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
