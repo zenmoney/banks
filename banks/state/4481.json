@@ -1,0 +1,130 @@
+{
+  "lastAttemptAt": "2026-10-02T18:34:01.544480Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4481/assessed-d77d1f0a8eeae21458ced8f18b8555ca29493dfe9b31e72f540d900af80619ea.json",
+        "sha256": "d77d1f0a8eeae21458ced8f18b8555ca29493dfe9b31e72f540d900af80619ea"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "live official site of the operating (renamed) bank serves this SVG as its current header logo",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "official rrb.ru page of the same legal entity (CBR OGRN 1026000001983) with logo alt='РусьРегионБанк'",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "official live site (g1) corroborated by archived official site history (g2) and CBR/search records (g3)",
+        "uncertainties": [
+          "the vector represents the current renamed-brand presentation (РРБ/РусьРегионБанк lockup); the historical pre-rename rrbank.ru branding is preserved only as rasters"
+        ],
+        "variant": {
+          "basis": "single current vector variant on the official site; historical site eras were raster-only",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem details (tower, roofs, flag, staircase steps) preserved; single #283370 fill; internal transparency retained; no gradients or masks in source.",
+        "faithful": true,
+        "iconHash": "75b3914ef38160f86333502c5ea8ea838fddd5fe1881912fc84b5e0a6051c00c",
+        "path": "evidence/4481/candidate-75b3914ef38160f86333502c5ea8ea838fddd5fe1881912fc84b5e0a6051c00c.svg",
+        "proportionsJudgement": "Emblem aspect 32.92x28.15 fills a square cell with small uniform clearance; original proportions kept, no crop or distortion.",
+        "rationale": "First icon for the record: the standalone Kremlin-tower-and-staircase emblem extracted losslessly from the official site's current vector logo (same legal entity, renamed АО «РРБ»; page metadata and logo alt retain 'РусьРегионБанк'). The wide wordmark lockup is accompanying text and is rejected for a square cell; the emblem subvector is the source's standalone symbol.",
+        "role": "standalone brand emblem from the official header lockup",
+        "sha256": "75b3914ef38160f86333502c5ea8ea838fddd5fe1881912fc84b5e0a6051c00c",
+        "sourceAssetUrl": "https://rrb.ru/local/templates/.default/assets/images/logo.svg",
+        "sourceUrl": "https://rrb.ru/local/templates/.default/assets/images/logo.svg",
+        "transforms": [
+          "subvector selection: kept the emblem path (bbox 0..32.9204 x 0..28.1533) from the original 286x29 lockup SVG; no coordinate or geometry edits",
+          "no scaling or translation applied; viewBox set to the emblem bounding box 0 0 32.9204 28.1533",
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), multipass: 2482 -> 1816 bytes; selected optimized bytes after visual working-vs-optimized comparison on both themes (rsvg-convert reference renders identical)"
+        ],
+        "variant": "current single-color #283370 emblem variant served on the live official site",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the record previously had no icon.svg at the frozen base commit, so the visible difference is absent-to-real-icon."
+      },
+      "candidateIconHash": "75b3914ef38160f86333502c5ea8ea838fddd5fe1881912fc84b5e0a6051c00c",
+      "checkedAt": "2026-10-02T18:34:01.544480Z",
+      "humanReview": "pending",
+      "reason": "The live official domain of the bank redirects to rrb.ru (the same legal entity, later renamed АО «РРБ»/«Русский Региональный Банк»); its pages carry meta keywords 'РусьРегионБанк' and the header logo img alt='РусьРегионБанк'. The current official site serves the header logo as an original vector: https://rrb.ru/local/templates/.default/assets/images/logo.svg (image/svg+xml, 10419 bytes, 286x29 viewBox), retrieved over verified HTTPS. The historical rrbank.ru site (Wayback 1999-2010) used only raster logos (logo.gif, logo1.jpg, logo2.jpg, rusregionbank.gif); its archived asset inventory contains no .svg. The live-site SVG is the only original-vector resource found and represents the current brand of the same legal entity.",
+      "reviewPackage": {
+        "path": "evidence/4481/candidate-d6bfde7ceb589c19d3fd023ef0c29486ff499ea6eb047f63e9f331194e39af41.json",
+        "sha256": "d6bfde7ceb589c19d3fd023ef0c29486ff499ea6eb047f63e9f331194e39af41"
+      },
+      "sourceCandidate": {
+        "iconHash": "1165044d90d7b0e684fe1a09df50a290c50b8ddda846202b6ff14be12a9f12f7",
+        "path": "evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/fetch-0cb8ceeb4a1c4cd6aabb8270785707bf/attempt-2/body.bin",
+        "rationale": "Header logo of the official site of the same legal entity (renamed АО «РРБ»; pages still reference РусьРегионБанк, alt='РусьРегионБанк'); a genuine standalone vector file (image/svg+xml, 10419 bytes, 286x29 viewBox), not a raster embed or trace; it is the current brand mark of the operating bank, so it satisfies the first-icon addition for this record.",
+        "retrieval": {
+          "path": "evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/fetch-0cb8ceeb4a1c4cd6aabb8270785707bf/receipt.json",
+          "sha256": "e2c4413578163b96085a2f01050ccb4c00e8745d96d0f643a39e0631107b9997"
+        },
+        "sourceAssetUrl": "https://rrb.ru/local/templates/.default/assets/images/logo.svg",
+        "sourceUrl": "https://rrb.ru/local/templates/.default/assets/images/logo.svg"
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-02T18:21:55Z",
+          "independenceGroup": "g1",
+          "kind": "official",
+          "observation": "302 redirect chain to rrb.ru; TLS on www.rrb.ru/rrb.ru only validates with Russian trusted CA bundle; no content retrieved directly",
+          "receipt": "evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/fetch-78eda2c008d54c5a8f9ca800169ef370/receipt.json",
+          "url": "https://rrbank.ru/"
+        },
+        {
+          "checkedAt": "2026-10-02T18:26:00Z",
+          "independenceGroup": "g1",
+          "kind": "official",
+          "observation": "Live official page; meta keywords 'РусьРегионБанк'; header <img src=\"/local/templates/.default/assets/images/logo.svg\" alt=\"РусьРегионБанк\">; also biglogo.svg and logo_white.svg",
+          "receipt": "evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/fetch-48e68eba669a4d24958afd652a7f769a/receipt.json",
+          "url": "https://rrb.ru/about/"
+        },
+        {
+          "assetUrl": "https://rrb.ru/local/templates/.default/assets/images/logo.svg",
+          "checkedAt": "2026-10-02T18:27:00Z",
+          "independenceGroup": "g1",
+          "kind": "official",
+          "observation": "HTTP 200, image/svg+xml, 10419 bytes, real <svg> markup — original vector logo resource",
+          "receipt": "evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/fetch-0cb8ceeb4a1c4cd6aabb8270785707bf/receipt.json",
+          "url": "https://rrb.ru/local/templates/.default/assets/images/logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-02T18:25:00Z",
+          "independenceGroup": "g2",
+          "kind": "official",
+          "observation": "Full archived asset inventory contains no .svg; logo assets are logo.gif, logo1.jpg, logo2.jpg, rusregionbank.gif — raster only",
+          "receipt": "evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/fetch-4874b7bcb1084003bf7c08900ff81309/receipt.json",
+          "url": "https://web.archive.org/cdx/search/cdx?url=rrbank.ru*&collapse=urlkey"
+        },
+        {
+          "checkedAt": "2026-10-02T18:24:00Z",
+          "independenceGroup": "g2",
+          "kind": "official",
+          "observation": "Operating-period homepage uses raster /images/logo2.jpg (150x26) and menu.swf; no inline SVG",
+          "receipt": "evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/fetch-511effeb258b41e596e9f9ccef021bea/receipt.json",
+          "url": "https://web.archive.org/web/20060211091019/http://www.rrbank.ru/"
+        },
+        {
+          "checkedAt": "2026-10-02T18:29:00Z",
+          "independenceGroup": "g3",
+          "kind": "third-party",
+          "observation": "CBR record OGRN 1026000001983 confirms the same legal entity behind rrb.ru and the historical РусьРегионБанк (rename, not a different successor); no third-party SVG exists (search evidence evidence/4481/research-d3a6ff564a8f43559c59ca8c73082e1e/search-1.json and search-2.json)",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1026000001983"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-02T18:38:30Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "75b3914ef38160f86333502c5ea8ea838fddd5fe1881912fc84b5e0a6051c00c",
+        "xmlSha256": "c7da41069fc417b7ac4904241910fdc5a40cbe2bd94ad895e816c7181234dbf4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
