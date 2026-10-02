@@ -104,6 +104,72 @@ class CatalogGeneratorTest {
         assertTrue(output.resolve("composeResources/drawable/bank_12.xml").readText().contains("654321"))
         assertEquals(1, manifest(output).getAsJsonArray("entries").size())
     }
+    @Test fun `candidate renders metadata-only bank without creating an accepted icon`() {
+        val directory = bank("NoImage_26-ru", 26, "NoImage")
+        Files.delete(directory.resolve("icon.svg"))
+        val metadata = Files.readAllBytes(directory.resolve("info.json"))
+        val candidate = root.resolve("candidate.svg")
+        Files.writeString(candidate, svg)
+        val (code, output) = generate("--id", "26", "--candidate", candidate.toString())
+        assertEquals(0, code)
+        val item = entry(output)
+        assertTrue(item.get("error").isJsonNull)
+        assertTrue(item.get("sourceValidated").asBoolean)
+        assertEquals(candidate.toString(), item.get("sourcePath").asString)
+        assertEquals(sha(Files.readAllBytes(candidate)), item.get("sourceSha256").asString)
+        val xml = output.resolve("composeResources/drawable/bank_26.xml")
+        assertEquals(sha(Files.readAllBytes(xml)), item.get("xmlSha256").asString)
+        assertTrue(xml.readText().contains("pathData"))
+        assertFalse(Files.exists(directory.resolve("icon.svg")))
+        assertTrue(metadata.contentEquals(Files.readAllBytes(directory.resolve("info.json"))))
+    }
+    @Test fun `candidate cannot bypass metadata or duplicate ID errors for metadata-only banks`() {
+        val cases = listOf(
+            "Wrong_99-ru" to """{"id":27,"title":"Wrong"}""",
+            "Wrong_27-ru" to """{"id":27,"title":"Wrong","countryCode":"us"}""",
+            "Wrong_27-ru" to """{"id":27,"title":"Wrong","countryCode":7}""",
+            "Wrong_27-ru" to """{"id":27,"title":""}""",
+            "Wrong_27-ru" to """{"id":"27","title":"Wrong"}"""
+        )
+        val candidate = root.resolve("candidate.svg")
+        Files.writeString(candidate, svg)
+        for ((folder, metadata) in cases) {
+            val directory = Files.createDirectories(root.resolve("banks/$folder"))
+            Files.writeString(directory.resolve("info.json"), metadata)
+            val (code, output) = generate("--id", "27", "--candidate", candidate.toString())
+            assertTrue(code != 0, metadata)
+            assertFalse(Files.exists(output.resolve("composeResources/drawable/bank_27.xml")))
+            assertFalse(Files.exists(directory.resolve("icon.svg")))
+            Files.delete(directory.resolve("info.json"))
+            Files.delete(directory)
+        }
+        for (folder in listOf("First_27-ru", "Second_27-ru")) {
+            val directory = Files.createDirectories(root.resolve("banks/$folder"))
+            Files.writeString(directory.resolve("info.json"), """{"id":27,"title":"Listed"}""")
+        }
+        val (code, output) = generate("--id", "27", "--candidate", candidate.toString())
+        assertEquals(1, code)
+        assertTrue(manifest(output).getAsJsonArray("entries").all { !it.asJsonObject.get("error").isJsonNull })
+        assertFalse(Files.exists(output.resolve("composeResources/drawable/bank_27.xml")))
+    }
+    @Test fun `candidate never creates an unknown bank or falls back to accepted SVG`() {
+        val accepted = bank("Existing_28-ru", 28, "Existing").resolve("icon.svg")
+        val original = Files.readAllBytes(accepted)
+        val candidate = root.resolve("candidate.svg")
+        Files.writeString(candidate, svg)
+        val (unknownCode, unknownOutput) = generate("--id", "29", "--candidate", candidate.toString())
+        assertEquals(2, unknownCode)
+        assertFalse(Files.exists(unknownOutput.resolve("manifest.json")))
+        Files.delete(candidate)
+        val (missingCode, missingOutput) = generate("--id", "28", "--candidate", candidate.toString())
+        assertEquals(1, missingCode)
+        assertFalse(Files.exists(missingOutput.resolve("composeResources/drawable/bank_28.xml")))
+        Files.writeString(candidate, svg.replace("<path", "<image href=\"photo.png\"/><path"))
+        val (unsafeCode, unsafeOutput) = generate("--id", "28", "--candidate", candidate.toString())
+        assertEquals(1, unsafeCode)
+        assertFalse(Files.exists(unsafeOutput.resolve("composeResources/drawable/bank_28.xml")))
+        assertTrue(original.contentEquals(Files.readAllBytes(accepted)))
+    }
     @Test fun `unsafe SVG and converter diagnostics remain errors without drawable resources`() {
         val cases = listOf(
             """<!DOCTYPE svg [<!ENTITY x SYSTEM "file:///etc/passwd">]><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">&x;</svg>""",
@@ -155,7 +221,8 @@ class CatalogGeneratorTest {
         assertEquals(1, manifest(bulkOutput).getAsJsonArray("entries").size())
         val (selectedCode, selectedOutput) = generate("--id", "14")
         assertEquals(1, selectedCode)
-        assertTrue(entry(selectedOutput).get("error").asString.contains("Missing icon.svg"))
+        assertFalse(entry(selectedOutput).get("error").isJsonNull)
+        assertTrue(entry(selectedOutput).get("sourceSha256").isJsonNull)
         assertTrue(entry(selectedOutput).get("resourceName").isJsonNull)
     }
     @Test fun `explicit dimensions and viewBox stay distinct while percentages remain ambiguous`() {

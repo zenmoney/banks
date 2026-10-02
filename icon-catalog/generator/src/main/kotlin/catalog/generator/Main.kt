@@ -62,6 +62,8 @@ fun run(args: Array<String>): Int {
             entry.sourcePath = options.candidate.toAbsolutePath().normalize().toString()
         }
     }
+    for (entry in selected) if (entry.error == null && !Files.isRegularFile(entry.source))
+        entry.error = "Missing SVG source: ${entry.source}"
     val drawable = output.resolve("composeResources/drawable")
     try {
         val previousResources = previousResourceNames(output.resolve("manifest.json"))
@@ -161,7 +163,6 @@ private fun loadBank(directory: Path, banks: Path): Bank {
     if (country != null && suffix != null && !suffix.groupValues[2].equals(country, ignoreCase = true)) bank.error = "Folder country differs from info.json countryCode $country"
     if (suffix != null && title != null && directory.fileName.toString().removeSuffix(suffix.value) != title)
         bank.warnings += "Folder title differs from info.json title"
-    if (!Files.isRegularFile(icon)) bank.error = "Missing icon.svg"
     return bank
 }
 

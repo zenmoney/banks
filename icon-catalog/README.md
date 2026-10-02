@@ -21,7 +21,7 @@ To use a different working dataset and a candidate (absolute paths):
 ./gradlew --no-daemon :catalog:run -PcatalogBanks=/path/to/worktree/banks -PcatalogId=3 -PcatalogCandidate=/path/to/final.svg
 ```
 
-The candidate replaces only the validation input for the selected existing ID, not the accepted asset. This is not a variant-selection feature in the detail view. An error in the selected input stops generation with a nonzero exit code before the renderer starts. When generating the full catalog, the error stays in the corresponding card without blocking other banks.
+The candidate replaces only the render/validation input for the selected existing metadata ID, including a metadata-only bank without `icon.svg`; it never creates a bank or writes an accepted icon. Effective source is chosen before missing-source validation. Invalid metadata, duplicate IDs and folder ID/country disagreement still block; missing/unsafe candidates never fall back to the base. Without a candidate, a selected metadata-only bank fails missing-source validation (bulk still omits it). This is not variant selection. Selected errors stop generation before rendering; bulk errors stay local to their cards.
 
 ### Desktop: headless export
 
