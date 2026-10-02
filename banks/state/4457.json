@@ -1,0 +1,116 @@
+{
+  "lastAttemptAt": "2026-10-02T16:45:17.789478Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4457/assessed-44ab597309bf68d4029f654b80f7bf3fb9a1d04dbcac5bb4c88f460351f9b29a.json",
+        "sha256": "44ab597309bf68d4029f654b80f7bf3fb9a1d04dbcac5bb4c88f460351f9b29a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Operating bank per Bank of Russia registry; the live site asset is the current presentation.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "solid.ru is the official site of the Samara bank КБ «Солидарность» (reg. 554); the favicon and the header 'sign' group on the same page are the bank's own circular emblem.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The official site asset and the CBR registry are independent; the header-lockup comparison was made on the same official homepage asset.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The standalone favicon variant of the circular mark, brand color #DB0334, matches the sign group of the official header lockup currently on the site.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/228d16d351badceda6bb49f26652516c898162b05fc3cbcbcfab9b67f459371b.json",
+        "sha256": "228d16d351badceda6bb49f26652516c898162b05fc3cbcbcfab9b67f459371b"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The circular field, the diagonal slash and the lens-shaped counter survive optimization and rendering on both themes with the brand color #DB0334 unchanged; no lost detail or artifacts.",
+        "faithful": true,
+        "iconHash": "13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e",
+        "path": "evidence/4457/candidate-13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e.svg",
+        "proportionsJudgement": "The mark fills its square viewBox with even margins and stays recognizable at 24/32/48 px diagnostics on both themes; complete fit including the slash reaching the rim verified.",
+        "rationale": "First addition for an existing record without an icon. The operating bank's official favicon is a genuine original vector and already the standalone circular emblem in brand color #DB0334, matching the 'sign' group of the official header lockup; no wordmark removal or backing change was needed.",
+        "role": "Standalone circular bank emblem (circular field cut by a white slash and lens), served by the bank itself as its sitewide vector favicon.",
+        "sha256": "13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e",
+        "sourceAssetUrl": "https://solid.ru/favicon.svg",
+        "sourceUrl": "https://solid.ru/",
+        "transforms": [
+          "No geometry, color or alpha edits: the working SVG is the byte-identical fetched favicon; no placement transform needed as the mark fills its 120x120 viewBox.",
+          "SVGO 4.1.0 with repository config svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), multipass: 2601 -> 1518 bytes; selected (optimized.svg sha256 13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e) after working-versus-optimized render comparison showed only antialiasing rounding (5 pixels above diff threshold 8, max channel delta 64 on antialiased edges); viewport preserved."
+        ],
+        "variant": "Original vector emblem on a transparent field; no circular catalog backing applied because the mark is itself circular and a suitable transparent standalone symbol; the white slash gaps are transparent, showing the theme background exactly as in the source.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this bank (iconHash null); the visible difference is absent-to-real-icon."
+      },
+      "candidateIconHash": "13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e",
+      "checkedAt": "2026-10-02T16:45:17.789478Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "655cb2497774d9c1334fdce95b0c64b16f43c42b2dd5eb0b27d33631c87920f2",
+        "head": "bank-icon-maintenance/4457",
+        "headCommit": "9f7812d68a8df3bf5b695149b2e204be6d0444d5",
+        "number": 29,
+        "observedAt": "2026-10-02T16:51:39.444294Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБ \"Солидарность\" (Company.id 4457)",
+        "url": "https://github.com/zenmoney/banks/pull/29"
+      },
+      "reason": "Original vector found on the operating bank's official site: https://solid.ru/favicon.svg, the standalone circular 'sign' emblem of КБ «Солидарность» in brand color #DB0334, a 120x120 square vector served sitewide as the favicon and matching the 'sign' group of the official header lockup (i_logo_full inline SVG on the homepage, where the same mark precedes the СОЛИДАРНОСТЬ wordmark). The bank is active (Bank of Russia reg. 554); the 2023 revocation rumor refers to the unrelated Moscow namesake bank revoked 2017-12-15.",
+      "reviewPackage": {
+        "path": "evidence/4457/candidate-7ebb25137066ecdc7de3ccd50c3205f7fad8229a4218a3739d9a5ce9f70a21a4.json",
+        "sha256": "7ebb25137066ecdc7de3ccd50c3205f7fad8229a4218a3739d9a5ce9f70a21a4"
+      },
+      "sourceCandidate": {
+        "iconHash": "e0d75513e80933c1f27d49c2fd73d11e910409c1078221dee76b446f57ed481c",
+        "path": "evidence/4457/research-745e924c4d2845c68f52c591d9da6942/fetch-b9ad8205ea68415a86d4daae08fef42b/attempt-2/body.bin",
+        "rationale": "Genuine original vector served by the operating bank's official site; first addition for a record without an icon. The favicon is already the standalone emblem (no wordmark to remove).",
+        "retrieval": {
+          "path": "evidence/4457/research-745e924c4d2845c68f52c591d9da6942/fetch-b9ad8205ea68415a86d4daae08fef42b/receipt.json",
+          "sha256": "f67c5955b5ea93224a43b86864f3f59859336d690a7491b709ffbdff19fce492"
+        },
+        "sourceAssetUrl": "https://solid.ru/favicon.svg",
+        "sourceMaterial": {
+          "path": "evidence/4457/source-material-c9163da345f746ed9128b8823e820c29/material.json",
+          "sha256": "81a2e75111020b61f30625e3654392511fa00dfff7333d51db38445cbf986f89"
+        },
+        "sourceUrl": "https://solid.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://solid.ru/favicon.svg",
+          "checkedAt": "2026-10-02T16:44:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Official homepage declares <link rel=icon type=image/svg+xml href=/favicon.svg> and carries the header lockup (inline SVG i_logo_full) whose 'sign' group is the same circular mark; the standalone favicon.svg (2601 bytes) draws the mark in brand red #DB0334 on a transparent field.",
+          "url": "https://solid.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T16:44:00Z",
+          "independenceGroup": "regulator",
+          "kind": "official",
+          "observation": "Bank of Russia registry: АО КБ «Солидарность» (Samara, reg. 554, OGRN 1026300001848) is operating; the Moscow namesake 'Солидарность' whose license was revoked 2017-12-15 is a different entity.",
+          "url": "https://cbr.ru/finorg/foinfo/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T16:47:15.883129Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e",
+        "xmlSha256": "9ef8d85b00425dad6a9c8deba6ded26acdae4676b813a67f2a3b3d0df927bae9"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
