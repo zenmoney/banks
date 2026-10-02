@@ -1,0 +1,132 @@
+{
+  "lastAttemptAt": "2026-10-02T13:18:21.179483Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4404/assessed-2054f2f056218b333efab29c85e35a88b0dd008792d2d9977da07da20802be06.json",
+        "sha256": "2054f2f056218b333efab29c85e35a88b0dd008792d2d9977da07da20802be06"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Mark observed in live use 2026-10-02 on the bank's main site header and online-banking login; registry shows the bank operating with a charter amended 14.05.2026; Kommersant dates the design to the current brand period (from Nov 2024).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "CB Russia registry binds uralfd.ru/bankdom.ru to АО КБ «Урал ФД» (ОГРН 1025900000048, license 249, Perm); Kommersant confirms the bank's membership in the Дом.ру/ЭР-Телеком group and the Nov-2024 rebrand. Distinct from Банк ДОМ.РФ (domrfbank.ru) — verified separate entity.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "State registry (Bank of Russia), two bank-owned web properties, and independent press (Kommersant) agree on entity, group membership, rebrand timing and the mark.",
+        "uncertainties": [
+          "No mark-only SVG is published; the candidate isolates paths 1–3 of the official lockup (lossless subset) because carving from the official vector is the only route to a standalone mark and the raster favicon is research-only.",
+          "Record title «Дом.ру Банк» reflects the previous retail brand; current naming varies («Банк Урал ФД» site title, «урал фд банк» in online banking, press «Дом.ру»). The mark itself is identical across surfaces; metadata wording may deserve a separate correction."
+        ],
+        "variant": {
+          "basis": "Positive red #FF312C lockup (site header) and white-on-dark variant (online-banking login) of the same three-glyph mark; the standalone mark is officially used in the app-style favicon. No mark-only SVG is published; the candidate is the lossless subset of the official lockup's first three paths.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All three glyphs complete with their interior cutouts preserved (circle notch, square notch); no detail loss, no clipping at any size tested; gradients none, flat #FF312C only.",
+        "faithful": true,
+        "iconHash": "6e4a68dae34c154bf01ba4b343741448a3490485952da169abafad6ad24d27e0",
+        "path": "evidence/4404/candidate-6e4a68dae34c154bf01ba4b343741448a3490485952da169abafad6ad24d27e0.svg",
+        "proportionsJudgement": "Original wide 72.95×26 proportions preserved without distortion; the mark fits the square cell using the catalog's standard centered icon area at useful size and remains recognizable on both themes.",
+        "rationale": "Standalone three-glyph mark of the bank's current brand period (from the Nov-2024 Дом.ру ecosystem rebrand), isolated losslessly from the official header lockup vector; the bank uses the same mark standalone in its official favicon and identically in the online-banking white variant, so the mark-only form is the officially supported icon form. The separate «урал фд» wordmark is excluded per the catalog standalone-mark rule.",
+        "role": "Standalone bank mark (three glyphs: triangle, circle with notch, notched square) in the bank's brand red.",
+        "sha256": "6e4a68dae34c154bf01ba4b343741448a3490485952da169abafad6ad24d27e0",
+        "sourceAssetUrl": "https://uralfd.ru/local/templates/domru/assets/img/header-logo-new.svg",
+        "sourceUrl": "https://uralfd.ru/local/templates/domru/assets/img/header-logo-new.svg",
+        "transforms": [
+          "Isolated the first three paths of the official 13-path lockup SVG byte-for-byte (no path data, fill or geometry edits); the mark is a lossless subset of the original vector.",
+          "Narrowed the canvas to the mark bounds with viewBox=\"0 0 72.95 26\"; no scaling or translation of the emblem, no rotation, no color changes, no background added.",
+          "Removed the full-canvas clip rect (clip0_8157_146) that existed only as the lockup's canvas clip; it clipped no mark pixels.",
+          "SVGO 4.1.0 with repository svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e) on a copy: 1003 -> 781 bytes (-22.1%), selected. rsvg-convert renders of working vs optimized at 480 px differ only in 15 edge-antialiasing pixels (max alpha delta 11), no geometry change."
+        ],
+        "variant": "Positive red #FF312C mark on transparency, matching the official site-header positive variant; white-on-dark login variant confirms the same geometry.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this record, so the candidate replaces an absent icon with the bank's current standalone mark; there is no prior icon to compare against."
+      },
+      "candidateIconHash": "6e4a68dae34c154bf01ba4b343741448a3490485952da169abafad6ad24d27e0",
+      "checkedAt": "2026-10-02T13:18:21.179483Z",
+      "humanReview": "pending",
+      "reason": "Operating bank АО КБ «Урал ФД» (license 249, active per CB Russia) rebranded in Nov 2024 into the Дом.ру ecosystem (Kommersant 2024-11-28); its current official identity is a three-glyph mark (triangle, circle with notch, notched square) in #FF312C, published as original vector on uralfd.ru and dbo.bankdom.ru and observed live 2026-10-02. The standalone mark occupies the first three paths of the official header lockup; the wordmark «урал фд» is separate lettering excluded from catalog suitability. Not Банк ДОМ.РФ (distinct entity, verified).",
+      "reviewPackage": {
+        "path": "evidence/4404/candidate-4a3a93dbebec0e5d55d0659a76ecc461f1c4d6852548db49d3d99f093562500d.json",
+        "sha256": "4a3a93dbebec0e5d55d0659a76ecc461f1c4d6852548db49d3d99f093562500d"
+      },
+      "sourceCandidate": {
+        "iconHash": "85dd540eeb79c19811996988f483b78a0d26d80e2eb8f1d30a280827fed284a3",
+        "path": "evidence/4404/research-27488d730ddd42458d4a7241108de4f6/fetch-f035fca79962487e905a89dfed7fd31a/attempt-1/body.bin",
+        "rationale": "Genuine original vector from the bank's official site (template asset, not traced): 13 clean paths, brand color #FF312C. The first three paths are the standalone three-glyph bank mark, officially used standalone in the favicon and identically in the login variant; the remaining paths are the separate «урал фд» wordmark excluded by the catalog suitability rule. White variant of the same mark confirmed at https://dbo.bankdom.ru/ru/img/ib/logo_login.svg. Represents the record's current brand period.",
+        "retrieval": {
+          "path": "evidence/4404/research-27488d730ddd42458d4a7241108de4f6/fetch-f035fca79962487e905a89dfed7fd31a/receipt.json",
+          "sha256": "13ab308a35a19e45d2f8f8abdc62da678233ed61662a5499688584712b53095d"
+        },
+        "sourceAssetUrl": "https://uralfd.ru/local/templates/domru/assets/img/header-logo-new.svg",
+        "sourceUrl": "https://uralfd.ru/local/templates/domru/assets/img/header-logo-new.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://uralfd.ru/local/templates/domru/assets/img/header-logo-new.svg",
+          "checkedAt": "2026-10-02T13:05:00Z",
+          "independenceGroup": "uralfd-ru",
+          "kind": "official",
+          "observation": "Downloaded header lockup SVG from the current site titled «Банк Урал ФД» (255×26, 13 paths, #FF312C): three-glyph mark (paths 1–3) + «урал фд» wordmark. Rendered inspection confirms the mark design.",
+          "url": "https://uralfd.ru/local/templates/domru/assets/img/header-logo-new.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T13:05:00Z",
+          "independenceGroup": "uralfd-ru",
+          "kind": "official",
+          "observation": "Current site titled «Банк Урал ФД»; header lockup SVG 255×26, 13 paths, #FF312C: three-glyph mark (paths 1–3) + «урал фд» wordmark. Rendered inspection confirms the mark design.",
+          "url": "https://uralfd.ru/"
+        },
+        {
+          "assetUrl": "https://dbo.bankdom.ru/ru/img/ib/logo_login.svg",
+          "checkedAt": "2026-10-02T13:05:20Z",
+          "independenceGroup": "dbo-bankdom-ru",
+          "kind": "official",
+          "observation": "Online-banking login shows the same three-glyph mark + «урал фд банк» wordmark as a white variant (328×33 SVG), confirming the mark across official surfaces.",
+          "url": "https://dbo.bankdom.ru/ru/html/login.html"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T13:05:40Z",
+          "independenceGroup": "kommersant",
+          "kind": "third-party",
+          "observation": "Kommersant Perm, 2024-11-28: «Банк «Урал ФД» становится банком «Дом.ру»» — rebrand effective from end of November 2024 within the Дом.ру/ЭР-Телеком ecosystem; dates the current brand period.",
+          "url": "https://www.kommersant.ru/doc/7329521"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T13:04:50Z",
+          "independenceGroup": "bank-of-russia-registry",
+          "kind": "official",
+          "observation": "CB Russia registry: АО КБ «Урал ФД» (АКБ «Уральский финансовый дом»), Perm, license 249, ОГРН 1025900000048, status «Действует», charter amended 14.05.2026; official sites include uralfd.ru and bankdom.ru.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1025900000048"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T13:05:30Z",
+          "independenceGroup": "uralfd-ru",
+          "kind": "official",
+          "observation": "App-style favicon: standalone three-glyph mark over «банк» on a red-to-orange gradient squircle. Research-only raster; confirms the mark is used standalone in icon contexts.",
+          "url": "https://uralfd.ru/local/templates/domru/assets/img/favicon/196x196.png"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-02T13:22:05Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6e4a68dae34c154bf01ba4b343741448a3490485952da169abafad6ad24d27e0",
+        "xmlSha256": "4d590582b9717b782175ac1f2df028251248b12b23d833781cc40d9f732623b0"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
