@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-02T10:23:10.009119Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4374/assessed-0df633b68d8ff5d14c4f245c6bdf16f05e1b1f821e049c2091401bffb1a80e45.json",
+        "sha256": "0df633b68d8ff5d14c4f245c6bdf16f05e1b1f821e049c2091401bffb1a80e45"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Mark observed live on the bank's current homepage on 2026-10-02; operating bank, current use directly evidenced.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Regulator record (cbr.ru, OGRN 1027800000250) confirms the operating entity; official domain vikingbank.ru self-identifies as Викинг Банк. Work-order URL viking.spb.ru is only the online-banking host, not the brand site.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Identity anchored to the primary regulator (cbr.ru); asset from the bank's official domain — official provenance plus independent regulator record.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Single standalone geometric mark used site-wide; header blue and footer white are the same geometry with contrast fill. No alternate modern variant observed.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/bb4fd2d873f5e396edc3243549a8e9ee5ec58c582324fbaf8771fbf99c539e49.json",
+        "sha256": "bb4fd2d873f5e396edc3243549a8e9ee5ec58c582324fbaf8771fbf99c539e49"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All three chevron strokes, their thin gaps and diagonal cut corners survive optimization and both desktop renders; no lost details.",
+        "faithful": true,
+        "iconHash": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512",
+        "path": "evidence/4374/candidate-b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512.svg",
+        "proportionsJudgement": "Wide 104:40 emblem fills the icon area width without stretching; complete fit with no clipping at 240px frames; recognizable at 32–48px, marginal but identifiable at 24px on both themes; no excessive shrinking for this wide mark.",
+        "rationale": "First icon addition for КАБ «Викинг» (4374): official original SVG from the bank's current site (three chevrons forming an abstract V, fill #1D448E), standalone mark without lettering; SVGO 4.1.0 with repo config reduced 493→386 bytes pixel-identically; no backing change needed.",
+        "role": "standalone bank mark (abstract V of three chevrons), no accompanying name or slogan",
+        "sha256": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512",
+        "sourceAssetUrl": "https://vikingbank.ru/assets/images/logo.svg",
+        "sourceUrl": "https://vikingbank.ru/",
+        "transforms": [
+          "No placement transform: original viewBox 0 0 104 40 preserved; transparent standalone mark, no backing added (no observed official circular avatar).",
+          "SVGO 4.1.0 (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 493→386 bytes; relative path rewrite and fill lowercasing only; rsvg-convert renders working vs optimized pixel-identical on white and #121212 (zero differing pixels)."
+        ],
+        "variant": "blue header variant on transparent field, as served site-wide; white footer variant rejected for light-theme legibility",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: absent icon at the frozen base becomes a real rendered icon; comparison is absence-to-icon, not an invented improvement."
+      },
+      "candidateIconHash": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512",
+      "checkedAt": "2026-10-02T10:23:10.009119Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "aa89cc04252d8d34b7d0371bdb4b49dbde0c21e0568949ceebd0773ae9d3fba5",
+        "head": "bank-icon-maintenance/4374",
+        "headCommit": "1528894325a3375d9b1fbfe995e5312436851471",
+        "number": 17,
+        "observedAt": "2026-10-02T10:34:43.676167Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КАБ \"Викинг\" (Company.id 4374)",
+        "url": "https://github.com/zenmoney/banks/pull/17"
+      },
+      "reason": "Official original SVG mark from the bank's own current site: three chevron paths forming an abstract 'V', viewBox 0 0 104 40, fill #1D448E, no lettering. Wide lockup variants rejected for standalone suitability; Wikimedia Commons traced copy rejected for provenance.",
+      "reviewPackage": {
+        "path": "evidence/4374/candidate-35729a303551659401abff1fee7146127390089d546f35573e21c40e73961c6f.json",
+        "sha256": "35729a303551659401abff1fee7146127390089d546f35573e21c40e73961c6f"
+      },
+      "sourceCandidate": {
+        "iconHash": "fd938fa489e3cde7a306e71d0174b95bb6948bc9a1190cd862d7072dc9bc950f",
+        "path": "evidence/4374/research-7b18c55dab5c4826947086d06395a0a1/fetch-b554fc2295584aa9a4f7a2b2f452c952/attempt-2/body.bin",
+        "rationale": "Original direct SVG served by the bank's own site; standalone mark without lettering; true vector geometry suitable for the catalog.",
+        "retrieval": {
+          "path": "evidence/4374/research-7b18c55dab5c4826947086d06395a0a1/fetch-b554fc2295584aa9a4f7a2b2f452c952/receipt.json",
+          "sha256": "6e6a21e0af2bf798e5330fee2bd8c4bb46a7db2cf31067f1cefec32869fcd3b8"
+        },
+        "sourceAssetUrl": "https://vikingbank.ru/assets/images/logo.svg",
+        "sourceUrl": "https://vikingbank.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://vikingbank.ru/assets/images/logo.svg",
+          "checkedAt": "2026-10-02T10:12:49Z",
+          "independenceGroup": "vikingbank.ru primary site",
+          "kind": "official",
+          "observation": "Operating bank's homepage references /assets/images/logo.svg (header) and /assets/images/footer-logo.svg. logo.svg fetched (493 bytes, sha256 fd938fa489e3cde7a306e71d0174b95bb6948bc9a1190cd862d7072dc9bc950f): 3 paths, fill #1D448E, abstract V of three chevrons, no text. Footer variant identical geometry in white. Receipt fetch-b554fc2295584aa9a4f7a2b2f452c952.",
+          "url": "https://vikingbank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T10:12:49Z",
+          "independenceGroup": "central-regulator",
+          "kind": "official",
+          "observation": "Bank of Russia directory: АО «КАБ «Викинг», reg. no. 2, registered 26.08.1988, St. Petersburg, base licence, status Действует — operating bank, matching catalog entry id 4374.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1027800000250"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T10:12:49Z",
+          "independenceGroup": "commons-rejected",
+          "kind": "third-party",
+          "observation": "User-uploaded CC BY-SA SVG; likely traced third-party copy. Rejected as candidate source; official asset preferred.",
+          "url": "https://commons.wikimedia.org/wiki/File:IBK_Viking.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T10:29:01.595545Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512",
+        "xmlSha256": "11283e69c9b699955d6a9c5a5054d0a9636fdf47c8c6fd083feb9b59511482d3"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
