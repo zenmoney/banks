@@ -1,0 +1,119 @@
+{
+  "lastAttemptAt": "2026-10-02T12:10:40.234238Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4399/assessed-1408c1a032fcfa0f3fd019645dd3e41a94bcb7bcd316f90dcdf7cf71de7ae64c.json",
+        "sha256": "1408c1a032fcfa0f3fd019645dd3e41a94bcb7bcd316f90dcdf7cf71de7ae64c"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official site https://priovtb.com/ fetched 2026-10-02 presents АО/ПАО «Прио-Внешторгбанк» and references local/templates/project/dist/images/icons/logo.svg and logo-xs.svg in its active Bitrix header/footer; homepage shows 2026 campaign content. CBR registry (cbr.ru/finorg/foinfo/?ogrn=1026200000111, license #212, OGRN 1026200000111) shows an operating license dated 2016-01-29 and no revocation record.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched homepage identifies the site as Прио-Внешторгбанк and the record title is Прио-Внешторгбанк (RU). The mark in logo-xs.svg is the same emblem used in the site-wide logo lockup (four rounded corner brackets around a ring-and-disc emblem), so the asset belongs to this bank record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The official site is the primary source for the asset; the CBR registry independently confirms the legal entity, license number and operating status. These are different publications, not mirrors.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "logo-xs.svg (28x28 viewBox 0 0 28 28) is the compact mark-only variant that the official site itself uses site-wide; it contains no separate lettering. Verified fills in the fetched bytes: #d9007e and #00b295 (researcher note claiming teal-only was wrong; source inspected directly). Full horizontal lockup logo.svg (141x36) includes the wordmark and is unsuitable for a square cell; the mark-only variant is the official standalone form.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ae3095b63028fd1cac636f6be1053e56321c12ce40aaa4b9935ee68f9cb19d87.json",
+        "sha256": "ae3095b63028fd1cac636f6be1053e56321c12ce40aaa4b9935ee68f9cb19d87"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All source contours survive: the magenta rounded-square silhouette with its four notched corner cutouts, the transparent ring between square and disc (verified showing the dark background through on the dark-theme pair, i.e. true internal alpha, not white fill), and the teal disc. Fills remain exactly #d9007e and #00b295; SVGO floatPrecision 4 changed only 27 of 50176 preview pixels (sub-pixel antialiasing) in the working-vs-optimized raster comparison.",
+        "faithful": true,
+        "iconHash": "09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767",
+        "path": "evidence/4399/candidate-09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767.svg",
+        "proportionsJudgement": "Square 28x28 emblem fills the cell with the geometry the official site itself uses for its compact icon; no scaling, translation or backing transform was applied, so proportions are the source's own. The mark stays recognizable at 24/32/48 px diagnostics on both themes because it reduces to three high-contrast simple shapes.",
+        "rationale": "First addition: the record has no icon.svg. The official compact mark variant of Прио-Внешторгбанк is an original two-color vector served by the bank's own live site; it is a standalone emblem without accompanying lettering and is therefore suitable for the catalog square cell.",
+        "role": "Standalone bank mark (the emblem-only compact variant of the official logo lockup); the magenta rounded-square contour is the branded silhouette, not an empty canvas.",
+        "sha256": "09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767",
+        "sourceAssetUrl": "https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg",
+        "sourceUrl": "https://priovtb.com/",
+        "transforms": [
+          "None: final.svg is the original fetched vector after source-preserving SVGO 4.1.0 optimization (config /workspace/svgo.config.mjs sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e, multipass, floatPrecision 4); 1629 -> 1051 bytes (-35.5%); optimized version selected after raster comparison against the working copy showed no visible change. No backing change, no geometry transform; transparency preserved."
+        ],
+        "variant": "Official compact icon-only variant (logo-xs.svg) of the current brand mark, used site-wide on priovtb.com; distinct from the 141x36 lockup which carries the wordmark.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: there is no base icon; the diff is absent-to-real-icon. No pre-existing design is modified or replaced."
+      },
+      "candidateIconHash": "09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767",
+      "checkedAt": "2026-10-02T12:10:40.234238Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "cd21ff896b353b4d708c334a10fedbc3384f2872b222b0db760520bbef3afcc3",
+        "head": "bank-icon-maintenance/4399",
+        "headCommit": "7aaff669be1c97603340ac363d3e891df9a5b612",
+        "number": 21,
+        "observedAt": "2026-10-02T12:19:44.806797Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+        "url": "https://github.com/zenmoney/banks/pull/21"
+      },
+      "reason": "First addition for bank 4399: no icon.svg exists. Live official site uses a two-color vector mark; compact mark-only variant is a suitable standalone icon. Raster inspection and this judgment performed on 2026-10-02.",
+      "reviewPackage": {
+        "path": "evidence/4399/candidate-7a1a7e029095d011e76e4f689b24439a4471148c5c52ea14b267f6dfb6a1e63f.json",
+        "sha256": "7a1a7e029095d011e76e4f689b24439a4471148c5c52ea14b267f6dfb6a1e63f"
+      },
+      "sourceCandidate": {
+        "iconHash": "9db693cd28da74a519fa455318fef470b127e0d67909549105f78d19103a581f",
+        "path": "evidence/4399/research-8f2462ef6c9c471dadc4549602b0cc55/fetch-d0c43559e27645dc8618df596790477d/attempt-2/body.bin",
+        "rationale": "Original vector asset served by the bank's own live official site as its compact icon variant; self-contained SVG paths with two flat fills, no embedded raster, no text. Chosen over the 141x36 lockup because a standalone square mark without accompanying lettering is required for the catalog cell.",
+        "retrieval": {
+          "path": "evidence/4399/research-8f2462ef6c9c471dadc4549602b0cc55/fetch-d0c43559e27645dc8618df596790477d/receipt.json",
+          "sha256": "97179ed0e2b13fdb904aafd8d0f248fabc22c56d10d5e9ccf03b74a4bea6418b"
+        },
+        "sourceAssetUrl": "https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg",
+        "sourceUrl": "https://priovtb.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg",
+          "checkedAt": "2026-10-02T12:01:52Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Direct fetch of the compact mark SVG: 1629 bytes, 28x28 viewBox, vector paths, fills #d9007e and #00b295, no embedded raster. Receipt evidence/4399/research-8f2462ef6c9c471dadc4549602b0cc55/fetch-d0c43559e27645dc8618df596790477d/receipt.json.",
+          "url": "https://priovtb.com/"
+        },
+        {
+          "assetUrl": "https://priovtb.com/local/templates/project/dist/images/icons/logo.svg",
+          "checkedAt": "2026-10-02T12:01:52Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Full horizontal lockup SVG (141x36, mark + ПРИО ВНЕШТОРГБАНК wordmark as vector paths) referenced and used site-wide; confirms the mark in logo-xs.svg is the bank emblem. Rejected as the catalog asset because it carries separate lettering.",
+          "url": "https://priovtb.com/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T12:00:00Z",
+          "independenceGroup": "cbr-registry",
+          "kind": "official",
+          "observation": "CBR financial-organization record for OGRN 1026200000111 (Прио-Внешторгбанк): license #212, operating license dated 2016-01-29, no revocation entry; supports currency of the current brand presentation.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1026200000111"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T12:15:28.567859Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767",
+        "xmlSha256": "65cdd58800f4c0b5c0d851eaa673fac15efa008cd34b9056deff0367387893a3"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
