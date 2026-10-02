@@ -1,0 +1,127 @@
+{
+  "lastAttemptAt": "2026-10-02T16:37:21.624184Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4461/assessed-6772a8284588be88c175fbfe21a52b683c78d9f3e8f4408f20c313ad661053f1.json",
+        "sha256": "6772a8284588be88c175fbfe21a52b683c78d9f3e8f4408f20c313ad661053f1"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Operating bank per CBR registry and ACRA 2026; the live site asset is the current presentation.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official sngb.ru site (Сургутнефтегазбанк, fullTitle in metadata) serves logo.svg as its header brand asset; the emblem is the bank's rhombus mark used with the СНГБ wordmark.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site asset, CBR registry and an independent rating-agency publication are separate sources; the CSS binding of the asset to the header was verified in the site's own stylesheet.",
+        "uncertainties": [
+          "Catalog suitability of the full lockup requires dropping the СНГБ wordmark and slogan; only the standalone rhombus emblem is proposed."
+        ],
+        "variant": {
+          "basis": "The primary site-wide header variant: blue rhombus with yellow lens beside the СНГБ wordmark; emblem colors #004282/#FDB913 as drawn in the official asset.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/10c0245b242b1f87d439bffdd734464163d136f882ccc1756a8a44db58efc279.json",
+        "sha256": "10c0245b242b1f87d439bffdd734464163d136f882ccc1756a8a44db58efc279"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Rhombus geometry, yellow lens shape and the transparent gap between lens and rhombus survive optimization and rendering on both themes; no lost detail or color shift. The transparent gap shows the theme background exactly as the source structure defines.",
+        "faithful": true,
+        "iconHash": "2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e",
+        "path": "evidence/4461/candidate-2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e.svg",
+        "proportionsJudgement": "The emblem is a wide (about 2:1) mark; it fills its viewBox with balanced margins, stays complete and legible at 24/32/48 px diagnostics on both themes, with the lens clearly visible.",
+        "rationale": "First addition for an existing record without an icon. The operating bank's official header SVG is a genuine original vector; the standalone rhombus emblem was selected losslessly (two verbatim original paths, wordmark and slogan removed for catalog suitability) and optimized with SVGO.",
+        "role": "Standalone brand emblem (blue rhombus with yellow lens) extracted from the official header lockup; the СНГБ wordmark and the slogan line are excluded per catalog suitability.",
+        "sha256": "2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e",
+        "sourceAssetUrl": "https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg",
+        "sourceUrl": "https://www.sngb.ru/",
+        "transforms": [
+          "Lossless selection of the first two original paths (#FDB913 lens, #004282 rhombus) from the fetched lockup; wordmark/slogan paths dropped; no geometry, color or alpha edits (working.svg, 863 bytes).",
+          "SVGO 4.1.0 with repository config svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), multipass: 863 -> 750 bytes; selected (optimized.svg sha256 2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e); pixel comparison of working versus optimized renders showed no difference (max-diff bbox none); viewport preserved.",
+          "No placement transform needed: the emblem fills its 36.01x18.1 viewBox; whole-emblem geometry untouched."
+        ],
+        "variant": "Original vector emblem on a transparent field; no circular catalog backing applied because the mark is a suitable transparent standalone symbol whose rhombus contour and internal transparent lens gap are preserved.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this bank (iconHash null); the visible difference is absent-to-real-icon."
+      },
+      "candidateIconHash": "2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e",
+      "checkedAt": "2026-10-02T16:37:21.624184Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "fc710d70e99a59b2a8379a5660584aaf0415f8e0f3edf29c96ea5f038d21cc44",
+        "head": "bank-icon-maintenance/4461",
+        "headCommit": "ba73753e216f71175dfaf13a600576265d2116b0",
+        "number": 28,
+        "observedAt": "2026-10-02T16:42:52.415277Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: СНГБ (Company.id 4461)",
+        "url": "https://github.com/zenmoney/banks/pull/28"
+      },
+      "reason": "Original vector found on the operating bank's official site: https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg, an Illustrator-exported header lockup (blue rhombus emblem with yellow lens + СНГБ wordmark + slogan). The standalone emblem is losslessly separable (2 of 6 top-level paths). The bank is active (CBR registry reg. 588, ACRA Feb-2026), so the current site asset is the relevant current presentation.",
+      "reviewPackage": {
+        "path": "evidence/4461/candidate-f06f078a96025f286be4919540a2a305b27da002096db399be864260d6e8b011.json",
+        "sha256": "f06f078a96025f286be4919540a2a305b27da002096db399be864260d6e8b011"
+      },
+      "sourceCandidate": {
+        "iconHash": "aaeed03c1e4516fb51ca3d5d89ce3a82f7187e2bcc4e4eb79f6aaa7f6ce6d35d",
+        "path": "evidence/4461/research-83091e9849f24495bde48ada136f84ac/fetch-ef16c15a9d3b4b58af29343eb7359a74/attempt-2/body.bin",
+        "rationale": "Genuine original vector served by the operating bank's official site; first addition for a record without an icon. The standalone rhombus emblem is losslessly separable from the wordmark/slogan for the catalog.",
+        "retrieval": {
+          "path": "evidence/4461/research-83091e9849f24495bde48ada136f84ac/fetch-ef16c15a9d3b4b58af29343eb7359a74/receipt.json",
+          "sha256": "763833902e8045a9a68298d5aff9f22fdda1dd4c2de4d2a4dc945469d27c75c0"
+        },
+        "sourceAssetUrl": "https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/4461/source-material-bd6a0483e3774bb889c376aadd949591/material.json",
+          "sha256": "a638aaa86606a210a2a143b1dbc6005fd102f913d1603f39b15dad40ae27e391"
+        },
+        "sourceUrl": "https://www.sngb.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg",
+          "checkedAt": "2026-10-02T16:14:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Official site header binds the logo.svg asset via production widgets CSS (.wp-widget-header .logo); the SVG (107568 bytes, Illustrator-exported) contains the rhombus emblem (fill #004282, lens #FDB913), the СНГБ lettering and the slogan line as separate top-level paths.",
+          "url": "https://www.sngb.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T16:14:00Z",
+          "independenceGroup": "regulator",
+          "kind": "official",
+          "observation": "Bank of Russia registry and credit-organization list (checked 2026-10-01 by the research pass, reg. 588, general license 05.09.2016) confirm Сургутнефтегазбанк (СНГБ) is operating; current site branding is the relevant period.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1027800000040"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T16:14:00Z",
+          "independenceGroup": "rating-agency",
+          "kind": "third-party",
+          "observation": "ACRA February 2026 press release confirms ongoing operations of СНГБ, corroborating currency of the current logo.",
+          "url": "https://www.acra-ratings.ru/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T16:38:54.095759Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e",
+        "xmlSha256": "a5920a5b156c322bbea4df5a6cf7490b811e731176addb3eba201534b7ba73d6"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
