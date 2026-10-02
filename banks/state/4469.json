@@ -1,0 +1,115 @@
+{
+  "lastAttemptAt": "2026-10-02T17:40:34.211090Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4469/assessed-01259d5fa209091d932d7e50d09abb57c1cdc6b1681f60e7f6a1aff54627becc.json",
+        "sha256": "01259d5fa209091d932d7e50d09abb57c1cdc6b1681f60e7f6a1aff54627becc"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "cbr.ru registry card (OGRN 1125800000094) lists ПАО Банк 'Кузнецкий' as active; site pages /contacts/ and /about/bank_details/ live 2026-10-02",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "SVG fetched from official site template path kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg, referenced as the only logo img on official pages",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "primary official source; cbr.ru registry used as independent confirmation of identity/currency",
+        "uncertainties": [
+          "root kuzbank.ru returns 403 to plain curl UA; the asset endpoint returned 200 image/svg+xml directly"
+        ],
+        "variant": {
+          "basis": "template asset named logo_kuzbank_without_35.svg — standard mark without the '35 лет' anniversary lockup; alternate lockup logo.svg also live",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/0fedc3dcd0af88449f4b0e0bfe36061768e897751b7a40d749b3141b24d7cbd0.json",
+        "sha256": "0fedc3dcd0af88449f4b0e0bfe36061768e897751b7a40d749b3141b24d7cbd0"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All four emblem paths (fan mark, middle blade, right blade, pedestal bar) are verbatim source geometry; color #069347 unchanged; internal white gaps and pedestal separation preserved; no strokes dropped.",
+        "faithful": true,
+        "iconHash": "e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b",
+        "path": "evidence/4469/candidate-e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b.svg",
+        "proportionsJudgement": "Whole emblem (26.07x29.86 source units incl. pedestal) uniformly scaled 0.75 and centered on a 34-unit white catalog circle; maximum emblem corner radius ~14.9 of 17, no clipping; recognizable at 48/96 px on both themes, solid shapes survive small sizes.",
+        "rationale": "Official current logo available only as a wordmark lockup; catalog rule excludes accompanying bank-name text, so the standalone emblem from the same official vector is used as the application mark.",
+        "role": "standalone emblem selected from the official wordmark lockup; bank-name text excluded per catalog suitability rule",
+        "sha256": "e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b",
+        "sourceAssetUrl": "https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg",
+        "sourceUrl": "https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg",
+        "transforms": [
+          "select the four emblem paths (x<=26.07) from the official 210x34 lockup vector; wordmark text paths excluded",
+          "remove the plain white full-canvas rect; add same-color (#ffffff) circular backing r=17 on a 34x34 canvas with transparency outside (catalog plain-field adaptation)",
+          "uniform scale 0.75 and translate of the whole emblem: translate(7.224,4.535) scale(0.75), centered, no rotation/crop/recolor",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 638 -> 397 bytes; selected optimized (trial-produced, visually identical under rsvg at 48/96/272 px)"
+        ],
+        "variant": "standard everyday emblem from the live site template (logo_kuzbank_without_35.svg); no anniversary lockup, no circular avatar observation — circle is a catalog plain-field adaptation, not an official circular asset",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon.svg existed at the frozen base commit; the change is absence -> real catalog icon derived from the official vector."
+      },
+      "candidateIconHash": "e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b",
+      "checkedAt": "2026-10-02T17:40:34.211090Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "c5593aa1bf22a7c36c5cab11707eb155b5034f6f681366e83fe030779e570812",
+        "head": "bank-icon-maintenance/kuznetsky-4469",
+        "headCommit": "9ed926c63b82499d13071cc3cd4db3a6435c6185",
+        "number": 30,
+        "observedAt": "2026-10-02T17:44:31.431412Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Кузнецкий\" (Company.id 4469)",
+        "url": "https://github.com/zenmoney/banks/pull/30"
+      },
+      "reason": "official current logo available as original vector from the bank's own site",
+      "reviewPackage": {
+        "path": "evidence/4469/candidate-8088fb6337b093f0c7ad587c0af7cc6fc0b138a499672a395d0eec8f861a52ea.json",
+        "sha256": "8088fb6337b093f0c7ad587c0af7cc6fc0b138a499672a395d0eec8f861a52ea"
+      },
+      "sourceCandidate": {
+        "iconHash": "d7ae3c88a17305c387404446fd41657eb954618c92e3f30f63034de29736a705",
+        "path": "evidence/4469/research-5785738de6654852a87e9819eb0ece5f/fetch-adf982626f1a47aa8b26f092b6cd874c/attempt-1/body.bin",
+        "rationale": "original vector served by the bank's own site template; pure paths, no text/image elements",
+        "retrieval": {
+          "path": "evidence/4469/research-5785738de6654852a87e9819eb0ece5f/fetch-adf982626f1a47aa8b26f092b6cd874c/receipt.json",
+          "sha256": "542434c4cb5e76c39ae3eda77e8f05eed322b9c32de5beb02bf84d5ca17ed0c7"
+        },
+        "sourceAssetUrl": "https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg",
+        "sourceUrl": "https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg",
+          "checkedAt": "2026-10-02T17:21:30Z",
+          "independenceGroup": "official",
+          "kind": "official",
+          "observation": "original vector, pure paths, no text/image elements, served from the bank's own Bitrix template",
+          "url": "https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg"
+        },
+        {
+          "checkedAt": "2026-10-02T17:19:00Z",
+          "independenceGroup": "cbr-registry",
+          "kind": "third-party",
+          "observation": "registry card lists bank as active with base license 609",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1125800000094"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T17:41:31.995464Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b",
+        "xmlSha256": "1c74b6cd95dc8b013b661470ceeaca8b06d9abd37cc11c97f4ec66be921a2649"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
