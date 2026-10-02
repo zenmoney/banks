@@ -1,0 +1,132 @@
+{
+  "lastAttemptAt": "2026-10-02T20:18:30.194764Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4502/assessed-b4dfb7c9720ced12f2fa1567d3957778b392a57840de595e700014a5dd0545bb.json",
+        "sha256": "b4dfb7c9720ced12f2fa1567d3957778b392a57840de595e700014a5dd0545bb"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Historical closed bank (license revoked 2018-10-25). The candidate represents the final pre-2018 brand, the relevant period for this catalog entry.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Catalog record 4502 Уралтрансбанк, RU, utb.ru matches АБ «Уралтрансбанк» (Yekaterinburg, OGRN 1026600001779). CDNLogo's Uraltransbank entry depicts the bank's locomotive emblem; the similarly named «УралТранс» publishing-house entries on worldvectorlogo/seeklogo were inspected and rejected as a different entity.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Third-party vector cross-checked against an independent raster aid (bootflare PNG, separate source) and against CBR closure facts; identity confirmed by emblem content, not by counting mirrors.",
+        "uncertainties": [
+          "Third-party (CDNLogo) provenance rather than official bank source; the official domain never served SVG per CDX.",
+          "No emblem-only or colored official vector variant exists in any reachable source; the lockup will be reduced to its emblem region during preparation.",
+          "Post-2014 discovery of the actual origin file (print EPS) is not traceable further within budget."
+        ],
+        "variant": {
+          "basis": "Monochrome black lockup with white canvas; emblem-only isolation planned. Colored historical vector variants were not found anywhere; the monochrome form matches the brand's print-era representation.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c48b62ee7c16461e7c77ae89ebc16abe236dfa3141c47962bd98a5780ed23395.json",
+        "sha256": "c48b62ee7c16461e7c77ae89ebc16abe236dfa3141c47962bd98a5780ed23395"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Boiler bands, wheels, coupling rods, cowcatcher, bell and smokestack of the source locomotive are all present in the final render; internal cutouts remain transparent; no clipping or artifacts at 240/48/32/24 px diagnostics.",
+        "faithful": true,
+        "iconHash": "d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108",
+        "path": "evidence/4502/candidate-d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108.svg",
+        "proportionsJudgement": "Locomotive aspect (~1.8:1) preserved without stretching; fits the square cell with margins and reads clearly at 32-48 px on light background. Known limitation: the authentic monochrome black mark has low contrast on the dark theme (#121212); recoloring is not permitted, and no white/light official vector variant was found in any reachable source, so the source-backed monochrome form is kept and this is disclosed for reviewer judgment.",
+        "rationale": "First addition for a closed bank (license revoked 2018-10-25) with no icon. The CDNLogo original vector of the final-period logo is a full lockup; the standalone steam-locomotive emblem is selected unchanged. Emblem geometry is preserved byte-for-byte; only the white canvas rect (background) is removed and the viewport is restricted to the emblem region. No colored or emblem-only official vector exists anywhere reachable.",
+        "role": "Standalone locomotive emblem portion of the final-period logo lockup; «УралТрансБанк» wordmark, the «1947» date and the full-width rule are separate lockup elements, not part of the mark.",
+        "sha256": "d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108",
+        "sourceAssetUrl": "https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en",
+        "sourceUrl": "https://cdnlogo.com/logo/uraltransbank_122342.html",
+        "transforms": [
+          "Source selection: white background rect (M0 0h192.756v192.756H0V0z) removed — background-only change, no emblem pixel touched; viewport restricted to viewBox 7.6 38.8 104.9 57.7 covering the complete locomotive including cowcatcher, bell and stack. No emblem geometry, scale or translation change; wordmark/1947/rule paths remain in the file but render outside the viewport.",
+          "SVGO 4.1.0, repository svgo.config.mjs (config sha256 bound to baseCommit): 22118 -> 20702 bytes; optimized trial compared visually against the working version with rsvg-convert on both theme canvases, faithful, selected as final bytes."
+        ],
+        "variant": "Monochrome black print-era variant on a transparent field after background removal; no circular official avatar observed and no colored vector variant exists, so transparency is kept without an added backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this bank, so the visible difference is absence to a rendered standalone emblem; no baseline comparison exists or is invented."
+      },
+      "candidateIconHash": "d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108",
+      "checkedAt": "2026-10-02T20:18:30.194764Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5e9b5785b5dc6f01ec09f42c467ca9e4b60da9747824ddc44716022b09358918",
+        "head": "bank-icon-maintenance/4502",
+        "headCommit": "a7971a23647d478ad3dc24924d96037b282104b3",
+        "number": 34,
+        "observedAt": "2026-10-02T20:34:09.758592Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Уралтрансбанк (Company.id 4502)",
+        "url": "https://github.com/zenmoney/banks/pull/34"
+      },
+      "reason": "Original vector of Уралтрансбанк's final-period logo (black steam-locomotive emblem above «УралТрансБанк» wordmark with «1947») obtained from CDNLogo (viewBox 0 0 192.756 192.756, 22166 bytes). Bank closed: license revoked 2018-10-25 (OGRN 1026600001779), so the relevant brand period is the pre-2018 operating era. The asset is a full lockup with a white canvas rect; a standalone emblem-only working variant will be prepared at candidate review by selecting the emblem region and dropping the background rect (no tracing). Third-party provenance: no official vector exists in the archived utb.ru domain.",
+      "reviewPackage": {
+        "path": "evidence/4502/candidate-40c69518df6cfbee5497a5646803ca4511ef86c1bc45662bf0bedad5cde13b43.json",
+        "sha256": "40c69518df6cfbee5497a5646803ca4511ef86c1bc45662bf0bedad5cde13b43"
+      },
+      "sourceCandidate": {
+        "iconHash": "0f6b4836aff35f45b5a283603ef7cda679fa4719cd80f9db202b043d03c74c27",
+        "path": "evidence/4502/research-8daf090ca1334c5685fc143e9c0ecc32/fetch-e9004591b739436a8fe602b1961c6760/attempt-2/body.bin",
+        "rationale": "Original vector of the closed bank's final-period logo from the largest reachable vector source; visually confirmed against an independent raster cross-check. Lockup with white canvas rect; the standalone emblem region will be selected at candidate review without altering emblem geometry.",
+        "retrieval": {
+          "path": "evidence/4502/research-8daf090ca1334c5685fc143e9c0ecc32/fetch-e9004591b739436a8fe602b1961c6760/receipt.json",
+          "sha256": "714add1206281764df14cfe05ae307f0584c9987014c9022eeb02696ec559dec"
+        },
+        "sourceAssetUrl": "https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en",
+        "sourceUrl": "https://cdnlogo.com/logo/uraltransbank_122342.html"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en",
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "CDNLogo vector retrieval channel",
+          "kind": "third-party",
+          "observation": "Retrieval row: after repeated direct 30s timeouts on static.cdnlogo.com, the identical asset was retrieved through the translate.goog fetch of the same URL (sha256 0f6b4836aff35f45b5a283603ef7cda679fa4719cd80f9db202b043d03c74c27, 22166 bytes); bytes validated as well-formed SVG.",
+          "url": "https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en"
+        },
+        {
+          "assetUrl": "https://static.cdnlogo.com/logos/u/59/uraltransbank.svg",
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "CDNLogo vector (primary asset) with independent bootflare raster cross-check",
+          "kind": "third-party",
+          "observation": "CDNLogo listing page for Uraltransbank; its asset uraltransbank.svg is a clean vector (glyph-level letter outlines and smooth locomotive paths, not an autotrace of the raster aid). Direct static.cdnlogo.com transfer repeatedly timed out at 30s; full bytes (sha256 0f6b4836aff35f45b5a283603ef7cda679fa4719cd80f9db202b043d03c74c27) retrieved via the translate.goog proxy of the same asset and validated as well-formed SVG. Rendered and visually matched against the independent bootflare PNG raster aid.",
+          "url": "https://cdnlogo.com/logo/uraltransbank_122342.html"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "Wayback CDX index",
+          "kind": "official",
+          "observation": "Wayback CDX scan of utb.ru for image/svg+xml: zero results; no official vector was ever archived on the bank's domain.",
+          "url": "https://web.archive.org/cdx/search/cdx?url=utb.ru&matchType=domain&filter=mimetype:image/svgxml&collapse=urlkey"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T20:17:02Z",
+          "independenceGroup": "Bank of Russia press release",
+          "kind": "official",
+          "observation": "Bank of Russia press release: Уралтрансбанк license revoked 2018-10-25 (OGRN 1026600001779); final brand period is pre-2018-10. Candidate matches independently confirmed brand imagery of that period (locomotive emblem + wordmark, monochrome black).",
+          "url": "https://www.cbr.ru/press/pr/?file=25102018_133000pr.htm"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T20:23:35.171732Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108",
+        "xmlSha256": "836bd4f4b990527349dd6b44066230d0b3b6db4279d3abaca4be70ca4ac228b4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
