@@ -1,0 +1,115 @@
+{
+  "lastAttemptAt": "2026-10-02T13:55:28.947112Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4416/assessed-ea5e3fab70bd5508b5bf1e9d7296f28b38e6792419217809ece2aa46d385ef22.json",
+        "sha256": "ea5e3fab70bd5508b5bf1e9d7296f28b38e6792419217809ece2aa46d385ef22"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current official homepage uses retrieved logo.svg; CBR status Действует confirms operating bank, universal license.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official banksaratov.ru identifies ООО Банк Саратов; CBR independent record identifies same entity, OGRN 1026400002089 and registration 330.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank website supplies current brand and original geometry; independent Bank of Russia registry corroborates legal identity and active lifecycle. Neither record is an image-aggregator copy.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Red gradient standalone emblem is separate four-path geometry in official header lockup; retained all four emblem paths and original gradients unchanged, removed only separate bank-name paths. Transparent mark requires no backing.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/100fa90d3cb69e6a21ee365a72792f8ae5a4212d8f411faa14a1f5725f22ce4f.json",
+        "sha256": "100fa90d3cb69e6a21ee365a72792f8ae5a4212d8f411faa14a1f5725f22ce4f"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Four red emblem pieces, central dot, crescent tips, gradient paints and internal transparency remain intact. No separate lettering or added contour; inspected source and standalone renders.",
+        "faithful": true,
+        "iconHash": "9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7",
+        "path": "evidence/4416/candidate-9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7.svg",
+        "proportionsJudgement": "Original wider-than-tall proportions retained. Actual Desktop frames show full emblem centered, no clipping and ample theme contrast. Supplemental 24/32/48 px librsvg diagnostics preserve recognizable crescent, dot and upper/lower strokes on both themes. No circle backing or arbitrary extra margin.",
+        "rationale": "First addition: source-backed standalone bank emblem replaces pinned absence, not a full wordmark.",
+        "role": "standalone bank emblem",
+        "sha256": "9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7",
+        "sourceAssetUrl": "https://banksaratov.ru/tpl/assets/img/logo.svg",
+        "sourceUrl": "https://banksaratov.ru",
+        "transforms": [
+          "Retained original root children 5–9 (four emblem paths and defs), removed five separate lettering paths. Width/viewBox changed from 235×59 to 80×59; no emblem coordinate, paint, alpha or relative geometry changes.",
+          "SVGO 4.1.0 frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2089 bytes working, 2142 bytes trial. Trial pixel-identical in independent librsvg render but larger; selected unchanged smaller working SVG sha256 9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7."
+        ],
+        "variant": "Official red gradient emblem on transparent canvas, separately extracted from header lockup; no backing added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: frozen base has no icon.svg; final supplies the bank’s actual original standalone emblem. No fabricated blank comparison."
+      },
+      "candidateIconHash": "9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7",
+      "checkedAt": "2026-10-02T13:55:28.947112Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "72393382031da591820df92bf6320ed8931be83f43d3409ee521019179fdfc3e",
+        "head": "bank-icon-maintenance/4416",
+        "headCommit": "9a2a4ee18e40ef6916684aabfd0c36e8717fdae4",
+        "number": 24,
+        "observedAt": "2026-10-02T14:04:12.040304Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Саратов\" (Company.id 4416)",
+        "url": "https://github.com/zenmoney/banks/pull/24"
+      },
+      "reason": "No existing icon at frozen base; official original vector has separable standalone emblem suitable for first addition. Full horizontal lockup itself is not the proposed icon.",
+      "reviewPackage": {
+        "path": "evidence/4416/candidate-e7de7c56ecf7dbe6186d3296f7aede2d3549a43e889ad5b54e190b65fcf93fb8.json",
+        "sha256": "e7de7c56ecf7dbe6186d3296f7aede2d3549a43e889ad5b54e190b65fcf93fb8"
+      },
+      "sourceCandidate": {
+        "iconHash": "b27fdb9c954a20e7c03d28dfe0d0d04c75b8aee7e04a26b4b39b329d1423f825",
+        "path": "evidence/4416/research-fe2651717cbd45cf908e676e652cb44b/fetch-2abad4d3b37e4fc3adaada64a2bd4c1e/attempt-1/body.bin",
+        "rationale": "Original official SVG full lockup contains separate standalone emblem; extract only four emblem paths plus defs without redrawing/recoloring, remove separate lettering and narrow viewport. Original full asset receipt/material is retained as provenance.",
+        "retrieval": {
+          "path": "evidence/4416/research-fe2651717cbd45cf908e676e652cb44b/fetch-2abad4d3b37e4fc3adaada64a2bd4c1e/receipt.json",
+          "sha256": "2f6bd1289ecb1307071a99407cefd14b42b7b7c0f95bb34941569ac52be67dc4"
+        },
+        "sourceAssetUrl": "https://banksaratov.ru/tpl/assets/img/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/4416/source-material-30ee587863ec464d88574f7e4daf7f72/material.json",
+          "sha256": "c716450ab21e35c373f672269e1be8952aaac1714283891e742f1efe3fcf462f"
+        },
+        "sourceUrl": "https://banksaratov.ru"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://banksaratov.ru/tpl/assets/img/logo.svg",
+          "checkedAt": "2026-10-02T13:54:18.398851Z",
+          "independenceGroup": "bank-saratov",
+          "kind": "official",
+          "observation": "Official header references full logo.svg containing separate red gradient emblem and separate black bank lettering. Original asset fetched with receipt; extracted emblem keeps source paths/gradients unchanged.",
+          "url": "https://banksaratov.ru"
+        },
+        {
+          "checkedAt": "2026-10-02T13:54:18.398851Z",
+          "independenceGroup": "bank-of-russia",
+          "kind": "third-party",
+          "observation": "Bank of Russia record: ООО Банк Саратов, status Действует, registration 330, OGRN 1026400002089.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1026400002089"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T14:00:45.255941Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7",
+        "xmlSha256": "97f73f395050bd17a96a92180bdce96e0f2823ab82a9ebe07230ccbb7bf3f148"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
