@@ -1,0 +1,127 @@
+{
+  "lastAttemptAt": "2026-10-02T16:26:56.536795Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4458/assessed-2f3705419735c5774ed9986b51cb63d2be38c0c1d7b61d95bd0a2b0052a7ee75.json",
+        "sha256": "2f3705419735c5774ed9986b51cb63d2be38c0c1d7b61d95bd0a2b0052a7ee75"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Historical record: license revoked in 2018; the 2018-10 archived official header logo is evidence of the mark in the last operating brand period.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The archived official sovbank.ru homepage binds logo-sovbank-mk2.svg to the header of АО Банк «Советский» (alt text), and the CBR record (OGRN 1027800000040) confirms the entity behind Company.id 4458.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The archived official homepage, the bank's own template asset retrieved from its own path, and the CBR registry record are independent publications; the live-site 403 check explains why the archive is the authoritative reachable source.",
+        "uncertainties": [
+          "Catalog suitability of the full lockup requires dropping the accompanying lettering; only the standalone pentagon emblem is proposed as the catalog mark."
+        ],
+        "variant": {
+          "basis": "The bank's own served template asset (logo-sovbank-mk2.svg) is the primary variant, used site-wide in the archived period; the pentagon emblem plus wordmark is the bank's own composition, single brand color #b52e1e.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6ed8516d589e4dca4f7915805112a74cdbd644a16cff7ae28ecfcd8cd31648f3.json",
+        "sha256": "6ed8516d589e4dca4f7915805112a74cdbd644a16cff7ae28ecfcd8cd31648f3"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All five triangle lobes, the pinwheel gaps and the thin white separation lines of the original emblem survive optimization and rendering; no lost detail, artifacts or color shifts on either theme.",
+        "faithful": true,
+        "iconHash": "2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0",
+        "path": "evidence/4458/candidate-2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0.svg",
+        "proportionsJudgement": "The emblem fills its square viewBox with balanced margins and remains recognizable at 24/32/48 px diagnostics on both themes; complete fit including detached corners verified.",
+        "rationale": "First addition for an existing record without an icon. The bank's own archived template SVG is a genuine original vector; the standalone pentagon emblem was selected losslessly (verbatim original paths, lettering removed for catalog suitability) and optimized with SVGO. Historical record: the 2018-10 archived official presentation is the relevant last brand period.",
+        "role": "Standalone brand emblem (pentagon pinwheel mark) extracted from the official header logo lockup; the accompanying 'БАНК СОВЕТСКИЙ' lettering is excluded per catalog suitability.",
+        "sha256": "2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0",
+        "sourceAssetUrl": "https://web.archive.org/web/20181016164646im_/http://www.sovbank.ru/bitrix/templates/sovbank/static/images/logo-sovbank-mk2.svg",
+        "sourceUrl": "https://web.archive.org/web/20181016063248/http://www.sovbank.ru/",
+        "transforms": [
+          "Lossless selection of the 10 original emblem paths (path3,path5,path7,path9,path11,path13,path15,path17,path19,path21) from the fetched lockup; lettering paths (path23,path25) dropped; no geometry, color or alpha edits (working.svg, 4078 bytes).",
+          "SVGO 4.1.0 with repository config svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), multipass, precision 4/5: 4078 -> 2420 bytes; selected (optimized.svg sha256 2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0) after working-versus-optimized comparison showed no visual change; viewport preserved.",
+          "No placement transform needed: the emblem already fills its square viewBox; whole-emblem geometry untouched."
+        ],
+        "variant": "Original vector emblem on a transparent field; no circular catalog backing applied because the source mark is a suitable transparent standalone symbol with a meaningful pentagon contour, preserved unchanged.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this bank (iconHash null), so the visible difference is absent-to-real-icon; no baseline comparison exists or is claimed."
+      },
+      "candidateIconHash": "2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0",
+      "checkedAt": "2026-10-02T16:26:56.536795Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "9f17b7fccf30e38beed8762a70c484a800f1db09af8b4d84d97fa5e5e51cf553",
+        "head": "bank-icon-maintenance/4458",
+        "headCommit": "4f06b0e9da99c41e04bdea171b6d71bb095bf217",
+        "number": 27,
+        "observedAt": "2026-10-02T16:35:27.242473Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Советский\" (Company.id 4458)",
+        "url": "https://github.com/zenmoney/banks/pull/27"
+      },
+      "reason": "Original vector found for the historical period: the bank's own template asset logo-sovbank-mk2.svg, served as the header logo of sovbank.ru (archived 2018-10), referenced from the archived homepage with alt 'АО Банк «Советский»'. The bank is historical: banking license revoked in 2018, so the late-2018 archived official presentation is the relevant last brand period. The file is a genuine original vector lockup (10 emblem paths + separate lettering paths, single brand color #b52e1e); the standalone emblem is losslessly separable from the accompanying lettering for catalog suitability.",
+      "reviewPackage": {
+        "path": "evidence/4458/candidate-0fbb578684d0fbfa71e433714deb060861078c37e2af66950f346ffaa01010c9.json",
+        "sha256": "0fbb578684d0fbfa71e433714deb060861078c37e2af66950f346ffaa01010c9"
+      },
+      "sourceCandidate": {
+        "iconHash": "f56e06859a802d34a1424141505a895d949b51cc18f4f46e5153cfc4b68d0308",
+        "path": "evidence/4458/research-9bc875da8ea44b3c8d3aeb528082bf6a/fetch-c3c5b47ed31d4b2dbe8f569c74757b48/attempt-2/body.bin",
+        "rationale": "Genuine original vector served by the bank's own site template in the relevant historical period; first addition for a record without an icon. The standalone emblem is losslessly separable from the wordmark for the catalog.",
+        "retrieval": {
+          "path": "evidence/4458/research-9bc875da8ea44b3c8d3aeb528082bf6a/fetch-c3c5b47ed31d4b2dbe8f569c74757b48/receipt.json",
+          "sha256": "d201487e6db39f7d963378c8dcd3e35191df4161c6fa5be5d2be9aef28787aef"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20181016164646im_/http://www.sovbank.ru/bitrix/templates/sovbank/static/images/logo-sovbank-mk2.svg",
+        "sourceMaterial": {
+          "path": "evidence/4458/source-material-8e3a666550444790b5f3d0d565e60680/material.json",
+          "sha256": "829c5a61d8714e734f0ea51c91bc2b7f7144b793cad51023c5b6068b2644e70e"
+        },
+        "sourceUrl": "https://web.archive.org/web/20181016063248/http://www.sovbank.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20181016164646im_/http://www.sovbank.ru/bitrix/templates/sovbank/static/images/logo-sovbank-mk2.svg",
+          "checkedAt": "2026-10-02T16:15:00Z",
+          "independenceGroup": "official-site-archive",
+          "kind": "official",
+          "observation": "Archived official homepage (2018-10-16 snapshot) uses logo-sovbank-mk2.svg as the header logo with alt 'АО Банк «Советский»'; the SVG itself (14724 bytes) was retrieved from the bank's own bitrix template path via the Wayback im_ replay. Single color #b52e1e, 12 paths: a pentagon emblem plus the 'БАНК СОВЕТСКИЙ' lettering.",
+          "url": "https://web.archive.org/web/20181016063248/http://www.sovbank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T16:15:00Z",
+          "independenceGroup": "regulator",
+          "kind": "official",
+          "observation": "Bank of Russia record for OGRN 1027800000040 (АО «Банк Советский», St Petersburg) confirms this Company.id's entity and its revoked-license historical status, fixing the relevant period as pre-revocation.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1027800000040"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T16:15:00Z",
+          "independenceGroup": "live-site-check",
+          "kind": "third-party",
+          "observation": "The live sovbank.ru returns HTTP 403; the archived official presentation is therefore the reachable source for the bank's own branding.",
+          "url": "http://sovbank.ru"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T16:29:41.442717Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0",
+        "xmlSha256": "2711601ba1b7a116ff1c511c935f74eaa61aedf7d01173a1ec1aeaee9cf8d832"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
