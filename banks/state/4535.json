@@ -1,0 +1,65 @@
+{
+  "lastAttemptAt": "2026-10-02T22:11:30Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Referenced from the live current homepage header at retrieval time 2026-10-02T22:10:15Z; the bank operates (official site live).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset served as the header logo on the bank's own official site whose title names АО «ПЕРВОУРАЛЬСКБАНК».",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official-site group: the standalone mark and the lockup corroborate each other on the same first-party domain; identity/currency do not rely on third-party copies.",
+        "uncertainties": [
+          "Blue field is drawn via an alpha mask over a #0267FF rect; final rendering fidelity is checked during candidate preparation, not here."
+        ],
+        "variant": {
+          "basis": "Standalone no-lettering emblem variant, officially published as logo.svg; lockup variant exists separately, standalone form fits a square catalog cell per suitability rules.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "iconHash": "f40d636e3f8c43fce2048a6c2acb3506aac3ec9e3b1cf41f1faca13d9eb9eb84",
+        "path": "evidence/4535/research-0256a1a3da2d455f8333455c73d2bdc5/fetch-a29d2b91bdec494da1b8d7bbdbf32309/attempt-1/body.bin",
+        "rationale": "Original official standalone vector emblem currently served by the bank's own site; no tracing or raster involvement.",
+        "sourceAssetUrl": "https://pervbank.ru/front/assets/icons/logo.svg",
+        "sourceUrl": "https://pervbank.ru/front/assets/icons/logo.svg"
+      },
+      "candidateIconHash": "f40d636e3f8c43fce2048a6c2acb3506aac3ec9e3b1cf41f1faca13d9eb9eb84",
+      "checkedAt": "2026-10-02T22:11:30Z",
+      "reason": "Official site of AO «ПЕРВОУРАЛЬСКБАНК» (pervbank.ru) serves a standalone original vector emblem at /front/assets/icons/logo.svg (803 bytes, sha256 f40d636e3f8c43fce2048a6c2acb3506aac3ec9e3b1cf41f1faca13d9eb9eb84): white chevron emblem on #0267FF blue square, no lettering. Confirmed first addition: no icon.svg in the catalog folder.",
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T22:10:15Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Site root titled «АО «ПЕРВОУРАЛЬСКБАНК» — официальный сайт»; header references /front/assets/icons/logo.svg plus headerLogo.svg (emblem + wordmark) and footerBigLogo.svg. Operating entity confirmed on its own official domain.",
+          "url": "https://pervbank.ru/"
+        },
+        {
+          "assetUrl": "https://pervbank.ru/front/assets/icons/logo.svg",
+          "checkedAt": "2026-10-02T22:10:15Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Standalone hand-authored SVG emblem, viewBox 39x54, mask/clip construction, no raster, no lettering. Independent rsvg-convert reference render (evidence/4535/research-0256a1a3da2d455f8333455c73d2bdc5/logo-ref.png) shows a clean mark suitable for a square cell.",
+          "url": "https://pervbank.ru/front/assets/icons/logo.svg"
+        },
+        {
+          "assetUrl": "https://pervbank.ru/front/assets/icons/headerLogo.svg",
+          "checkedAt": "2026-10-02T22:10:15Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Lockup 329x54: identical emblem plus «ПЕРВОУРАЛЬСКБАНК» lettering; confirms the standalone mark is the bank's emblem and the no-text variant is officially published.",
+          "url": "https://pervbank.ru/front/assets/icons/headerLogo.svg"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
