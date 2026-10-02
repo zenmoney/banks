@@ -1,0 +1,145 @@
+{
+  "lastAttemptAt": "2026-10-02T18:03:36.493949Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4475/assessed-f55a0d89f0a8243cfc116233511c9591a2faf6b1ecf421e848eba6c2bb724e4b.json",
+        "sha256": "f55a0d89f0a8243cfc116233511c9591a2faf6b1ecf421e848eba6c2bb724e4b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Capture dates (2020-06-14 asset; 2020 homepage; 2020-08-06 rebranding page) fall within the bank's last brand period (Ижкомбанк rebranded to «Датабанк» in 2019, bank closed 2019-2020); the record title «Датабанк» matches this period. No later official presentation exists.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset comes from the bank's own domain (izhcombank.ru) as archived by the Wayback Machine; the same И-swoosh mark appears in the site header inline logo and in the full wordmark logo data_logo.svg from the same domain.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All primary observations derive from one publication domain (the bank's official site, archived); the rebranding page, homepage header and asset files are distinct official pages of that one source, and the Wayback Machine provides the dated capture. No independent third-party source was additionally consulted for the mark's design.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone mark variant (blue circle + emblem, no lettering) is the site's own icon-size asset (logo-general.svg, 'logo-general@1x'); the blue #4A90E2 differs from the header wordmark blue #004790 — both are official same-period variants; suitability decision belongs to candidate preparation.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/f50650f49509123d68488ffe588d7051a6cfca3665ebb05679c931be55dd013a.json",
+        "sha256": "f50650f49509123d68488ffe588d7051a6cfca3665ebb05679c931be55dd013a"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All source contours survive: circle boundary, the two swoosh strokes, the small detached tail detail at right, and the transparent counter. The transparent hole correctly shows white/#121212 through the final render. No clipping, no lost details.",
+        "faithful": true,
+        "iconHash": "479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0",
+        "path": "evidence/4475/candidate-479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0.svg",
+        "proportionsJudgement": "The near-square 20x21 emblem fills the catalog 162px icon area with comfortable margins on the 240px canvas; it is recognizable at 24/32/48 px diagnostics on both themes, with adequate stroke weight and contrast. No stretching; no circle mask needed since the emblem is already circular.",
+        "rationale": "First addition of the bank's own standalone mark: the official logo-general.svg from izhcombank.ru (Wayback capture 2020-06-14), the final brand period of the record (Ижкомбанк rebranded to «Датабанк» in 2019; bank closed 2019-2020). The mark is a self-contained original-vector emblem — blue #4A90E2 circle with a transparent swoosh-shaped counter — with no accompanying lettering, matching the record title «Датабанк» period. It fits a square cell and remains legible on both themes.",
+        "role": "Standalone bank emblem (site icon-size asset 'logo-general@1x'); the mark itself, not a full lockup.",
+        "sha256": "479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0",
+        "sourceAssetUrl": "https://web.archive.org/web/2020id_/https://izhcombank.ru/images/logo-general.svg",
+        "sourceUrl": "https://izhcombank.ru/images/logo-general.svg",
+        "transforms": [
+          "No geometric transformation: the emblem is used as-is in its 20x21 viewBox; only uniform authoring serialization changed.",
+          "SVGO 4.1.0 with the repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 1953 bytes working -> 1014 bytes optimized (sha256 479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0); selected because it is smaller, visually faithful (rsvg-convert comparison max channel difference <= 8/255 on both themes, antialiasing only), and converter-compatible in the pinned Desktop export.",
+          "No backing added: the source is a suitable transparent standalone mark (transparent corners only; the swoosh counter is an intentional transparent hole showing the theme background), so transparency is preserved per the background/fit policy."
+        ],
+        "variant": "Blue standalone circle variant from the bank's own site; the header wordmark used #004790 and the popup lockup a grey #CCCCCC monochrome — this blue circle asset is the site's own standalone variant from the same period.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this record (confirmed absent), so the visible difference is absence to a real, legible official mark."
+      },
+      "candidateIconHash": "479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0",
+      "checkedAt": "2026-10-02T18:03:36.493949Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "2069df502cce1ec7594055227a37d2cb03caea123292d941ea2d9df8549e4dc8",
+        "head": "bank-icon-maintenance/4475",
+        "headCommit": "3db51b848b5316d800a2e77d9f84d3ee6128ac5e",
+        "number": 31,
+        "observedAt": "2026-10-02T18:13:43.661957Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Датабанк (Company.id 4475)",
+        "url": "https://github.com/zenmoney/banks/pull/31"
+      },
+      "reason": "Found an original-vector standalone bank mark from the bank's own site (archived): izhcombank.ru/images/logo-general.svg, a self-contained SVG (blue #4A90E2 circular mark with the И-swoosh emblem, viewBox 0 0 20 21). Captured by the Wayback Machine on 2020-06-14, within the final brand period of the bank. The bank is defunct (license revoked 2019; site offline today), so archived official assets are the correct dated source. The full wordmark logo also exists as an official vector (images/popup/data_logo.svg, grey #CCCCCC monochrome) but carries accompanying lettering and is not the standalone-mark candidate.",
+      "reviewPackage": {
+        "path": "evidence/4475/candidate-564078943a97d8d7ed1ba3e740982914dc0d00755678942bb20bdbae14ecd161.json",
+        "sha256": "564078943a97d8d7ed1ba3e740982914dc0d00755678942bb20bdbae14ecd161"
+      },
+      "sourceCandidate": {
+        "iconHash": "79b98e962fc41940567500bfea8a0fa4e1494b73b415f7437c0e38331b2df68d",
+        "path": "evidence/4475/research-60ebdafab69b41f09dc5615052eb0215/fetch-92be3a746e1e4026bcec32daff0caf98/attempt-2/body.bin",
+        "rationale": "Original vector (self-contained single-path SVG, fill #4A90E2, viewBox 0 0 20 21) of the standalone bank emblem, no accompanying text, from the bank's official site as archived 2020-06-14 (Wayback replay https://web.archive.org/web/20200614234134id_/https://izhcombank.ru/images/logo-general.svg); body sha256 79b98e962fc41940567500bfea8a0fa4e1494b73b415f7437c0e38331b2df68d.",
+        "retrieval": {
+          "path": "evidence/4475/research-60ebdafab69b41f09dc5615052eb0215/fetch-92be3a746e1e4026bcec32daff0caf98/receipt.json",
+          "sha256": "bf293c6ced2dd5b2485d5e5f22d98eca7020cfc3792dfc7ddf6278eac0e5876c"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/2020id_/https://izhcombank.ru/images/logo-general.svg",
+        "sourceUrl": "https://izhcombank.ru/images/logo-general.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T17:50:04Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Official site unreachable: HTTPS transfer failed (connection error), consistent with the bank's closure (license revoked 2019).",
+          "url": "https://izhcombank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T17:50:14Z",
+          "independenceGroup": "official-site-archived",
+          "kind": "official",
+          "observation": "Archived homepage (2020-01-01): header logo is an inline SVG (viewBox 0 0 207.98 48, colors #004790/#7c7d7d/#9e9fa0) combining the mark with the wordmark; no standalone <img> logo file referenced. source-material extraction blocked: external SVG style context / duplicate vector IDs.",
+          "url": "https://web.archive.org/web/20200101185509id_/https://www.izhcombank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T17:51:46Z",
+          "independenceGroup": "official-site-archived",
+          "kind": "official",
+          "observation": "Official rebranding page (archived 2020-08-06): announces ПАО «Ижкомбанк» rebranding to «Датабанк», confirming the record's title/brand period.",
+          "url": "https://web.archive.org/web/20200806122122id_/https://izhcombank.ru/about/rebrending/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T17:52:25Z",
+          "independenceGroup": "wayback-index",
+          "kind": "official",
+          "observation": "Wayback CDX index of site assets; located original SVG assets: images/logo-general.svg (20200614232237), images/popup/data_logo.svg (20200306073005), images/popup/izhkom_logo.svg (20200306073013, replay 404), images/logo.svg (20180214113639, pre-rebrand full logo).",
+          "url": "https://web.archive.org/cdx/search/cdx?url=izhcombank.ru/images/*"
+        },
+        {
+          "assetUrl": "https://www.izhcombank.ru/images/popup/data_logo.svg",
+          "checkedAt": "2026-10-02T17:54:43Z",
+          "independenceGroup": "official-site-archived",
+          "kind": "official",
+          "observation": "Official full logo SVG (250x55, grey #CCCCCC monochrome variant): circular И-swoosh mark + «ижкомбанк» wordmark. Original vector, but contains accompanying lettering; not suitable as a standalone catalog mark.",
+          "url": "https://web.archive.org/web/20200306073005im_/https://www.izhcombank.ru/images/popup/data_logo.svg"
+        },
+        {
+          "assetUrl": "https://web.archive.org/web/2020id_/https://izhcombank.ru/images/logo-general.svg",
+          "checkedAt": "2026-10-02T17:52:46Z",
+          "independenceGroup": "official-site-archived",
+          "kind": "official",
+          "observation": "Standalone bank mark as an original self-contained SVG (20x21, single path, fill #4A90E2): blue circle with the И-swoosh emblem, no lettering. Official site asset from the final brand period (capture 2020-06-14). Rendered locally via rsvg-convert and visually confirmed as the standalone emblem.",
+          "url": "https://izhcombank.ru/images/logo-general.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T18:06:28.211910Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0",
+        "xmlSha256": "c338b10a3b695bbcd0dcf4aa2ebee7eaa7074cc3bef89e5ec63b720116561ac4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
