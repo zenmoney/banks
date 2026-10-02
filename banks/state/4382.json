@@ -1,0 +1,123 @@
+{
+  "lastAttemptAt": "2026-10-02T11:02:14.084154Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4382/assessed-8d0f612e5b94a6d7593347f8023d718b1f419c32a18f52577c7d8916d462a3ca.json",
+        "sha256": "8d0f612e5b94a6d7593347f8023d718b1f419c32a18f52577c7d8916d462a3ca"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Historical record: ООО КБ «Кольцо Урала» (Екатеринбург, ОГРН 1026600001955) joined ПАО «Московский кредитный банк» by reorganization; licence annulled 2022-01-01 (merger, not revocation). The archived official site logo (Wayback capture 2021-01-02) represents the last independent brand period through 2021.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Company record КБ \"КОЛЬЦО УРАЛА\" (metadata URL kubank.ru) matches the Yekaterinburg bank whose official 2021 site header carried this exact lockup (emblem + 'Банк Кольцо Урала' wordmark); the live www.kubank.ru static merger landing keeps the same raster logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site asset (Wayback capture of www.kubank.ru theme logo.svg) is the primary publication; the ЦБ РФ registry independently establishes the lifecycle boundary. Live-site raster logo corroborates continued emblem identity.",
+        "uncertainties": [
+          "No standalone emblem file exists on the archived site; the emblem is proposed as a group-level lossless extraction from the official lockup vector (wordmark excluded per catalog suitability), with the full lockup preserved as source evidence."
+        ],
+        "variant": {
+          "basis": "Direct archived official SVG (viewBox 0 0 1241 254): yellow #FFB400 emblem (crown + lizard/ring) at left plus black wordmark; the emblem group is self-contained with its own defs/mask (#c/#d).",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d19c1ffd2140c6c9262dc185502a510768b116b8ed2ef459fbe4a632db8f6892.json",
+        "sha256": "d19c1ffd2140c6c9262dc185502a510768b116b8ed2ef459fbe4a632db8f6892"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem contours preserved exactly: crown, head/eye, ring strokes and the small limbs; single flat fill #FFB400; mask behaviour unchanged; transparency preserved.",
+        "faithful": true,
+        "iconHash": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff",
+        "path": "evidence/4382/candidate-0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff.svg",
+        "proportionsJudgement": "Emblem fills its natural bounding box, centered in the 54 dp icon area, complete and legible at 24-48 px diagnostics on both themes; no clipping, stretching or added backing (transparent standalone mark policy).",
+        "rationale": "First addition from the archived official header lockup: the standalone emblem (crown + lizard/ring, #FFB400) extracted losslessly from the official vector; wordmark excluded per catalog suitability.",
+        "role": "standalone bank emblem (lizard biting its tail forming a ring, crowned), left mark of the official header lockup",
+        "sha256": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff",
+        "sourceAssetUrl": "https://web.archive.org/web/20210102101802im_/https://www.kubank.ru/themes/kubank/assets/img/logo.svg",
+        "sourceUrl": "https://web.archive.org/web/20210102101802im_/https://www.kubank.ru/themes/kubank/assets/img/logo.svg",
+        "transforms": [
+          "group-level lossless extraction of the emblem subtree (defs path #c, mask #d, crown path, emblem group) from the official lockup SVG; no path geometry, fill or alpha changed; wordmark paths removed as accompanying text",
+          "viewport changed from the lockup canvas 0 0 1241 254 to the emblem bounds 0 17 236 218 (whole-emblem crop only; no scaling or distortion of the emblem itself)",
+          "SVGO 4.1.0 trial with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2837 -> 2842 bytes; skipped (output larger than input), working version retained"
+        ],
+        "variant": "last independent brand period (through 2021) official emblem, uniform yellow #FFB400 on transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon existed at the frozen base; the visible difference is absence of any icon versus the extracted emblem."
+      },
+      "candidateIconHash": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff",
+      "checkedAt": "2026-10-02T11:02:14.084154Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "7e097b6a9468a08d5b5c6b1b7c5cd362e9788818c85a851c1addb16d7866d2be",
+        "head": "bank-icon-maintenance/4382",
+        "headCommit": "dbd1b5ef5eca9637ad1226ab00d115b19aa2beb0",
+        "number": 19,
+        "observedAt": "2026-10-02T11:06:53.748459Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБ \"КОЛЬЦО УРАЛА\" (Company.id 4382)",
+        "url": "https://github.com/zenmoney/banks/pull/19"
+      },
+      "reason": "First addition: bank record has no icon.svg. Found the archived official lockup vector; its standalone emblem is suitable after lossless group extraction.",
+      "reviewPackage": {
+        "path": "evidence/4382/candidate-dd7a34b40efbdbc1411489ec29960c127c9cc04ad1bec737ffbdd76ce4338550.json",
+        "sha256": "dd7a34b40efbdbc1411489ec29960c127c9cc04ad1bec737ffbdd76ce4338550"
+      },
+      "sourceCandidate": {
+        "iconHash": "cfc1e9861e54518638d948a0a1334c1fae283b832bb3c98448edbf0672cd8385",
+        "path": "evidence/4382/research-d8fee5b5c26745538bb08822acec7d1c/fetch-35d14d539b95470a99ef5f05b8ce666c/attempt-2/body.bin",
+        "rationale": "Original official vector: archived header logo of the bank's own site. The standalone emblem is a lossless group-level extraction of the official lockup (no tracing, no redraw, no recolor); the wordmark is excluded only because catalog marks must not carry accompanying text. Verified visually: complete crown+lizard/ring emblem in #FFB400, correct on white and dark backgrounds.",
+        "retrieval": {
+          "path": "evidence/4382/research-d8fee5b5c26745538bb08822acec7d1c/fetch-35d14d539b95470a99ef5f05b8ce666c/receipt.json",
+          "sha256": "e44b2279921d5d737f7051171b81f3d86e828af6bdcdc85aa3d4d5ce5746628c"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20210102101802im_/https://www.kubank.ru/themes/kubank/assets/img/logo.svg",
+        "sourceUrl": "https://web.archive.org/web/20210102101802im_/https://www.kubank.ru/themes/kubank/assets/img/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20210102101802im_/https://www.kubank.ru/themes/kubank/assets/img/logo.svg",
+          "checkedAt": "2026-10-02T10:45:39Z",
+          "independenceGroup": "official primary publication (archived www.kubank.ru)",
+          "kind": "official",
+          "observation": "Wayback capture 2021-01-02 of the official site header logo (CSS .logo background-url): full lockup 1241x254, emblem #FFB400 plus black wordmark; emblem group self-contained with defs/mask.",
+          "url": "https://web.archive.org/web/20210102101802im_/https://www.kubank.ru/themes/kubank/assets/img/logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T10:44:20Z",
+          "independenceGroup": "official primary publication (current static landing)",
+          "kind": "official",
+          "observation": "Live www.kubank.ru serves a static 2022 merger landing with the same emblem as raster (src/images/logo.png); no SVG on the live site. Apex kubank.ru TLS-resets.",
+          "url": "https://www.kubank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T10:43:00Z",
+          "independenceGroup": "central bank regulator registry",
+          "kind": "third-party",
+          "observation": "ЦБ РФ registry: ООО КБ «Кольцо Урала» joined ПАО «Московский кредитный банк» by reorganization, licence annulled 2022-01-01; establishes the historical record and last brand period (through 2021).",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1026600001955"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T11:03:30Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff",
+        "xmlSha256": "aaf1842f959a639544c7c2d6d0a14181932b944f8ba7b813bf1ff63c269902c0"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
