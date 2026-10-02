@@ -1,0 +1,118 @@
+{
+  "lastAttemptAt": "2026-10-02T21:37:11.122025Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4522/assessed-f036434c1b061876360b2bbd579639d05c1bcbc211a735c90337ce3300d63c28.json",
+        "sha256": "f036434c1b061876360b2bbd579639d05c1bcbc211a735c90337ce3300d63c28"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official site in current use (2025 documents) serves the asset; CBR shows an active universal license; the emblem is the present brand mark, not a historical variant.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "favicon.svg published on the bank's own domain vlbb.ru; identical emblem in the site's official logo-color.svg lockup beside the 'ВЛАДБИЗНЕСБАНК' wordmark; CBR record ties vlbb.ru to АО «Владбизнесбанк».",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Regulator registry (cbr.ru) is independent of the bank's site; identity/currency rest on the official publication corroborated by the regulator's live-status record.",
+        "uncertainties": [
+          "The standalone asset is published as the site favicon (browser icon declaration) rather than from a brand-guidelines page; identity corroborated by the identical emblem in the official logo lockup on the same domain."
+        ],
+        "variant": {
+          "basis": "Standalone emblem variant (favicon.svg) of the same mark geometry/colors (#9d235a) as in the wordmark lockup; wordmark lockup rejected as unsuitable for a square cell, favicon chosen as the standalone form.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/589d3875827b2d7b934a2d2feb2da9bf4d6ae7172ed1240af4ff0b38e9fb64d9.json",
+        "sha256": "589d3875827b2d7b934a2d2feb2da9bf4d6ae7172ed1240af4ff0b38e9fb64d9"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem details (ribbon fold gaps, notch between strokes, rounded terminals) preserved in working, optimized, and Compose renders; independent rsvg-convert source reference and desktop light/dark frames show identical contours.",
+        "faithful": true,
+        "iconHash": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9",
+        "path": "evidence/4522/candidate-d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9.svg",
+        "proportionsJudgement": "Emblem proportions identical across source reference, final SVG, and both theme renders; the emblem sits centered in the 240x240 frame with comfortable margins, no stretching or cropping.",
+        "rationale": "First addition for operating АО «Владбизнесбанк»: the official standalone favicon.svg (folded-ribbon 'ВБ' monogram, fill #9d235a) is a self-contained original vector served by the bank's own site; the identical emblem appears in the official logo-color.svg lockup, confirming identity and current use. Suitable standalone square mark.",
+        "role": "Standalone brand emblem (browser favicon declaration on vlbb.ru), monogram mark without wordmark.",
+        "sha256": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9",
+        "sourceAssetUrl": "https://www.vlbb.ru/favicon.svg",
+        "sourceUrl": "https://www.vlbb.ru/",
+        "transforms": [
+          "No geometric transformation was applied: the original 600x600 viewBox and emblem placement were preserved.",
+          "SVGO 4.1.0 optimization trial with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 3661 -> 1743 bytes; optimized result selected (hash d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9) after visual comparison against the working version showed no geometry, color, or detail change at 240px reference scale."
+        ],
+        "variant": "Standalone colored emblem variant; same geometry and brand color #9d235a as the emblem in the official wordmark lockup.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon existed at the frozen base commit (confirmed absent, baseIconHash null), so the diff is absent-to-real-icon — the catalog gains the bank's standalone magenta monogram where no SVG existed before."
+      },
+      "candidateIconHash": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9",
+      "checkedAt": "2026-10-02T21:37:11.122025Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5db38a527e4f3a02cf3f0e262e34c7d905de28ee25ece49f1de3319a935011bb",
+        "head": "bank-icon-maintenance/4522",
+        "headCommit": "e60f7b2195adb5cfcda309aa5a6c3c6419217bbe",
+        "number": 36,
+        "observedAt": "2026-10-02T21:46:25.812737Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Владбизнесбанк (Company.id 4522)",
+        "url": "https://github.com/zenmoney/banks/pull/36"
+      },
+      "reason": "Operating bank (CBR: universal license; site live 2025). Official favicon.svg at vlbb.ru is a self-contained original vector (600x600 viewBox, 4 paths, no embedded raster, fill #9d235a; Inkscape export of the brand 'logo-color' file) showing the standalone folded-ribbon 'ВБ' monogram used in the official logo lockup; suitable standalone square mark. Proposed as first addition.",
+      "reviewPackage": {
+        "path": "evidence/4522/candidate-68c8c8a34d4da61d18d91d4b872b571062e8338e81d14266a17a139b55774f6f.json",
+        "sha256": "68c8c8a34d4da61d18d91d4b872b571062e8338e81d14266a17a139b55774f6f"
+      },
+      "sourceCandidate": {
+        "iconHash": "e9746e16842a4a26f5b7246d6bca970e5f2b570bd05c7687531fe78fa8cd0a7f",
+        "path": "evidence/4522/research-04890df0fbc64732a7f9cfa026f7afde/fetch-03ac496b7f784a798e235b80836b82ab/attempt-1/body.bin",
+        "rationale": "Standalone monogram emblem without wordmark, square cell, original vector provenance (Illustrator 19.2 export, Inkscape-edited brand file, not traced raster); identical emblem appears inside official logo-color.svg lockup, corroborating identity and current use. Proposed as first addition.",
+        "retrieval": {
+          "path": "evidence/4522/research-04890df0fbc64732a7f9cfa026f7afde/fetch-03ac496b7f784a798e235b80836b82ab/receipt.json",
+          "sha256": "61793caaee2ce297091f8f4cf555ec126c3fcab62ac3f373c48b8276f90ea9bc"
+        },
+        "sourceAssetUrl": "https://www.vlbb.ru/favicon.svg",
+        "sourceMaterial": {
+          "path": "evidence/4522/source-material-f93d61eea3e84a5ca1568b6eefdefd6e/material.json",
+          "sha256": "d374f043a86e882b5963baf2282a2a85fe7e76e1740f6db7798efbceffbad148"
+        },
+        "sourceUrl": "https://www.vlbb.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.vlbb.ru/favicon.svg",
+          "checkedAt": "2026-10-02T21:35:00Z",
+          "independenceGroup": "vlbb.ru official site (favicon and lockup same publication)",
+          "kind": "official",
+          "observation": "Official live site declares <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">. The 3661-byte file is a self-contained original vector (4 paths, no images/text, single fill #9d235a) of the standalone ribbon monogram. Same emblem appears at the left of the official logo-color.svg lockup (mark + 'ВЛАДБИЗНЕСБАНК' wordmark), confirming the favicon is the bank's standalone mark.",
+          "url": "https://www.vlbb.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T21:34:00Z",
+          "independenceGroup": "cbr.ru regulator record",
+          "kind": "official",
+          "observation": "Bank of Russia registry: АО «Владбизнесбанк», OGRN 1023300000063, 'Банк с универсальной лицензией' — operating bank, current brand period.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1023300000063"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T21:40:38.474322Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9",
+        "xmlSha256": "2d7edbcece4ec92ed7101df12ab41c681a1895680b48d860f1d3a50e86553676"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
