@@ -1,0 +1,139 @@
+{
+  "lastAttemptAt": "2026-10-02T19:13:00.590762Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4487/assessed-0ca3cd53511cd249d3f43f894fd40857ee617a7b80141d5b3db971e0c3c87bfc.json",
+        "sha256": "0ca3cd53511cd249d3f43f894fd40857ee617a7b80141d5b3db971e0c3c87bfc"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Logo SVG served by the live official template today (live bytes observed 2026-10-02); site news dated August 2026 confirm active operation. Archive snapshot of 2025-12-22 is byte-identical to live bytes, confirming current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Live official site titled «Банк Казани» - официальный сайт; its header logo renders the same bank's mark (green 'БК' monogram + purple lettering). Independent directory banksdaily.com lists the same operating bank under bankkazani.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary observation is the bank's own live official site (official); banksdaily.com directory provides independent identity corroboration only.",
+        "squareStandaloneSuitability": {
+          "basis": "Independent inspection of the original lockup render (render-original-lockup.png) and the working render (render-working-mark.png): the monogram alone is a complete, recognizable standalone symbol; its measured path bounds are square (x 0→38.00091, y 0.02235→38.00091) and it fills the square viewport with no padding, scaling, cropping or added backing. Internal counter (transparent square inside the Б) and all strokes survive.",
+          "finding": "confirmed"
+        },
+        "uncertainties": [],
+        "variant": {
+          "basis": "Two official color variants of identical geometry: violet-on-light (logo-violet.svg, emblem #96d700, lettering #5f0091) and white-on-dark (logo-white.svg). The emblem is one self-contained path occupying roughly x 0-44 of the 244x38 lockup; it is natively square and is the standalone mark of the bank. The full lockup with lettering is not square-cell suitable; the isolated monogram is.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/bf481938778e701e54cc0bb494d319c1c66ec1b29a91fece58e783f7b3908021.json",
+        "sha256": "bf481938778e701e54cc0bb494d319c1c66ec1b29a91fece58e783f7b3908021"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Complete emblem preserved: all strokes, the diagonal К arm and the internal transparent counter of the Б survive in the exact final Desktop renders on both themes; color is the exact original green #96d700 with no invented gradient; alpha preserved; no backing shape added.",
+        "faithful": true,
+        "iconHash": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6",
+        "path": "evidence/4487/candidate-9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6.svg",
+        "proportionsJudgement": "Mark is natively square; the square viewBox reproduces original path proportions with no distortion, crop or stretching. In the source/final pairs the isolated mark matches the emblem in the full lockup in shape and relative geometry at identical scale.",
+        "rationale": "First icon addition for КБЭР «Банк Казани». The bank's current official header logo (logo-violet.svg on bankofkazan.ru) contains a natively square standalone 'БК' monogram; isolating it byte-verbatim yields a complete square catalog mark. Identity, currency and variant were confirmed in the recorded attempt from the live official site and an independent directory.",
+        "role": "standalone monogram emblem ('БК' lettermark) extracted from the official full lockup; it is the bank's mark itself, not accompanying text — the purple 'Банк Казани' wordmark was intentionally excluded as unsuitable for a square cell",
+        "sha256": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6",
+        "sourceAssetUrl": "https://web.archive.org/web/2026/https://www.bankofkazan.ru/local/templates/bank2020/static/img/logo-violet.svg",
+        "sourceUrl": "https://www.bankofkazan.ru/",
+        "transforms": [
+          "No geometry transformation: the single <path class=\"cls-3\"> 'БК' monogram element is copied byte-verbatim from the bound original material (material.bin sha256 7eeee1751d8c35399aa21d38ed10b5c52abdf76bda4e1d8b896d38164242b91a); no tracing, raster embedding, redraw or new geometry of any kind.",
+          "Resolved stylesheet fill to inline fill=\"#96d700\" — the exact value from the original <style> block (class cls-3); no color change.",
+          "Omitted the 10 cls-4 wordmark paths, the original <defs>/<style> block and the clipPath wrapper group; the monogram path lies entirely inside the original clip rect (0,0,243.84,38), so no clipped geometry was lost.",
+          "Square viewport viewBox=\"0 0 38.001 38.001\" set from measured exact path bounds (x 0→38.00091, y 0.02235→38.00091, svgelements bbox); the mark is natively square and fills the viewport with no padding, scaling, cropping or added backing/circle.",
+          "SVGO 4.1.0 trial (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e, worktree svgo.config.mjs): 809 bytes → 812 bytes (output sha256 d136dcc94be23c64825fd32c7d6b5eb8ff7c71cc4b614b330597736be18585a3) — 3 bytes larger, so the SKIPPED result retained the working version as final.svg (sha256 9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6). Working vs optimized renders are pixel-identical RGB and RGBA on both themes (evidence/4487/optimized/comparison.png, optimization-notes.md)."
+        ],
+        "variant": "violet-on-light color variant (emblem green #96d700, exactly as in the original stylesheet); the official white-on-dark variant (logo-white.svg) has identical geometry and is the same variant family — the green emblem is the bank's brand color used on both light and dark themes",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the record has no existing icon.svg at the frozen base commit (confirmed pinned-path absence, baseline iconHash null); the candidate replaces absence with the bank's real current monogram, so the visible difference is absent-to-real-icon."
+      },
+      "candidateIconHash": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6",
+      "checkedAt": "2026-10-02T19:13:00.590762Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "59eb2d450edf1b36252a55777d8e52e3ec3709e751f276bc304193f3e83566dc",
+        "head": "bank-icon-maintenance/1s82zz3w-4487",
+        "headCommit": "f57f827e2fe0cfa00fb180e4db30e7eac10d8eac",
+        "number": 32,
+        "observedAt": "2026-10-02T19:21:15.523949Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБЭР \"Банк Казани\" (Company.id 4487)",
+        "url": "https://github.com/zenmoney/banks/pull/32"
+      },
+      "reason": "Original vector source found and verified: the live official site https://www.bankofkazan.ru/ serves logo-violet.svg (viewBox 0 0 244 38) containing the current 'БК' monogram (single path, fill #96d700) plus the 'Банк Казани' wordmark (10 paths, fill #5f0091). An Internet Archive snapshot (2025-12-22T02:51:07Z) of the same asset was retrieved via workflow fetch and its bytes are sha256-identical to the live browser-observed bytes (8076 bytes, sha256 7eeee1751d8c35399aa21d38ed10b5c52abdf76bda4e1d8b896d38164242b91a), so the archive snapshot proves the live asset content. Working SVG isolates the original single monogram path byte-verbatim with the exact stylesheet color #96d700 inlined and a square viewBox 0 0 38.001 38.001 from measured path bounds; no tracing, no new geometry, no backing shape.",
+      "reviewPackage": {
+        "path": "evidence/4487/candidate-022dac5ae6cce62fedd7f8539ee2146c7c482d45be182f0bd39245d3939110d1.json",
+        "sha256": "022dac5ae6cce62fedd7f8539ee2146c7c482d45be182f0bd39245d3939110d1"
+      },
+      "sourceCandidate": {
+        "iconHash": "7eeee1751d8c35399aa21d38ed10b5c52abdf76bda4e1d8b896d38164242b91a",
+        "path": "evidence/4487/research-452de5c226944b79bfd0217e1707b243/fetch-e6a77d51cbd542d49ee6f71f78fa3e0a/attempt-2/body.bin",
+        "rationale": "Current official header logo of the operating bank, retrieved as an original vector (lossless archive fetch byte-identical to live bytes); its single green 'БК' monogram path (fill #96d700) is a natively square standalone symbol, isolated downstream byte-verbatim with the exact original fill and a square viewBox as the working/final candidate SVG.",
+        "retrieval": {
+          "path": "evidence/4487/research-452de5c226944b79bfd0217e1707b243/fetch-e6a77d51cbd542d49ee6f71f78fa3e0a/receipt.json",
+          "sha256": "7eb2a5d0bb8206015673c9b8c353424efb1f305322d8d3283944de53058f0f88"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/2026/https://www.bankofkazan.ru/local/templates/bank2020/static/img/logo-violet.svg",
+        "sourceMaterial": {
+          "path": "evidence/4487/source-material-16d40343dfd84e9a97694fbe45a6b635/material.json",
+          "sha256": "f3c6ef00fbcd882a508a2a735af6d194b68b627e2ebc58438f35648cc452bdb2"
+        },
+        "sourceUrl": "https://www.bankofkazan.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.bankofkazan.ru/local/templates/bank2020/static/img/logo-violet.svg",
+          "checkedAt": "2026-10-02T19:00:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Live official site header logo SVG: green 'БК' monogram + purple 'Банк Казани' lettering; retrieved original vector (8076 bytes). Live bytes observed byte-identical to the archived snapshot on 2026-10-02 via reserved browser action.",
+          "url": "https://www.bankofkazan.ru/"
+        },
+        {
+          "assetUrl": "https://web.archive.org/web/2026/https://www.bankofkazan.ru/local/templates/bank2020/static/img/logo-violet.svg",
+          "checkedAt": "2026-10-02T19:02:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Original vector retrieved via workflow fetch through the Internet Archive (resolved snapshot 2025-12-22T02:51:07Z, final URL .../20251222025107/...); 8076 bytes, sha256 7eeee1751d8c35399aa21d38ed10b5c52abdf76bda4e1d8b896d38164242b91a, byte-identical to the live-site bytes observed 2026-10-02 via the reserved browser action, so the archive snapshot proves the live asset content.",
+          "url": "https://www.bankofkazan.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T18:53:53Z",
+          "independenceGroup": "official-site-legacy-host",
+          "kind": "official",
+          "observation": "Legacy host not retrievable over verified HTTPS (self-signed certificate on both https://kazanbank.ru/ and https://www.kazanbank.ru/; curl exit 60 with packaged-CA retry). Brand/site moved to bankofkazan.ru.",
+          "url": "https://kazanbank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-02T18:56:00Z",
+          "independenceGroup": "banksdaily",
+          "kind": "third-party",
+          "observation": "Independent bank directory entry corroborating identity of ООО КБЭР «Банк Казани» (SWIFT KABORU2K).",
+          "url": "https://banksdaily.com/rus/bank/bankkazani"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-02T19:15:16.934000Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6",
+        "xmlSha256": "e6edaf5861f6f4536a537990229ea9a804fe8a9801d16429929743152c4ade7f"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
