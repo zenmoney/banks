@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-03T19:58:49.030489Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15642/assessed-3317d80fcec6dbce0ade27372083f54cf6594d83e4af7285cc444fefd54757b7.json",
+        "sha256": "3317d80fcec6dbce0ade27372083f54cf6594d83e4af7285cc444fefd54757b7"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official birbank.az site currently serves the red wordmark as its logo; the catalog's pinwheel/rhombus is the legacy pre-rebrand Kapital Bank symbol, no longer the served brand mark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "birbank.az is the official site of Kapital Bank's retail brand (homepage title carries both names; kapitalbank.az apex redirects to it); the candidate mark is that bank's current brand logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from the bank's own properties (birbank.az and the kapitalbank.az apex redirect); direct official confirmation, not mirror-based.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The candidate is the complete current logo (wordmark plus leading glyph); the letters form the mark itself, so the no-separate-lettering rule does not disqualify it. No standalone non-text Birbank symbol was found served officially.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/7118dd8f5d023405edc40aa7aac413884dc0336ce0c1f5d3cc5919626bd7a1e6.json",
+        "sha256": "7118dd8f5d023405edc40aa7aac413884dc0336ce0c1f5d3cc5919626bd7a1e6"
+      },
+      "baseIconHash": "25f376d0f3945a8297e1b12761b773dc4fe837701405e8c06150bd7957b43e65",
+      "candidate": {
+        "detailsJudgement": "Wordmark glyph outlines and the leading parallelogram preserved exactly; source/final pairs on both themes show no lost or invented details.",
+        "faithful": true,
+        "iconHash": "eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89",
+        "path": "evidence/15642/candidate-eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89.svg",
+        "proportionsJudgement": "Wordmark aspect preserved by uniform scale; placed with even vertical clearances in the 54x54 cell; at catalog icon size the lettering remains readable on both themes (verified in the exact 240x240 desktop frames).",
+        "rationale": "Evidenced rebrand of the operating retail brand: Kapital Bank's catalog pinwheel/rhombus is superseded by the current Birbank wordmark served on the bank's own site (birbank.az, title 'Birbank - Ilk reqemsal bank | Kapital Bank'; kapitalbank.az apex redirects there). Update replaces the obsolete design with the current official brand mark.",
+        "role": "Complete current brand mark: the red 'birbank' wordmark with its leading parallelogram glyph; the letters form the mark itself, so the no-separate-lettering rule does not disqualify it. No backing field, transparent mark.",
+        "sha256": "eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89",
+        "sourceAssetUrl": "https://birbank.az/file/new_logo_5fe2b40e30.svg",
+        "sourceUrl": "https://birbank.az/",
+        "transforms": [
+          "Carried the official wordmark SVG paths verbatim (class st0 mapped to explicit fill #FF0039, same color value); no geometry change.",
+          "Uniform scale 0.07591 and translation to fit the 685x248.2 lockup into a 54x54 canvas (catalog convention), horizontally near-full-width and vertically centered; no other change.",
+          "SVGO 4.1.0 trial with frozen config (configSha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 1992 -> 2019 bytes, pixel-identical renders; optimization REJECTED (larger), working bytes retained as final (eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89, 1992 bytes)."
+        ],
+        "variant": "Full official wordmark logo, official red #FF0039, exactly as served by birbank.az.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after desktop pairs show the legacy red pinwheel/rhombus replaced by the current Birbank wordmark; the visible diff is exactly the evidenced rebrand."
+      },
+      "candidateIconHash": "eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89",
+      "checkedAt": "2026-10-03T19:58:49.030489Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "069b41cbff6dfe1733e2d9cf290bdb6163bcd45a305d5581a54255aa511634a3",
+        "head": "bank-icon-maintenance/15642",
+        "headCommit": "14dd61d743afca41b869a25b093e0f2476ccd176",
+        "number": 76,
+        "observedAt": "2026-10-03T20:22:58.660890Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Kapital Bank (Company.id 15642)",
+        "url": "https://github.com/zenmoney/banks/pull/76"
+      },
+      "reason": "Current catalog icon is the legacy Kapital Bank red pinwheel/rhombus. The bank's retail identity has been rebranded to Birbank: the official birbank.az homepage titles itself 'Birbank - Ilk reqemsal bank | Kapital Bank' and serves the red #FF0039 'birbank' wordmark (with its leading parallelogram glyph) as the current logo, in two byte-identical official SVGs. The catalog mark is the superseded pre-rebrand design; candidate is the current official brand mark (the wordmark itself is the whole mark, so letters forming the mark are allowed).",
+      "reviewPackage": {
+        "path": "evidence/15642/candidate-8a8b07818627d15b5c4e74fdfc17ae29061b143de74d71b822be167222bc0895.json",
+        "sha256": "8a8b07818627d15b5c4e74fdfc17ae29061b143de74d71b822be167222bc0895"
+      },
+      "sourceCandidate": {
+        "iconHash": "c6d9f85539bca18f39e69212a983d537eced7a7b4d7d37d511088664a9366d3c",
+        "path": "evidence/15642/research-4f1067f1d1294e10aa654d524fb5cd0d/fetch-299bce4b15914bc3bae19bd2ba199c27/attempt-1/body.bin",
+        "rationale": "Evidenced rebrand of the operating retail brand: Kapital Bank's catalog pinwheel is superseded by the current Birbank wordmark served on the bank's own site; update replaces the obsolete design with the current official brand mark.",
+        "retrieval": {
+          "path": "evidence/15642/research-4f1067f1d1294e10aa654d524fb5cd0d/fetch-299bce4b15914bc3bae19bd2ba199c27/receipt.json",
+          "sha256": "77566674d2b552b5cfa5ec557b92c0167d92a9dd9c7871da06f5b19cb412fa32"
+        },
+        "sourceAssetUrl": "https://birbank.az/file/new_logo_5fe2b40e30.svg",
+        "sourceUrl": "https://birbank.az/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://birbank.az/file/new_logo_5fe2b40e30.svg",
+          "checkedAt": "2026-10-03T19:48:00Z",
+          "independenceGroup": "birbank.az official site (homepage and both logo file copies are one publication)",
+          "kind": "official",
+          "observation": "Official birbank.az homepage (title 'Birbank - Ilk reqemsal bank | Kapital Bank') serves the red 'birbank' wordmark logo. Two byte-identical SVG copies served at /file/new_logo_5fe2b40e30.svg and /file/new_logo_e657504d12.svg (Adobe Illustrator 28.3.0 export, viewBox 0 0 685 248.2, single class .st0 fill #FF0039, 2284 bytes). Site reached via favicon.svg meta-refresh redirect after kapitalbank.az returned 403 to the fetch helper.",
+          "url": "https://birbank.az/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T19:48:00Z",
+          "independenceGroup": "kapitalbank.az official site (apex redirect observation)",
+          "kind": "official",
+          "observation": "kapitalbank.az and www.kapitalbank.az returned 403 to the fetch helper (UA filtering); favicon.svg at the apex returned a meta-refresh redirect to birbank.az/az, showing the official apex site forwards to the Birbank brand site.",
+          "url": "https://kapitalbank.az/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T20:04:49.307112Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89",
+        "xmlSha256": "e51ef084f0e960c22565e45aee3af9f7e10efb08e2f6e41879b9d7fc4c1c7297"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
