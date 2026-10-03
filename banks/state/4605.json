@@ -1,0 +1,123 @@
+{
+  "lastAttemptAt": "2026-10-03T02:18:16.180769Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4605/assessed-66cef697182b5944250bc86d11d913c6c1c4497659189466c8c80d42fc4efd20.json",
+        "sha256": "66cef697182b5944250bc86d11d913c6c1c4497659189466c8c80d42fc4efd20"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "logo.svg referenced by the live homepage header on 2026-10-03; same bundle offered on the current press-center media page.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Wordmark and page title 'Bank Levoberezhny | Novosibirsk' on nskbl.ru; press-kit filenames BL_* consistent with the bank's brand.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Live site and the bank's own press kit agree; both official.; Two official contexts (site template and press kit) corroborate current use.; Same artwork in two official deliverables.",
+        "uncertainties": [
+          "No official standalone square mark is published; the icon derives the mark from the official lockup vector - presentation decision for candidate review.",
+          "nskbl.ru requires a Russian-trusted CA; all fetches used the helper's packaged-CA retry."
+        ],
+        "variant": {
+          "basis": "Main Color variant; the standalone mark is the two-path subgraph (fill #FFCA8C and #1EAAA2) of the official lockup vector, extractable losslessly; no tracing or redraw involved. Full-lockup form retained in evidence; standalone crop to be reviewed at candidate stage.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/9033b2445dac87f5561ba10141d9f82c6f34e16ddca31fe81155f46ffed1c4ff.json",
+        "sha256": "9033b2445dac87f5561ba10141d9f82c6f34e16ddca31fe81155f46ffed1c4ff"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All mark details survive: both chevron strokes, the notch between orange and teal, rounded terminals and the internal transparent gap; optimized paths numerically identical geometry.",
+        "faithful": true,
+        "iconHash": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048",
+        "path": "evidence/4605/candidate-2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048.svg",
+        "proportionsJudgement": "Near-square mark (~33x35 units) fills the 54dp icon area usefully at 240px and remains legible at 24/32/48px diagnostics; no clipping on either theme; transparent background kept (suitable transparent standalone mark - no backing added).",
+        "rationale": "First icon: official site template vector, losslessly fetched and corroborated by the bank's press kit; the standalone mark is a self-contained two-path subgraph of the official lockup, extracted without redrawing or tracing.",
+        "role": "standalone bank mark from the official horizontal lockup",
+        "sha256": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048",
+        "sourceAssetUrl": "https://www.nskbl.ru/local/templates/main/img/logo.svg",
+        "sourceUrl": "https://www.nskbl.ru/private/",
+        "transforms": [
+          "Lossless extraction of the two-path mark subgraph from the official 160x40 lockup; viewBox tightened to the mark's exact geometry bounds (3.65631 1.72737 32.96469 34.90653); wordmark paths excluded; no scaling/rotation/recoloring.",
+          "SVGO 4.1.0, frozen repository config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 840 -> 645 bytes, visually identical trial (independent rsvg-convert renders compared), optimized bytes selected (evidence/4605/opt-trial/svgo-receipt.json)."
+        ],
+        "variant": "Main Color variant; orange #FFCA8C chevron + teal #1EAAA2 frame, internal transparency preserved",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg, so the change is absence to a real, source-backed icon."
+      },
+      "candidateIconHash": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048",
+      "checkedAt": "2026-10-03T02:18:16.180769Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "aa949f226316ac90ae8990c93cd2c415953dffe4fa8e4ed58c2a4850ee8c803f",
+        "head": "bank-icon-maintenance/4605",
+        "headCommit": "0822b626ef24d0e53ddbd48525c9fe0b325dc5cd",
+        "number": 37,
+        "observedAt": "2026-10-03T02:29:18.345028Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Левобережный\" (Company.id 4605)",
+        "url": "https://github.com/zenmoney/banks/pull/37"
+      },
+      "reason": "Official site template SVG (live homepage header) with identical artwork in the bank's own press-kit vector bundle (BL_Logo_Rus_Main_Color.7z, containing BL_Firblock_Rus_Main_Color_RGB.svg). Original vector, losslessly obtained; the standalone 'L' mark is a self-contained two-path subgraph of the official lockup, separable without redrawing.",
+      "reviewPackage": {
+        "path": "evidence/4605/candidate-6db5ef0fc4c8201f214b4c91ec4c62d98c3a44a8ebcdd81d2f4b2c505906568f.json",
+        "sha256": "6db5ef0fc4c8201f214b4c91ec4c62d98c3a44a8ebcdd81d2f4b2c505906568f"
+      },
+      "sourceCandidate": {
+        "iconHash": "5cf595212db3325d0c616eac37f1406136970f654cb70cb446c8c290517252e0",
+        "path": "evidence/4605/research-246cf0def1b4403b9a2caa01d5b0e878/fetch-6a7a8c0b983549b798af3a360fcc29c7/attempt-2/body.bin",
+        "rationale": "Official site template vector, losslessly fetched; original vector with press-kit corroboration; standalone mark separable without redrawing.",
+        "retrieval": {
+          "path": "evidence/4605/research-246cf0def1b4403b9a2caa01d5b0e878/fetch-6a7a8c0b983549b798af3a360fcc29c7/receipt.json",
+          "sha256": "ce45a89ba2af19dedf223cd1f3cf6cc0ea966b56011bead17d4d2f8120c8fa2e"
+        },
+        "sourceAssetUrl": "https://www.nskbl.ru/local/templates/main/img/logo.svg",
+        "sourceUrl": "https://www.nskbl.ru/private/"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T02:17:41Z",
+          "independenceGroup": "official",
+          "kind": "official",
+          "observation": "Homepage; header uses /local/templates/main/img/logo.svg; favicons raster-only.",
+          "url": "https://www.nskbl.ru/private/"
+        },
+        {
+          "assetUrl": "https://www.nskbl.ru/local/templates/main/img/logo.svg",
+          "checkedAt": "2026-10-03T02:17:41Z",
+          "independenceGroup": "official",
+          "kind": "official",
+          "observation": "8065 B SVG, sha256 5cf595212db3325d0c616eac37f1406136970f654cb70cb446c8c290517252e0; 160x40 lockup: two-path orange/teal 'L' mark (x 2-45) plus 18 dark wordmark text paths (x >= 45).",
+          "url": "https://www.nskbl.ru/local/templates/main/img/logo.svg"
+        },
+        {
+          "assetUrl": "https://www.nskbl.ru/upload/iblock/c53/t309x8b007u47hp0mso1mnuq596foz6k/BL_Logo_Rus_Main_Color.7z",
+          "checkedAt": "2026-10-03T02:17:41Z",
+          "independenceGroup": "official",
+          "kind": "official",
+          "observation": "Official press-center media page offers logo bundles Horizontal/Main x Color/Inverse; Main_Color contains SVG/EPS/PNG/JPG of the same artwork.",
+          "url": "https://www.nskbl.ru/press-center/media/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T02:23:18Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048",
+        "xmlSha256": "109893468bc6ac0150000628fa6674d4c46d2913ec5b2555a4df1acda906a4bb"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
