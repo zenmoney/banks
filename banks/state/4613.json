@@ -1,0 +1,121 @@
+{
+  "lastAttemptAt": "2026-10-03T02:47:26.680565Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4613/assessed-c5274f268d97bb5bf2300da055264a64c84bee619794ea4bc5cdda44df5b496f.json",
+        "sha256": "c5274f268d97bb5bf2300da055264a64c84bee619794ea4bc5cdda44df5b496f"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Historical record: the mark represents the bank's operating period; the source is the mark used for that brand, and no later rebrand of this record exists to prefer.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched vector's own wordmark names the exact full legal-style name of this record (АРКБ «Росбизнесбанк»); РБ monogram matches the known mark of this bank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The aggregator vector's embedded wordmark is self-identifying; the archived official site independently confirms the mark's raster existence and the site's unavailability for color verification.",
+        "uncertainties": [
+          "Official color variant unverified; monochrome candidate proposed.",
+          "Aggregator provenance cannot be certified as authoritative; visual quality and identity verified directly from paths."
+        ],
+        "variant": {
+          "basis": "The proposed candidate is exactly the design carried by the fetched original vector: monochrome black emblem/wordmark on a white field. That variant of the proposed asset is confirmed directly from the source bytes; no alternative variant is being asserted.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/bd99dd6f5d7100c4f498f87d56073ac33cdb551bb5f793af6d2379263d17fa51.json",
+        "sha256": "bd99dd6f5d7100c4f498f87d56073ac33cdb551bb5f793af6d2379263d17fa51"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem contours, internal gaps and stroke terminals from the source path survive verbatim; the render matches the independent librsvg source reference in shape and color on both themes.",
+        "faithful": true,
+        "iconHash": "9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c",
+        "path": "evidence/4613/candidate-9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c.svg",
+        "proportionsJudgement": "Whole emblem fits the circle with even margins on a 48x48 cell; recognizable and legible at 24/32/48 px on both #FFFFFF and #121212 backgrounds; no clipping of strokes or satellite details.",
+        "rationale": "First icon addition for the historical Росбизнесбанк record. The fetched original vector is the bank's full logo; its РБ monogram emblem is the standalone mark, while the accompanying full bank-name wordmark makes the whole lockup unsuitable for a square catalog cell. The emblem geometry is carried over unchanged from the original vector; no tracing or redrawing involved.",
+        "role": "Standalone РБ monogram emblem selected from the original full-lockup vector (emblem path reused verbatim); the wordmark is accompanying lettering and is intentionally not part of the catalog mark.",
+        "sha256": "9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c",
+        "sourceAssetUrl": "https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg",
+        "sourceUrl": "https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg",
+        "transforms": [
+          "Selected the emblem path from the original vector unchanged (viewBox 3.8551 82.8851 30.8410 26.9859); no geometry edits.",
+          "Uniform scale 0.91710 and translation to center the whole emblem inside a 48x48 canvas (no stretch, rotation or cropping).",
+          "Added a white circular field (#ffffff, r=23) per the plain-field circle policy: the source canvas is a uniform white field; transparency outside the circle preserved; no emblem pixel removed.",
+          "SVGO 4.1.0 trial on a copy with the repository svgo.config.mjs: 2216 -> 2441 bytes (+10.2%), renders pixel-identical; skipped as a size regression, working bytes kept as final."
+        ],
+        "variant": "Monochrome black emblem, as carried by the source vector, placed on a white circular catalog backing that reproduces the source's uniform white field; transparency preserved outside the circle.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this bank, so the visible difference is absence to a real icon; no baseline comparison exists or is claimed."
+      },
+      "candidateIconHash": "9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c",
+      "checkedAt": "2026-10-03T02:47:26.680565Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "648c3024ff6cf845fdcf6dddcb259a9b1daee385ed8152d177233f4d8b7fc75c",
+        "head": "bank-icon-maintenance/4613",
+        "headCommit": "165b67b8c2a08b3699801beea7aea0d2bf6710d1",
+        "number": 38,
+        "observedAt": "2026-10-03T02:58:12.504154Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АРКБ \"Росбизнесбанк\" (Company.id 4613)",
+        "url": "https://github.com/zenmoney/banks/pull/38"
+      },
+      "reason": "Original vector found for the historical Росбизнесбанк mark: https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg — pure-path SVG (5 paths, no embedded raster/text), trademark-style 192.756 viewBox consistent with EPS-origin vector conversions. Full logo contains the РБ monogram emblem plus mandatory bank-name wordmark (РОССИЙСКИЙ АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК РОСБИЗНЕСБАНК) — direct identity evidence; namesakes Rosbank/RBC excluded. The standalone РБ emblem (first path) renders cleanly and is the catalog-suitable standalone mark; extraction is deferred to candidate preparation, this attempt binds the fetched original. Live www.rbb.ru is unreachable (expired TLS certificate); Wayback captures of the operating-period site are raster-only and the color capture is corrupted, so the official color variant remains unverified — the source vector is monochrome.",
+      "reviewPackage": {
+        "path": "evidence/4613/candidate-22cab2751ddbccbf7d6634bb62d377f543dc9700131c041454f4312e1551cf9a.json",
+        "sha256": "22cab2751ddbccbf7d6634bb62d377f543dc9700131c041454f4312e1551cf9a"
+      },
+      "sourceCandidate": {
+        "iconHash": "3cbe725a94ec78fdaa6f188ec6e7cfa37ae4bfd311dba2d0fac8e2a9ac1b27e6",
+        "path": "evidence/4613/research-7156c11c843547bc88ca58a2991c083b/fetch-867c6a314899400c869381120e2e72bb/attempt-1/body.bin",
+        "rationale": "Original pure-path vector of the exact bank's logo including its РБ emblem; standalone emblem selection and catalog presentation are prepared downstream from these original bytes.",
+        "retrieval": {
+          "path": "evidence/4613/research-7156c11c843547bc88ca58a2991c083b/fetch-867c6a314899400c869381120e2e72bb/receipt.json",
+          "sha256": "8822fd9188a186892975ec33e859d1d4d2d8f555d452ca0739615fe4293625e9"
+        },
+        "sourceAssetUrl": "https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg",
+        "sourceMaterial": {
+          "path": "evidence/4613/source-material-c32c2eb18f334b89bb6936701431f623/material.json",
+          "sha256": "201b9c610f2fba74a6d3256bcad41d5fe7045ead62e72289d9eec13366dc4790"
+        },
+        "sourceUrl": "https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg",
+          "checkedAt": "2026-10-03T02:36:00Z",
+          "independenceGroup": "worldvectorlogo asset (primary candidate source)",
+          "kind": "third-party",
+          "observation": "Vector aggregator asset: 5 pure paths, no raster embeds, fills #fff background + black emblem/wordmark; wordmark spells the exact full bank name of this record, confirming identity; professional path geometry (single-layer, trademark canvas) consistent with an original vector conversion, not an obvious trace.",
+          "url": "https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T02:36:30Z",
+          "independenceGroup": "rbb.ru official site (Wayback)",
+          "kind": "official",
+          "observation": "2020 and 2024 Wayback captures of the official site: header logo is raster-only PNG; the archived big-logo.png capture is corrupted (no usable color reference). Live rbb.ru fails TLS (expired certificate).",
+          "url": "https://web.archive.org/web/2020/https://www.rbb.ru/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T02:53:11.695047Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c",
+        "xmlSha256": "2ba493d2b3c9ec023a0e8dad6c9720de90a6fc0299d634ce3c8105bf8abc1efb"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

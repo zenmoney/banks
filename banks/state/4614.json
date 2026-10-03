@@ -1,0 +1,128 @@
+{
+  "lastAttemptAt": "2026-10-03T02:47:07.400563Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4614/assessed-8cdba513bc2e22e0d332c65cdf8365c0e9964de5d34cf6f31518c81010cc3b2c.json",
+        "sha256": "8cdba513bc2e22e0d332c65cdf8365c0e9964de5d34cf6f31518c81010cc3b2c"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Bank is operating; logo asset served by the live official site (last-modified 2022-04-13) is the design in current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Assets come from the bank's own live domain and API storage; press-center confirms the legal entity matching the record title and RU country.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Header SVG, favicon and press pages are separate official artifacts of the same entity; no third-party source was needed for identity.",
+        "uncertainties": [
+          "Homepage root fetch hits a redirect loop; identity established via press pages and API storage."
+        ],
+        "variant": {
+          "basis": "Compact mark (fragment column + «Н») matches the bank's own favicon presentation of the same emblem/colors as the header vector; both derive from the same official asset family.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/26412a68c08d6d1ac2e529f705b81588d487559d98c9a193617c45aadfee21ed.json",
+        "sha256": "26412a68c08d6d1ac2e529f705b81588d487559d98c9a193617c45aadfee21ed"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Fragment contours, the notch of the red column and the «Н» glyph geometry match the source and the bank's favicon presentation; colors #B92032/#0E152D preserved exactly.",
+        "faithful": true,
+        "iconHash": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a",
+        "path": "evidence/4614/candidate-438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a.svg",
+        "proportionsJudgement": "Whole mark fits the circle with even margins; recognizable at 24/32/48 px on both #FFFFFF and #121212 backgrounds; the white circle is invisible on white but the red/navy mark itself stays legible.",
+        "rationale": "First icon addition for the operating Норвик Банк record. The bank's official header/footer lockup carries a mandatory wordmark, so the compact standalone mark (red fragment column + navy «Н») is selected from the original vector elements; the bank's own favicon shows exactly this two-element compact mark, confirming it as the bank's icon-size presentation.",
+        "role": "Compact standalone brand mark composed of the official vector's red fragment column and navy «Н» element, reproduced in original coordinates; wordmark lettering intentionally excluded.",
+        "sha256": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a",
+        "sourceAssetUrl": "https://api.norvikbank.ru/storage/images/logo.svg",
+        "sourceUrl": "https://api.norvikbank.ru/storage/images/logo.svg",
+        "transforms": [
+          "Selected the three original elements (two red fragment paths and the navy «Н» path) unchanged, in their original relative positions (no element was moved, recolored or redrawn).",
+          "Uniform scale 1.0102 and translation to center the whole mark on a 48x48 canvas (no stretch, rotation or cropping).",
+          "Added a white circular field (#ffffff, r=23) per the plain-field circle policy; transparency outside the circle preserved; no emblem detail removed.",
+          "SVGO 4.1.0 on a copy with the repository svgo.config.mjs: 539 -> 418 bytes (-22.4%), pixel-identical render; optimized bytes chosen as final."
+        ],
+        "variant": "Official two-color variant (#B92032 red, #0E152D navy) as served by the bank's own API storage, placed on a white circular catalog backing matching the source's white site field; transparency preserved outside the circle.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg for this bank, so the visible difference is absence to a real icon; no baseline comparison exists or is claimed."
+      },
+      "candidateIconHash": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a",
+      "checkedAt": "2026-10-03T02:47:07.400563Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5102f8aa806f49b6f94fc3f794855116e7dae7ad743e0ed6b83619305e3f4ab1",
+        "head": "bank-icon-maintenance/4614",
+        "headCommit": "76ca561579db11153b5a331fe47995870589528e",
+        "number": 39,
+        "observedAt": "2026-10-03T03:00:12.083689Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: НОРВИК БАНК (Company.id 4614)",
+        "url": "https://github.com/zenmoney/banks/pull/39"
+      },
+      "reason": "Original vector found on the bank's own live official infrastructure: https://api.norvikbank.ru/storage/images/logo.svg (nginx, image/svg+xml, last-modified 2022-04-13), 13 pure paths, no raster embeds; colors #B92032 red + #0E152D navy. Identity confirmed from the bank's own site (АО «Норвик Банк», Kirov; formerly Вятка Банк per official press-center rebrand news); the 'Novikbank/АТБ' alias found no support and was not used. The full header/footer lockup carries the mandatory wordmark, so it is not directly suitable; the bank's own favicon (fetched from norvikbank.ru/favicon.ico) shows the compact standalone mark = red fragment column + navy «Н». That mark is reproducible exactly by selecting the corresponding original vector elements in their original coordinates (uniform placement only), which is done during candidate preparation from these fetched bytes.",
+      "reviewPackage": {
+        "path": "evidence/4614/candidate-ceed1164e6b3cc1ef4036e126dc8c54d871bbc3e2ca412b9fe423e6a20881467.json",
+        "sha256": "ceed1164e6b3cc1ef4036e126dc8c54d871bbc3e2ca412b9fe423e6a20881467"
+      },
+      "sourceCandidate": {
+        "iconHash": "9b3f86c30e4110a3e9970c33efaf257629bc52571b02e6b72eb4c719bc75c0af",
+        "path": "evidence/4614/research-82ea6fa7bf654be4af5a92aa99c79909/fetch-12e8c3f559b94582b86c47dfe46e42bb/attempt-1/body.bin",
+        "rationale": "Official current original vector of the bank's brand; the standalone compact mark is selected from its own elements to match the bank's favicon presentation, avoiding the wordmark that makes the full lockup unsuitable.",
+        "retrieval": {
+          "path": "evidence/4614/research-82ea6fa7bf654be4af5a92aa99c79909/fetch-12e8c3f559b94582b86c47dfe46e42bb/receipt.json",
+          "sha256": "3efe1a37e92dfabd56036eb71a2f8f88f40a5b021c7935b5bdca9e2dff99e181"
+        },
+        "sourceAssetUrl": "https://api.norvikbank.ru/storage/images/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/4614/source-material-b53f00bc6dec4792be64b94b70e97b5e/material.json",
+          "sha256": "a3f0f9cda2f88ee71e5718d29f8bba1e00e2168e9b65da9fc42b8365bc152c18"
+        },
+        "sourceUrl": "https://api.norvikbank.ru/storage/images/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://api.norvikbank.ru/storage/images/logo.svg",
+          "checkedAt": "2026-10-03T02:34:22Z",
+          "independenceGroup": "norvikbank.ru official site assets",
+          "kind": "official",
+          "observation": "Official site header logo asset, served from the bank's API storage; pure-path SVG, viewBox 0 0 174 22, red fragment emblem + navy wordmark. Footer variant main-site-logo.svg is the same composition.",
+          "url": "https://api.norvikbank.ru/storage/images/logo.svg"
+        },
+        {
+          "assetUrl": "https://norvikbank.ru/favicon.ico",
+          "checkedAt": "2026-10-03T02:45:40Z",
+          "independenceGroup": "norvikbank.ru official site favicon",
+          "kind": "official",
+          "observation": "Bank favicon (48px ICO, raster, research-only context): compact standalone mark = red fragment column + navy «Н», matching the composition of the header lockup's emblem and the «Н» glyph of the wordmark; establishes that this compact two-element mark is the bank's own icon-size presentation.",
+          "url": "https://norvikbank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T02:35:30Z",
+          "independenceGroup": "norvikbank.ru official press",
+          "kind": "official",
+          "observation": "Official press-center page identifies the entity as АО «Норвик Банк» (Kirov) and includes rebrand news from Вятка Банк; homepage root has a redirect loop on direct fetch, so identity was established via press pages and API storage.",
+          "url": "https://norvikbank.ru/press-center/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T02:53:13.450978Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a",
+        "xmlSha256": "beeab3821ebeb7ee4e94d26c8a7e850ea2205beffc24a9b0e6fd3fc503cc1a49"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
