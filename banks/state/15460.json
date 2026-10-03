@@ -1,0 +1,124 @@
+{
+  "lastAttemptAt": "2026-10-03T11:26:20.522860Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15460/assessed-0c2773ecba92bf8fc42a9b91265f46a9c748d7904608cf54754d7ab839e4cb92.json",
+        "sha256": "0c2773ecba92bf8fc42a9b91265f46a9c748d7904608cf54754d7ab839e4cb92"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current Lithuanian site header and linked touch icon independently exhibit the dimensional tree/coin design; current official brand page supplies the original standalone version.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Bank record LT URL matches current Swedbank AB Lithuanian site; the brand publisher explicitly attributes the standalone symbol to Swedbank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The primary local bank establishes current use and local identity; the corporate brand resource establishes original vector provenance and the inscription-free standalone variant. These are related official sources, not claimed independent third-party corroboration. No unresolved gap requires extra independent research.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Official original SVG standalone symbol preserves dimensional tree geometry, detailed holes/highlights, gold/orange gradients and coin rings. It is a square-suitable circular emblem without separate wording; source differs from the flat accepted brown silhouette. Inscription-free version is explicitly supplied by the brand, not edited from the full logo.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/8af5e1077ba0a39542a438c48333bf5d1107845e585718c1ba64f4f31eb02add.json",
+        "sha256": "8af5e1077ba0a39542a438c48333bf5d1107845e585718c1ba64f4f31eb02add"
+      },
+      "baseIconHash": "44142174ef0291cf21e1bbbda6e6e5496b56be221b992431464cf2d1832efede",
+      "candidate": {
+        "detailsJudgement": "Full source and source/final pairs show preserved tree holes, bevels, highlights, trunk details, gold/orange gradients and complete coin rings; no lost features or invented colors.",
+        "faithful": true,
+        "iconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "path": "evidence/15460/candidate-334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97.svg",
+        "proportionsJudgement": "Original circular contour is meaningful coin geometry, not a plain field to reshape. Complete emblem retains original proportions and transparent exterior, no clipping. Both themes legible. Resized 24/32/48px diagnostics retain recognizable tree/coin silhouette; finest details naturally diminish at 24px.",
+        "rationale": "Correct the flat simplified accepted tree/disc to the detailed original dimensional oak coin currently used by Swedbank; no newly dated rebrand claimed.",
+        "role": "standalone bank symbol",
+        "sha256": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "sourceAssetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+        "sourceUrl": "https://www.swedbank.com/newsroom/logotype.html",
+        "transforms": [
+          "Exact standalone original archive vector; no geometry, color, placement or backing adaptation.",
+          "SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 72513 to 65344 bytes; optimized version selected after independent working/trial comparison. Final SHA256 334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97."
+        ],
+        "variant": "Official inscription-free dimensional oak coin; original circular metallic rim and transparent exterior preserved.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after on both themes visibly replaces flat brown silhouette and plain orange disc with supported detailed tree and dimensional gold/orange rimmed coin."
+      },
+      "candidateIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+      "checkedAt": "2026-10-03T11:26:20.522860Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "d4dfba70b748e1fa449e7ab442ebae2a2da94c0ed0d0d06efb9f1f88686c9168",
+        "head": "bank-icon-maintenance/h6s42qu0-15460",
+        "headCommit": "62a6335ec1601c6f38be86e7b217fd653a86e2c4",
+        "number": 53,
+        "observedAt": "2026-10-03T11:35:47.213675Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Swedbank (Company.id 15460)",
+        "url": "https://github.com/zenmoney/banks/pull/53"
+      },
+      "reason": "The accepted flat brown tree on plain orange disc is visibly different from the dimensional gold/orange oak coin currently published by the Lithuanian bank. An official original standalone SVG symbol without accompanying lettering is available in the Swedbank brand archive. This is a supported geometry/color correction, not proof of a newly dated rebrand.",
+      "reviewPackage": {
+        "path": "evidence/15460/candidate-2e565eeee0bcdf56c4eb1274dfd82499ab14595f8ac0e44fe0efc3a72eb59189.json",
+        "sha256": "2e565eeee0bcdf56c4eb1274dfd82499ab14595f8ac0e44fe0efc3a72eb59189"
+      },
+      "sourceCandidate": {
+        "iconHash": "ba3ca180a11e180c892ab5ce400ac3dcc9774b685fad7aa0478eb0e1761ed6cb",
+        "path": "evidence/15460/fetch-8f95e3dd93984216852fd463a869496b/attempt-1/body.bin",
+        "rationale": "Replace unsupported flat simplified silhouette with official original detailed dimensional oak coin symbol. Use exact archive member without redrawing, tracing, recoloring or adding/removing emblem details.",
+        "retrieval": {
+          "path": "evidence/15460/fetch-8f95e3dd93984216852fd463a869496b/receipt.json",
+          "sha256": "c86f5e76c8e86d244fc9bfd492f6b93c85fdc9d1daec2f9cfd250dce0bb6cf11"
+        },
+        "sourceAssetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+        "sourceMaterial": {
+          "path": "evidence/15460/source-material-4a0c42dcc116461e93e642e827b74d2a/material.json",
+          "sha256": "2215905387cf686990795f10694e32fea2fe40b676a642c83f870470d7ce0fb0"
+        },
+        "sourceUrl": "https://www.swedbank.com/newsroom/logotype.html"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.swedbank.lt/webjars/webcomponents/3.96.0/assets/images/swedbank-logo.svg",
+          "checkedAt": "2026-10-03T11:25:39Z",
+          "independenceGroup": "Swedbank primary publications",
+          "kind": "official",
+          "observation": "Current Lithuanian private-banking page identifies Swedbank AB at Konstitucijos pr. 20A, Vilnius, entity code 112029651. Header logo original SVG shows orange Swedbank wordmark and dimensional orange/gold oak coin with since 1820. Independently rendered and viewed.",
+          "url": "https://www.swedbank.lt/private"
+        },
+        {
+          "assetUrl": "https://www.swedbank.lt/stylebook/touch/images/apple-touch-icon.png",
+          "checkedAt": "2026-10-03T11:25:39Z",
+          "independenceGroup": "Swedbank primary publications",
+          "kind": "official",
+          "observation": "Page-linked official touch icon shows the same dimensional oak coin, not the accepted flat silhouette. Raster is research only.",
+          "url": "https://www.swedbank.lt/private"
+        },
+        {
+          "assetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+          "checkedAt": "2026-10-03T11:25:39Z",
+          "independenceGroup": "Swedbank primary publications",
+          "kind": "official",
+          "observation": "Official brand page identifies the oak coin as its symbol and explicitly publishes a standalone joint Swedbank/Savings-banks symbol without since 1820. Original archive contains SVG/Symbol.svg. Extracted SVG independently rendered and viewed: complete dimensional oak coin, no bank name or explanatory lettering, circular transparent perimeter. The shared symbol is explicitly attributable to Swedbank, not a successor substitution.",
+          "url": "https://www.swedbank.com/newsroom/logotype.html"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T11:31:02.729283Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "xmlSha256": "f79c1df2b73e2ff20cdcaf2fff44fca33da58ee7633f38e2c1f60c45234cf7a9"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
