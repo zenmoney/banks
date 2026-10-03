@@ -1,0 +1,121 @@
+{
+  "lastAttemptAt": "2026-10-03T20:36:51.224905Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15648/assessed-353a1f0a274f3645e2dd86e008be9934039a9439e7a94d433c951dbe0cb556b0.json",
+        "sha256": "353a1f0a274f3645e2dd86e008be9934039a9439e7a94d433c951dbe0cb556b0"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "round.ru live homepage and favicon (fetched 2026-10-03) present the circle-'r' mark as the bank's current identity; the MegaFon brand period ended with the 2022 divestiture and the old domain is dead.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record 15648 'МегаФон Банк' with fullTitle 'Раунд' represents the bank that was renamed банк «Раунд» (Round Bank) after its December 2022 divestiture from MegaFon; round.ru is that same bank's current official site, and the fetched mark is published there.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official round.ru assets corroborated by independent December 2022 press coverage of the divestiture/renaming and by the dead MegaFon domain.",
+        "uncertainties": [
+          "Exact current legal full title wording (ООО/АО form) not independently confirmed; immaterial to the mark itself."
+        ],
+        "variant": {
+          "basis": "Standalone mark variant: green circle with crescent cutout and white 'r' letterform, published as the site favicon; transparent outside the circle, no backing field to adapt.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/78e28114624cdd93a96caf548b99884aa5f506de8f054deaa85160e5479e5af7.json",
+        "sha256": "78e28114624cdd93a96caf548b99884aa5f506de8f054deaa85160e5479e5af7"
+      },
+      "baseIconHash": "f91c935d09dfa3adb9fc8f53c8f5ec875ff8961460bcc19cd6ba83871c3ffe8a",
+      "candidate": {
+        "detailsJudgement": "All source details preserved: circle outline, crescent cutout, white 'r' stroke with rounded terminals; colors match the source greens; internal transparency intact.",
+        "faithful": true,
+        "iconHash": "5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30",
+        "path": "evidence/15648/candidate-5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30.svg",
+        "proportionsJudgement": "Mark fills the square cell with even margins at 240px; recognizable and legible at 24/32/48 px diagnostics on both themes; no clipping or distortion.",
+        "rationale": "Supported same-bank rebrand: the bank behind record 15648 (fullTitle 'Раунд') was divested from MegaFon in December 2022 and now operates as банк «Раунд» (Round Bank, round.ru); the accepted icon still shows the legacy MegaFon-era round-account emblem, which no longer matches the bank's current official mark.",
+        "role": "Standalone bank mark: the site favicon of round.ru, the official icon-only presentation of the current Round Bank identity.",
+        "sha256": "5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30",
+        "sourceAssetUrl": "https://www.round.ru/favicon.svg",
+        "sourceUrl": "https://www.round.ru/",
+        "transforms": [
+          "No geometry transformation: the final bytes are the SVGO 4.1.0 (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e) optimization of the downloaded source, 882 -> 658 bytes, selected trial output 5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30; visually identical (difference extrema <= 10/255, anti-aliasing only)."
+        ],
+        "variant": "Green circle with a crescent cutout and white 'r' letterform; transparent outside the circle; no backing field to adapt. Same variant as observed on the official site header lockup, used here without the accompanying wordmark.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base and final are different designs: the base is the legacy MegaFon-era emblem (green circle with crescent split and dot rows); the final is the current Round Bank circle-'r' mark. The difference is the evidenced December 2022 divestiture/rebrand, not cosmetic normalization."
+      },
+      "candidateIconHash": "5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30",
+      "checkedAt": "2026-10-03T20:36:51.224905Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "fe2f01258acc19dc4dee592ce786b611f769eae921d78a0c06f739597cca1e0c",
+        "head": "bank-icon-maintenance/15648",
+        "headCommit": "42b8fedc9e4751d91cdf9d040e15df64c7d964ba",
+        "number": 77,
+        "observedAt": "2026-10-03T20:59:17.241262Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МегаФон Банк (Company.id 15648)",
+        "url": "https://github.com/zenmoney/banks/pull/77"
+      },
+      "reason": "The bank behind record 15648 (fullTitle 'Раунд') was divested from MegaFon in December 2022 and now operates as банк «Раунд» (Round Bank) at round.ru; bank.megafon.ru no longer resolves (DNS NXDOMAIN). The existing icon is the legacy MegaFon-era round-account emblem (green circle with crescent split and dots), which no longer matches the bank's current official mark: a green circle-'r' letterform favicon SVG served by round.ru itself. Supported same-bank rebrand, not a successor substitution.",
+      "reviewPackage": {
+        "path": "evidence/15648/candidate-4a62fb4958f0957a74e5aae7f502335e881fa4c4602f9c3ee3d49cf14ed3a86c.json",
+        "sha256": "4a62fb4958f0957a74e5aae7f502335e881fa4c4602f9c3ee3d49cf14ed3a86c"
+      },
+      "sourceCandidate": {
+        "iconHash": "239ce38ee3c06851359c342a069ac62f8ac3fc968ed8282ce624c9792f48b9d9",
+        "path": "evidence/15648/research-6030d64a371a41e59cdd3b2f4ac283a0/fetch-063ff62c0a7e4860b31ac0eab7e66423/attempt-2/body.bin",
+        "rationale": "Official standalone original vector of the current Round Bank mark (site favicon, self-contained SVG, two paths, no embedded raster, no tracing). Supported same-bank rebrand replaces the legacy MegaFon-era emblem; the wordmark lockup variant was deliberately not used.",
+        "retrieval": {
+          "path": "evidence/15648/research-6030d64a371a41e59cdd3b2f4ac283a0/fetch-063ff62c0a7e4860b31ac0eab7e66423/receipt.json",
+          "sha256": "e7c3ed4a9b3ace1426b627997d3a32a7be188e0a79c4d8f2b642952d7bf5f368"
+        },
+        "sourceAssetUrl": "https://www.round.ru/favicon.svg",
+        "sourceUrl": "https://www.round.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.round.ru/favicon.svg",
+          "checkedAt": "2026-10-03T20:32:20Z",
+          "independenceGroup": "round.ru official site and its own assets",
+          "kind": "official",
+          "observation": "Round Bank official homepage (fetched 2026-10-03T20:32Z, title 'Round Bank - универсальный коммерческий банк | банк Раунд'). Its favicon.svg (fetched 2026-10-03T20:32Z) is a self-contained original vector: green (#22DF6B-family) circle with a crescent cutout and white 'r' letterform — the standalone Round Bank mark. The site header logo SVG carries the same mark plus a ROUND wordmark (wordmark variant not used; accompanying lettering is not catalog-suitable).",
+          "url": "https://www.round.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T20:32:22Z",
+          "independenceGroup": "bosfera.ru independent press",
+          "kind": "third-party",
+          "observation": "Press report dated 2022-12-29 documents the divestiture of the bank from the MegaFon group and its renaming to банк «Раунд», corroborating the lifecycle. (Exact article URL recorded in the research findings JSON.)",
+          "url": "https://bosfera.ru/press-release/megafon-zakryl-finteh-proekt"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T20:30:42Z",
+          "independenceGroup": "diagnostic retrieval",
+          "kind": "official",
+          "observation": "bank.megafon.ru (the record's metadata URL) did not resolve when fetched 2026-10-03T20:30Z (DNS NXDOMAIN); diagnostic fetch receipt retained. The metadata URL is stale for the operating brand.",
+          "url": "http://bank.megafon.ru/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T20:49:38.773741Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30",
+        "xmlSha256": "71fa966ce35863f4fca762a82bde3022ac618cc604d9438030d1cff659c805ae"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
