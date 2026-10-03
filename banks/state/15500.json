@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-03T12:50:11.424719Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15500/assessed-267a0e6e21b601eed2379a3d12a07cdb992ca564c43870d3f002caf499aa9c45.json",
+        "sha256": "267a0e6e21b601eed2379a3d12a07cdb992ca564c43870d3f002caf499aa9c45"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live site fetched 2026-10-03; the red #DB0124 figure and wordmark are the current branding, continuing after the 2025 ownership change.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "homecredit.kz redirects to home.kz, the official site of the bank recorded as Банк Хоум Кредит (KZ); the SVG is the bank's own published logo asset.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from the bank's own live site (logo SVG and favicon set, same fetch context); identity anchored by record metadata and the domain redirect.",
+        "uncertainties": [
+          "Standalone-figure presentation is confirmed by raster favicon/app icons (research-only); the vector for the standalone figure is the 'O' sub-shape of the official combined-logo vector, presented via a viewport crop that changes no path geometry."
+        ],
+        "variant": {
+          "basis": "Current variant is the standalone red figure on transparent; the base icon is the older presentation (crimson disc, white figure). Same underlying symbol, presentation/color update.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d1992b751a6a7781100421e7d500c0f199c1511ad86dcb8ba1466af6ebf848b6.json",
+        "sha256": "d1992b751a6a7781100421e7d500c0f199c1511ad86dcb8ba1466af6ebf848b6"
+      },
+      "baseIconHash": "14a523bdb86f9b6ab3ef078ad0c4831e4e49bc3aab9d8a4160cb77badae0a849",
+      "candidate": {
+        "detailsJudgement": "Ring, inner opening and the head/smile shape render crisply at 240px on both themes; uniform #DB0124; no clipped strokes after the crop (bounds verified against the source raster).",
+        "faithful": true,
+        "iconHash": "0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b",
+        "path": "evidence/15500/candidate-0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b.svg",
+        "proportionsJudgement": "The figure's own aspect (~126x92) is preserved by the crop viewBox; in the square catalog cell it letterboxes centered without stretching, matching the standalone favicon presentation.",
+        "rationale": "The bank's own live site (home.kz, reached from homecredit.kz) publishes this vector logo and uses the arch figure standalone in its favicon/app icons; the base icon is the older presentation of the same symbol (crimson #C8102E disc with inverted white figure). Supported currency/presentation update from an original, receipt-bound vector.",
+        "role": "standalone-symbol: the current brand presents the figure alone on transparent (site favicon/apple-touch icons); no branded circular backing is used in the current variant, so none was invented.",
+        "sha256": "0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b",
+        "sourceAssetUrl": "https://home.kz/strapi/uploads/Logotip_banka_36d8b1bd8d.svg",
+        "sourceUrl": "https://home.kz",
+        "transforms": [
+          "Working SVG derived from the original downloaded vector by viewport crop only: the original single path is byte-unchanged; viewBox set to the figure's bounding region (110.86 11.61 126.28 92.05) so only the 'O' figure of HOME shows, matching the bank's standalone-figure usage; the paint attribute serialization was normalized to fill=\"#DB0124\" with the identical color taken from the original .st0 CSS class.",
+          "SVGO 4.1.0 with the frozen worktree svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): working 2463 bytes -> trial 2214 bytes; selected the optimized trial as final (sha256 0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b) after working-versus-optimized comparison with rsvg at 240px on white and #121212: visually identical; no path geometry or color change."
+        ],
+        "variant": "red #DB0124 arch figure on transparent; replaces the older white-figure-on-#C8102E-disc badge",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Deliberate presentation update: the enclosed-disc badge is replaced by the bank's current standalone open figure in the current red. Source-versus-final shows no unintended difference — the final is literally the same vector sub-shape."
+      },
+      "candidateIconHash": "0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b",
+      "checkedAt": "2026-10-03T12:50:11.424719Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8beb461053104387fc0f785d58fb3651c6cf8c909c29991263b04cd837c0e46a",
+        "head": "bank-icon-maintenance/homecredit-kz-15500",
+        "headCommit": "fd93e1d1eaecfeea3a79ae919437cf089222d5b4",
+        "number": 58,
+        "observedAt": "2026-10-03T13:01:15.218574Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк Хоум Кредит (Company.id 15500)",
+        "url": "https://github.com/zenmoney/banks/pull/58"
+      },
+      "reason": "The current official mark of Home Credit Bank Kazakhstan (home.kz, legal brand unchanged after ForteBank's 2025 majority acquisition) is the red 'person under arch' figure used standalone — it is the 'O' of the HOME wordmark in the bank's official vector logo (Logotip_banka, #DB0124) and appears alone in the site favicon and app icons. The base icon shows the same figure in an older crimson #C8102E inside an inverted filled disc (white figure on red circle); the current standalone presentation is the red figure itself on transparent. Supported currency/presentation update from an original vector.",
+      "reviewPackage": {
+        "path": "evidence/15500/candidate-ed02fb0dc37d9400f0a1791d0f0c386e97d4770e88b6a9db02538dfa0de36c43.json",
+        "sha256": "ed02fb0dc37d9400f0a1791d0f0c386e97d4770e88b6a9db02538dfa0de36c43"
+      },
+      "sourceCandidate": {
+        "iconHash": "738e34aa24a424f3568e55300a64d587e3b311593a37db1bcc98bc35060c5747",
+        "path": "evidence/15500/research-12b5eccfc4c542e6aab94088af2188e5/fetch-c73baa6d68da4fd582cff6588a80425f/attempt-1/body.bin",
+        "rationale": "Official bank vector logo (https://home.kz/strapi/uploads/Logotip_banka_36d8b1bd8d.svg, viewBox 0 0 500 334.23, #DB0124, receipt-bound fetch) served by the bank's own site; the same site's favicon and app icons (raster, research-only) show the arch figure standalone, confirming the standalone-symbol presentation. The figure is the literal 'O' sub-shape of the original vector.",
+        "retrieval": {
+          "path": "evidence/15500/research-12b5eccfc4c542e6aab94088af2188e5/fetch-c73baa6d68da4fd582cff6588a80425f/receipt.json",
+          "sha256": "778af79acb3705068dd97c5efe8eaac7aa846190ddadf81c801ca97f2b0665a0"
+        },
+        "sourceAssetUrl": "https://home.kz/strapi/uploads/Logotip_banka_36d8b1bd8d.svg",
+        "sourceUrl": "https://home.kz"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://home.kz/strapi/uploads/Logotip_banka_36d8b1bd8d.svg",
+          "checkedAt": "2026-10-03T12:39:55Z",
+          "independenceGroup": "homekz-site",
+          "kind": "official",
+          "observation": "homecredit.kz now serves https://home.kz; header logo raster (research-only) and the official SVG logo use the red arch figure + HOME CREDIT BANK wordmark in #DB0124.",
+          "url": "https://home.kz"
+        },
+        {
+          "checkedAt": "2026-10-03T12:39:55Z",
+          "independenceGroup": "homekz-site",
+          "kind": "official",
+          "observation": "Site favicon/apple-icon PNGs (research-only, 96/180px) show the red arch figure standalone on transparent, matching the proposed standalone presentation.",
+          "url": "https://home.kz"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T12:51:15.092350Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b",
+        "xmlSha256": "cb3e5ea04551d39ffb9a7c35980f3ef053c190ef6145c47e27d844e67fb1a8ac"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
