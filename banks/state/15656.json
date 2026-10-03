@@ -1,0 +1,127 @@
+{
+  "lastAttemptAt": "2026-10-03T20:41:31.281012Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15656/assessed-284aa05833b2fb1d607e973a04d90a2cb891eb2e1fa768f5fd53f6ac319eefa4.json",
+        "sha256": "284aa05833b2fb1d607e973a04d90a2cb891eb2e1fa768f5fd53f6ac319eefa4"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "For this historical record, currency means the last independent brand period (through mid-2019): the flame was the mark in use through the archived May 2019 capture, immediately before the 2019 rebrand. The successor's current mark is out of scope for this Company.id.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record 15656 'Santander Río' (santanderrio.com.ar) represents the Banco Santander Río brand period; the classic Santander flame is that period's standalone mark per the period lockup sourced from the bank's own site and the archived official favicon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The vector source (Commons, 2007 bank-site lineage) and the presentation evidence (archived official favicon) are independent; the lifecycle is corroborated by the bank's own rebrand announcement quoted in encyclopedic/press sources.",
+        "uncertainties": [
+          "Exact month of the 2019 rebrand differs by source (June vs October 2019); immaterial to the period variant."
+        ],
+        "variant": {
+          "basis": "Observed official standalone presentation: white flame over disc on a plain red square (archived favicon-180.png, 2019-05). The existing icon's extra black outline appears in no observed official presentation; the extraction matches the lockup flame exactly.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d1aaf1444ff9dabd494691001631e2ffb864346928b789086ae571e235f3e4fe.json",
+        "sha256": "d1aaf1444ff9dabd494691001631e2ffb864346928b789086ae571e235f3e4fe"
+      },
+      "baseIconHash": "d86a713c28b2c7ead0923b4ad38433c1cdb208f494129f1c8fb520f1ed7c5fcd",
+      "candidate": {
+        "detailsJudgement": "Flame contours, disc and subtle #e65a42 shading slivers preserved; white fills and red field color match the source; internal transparency of the emblem composition intact.",
+        "faithful": true,
+        "iconHash": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e",
+        "path": "evidence/15656/candidate-c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e.svg",
+        "proportionsJudgement": "Whole emblem fits the circle with margin at 240px and remains recognizable at 24/32/48 px on both themes; no clipping of flame or disc; centered per the source composition.",
+        "rationale": "Corrected presentation for a historical record: the accepted icon shows the correct Santander Río period flame but with an unsupported black outline absent from every observed official presentation; the official standalone presentation of the period (archived official favicon-180.png, 2019-05) is the white flame on the plain red field.",
+        "role": "Standalone Santander flame (flame over disc), the brand mark of Banco Santander Río through mid-2019, extracted losslessly from the period lockup vector sourced from the bank's own website.",
+        "sha256": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e",
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santanderrio_logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santanderrio_logo.svg",
+        "transforms": [
+          "Lossless path-subset extraction from the bound source material: flame/disc/shading paths kept byte-identical; the 'Santander Río' wordmark paths excluded (accompanying lettering is not catalog-suitable); verified visually that the 6-path subset reproduces the lockup flame exactly.",
+          "Background adaptation: the uniform red field rectangle (fill #ee332a) replaced by a same-color circle (cx 57.5, cy 57.5, r 57.5) with transparency outside; no emblem pixel removed; emblem at its source position, no scale/translation.",
+          "Optimization: SVGO 4.1.0 (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), working 3886 bytes -> selected final c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e (2611 bytes); rsvg render difference vs working is anti-aliasing only (extrema <= 1/255)."
+        ],
+        "variant": "White flame over white disc on the red field; catalog plain-field circle adaptation of the lockup's uniform red square field (observed official presentation was a red square favicon; the circle is the catalog backing adaptation, transparent outside).",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Versus the base icon: same flame mark, but the base's unsupported black outline is removed and the mark is presented white-on-red per observed official presentation on a catalog circle; the difference is a documented presentation/color correction, not a rebrand."
+      },
+      "candidateIconHash": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e",
+      "checkedAt": "2026-10-03T20:41:31.281012Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8a85eb3c6f930bc0e26b20678758f938a99fd7bde5ae0305071801b3c0f46052",
+        "head": "bank-icon-maintenance/15656",
+        "headCommit": "1c4518ee5c65953649cb3cfcf35c989cf985b066",
+        "number": 79,
+        "observedAt": "2026-10-03T21:05:31.155263Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Santander Río (Company.id 15656)",
+        "url": "https://github.com/zenmoney/banks/pull/79"
+      },
+      "reason": "Record 15656 is a historical brand period: Banco Santander Río S.A. adopted the 'Santander' brand in Argentina in 2019, so the santanderrio.com.ar successor's current mark is out of scope. For the Santander Río period the correct standalone mark is the classic Santander flame (flame over disc), confirmed by the Commons CorelDRAW lockup sourced from the bank's own 2007-era website and by a Wayback capture of santanderrio.com.ar (2019-05) whose standalone favicon shows the same flame white-on-red. The existing icon depicts the right period variant but adds an unsupported black outline absent from every observed official presentation. A lossless extraction of the flame from the original vector, on its official red field, is a supported color/render correction.",
+      "reviewPackage": {
+        "path": "evidence/15656/candidate-0a6c52087667071a5550af19941aae3df98b2d51c860f62a5370c0e5d7105648.json",
+        "sha256": "0a6c52087667071a5550af19941aae3df98b2d51c860f62a5370c0e5d7105648"
+      },
+      "sourceCandidate": {
+        "iconHash": "27525c75c428ca56c33b31410c3a3af11dca9b91b99850f32fb91355aae02a2a",
+        "path": "evidence/15656/research-610656447e1846f487cdda32c590b48b/fetch-54aadb8be88c48229581dcefec081ad3/attempt-3/body.bin",
+        "rationale": "Lossless extraction of the flame-over-disc mark from the original CorelDRAW vector of the Santander Río period (sourced from the bank's own website), presented on its official red field per the archived official favicon presentation; corrects the unsupported black outline in the accepted icon. No tracing; wordmark excluded for standalone suitability.",
+        "retrieval": {
+          "path": "evidence/15656/research-610656447e1846f487cdda32c590b48b/fetch-54aadb8be88c48229581dcefec081ad3/receipt.json",
+          "sha256": "c1101876af90cfe94ee21be2e7eb70df040f502f8b6438208cc0e723f1b02736"
+        },
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santanderrio_logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15656/source-material-374c1e2aa0a6407489d70ea0ae5c67a7/material.json",
+          "sha256": "b4acc83cc827bd1b79918de6e25b0b8dea382dcb1d295204f6db49f6d038e42c"
+        },
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santanderrio_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santanderrio_logo.svg",
+          "checkedAt": "2026-10-03T20:30:58Z",
+          "independenceGroup": "Wikimedia Commons (independent upload sourced from bank website)",
+          "kind": "third-party",
+          "observation": "Original CorelDRAW vector lockup (550x115): red field, white flame + disc, 'Santander Río' wordmark; uploaded to Commons 2014-01-28, inception dated 2007, sourced from the bank website. Pure path geometry, 31 paths, no embedded raster, no text elements. The flame region reproduces exactly as a lossless 6-path subset (verified visually against the original crop). Wordmark paths deliberately excluded (accompanying lettering is not catalog-suitable).",
+          "url": "https://commons.wikimedia.org/wiki/File:Santanderrio_logo.svg"
+        },
+        {
+          "assetUrl": "https://web.archive.org/web/20190529212204im_/https://santanderrio.com.ar/banco/contenthandler/!ut/p/digest!iz67yqOQnqPda5Sovznj-g/dav/fs-type1/themes/SRP9Theme/images/favicon/favicon-180.png",
+          "checkedAt": "2026-10-03T20:33:50Z",
+          "independenceGroup": "Internet Archive capture of official site",
+          "kind": "third-party",
+          "observation": "Wayback capture (2019-05-29) of the santanderrio.com.ar theme favicon-180.png while still branded 'Santander Río S.A.': the classic flame rendered white on a plain red square — the observed official standalone presentation of the period. Inspected as raster research evidence; not a replacement source.",
+          "url": "https://web.archive.org/web/20190601000000/https://www.santanderrio.com.ar/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T20:31:30Z",
+          "independenceGroup": "Wikipedia/press corroboration of lifecycle",
+          "kind": "third-party",
+          "observation": "Documents that Santander Río changed to the 'Santander' name in June 2019 (bank announcement 'Desde hoy Santander Río es Santander'); exact month differs by source (June vs October 2019), immaterial to the brand-period variant. Establishes this record as a historical brand period and excludes the successor's current mark.",
+          "url": "https://es.wikipedia.org/wiki/Banco_Santander_(Argentina)"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T20:49:42.235938Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e",
+        "xmlSha256": "3e6f022edfa71ee6870d095e13bb452cd3d552998f80f705db293458c11d7e14"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
