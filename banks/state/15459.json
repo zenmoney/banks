@@ -1,0 +1,134 @@
+{
+  "lastAttemptAt": "2026-10-03T11:37:10.521511Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15459/assessed-11627baf114083fc26ebca38b7c1078920660c08090924f76dda8bf5d8c9dc02.json",
+        "sha256": "11627baf114083fc26ebca38b7c1078920660c08090924f76dda8bf5d8c9dc02"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official 2023 announcement specifies thinner monochromatic white S; current official homepage asset retains same design. Electronic-use original SVG uses the same white current geometry with explicit blue field.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Company 15459 metadata slsp.sk and Slovenská sporiteľňa match official homepage organization identity, brand announcement and electronic-use download; no parent or successor substituted.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Identity, rebrand and original vector are primary bank sources; TREND independently reports the change but its credited illustration originates with SLSP and is not counted as independent artwork provenance.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original electronic-use SVG supplies separable complete white S-and-dot mark and uniform #2870ed backing. Standalone extraction avoids accompanying bank name; circular same-color field is catalog presentation adaptation, not claimed official avatar. All original emblem geometry/color/internal alpha must remain. Final fit/legibility awaits candidate rendering.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/a030ce0891b1e326730312cb6878dd6f68e2af03d30864617eee7858e6cf47dc.json",
+        "sha256": "a030ce0891b1e326730312cb6878dd6f68e2af03d30864617eee7858e6cf47dc"
+      },
+      "baseIconHash": "284d8868f9d2ae3eca02e4453317bce2bda446872f071e04ccd2d411fcffdf72",
+      "candidate": {
+        "detailsJudgement": "Inspected full original lockup, complete emblem crop and source/final pairs: complete white S, detached dot and two negative-space gaps preserved; no tracing, recoloring or lost detail.",
+        "faithful": true,
+        "iconHash": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4",
+        "path": "evidence/15459/candidate-5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4.svg",
+        "proportionsJudgement": "Uniform transform keeps original symbol proportions. Circle changes only backing presentation, source-exact blue retained. Whole emblem has clean clearance, no clipping, useful optical size and contrast on both themes. Independent 24/32/48px diagnostics retain recognizability.",
+        "rationale": "Adopt evidenced current thinner white S-and-dot design replacing legacy red symbol; source-exact blue field adapted for standalone catalog use.",
+        "role": "standalone savings-bank emblem",
+        "sha256": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4",
+        "sourceAssetUrl": "https://cdn.erstegroup.com/content/dam/sk/slsp/common/icons/logo-slovenska-sporitelna.svg?forceDownload=1",
+        "sourceUrl": "https://www.slsp.sk/sk/biznis/prijimanie-platieb/sporopay",
+        "transforms": [
+          "Copy sole compound emblem path verbatim from original root second g, preserving inherited white fill; exclude separate name lettering groups.",
+          "Uniform whole-emblem translate(-246.4133333333 -19.544) scale(0.2666666667) into 54x54 viewport; no relative geometry or color change.",
+          "Replace separable uniform #2870ed rectangular source field with same-color circle cx=cy=r=27, transparent exterior; complete S and detached dot retained.",
+          "SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e trial visually equivalent but 707 bytes versus 692 working; retain working bytes."
+        ],
+        "variant": "Original electronic-use white S-and-dot on #2870ed; circular catalog field, not claimed official circular avatar.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact both-theme before/after visibly replaces red legacy S and pale-blue backing with current thinner white S on supported vivid blue catalog circle."
+      },
+      "candidateIconHash": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4",
+      "checkedAt": "2026-10-03T11:37:10.521511Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "7c22837f42d3b29915593758286ca47b36ff7e74d43d39944048932798b500bf",
+        "head": "bank-icon-maintenance/h6s42qu0-15459",
+        "headCommit": "0c0851b3b1479a7fc0cff39979e66797ea0ae189",
+        "number": 54,
+        "observedAt": "2026-10-03T11:47:25.295233Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Slovenská sporiteľňa (Company.id 15459)",
+        "url": "https://github.com/zenmoney/banks/pull/54"
+      },
+      "reason": "Operating Slovenská sporiteľňa has an evidenced 2023 rebrand to a thinner monochromatic white savings emblem. The current official homepage uses that white variant. An original electronic-use official SVG supplies the separable current white emblem and an explicit #2870ed uniform field; the accepted red emblem on pale-blue backing predates this supported design. Recommend source-preserving standalone extraction and same-color circle adaptation, not the accompanying wordmark.",
+      "reviewPackage": {
+        "path": "evidence/15459/candidate-0e99ba2673c6ef97f58a8a689d0e5f8cc56042952efa21876b5e9874c249e7bd.json",
+        "sha256": "0e99ba2673c6ef97f58a8a689d0e5f8cc56042952efa21876b5e9874c249e7bd"
+      },
+      "sourceCandidate": {
+        "iconHash": "e38804dc74de5fcde58f1421759ae467d4beb76c05dc76b04542433d7b41665b",
+        "path": "evidence/15459/research-70376aed170446f6b1ef77a1b9282440/fetch-c0e98ae310a84c86893b666713e3f6e7/attempt-1/body.bin",
+        "rationale": "Evidenced thinner white current S replaces accepted red legacy variant; isolate complete original-vector emblem from official electronic-use SVG and use source-exact #2870ed circular field. The full wordmark is unsuitable for square cells and is not the final proposed composition.",
+        "retrieval": {
+          "path": "evidence/15459/research-70376aed170446f6b1ef77a1b9282440/fetch-c0e98ae310a84c86893b666713e3f6e7/receipt.json",
+          "sha256": "0a5c7ada2fe00498fdf4c2109a9375db70cad0f1449182ed41641ac6c30797af"
+        },
+        "sourceAssetUrl": "https://cdn.erstegroup.com/content/dam/sk/slsp/common/icons/logo-slovenska-sporitelna.svg?forceDownload=1",
+        "sourceMaterial": {
+          "path": "evidence/15459/source-material-25a27ae8cd444826829aaaceec883f15/material.json",
+          "sha256": "07bd91987225c1f794e35d14369b226e2e7dd62663a7d7931aff647bbba697b1"
+        },
+        "sourceUrl": "https://www.slsp.sk/sk/biznis/prijimanie-platieb/sporopay"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.erstegroup.com/content/dam/sk/slsp/common/icons/slsp-logo-200-rokov.svg",
+          "checkedAt": "2026-10-03T11:33:06Z",
+          "independenceGroup": "Slovenská sporiteľňa / Erste official publications",
+          "kind": "official",
+          "observation": "Retrieved current homepage identifies Slovenská sporiteľňa in organization JSON and points header logo to this white anniversary wordmark; independent SVG rendering shows thinner white S-and-dot emblem. Browser homepage rendered blank except sticky links, so no rendered header backing is claimed.",
+          "url": "https://www.slsp.sk/sk/ludia"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T11:33:06Z",
+          "independenceGroup": "Slovenská sporiteľňa / Erste official publications",
+          "kind": "official",
+          "observation": "Official dated January 16 2023 announcement states transition to thinner S and monochromatic white as base color, combined with eight design colors, with rollout from January 2023. Establishes identity update rather than speculative obsolescence.",
+          "url": "https://www.slsp.sk/sk/aktuality/2023/1/16/slovenska-sporitelna-meni-vizualnu-identitu"
+        },
+        {
+          "assetUrl": "https://cdn.erstegroup.com/content/dam/sk/slsp/common/icons/logo-slovenska-sporitelna.svg?forceDownload=1",
+          "checkedAt": "2026-10-03T11:33:06Z",
+          "independenceGroup": "Slovenská sporiteľňa / Erste official publications",
+          "kind": "official",
+          "observation": "Native search surfaced official Sporopay electronic-use SVG download; direct context-page HTTPS request timed out, disclosed. Original official CDN SVG downloaded successfully and independently rendered: white Slovenská sporiteľňa wordmark plus separable current S-and-dot emblem on explicit rect fill #2870ed. SVG original vectors, no raster image or tracing. Second root g is emblem; preserve its path and inherited white fill, not lettering.",
+          "url": "https://www.slsp.sk/sk/biznis/prijimanie-platieb/sporopay"
+        },
+        {
+          "assetUrl": "https://dam.nmhmedia.sk/image/5f6c1f7b-704e-44ac-a5cf-4b4b1215f732_phpcglhjm.jpg/960/540",
+          "checkedAt": "2026-10-03T11:33:06Z",
+          "independenceGroup": "TREND reporting; illustration supplied by SLSP",
+          "kind": "third-party",
+          "observation": "Retrieved independent publisher report and viewed illustration credited SLSP. Shows white new Slovenská sporiteľňa emblem on teal alongside other group identities. Raster is context only; no teal value was reconstructed and no vector was traced.",
+          "url": "https://medialne.trend.sk/marketing/slovenska-sporitelna-predstavila-novu-vizualnu-identitu-dizajnom-stoji-jung-von-matt"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T11:43:02.944335Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4",
+        "xmlSha256": "c2c58de4a303abadb75b7b3b24014255149bb76ebe4fdac57309aea4b579b1a9"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
