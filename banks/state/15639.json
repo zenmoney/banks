@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-03T19:58:02.125003Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15639/assessed-b0e9d9420e05eb47825074ce568f05382e3938418d8afa45ef5e045713681a76.json",
+        "sha256": "b0e9d9420e05eb47825074ce568f05382e3938418d8afa45ef5e045713681a76"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official site serves the lockup with the same wheel (logo asset Last-Modified 2026-05-14); wheel geometry identical to catalog, confirming the design is current.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The ship's wheel is DenizBank's brand symbol, embedded in the official site's own lockup; the catalog icon depicts the same wheel design.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official homepage, served lockup asset, wordmark variant and sprite all come from one publication (denizbank.com); the geometry comparison is direct, not mirror-based.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone non-text symbol variant (wheel without wordmark) exists in the official sprite (#ship-wheel) and as the symbol part of the official lockup; the catalog's standalone-wheel variant choice is supported. Colors corrected to the official #D63647.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ccd7f4a263b1b8d1058999ca600efd25bb986edfdea901d80c1ea322f7928985.json",
+        "sha256": "ccd7f4a263b1b8d1058999ca600efd25bb986edfdea901d80c1ea322f7928985"
+      },
+      "baseIconHash": "af40dafca2db00bc28c25c1c2a00fc922adf2d097d14d0af2246c64ecc180fe3",
+      "candidate": {
+        "detailsJudgement": "All wheel details (8 spokes, hub, rim cuts) preserved exactly; path data byte-identical to the source asset; SVGO-free final so no detail loss path exists.",
+        "faithful": true,
+        "iconHash": "8740ac78a9739b78cacc6f8c33f1daef2f164b6aec1678b41c94d4890d6e9784",
+        "path": "evidence/15639/candidate-8740ac78a9739b78cacc6f8c33f1daef2f164b6aec1678b41c94d4890d6e9784.svg",
+        "proportionsJudgement": "Wheel aspect preserved by uniform scale (42.5x43.1 user units scaled 1.1137); centered with even clearances in the 54x54 cell; no stretching or cropping.",
+        "rationale": "Color correction of the same current DenizBank wheel symbol: catalog used #ce163a while the official asset served on denizbank.com uses #D63647; geometry already matches. Excludes the accompanying 'DenizBank' wordmark per catalog standalone-symbol suitability.",
+        "role": "Standalone non-text brand symbol (ship's wheel), the non-text variant of the current official lockup; no backing field, transparent mark.",
+        "sha256": "8740ac78a9739b78cacc6f8c33f1daef2f164b6aec1678b41c94d4890d6e9784",
+        "sourceAssetUrl": "https://denizbank.com/_assets/img/denizbank.svg",
+        "sourceUrl": "https://denizbank.com/",
+        "transforms": [
+          "Selected the standalone #D63647 symbol path verbatim from the official lockup SVG (wordmark and white lockup-backing circle excluded; the official standalone sprite symbol #ship-wheel also carries no backing).",
+          "Uniform scale 1.1137 and translation to center the wheel in a 54x54 canvas (catalog convention); no other geometry, color or structure change.",
+          "SVGO 4.1.0 trial with frozen config (configSha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 1787 -> 1859 bytes, pixel-identical renders; optimization REJECTED (larger), working bytes retained as final (8740ac78a9739b78cacc6f8c33f1daef2f164b6aec1678b41c94d4890d6e9784, 1787 bytes)."
+        ],
+        "variant": "Standalone wheel symbol without wordmark, matching the official sprite symbol #ship-wheel and the symbol part of the served lockup; official current red #D63647.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after desktop pairs show the same wheel design with the red shifted from the catalog's crimson #ce163a to the official rose #D63647; geometry is unchanged, so the visible diff is exactly the evidenced color correction."
+      },
+      "candidateIconHash": "8740ac78a9739b78cacc6f8c33f1daef2f164b6aec1678b41c94d4890d6e9784",
+      "checkedAt": "2026-10-03T19:58:02.125003Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f45ef038709bdc1b6ebaa81ef053eecff2f247504faceece03299a2b1a24ebde",
+        "head": "bank-icon-maintenance/15639",
+        "headCommit": "0439c6e8fb606f298ded9f1c0368fbaa8d1bffca",
+        "number": 74,
+        "observedAt": "2026-10-03T20:17:11.439765Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: DenizBank (Company.id 15639)",
+        "url": "https://github.com/zenmoney/banks/pull/74"
+      },
+      "reason": "Current catalog icon reproduces the DenizBank ship's-wheel symbol but in a visibly different red (#ce163a, crimson) than the official current symbol (#D63647, rose), while the official design served on denizbank.com today is geometrically the same wheel. An evidenced color correction of the same current mark, not a rebrand. Candidate is the official lockup SVG's standalone symbol (the #D63647 wheel); the accompanying 'DenizBank' wordmark is excluded as separate lettering per catalog suitability.",
+      "reviewPackage": {
+        "path": "evidence/15639/candidate-d7ff271c4c4345f17451f32a0102fb3e7e8a5938802ba38775de0b0bfda45b46.json",
+        "sha256": "d7ff271c4c4345f17451f32a0102fb3e7e8a5938802ba38775de0b0bfda45b46"
+      },
+      "sourceCandidate": {
+        "iconHash": "a3882f95bce588c1dcfaca5110d6dd37eaae74f2a933dbcb81113b2c7867a020",
+        "path": "evidence/15639/research-9e67628b346d4065981564e395303fdd/fetch-b662acda377445df846d15358ce24354/attempt-2/body.bin",
+        "rationale": "Color correction of the same current wheel symbol: catalog #ce163a versus official #D63647; geometry already matches, so this update fixes a visible color difference against the official brand asset. Working SVG will carry the exact #D63647 symbol path from the official lockup, excluding the wordmark.",
+        "retrieval": {
+          "path": "evidence/15639/research-9e67628b346d4065981564e395303fdd/fetch-b662acda377445df846d15358ce24354/receipt.json",
+          "sha256": "4fc603847aef5408030eeece7ae671e175b4bc36df9824a6cbc10184544c5709"
+        },
+        "sourceAssetUrl": "https://denizbank.com/_assets/img/denizbank.svg",
+        "sourceUrl": "https://denizbank.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://denizbank.com/_assets/img/denizbank.svg",
+          "checkedAt": "2026-10-03T19:45:00Z",
+          "independenceGroup": "denizbank.com official site (homepage, lockup asset and sprite are one publication)",
+          "kind": "official",
+          "observation": "Official homepage (fetched live, logo asset Last-Modified 2026-05-14) embeds /_assets/img/denizbank.svg: full lockup with 'DenizBank' wordmark fill #00539B and ship's-wheel symbol fill #D63647; a white backing circle path sits behind the symbol for dark use. Homepage also references a site sprite /_assets/img/icons.svg containing symbol #ship-wheel (viewBox 0 0 93 93).",
+          "url": "https://denizbank.com/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T19:45:00Z",
+          "independenceGroup": "denizbank.com official site (homepage, lockup asset and sprite are one publication)",
+          "kind": "official",
+          "observation": "Official wordmark-only variant (fill #004899) also served; confirms the current lockup family and that the wheel symbol with the lockup is the brand's non-text mark.",
+          "url": "https://denizbank.com/_assets/img/DenizbankLOGO-en-v6.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T20:04:16.369290Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8740ac78a9739b78cacc6f8c33f1daef2f164b6aec1678b41c94d4890d6e9784",
+        "xmlSha256": "5ff8509ab5ab5708eda1aba81ccf53f4dc62ad60b8d7fffc2ef905583d1e2faa"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
