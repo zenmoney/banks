@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-03T19:25:59.195642Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15636/assessed-ebdc2af7c16943ba64a94b8becdfa8bb9697543c1b1757aa1cf3fc6a4dafdbcb.json",
+        "sha256": "ebdc2af7c16943ba64a94b8becdfa8bb9697543c1b1757aa1cf3fc6a4dafdbcb"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The striped-lion knockout mark is what the official site serves today (fetched 2026-10-03); the existing halftone-lion icon is an older variant no longer used by the bank's own presence.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "bankofgeorgia.ge JSON-LD and served favicon identify JSC Bank of Georgia (საქართველოს ბანკი); metadata title/country (GE) consistent.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site bytes (favicon.svg, icon-180x180.png, JSON-LD) fetched first-hand on 2026-10-03; a single web search confirmed the old icon corresponds to the pre-2024 BOG lion style.",
+        "uncertainties": [
+          "The original favicon.svg is monochrome white (dark-ground presentation); the orange colored presentation is officially served only as raster. Candidate preparation must resolve presentation without tracing the raster."
+        ],
+        "variant": {
+          "basis": "Current standalone symbol variant is the striped lion integrated with the squircle frame; official colored presentation is orange #fc6719 (observed in the served app icon raster).",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/dd1609204beee5350afcb9b9dd47e0bce5eaaa855a64349417d831c264d9648a.json",
+        "sha256": "dd1609204beee5350afcb9b9dd47e0bce5eaaa855a64349417d831c264d9648a"
+      },
+      "baseIconHash": "bfa41cdbee5b63bb7cedadccd527f56d85352b7c983a994b4e1568cf8e8755d2",
+      "candidate": {
+        "detailsJudgement": "All emblem details survive: striped neck bands, facial features, paw and tail contours, frame knockout and internal transparency are present in the final render; no lost strokes or satellite details versus the source.",
+        "faithful": true,
+        "iconHash": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+        "path": "evidence/15636/candidate-2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800.svg",
+        "proportionsJudgement": "Whole emblem fits the square cell with clearances on all sides at 240px and remains recognizable at 48px on both themes; the white frame is low-contrast on the light theme (same behavior class as the accepted icon's grey frame) but the orange lion carries recognition; source viewBox proportions preserved without stretching.",
+        "rationale": "Supported rebranding: the catalog icon is the obsolete halftone-textured lion in a grey rounded-square outline, while the bank's official site currently serves the smooth striped-lion knockout mark (favicon.svg, fetched first-hand 2026-10-03). Replacing with the current official vector restores currency.",
+        "role": "Standalone brand symbol: the lion in the squircle-frame knockout, matching the official favicon and 180px app-icon composition (orange lion, white frame, transparent outside).",
+        "sha256": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+        "sourceAssetUrl": "https://bankofgeorgia.ge/assets/manifest/favicon.svg",
+        "sourceUrl": "https://bankofgeorgia.ge/",
+        "transforms": [
+          "No geometry or color transformation: emblem paths and fills are byte-preserved from the original downloaded source (sha256 8f55fca17009c28664b990b7851d937a654562f79f9721ce77ded9270d1843bc); no placement scale/translation was needed.",
+          "SVGO 4.1.0 optimization with frozen repo config svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 4271 -> 2779 bytes; selected optimized result (visually identical in rsvg reference renders on both theme canvases; receipt evidence/15636/optimize-1/svgo-receipt.json)."
+        ],
+        "variant": "Current two-tone variant: orange #FF6022 lion with white frame; identical variant and colors to the served favicon.svg and the official icon-180x180.png app icon. No circular-avatar observation exists, so no circular backing was applied; the mark keeps its source transparency (suitable transparent standalone mark).",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after is a clear rebranding difference: halftone-textured lion with spiral eye and grey outline replaced by the current smooth striped lion with white squircle knockout; geometry, texture and framing all visibly change, matching the bank's current official mark."
+      },
+      "candidateIconHash": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+      "checkedAt": "2026-10-03T19:25:59.195642Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a01c181e81687218e0cdd86ccc186ab6fac15219a65528e78bd7a60bb806fa2b",
+        "head": "bank-icon-maintenance/15636",
+        "headCommit": "9d3de9608f5011c6a726fd08f4f7e9e9103cb477",
+        "number": 73,
+        "observedAt": "2026-10-03T19:33:50.321909Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Bank of Georgia (Company.id 15636)",
+        "url": "https://github.com/zenmoney/banks/pull/73"
+      },
+      "reason": "Existing icon is an older Bank of Georgia halftone-textured lion in a grey rounded-square outline; the bank's official site currently serves a materially different mark (smooth striped lion in a squircle-frame knockout), so a supported rebranding update is justified.",
+      "reviewPackage": {
+        "path": "evidence/15636/candidate-5f047216a4634b4885ad50d0d0dd4bcd1122587874cba52aaf592fd2efcd202e.json",
+        "sha256": "5f047216a4634b4885ad50d0d0dd4bcd1122587874cba52aaf592fd2efcd202e"
+      },
+      "sourceCandidate": {
+        "iconHash": "8f55fca17009c28664b990b7851d937a654562f79f9721ce77ded9270d1843bc",
+        "path": "evidence/15636/research-9371162727df4790ae9dc4043d98b5f9/fetch-1933c08f1fe9421cbf8580b80e4b0241/attempt-1/body.bin",
+        "rationale": "Supported rebranding: the served original favicon.svg (smooth striped lion, squircle knockout) materially differs from the catalog's older halftone lion with grey outline; replacing with the current official vector.",
+        "retrieval": {
+          "path": "evidence/15636/research-9371162727df4790ae9dc4043d98b5f9/fetch-1933c08f1fe9421cbf8580b80e4b0241/receipt.json",
+          "sha256": "4c5df077a94b9e45c353bca8112f9c7033a1e929e662a76986630906693517bf"
+        },
+        "sourceAssetUrl": "https://bankofgeorgia.ge/assets/manifest/favicon.svg",
+        "sourceUrl": "https://bankofgeorgia.ge/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://bankofgeorgia.ge/assets/manifest/favicon.svg",
+          "checkedAt": "2026-10-03T19:10:00Z",
+          "independenceGroup": "bankofgeorgia.ge",
+          "kind": "official",
+          "observation": "Official site JSON-LD and served assets identify JSC Bank of Georgia; favicon.svg is the current smooth striped-lion knockout mark (original vector, white fill, sha256 8f55fca17009c28664b990b7851d937a654562f79f9721ce77ded9270d1843bc); icon-180x180.png shows the official orange #fc6719 presentation on dark (raster reference only).",
+          "url": "https://bankofgeorgia.ge/"
+        },
+        {
+          "checkedAt": "2026-10-03T19:12:00Z",
+          "independenceGroup": "bankofgeorgia.ge",
+          "kind": "official",
+          "observation": "Schema.org-declared logo.png URLs (assets/manifest/logo.png, images/logo.png) return 404/SPA fallback; favicon.svg is the served current vector.",
+          "url": "https://bankofgeorgia.ge/assets/manifest/logo.png"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T19:29:01.297585Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+        "xmlSha256": "ff9e57c3113e95b61b40faa9c48f35aaffabeeab73db2a0ce8dcf085bbf7864b"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
