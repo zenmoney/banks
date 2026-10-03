@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-03T21:55:45.883669Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15678/assessed-2ac9eddeeeca968378f10dae16ebb69aeaf14f08e38aef3bbe0d6b2acbe9d60f.json",
+        "sha256": "2ac9eddeeeca968378f10dae16ebb69aeaf14f08e38aef3bbe0d6b2acbe9d60f"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Header logo SVG fetched live from unibank.am on 2026-10-03; it is the site's only logo asset reference on the page.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Both variants are the Unibank U-in-ring symbol; the official header SVG is the bank's current self-presentation on unibank.am.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations are first-party official assets of the operating brand; no third-party sources were needed.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone square symbol occupies the left 24x24 of the official lockup with its own complete geometry (blue square, orange corner wedges, white U in ring); the lockup otherwise only appends the UNIBANK wordmark. Legacy favicon confirms the accepted icon is the pre-rebrand variant.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ca402bed4a40efd922f98776824c36bbaad77b8b9fb2b266b649e10755950687.json",
+        "sha256": "ca402bed4a40efd922f98776824c36bbaad77b8b9fb2b266b649e10755950687"
+      },
+      "baseIconHash": "211cc4b63b8a4f11fab2f31331326ecde3dafa9145cd3b3a9b706b0049e042ee",
+      "candidate": {
+        "detailsJudgement": "Ring, U, corner wedges and both triangles are complete and crisp in the final renders; colors and internal transparency match the source; no lost details",
+        "faithful": true,
+        "iconHash": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616",
+        "path": "evidence/15678/candidate-98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616.svg",
+        "proportionsJudgement": "Full-bleed square symbol fills the 54x54 cell identically to the accepted presentation; recognizable at 48/32/24 px diagnostics on both themes; no stretching or cropping",
+        "rationale": "Replaces the legacy yellow-U favicon-era treatment of the Unibank symbol with the current white-U treatment from the official site header SVG, repairing the accepted icon's outdated brand.",
+        "role": "Standalone square bank symbol (U-in-ring mark) extracted from the official horizontal lockup",
+        "sha256": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616",
+        "sourceAssetUrl": "https://www.unibank.am/local/templates/creo/assets/logos/logo_main.svg",
+        "sourceUrl": "https://www.unibank.am/local/templates/creo/assets/logos/logo_main.svg",
+        "transforms": [
+          "Selected the standalone symbol (first four paths) from the official 138x24 lockup; paths preserved verbatim, viewBox narrowed to 0 0 24.0919 24.0037; no geometry edits; the whole-canvas clipPath rect was dropped as it has no effect on the visible emblem",
+          "SVGO 4.1.0 multipass with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), 3087 -> 2200 bytes; trial rendered visually identical to the working version (568 of 172800 sampled pixels differ, max channel delta 43, gradient-coordinate rounding only); optimized bytes selected"
+        ],
+        "variant": "Current white-U color treatment on #016197 blue with #f69137 corner wedges; matches the symbol area of the official lockup exactly; the accepted icon carries the legacy variant still present only in the site favicon",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Rebrand: yellow-U legacy symbol replaced by the current white-U treatment of the same mark, exactly as the official site header now presents it"
+      },
+      "candidateIconHash": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616",
+      "checkedAt": "2026-10-03T21:55:45.883669Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3bc826271e6c3759ad54aaf021f05fd0e0a1813f5eb8b88e67dda21669cee59f",
+        "head": "bank-icon-maintenance/15678",
+        "headCommit": "12c0f51376ba7c87069f3596422e7ef6821483dd",
+        "number": 80,
+        "observedAt": "2026-10-03T22:20:11.115733Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Unibank (Company.id 15678)",
+        "url": "https://github.com/zenmoney/banks/pull/80"
+      },
+      "reason": "Accepted icon shows the legacy Unibank symbol (yellow U in ring on blue with orange corner wedges, still present only in the site favicon, sha256 ad53bf71). The current brand symbol on unibank.am (fetched 2026-10-03) is a different color treatment: the same U-in-ring construction with a white U on #016197 blue and orange corner wedges, served as the official header logo SVG. This is an evidenced rebrand of the accepted design.",
+      "reviewPackage": {
+        "path": "evidence/15678/candidate-f79af33a3e54da7aa48589e9aa67b119c735979f78565adbf8cdf07abb6c44ff.json",
+        "sha256": "f79af33a3e54da7aa48589e9aa67b119c735979f78565adbf8cdf07abb6c44ff"
+      },
+      "sourceCandidate": {
+        "iconHash": "8d3404284aebf56ff21b4ab98d3acf0393cd17a70fc06bb8c4367867dd74e0ff",
+        "path": "evidence/15678/research-1b8d31e27f40404bb5a46061c303ad6b/fetch-f63395b798774e05b4ba9b07c35356d3/attempt-1/body.bin",
+        "rationale": "Official current-brand vector: selecting the standalone symbol from the official lockup replaces the legacy yellow-U treatment with the current white-U treatment; pure path geometry, no raster, suitable for the square catalog cell with no wordmark.",
+        "retrieval": {
+          "path": "evidence/15678/research-1b8d31e27f40404bb5a46061c303ad6b/fetch-f63395b798774e05b4ba9b07c35356d3/receipt.json",
+          "sha256": "4e914a18967e7780ad7160fe1c9b1861653bbfc70227a651dd796070e10c36a6"
+        },
+        "sourceAssetUrl": "https://www.unibank.am/local/templates/creo/assets/logos/logo_main.svg",
+        "sourceUrl": "https://www.unibank.am/local/templates/creo/assets/logos/logo_main.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.unibank.am/local/templates/creo/assets/logos/logo_main.svg",
+          "checkedAt": "2026-10-03T21:37:38Z",
+          "independenceGroup": "Unibank official site",
+          "kind": "official",
+          "observation": "Official site header logo asset (fetched 2026-10-03, sha256 8d3404284aebf56ff21b4ab98d3acf0393cd17a70fc06bb8c4367867dd74e0ff, 24051 bytes): horizontal 138x24 lockup; left 24x24 square is the standalone symbol (white U in ring on blue, orange corner wedges), followed by the UNIBANK wordmark. This is the page's only logo asset reference.",
+          "url": "https://www.unibank.am/en/"
+        },
+        {
+          "assetUrl": "https://www.unibank.am/local/templates/creo/assets/logos/logo_main.svg",
+          "checkedAt": "2026-10-03T21:37:38Z",
+          "independenceGroup": "Unibank official site",
+          "kind": "official",
+          "observation": "Candidate asset fetched 2026-10-03: official current-brand vector, pure paths, no raster or external references; 138x24 lockup whose left 24x24 is the standalone symbol.",
+          "url": "https://www.unibank.am/local/templates/creo/assets/logos/logo_main.svg"
+        },
+        {
+          "assetUrl": "https://www.unibank.am/favicon.ico",
+          "checkedAt": "2026-10-03T21:38:12Z",
+          "independenceGroup": "Unibank official site",
+          "kind": "official",
+          "observation": "Site favicon (16x16 ICO, sha256 ad53bf7135e3be5c370ca97b68ebff00cd614e2fca37ce88f9da765306b10cdc) still shows the legacy yellow-U variant matching the accepted repository icon; the header SVG shows the new white-U treatment, indicating a recent rebrand with a stale favicon.",
+          "url": "https://www.unibank.am/favicon.ico"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T21:59:42.417452Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616",
+        "xmlSha256": "06d959e722e5a9b56b75bc1e7cd3f32d09339361238969676246e1a4f56731ae"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

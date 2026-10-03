@@ -1,0 +1,130 @@
+{
+  "lastAttemptAt": "2026-10-03T21:54:16.894821Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15687/assessed-54e0f63027f714b03723322546b830bbd81e2d16304e61df6309eb20a139b984.json",
+        "sha256": "54e0f63027f714b03723322546b830bbd81e2d16304e61df6309eb20a139b984"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official homepage (fetched 2026-10-03) shows the head mark in current use; companieslogo current asset (2024 file timestamp in URL) provides the standalone variant.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The engraved classical head is the current Alior Bank mark, observed on the official homepage logo (with wordmark) today; the candidate is the same head without the wordmark.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Currency rests on the official homepage observation; the standalone vector comes from a separate third-party repository whose design matches the accepted icon and the official mark.",
+        "uncertainties": [
+          "The standalone SVG's provenance is a third-party logo repository; vector path quality and gradient structure indicate a proper digitization, but first-party standalone vector bytes were not retrievable (favicon 404, site serves raster only)."
+        ],
+        "variant": {
+          "basis": "Standalone head-on-gold-square variant without wordmark; identical design family to the accepted icon but with the complete head instead of the cropped face.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d7c66202677c8b42c5fa801672211021f789292d679bf56ec58d671910db33e7.json",
+        "sha256": "d7c66202677c8b42c5fa801672211021f789292d679bf56ec58d671910db33e7"
+      },
+      "baseIconHash": "c23c498869b54a392453e2cb28020be8d45a151c5b1666c0af4cd2934725bdf9",
+      "candidate": {
+        "detailsJudgement": "Engraving lines, facial features, laurel and radial gold gradient complete in the final renders; no lost details, no clipping, colors match the source",
+        "faithful": true,
+        "iconHash": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500",
+        "path": "evidence/15687/candidate-d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500.svg",
+        "proportionsJudgement": "Full-bleed square field fills the 54x54 cell identically to the accepted presentation; the restored complete face reads correctly at 48/32/24 px diagnostics on both themes",
+        "rationale": "Repairs the accepted icon's cropped variant: the accepted face is cut off at the canvas edge; the candidate presents the complete engraved head from a current original-vector copy of the same design, with unchanged colors, gold field and composition.",
+        "role": "Standalone bank symbol: engraved classical head on gold radial-gradient square, no wordmark",
+        "sha256": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500",
+        "sourceAssetUrl": "https://companieslogo.com/img/orig/ALR.WA-2cb07570.svg",
+        "sourceUrl": "https://companieslogo.com/img/orig/ALR.WA-2cb07570.svg",
+        "transforms": [
+          "Working copy of the downloaded source: editor metadata (sodipodi/inkscape attributes, namedview, title, metadata) removed and the two CSS style classes inlined as fill attributes (fill=\"url(#g1)\" and fill=\"#6c1011\"); mechanical serialization only, no geometry, color or opacity changes",
+          "SVGO 4.1.0 multipass with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), 36032 -> 33601 bytes; trial rendered pixel-identical to the working version (0 differing pixels at 240x240); optimized bytes selected"
+        ],
+        "variant": "Head-on-gold-square standalone variant matching the accepted icon's presentation, complete instead of cropped; official homepage currently shows the same head mark (with wordmark) on crimson",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Geometry repair: the accepted icon's face is cropped at the canvas edge; the candidate restores the complete head of the same design"
+      },
+      "candidateIconHash": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500",
+      "checkedAt": "2026-10-03T21:54:16.894821Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "102030601aedeac8350b4c84e913a35a63f42cc379ca3dce460ed70b6556ce13",
+        "head": "bank-icon-maintenance/15687",
+        "headCommit": "291d560c48b0a676a845da5b31675a0d99759291",
+        "number": 81,
+        "observedAt": "2026-10-03T22:23:14.463769Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Alior Bank (Company.id 15687)",
+        "url": "https://github.com/zenmoney/banks/pull/81"
+      },
+      "reason": "Accepted icon is a cropped variant of the Alior engraved head on a gold field: the face is cut off at the right edge of the canvas. A complete original-vector version of the same design (full head, gold radial-gradient field, no wordmark) is available and current; the accepted crop loses part of the emblem (geometry repair), which is a supported update reason.",
+      "reviewPackage": {
+        "path": "evidence/15687/candidate-6689b1d687e498fea7a97a6c02c3d024841e22ee1575ba9ee1381923453aa021.json",
+        "sha256": "6689b1d687e498fea7a97a6c02c3d024841e22ee1575ba9ee1381923453aa021"
+      },
+      "sourceCandidate": {
+        "iconHash": "02f829c5b441c8970b820c13def2649d5ce6bbedd0e52b4021d2554cb5890c4b",
+        "path": "evidence/15687/research-059d0c546feb41a0ba6f2f494c903f28/fetch-9cfb1d135f904c819f18d081014bdeb3/attempt-1/body.bin",
+        "rationale": "Complete original-vector engraved head on the same gold field as the accepted icon; repairs the accepted icon's cropped face without changing colors, backing or composition. No wordmark, suitable for the square catalog cell. Fetched sha256 02f829c5b441c8970b820c13def2649d5ce6bbedd0e52b4021d2554cb5890c4b from evidence/15687/research-059d0c546feb41a0ba6f2f494c903f28/fetch-9cfb1d135f904c819f18d081014bdeb3/attempt-1/body.bin.",
+        "retrieval": {
+          "path": "evidence/15687/research-059d0c546feb41a0ba6f2f494c903f28/fetch-9cfb1d135f904c819f18d081014bdeb3/receipt.json",
+          "sha256": "4c861c758f41e87ebbb305b58a3aaf5d7d20e51caf7422289fb865b13ef463b2"
+        },
+        "sourceAssetUrl": "https://companieslogo.com/img/orig/ALR.WA-2cb07570.svg",
+        "sourceUrl": "https://companieslogo.com/img/orig/ALR.WA-2cb07570.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://companieslogo.com/img/orig/ALR.WA-2cb07570.svg",
+          "checkedAt": "2026-10-03T21:53:30Z",
+          "independenceGroup": "companieslogo.com",
+          "kind": "third-party",
+          "observation": "companieslogo.com lists a standalone Alior symbol separate from the full logo; fetched ALR.WA-2cb07570.svg (sha256 02f829c5b441c8970b820c13def2649d5ce6bbedd0e52b4021d2554cb5890c4b, 36146 bytes): pure vector (two fills: radial gold gradient #f2cb72->#efbc32, #6c1011 maroon; no raster, no external refs), square 783x783 full head on gold field.",
+          "url": "https://companieslogo.com/alior-bank/logo/"
+        },
+        {
+          "assetUrl": "https://companieslogo.com/img/orig/ALR.WA-2cb07570.svg",
+          "checkedAt": "2026-10-03T21:53:30Z",
+          "independenceGroup": "companieslogo.com",
+          "kind": "third-party",
+          "observation": "Candidate asset fetched 2026-10-03: pure vector square 783x783, two fills (radial gold gradient #f2cb72->#efbc32, #6c1011 maroon), no raster or external references; complete engraved head on gold field without wordmark.",
+          "url": "https://companieslogo.com/img/orig/ALR.WA-2cb07570.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T21:41:00Z",
+          "independenceGroup": "Alior Bank official site",
+          "kind": "official",
+          "observation": "Official aliorbank.pl homepage logo (fetched 2026-10-03, raster WebP) shows the same engraved-head mark in current use with the ALIOR BANK wordmark; homepage favicon returns HTTP 404, so no first-party standalone head asset was retrievable.",
+          "url": "https://www.aliorbank.pl/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Alior_Bank_logo.svg",
+          "checkedAt": "2026-10-03T21:40:00Z",
+          "independenceGroup": "Wikimedia Commons",
+          "kind": "third-party",
+          "observation": "Wikimedia Commons Alior_Bank_logo.svg (sha256 ff88104adf844f230c5eb2d1fcb0b2f7ae7cc2e5bedf18e98b096d117d1b106f) is the wordmark lockup (ALIOR BANK text on crimson gradient), not a standalone head; inspected and rejected as a candidate source (accompanying bank name).",
+          "url": "https://commons.wikimedia.org/wiki/File:Alior_Bank_logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T21:59:48.808722Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500",
+        "xmlSha256": "69dbe22063c7ae718aad7c327ff3a891f022b05d16f82aded0c69aa8b022d52a"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
