@@ -1,0 +1,121 @@
+{
+  "lastAttemptAt": "2026-10-03T11:08:23.122736Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15450/assessed-98dcbe1a73f65a950bc7c170a81034ed5050cdc7b3787a70dc0d8bf185f7dc23.json",
+        "sha256": "98dcbe1a73f65a950bc7c170a81034ed5050cdc7b3787a70dc0d8bf185f7dc23"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The operating bank's currently fetched homepage presents this vector in its current header alongside active banking services and October 2026 news.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata host and Ukrainian KREDOBANK identity exactly match the official site's bank description/header. Parent PKO is ownership context only, not substituted.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All observations are one official publication group, not claimed as independent sources. Primary current-use and direct original-vector evidence resolve the research gap; third-party/image search would add no necessary evidence.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The header explicitly separates this standalone chevron asset from the wordmark, and the official touch icon visually matches its orange-chevron variant. Transparent standalone mark is suitable in principle for a square cell without adding a backing. Full square and small-size Compose checks remain candidate-stage work.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d489fdf4188ea671696170cbba0d7688057030cac1d9e620aa7ffe655e7c7b48.json",
+        "sha256": "d489fdf4188ea671696170cbba0d7688057030cac1d9e620aa7ffe655e7c7b48"
+      },
+      "baseIconHash": "5f051dd51c3bfe9a3466f248b32af1425fa171fe38d6f11924ef8a09ee349230",
+      "candidate": {
+        "detailsJudgement": "Full original independent raster and exact source/final pairs show preserved rounded ends, tip, inner corner, #f18b00 fill and alpha. Compose final matches geometry without clipping on both themes.",
+        "faithful": true,
+        "iconHash": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973",
+        "path": "evidence/15450/candidate-ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973.svg",
+        "proportionsJudgement": "Whole source emblem uniformly placed in square viewport, complete fit and preserved aspect ratio; orange remains clear on both themes. Resized 24/32/48px diagnostics inspected and recognizable; diagnostics are not native mobile evidence.",
+        "rationale": "Use the bank's currently published original orange transparent chevron, correcting the accepted white-on-muted-orange variant and straight-ended geometry without claiming a dated rebrand.",
+        "role": "Standalone KREDOBANK right-chevron emblem; official header separates it from the accompanying bank wordmark.",
+        "sha256": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973",
+        "sourceAssetUrl": "https://kredobank.com.ua/img/svgo/arrowLogo.svg",
+        "sourceUrl": "https://kredobank.com.ua/",
+        "transforms": [
+          "Preserved original full path geometry and #f18b00 paint. Replaced stylesheet class with equivalent explicit fill; removed nonvisual title/layer wrappers. No tracing, recoloring, stretching, rotation, clipping or raster embedding.",
+          "Square viewport -24.6 -8 89.4 89.4 uniformly places the complete 40.2-by-73.4 source emblem centered in a 54-by-54 output. Internal and exterior transparency preserved; clear top/bottom margins retained.",
+          "Coordinator ran SVGO 4.1.0 with repository config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 287-byte working file versus 293-byte trial. Both independent 240px librsvg renders directly inspected and visually equivalent in orange fill, rounded ends, chevron tip, proportions, alpha and placement. Choose smaller 287-byte working SVG; trial increases size by 6 bytes."
+        ],
+        "variant": "Official current orange #f18b00 chevron on transparency. No circular field added: this source is a suitable transparent standalone mark, not a separable uniform backing requiring catalog normalization.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "White angular chevron on muted-orange circle becomes source-supported orange transparent chevron with rounded left ends; meaningful color, geometry and presentation correction."
+      },
+      "candidateIconHash": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973",
+      "checkedAt": "2026-10-03T11:08:23.122736Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1748255fd3a873d608b3496401b1a446f5a787ea2352da87ebc4d2ad97a9a2c4",
+        "head": "bank-icon-maintenance/15450",
+        "headCommit": "63a3414e30c7df71b514b0e767a7d2be9d3fe45f",
+        "number": 52,
+        "observedAt": "2026-10-03T11:14:26.984188Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КРЕДОБАНК (Company.id 15450)",
+        "url": "https://github.com/zenmoney/banks/pull/52"
+      },
+      "reason": "Official current KREDOBANK header publishes a standalone original orange #f18b00 chevron, also visually corroborated by its official touch icon. The accepted file instead uses a white angular chevron on an #E49439 circle, with straight end corners. A supported replacement corrects the source color/presentation and rounded end geometry; no rebrand date is claimed.",
+      "reviewPackage": {
+        "path": "evidence/15450/candidate-b6873e8b8adc302b787ee3d61b190230600a474a66d85f7c2d03b93c9be71a54.json",
+        "sha256": "b6873e8b8adc302b787ee3d61b190230600a474a66d85f7c2d03b93c9be71a54"
+      },
+      "sourceCandidate": {
+        "iconHash": "3b1cf60c74845f43de35065093672fbdb98fdaf6a7454ef6a48bd51e75e61bb7",
+        "path": "evidence/15450/research-db54ab8d332e4be5af163fe0b42e3581/fetch-7068882c59dd4ef7bf239fa968593f24/attempt-1/body.bin",
+        "rationale": "Replace unsupported white-on-muted-orange presentation and straight end geometry with the actual current original orange transparent chevron. Source geometry and #f18b00 fill are preserved; only whole-emblem placement within a square viewport is proposed.",
+        "retrieval": {
+          "path": "evidence/15450/research-db54ab8d332e4be5af163fe0b42e3581/fetch-7068882c59dd4ef7bf239fa968593f24/receipt.json",
+          "sha256": "71132b7e3348e22981c1c56324cb9b3911a0783ae8fadaa7a28dc20ceb25b6a5"
+        },
+        "sourceAssetUrl": "https://kredobank.com.ua/img/svgo/arrowLogo.svg",
+        "sourceUrl": "https://kredobank.com.ua/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://kredobank.com.ua/img/svgo/arrowLogo.svg",
+          "checkedAt": "2026-10-03T11:03:34Z",
+          "independenceGroup": "KREDOBANK official website",
+          "kind": "official",
+          "observation": "Fetched official homepage identifies KREDOBANK as a Ukrainian bank founded in 1990, owned by PKO Bank Polski; its header link titled KredoBank separately references arrowLogo.svg and textLogo.svg. Current services, 2026 copyright, NBU license and October 2026 news support active current use. Independently rendered arrowLogo.svg is a clean orange right chevron with slightly rounded left ends and transparent interior/exterior; the 410-byte SVG contains one simple authored path, no raster or trace metadata.",
+          "url": "https://kredobank.com.ua/"
+        },
+        {
+          "assetUrl": "https://kredobank.com.ua/fav/apple-touch-icon.png",
+          "checkedAt": "2026-10-03T11:03:34Z",
+          "independenceGroup": "KREDOBANK official website",
+          "kind": "official",
+          "observation": "Official homepage-linked 180px touch image was directly inspected: orange right chevron with rounded left ends and no orange field/white chevron. This is visual corroboration only, never candidate geometry. File bytes decode as JPEG despite PNG URL.",
+          "url": "https://kredobank.com.ua/"
+        },
+        {
+          "assetUrl": "https://kredobank.com.ua/fav/safari-pinned-tab.svg",
+          "checkedAt": "2026-10-03T11:03:34Z",
+          "independenceGroup": "KREDOBANK official website",
+          "kind": "official",
+          "observation": "Fetched pinned-tab SVG explicitly says Created by potrace 1.11. Rejected as replacement source because it is traced; the independently found header arrow vector is used instead.",
+          "url": "https://kredobank.com.ua/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T11:10:04.224925Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973",
+        "xmlSha256": "4afec5f8b9501bc40bee522eb5f5fb60d90b47316369ca1943a8eab37ab4aa87"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
