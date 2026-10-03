@@ -1,0 +1,99 @@
+{
+  "lastAttemptAt": "2026-10-03T19:01:21.065531Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15619/assessed-a58191e176cb0b251dbba2780e9feca3b3e00655cd86988d0a5a0a15a3cf5ecf.json",
+        "sha256": "a58191e176cb0b251dbba2780e9feca3b3e00655cd86988d0a5a0a15a3cf5ecf"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official homepage and brand page fetched 2026-10-03 use the à mark; brand page explicitly names it the bank logo for partner communications.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record is А-Банк / АКЦЕНТ-БАНК (UA, a-bank.com.ua); the fetched assets come from that official domain and brand the same bank as 'àбанк'.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two official page roles (homepage header asset and partner brand bundle) plus metadata; the wordmark bundle and standalone mark agree on the design.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current variant is the standalone 'à' glyph on a green rounded square, served as the site header icon; wordmark variants exist in the brand bundle but the standalone mark is the app-icon presentation.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "133c08b3af6a4480c7b4acea4b1b0d375724568e8ae5746b9a3d8204f3fb666d",
+      "candidate": {
+        "detailsJudgement": "Glyph contours crisp; accent grave intact; backing rounded-square contours preserved; no lost detail versus source at 240px.",
+        "faithful": true,
+        "iconHash": "7719bcd124a6f5c4c027d537e7cf79b589c8aa838f18f72e257c8fc8ddb04e47",
+        "path": "evidence/15619/candidate-7719bcd124a6f5c4c027d537e7cf79b589c8aa838f18f72e257c8fc8ddb04e47.svg",
+        "proportionsJudgement": "Whole-emblem fit preserved; glyph scale and margins match the official source; no stretching or cropping.",
+        "rationale": "Evidenced rebrand: А-Банк now brands as 'àбанк' and serves the standalone black à glyph on a green rounded square as its site/app mark. The accepted green apple design is superseded. Original official SVG asset, no tracing.",
+        "role": "Complete standalone app mark: green rounded-square backing with black à glyph, as published by the bank (site header icon and brand page app-icon presentation).",
+        "sha256": "7719bcd124a6f5c4c027d537e7cf79b589c8aa838f18f72e257c8fc8ddb04e47",
+        "sourceAssetUrl": "https://a-bank.com.ua/assets/img/f39f15d41b34d7381219cec3cc509b10.svg",
+        "sourceUrl": "https://a-bank.com.ua/",
+        "transforms": [
+          "No geometry transforms; uniform placement only (source viewBox 0 0 52 52 preserved).",
+          "SVGO 4.1.0 with frozen repo config (config sha256 f2a406e0...): 1600 -> 1197 bytes, multipass, visually identical under rsvg-convert on white and #121212; optimized bytes selected."
+        ],
+        "variant": "Current 'àбанк' standalone mark variant; wordmark lockups exist separately but this is the standalone app-icon variant.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon shows the former green apple design; the candidate is the current official à mark. Complete visual replacement driven by the evidenced rebrand, not serialization changes."
+      },
+      "candidateIconHash": "7719bcd124a6f5c4c027d537e7cf79b589c8aa838f18f72e257c8fc8ddb04e47",
+      "checkedAt": "2026-10-03T19:01:21.065531Z",
+      "humanReview": "pending",
+      "reason": "А-Банк (АКЦЕНТ-БАНК, UA) rebranded to 'àбанк'; the official site currently serves the standalone 'à' mark on a green rounded-square field. Accepted icon is the former green apple design, superseded by the evidenced rebrand.",
+      "reviewPackage": {
+        "path": "evidence/15619/candidate-8e3c07649d2de9d246507c608954790300d9f2632f1d84053baa0a9c9865ee8b.json",
+        "sha256": "8e3c07649d2de9d246507c608954790300d9f2632f1d84053baa0a9c9865ee8b"
+      },
+      "sourceCandidate": {
+        "iconHash": "40035016e535846a97766a5b397f2f26bd07d2a600ba1cd9244d8e8284481a40",
+        "path": "evidence/15619/research-985af1933c9c4116b882d5d15643a03a/fetch-be83d4e7af544aa68ef94bb44606dd76/attempt-1/body.bin",
+        "rationale": "Original official SVG of the current standalone à app mark (green rounded square, black à glyph); no tracing or redraw involved; evidenced rebrand from the accepted former apple design.",
+        "retrieval": {
+          "path": "evidence/15619/research-985af1933c9c4116b882d5d15643a03a/fetch-be83d4e7af544aa68ef94bb44606dd76/receipt.json",
+          "sha256": "9c7f9673585c564d75124c036c4846a518e40dfb1d7d247edd42fc7cde5779a9"
+        },
+        "sourceAssetUrl": "https://a-bank.com.ua/assets/img/f39f15d41b34d7381219cec3cc509b10.svg",
+        "sourceMaterial": {
+          "path": "evidence/15619/source-material-c4940874bf624cad888fbb88c97bebf3/material.json",
+          "sha256": "0542d4b78c3237b8abbb3dcdad207f8932f8c1a3734c50d8b8887f2d58754c3a"
+        },
+        "sourceUrl": "https://a-bank.com.ua/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://a-bank.com.ua/static/forpartners/abank_new_logo.zip",
+          "checkedAt": "2026-10-03T19:00:55Z",
+          "independenceGroup": "abank-brand",
+          "kind": "official",
+          "observation": "Official partner/brand page offers 'Завантажити логотип у SVG' with the new logo bundle (ZIP, sha256 f3f5d0b2...: AI/EPS/SVG/PNG variants of the 'àбанк' wordmark). Page instructs partners not to change logo proportions, colors or shape.",
+          "url": "https://a-bank.com.ua/forpartners"
+        },
+        {
+          "assetUrl": "https://a-bank.com.ua/assets/img/f39f15d41b34d7381219cec3cc509b10.svg",
+          "checkedAt": "2026-10-03T19:00:55Z",
+          "independenceGroup": "abank-site",
+          "kind": "official",
+          "observation": "Current site header/app icon asset (1,600 bytes, sha256 40035016...): standalone black 'à' glyph on a green rounded square; selected as candidate material.",
+          "url": "https://a-bank.com.ua/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T19:03:05.233447Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7719bcd124a6f5c4c027d537e7cf79b589c8aa838f18f72e257c8fc8ddb04e47",
+        "xmlSha256": "1a82d5c10944dd97d7cbfa2e17b222fc1f506d9829409223c626e97d71313e40"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
