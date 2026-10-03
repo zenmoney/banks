@@ -1,0 +1,128 @@
+{
+  "lastAttemptAt": "2026-10-03T16:57:52.243651Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15578/assessed-d2e29b5f7aca4f30b44188e9b253a6e77b871ef20ec0229e46ce73c69d6e9c80.json",
+        "sha256": "d2e29b5f7aca4f30b44188e9b253a6e77b871ef20ec0229e46ce73c69d6e9c80"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official page dates the sixth-generation rebrand to July 2023; current brand page and displayed brand illustration retain the same emblem today. Operating Singapore brand is confirmed by current personal banking page.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "SG OCBC Bank record's known ocbc.com site directly publishes the chosen original vector in its official annual report and brand guidance; no successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary original-vector provenance plus official current brand corroboration are sufficient. Third-party pages were investigated but not counted as independent originals or used for geometry.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone junk-ship-in-O explicitly described as iconic mark by official brand guide. Source-preserving extraction removes separate wordmark subpaths only, keeps complete 100x100 emblem, original geometry, red and transparency; square-cell suitable, no invented background.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/483cefd886b5f046753e77f1e23e727aebdacfcecf35248c7f52011a5f2caebe.json",
+        "sha256": "483cefd886b5f046753e77f1e23e727aebdacfcecf35248c7f52011a5f2caebe"
+      },
+      "baseIconHash": "e1c783141f7df87e589a5ea923caadde2cca346946121eadcf006862b15fa21c",
+      "candidate": {
+        "detailsJudgement": "Full original vector raster and exact source/final theme pairs preserve complete sails, simplified hull, O contour, #e30613 red and transparent gaps. Final Compose both themes are clean and unclipped.",
+        "faithful": true,
+        "iconHash": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b",
+        "path": "evidence/15578/candidate-b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b.svg",
+        "proportionsJudgement": "Complete 100x100 original emblem occupies square cell without stretching or missing details. Meaningful circular contour and all sail/hull parts retained; no added field or mask.",
+        "rationale": "Update OCBC Bank to its official 2023 refreshed standalone emblem. The original official vector is corroborated by the current official brand illustration; accepted thin water lines and darker red differ visibly.",
+        "role": "Standalone junk-ship-in-O bank symbol; the circular outer contour is meaningful emblem geometry, not a plain backing. Retain transparency without adding a circle.",
+        "sha256": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b",
+        "sourceAssetUrl": "https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/investors/campaign/annual-report-2023/images/the-power-of-one-brand/logo.svg",
+        "sourceUrl": "https://www.ocbc.com/group/investors/annual-reports/2023-annual-report/the-power-of-one-brand.page",
+        "transforms": [
+          "Selected exact source sail and O/hull subpaths; removed only separate OCBC lettering contours. Changed viewport from 370.679x100 to 100x100 for the complete standalone mark. No redraw, recoloring, emblem crop, stretch or invented backing.",
+          "SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 883 bytes to 860. Selected optimized SHA-256 b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b after equal independent raster pixels and visual comparison on light/dark canvases."
+        ],
+        "variant": "Official sixth-generation 2023 red junk ship enclosed in bold O, extracted from horizontal logo without separate OCBC lettering.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Compared with baseline Compose light image, official replacement removes thin lower horizontal water-line detail, simplifies hull and changes #D02E26 to the original official brand SVG #e30613. This is a source-supported brand refresh, not mere serialization. Final Compose pairs must corroborate before recording."
+      },
+      "candidateIconHash": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b",
+      "checkedAt": "2026-10-03T16:57:52.243651Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "fb443c8e78d9608f328b5464840673dbed6369128009dd30dd1d05d12d7405ae",
+        "head": "bank-icon-maintenance/dtma6l0b-15578",
+        "headCommit": "e79c55e36ed50bc3944a295fccfa5fadcd7e4ef9",
+        "number": 68,
+        "observedAt": "2026-10-03T17:19:34.151084Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: OCBC Bank (Company.id 15578)",
+        "url": "https://github.com/zenmoney/banks/pull/68"
+      },
+      "reason": "Official OCBC 2023 brand refresh replaces the accepted sail geometry and wave detail. Baseline contains thin horizontal water lines and #D02E26; official original vector has the simplified solid hull and #e30613. Current official brand illustration corroborates this newer geometry and red. This is a supported same-bank rebrand update, not a serialization-only or background-only change.",
+      "reviewPackage": {
+        "path": "evidence/15578/candidate-da4bfa603d626792dee7daed96290f760e83cbf2202092b89d2f080ab500ea24.json",
+        "sha256": "da4bfa603d626792dee7daed96290f760e83cbf2202092b89d2f080ab500ea24"
+      },
+      "sourceCandidate": {
+        "iconHash": "ae99249726c064bafd56f1c8f0398efbdfe835a2b07a4149ac3ae8d94a878f22",
+        "path": "evidence/15578/research-96ef3291373948c2bf8dd26f6e226b78/fetch-80dc8e37df144050a829290ec2016111/attempt-1/body.bin",
+        "rationale": "Replace accepted pre-refresh sail/water details and darker red with original 2023 same-bank vector emblem. Extract only standalone mark, preserve its explicit #e30613 and exact curves.",
+        "retrieval": {
+          "path": "evidence/15578/research-96ef3291373948c2bf8dd26f6e226b78/fetch-80dc8e37df144050a829290ec2016111/receipt.json",
+          "sha256": "617ebe5afcbefd1519d56d22a1e4edc9e43e1d453585033f2fb6e1bf4155c844"
+        },
+        "sourceAssetUrl": "https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/investors/campaign/annual-report-2023/images/the-power-of-one-brand/logo.svg",
+        "sourceUrl": "https://www.ocbc.com/group/investors/annual-reports/2023-annual-report/the-power-of-one-brand.page"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/investors/campaign/annual-report-2023/images/the-power-of-one-brand/logo.svg",
+          "checkedAt": "2026-10-03T16:52:35Z",
+          "independenceGroup": "OCBC official brand materials",
+          "kind": "official",
+          "observation": "Official annual report labels this direct SVG 2023, states sixth iteration unveiled 3 July 2023 and adopted across markets where regulations permit. Original downloaded SVG has a single explicit path, #e30613 and a complete junk-ship-in-O emblem at x=0..100 next to separate OCBC wordmark contours. Independent rsvg reference inspected: simplified hull, no thin baseline water lines.",
+          "url": "https://www.ocbc.com/group/investors/annual-reports/2023-annual-report/the-power-of-one-brand.page"
+        },
+        {
+          "assetUrl": "https://www.ocbc.com/iwov-resources/sg/ocbc/gbc/img/about-us/our-brand/logo_ocbcbank-horizontal.png",
+          "checkedAt": "2026-10-03T16:52:35Z",
+          "independenceGroup": "OCBC official brand materials",
+          "kind": "official",
+          "observation": "Current official brand page explicitly identifies the new logo unveiled 3 July 2023, calls the junk ship enclosed in bold O the iconic mark, and explains the three sail lines. Displayed brand PNG was fetched and visually inspected: matches original SVG emblem, simplified hull and vivid red. Raster is corroboration only, not replacement geometry. Generic homepage header raster is somewhat warmer red, so the explicitly designated brand illustration and original brand SVG take precedence; no invented recoloring.",
+          "url": "https://www.ocbc.com/group/about-us/our-brand.page"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T16:52:35Z",
+          "independenceGroup": "Wikimedia contributor",
+          "kind": "third-party",
+          "observation": "File page describes logo used since 2023 but lists Source as Own work using ocbc.com and separate vector licensing. Rejected as an original-vector source because reconstruction is not excluded.",
+          "url": "https://commons.wikimedia.org/wiki/File:Logo-ocbc.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T16:52:35Z",
+          "independenceGroup": "CompaniesLogo",
+          "kind": "third-party",
+          "observation": "Fetched page labels SVG as vectorized, last updated October 25 2024, and supplies no original asset lineage. Not used as replacement material.",
+          "url": "https://companieslogo.com/ocbc-bank/logo/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T17:01:53.857788Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b",
+        "xmlSha256": "97d2c034fcd40adcc7f364d241bfb84590aa24f0d784746d55ebd814d0ad60c0"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
