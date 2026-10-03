@@ -1,0 +1,96 @@
+{
+  "lastAttemptAt": "2026-10-03T04:06:49.454174Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4641/assessed-42dedb890835b642c2b6bb76708afbcf964599852979a5dd809b06f08c57b635.json",
+        "sha256": "42dedb890835b642c2b6bb76708afbcf964599852979a5dd809b06f08c57b635"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Referenced by the live 2026-styled login page (loginSDM2026.css) of the operating bank's portal; bank is operating in 2026.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset served from corp.sdm.ru, the bank's own corporate domain (sdm.ru is the record's URL); lockup depicts the SDM-Bank emblem and name.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official corporate portal is the primary source; the third-party vector library independently corroborates the same design.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Official horizontal lockup variant; standalone emblem mark occupies the left region of the same vector.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem details survive: swirl strokes, Д monogram, дм letters and internal white gaps are intact in the final Desktop renders on both themes; no clipping, no lost strokes.",
+        "faithful": true,
+        "iconHash": "c670d51256d88e144dd216583a99970b9b62ea847e5a1c42e9bdf19fd45e37aa",
+        "path": "evidence/4641/candidate-c670d51256d88e144dd216583a99970b9b62ea847e5a1c42e9bdf19fd45e37aa.svg",
+        "proportionsJudgement": "Whole-emblem fit complete in the square cell with small uniform margins; useful size good — recognizable at 24/32/48 px diagnostics; transparency preserved; no backing per policy for a suitable transparent standalone mark.",
+        "rationale": "Original untraced vector emblem extracted from the official SDM Bank lockup (corp.sdm.ru/ru/img/logo.svg, 2026-styled portal page). Standalone 'S'-swirl + 'Дм' monogram mark in brand color #012B5D; accompanying wordmark 'СДМБАНК' dropped to satisfy the standalone-mark rule. No raster tracing or embedding.",
+        "role": "Standalone bank emblem from the official horizontal lockup; letters Дм are part of the mark itself.",
+        "sha256": "c670d51256d88e144dd216583a99970b9b62ea847e5a1c42e9bdf19fd45e37aa",
+        "sourceAssetUrl": "https://corp.sdm.ru/ru/img/logo.svg",
+        "sourceUrl": "https://corp.sdm.ru/ru/html/login.html",
+        "transforms": [
+          "Selected the emblem-only paths (max x 40.71) from the 170x34 lockup; viewBox tightened to 0 0 41 34; no path geometry edited.",
+          "No placement scale/translation needed beyond viewBox crop.",
+          "SVGO 1.2.3 (repo svgo.config.mjs, sha256 of config recorded by tool) on a copy: 4261 -> 2391 bytes (43.9%); result selected as final after visual comparison showed identical render."
+        ],
+        "variant": "Current 2026 official lockup variant; emblem region used unchanged. Transparent standalone mark; no observed circular official avatar, so no backing added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the record had no icon.svg, so the diff is absence to a real icon; the emblem itself is unchanged source geometry."
+      },
+      "candidateIconHash": "c670d51256d88e144dd216583a99970b9b62ea847e5a1c42e9bdf19fd45e37aa",
+      "checkedAt": "2026-10-03T04:06:49.454174Z",
+      "humanReview": "pending",
+      "reason": "First addition: no icon.svg exists. Original untraced vector SVG located on the bank's own corporate portal: https://corp.sdm.ru/ru/img/logo.svg, referenced from the login page (corp.sdm.ru/ru/html/login.html, stylesheet loginSDM2026.css indicating 2026 branding). The portal links a RuStore mobile app, supporting current 2026 operating use. The asset is a horizontal lockup (170x34) of the standalone emblem plus lettering; the emblem region (left ~28 units) is the standalone mark for the square cell.",
+      "reviewPackage": {
+        "path": "evidence/4641/candidate-b8d304b23b325cb6051af23ea83649d10b4e9a4762dcf0e9db46244c66a117c9.json",
+        "sha256": "b8d304b23b325cb6051af23ea83649d10b4e9a4762dcf0e9db46244c66a117c9"
+      },
+      "sourceCandidate": {
+        "iconHash": "bd72482e84406e26165df825c19cd4b2844d7ea6843ffa9a78a02c8cdb7deca6",
+        "path": "evidence/4641/research-dd50ce664631444d85cf8b0fd6a4ca9c/fetch-0e24938e107647f08840d17112e9b93f/attempt-2/body.bin",
+        "rationale": "Genuine original vector served by the bank's own corporate domain (corp.sdm.ru, referenced from login.html); pure paths, no raster embedding, untraced crisp lockup with brand color #012B5D. Horizontal lockup; standalone emblem region (left ~28 units) is the mark for the square cell.",
+        "retrieval": {
+          "path": "evidence/4641/research-dd50ce664631444d85cf8b0fd6a4ca9c/fetch-0e24938e107647f08840d17112e9b93f/receipt.json",
+          "sha256": "8e7480ae1815c85fcda751d8eae544f9ed25960722feadfe4fda9f464dd93766"
+        },
+        "sourceAssetUrl": "https://corp.sdm.ru/ru/img/logo.svg",
+        "sourceUrl": "https://corp.sdm.ru/ru/html/login.html"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://corp.sdm.ru/ru/img/logo.svg",
+          "checkedAt": "2026-10-03T04:05:47Z",
+          "independenceGroup": "official sdm.ru corporate portal",
+          "kind": "official",
+          "observation": "Official login page of the bank's corporate portal links logo.svg directly; stylesheet loginSDM2026.css names 2026 branding and the portal advertises the bank's mobile app, supporting current operating use. www.sdm.ru serves a JS loader to plain fetch, so corp.sdm.ru is the usable official surface.",
+          "url": "https://corp.sdm.ru/ru/html/login.html"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T04:05:47Z",
+          "independenceGroup": "ph4.ru vector library",
+          "kind": "third-party",
+          "observation": "Third-party vector library card (EPS/CDR/AI zip) corroborates the logo design; kept as corroboration only, not used as source bytes.",
+          "url": "https://ph4.ru/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T04:11:09.260831Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "c670d51256d88e144dd216583a99970b9b62ea847e5a1c42e9bdf19fd45e37aa",
+        "xmlSha256": "f87a3ad143a139c04d80522c947af6ab65ba26b2ef4a72c7fdad259f562e30fd"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
