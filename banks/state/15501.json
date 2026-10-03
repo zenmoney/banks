@@ -1,0 +1,136 @@
+{
+  "lastAttemptAt": "2026-10-03T13:29:14.168021Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15501/assessed-3063d12a4909de12ea6ad52d599c6edfc718472f854ddc756411836d6f2ea46d.json",
+        "sha256": "3063d12a4909de12ea6ad52d599c6edfc718472f854ddc756411836d6f2ea46d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official homepage and favicon retrieved 2026-10-03 carry the new Alatau City Bank mark; rebrand effective June 2025.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official site alataucitybank.kz is the current site of the bank formerly branded Jusan Bank (First Heartland Jysan Jusan); rename confirmed by official news and independent KASE registration notice. Mark observed matches the new 'Alatau City Bank' branding.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Currency rests on the live official domain (direct observation) plus KASE (regulator/exchange) as an independent legal confirmation of the rename; official news and KASE are distinct organizations.",
+        "uncertainties": [
+          "Whether the accepted baseline SVG is considered an exact equivalent of the official vector (byte/geometry comparison and render gates happen at candidate preparation); if equivalent, result may become unchanged.",
+          "favicon.svg is a wrapper (nested svg + style element); the self-contained inner SVG must be extracted via source-material if the wrapper is rejected."
+        ],
+        "variant": {
+          "basis": "Standalone symbol variant (no accompanying lettering) secured from official favicon.svg; matches the emblem in the official logo raster. Square-cell suitability (tall 124x181 natural aspect) to be evaluated at candidate preparation against catalog background/fit policy; baseline already uses a square adaptation of the same design.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/eff4b9310ec3aa172586cbc7bfa6b0c67ab9999b7861a4edb0555a9bc17f7614.json",
+        "sha256": "eff4b9310ec3aa172586cbc7bfa6b0c67ab9999b7861a4edb0555a9bc17f7614"
+      },
+      "baseIconHash": "13c2e76f9baf5d99a788afdd76a6b88d2eb2e578294641312c8717e8c4f41657",
+      "candidate": {
+        "detailsJudgement": "All four shapes retain the official contours: two full-width ribbons with the swallowtail notch, the third ribbon with angled right edge, and the comma/teardrop accent; corner radii, notches and internal gaps survive; the converter renders them identically to the source at 240px and in the 24/32/48px previews of the final frames.",
+        "faithful": true,
+        "iconHash": "7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911",
+        "path": "evidence/15501/candidate-7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911.svg",
+        "proportionsJudgement": "Whole emblem occupies the full 181px height and 124px width of the square cell (about 69% width), centered horizontally; at 24px the mark remains recognizable with clear gaps; no clipping, no excessive shrinking; alpha preserved on both themes.",
+        "rationale": "Replace the accepted re-proportioned square squeeze with the official current Alatau City Bank emblem from the bank's own favicon.svg, preserving the exact official geometry on a square catalog canvas.",
+        "role": "Standalone bank mark (no accompanying lettering), as published by the bank itself as its favicon and shown beside the wordmark in the site logo.",
+        "sha256": "7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911",
+        "sourceAssetUrl": "https://alataucitybank.kz/favicon/favicon.svg",
+        "sourceUrl": "https://alataucitybank.kz/favicon/favicon.svg",
+        "transforms": [
+          "Lossless wrapper cleanup: dropped the outer svg wrapper and the inert prefers-color-scheme style block (filter:none) of the official favicon.svg; all four path 'd' attributes and fills byte-identical.",
+          "Square-cell placement: uniform scale 1.0 of the whole 124x181 emblem on a 181x181 transparent canvas, translated by (28.5, 0); no stretching, rotation, recoloring or clipping.",
+          "SVGO 4.1.0 with frozen worktree svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), multipass: 1307 -> 884 bytes; trial visually identical to the working version on both themes (rsvg-convert comparison), selected optimized bytes sha256 7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911."
+        ],
+        "variant": "Official current variant: four gold #EDB110 stacked shapes on a transparent field; the official favicon is the standalone presentation, so no circular backing or masking was applied — a suitable transparent standalone mark keeps transparency.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The accepted baseline squeezes the same four-shape mark into 54x54 by redrawing the shapes: the bottom teardrop becomes an elongated crescent and the ribbons are horizontally stretched, visibly deviating from the official geometry. The final restores the exact official proportions on the square canvas — a geometry correction of the same current design, not a rebrand."
+      },
+      "candidateIconHash": "7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911",
+      "checkedAt": "2026-10-03T13:29:14.168021Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "252f9b833e1082719e2e241018ae2b6328af899c9dd2545bddef0e26deb85e86",
+        "head": "bank-icon-maintenance/15501",
+        "headCommit": "78a77aa47d855466cd9c2d7af59349d2ab4a61ca",
+        "number": 59,
+        "observedAt": "2026-10-03T13:39:43.887725Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Alatau City Bank (Company.id 15501)",
+        "url": "https://github.com/zenmoney/banks/pull/59"
+      },
+      "reason": "Bank rebranded from Jusan Bank (First Heartland Jysan Jusan) to Alatau City Bank JSC in June 2025 (official announcement + KASE re-registration 2025-06-16). The official site alataucitybank.kz presents the current gold #EDB110 stacked-shape mark, secured as an original vector from https://alataucitybank.kz/favicon/favicon.svg (direct official .svg download). Comparison of renders (rsvg-convert references) shows the accepted baseline is a re-proportioned square squeeze of the official emblem: the bottom teardrop is drawn as an elongated crescent and the ribbons are horizontally stretched, so the baseline visibly deviates from the official geometry. The exact official vector is offered as the candidate; final visual gates happen at candidate preparation.",
+      "reviewPackage": {
+        "path": "evidence/15501/candidate-373ffa32ac930818f2c2ec6e6c4aae756b0c44fb50d25ef98dd68fdde190d99a.json",
+        "sha256": "373ffa32ac930818f2c2ec6e6c4aae756b0c44fb50d25ef98dd68fdde190d99a"
+      },
+      "sourceCandidate": {
+        "iconHash": "3d2d256bb1939046a1d81de4790d8ce0baba764beb3c3995f49e9d720b3d8f01",
+        "path": "evidence/15501/research-afaeccf437ef46f4bbdea0fd9f227d0a/fetch-a22c2979a0ea40e39446022fbc6cd8a6/attempt-1/body.bin",
+        "rationale": "Original vector (direct official .svg download, sha256 3d2d256bb1939046a1d81de4790d8ce0baba764beb3c3995f49e9d720b3d8f01) of the current Alatau City Bank standalone mark; official domain, live retrieval 2026-10-03T13:08:48Z; design matches the official logo raster on the same site. No tracing or raster embedding involved.",
+        "retrieval": {
+          "path": "evidence/15501/research-afaeccf437ef46f4bbdea0fd9f227d0a/fetch-a22c2979a0ea40e39446022fbc6cd8a6/receipt.json",
+          "sha256": "ef17aa95242b6a4e8a904d204515527bd1b948a2c6f7a5f27b50d70fc90f17fc"
+        },
+        "sourceAssetUrl": "https://alataucitybank.kz/favicon/favicon.svg",
+        "sourceMaterial": {
+          "path": "evidence/15501/source-material-1c0b619a61004f0c8ea98350b21e9909/material.json",
+          "sha256": "a66fabd7cedbca83bcb9c70ce5d0057336f59d221439475c1e69aad367ddac0c"
+        },
+        "sourceUrl": "https://alataucitybank.kz/favicon/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://alataucitybank.kz/_next/static/media/logo.cecdb635.png",
+          "checkedAt": "2026-10-03T13:08:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Homepage loads and serves the current brand: 180x180 raster logo (webp bytes) showing the gold stacked-shape mark beside dark 'Alatau City Bank' text. Raster used as visual evidence only.",
+          "url": "https://alataucitybank.kz/"
+        },
+        {
+          "assetUrl": "https://alataucitybank.kz/favicon/favicon.svg",
+          "checkedAt": "2026-10-03T13:08:48Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Original vector SVG (124x181 viewBox, four paths, fill #EDB110) of the standalone mark, identical design to the site logo raster. Direct .svg download; no tracing involved. File is an outer svg wrapper containing a nested inner svg plus a prefers-color-scheme style block; inner svg is self-contained. Outer wrapper contains a nested self-contained inner svg and an inert prefers-color-scheme style block (filter:none); material binding: evidence/15501/source-material-1c0b619a61004f0c8ea98350b21e9909/material.json",
+          "url": "https://alataucitybank.kz/favicon/favicon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T13:08:12Z",
+          "independenceGroup": "official-news",
+          "kind": "official",
+          "observation": "Official news: shareholders approved rename 2025-05-15; legal name change to Alatau City Bank after re-registration; visual identity to be updated gradually.",
+          "url": "https://jusan.kz/en/articles/news/jusan-bank-menyaet-naimenovanie-na-alatau-city-bank"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T13:08:12Z",
+          "independenceGroup": "kase",
+          "kind": "third-party",
+          "observation": "Kazakhstan Stock Exchange confirms re-registration as Alatau City Bank JSC on 2025-06-16 — independent confirmation that Alatau City Bank is the current legal name/brand of the former Jusan Bank.",
+          "url": "https://kase.kz/en/information/news/show/1545591"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T13:31:21.685678Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911",
+        "xmlSha256": "5e39208eb957387dbe0b289e002637aa6ad11d8f9f77e0117583ea5f84fcf234"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
