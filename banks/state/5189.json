@@ -1,0 +1,125 @@
+{
+  "lastAttemptAt": "2026-10-03T05:37:11.529685Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/5189/assessed-ff53861b994034ea572ff2c53226e378e54015364a1b9e9abb18781891470362.json",
+        "sha256": "ff53861b994034ea572ff2c53226e378e54015364a1b9e9abb18781891470362"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current homepage header repeatedly uses the fetched vector; standalone official website icon corroborates three-bar digital use. The2023 announcement is launch history, not alone proof of current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Explicit legal bank name/licence and current services on metadata official host link the logo to this operating Russian bank, not a successor.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All positive evidence belongs to one first-party rshb publication group. No unresolved identity/current-use/vector-origin gap requires independent corroboration; search located the original dated bank announcement. Do not count official pages as independent sources.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Three complete original rectangles are separable from accompanying РСХБ lettering. Their coordinates, proportions, spacing, colors and transparency are preserved in the working SVG. Official icon establishes standalone use. Transparent square-cell presentation has no added background and requires coordinator final theme/size render review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3678e9f359c3ef28dd65fb9585b936f37b0a4ed91cfb2c13abf8339a99b8c67b.json",
+        "sha256": "3678e9f359c3ef28dd65fb9585b936f37b0a4ed91cfb2c13abf8339a99b8c67b"
+      },
+      "baseIconHash": "e913a7438cb0e848803e0a2c6c1918f2e40b32fada1f41e64e3c6e2783b1fde0",
+      "candidate": {
+        "detailsJudgement": "Actual source/final pairs show all three full bars, equal top/bottom alignment, progressive widths, original gaps and yellow/lime/green paints preserved by Compose conversion. No added strokes, holes, backing, missing details or clipping. Independent source raster is minutely different in rasterized width from the final because of integer crop scaling, not altered geometry.",
+        "faithful": true,
+        "iconHash": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29",
+        "path": "evidence/5189/candidate-df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29.svg",
+        "proportionsJudgement": "Near-square transparent mark fits complete within the cell without circular masking. Actual light/dark Compose renders have useful visual weight and both gaps remain clean. Resized24/32/48px diagnostics show three distinct bars on both themes; dark-green bar has lower dark-theme contrast but remains clearly visible. Yellow/lime retain strong contrast; no excessive shrinking or clipped corners. No arbitrary margin added.",
+        "rationale": "Replace accepted intricate wheat/key/circle mark with the source-supported three-bar digital emblem used by the operating bank's current website header and its standalone website icon. This is a materially different current digital variant, not an optimization-only update; the2023 bank announcement introduced abbreviated branding for digital channels alongside full-name variants.",
+        "role": "Standalone original-vector bank emblem; separate accompanying РСХБ wordmark excluded, no slogan/name beside or below the mark.",
+        "sha256": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29",
+        "sourceAssetUrl": "https://www.rshb.ru/wcms-resources/LOGO_RSHB.svg",
+        "sourceUrl": "https://www.rshb.ru/",
+        "transforms": [
+          "Preserved the complete original rect geometry, positions, gap relationships, heights, colors and internal transparency. Removed only the separate accompanying РСХБ lettering and narrowed the viewBox from0 0 118 24 to0 0 23.8 24, dimensions24x24. No individual component movement, recoloring, tracing, stretch, rotation or clipping; no background added.",
+          "SVGO4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e:287→253bytes. Selected optimized df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29 after independently rendered working/optimized theme-pair inspection and zero raster difference.",
+          "Source comparison crop only: full preserved raster960x196 inspected, box[0,0,194,196] selects complete source emblem and excludes separate lettering beginning rasterx265.22. Source transparency retained, no candidate geometry created from raster."
+        ],
+        "variant": "Three vertical bars progressively increasing width, yellow #fec000, lime #9ac61e and green #27722f; source-transparent presentation, no invented backing or circular mask. Current official SVG paints retained rather than sampling slightly different raster-icon shades.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Actual base/final pairs visibly replace the round green wheat/key symbol with white monogram and gold detail by the current digital three-bar mark. This removes older intricate imagery from this selected catalog icon in favor of the supported standalone digital variant; no claim that all historical/full-name variants have ceased official use."
+      },
+      "candidateIconHash": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29",
+      "checkedAt": "2026-10-03T05:37:11.529685Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0de48f60d0c08d4edd02e2c9afee775221432686f9940d39b2d44b4ae223783e",
+        "head": "bank-icon-maintenance/t9at3xn0-5189",
+        "headCommit": "560b1558470e68b58ce0a7196acb3e5d74380ccd",
+        "number": 41,
+        "observedAt": "2026-10-03T05:48:21.338431Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Россельхозбанк (Company.id 5189)",
+        "url": "https://github.com/zenmoney/banks/pull/41"
+      },
+      "reason": "The official operating bank homepage currently displays a three-bar yellow/lime/dark-green emblem with the РСХБ wordmark. Its official Android website icon separately displays the same three-bar composition without lettering. The official 20 October 2023 announcement explains adoption of abbreviated РСХБ logos for advertising and digital channels. This provides a source-supported replacement for the accepted detailed wheat/circular emblem, without asserting that every older bank logo is prohibited.",
+      "reviewPackage": {
+        "path": "evidence/5189/candidate-01a32e8131b8f0a2c13a93e6f20aaba26a6673ec6c6827231f6116f389f52c48.json",
+        "sha256": "01a32e8131b8f0a2c13a93e6f20aaba26a6673ec6c6827231f6116f389f52c48"
+      },
+      "sourceCandidate": {
+        "iconHash": "be577e2b1008b10abc091a67247fb5a67423396bf889efb144288b8773e76a21",
+        "path": "evidence/5189/research-e1f3ffe6f0fc4d3581665685277fa17a/fetch-572f782215f945a5997c3735b180fd25/attempt-2/body.bin",
+        "rationale": "Adopt the current official digital three-bar bank emblem in place of the accepted intricate wheat/circle design. Standalone original rectangles are retained exactly and accompanying wordmark omitted; suitable near-square transparent mark pending actual catalog render review.",
+        "retrieval": {
+          "path": "evidence/5189/research-e1f3ffe6f0fc4d3581665685277fa17a/fetch-572f782215f945a5997c3735b180fd25/receipt.json",
+          "sha256": "7e4ed31c908e02e33f2685f425769a548e47d2e47ef5e77765e0c9bb48923e07"
+        },
+        "sourceAssetUrl": "https://www.rshb.ru/wcms-resources/LOGO_RSHB.svg",
+        "sourceMaterial": {
+          "path": "evidence/5189/source-material-7d6e54520dd1487b8ec016d7a6931023/material.json",
+          "sha256": "39d44e33cdd265fe92c76a2f5154ad3c1026e7d2f4f7fc66d6242048de1ca0bb"
+        },
+        "sourceUrl": "https://www.rshb.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.rshb.ru/wcms-resources/LOGO_RSHB.svg",
+          "checkedAt": "2026-10-03T05:30:48.360091Z",
+          "independenceGroup": "rshb-official",
+          "kind": "official",
+          "observation": "Fetched homepage identifies АО Россельхозбанк, ©2000–2026 and Bank of Russia general licence3349 dated12 August2015, offers current retail/business banking and repeatedly references this logo in desktop/mobile header markup. Downloaded SVG is Adobe Illustrator export with three separable original rect elements and РСХБ wordmark; mark colors #fec000/#9ac61e/#27722f.",
+          "url": "https://www.rshb.ru/"
+        },
+        {
+          "assetUrl": "https://www.rshb.ru/android-icon-512x512.png",
+          "checkedAt": "2026-10-03T05:30:48.360091Z",
+          "independenceGroup": "rshb-official",
+          "kind": "official",
+          "observation": "Inspected the actual official linked512px website icon: only three vertical bars of progressively increasing width, yellow/lime/green on white, no accompanying lettering. Raster confirms standalone role/composition, not exact selected vector paint values or replacement geometry; replacement retains original SVG paints.",
+          "url": "https://www.rshb.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T05:30:48.360091Z",
+          "independenceGroup": "rshb-official",
+          "kind": "official",
+          "observation": "Fetched announcement dated20 October2023 says bank submitted logo trademark variants, adapts branding to modern visual trends and introduces РСХБ abbreviation for advertising/digital channels alongside full name; designs by the bank's own creative team.",
+          "url": "https://www.rshb.ru/news/20102023-000001"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T05:41:19.037184Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29",
+        "xmlSha256": "7ad21886e9efa75ff9214dcbae21d4789bc571ed4476d150a314abb5a3571728"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
