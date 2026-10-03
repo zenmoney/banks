@@ -1,0 +1,131 @@
+{
+  "lastAttemptAt": "2026-10-03T12:11:48.763428Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15466/assessed-29be0fc93a78c1a2b3e4687df8dbfa6bd21ea8441492baf45337967cfc99289a.json",
+        "sha256": "29be0fc93a78c1a2b3e4687df8dbfa6bd21ea8441492baf45337967cfc99289a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The Eurobank 2021 mark is in active use: it is the official site header asset (eurobank.cy, 2026 snapshots) and matches the group mark served on eurobank.gr; the legacy Hellenic mark is retired from the transition pages.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The record (eurobank.cy, fullTitle 'Hellenic') represents the Cyprus institution now branded Eurobank after the merger; the candidate is the Eurobank brand mark of that institution's group identity.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official merger/transition pages (eurobank.cy) establish which brand the record represents; the candidate vector comes from an independent Commons upload sourced from eurobank.gr, agreeing with the official site's asset. Two independent publication chains.",
+        "uncertainties": [
+          "Official eurobank.cy asset bytes could not be fetched (bot-protection 403); the candidate vector is the Commons copy whose stated source is eurobank.gr. Consistency with the official header asset was established through page context and shape/color agreement, not byte comparison. Scout searches/page reads ran outside the research accounting hooks (no shell in scout runtime); disclosed."
+        ],
+        "variant": {
+          "basis": "Standalone red 'e' symbol of the 2021 redesign, part of the retrieved original vector as its own group with fill #ea002a; the wordmark is separate lettering. Catalog use is the symbol alone, matching the group's icon usage.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/2198134508876a737df031b1d869ed406d5e5b1efe9fc48f5be841e80afb6d15.json",
+        "sha256": "2198134508876a737df031b1d869ed406d5e5b1efe9fc48f5be841e80afb6d15"
+      },
+      "baseIconHash": "e98a76252d742d67df12e1ffe4cd2331e5adcc05b9cb388b70e0459a51a4d344",
+      "candidate": {
+        "detailsJudgement": "Both chevron strokes and the inner counter survive intact; clip applied exactly as in the source; no lost thin strokes, gaps or color drift; internal transparency preserved.",
+        "faithful": true,
+        "iconHash": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0",
+        "path": "evidence/15466/candidate-63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0.svg",
+        "proportionsJudgement": "Complete symbol fits the square cell on both themes with useful margins; recognizable at 24px, fully legible at 32px and 48px; thin stroke areas retain their gaps.",
+        "rationale": "Evidenced rebrand: the record's institution now operates as Eurobank after the Hellenic Bank / Eurobank Cyprus merger (announced 2025-03-28; eurobank.cy transition pages through May 2026); the accepted icon is the retired Hellenic Bank column mark. The candidate is the standalone red 'e' symbol of the current Eurobank 2021 group mark, taken from the retrieved original vector.",
+        "role": "Standalone brand symbol of the Eurobank 2021 redesign: the red geometric mark alone; the EUROBANK wordmark is separate lettering and is not included; no slogan or explanatory text.",
+        "sha256": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Eurobank_logo_2021.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurobank_logo_2021.svg",
+        "transforms": [
+          "Standalone-symbol isolation: the two red symbol path groups with their exact path data and clipPath were carried over unchanged from the fetched official lockup vector; the separate wordmark group was excluded. No geometry, color or stroke modification.",
+          "ViewBox set to the symbol's own extent (0 0 25.45 23) measured from the rendered red-pixel bounding box of the source; only uniform scale/centering applied by the renderer.",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: trial 623 bytes versus working 610 bytes; selected: working version retained because the trial was not smaller, though visually identical in side-by-side 240px renders."
+        ],
+        "variant": "2021-rebrand primary symbol, fill #ea002a on a transparent field, matching the symbol group of the official lockup; transparent standalone mark kept without an added backing; no observed official circular presentation of this variant.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Retired Hellenic Bank blue circle with column mark replaced by the current Eurobank red symbol: an evidenced rebrand of the represented institution, not a cosmetic change."
+      },
+      "candidateIconHash": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0",
+      "checkedAt": "2026-10-03T12:11:48.763428Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "eb2db3b45d393dc8626a87b8f6a5b09f9b488698b790e5f61a5c53c815aa96e1",
+        "head": "bank-icon-maintenance/eurobank-cyprus-15466",
+        "headCommit": "28249831a8037e75b27ad8c54dc2315c4de145df",
+        "number": 56,
+        "observedAt": "2026-10-03T12:22:28.392901Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Eurobank (Company.id 15466)",
+        "url": "https://github.com/zenmoney/banks/pull/56"
+      },
+      "reason": "The record 'Eurobank' (CY, eurobank.cy, fullTitle 'Hellenic') today represents the Cyprus institution operating under the Eurobank brand after the Hellenic Bank / Eurobank Cyprus merger (announced 2025-03-28; eurobank.cy shows the combined bank as 'Eurobank' through at least the May 2026 snapshots). The accepted icon is the legacy Hellenic Bank mark (blue circle, white Ionic column capital, orange underline), which the bank no longer uses. The current brand mark is the Eurobank 2021 redesign: red (#ea002a) geometric 'e' symbol with navy (#021342) EUROBANK wordmark, in use as the official site header asset. An evidenced rebrand of the represented bank justifies an update.",
+      "reviewPackage": {
+        "path": "evidence/15466/candidate-b1e9395f9236cfe1b63d47a7b51b825dac24116f20cdb74094f6a505373e5159.json",
+        "sha256": "b1e9395f9236cfe1b63d47a7b51b825dac24116f20cdb74094f6a505373e5159"
+      },
+      "sourceCandidate": {
+        "iconHash": "7558089effa447c6622b0f79b67acd6595bba0d870c726b96131762f69ef934d",
+        "path": "evidence/15466/research-c46d5d4a56ff460aae339e505e46e263/fetch-54ab9fcb952843869203fec10fedf9b1/attempt-1/body.bin",
+        "rationale": "Evidenced rebrand: the represented bank now operates as Eurobank after the Hellenic Bank merger; the current 2021 group mark (red 'e' symbol) replaces the retired Hellenic column mark. Original vector retrieved intact; the standalone symbol is its own group within the official lockup.",
+        "retrieval": {
+          "path": "evidence/15466/research-c46d5d4a56ff460aae339e505e46e263/fetch-54ab9fcb952843869203fec10fedf9b1/receipt.json",
+          "sha256": "dc52c88c9c2a48d6d74911477c35b682bfab37d1f5f60d7223d2992110ec1c48"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Eurobank_logo_2021.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eurobank_logo_2021.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.eurobank.cy/-/media/hbc/logo/logo1svg.svg",
+          "checkedAt": "2026-10-03T12:05:00Z",
+          "independenceGroup": "eurobank.cy-official",
+          "kind": "official",
+          "observation": "Official site header logo asset is logo1svg.svg (SVG ~212x28). Live site returns HTTP 403 to non-browser fetchers (bot protection); a text proxy confirmed the URL serves an image titled 'Logo1svg.svg'; original official bytes could not be retrieved.",
+          "url": "https://www.eurobank.cy/en/personal"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T12:05:00Z",
+          "independenceGroup": "eurobank.cy-official",
+          "kind": "official",
+          "observation": "Current official homepage (Wayback snapshots Mar-May 2026) is a Hellenic Bank + Eurobank Cyprus merger transition page: 'introduce you to your new bank - Eurobank'; merger announcement PDF dated 2025-03-28 exists on eurobank.cy (403 to fetcher).",
+          "url": "https://www.eurobank.cy/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Eurobank_logo_2021.svg",
+          "checkedAt": "2026-10-03T12:05:00Z",
+          "independenceGroup": "wikimedia-commons",
+          "kind": "third-party",
+          "observation": "Original vector SVG of the current Eurobank logo (2021 redesign), upload provenance stated as eurobank.gr. Retrieved intact via workflow.py fetch (receipt evidence/15466/research-c46d5d4a56ff460aae339e505e46e263/fetch-54ab9fcb952843869203fec10fedf9b1/receipt.json, sha256 7558089effa447c6622b0f79b67acd6595bba0d870c726b96131762f69ef934d): pure path geometry, fills #ea002a and #021342, no embedded raster, no tracing artifacts evident in the Illustrator-style path data; symbol and wordmark are separate groups.",
+          "url": "https://commons.wikimedia.org/wiki/File:Eurobank_logo_2021.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T12:05:00Z",
+          "independenceGroup": "wikimedia-commons",
+          "kind": "third-party",
+          "observation": "Older 1998/2020 Eurobank logo variant, superseded by the 2021 redesign; rejected as not current.",
+          "url": "https://commons.wikimedia.org/wiki/File:Eurobank.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T12:18:56.655652Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0",
+        "xmlSha256": "681c5c2792d8ed5e0b4920354901c8952012e274a470a3a0b0e0d9b00e1d6ac1"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
