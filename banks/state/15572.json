@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-03T16:50:55.638091Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15572/assessed-e3b80e69eef12c494be44963791080c16333ce4e52799c7e4b54853260b267c9.json",
+        "sha256": "e3b80e69eef12c494be44963791080c16333ce4e52799c7e4b54853260b267c9"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Selected SVG is actually referenced in the retrieved live business homepage header on the observation date. Current operating brand is evidenced by business products and account-opening content, rather than inferred solely from logo age.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Exact metadata website tbank.ru/business/ retrieves the bank-for-business page and publishes the selected original T-Bank shield in its own live header. No parent/successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary current-use and original-vector provenance are established directly by official business homepage and CDN asset; official brand page corroborates variant distinctions. They are one publication group, not falsely counted as independent sources. Further independent search is unnecessary once this current business-site candidate is supported.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The selected yellow/charcoal standalone shield is a current official business-site mark with no accompanying wording, suitable for a square cell. It deliberately represents the bank mark, not the separately published T-Бизнес mobile-app background. Preserve shield silhouette: it is a meaningful emblem contour, not a plain square field for circular normalization.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d417798367535030b18599c9ace20a49d5cbb4efa634a8cb6772ce1c1f3038b5.json",
+        "sha256": "d417798367535030b18599c9ace20a49d5cbb4efa634a8cb6772ce1c1f3038b5"
+      },
+      "baseIconHash": "c677cac023deb7888af21c910662a04db1b47a765852a23eafdbe63901d83a91",
+      "candidate": {
+        "detailsJudgement": "Full original source and exact source/final pairs preserve shield contour, T serifs, charcoal and yellow paints and transparency. Exact final Desktop frames inspected on both themes: no lost detail, clipping or distortion.",
+        "faithful": true,
+        "iconHash": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78",
+        "path": "evidence/15572/candidate-b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78.svg",
+        "proportionsJudgement": "Original 29x34 viewport and whole shield/T relationships preserved. Complete meaningful shield retained without circle; source margins result in slightly smaller but clear emblem than baseline on both themes.",
+        "rationale": "Replace unsupported beige-filled shield with the original yellow shield currently used on the official business homepage, preserving actual geometry and #FFDD2D/#333333 paints. This is a visible source-backed color correction, not merely different serialization; the app PNG is retained as distinct variant research, not a vector source.",
+        "role": "standalone bank mark",
+        "sha256": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78",
+        "sourceAssetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/33447f85-5b92-42f9-8d88-509bd152b47c.svg",
+        "sourceUrl": "https://www.tbank.ru/business/",
+        "transforms": [
+          "Working SVG copied from downloaded original with no geometry/color/backing changes.",
+          "SVGO 4.1.0 using frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 642 to 525 bytes; selected b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78 after independent light/dark visual comparison."
+        ],
+        "variant": "Official current business-site yellow shield with charcoal serif T; retain meaningful shield contour, no circular adaptation. Not a recreation of separate white-shield T-Бизнес app icon.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted baseline beige #DBCDB7 backing changes to current official business-site yellow #FFDD2D; original authored source geometry and #333333 T replace baseline contours/#343434 paint. Meaningful color correction, not a new rebrand or serialization-only update."
+      },
+      "candidateIconHash": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78",
+      "checkedAt": "2026-10-03T16:50:55.638091Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "2a5261e3dd517d0d4aa80009a7335b61a2983c37b2587e2f1abba18ce4cdfa96",
+        "head": "bank-icon-maintenance/dtma6l0b-15572",
+        "headCommit": "38a98ddd2589bcfe1f3e866621cb8d14e243221b",
+        "number": 66,
+        "observedAt": "2026-10-03T17:04:56.923154Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Т-Банк Бизнес (Company.id 15572)",
+        "url": "https://github.com/zenmoney/banks/pull/66"
+      },
+      "reason": "The live official business homepage publishes an original standalone yellow shield and charcoal T vector. The accepted SVG instead has a beige #DBCDB7 shield and #343434 T. Independent rsvg references visibly show that backing-color difference. This is a supported color/geometry correction to a currently used business-site bank mark, not evidence that the T brand itself is obsolete. The official T-Бизнес app image is a different white-shield-on-beige-gradient presentation; the proposed yellow emblem is the business website mark, not a reproduction of that app icon.",
+      "reviewPackage": {
+        "path": "evidence/15572/candidate-c0934634ceea14d8c7d6da17ae7ad82c9de005d6d925f5c17937acecb928fd8f.json",
+        "sha256": "c0934634ceea14d8c7d6da17ae7ad82c9de005d6d925f5c17937acecb928fd8f"
+      },
+      "sourceCandidate": {
+        "iconHash": "b19f8d69f3f3c6852615e2089d231a16e3702c67d4d5d51baab720ec0798097c",
+        "path": "evidence/15572/research-ba28b84ee40e4a889f4237cfae57356f/fetch-e725b7fbca374a27a756832072b9b8e4/attempt-2/body.bin",
+        "rationale": "Replace unsupported beige-filled shield with the original yellow shield currently used on the official business homepage, preserving actual geometry and #FFDD2D/#333333 paints. This is a visible source-backed color correction, not merely different serialization; the app PNG is retained as distinct variant research, not a vector source.",
+        "retrieval": {
+          "path": "evidence/15572/research-ba28b84ee40e4a889f4237cfae57356f/fetch-e725b7fbca374a27a756832072b9b8e4/receipt.json",
+          "sha256": "9aa74dbbbfad05577a57d66f91e976622376682875bebad6b94c0f8c239e7a93"
+        },
+        "sourceAssetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/33447f85-5b92-42f9-8d88-509bd152b47c.svg",
+        "sourceUrl": "https://www.tbank.ru/business/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/33447f85-5b92-42f9-8d88-509bd152b47c.svg",
+          "checkedAt": "2026-10-03T16:48:42Z",
+          "independenceGroup": "Official T-Bank publication",
+          "kind": "official",
+          "observation": "Retrieved current official business homepage, titled Банк для малого и среднего бизнеса | Банк для юридических лиц и ИП. Its actual header img has alt Т-Банк, data-test logoImg, and this SVG URL. Downloaded SVG is 642 bytes, two authored paths: yellow #FFDD2D shield and #333333 T, no raster or separate lettering. Source rsvg image inspected: complete yellow shield, centered dark serif T, transparent margins above and below.",
+          "url": "https://www.tbank.ru/business/"
+        },
+        {
+          "assetUrl": "https://cdn.tbank.ru/static/pages/files/977ef771-1005-411e-a2db-64e8f92d5fb1.png",
+          "checkedAt": "2026-10-03T16:48:42Z",
+          "independenceGroup": "Official T-Bank publication",
+          "kind": "official",
+          "observation": "Official brand page explicitly labels this download Т-Бизнес in the section Иконки основных мобильных приложений Т-Банка. Inspected downloaded PNG: white shield with charcoal T over beige gradient square. It supports a currently distinct app presentation, NOT the beige-filled shield in the accepted SVG. Raster retained only as research evidence; no tracing or raster candidate.",
+          "url": "https://www.tbank.ru/about/brand/"
+        },
+        {
+          "assetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/ed62434c-f486-441f-9545-767dc7a3303a.svg",
+          "checkedAt": "2026-10-03T16:48:42Z",
+          "independenceGroup": "Official T-Bank publication",
+          "kind": "official",
+          "observation": "Brand page supplies this original SVG among Russian-language logo downloads. It is an Adobe Illustrator export with a rounded yellow rectangular backing, white shield and #333333 T plus separate bank lettering. It is not selected as a whole catalog icon because of separate lettering. It corroborates that the white-shield app alternative is not a beige-filled shield.",
+          "url": "https://www.tbank.ru/about/brand/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T16:55:14.549962Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78",
+        "xmlSha256": "305697f61cad8d4729e35221a27cdfa2a60d3f4578303d4b8cc27b0739f87a56"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
