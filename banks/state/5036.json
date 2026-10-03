@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-03T05:17:53.048729Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/5036/assessed-f9c93d3c65c6bd35d853e65f55a05b5fbfab9ee1bf577f151b76104ff2b071ee.json",
+        "sha256": "f9c93d3c65c6bd35d853e65f55a05b5fbfab9ee1bf577f151b76104ff2b071ee"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live Finuslugi bank-profile SVG and currently bank-published app updated 2026-09-14 support this emblem and gold/charcoal brand family for operating bank.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Finuslugi explicitly labels the source bank, links metadata host and identifies licence 3001; official-published app lists exact legal publisher.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Finuslugi bank-profile editorial vector and bank-published RuStore application are separate publication groups; duplicated app references are not counted as independent corroboration.",
+        "uncertainties": [
+          "Corporate website access blocked; no claim that burgundy/white has universally ceased use.",
+          "Official app uses gold emblem on charcoal, while Finuslugi source uses charcoal emblem on gold field; candidate retains its supported source presentation, not an invented blend."
+        ],
+        "variant": {
+          "basis": "Exact independent source viewport is a complete standalone bank symbol with no separate lettering, gold gradient field and charcoal emblem. This inverse presentation is published by Finuslugi, not synthesized from app artwork. Regular high-precision compound geometry and off-canvas original lockup letterforms support original vector rather than a raster trace.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "5c730afc7748ff800ed9e6515e410fef2d8c611528062b3fd5fe377976321975",
+      "candidate": {
+        "detailsJudgement": "Inspected full original raster and exact source/final Compose pairs on both themes: outer lobes, oval apertures, triangular and teardrop apertures intact. Charcoal and gold gradient match; no lettering, clipping or invented elements.",
+        "faithful": true,
+        "iconHash": "871fd2cda99bac12308c5c9269994cd5c88ffd1a531c3a54ac755b0dcbd98a8e",
+        "path": "evidence/5036/candidate-871fd2cda99bac12308c5c9269994cd5c88ffd1a531c3a54ac755b0dcbd98a8e.svg",
+        "proportionsJudgement": "Exact Compose final preserves original oval aspect, placement and complete contours inside the source square. Useful centered size and legibility on both themes; retained complex gradient backing is source-faithful.",
+        "rationale": "Live bank-labelled Finuslugi original vector provides source-backed gold/charcoal standalone presentation, corroborated at emblem/color-family level by current bank-published app updated 2026-09-14. Meaningful gold/charcoal versus burgundy/white difference, not a serialization-only update; no claim old corporate burgundy ceased all use.",
+        "role": "Standalone symmetric bank emblem within declared square source viewport; no accompanying text visible.",
+        "sha256": "871fd2cda99bac12308c5c9269994cd5c88ffd1a531c3a54ac755b0dcbd98a8e",
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-040507795.svg",
+        "sourceUrl": "https://finuslugi.ru/banki/primore",
+        "transforms": [
+          "Preserved original 40×40 source viewport and complete visible emblem geometry/colors/alpha; no scale, translation, recoloring, tracing or backing adaptation. Retained source square because field is complex gradient/compositing rather than separable uniform fill, per icon-background.md §1. Off-canvas full-lockup lettering remains invisible outside original viewport.",
+          "SVGO 4.1.0, frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e; 17909 → 12736 bytes. Selected optimized SHA256 871fd2cda99bac12308c5c9269994cd5c88ffd1a531c3a54ac755b0dcbd98a8e. Independent librsvg working/optimized 162px images identical and actual light/dark pairs inspected; no visible geometry/gradient/alpha regression."
+        ],
+        "variant": "Charcoal emblem on pale-gold gradient field, independently published Finuslugi variant. Official current app uses inverse gold emblem/charcoal backing and does not establish this exact inverse presentation as official app artwork. Source square retained due complex gradient/compositing; no automatic circular adaptation.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact before/after Compose pairs on both themes show white emblem on burgundy circle replaced by charcoal emblem on pale-gold gradient square. This is a source-backed color/presentation correction, not proof old variant ceased all use."
+      },
+      "candidateIconHash": "871fd2cda99bac12308c5c9269994cd5c88ffd1a531c3a54ac755b0dcbd98a8e",
+      "checkedAt": "2026-10-03T05:17:53.048729Z",
+      "humanReview": "pending",
+      "reason": "A source-supported standalone original vector is available from the live Finuslugi bank profile; its charcoal/pale-gold presentation differs visibly from accepted burgundy/white and is corroborated at color-family and complete emblem level by the bank-published current gold/charcoal app icon. This is a proposed evidenced variant correction, not a claim the burgundy corporate variant has conclusively disappeared.",
+      "reviewPackage": {
+        "path": "evidence/5036/candidate-8d2e0335df14331576cb3ee83e6623adbf080173e9a9da9001ffa460593998d6.json",
+        "sha256": "8d2e0335df14331576cb3ee83e6623adbf080173e9a9da9001ffa460593998d6"
+      },
+      "sourceCandidate": {
+        "iconHash": "9b9154bd0a7685c454592a381357d0d0a7cc4b0ee40cae7b752094dae7e30ba2",
+        "path": "evidence/5036/research-8e252f0576b84af09b3aca2932c2b2c9/fetch-7d7bfe1249744737a7dda9880a619698/attempt-1/body.bin",
+        "rationale": "Published standalone original vector with current gold/charcoal identity support; visible color/presentation correction from burgundy/white baseline. Source presentation must be retained, no raster tracing.",
+        "retrieval": {
+          "path": "evidence/5036/research-8e252f0576b84af09b3aca2932c2b2c9/fetch-7d7bfe1249744737a7dda9880a619698/receipt.json",
+          "sha256": "68941917b4c31f3d69e87ac2d588c6f152e225268c693a2b562bc4edd0425bc2"
+        },
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-040507795.svg",
+        "sourceUrl": "https://finuslugi.ru/banki/primore"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://static.rustore.ru/2025/12/15/c0/apk/2063635427/content/ICON/58491502-5247-4275-a3cc-89d0cc6c30e8.png",
+          "checkedAt": "2026-10-03T05:16:25Z",
+          "independenceGroup": "Bank-published RuStore app listing",
+          "kind": "official",
+          "observation": "Live listing names Банк Приморье, describes official new bank app, identifies publisher ПАО АКБ \"Приморье\"; version metadata updated 2026-09-14. Inspected icon is gold emblem on charcoal rounded-square backing. Same characteristic symmetric emblem as baseline; not baseline burgundy/white palette.",
+          "url": "https://www.rustore.ru/catalog/app/com.bssys.wwb.prim"
+        },
+        {
+          "assetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-040507795.svg",
+          "checkedAt": "2026-10-03T05:16:25Z",
+          "independenceGroup": "Moscow Exchange Finuslugi marketplace editorial assets",
+          "kind": "third-party",
+          "observation": "Live bank profile links www.primbank.ru, gives licence 3001, explicitly labels embedded asset Логотип Банк «Приморье». Downloaded SVG is a genuine vector full-logo path/gradient with off-canvas lettering; independent rsvg render of declared square viewBox shows complete standalone charcoal emblem on pale-gold gradient field. It is the inverse gold/charcoal presentation compared with official app; no text is visible in the source viewport.",
+          "url": "https://finuslugi.ru/banki/primore"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T05:16:25Z",
+          "independenceGroup": "Bank corporate website",
+          "kind": "official",
+          "observation": "Verified helper failed with HTTP 403 after eligible CA retry. Headless browser failed ERR_CERT_AUTHORITY_INVALID; no TLS bypass. Official header/brand files could not be inspected.",
+          "url": "https://www.primbank.ru/"
+        },
+        {
+          "assetUrl": "https://static.rustore.ru/apk/1929608639/content/ICON/3311c3e6-b633-45c8-bc8d-ea3669d9076f.PNG",
+          "checkedAt": "2026-10-03T05:16:25Z",
+          "independenceGroup": "Bank-published RuStore app listing",
+          "kind": "official",
+          "observation": "Older listing names same bank publisher but app unavailable to download and 2024 version. Inspected raster is white emblem on teal. Not chosen to represent current app and not replacement vector.",
+          "url": "https://www.rustore.ru/catalog/app/ru.primbank.primorie"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T05:21:12.072734Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "871fd2cda99bac12308c5c9269994cd5c88ffd1a531c3a54ac755b0dcbd98a8e",
+        "xmlSha256": "5b51c5e25647a3466cd3790c35b19c807fb220e9b0cc734d6d71a14d2c8810a1"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
