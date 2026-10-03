@@ -1,0 +1,15 @@
+--- base/5192/icon.svg
++++ candidate/5192/icon.svg
+@@ -1,11 +1 @@
+-<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+-    <g clip-path="url(#clip0_49_2580)">
+-        <rect width="54" height="54" rx="27" fill="#EA3378" />
+-        <path d="M19.3 43H15V24.5C15 18.2 20.2 13 26.5 13H40.7V24.4C40.7 30.8 35.5 35.9 29.2 35.9H22L23.6 31.6H29.1C33.1 31.6 36.3 28.4 36.3 24.4V17.3H26.4C22.4 17.3 19.2 20.5 19.2 24.5V43H19.3Z" fill="white" />
+-    </g>
+-    <defs>
+-        <clipPath id="clip0_49_2580">
+-            <rect width="54" height="54" fill="white" />
+-        </clipPath>
+-    </defs>
+-</svg>
++<svg xmlns="http://www.w3.org/2000/svg" width="132.06" height="132.05" viewBox="55.02 55.03 132.06 132.05"><path fill="#ff0078" d="M55.02,115.55v71.53h22.01V115.55c0-21.27,17.24-38.52,38.52-38.52h49.52v27.51c0,21.27-17.24,38.52-38.52,38.52h-38.52v22.01h38.52c33.43,0,60.53-27.1,60.53-60.53V60.53c0-3.04-2.46-5.5-5.5-5.5H115.55c-33.43,0-60.53,27.1-60.53,60.53Z"/></svg>
