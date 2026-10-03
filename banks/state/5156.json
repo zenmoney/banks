@@ -1,0 +1,87 @@
+{
+  "lastAttemptAt": "2026-10-03T05:31:01.661351Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/5156/assessed-ff1323c90385409f5ad4d68bb41531a0776de7067d37b3d62c35983b024a30fc.json",
+        "sha256": "ff1323c90385409f5ad4d68bb41531a0776de7067d37b3d62c35983b024a30fc"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Operating Russian bank official retail homepage currently deploys the exact source SVG as favicon/logo; current offers and 2026 copyright support ongoing use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official raiffeisen.ru homepage identifies Russian AO Raiffeisenbank and links selected asset as logo; matches RU ID5156 metadata.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Direct primary current deployment resolves identity, operating lifecycle and original-vector variant. No remaining gap requires independent or image discovery; those conditional stages not invoked.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Self-contained official standalone original vector emblem with no accompanying text. Separable plain yellow backing qualifies for circular catalog adaptation, preserving complete emblem paths and colors. Circular use is catalog policy, not claimed official avatar presentation.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "05c49c92166d232efbdd669d17c87853534a5d44c5ae755ffa15c7f35a288959",
+      "candidate": {
+        "detailsJudgement": "Full official source raster and both source/final comparisons inspected. Both heads, angular neck cutouts, central crossing and lower diagonal ends faithfully retain source contours, colors and internal negative space; no clipped tips or missing details.",
+        "faithful": true,
+        "iconHash": "1c88bd2e4a21965edccfb0430cb67de663a38ed043d03dc14b65422db8b2bc8b",
+        "path": "evidence/5156/candidate-1c88bd2e4a21965edccfb0430cb67de663a38ed043d03dc14b65422db8b2bc8b.svg",
+        "proportionsJudgement": "Source/final actual full-size light/dark pairs show unchanged complete emblem size and placement; only backing becomes circular. Whole emblem fits circle with visible clearance all around. Bound Desktop frame resized diagnostics at 24/32/48px on both themes show readily recognizable heads/crossing, no clipping or cramped gaps; final is more legible than smaller framed base. These are resized diagnostics, not native mobile passes.",
+        "rationale": "Current official Russian bank vector corrects the accepted boxed smaller emblem and mismatched palette. Actual exact Desktop comparisons show meaningful unframed larger emblem and source color correction, not serialization-only difference.",
+        "role": "Standalone crossed horse-head/gable bank emblem; no accompanying name, slogan or text.",
+        "sha256": "1c88bd2e4a21965edccfb0430cb67de663a38ed043d03dc14b65422db8b2bc8b",
+        "sourceAssetUrl": "https://www.raiffeisen.ru/fav/icon.svg",
+        "sourceUrl": "https://www.raiffeisen.ru/",
+        "transforms": [
+          "Replaced only separable uniform rounded-square backing with circle cx=16 cy=16 r=16 in same #FEE600; original complete emblem path and placement unchanged, no rotation, stretching, tracing or recoloring.",
+          "SVGO 4.1.0, frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e; 746-byte working to 592-byte optimized selected SHA256 1c88bd2e4a21965edccfb0430cb67de663a38ed043d03dc14b65422db8b2bc8b. Independent rsvg-convert 256px working/optimized light and dark comparisons inspected; pixel-identical RGBA render."
+        ],
+        "variant": "Official currently deployed #2B2D33 emblem on #FEE600 plain field; circular catalog backing adaptation, not claimed official circular avatar.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact base/final Compose pairs show the inner thin square frame removed, yellow shifted from #fdeb3f to source #FEE600, charcoal from #191919 to #2B2D33, and larger source-backed unframed horse-head emblem. Circular outer presentation is retained; this is supported current mark correction rather than background-only cosmetic normalization."
+      },
+      "candidateIconHash": "1c88bd2e4a21965edccfb0430cb67de663a38ed043d03dc14b65422db8b2bc8b",
+      "checkedAt": "2026-10-03T05:31:01.661351Z",
+      "humanReview": "pending",
+      "reason": "Official currently deployed Russian-bank vector supports correction of accepted legacy boxed emblem, colors and smaller emblem placement: accepted SVG uses #fdeb3f/#191919 and a black inner square frame absent from the official mark. Source original vector has #FEE600/#2B2D33 and unframed larger emblem. This is not merely serialization or circular consistency.",
+      "reviewPackage": {
+        "path": "evidence/5156/candidate-a90a2f74afb55a11c0f6e8f5e30c0599f060a9ec66c24eeda3a1896a61a5f51f.json",
+        "sha256": "a90a2f74afb55a11c0f6e8f5e30c0599f060a9ec66c24eeda3a1896a61a5f51f"
+      },
+      "sourceCandidate": {
+        "iconHash": "d10befdbba057b662cb7f004d9e8d38c6c839abc1d9430e72a6179f29f1b4c27",
+        "path": "evidence/5156/research-62fc5d02be3e4aec992bbdbbb43647d9/fetch-bd513813176a45069ed6be7341a61567/attempt-1/body.bin",
+        "rationale": "Replace unsupported legacy inner black square frame and mismatched colors/geometry with official deployed original-vector standalone emblem, retaining source colors and all emblem contours. Circular field is catalog presentation adaptation only.",
+        "retrieval": {
+          "path": "evidence/5156/research-62fc5d02be3e4aec992bbdbbb43647d9/fetch-bd513813176a45069ed6be7341a61567/receipt.json",
+          "sha256": "22036eb040f842380b5790071330d7452cccfe71a42fe8beb3d9764f09d8e74d"
+        },
+        "sourceAssetUrl": "https://www.raiffeisen.ru/fav/icon.svg",
+        "sourceUrl": "https://www.raiffeisen.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.raiffeisen.ru/fav/icon.svg",
+          "checkedAt": "2026-10-03T05:29:53.742007Z",
+          "independenceGroup": "Raiffeisenbank Russian official website",
+          "kind": "official",
+          "observation": "Live Russian retail banking homepage offers accounts/cards and application; footer identifies АО «Райффайзенбанк», copyright 2003–2026, Bank of Russia general license 3292 dated 17.02.2015 and Moscow address. Head links fav/icon.svg and JSON-LD explicitly names that URL as bank logo. This establishes operating Russian bank brand, not automatic substitution with international parent. Downloaded original vector contains standalone crossed horse-head/gable mark in #2B2D33 on #FEE600 rounded plain field; inspected source reference shows no wordmark or frame.",
+          "url": "https://www.raiffeisen.ru/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T05:33:46.106351Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "1c88bd2e4a21965edccfb0430cb67de663a38ed043d03dc14b65422db8b2bc8b",
+        "xmlSha256": "32303fae945cb5ef26d98f559d87667cc72a6a5cf0d57ba7c481e464221d8966"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

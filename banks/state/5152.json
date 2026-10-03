@@ -1,0 +1,59 @@
+{
+  "lastAttemptAt": "2026-10-03T05:33:02.313178Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Operating official homepage publishes late Sep/Oct2026 news and current2026 services while directly using the fetched favicon and header mark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata ВБРР RU and vbrr.ru matches official full title and licence3287; no parent or successor substituted.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single official publication is authoritative for its own current vector use. Header and favicon corroborate variant within same publication, not independent sources. Conditional independent/image discovery unnecessary once original provenance, identity and currency resolved.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone original official favicon, five charcoal rectangular blocks without accompanying text or significant outer backing. Transparency must be preserved. Complete source reference observed; final Compose dark-theme legibility remains unapproved.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "35cbe9c3f4715310707ad32ab75208bb7d54eb579841e249e7e6810ecbbc7535",
+      "candidate": {
+        "iconHash": "8d969a37607ff5d2227aa6d59ccfcae7402461652422c020c58c74c1d46c2cdc",
+        "path": "evidence/5152/research-3a282db3a1204347ad2a30b4f926e8c6/fetch-3b89f6768642498dbf69267facb6fbac/attempt-2/body.bin",
+        "rationale": "Correct current official block geometry and paint using direct original standalone vector. No invented backdrop or recoloring; dark-theme contrast remains low and must be judged before publication.",
+        "retrieval": {
+          "path": "evidence/5152/research-3a282db3a1204347ad2a30b4f926e8c6/fetch-3b89f6768642498dbf69267facb6fbac/receipt.json",
+          "sha256": "0336c9c639422963da65f7cae578d76a168e4d61ceb3d423cea61006d46f3f05"
+        },
+        "sourceAssetUrl": "https://www.vbrr.ru/favicon.svg",
+        "sourceUrl": "https://www.vbrr.ru/"
+      },
+      "candidateIconHash": "8d969a37607ff5d2227aa6d59ccfcae7402461652422c020c58c74c1d46c2cdc",
+      "checkedAt": "2026-10-03T05:33:02.313178Z",
+      "reason": "Official current favicon supplies a genuine standalone vector with corrected geometry and charcoal #2C2B2A paint versus accepted brown #1E0E00. Source reference inspection confirms five separate rectangular pinwheel blocks; lower-left block is tilted in official source but vertical in accepted icon. This is a geometry/color correction, not merely serialization and not a claim of a dated rebrand. Final Compose and small-size suitability remain coordinator gates.",
+      "sources": [
+        {
+          "assetUrl": "https://www.vbrr.ru/favicon.svg",
+          "checkedAt": "2026-10-03T05:28:37.464267Z",
+          "independenceGroup": "VBRR official website",
+          "kind": "official",
+          "observation": "Fetched operating bank homepage identifies Всероссийский банк развития регионов, licence3287, current Oct1 2026 news and promotions through October2026. HTML line24 uses favicon.svg; standalone five-block dark charcoal vector fetched and independently rendered/visually inspected.",
+          "url": "https://www.vbrr.ru/"
+        },
+        {
+          "assetUrl": "https://www.vbrr.ru/local/templates/vbrr-new/external/dist/images/logo.svg",
+          "checkedAt": "2026-10-03T05:30:00Z",
+          "independenceGroup": "VBRR official website",
+          "kind": "official",
+          "observation": "Homepage header line157 references original SVG logo. Downloaded and independently rendered full lockup contains same five-block tilted pinwheel beside ВБРР and yellow underline. Full lockup unsuitable as square icon; direct favicon avoids any letter extraction. Observation time refers to actual inspection, not original publication.",
+          "url": "https://www.vbrr.ru/"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
