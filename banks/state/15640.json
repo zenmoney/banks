@@ -1,0 +1,121 @@
+{
+  "lastAttemptAt": "2026-10-03T19:58:25.784170Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15640/assessed-204461e3e203ebb1bff4e6930f915653061190c9bbea8b8b2a27a27c6acb6b54.json",
+        "sha256": "204461e3e203ebb1bff4e6930f915653061190c9bbea8b8b2a27a27c6acb6b54"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Wikipedia's current infobox logo for ING Group is the 2024 rebrand design (standing lion + ING wordmark); the catalog's lion-head-in-circle is the pre-2024 emblem. No source shows the old circle emblem in current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The record is ING Romania (ING Bank Romania), part of ING Group; the candidate is ING Group's official current logo, the brand under which the Romanian bank operates.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Wikipedia article and Commons file page are one publication family (Wikimedia); ing.ro/ing.com could not be reached from this host. Currency rests on the encyclopedia's current-logo usage plus the global single-brand structure of ING; recorded the access limitation.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The standing lion appears standalone in ING's current identity (app icon, favicons, social avatars); using the lion without the wordmark is the non-text variant of the same brand mark. Working candidate preserves the exact lion subtree from the current full-logo vector.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/0ee723b3cd21edebbb6a2124c93e2586bc120b99eafb1bc136443bc17a2ee3b0.json",
+        "sha256": "0ee723b3cd21edebbb6a2124c93e2586bc120b99eafb1bc136443bc17a2ee3b0"
+      },
+      "baseIconHash": "db6cfcdb9e6623af83a7deed4f0d1c274d0ac5f48170d1c04621cd7168defc31",
+      "candidate": {
+        "detailsJudgement": "All lion details (mane strokes, face features, tail tuft, white body detail paths) preserved; source/final pairs on both themes show no lost or invented details after SVGO.",
+        "faithful": true,
+        "iconHash": "43165a3559eae09b8461f078aa520ff8a935dd9dcfbca5c7096e9f9a84a7867a",
+        "path": "evidence/15640/candidate-43165a3559eae09b8461f078aa520ff8a935dd9dcfbca5c7096e9f9a84a7867a.svg",
+        "proportionsJudgement": "Lion aspect preserved by uniform scale (102.1x65.7 user units scaled 0.7605); centered with even clearances in the 54x54 cell; no stretching or cropping.",
+        "rationale": "Evidenced 2024 ING global rebrand: the catalog's pre-2024 lion-head-in-circle emblem is obsolete; ING's current identity is the redesigned standing lion with raised tail. Update replaces the obsolete emblem with the current design; the 'ING' wordmark is excluded per catalog standalone-symbol suitability.",
+        "role": "Standalone non-text brand symbol (standing lion), the non-text variant of ING's current logo; no backing field, transparent mark.",
+        "sha256": "43165a3559eae09b8461f078aa520ff8a935dd9dcfbca5c7096e9f9a84a7867a",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/ING_Group_%28full_logo%29.svg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/ING_Group",
+        "transforms": [
+          "Selected the complete lion subtree (g19 with its ancestor transforms) verbatim from the current full-logo vector; the navy #091c5a 'ING' wordmark group (g11) excluded as separate lettering per catalog suitability.",
+          "Uniform scale 0.7605 and translation to fit and center the lion in a 54x54 canvas (catalog convention); no other geometry, color or structure change.",
+          "SVGO 4.1.0 trial with frozen config (configSha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 68792 -> 47712 bytes, pixel-identical renders (rsvg-convert 240px both themes, ImageChops diff empty); optimization SELECTED, optimized bytes are final (43165a3559eae09b8461f078aa520ff8a935dd9dcfbca5c7096e9f9a84a7867a)."
+        ],
+        "variant": "Standalone lion without wordmark, as used across ING's current identity; official orange #F60 with white detail paths.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after desktop pairs show the obsolete pre-2024 lion-head-in-circle replaced by the current standing lion design; the visible diff is exactly the evidenced rebrand."
+      },
+      "candidateIconHash": "43165a3559eae09b8461f078aa520ff8a935dd9dcfbca5c7096e9f9a84a7867a",
+      "checkedAt": "2026-10-03T19:58:25.784170Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "97abdb942df77ddf8c3624894235dfd965241be0503605fba3653050bd605bc7",
+        "head": "bank-icon-maintenance/15640",
+        "headCommit": "036e528dcb5a87b481d3e1c2edc245b349b5f7df",
+        "number": 75,
+        "observedAt": "2026-10-03T20:20:05.929617Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ING Romania (Company.id 15640)",
+        "url": "https://github.com/zenmoney/banks/pull/75"
+      },
+      "reason": "Current catalog icon is the pre-2024 ING emblem (orange lion head in a white circle). ING's current global identity (2024 rebrand) uses a redesigned standing lion with raised tail alongside the navy #091c5a ING wordmark. The bank's single global brand applies to ING Bank Romania, so the catalog mark is an obsolete design; an evidenced update for the same bank. Candidate asset is the current full logo vector (Wikimedia copy of the official logo); the working candidate carries the exact lion subtree with the wordmark excluded per catalog suitability.",
+      "reviewPackage": {
+        "path": "evidence/15640/candidate-6ac8df562ca2afa1d317a854ffa18e27d0d55ad6501d848f7dfcbbe5a7d3c619.json",
+        "sha256": "6ac8df562ca2afa1d317a854ffa18e27d0d55ad6501d848f7dfcbbe5a7d3c619"
+      },
+      "sourceCandidate": {
+        "iconHash": "0cc8ff869f2b13d70da4faada1be6548ccef57cd26be9cb7ec197ce35c37fcc8",
+        "path": "evidence/15640/research-eb181e1a4f9440ee821a616af4955631/fetch-bf958759d98a4269a1662c9984213b44/attempt-1/body.bin",
+        "rationale": "Evidenced 2024 ING global rebrand: the catalog's pre-2024 lion-head-in-circle is obsolete; current identity is the redesigned standing lion. Update replaces the obsolete emblem with the current design (wordmark excluded for catalog suitability).",
+        "retrieval": {
+          "path": "evidence/15640/research-eb181e1a4f9440ee821a616af4955631/fetch-bf958759d98a4269a1662c9984213b44/receipt.json",
+          "sha256": "67b0c7324f54e77e8fa9c09dd36cc234958ecc9a37361af387a2784c9ab7a071"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/ING_Group_%28full_logo%29.svg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/ING_Group"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/ING_Group_%28full_logo%29.svg",
+          "checkedAt": "2026-10-03T19:49:00Z",
+          "independenceGroup": "Wikipedia article and its linked upload.wikimedia.org file are one publication",
+          "kind": "third-party",
+          "observation": "English Wikipedia article for ING Group (infobox logo, current) links the full-logo SVG: redesigned standing orange lion (#F60) with white detail paths plus 'ING' wordmark (navy #091c5a in the wordmark subset render). This is the 2024 global rebrand design, not the old lion-head-in-circle. Rendered locally from the fetched bytes: lion subset is complete and self-contained.",
+          "url": "https://en.wikipedia.org/wiki/ING_Group"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T19:49:00Z",
+          "independenceGroup": "Wikimedia file description page (same upload infrastructure as the article link)",
+          "kind": "third-party",
+          "observation": "Commons file page for the same asset confirms its use as the ING Group logo. A different Commons file (File:ING logo.svg, b/b9) was rejected: it is a Japanese cable-TV company logomark, not ING bank.",
+          "url": "https://commons.wikimedia.org/wiki/File:ING_Group_(full_logo).svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T19:49:00Z",
+          "independenceGroup": "ing.ro/ing.com access attempts",
+          "kind": "official",
+          "observation": "Access attempt to ing.ro and ing.com from this host: Akamai bot protection tarpits plain HTTP clients (302->301->hang, curl exit 28, 0 bytes in 30s); no on-domain logo confirmation possible. Not treated as evidence against the rebrand; ING operates one global brand design.",
+          "url": "https://www.ing.ro/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T20:04:47.440445Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "43165a3559eae09b8461f078aa520ff8a935dd9dcfbca5c7096e9f9a84a7867a",
+        "xmlSha256": "4480fc5fbe86b4e88bc7522a54ed9f2b5ab9aad795556e1896f86d87f2209b88"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
