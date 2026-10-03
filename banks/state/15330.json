@@ -1,0 +1,125 @@
+{
+  "lastAttemptAt": "2026-10-03T06:01:13.597859Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15330/assessed-f972bc1a61353bbe61f8b8212110abbdfc4b775ed1fe31967e2402c842d688bb.json",
+        "sha256": "f972bc1a61353bbe61f8b8212110abbdfc4b775ed1fe31967e2402c842d688bb"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current official homepage uses the unframed crossed-gable design; the currently served official bank announcement header supplies the same emblem in the selected backed SVG. Original 2021 announcement date and current retrieval are distinct facts.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official same-entity legal rename from recorded Aval title to current Raiffeisen Bank; Ukrainian homepage metadata confirms operating Ukraine bank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All substantive evidence is primary official Ukrainian bank material. Independent/image search conditional gaps are resolved by explicit legal continuity plus current direct original SVG; no third-party corroboration claimed.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Official live bank news header vector provides standalone crossed-gable emblem #2B2D33 on separable uniform #FEE600 square field. Under plain-field policy replace field with same-color circle, retain complete emblem path and original position translated by -3.34717 on y. Visually inspected source, working and optimized: complete gables and crossed ends fit without clipping. No claim of official circular use. Final Compose renders still required.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "05c49c92166d232efbdd669d17c87853534a5d44c5ae755ffa15c7f35a288959",
+      "candidate": {
+        "detailsJudgement": "Complete gable roofs, inner stepped notches, crossing and lower ends preserved in independent source and Compose final. Working/optimized independent references have equivalent contours, paint and alpha.",
+        "faithful": true,
+        "iconHash": "6476b882a90b373743f2db52c1972ec2669175d76547679243a80fdbb9f8c69e",
+        "path": "evidence/15330/candidate-6476b882a90b373743f2db52c1972ec2669175d76547679243a80fdbb9f8c69e.svg",
+        "proportionsJudgement": "Uniform original emblem proportions and placement preserved. Circle removes only field corners; all gable and lower-end details remain inside with clear margins. Both themes and resized 24/32/48px diagnostics retain recognition without excessive shrinking.",
+        "rationale": "Correct accepted framed gables to the current bank original unframed emblem and source colors; preserve full emblem on a same-color circular catalog field.",
+        "role": "Standalone crossed-gable bank emblem, with no accompanying name or slogan.",
+        "sha256": "6476b882a90b373743f2db52c1972ec2669175d76547679243a80fdbb9f8c69e",
+        "sourceAssetUrl": "https://raiffeisen.ua/img/new-logo-black-ukr.svg",
+        "sourceUrl": "https://raiffeisen.ua/news/raiffeisen-bank-aval-staye-raiffeisen-bank-1406",
+        "transforms": [
+          "Isolate complete source emblem; omit separate wordmark and slogan.",
+          "Translate complete emblem y=-3.34717; retain source geometry and exact colors in 61.8588-square viewport.",
+          "Replace separable original square field with circle cx=cy=r=30.9294; transparency outside and no clipped emblem detail.",
+          "SVGO 4.1.0 frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e; 853 to 732 bytes, optimized result selected after independent working/trial image inspection on both themes."
+        ],
+        "variant": "Official #2B2D33 crossed gables on #FEE600 field; square-to-circle catalog adaptation, not claimed official circular app asset.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before has smaller black framed crossed gables and lighter yellow; after removes unsupported frame, restores source unframed geometry and #2B2D33/#FEE600, with larger useful emblem at source placement."
+      },
+      "candidateIconHash": "6476b882a90b373743f2db52c1972ec2669175d76547679243a80fdbb9f8c69e",
+      "checkedAt": "2026-10-03T06:01:13.597859Z",
+      "humanReview": "pending",
+      "reason": "Supported current bank emblem correction: same legal entity renamed in 2021; official live source variant supplies dark #2B2D33 crossed gables on separable #FEE600 square field without black enclosing frame. Prepare circular catalog field of same exact color and preserve complete original emblem.",
+      "reviewPackage": {
+        "path": "evidence/15330/candidate-4e2b5238e8e6ac923fc224ee75dc4eb92e33b9047eb6cf3d036f977c596d0a7b.json",
+        "sha256": "4e2b5238e8e6ac923fc224ee75dc4eb92e33b9047eb6cf3d036f977c596d0a7b"
+      },
+      "sourceCandidate": {
+        "iconHash": "7c9e9656802d9ffe8688d6fd57072337a5f1319c2c9e4a7117ea465fe7c33a36",
+        "path": "evidence/15330/research-93bbc025907e4057a22214535e839ade/fetch-0b52ed971f994b7887f99861e060f049/attempt-1/body.bin",
+        "rationale": "Use official original backed vector, remove accompanying lettering, translate complete source emblem y=-3.34717 to origin-normalized 61.8588-square viewport; replace separable yellow square with #FEE600 circle. Preserve original #2B2D33 closed emblem path, geometry and alpha. Corrects enclosing-frame geometry and colors versus accepted baseline; exact final renders pending.",
+        "retrieval": {
+          "path": "evidence/15330/research-93bbc025907e4057a22214535e839ade/fetch-0b52ed971f994b7887f99861e060f049/receipt.json",
+          "sha256": "459b18ff8a86373cdc63a9e4e9c391cbd876766a9db0c9702f45451891574e00"
+        },
+        "sourceAssetUrl": "https://raiffeisen.ua/img/new-logo-black-ukr.svg",
+        "sourceMaterial": {
+          "path": "evidence/15330/source-material-ad5afa7329b24e8d8e34cbac5a7cd0b6/material.json",
+          "sha256": "37d820a4c50d7b63a6e71d378e536e7558d44ebd1fde8fb85b152f8dab69bb96"
+        },
+        "sourceUrl": "https://raiffeisen.ua/news/raiffeisen-bank-aval-staye-raiffeisen-bank-1406"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T05:57:37.283138Z",
+          "independenceGroup": "Raiffeisen Ukraine official publications",
+          "kind": "official",
+          "observation": "Known metadata host fetch failed; diagnostic retained in fetch-49cc57dfe9194ba0b2082284916d1065/receipt.json.",
+          "url": "https://aval.ua"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T05:57:37.283138Z",
+          "independenceGroup": "Raiffeisen Ukraine official publications",
+          "kind": "official",
+          "observation": "Fetched official announcement dated 17 June 2021 states АТ Райффайзен Банк Аваль changes name to АТ Райффайзен Банк, with statute and registry changes. This is continuity of the catalog bank, not substitution of the Russian or Austrian entity.",
+          "url": "https://raiffeisen.ua/news/raiffeisen-bank-aval-staye-raiffeisen-bank-1406"
+        },
+        {
+          "assetUrl": "https://raiffeisen.ua/img/universal/svg/logo_v2_ua.svg",
+          "checkedAt": "2026-10-03T05:57:37.283138Z",
+          "independenceGroup": "Raiffeisen Ukraine official publications",
+          "kind": "official",
+          "observation": "Fetched current homepage header image and Organization structured data both reference this exact SVG. Rendered and inspected full original: dark crossed-gable mark at left, Raiffeisen Bank text at right, Ukrainian slogan below. Mark is a single closed path at source line17, fill #2B2D33, no enclosing square.",
+          "url": "https://raiffeisen.ua"
+        },
+        {
+          "assetUrl": "https://raiffeisen.ua/img/favicon.ico",
+          "checkedAt": "2026-10-03T05:57:37.283138Z",
+          "independenceGroup": "Raiffeisen Ukraine official publications",
+          "kind": "official",
+          "observation": "Downloaded and visually inspected current official favicon: dark crossed-gable standalone mark on square yellow field. Raster only, not geometry/color replacement source; does not prove circular presentation or exact yellow.",
+          "url": "https://raiffeisen.ua"
+        },
+        {
+          "assetUrl": "https://raiffeisen.ua/img/new-logo-black-ukr.svg",
+          "checkedAt": "2026-10-03T06:00:10.935237Z",
+          "independenceGroup": "Raiffeisen Ukraine official publications",
+          "kind": "official",
+          "observation": "This same official bank announcement currently references /img/new-logo-black-ukr.svg as its black header logo. Downloaded original SVG has separable square plain field #FEE600 and exact closed emblem path #2B2D33; full source rendered and inspected. This provides exact vector backing/color, not sampled raster yellow.",
+          "url": "https://raiffeisen.ua/news/raiffeisen-bank-aval-staye-raiffeisen-bank-1406"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T06:04:52.084162Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6476b882a90b373743f2db52c1972ec2669175d76547679243a80fdbb9f8c69e",
+        "xmlSha256": "e93a0e68a68a03bb921d0327b569841f6e0ea38b39239072f4b95c599c72359f"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
