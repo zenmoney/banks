@@ -1,0 +1,132 @@
+{
+  "lastAttemptAt": "2026-10-03T06:08:41.024765Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15170/assessed-434436b00bc69ba35f273b398b6826a3058bca09a367c6a3f791f1c6631bdad7.json",
+        "sha256": "434436b00bc69ba35f273b398b6826a3058bca09a367c6a3f791f1c6631bdad7"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Original source remains served by official domain; active official app uses matching new abbreviation contours; 2025 design case confirms new identity roll-out. Former serif circle is replaced design, not merely different serialization.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata UA pumb.ua identifies PUMB/First Ukrainian International Bank; official domain original and official application share ПУМБ identity; no parent/successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Original official vector/app establish primary bank use; Golden Drum publishes Banda’s attributable design case. Commons is a mirror/source pointer, not counted as independent confirmation.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original transparent bright-red four-letter abbreviation itself forms complete mark; no accompanying separate bank name. App shows same geometry as compact icon. Preserve original red paint and transparency, not cream app recolor. Independently inspected 24/32/48/162px width source and SVGO trial on white and #202020 backgrounds: abbreviation remains identifiable though smallest width has necessarily small lettering; no detached details lost or clipping. Final Compose suitability still requires coordinator review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/e37664e9ec67c5a4f94979c803a5b87f71d4f6cd415fafba2efe175f0e9c9594.json",
+        "sha256": "e37664e9ec67c5a4f94979c803a5b87f71d4f6cd415fafba2efe175f0e9c9594"
+      },
+      "baseIconHash": "5cd12e354e8a652e6771853f24bfbd31deee9f15d7109c2ba57e5963a406a7ae",
+      "candidate": {
+        "detailsJudgement": "Independent original/trial theme diagnostics and full original/source-final images retain same red contours, four letters, internal counters and rising final б terminal. No raster tracing, recoloring or new geometry.",
+        "faithful": true,
+        "iconHash": "43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249",
+        "path": "evidence/15170/candidate-43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249.svg",
+        "proportionsJudgement": "Original 117x46 proportions and transparent placement preserved; whole mark fits square icon area at useful width, without stretching. Both Compose themes and bound 24/32/48px diagnostics recognize abbreviation; smallest text inherently compact but source details intact.",
+        "rationale": "Replace former serif circular badge with evidenced new bold PUMB abbreviation identity using original transparent red vector.",
+        "role": "Entire four-letter ПУМБ abbreviation forms the bank mark; no accompanying name or slogan.",
+        "sha256": "43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249",
+        "sourceAssetUrl": "https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pumb_logo.svg",
+        "transforms": [
+          "Working SVG exact official source copy; no geometry, paint, alpha or placement changes.",
+          "SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1257 to 1071 bytes; selected SHA256 43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249."
+        ],
+        "variant": "Original transparent red abbreviation, not the cream-on-red raster app colorway; no added backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Former thin serif white abbreviation in red circle changes to the sourced bold red transparent mark. Attributable rebrand case explicitly removed circular badge and old typeface; new contours visibly match official current app mark."
+      },
+      "candidateIconHash": "43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249",
+      "checkedAt": "2026-10-03T06:08:41.024765Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "60c7952332cad3115762d437612473c6b755699d7260e4338baf177b7b448428",
+        "head": "bank-icon-maintenance/o16z6s_l-15170",
+        "headCommit": "2eb2044b38e1f8d8f4ab71f634b9a5b7e0c482ee",
+        "number": 43,
+        "observedAt": "2026-10-03T06:22:33.283341Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ПУМБ (Company.id 15170)",
+        "url": "https://github.com/zenmoney/banks/pull/43"
+      },
+      "reason": "Official original vector and current bank app support the new bold ПУМБ abbreviation mark. The accepted white serif abbreviation on a red circle is the former identity; Banda’s Golden Drum rebrand case explicitly reports removal of the circular badge and old typeface. Propose the original transparent red variant without recoloring or inventing a backing.",
+      "reviewPackage": {
+        "path": "evidence/15170/candidate-46e3e7f1e6911aeecee00cbe5f5374bf2a3e968362f5f7a1bceaccb4c780f920.json",
+        "sha256": "46e3e7f1e6911aeecee00cbe5f5374bf2a3e968362f5f7a1bceaccb4c780f920"
+      },
+      "sourceCandidate": {
+        "iconHash": "7da61a83ea4fe932ccc174ccdcc03e0248f775a6a7fd1793688a20a02a336bc0",
+        "path": "evidence/15170/research-3a59b180e9d54417a3b4a9451da72784/fetch-0d257d863fd34eff8ba838664ffea1b3/attempt-1/body.bin",
+        "rationale": "Supported rebranding to bold original red abbreviation; preserve entire transparent mark. Four letters are the mark, not accompanying text. Official app corroborates recognizability inside a square without requiring its raster-only cream/red color variant.",
+        "retrieval": {
+          "path": "evidence/15170/research-3a59b180e9d54417a3b4a9451da72784/fetch-0d257d863fd34eff8ba838664ffea1b3/receipt.json",
+          "sha256": "eb63f6aef53353c1f910f3f34fc51d61551581cc57ede5a780e25f8e436f6db9"
+        },
+        "sourceAssetUrl": "https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37",
+        "sourceMaterial": {
+          "path": "evidence/15170/source-material-6ead639b421445969265660d88a8fbfa/material.json",
+          "sha256": "4c64a61b6954d9b9be3e37a8993a5cb5f9a004a4c3f96ddbfc2cf4ccd3c18bcf"
+        },
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pumb_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37",
+          "checkedAt": "2026-10-03T06:01:28Z",
+          "independenceGroup": "PUMB official source and mirror",
+          "kind": "official",
+          "observation": "Official homepage and trademark routes returned HTTP403. Official apim source referenced by Wikimedia Commons was downloaded successfully: 1257-byte SVG containing original path-based red ПУМБ typographic mark, 117x46 viewport. Independent rsvg image read shows no separate explanatory text, slogan or secondary bank name.",
+          "url": "https://www.pumb.ua/"
+        },
+        {
+          "assetUrl": "https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37",
+          "checkedAt": "2026-10-03T06:01:28Z",
+          "independenceGroup": "PUMB official source and mirror",
+          "kind": "third-party",
+          "observation": "Commons labels date 23 September 2024 and explicitly cites official apim source; not independent artwork provenance, but source discovery context.",
+          "url": "https://commons.wikimedia.org/wiki/File:Pumb_logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T06:01:28Z",
+          "independenceGroup": "Banda design case published by Golden Drum",
+          "kind": "third-party",
+          "observation": "Read downloaded 2025 showcase entry: client Pumb, Banda agency Kyiv; describes removal of circular badge/old typeface, larger logo, and roll-out across app, branches, B2B. Links www.pumb.ua/en.",
+          "url": "https://goldendrum.com/showcase/0601010GD25-pumb-rebranding-making-logo-bigger"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/dJ8_TLCdSJ5zkpW0gR-qwVyioFGNTKZjX6LY-_MjqYeTv1ienYk9HyiIqSevUtDyIODdq45sTVtvksEROhXf=w240-h480",
+          "checkedAt": "2026-10-03T06:01:28Z",
+          "independenceGroup": "PUMB official app distribution",
+          "kind": "official",
+          "observation": "Downloaded official PUMB Mobile Banking App listing, developer ПУМБ, com.fuib.android.spot.online. Actual downloaded icon visually inspected: red square with centered cream bold ПУМБ abbreviation matching vector contours. This proves current identity and compact recognition; raster is contextual evidence only, not a geometry or color transformation source.",
+          "url": "https://play.google.com/store/apps/details/?hl=en-US&id=com.fuib.android.spot.online"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T06:13:03.431969Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249",
+        "xmlSha256": "51502936d684b9324d46b6754d5efdd3a9bd0d9341c325bc2b257a774f3c4a4b"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
