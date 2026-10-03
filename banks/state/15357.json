@@ -1,0 +1,105 @@
+{
+  "lastAttemptAt": "2026-10-03T06:32:56.100570Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15357/assessed-74846e1890c86390b7721d28a7b4bb1149fcb9bffe2f28aae3d43199e0dcd67e.json",
+        "sha256": "74846e1890c86390b7721d28a7b4bb1149fcb9bffe2f28aae3d43199e0dcd67e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The currently retrieved operating bank homepage uses this exact C vector in mobile header, chat and footer, with current banking offers and October 2026 news. No inferred successor substitution.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Exact metadata website citadele.lv identifies Citadele banking in Latvia and explicitly places this vector in bank navigation and mobile-bank context.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "One direct primary official publication supports identity, current use and original vector provenance; repeated page placements are corroborating contexts, not independent sources. No unresolved evidence gap required independent or image-discovery searches.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Official standalone square vector has a white C, red #D90730 backing and no accompanying name/slogan. Compact native geometry is suitable for a square application cell. Preserve complete C and its paints; any eligible circle adaptation is backing-only and remains for coordinator review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/1247e01a0aa87607d094525ad4ed6ddb98ad7a0f720253168d306833c189ced6.json",
+        "sha256": "1247e01a0aa87607d094525ad4ed6ddb98ad7a0f720253168d306833c189ced6"
+      },
+      "baseIconHash": "a9ad08692893238d361e485bdc448a9c935a78164bafde003f57f3c0102a2aac",
+      "candidate": {
+        "detailsJudgement": "Independent working/optimized light and dark references inspected: complete white C with smoothly rounded terminals and unchanged inner negative space, no lost strokes or exposed legacy bars. Backing uniform official red and transparent outside circle.",
+        "faithful": true,
+        "iconHash": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa",
+        "path": "evidence/15357/candidate-fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa.svg",
+        "proportionsJudgement": "Complete source C retains original placement and proportions inside catalog circle. Actual Compose light/dark frames and resized 24/32/48px diagnostics inspected: rounded terminals and counter remain open, useful optical size, no clipping or excessive shrinking.",
+        "rationale": "Current official C emblem and #D90730 red replace accepted equal-sign emblem; circular catalog backing is a separate eligible plain-field adaptation.",
+        "role": "Standalone original-vector bank monogram",
+        "sha256": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa",
+        "sourceAssetUrl": "https://www.citadele.lv/themes/citadele_lv/assets/images/icons/logo.svg",
+        "sourceUrl": "https://www.citadele.lv/lv/private/",
+        "transforms": [
+          "Removed only fully occluded legacy equal-sign rectangles and superseded backings from source. Preserved source C path verbatim in working.svg, without scaling, translating, rotating or recoloring.",
+          "Replaced separable full-canvas red field with same-color circle cx=20 cy=20 r=20; full C fits without clipping. Source 1000px white-pixel diagnostic maximum radius 15.3411, leaving 4.6589 source-unit radial clearance.",
+          "SVGO 4.1.0, frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 787 to 646 bytes. Selected optimized SHA256 fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa after independent librsvg light/dark image reads. At 400px only 107 edge pixels differ with max channel difference 8; no visible shape/color/detail difference."
+        ],
+        "variant": "White C on official #D90730 uniform red, adapted to circular catalog backing with transparent outer corners; no official circular-avatar claim.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Official-source C monogram visibly differs from accepted two horizontal bars, and red changes from #D2333B to official #D90730. Circular background is catalog presentation, not claimed official circular artwork."
+      },
+      "candidateIconHash": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa",
+      "checkedAt": "2026-10-03T06:32:56.100570Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b6858d487c8ba6a20e1ad78652d5f5cd4617e20ba16f2ea1055958eb5ecd7b18",
+        "head": "bank-icon-maintenance/13ly3qmb-15357",
+        "headCommit": "179b55d5e517a8125197c305dc8aa3ed73e091bf",
+        "number": 44,
+        "observedAt": "2026-10-03T06:57:41.759254Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Citadele (Company.id 15357)",
+        "url": "https://github.com/zenmoney/banks/pull/44"
+      },
+      "reason": "Official Latvian Citadele website currently serves a standalone white C on #D90730 red as its mobile header, chat logo and mobile-bank footer icon. The accepted SVG instead has two white horizontal bars on #D2333B red. This is a supported emblem/color update, not a serialization-only change; no claim of unchanged or completed catalog rendering is made.",
+      "reviewPackage": {
+        "path": "evidence/15357/candidate-b2961c5fc2ab18841155483dea75283e0cf24c740b132a9d494db470828bccb4.json",
+        "sha256": "b2961c5fc2ab18841155483dea75283e0cf24c740b132a9d494db470828bccb4"
+      },
+      "sourceCandidate": {
+        "iconHash": "b996fa1a3e2b74632a40ed0b0be3b4185bda0f8bfc1b8cdd0c2e676811e31922",
+        "path": "evidence/15357/research-dd3656f85a85486aafe5c15c8652a803/fetch-5fc57732990e4c5aa79b806742d3030a/attempt-1/body.bin",
+        "rationale": "Replace the accepted two-bar red emblem with the currently published official standalone C vector and correct official red #D90730. Use original retrieved vector; no tracing, recoloring or invented emblem geometry.",
+        "retrieval": {
+          "path": "evidence/15357/research-dd3656f85a85486aafe5c15c8652a803/fetch-5fc57732990e4c5aa79b806742d3030a/receipt.json",
+          "sha256": "06eeaedfa1f84a0010006a3db0a3be9b3d296efb1a9ad24756ddc6df28f94394"
+        },
+        "sourceAssetUrl": "https://www.citadele.lv/themes/citadele_lv/assets/images/icons/logo.svg",
+        "sourceUrl": "https://www.citadele.lv/lv/private/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.citadele.lv/themes/citadele_lv/assets/images/icons/logo.svg",
+          "checkedAt": "2026-10-03T06:31:46Z",
+          "independenceGroup": "Citadele official website",
+          "kind": "official",
+          "observation": "Retrieved official homepage redirects to Latvian private-banking site. JSON-LD identifies Citadele as BankOrCreditUnion at Republikas laukums 2A. The mobile header img references logo.svg at 40x40 with Citadeles sākumlapa alt text; chat identifies the same asset as C logo; mobile-bank footer also uses it. The page has banking products and dated 02.10.2026 news, supporting current operating-brand use. Direct SVG contains native rect and path geometry with no embedded raster. Source independently rendered using rsvg-convert and visually inspected: white standalone C on solid red square, no separate lettering. The earlier two-bar rectangles in source are completely occluded by the later opaque full-canvas red path; do not accidentally expose them during processing.",
+          "url": "https://www.citadele.lv/lv/private/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T06:36:49.253484Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa",
+        "xmlSha256": "2f92a577cb048f1aa0cb560d99f342ebba1d625bf5a7895af37bbbbf4a0d7db3"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

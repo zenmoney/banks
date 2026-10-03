@@ -1,0 +1,124 @@
+{
+  "lastAttemptAt": "2026-10-03T06:37:03.139506Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15361/assessed-a6b6caef8397dd81b0c0a9a3bb9e03197bb89e64ed867cbcb0c7a4779fa01438.json",
+        "sha256": "a6b6caef8397dd81b0c0a9a3bb9e03197bb89e64ed867cbcb0c7a4779fa01438"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official homepage currently uses the selected emblem beside the bcc.kz app download link and presents current banking services and a 2026 footer. This supports current operating-brand use, not merely an old launch date.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata host bcc.kz redirects to www.bcc.kz/kz; page identifies АО «Банк ЦентрКредит» and Kazakhstan operations; original standalone SVG is directly used for that bank's personal bcc.kz app download.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "One authoritative primary website establishes identity, current use and original vector provenance. These are not counted as multiple independent confirmations. No unresolved source gap requires third-party or image discovery.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original official 32×32 SVG contains standalone white nested triangular symbol on #00AB75 rounded-square field, without name/slogan. Full source reference image viewed; geometry is crisp and proportionate. Preserve emblem and colors; final backing presentation and fit require coordinator review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/9a975c03a36cd07d6a59e5c9cdfdd0a67257da42c081b7ec47edafc1aa454c80.json",
+        "sha256": "9a975c03a36cd07d6a59e5c9cdfdd0a67257da42c081b7ec47edafc1aa454c80"
+      },
+      "baseIconHash": "09e0582b708f6c832ab95e1239514f09dddbf9752a925e102fc4d92a746aad0f",
+      "candidate": {
+        "detailsJudgement": "Full original rounded-square app icon and source/final pairs inspected both themes. Complete white nested triangular emblem, inner green gaps, placement and official #00AB75 preserved; separable field corners alone become same-color catalog circle. No claim of official circular artwork or geometry correction.",
+        "faithful": true,
+        "iconHash": "8715b050125f38d8ebffc72ce0202529f8b2810ff26e757956a13d9d072f5f03",
+        "path": "evidence/15361/candidate-8715b050125f38d8ebffc72ce0202529f8b2810ff26e757956a13d9d072f5f03.svg",
+        "proportionsJudgement": "Exact Compose base/final light/dark pairs show accepted yellowish #26AE60 green corrected to official bluer #00AB75 and source emblem scale. Complete nested rounded triangles and green negative spaces remain open, no clipping. Source/final pairs confirm source geometry/paint with disclosed rounded-square to circular field adaptation. Resized 24/32/48px diagnostics remain legible both themes. Color correction is update reason, not alleged rebrand or circle consistency.",
+        "rationale": "Correct accepted #26AE60 backing to directly supported current personal-app #00AB75 while preserving the complete official standalone emblem. Circle is catalog plain-field adaptation, not official-circle evidence or rebranding.",
+        "role": "Standalone personal-app bank emblem",
+        "sha256": "8715b050125f38d8ebffc72ce0202529f8b2810ff26e757956a13d9d072f5f03",
+        "sourceAssetUrl": "https://www.bcc.kz/themes/bcc/assets/images/svg-icons/logo-personal.svg",
+        "sourceUrl": "https://www.bcc.kz/kz/",
+        "transforms": [
+          "Replaced separable uniform #00AB75 rounded-square field with same-color circle centered (16,16), radius 16; no whole-emblem scale or translation; original white path preserved verbatim in working.svg.",
+          "SVGO 4.1.0 using frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 973 to 827 bytes. Selected optimized SHA-256 8715b050125f38d8ebffc72ce0202529f8b2810ff26e757956a13d9d072f5f03 after independent librsvg working/optimized comparisons on both themes; no visible regression. Actual pinned converter and Compose export passed."
+        ],
+        "variant": "White nested rounded triangular emblem on #00AB75 circular catalog backing, transparency outside circle. Official source has rounded-square plain-color field.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact Compose base/final light/dark pairs show accepted yellowish #26AE60 green corrected to official bluer #00AB75 and source emblem scale. Complete nested rounded triangles and green negative spaces remain open, no clipping. Source/final pairs confirm source geometry/paint with disclosed rounded-square to circular field adaptation. Resized 24/32/48px diagnostics remain legible both themes. Color correction is update reason, not alleged rebrand or circle consistency."
+      },
+      "candidateIconHash": "8715b050125f38d8ebffc72ce0202529f8b2810ff26e757956a13d9d072f5f03",
+      "checkedAt": "2026-10-03T06:37:03.139506Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "398b9361774cd3f3ef7603d57523a3ab7e68a292c2365db9b73b8ecbdce2ebfb",
+        "head": "bank-icon-maintenance/13ly3qmb-15361",
+        "headCommit": "e7ab0e98a0f233e5a1beff294dc516b73fcdc06e",
+        "number": 46,
+        "observedAt": "2026-10-03T07:03:22.992095Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк ЦентрКредит (Company.id 15361)",
+        "url": "https://github.com/zenmoney/banks/pull/46"
+      },
+      "reason": "The currently operating bank's official homepage publishes an original standalone bcc.kz app emblem SVG: white nested rounded triangles on #00AB75 rounded-square backing. The accepted icon uses #26AE60 circular backing and differently serialized emblem paths. The official source supports a current color/geometry correction, subject to coordinator base/final renders; no claim that circular presentation itself is obsolete.",
+      "reviewPackage": {
+        "path": "evidence/15361/candidate-5368940ad0ec37853473f44061f9f5539e11731648a822493b743b1d76142988.json",
+        "sha256": "5368940ad0ec37853473f44061f9f5539e11731648a822493b743b1d76142988"
+      },
+      "sourceCandidate": {
+        "iconHash": "16768312c7bcfcf744577e132bf7a5d9c89aeb2e99c556f0e541dea6ecca913b",
+        "path": "evidence/15361/research-bf8527be397f4ced93f34414fa68a057/fetch-383cc9c8d33d416d94dd2aea3460537b/attempt-1/body.bin",
+        "rationale": "Use bank-published path-only standalone personal-app vector to correct the accepted #26AE60 to supported #00AB75 and source-supported emblem geometry if coordinator renders confirm meaningful differences. Do not present a pure circle-versus-square cosmetic adjustment as rebranding.",
+        "retrieval": {
+          "path": "evidence/15361/research-bf8527be397f4ced93f34414fa68a057/fetch-383cc9c8d33d416d94dd2aea3460537b/receipt.json",
+          "sha256": "42b16e5bc15da3cbc3b3cda62afebcf6b76d1ea4498db76eb50bbcdb6c7713fb"
+        },
+        "sourceAssetUrl": "https://www.bcc.kz/themes/bcc/assets/images/svg-icons/logo-personal.svg",
+        "sourceMaterial": {
+          "path": "evidence/15361/source-material-2a38f076c6524967b4e79dc0555bd24c/material.json",
+          "sha256": "87ad23f36cb993a690cf3a3a190c6891f1ae3507043e11f460ff9fabe860eae8"
+        },
+        "sourceUrl": "https://www.bcc.kz/kz/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.bcc.kz/themes/bcc/assets/images/svg-icons/logo-personal.svg",
+          "checkedAt": "2026-10-03T06:30:38.619500Z",
+          "independenceGroup": "Bank CenterCredit official website",
+          "kind": "official",
+          "observation": "Retrieved official homepage identifies legal entity АО «Банк ЦентрКредит», operating banking services in Kazakhstan, and © 2000–2026 footer. Its mobile bcc.kz download link uses the selected 32×32 SVG with alt bcc.kz жүктеп алу. Source SVG has one #00AB75 rounded-square rectangle and a white path forming nested rounded triangular emblem, no lettering or raster. Independent rsvg reference viewed: complete crisp white emblem on green field, suitable square-cell proportions.",
+          "url": "https://www.bcc.kz/kz/"
+        },
+        {
+          "assetUrl": "https://www.bcc.kz/themes/bcc/assets/images/logo.svg",
+          "checkedAt": "2026-10-03T06:30:38.619500Z",
+          "independenceGroup": "Bank CenterCredit official website",
+          "kind": "official",
+          "observation": "Homepage identifies this wide 122×18 gold-emblem/black-centercredit lockup as Organization.logo and displays it in header/footer. Rejected for catalog because accompanying bank lettering is unsuitable; different lockup colors do not invalidate separately published personal-app variant.",
+          "url": "https://www.bcc.kz/kz/"
+        },
+        {
+          "assetUrl": "https://www.bcc.kz/themes/bcc/assets/images/logo-personal-mini.svg",
+          "checkedAt": "2026-10-03T06:30:38.619500Z",
+          "independenceGroup": "Bank CenterCredit official website",
+          "kind": "official",
+          "observation": "Homepage login link references this 24×24 SVG. Inspection found a pattern embedding base64 PNG, so it is raster research only and rejected as replacement material. Continued to an original path-only SVG rather than tracing.",
+          "url": "https://www.bcc.kz/kz/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T06:40:48.533022Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8715b050125f38d8ebffc72ce0202529f8b2810ff26e757956a13d9d072f5f03",
+        "xmlSha256": "118be4e50a6a89096e669fecebf995844a5bdb85e2d05502ca11daa179dce046"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

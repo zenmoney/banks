@@ -1,0 +1,117 @@
+{
+  "lastAttemptAt": "2026-10-03T06:35:26.027830Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15362/assessed-e8980435a556068bfc20e97e1c980ea5157c18f4514bed7cc89f41a415cae597.json",
+        "sha256": "e8980435a556068bfc20e97e1c980ea5157c18f4514bed7cc89f41a415cae597"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Dated July 2026 rebrand announcement and actual current official homepage use establish operating-brand currency.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official mtbank.by header and Belarus/Minsk legal footer identify the selected МТБанк BY record; no successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both publications belong to one official publisher, not independent corroborations. Direct original vector, observed header binding and explicit rebrand description resolve identity/currency/variant, so conditional independent/image discovery was not needed.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Source SVG and inspected rendered source agree with announced blue circle/red ray/orange ray. The standalone emblem is suitable for a square cell once separate accompanying wordmark is omitted using original subpaths only.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/fd153ece28efbdc1e6f4ed9b29256a59def972192243a3d8659716f4ce8b77be.json",
+        "sha256": "fd153ece28efbdc1e6f4ed9b29256a59def972192243a3d8659716f4ce8b77be"
+      },
+      "baseIconHash": "28fe90aef38236914b61e1e6ed5e5f2547736f82b6c0ea2f96c7d71c70da5084",
+      "candidate": {
+        "detailsJudgement": "Full original logo lockup and cropped standalone emblem source/final pairs inspected both themes. Exact source blue circle sections and orange/red rays remain intact; transparent intervals and meaningful outer contour retained. Separate wordmark omitted losslessly; no backing, recoloring, clipping or geometry invention.",
+        "faithful": true,
+        "iconHash": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a",
+        "path": "evidence/15362/candidate-cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a.svg",
+        "proportionsJudgement": "Exact Compose base/final light/dark pairs show older blue/red three-ray motif replaced by July 2026 blue circle and broad orange/red two-ray emblem. Source/final cropped-emblem pairs preserve complete contours, blue/orange/red colors and transparent gaps. Full source lockup inspected; only separate wordmark omitted. Resized 24/32/48px diagnostics preserve ray separation and recognition on both themes.",
+        "rationale": "Official July 2026 rebrand supports replacement of old multi-ray symbol with current blue/red/orange emblem.",
+        "role": "Standalone bank emblem, excluding accompanying name.",
+        "sha256": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a",
+        "sourceAssetUrl": "https://www.mtbank.by/assets/images/spriteMobile.svg",
+        "sourceUrl": "https://www.mtbank.by/",
+        "transforms": [
+          "Losslessly omitted wordmark path 0 and wordmark-only subpaths of path 1; retained exact source emblem subpaths beginning M149.1 1.4 and following relative subpath plus red and orange paths unchanged.",
+          "Set standalone viewport to 0 0 340 330, matching emblem extent; no individual-part movement, rotation, recoloring or geometry redraw.",
+          "SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 566 to 536 bytes; selected optimized SHA256 cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a after visually identical independent raster pairs on light/dark."
+        ],
+        "variant": "Current colored emblem #2334C8, #E42C26, #FF5912 on transparent field; transparency is original, no backing added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact Compose base/final light/dark pairs show older blue/red three-ray motif replaced by July 2026 blue circle and broad orange/red two-ray emblem. Source/final cropped-emblem pairs preserve complete contours, blue/orange/red colors and transparent gaps. Full source lockup inspected; only separate wordmark omitted. Resized 24/32/48px diagnostics preserve ray separation and recognition on both themes."
+      },
+      "candidateIconHash": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a",
+      "checkedAt": "2026-10-03T06:35:26.027830Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8e835451360a08dc870847d05dca4fcecce9662c2a9581f0b650ceca07462391",
+        "head": "bank-icon-maintenance/13ly3qmb-15362",
+        "headCommit": "338f73e487450cdf196331517e6a985e2d39338c",
+        "number": 47,
+        "observedAt": "2026-10-03T07:05:44.108737Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МТБанк (Company.id 15362)",
+        "url": "https://github.com/zenmoney/banks/pull/47"
+      },
+      "reason": "Official bank announced a logo rebrand on 9 July 2026 and currently uses the new blue/red/orange emblem in its website header. The accepted SVG instead contains the earlier blue/red multi-ray geometry. Original source vector is retained; isolate the standalone emblem without altering its geometry before candidate rendering.",
+      "reviewPackage": {
+        "path": "evidence/15362/candidate-338d10d28751b1aaae99e7907aa1267c968f51ca66d30d031d54caa8f046f59f.json",
+        "sha256": "338d10d28751b1aaae99e7907aa1267c968f51ca66d30d031d54caa8f046f59f"
+      },
+      "sourceCandidate": {
+        "iconHash": "2cd0b3f0f573de37ef58abca1cfaee7e50ae571750f9ca662fdabadefed99db4",
+        "path": "evidence/15362/research-4b2a3a16448547d1ba3c2e216812fe6f/fetch-0e3e7077a26d4e968285c4454fba1388/attempt-1/body.bin",
+        "rationale": "Supported July 2026 rebrand: simplify earlier multi-ray red/blue emblem into current original blue/red/orange symbol; not a serialization-only change.",
+        "retrieval": {
+          "path": "evidence/15362/research-4b2a3a16448547d1ba3c2e216812fe6f/fetch-0e3e7077a26d4e968285c4454fba1388/receipt.json",
+          "sha256": "d72122d3ce5f31650fed3771edd129b3e8090566e54d7436bd7306cccc5e7bb4"
+        },
+        "sourceAssetUrl": "https://www.mtbank.by/assets/images/spriteMobile.svg",
+        "sourceMaterial": {
+          "path": "evidence/15362/source-material-4e9de3264b8b4b1094d643b3dcb36e80/material.json",
+          "sha256": "b44af203f1941bd6c85740501740f6e8cb63f3265396e0181ad942c9dc65ba35"
+        },
+        "sourceUrl": "https://www.mtbank.by/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.mtbank.by/assets/images/spriteMobile.svg",
+          "checkedAt": "2026-10-03T06:32:05.461221Z",
+          "independenceGroup": "MTbank official website",
+          "kind": "official",
+          "observation": "Current official homepage uses spriteMobile.svg#logo--colored in header-logo__image. Footer identifies ЗАО МТбанк in Minsk, Belarus. Source reference shows blue circular sections intersected by orange and red diagonal rays alongside separate МТбанк wordmark.",
+          "url": "https://www.mtbank.by/"
+        },
+        {
+          "assetUrl": "https://www.mtbank.by/assets/images/spriteMobile.svg",
+          "checkedAt": "2026-10-03T06:32:05.461221Z",
+          "independenceGroup": "MTbank official website",
+          "kind": "official",
+          "observation": "Article dated 2026-07-09 explicitly announces rebranding; describes blue circle, red ray and orange ray and staged digital-first rollout. Same current website header uses the new original vector.",
+          "url": "https://www.mtbank.by/about/news/ot-smeny-logotipa-do-obnovlennoy-filosofii-mtbank-obyavil-o-rebrendinge-1183678-p/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T06:40:49.387891Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a",
+        "xmlSha256": "b3a69d013b3e76f46075e750e0356f9834bef6aadf57e9be2f2cfbdd6d34d653"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

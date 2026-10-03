@@ -1,0 +1,116 @@
+{
+  "lastAttemptAt": "2026-10-03T06:35:07.572998Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15358/assessed-efb2d8d9675af97a79aa71d4313cefa8808c135efbb48f16f9e31e33d486309c.json",
+        "sha256": "efb2d8d9675af97a79aa71d4313cefa8808c135efbb48f16f9e31e33d486309c"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Active Latvian private banking website currently serves the detailed oak coin, independently rendered from its fetched original header SVG. Official current brand page publishes matching standalone Symbol.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Known swedbank.lv banking website directly identifies Swedbank in header; official Swedbank brand materials identify the same standalone oak-coin symbol. No successor or historical entity substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both sources are primary official Swedbank publications, not independent corroborating organizations. Latvian operational website establishes local current use; central brand download establishes original-vector and standalone variant provenance. No independent-source/image-discovery action needed once these remaining gaps resolved.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone original official Symbol has square viewBox, circular coin backing, complete emblem detail, intrinsic colors and alpha, and no accompanying name/date. It is a recognizable Swedbank mark suitable for square cell; full logo was rejected as too wide and text-bearing. Final small-size/theme quality remains coordinator candidate-stage judgment.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d1ffdde080a4eba81e8f033c4b74c7144480fdd14a14bff1d462ce722bbfb963.json",
+        "sha256": "d1ffdde080a4eba81e8f033c4b74c7144480fdd14a14bff1d462ce722bbfb963"
+      },
+      "baseIconHash": "44142174ef0291cf21e1bbbda6e6e5496b56be221b992431464cf2d1832efede",
+      "candidate": {
+        "detailsJudgement": "Full original coin and independent source/final pairs inspected on both themes. Complete oak relief, interior crown/trunk gaps, rim, gradients and exterior alpha match original; no geometry/color/backing adaptation. Compose faithfully renders optimized original vector.",
+        "faithful": true,
+        "iconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "path": "evidence/15358/candidate-334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97.svg",
+        "proportionsJudgement": "Exact Compose base/final light/dark pairs show flat brown silhouette replaced by official relief oak with crown/trunk openings, gold gradients and full rim. Source/final pairs preserve these details, colors, proportions and alpha; no clipping. Resized 24/32/48px diagnostics show recognizable oak/coin both themes; fine relief naturally reduces at 24px, not a failed render.",
+        "rationale": "Correct accepted flat brown silhouette to the original official detailed golden oak coin currently shown by Latvian Swedbank and distributed as standalone Symbol by official Swedbank brand resources. This is an evidenced geometry/detail/color correction, not an asserted new rebrand.",
+        "role": "Standalone original official oak-coin Symbol, without wordmark or since-1820 date lettering.",
+        "sha256": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "sourceAssetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+        "sourceUrl": "https://www.swedbank.com/newsroom/logotype.html",
+        "transforms": [
+          "No geometry, color, backing, placement or viewBox transformation: working.svg is exact extracted original SVG, 48x48 viewBox; retain entire coin and transparency.",
+          "SVGO 4.1.0 with frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 72513 to 65344 bytes. Selected smaller visually faithful trial SHA256 334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97 as final.svg, verified by actual pinned converter and Compose export. Working and optimized independent librsvg references inspected on white and #121212 canvases; no visible detail/color/geometry/alpha differences."
+        ],
+        "variant": "Gold/orange circular coin with brown/gold relief oak, internal crown/trunk openings, shaded gradients, full meaningful rim and transparent exterior; preserve intrinsic branded circular contour rather than adding or clipping backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact Compose base/final light/dark pairs show flat brown silhouette replaced by official relief oak with crown/trunk openings, gold gradients and full rim. Source/final pairs preserve these details, colors, proportions and alpha; no clipping. Resized 24/32/48px diagnostics show recognizable oak/coin both themes; fine relief naturally reduces at 24px, not a failed render."
+      },
+      "candidateIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+      "checkedAt": "2026-10-03T06:35:07.572998Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ca823bd3b1e65426a5d938511b608930c518d013930d97a1121552c7d8feb425",
+        "head": "bank-icon-maintenance/13ly3qmb-15358",
+        "headCommit": "68be9c76b34684bb4c41da76842ab92483d55d28",
+        "number": 45,
+        "observedAt": "2026-10-03T06:59:49.974895Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Swedbank (Company.id 15358)",
+        "url": "https://github.com/zenmoney/banks/pull/45"
+      },
+      "reason": "Official current Latvian website displays the detailed golden oak coin in its header. Swedbank's official brand page separately distributes the standalone coin without SINCE 1820 as the Symbol. The accepted icon renders a flat brown, solid oak silhouette on an orange field, omitting the coin rim, golden shading and interior crown/trunk openings visible in the original official vector. Recommend original official standalone Symbol as an evidenced geometry/detail/color correction, not a claim of newly announced rebranding.",
+      "reviewPackage": {
+        "path": "evidence/15358/candidate-c5593f3f3590fd445f7be497cb7f48f359f0a92e2a17eed865a3309c3f4fb19e.json",
+        "sha256": "c5593f3f3590fd445f7be497cb7f48f359f0a92e2a17eed865a3309c3f4fb19e"
+      },
+      "sourceCandidate": {
+        "iconHash": "ba3ca180a11e180c892ab5ce400ac3dcc9774b685fad7aa0478eb0e1761ed6cb",
+        "path": "evidence/15358/research-12cde163e1be497fb72e2c7bd7c7c2fa/fetch-a6a0ed1dc6974f8c9f70bcb91f07dea5/attempt-1/body.bin",
+        "rationale": "Use published original standalone Symbol from exact ZIP member. Current accepted flat brown silhouette lacks official detailed oak interior openings and coin relief/rim. Original source corrects evidenced geometry/details/colors without tracing or redrawing; preserve complete circular coin and transparency, do not mask off rim or simplify the tree.",
+        "retrieval": {
+          "path": "evidence/15358/research-12cde163e1be497fb72e2c7bd7c7c2fa/fetch-a6a0ed1dc6974f8c9f70bcb91f07dea5/receipt.json",
+          "sha256": "945730ddfc662751d16213abf66540e6cdd36991d248933de77550c796207e68"
+        },
+        "sourceAssetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+        "sourceMaterial": {
+          "path": "evidence/15358/source-material-43c4b6dcb2214701ae032108c9a3dfb9/material.json",
+          "sha256": "00f13fc3f6fcc6937e3e1922b59a83405ab31a2e2da76d44d143fac414768ea0"
+        },
+        "sourceUrl": "https://www.swedbank.com/newsroom/logotype.html"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.swedbank.lv/webjars/webcomponents/3.96.0/assets/images/swedbank-logo.svg",
+          "checkedAt": "2026-10-03T06:32:34Z",
+          "independenceGroup": "Swedbank official publications",
+          "kind": "official",
+          "observation": "Fetched active Latvian private banking site through known metadata domain. Header at HTML line 255 explicitly labels SVG Swedbank logo. Independently rendered original asset shows orange Swedbank wordmark and detailed golden oak coin, including internal tree openings, shaded relief, circular rim and SINCE 1820 lettering. Full lockup is unsuitable for catalog square and is reference only.",
+          "url": "https://www.swedbank.lv/private"
+        },
+        {
+          "assetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+          "checkedAt": "2026-10-03T06:32:34Z",
+          "independenceGroup": "Swedbank official publications",
+          "kind": "official",
+          "observation": "Official page identifies the Symbol without since 1820 as joint standalone sender for Swedbank and Savings banks when full own-bank logo is unsuitable, and provides original downloadable SVG/AI/PDF/PNG bundle. Retained ZIP member The-Symbol_Collaboration-logotype/SVG/Symbol.svg is a self-contained 48x48 vector with 512 paths, 40 radial gradients, two linear gradients and no image element. Rendered at 480px: complete gold/orange coin with brown/gold relief oak, preserved interior openings, rim and transparent exterior; no wordmark/slogan. Same detailed oak/coin design as LV header, omitting the source-supported date lettering.",
+          "url": "https://www.swedbank.com/newsroom/logotype.html"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T06:40:47.665312Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "xmlSha256": "f79c1df2b73e2ff20cdcaf2fff44fca33da58ee7633f38e2c1f60c45234cf7a9"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
