@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-03T09:54:53.408074Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15436/assessed-ac9ba4f589951dcf278442dd665d53c8ca71153746634000f796261e9ab32e42.json",
+        "sha256": "ac9ba4f589951dcf278442dd665d53c8ca71153746634000f796261e9ab32e42"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The mark remains in current use: the bank's official Telegram channel displayed the same avatar through 2026-09, and the bank is named in a January 2026 government decree; the archived site asset (2023-06 Wayback capture) matches the same design.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The lockup is the bank's own upload asset (Bitrix /upload path on bankdabrabyt.by) referenced from its archived homepage; the mark matches Company.id 15436's accepted emblem and the bank's official Telegram avatar.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "First-party site asset (via archive), the bank's own live Telegram avatar, and the design agency's independent case page corroborate the same design and palette.",
+        "uncertainties": [
+          "Live bankdabrabyt.by is unreachable from this environment (SSL timeout, likely geo-block); on-site use after 2023 was verified through the bank's official Telegram channel instead."
+        ],
+        "variant": {
+          "basis": "Standalone mark variant (pinwheel D with white star) extracted from the lockup; the wordmark variant is not used; the accepted icon depicts the same mark variant with different colors.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/af446249b8be9f067ab8bc75b271bb0f974d64161ac0e38d5ca79a5745a61c50.json",
+        "sha256": "af446249b8be9f067ab8bc75b271bb0f974d64161ac0e38d5ca79a5745a61c50"
+      },
+      "baseIconHash": "42f223213c9c5f971a9b63a55c4771b6dda15626f6b4d32bc593cdd5ed53ff13",
+      "candidate": {
+        "detailsJudgement": "All pinwheel segments, the white star with its notched rays and the notched D contour survive verbatim; the segmented tonal reds are preserved; no clipping or lost detail in the final renders.",
+        "faithful": true,
+        "iconHash": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d",
+        "path": "evidence/15436/candidate-754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d.svg",
+        "proportionsJudgement": "The square 90x90-unit mark viewBox is preserved at authored scale; the full emblem including the notched left contour fits the square cell with clearance on both themes; legible and recognizable at 24/32/48 px.",
+        "rationale": "Replace the accepted icon with the standalone mark of the bank's own logo vector: it corrects the off-brand flat reds (#ED1C24/#B2212E/#D21924) to the official 2021-rebrand segmented palette (#ee3338/#d23238/#b4363f) and is backed by an original first-party vector; the same mark is in current use as the bank's official Telegram avatar (through 2026-09).",
+        "role": "Standalone mark: red segmented pinwheel D with a white eight-point star; no lettering; the D contour is the emblem's own branded silhouette, not a backing.",
+        "sha256": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d",
+        "sourceAssetUrl": "https://web.archive.org/web/20230702063406im_/https://bankdabrabyt.by/upload/userfiles/images/svg/Bank_Dabrabyt_logo.svg",
+        "sourceUrl": "https://web.archive.org/web/20230608000427im_/https://bankdabrabyt.by/upload/userfiles/images/svg/Bank_Dabrabyt_logo.svg",
+        "transforms": [
+          "Lossless whole-element selection from the original lockup vector: the mark groups (g20–g80, eight red pinwheel segments and eight white star triangles) are carried over verbatim; the wordmark groups were excluded; a square viewBox bounds the 90x90-unit mark; no path data, color or geometry was edited; no transformation of the emblem was needed.",
+          "SVGO 4.1.0 with frozen worktree config (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 4383 → 1395 bytes; independent rsvg renders match within antialiasing (max channel difference ≤8); optimized bytes selected."
+        ],
+        "variant": "Standalone mark variant of the 2021 rebrand, the same variant the accepted icon depicts and the same variant used in the official Telegram avatar; the wordmark lockup variant is not used.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Palette correction: the accepted icon's flatter, more uniform reds are replaced by the official segmented reds (#ee3338/#d23238/#b4363f) of the current brand mark — a visible, source-backed color correction, not a redesign."
+      },
+      "candidateIconHash": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d",
+      "checkedAt": "2026-10-03T09:54:53.408074Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0f393408585fedb450d8ea4f5c6bd9e8209db204655d6a03e73a4b676d2bdb17",
+        "head": "bank-icon-maintenance/15436",
+        "headCommit": "ff71d3a83ccb8e4e9c08d5b30afbd04751484d2e",
+        "number": 51,
+        "observedAt": "2026-10-03T10:04:10.865254Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк Дабрабыт (Company.id 15436)",
+        "url": "https://github.com/zenmoney/banks/pull/51"
+      },
+      "reason": "The accepted icon depicts the current Дабрабыт mark with off-brand colors: baseline #ED1C24/#B2212E/#D21924 versus the official 2021-rebrand palette #ee3338/#d23238/#b4363f found in the bank's own logo SVG (retrieved via the Internet Archive from bankdabrabyt.by; direct fetch is geo-blocked). The official original vector's standalone mark (red pinwheel D with white star, no lettering) is square-cell suitable and matches the bank's current official Telegram avatar (observed through 2026-09), confirming currency of the same variant. Extracting the mark corrects the palette while preserving the emblem geometry.",
+      "reviewPackage": {
+        "path": "evidence/15436/candidate-547b04fb1ce96a75a410a34db189dd681166704e2df796636c191bd8d1ff5c39.json",
+        "sha256": "547b04fb1ce96a75a410a34db189dd681166704e2df796636c191bd8d1ff5c39"
+      },
+      "sourceCandidate": {
+        "iconHash": "5f40825689446be5ee8ca2dced18a08409e325737d4bf323a7689bd234e45652",
+        "path": "evidence/15436/research-56ee93b7431444739812692901b2ebdb/fetch-72439ef5a1244e2abb6f0ceafb0a8775/attempt-2/body.bin",
+        "rationale": "Official original vector of the current 2021-rebrand mark; its standalone mark corrects the accepted icon's off-brand reds (#ED1C24/#B2212E/#D21924 → official #ee3338/#d23238/#b4363f) while preserving the emblem composition.",
+        "retrieval": {
+          "path": "evidence/15436/research-56ee93b7431444739812692901b2ebdb/fetch-72439ef5a1244e2abb6f0ceafb0a8775/receipt.json",
+          "sha256": "a0b9741622471e0280d0fc7430d19e699b6c292da48b5997dda3a2904692aeee"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20230702063406im_/https://bankdabrabyt.by/upload/userfiles/images/svg/Bank_Dabrabyt_logo.svg",
+        "sourceUrl": "https://web.archive.org/web/20230608000427im_/https://bankdabrabyt.by/upload/userfiles/images/svg/Bank_Dabrabyt_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20230702063406im_/https://bankdabrabyt.by/upload/userfiles/images/svg/Bank_Dabrabyt_logo.svg",
+          "checkedAt": "2026-10-03T09:45:00Z",
+          "independenceGroup": "bankdabrabyt.by first-party assets via Internet Archive",
+          "kind": "official",
+          "observation": "Official site logo SVG (Illustrator-export vector, referenced from the archived 2023-07-02 homepage of bankdabrabyt.by; direct fetch geo-blocked with SSL timeout): mark groups #ee3338/#d23238/#b4363f plus gray #606163 wordmark. Original vector, no traced-copy signs. sha256 5f40825689446be5ee8ca2dced18a08409e325737d4bf323a7689bd234e45652.",
+          "url": "https://web.archive.org/web/20230608000427im_/https://bankdabrabyt.by/upload/userfiles/images/svg/Bank_Dabrabyt_logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T09:45:00Z",
+          "independenceGroup": "Official bank Telegram channel avatar and 2026 government decree",
+          "kind": "official",
+          "observation": "The bank's official Telegram channel (posts through 2026-09) uses the same red pinwheel-star mark as its avatar, confirming the variant's continued current use; also named in Совмин/НБ РБ постановление 15.01.2026 № 18/1 (active bank).",
+          "url": "https://t.me/s/bankdabrabyt"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T09:45:00Z",
+          "independenceGroup": "DAB agency case page (design author)",
+          "kind": "third-party",
+          "observation": "Identity by DAB agency (dab.by case page, raster mockups only) corroborates the 2021 rebrand design and palette. Full receipt list in evidence/15436/research-56ee93b7431444739812692901b2ebdb/findings.json.",
+          "url": "https://dab.by/en/works/bank-identity-system-dabrabyt/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T09:56:33.361244Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d",
+        "xmlSha256": "6cee9a21e5e2cb2f94d2043a082bca89f36891c16d04b4ca1e524e1eaa90f523"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
