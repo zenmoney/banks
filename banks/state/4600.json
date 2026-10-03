@@ -1,0 +1,133 @@
+{
+  "lastAttemptAt": "2026-10-03T01:56:25.226548Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4600/assessed-264147450f24f76ede048eabee6283d5e868d2d03688eee1d7847f9be8892e81.json",
+        "sha256": "264147450f24f76ede048eabee6283d5e868d2d03688eee1d7847f9be8892e81"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Bank operating (CBR license 1319); official site live with 2026 documents; emblem in current official header logo matches the candidate mark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official site and requisites identify AO 'EconomBank' (Saratov, BIK 046311722, OGRN 1026400002067); candidate asset is keyed to that BIK on the Finuslugi catalog.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Identity and currency rest on the bank's own site and the Bank of Russia registry; the candidate asset is keyed to the official BIK on an independent catalog and visually matched to the official header emblem. No positive finding relies on a single source.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Emblem-only 40x40 brandmark variant chosen; matches the emblem portion of the official header logo. Full lockup vector does not exist publicly.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem details (E monogram, wing stripes, note dot) preserved; internal transparency preserved; no clipping or color change.",
+        "faithful": true,
+        "iconHash": "036a6ae3a8500b0d9ddeaab105400b7270201f6fffa66c56417dc9d09507b1dc",
+        "path": "evidence/4600/candidate-036a6ae3a8500b0d9ddeaab105400b7270201f6fffa66c56417dc9d09507b1dc.svg",
+        "proportionsJudgement": "Full-bleed square emblem keeps source proportions; no backing added (suitable transparent standalone mark per background policy); complete fit with clear margins on the 54 dp icon area; legible at 24/32/48 px diagnostics on both themes.",
+        "rationale": "First icon addition for an operating bank that publishes its logo only as raster; a self-contained original vector of the same emblem (keyed to the bank's BIK on the Finuslugi catalog CDN) is a faithful square-cell mark.",
+        "role": "standalone emblem-only brandmark; no wordmark, no slogan",
+        "sha256": "036a6ae3a8500b0d9ddeaab105400b7270201f6fffa66c56417dc9d09507b1dc",
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-046311722.svg",
+        "sourceUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-046311722.svg",
+        "transforms": [
+          "no geometry transformation; bytes reserialized only by SVGO-free passthrough (SVGO trial grew 893->900 B, so the working version was kept; svgo trial recorded in evidence/4600)"
+        ],
+        "variant": "emblem-only 40x40 variant (dark blue #124e8d on transparent background), matching the emblem portion of the official header logo; full lockup vector does not exist publicly",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the bank has no icon.svg at the frozen base commit, so the diff is absent-to-real-icon."
+      },
+      "candidateIconHash": "036a6ae3a8500b0d9ddeaab105400b7270201f6fffa66c56417dc9d09507b1dc",
+      "checkedAt": "2026-10-03T01:56:25.226548Z",
+      "humanReview": "pending",
+      "reason": "Self-contained original vector (893 B single-path SVG, viewBox 0 0 40 40, fill #124e8d, no external refs/raster) of the EconomBank emblem ('E' with wing), located on the Finuslugi bank-asset CDN by the bank's BIK 046311722 taken from the official requisites page. Rendered comparison matches the emblem portion of the official site header logo. The bank itself publishes its logo only as raster PNG; the bank is operating (CBR license 1319).",
+      "reviewPackage": {
+        "path": "evidence/4600/candidate-af06043f331676c4e1bfe89eeccb12d3915c16b4b47b95a9a6da6ea8dbd259b7.json",
+        "sha256": "af06043f331676c4e1bfe89eeccb12d3915c16b4b47b95a9a6da6ea8dbd259b7"
+      },
+      "sourceCandidate": {
+        "iconHash": "036a6ae3a8500b0d9ddeaab105400b7270201f6fffa66c56417dc9d09507b1dc",
+        "path": "evidence/4600/research-79fcfa86c8c641178a0b56126351b37f/fetch-ebebc0846c7c4086bf07db53b8e6896c/attempt-1/body.bin",
+        "rationale": "First icon addition: self-contained original vector of the bank's emblem, keyed to the bank's BIK on an independent catalog CDN and visually verified against the official header logo raster; the bank publishes no vector itself.",
+        "retrieval": {
+          "path": "evidence/4600/research-79fcfa86c8c641178a0b56126351b37f/fetch-ebebc0846c7c4086bf07db53b8e6896c/receipt.json",
+          "sha256": "df81f5e66c88d4cc154a781b8659510266f411db2638475533782fecbaa6b03e"
+        },
+        "sourceAssetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-046311722.svg",
+        "sourceMaterial": {
+          "path": "evidence/4600/source-material-8cd6723b26274c6c8137cecd2f385b98/material.json",
+          "sha256": "5396f27ae4a00316435816827eb83395d29c3e5b71da34f4b119236589a00d46"
+        },
+        "sourceUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-046311722.svg"
+      },
+      "sources": [
+        {
+          "checkedAt": "2026-10-03T01:50:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Official site homepage: no inline SVG logo; header logo is raster PNG (190x44). Site live with 2026 documents.",
+          "url": "https://econombank.ru/"
+        },
+        {
+          "assetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-046311722.svg",
+          "checkedAt": "2026-10-03T01:50:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Official logo PNG: dark-blue 'E'+wing emblem with wordmark; raster variant reference used to verify the candidate emblem matches.",
+          "url": "https://econombank.ru/inc/theme/econom/images/header-logo.png"
+        },
+        {
+          "checkedAt": "2026-10-03T01:50:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Official requisites: AO 'EconomBank', Saratov, BIK 046311722; the BIK keyed the candidate asset discovery.",
+          "url": "https://econombank.ru/about/requisites/"
+        },
+        {
+          "checkedAt": "2026-10-03T01:50:00Z",
+          "independenceGroup": "aggregator",
+          "kind": "third-party",
+          "observation": "Independent bank catalog referencing the per-bank SVG brandmark by BIK on its CDN; wordmark/full-lockup SVG variants do not exist there (probed, failed).",
+          "url": "https://finuslugi.ru/banki/econombank"
+        },
+        {
+          "assetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-046311722.svg",
+          "checkedAt": "2026-10-03T01:50:00Z",
+          "independenceGroup": "aggregator",
+          "kind": "third-party",
+          "observation": "Candidate original vector: 893 B, single path, viewBox 0 0 40 40, fill #124e8d, self-contained; emblem-only 40x40 variant.",
+          "url": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-046311722.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T01:50:00Z",
+          "independenceGroup": "aggregator",
+          "kind": "third-party",
+          "observation": "NSPK SBP member logo for EconomBank: raster PNG only; SVG variant does not exist (fetch failed). Research/variant context.",
+          "url": "https://qr.nspk.ru/proxyapp/logo/bank100000000198.png"
+        },
+        {
+          "checkedAt": "2026-10-03T01:50:00Z",
+          "independenceGroup": "cbr",
+          "kind": "official",
+          "observation": "Bank of Russia registry: license 1319, status operating; confirms currentness.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1026400002067"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T01:59:21.749793Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "036a6ae3a8500b0d9ddeaab105400b7270201f6fffa66c56417dc9d09507b1dc",
+        "xmlSha256": "9c869d0ab6e453d874ec2588baebd7c1ab6e0a3805fd14f52c2414fdfd5c5348"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
