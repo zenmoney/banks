@@ -1,0 +1,118 @@
+{
+  "lastAttemptAt": "2026-10-03T05:36:24.013851Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/5148/assessed-de2741bc4fb45cd05233376ca2feb858add4096ff4fa84ecb54b7800ed8c076a.json",
+        "sha256": "de2741bc4fb45cd05233376ca2feb858add4096ff4fa84ecb54b7800ed8c076a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official live homepage header publishes the exact fetched vector alongside 2026 bank notices; independently documented February 2020 rebrand supports the observed design's lifecycle.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata URL trust.ru resolves to www.trust.ru; official homepage explicitly uses National bank Trust and current Bank Trust descriptions. Independent dated reporting describes this bank's own rebrand.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Trust publishes actual current original-vector artwork; Vedomosti independently documents same-bank rebrand and date, not merely a mirror of its asset.",
+        "uncertainties": [
+          "Exact historical attribution of accepted red circular cutout remains unresolved, but does not undermine independently supported current replacement."
+        ],
+        "variant": {
+          "basis": "The four colored paths are the complete standalone angular square symbol, visually inspected inside original official logo. They carry no separate bank name/tagline. Original geometry/colors/alpha are retained; the square is a meaningful multicolor emblem contour, not a uniform backing eligible for circular normalization.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/60ad14cc977847271e258b678d29050ddae252abe8b73ed499454cc4581a5499.json",
+        "sha256": "60ad14cc977847271e258b678d29050ddae252abe8b73ed499454cc4581a5499"
+      },
+      "baseIconHash": "d93e16d14d513322a02a00bd0e719de37ba9bf236d40ebe72fd335977199ecdd",
+      "candidate": {
+        "detailsJudgement": "Inspected full original logo and cropped independent-source/final pairs on both themes. Four exact color partitions and diagonal seam survive; final preserves the complete square contour with no clipping, missing satellite details, white-filled holes or separate text.",
+        "faithful": true,
+        "iconHash": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450",
+        "path": "evidence/5148/candidate-8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450.svg",
+        "proportionsJudgement": "Whole emblem fills the square icon area consistently with independent source. Outer square and angular L-like red structure are meaningful geometry, not uniform background. At24/32/48px resized diagnostics all four partitions remain distinct and the diagonal seam readable on light and dark; no excessive shrinking or theme-dependent knockout.",
+        "rationale": "Replace accepted red circular knockout with the documented February 2020 same-bank rebrand currently published in the official website header.",
+        "role": "Standalone angular square bank emblem, excluding separate bank lettering and descriptive tagline.",
+        "sha256": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450",
+        "sourceAssetUrl": "https://www.trust.ru/local/templates/.default/images/logo.svg",
+        "sourceUrl": "https://www.trust.ru/",
+        "transforms": [
+          "Selected first four exact original SVG path elements and excluded separate lettering/tagline. Viewport tightened to original emblem bounds 127.942 .612 27.058 27.046 with dimensions54x54. No path geometry, paint, internal alpha or relative placement changed.",
+          "SVGO4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced406 to390 bytes. Selected optimized sha2568219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450 after independent working/trial visual equality and successful final Compose rendering."
+        ],
+        "variant": "Official red upper and right strips, blue upper-left triangular region and gray lower-right triangular region; meaningful square contour retained, no plain backing circle adaptation.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Actual base/final pairs show replacement of red circular field and transparent T-like cutout with the official red/blue/gray angular square. This is a documented brand geometry/color update, not serialization or circle-consistency cosmetics."
+      },
+      "candidateIconHash": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450",
+      "checkedAt": "2026-10-03T05:36:24.013851Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "94a6ecb48b36614d79da7f1605fd1b6e806a143360a774d8fb23874848bc5d21",
+        "head": "bank-icon-maintenance/t9at3xn0-5148",
+        "headCommit": "7dc86c89d576dc04b26fd6795f5dfc7db40893bb",
+        "number": 40,
+        "observedAt": "2026-10-03T05:44:58.406368Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: НБ \"ТРАСТ\" (Company.id 5148)",
+        "url": "https://github.com/zenmoney/banks/pull/40"
+      },
+      "reason": "Official trust.ru homepage identifies National bank Trust in metadata and currently uses the tricolor angular square emblem. Vedomosti reports the same bank's February 2020 rebrand. This supports replacement of the accepted red circular T-like cutout, not a white-fill repair or unsupported successor substitution.",
+      "reviewPackage": {
+        "path": "evidence/5148/candidate-82b6274c42425345f6878be743c5ae1564e1bfc66b6938efb9167a5c432768d7.json",
+        "sha256": "82b6274c42425345f6878be743c5ae1564e1bfc66b6938efb9167a5c432768d7"
+      },
+      "sourceCandidate": {
+        "iconHash": "852a101e7199f8c69409b26dbe7c1e60437f5f3b063d27d629114e244b490d59",
+        "path": "evidence/5148/research-6f4049cb69234c7189458198cc1d0c68/fetch-6ebfb1ee5db7477ea1002f004df5bead/attempt-2/body.bin",
+        "rationale": "Supported same-bank February 2020 rebrand currently used on official website. Use complete standalone original-vector square emblem without separate lettering, preserving all four exact source paths/colors and alpha. Accepted red circular mark differs materially in geometry and color.",
+        "retrieval": {
+          "path": "evidence/5148/research-6f4049cb69234c7189458198cc1d0c68/fetch-6ebfb1ee5db7477ea1002f004df5bead/receipt.json",
+          "sha256": "6b925a4c5bb306f9a39cc60eedb53079d3422a661036e3c19dac649c090a15d4"
+        },
+        "sourceAssetUrl": "https://www.trust.ru/local/templates/.default/images/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/5148/source-material-a246a9ed8d284fa6994646a8bd8f5b14/material.json",
+          "sha256": "762638e2f33aa83db830b196cfb2c7ace48a6da4a7cfaaf86757a45e2083c50b"
+        },
+        "sourceUrl": "https://www.trust.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.trust.ru/local/templates/.default/images/logo.svg",
+          "checkedAt": "2026-10-03T05:30:38Z",
+          "independenceGroup": "Trust official website",
+          "kind": "official",
+          "observation": "Fetched homepage title is Bank of non-core assets Trust; metadata explicitly names National bank Trust/National bank Trust in English. Header references the fetched SVG as bank logo, and homepage includes 2026 shareholder notices. SVG contains a separately bounded four-path red/blue/gray angular square emblem beside lettering and descriptive tagline. Original rendered source inspected.",
+          "url": "https://www.trust.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T05:30:38Z",
+          "independenceGroup": "Vedomosti independent reporting",
+          "kind": "third-party",
+          "observation": "Fetched article dated 12 February 2020 states Bank Trust changed brand style and logo to a tricolor-inspired design, quoting chairman Alexander Sokolov. Previous change was in 2011. This establishes a documented same-bank rebrand rather than replacing the record with another bank.",
+          "url": "https://www.vedomosti.ru/finance/articles/2020/02/12/822877-smenil-v-na-trikolor"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T05:39:42.297080Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450",
+        "xmlSha256": "91f1ebc46c0f9ee54192ad9457865c7d1c16eb3e66d9c97cf58fd56075d86dfa"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
