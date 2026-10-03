@@ -1,0 +1,59 @@
+{
+  "lastAttemptAt": "2026-10-03T04:49:32.682919Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Live official site serving 2025-2026 documents; bank operating",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official homepage header usage; mark matches TPSB brand",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Header reference and asset served from the same first-party official domain",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Site header icon variant",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "iconHash": "f6f7e22cb240a4fcc270e50d653204e3bc19d037b88f1d867883554754ec2d3b",
+        "path": "evidence/4659/research-d67b36f2e3da4228b15b256d739037ac/fetch-3fd578d490b043a9be479edbfad01226/attempt-1/body.bin",
+        "rationale": "Original vector from the bank's own domain, referenced by the live homepage header as the brand icon.",
+        "retrieval": {
+          "path": "evidence/4659/research-d67b36f2e3da4228b15b256d739037ac/fetch-3fd578d490b043a9be479edbfad01226/receipt.json",
+          "sha256": "658708849153f023f1f7b2570b5c71f22b6919e4a5690fba6bd733bb9e5041c3"
+        },
+        "sourceAssetUrl": "https://tpsbank.tomsk.ru/static/prj/dist/img/psb/logo-icon.svg",
+        "sourceUrl": "https://tpsbank.tomsk.ru/static/prj/dist/img/psb/logo-icon.svg"
+      },
+      "candidateIconHash": "f6f7e22cb240a4fcc270e50d653204e3bc19d037b88f1d867883554754ec2d3b",
+      "checkedAt": "2026-10-03T04:49:32.682919Z",
+      "reason": "Original vector logo-icon.svg served from the bank's own homepage header (img alt='Томскпромстройбанк'); pure path data, no raster.",
+      "sources": [
+        {
+          "assetUrl": "https://tpsbank.tomsk.ru/static/prj/dist/img/psb/logo-icon.svg",
+          "checkedAt": "2026-10-03T04:47:17Z",
+          "independenceGroup": "tpsbank-site",
+          "kind": "official",
+          "observation": "Official homepage header img references static/prj/dist/img/psb/logo-icon.svg",
+          "url": "https://tpsbank.tomsk.ru/"
+        },
+        {
+          "assetUrl": "https://tpsbank.tomsk.ru/static/prj/dist/img/psb/logo-icon.svg",
+          "checkedAt": "2026-10-03T04:47:17Z",
+          "independenceGroup": "tpsbank-site",
+          "kind": "official",
+          "observation": "Direct original SVG fetched; pure vector paths, green mark, no raster",
+          "url": "https://tpsbank.tomsk.ru/static/prj/dist/img/psb/logo-icon.svg"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
