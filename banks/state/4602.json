@@ -1,0 +1,105 @@
+{
+  "lastAttemptAt": "2026-10-03T01:53:05.881203Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/4602/assessed-e2290f00776b752ed79509a26f39183e47ca923b7781e850b760df52068c6666.json",
+        "sha256": "e2290f00776b752ed79509a26f39183e47ca923b7781e850b760df52068c6666"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Bank is operating per CBR registry; the mark is the current favicon served by the bank's live website (checked 2026-10-03). Recorded URL solid-bank.ru does not resolve; current site is solidbank.ru. solid.ru is a different bank (Solidarnost) and was excluded.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official site solidbank.ru title/content match AO 'Solid Bank'; CBR registry entry OGRN 1024100000121, license 1329, operating.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Identity and asset come from the bank's own official website, corroborated by the Bank of Russia registry page; no third-party copies were relied on for positive findings.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Square standalone symbol mark (favicon.svg) chosen over the horizontal lockup logo_new.svg; both current official assets, favicon suits the square cell.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All emblem details (S-curve contour, three diagonal stripes, notches) preserved; internal transparency preserved; no clipping or color change.",
+        "faithful": true,
+        "iconHash": "a58feba9a1be922bb1080b08625c19d0bbaef328f7d0d389ab893a24aa8a9d90",
+        "path": "evidence/4602/candidate-a58feba9a1be922bb1080b08625c19d0bbaef328f7d0d389ab893a24aa8a9d90.svg",
+        "proportionsJudgement": "Full-bleed square emblem keeps source proportions; complete fit with margins on the 54 dp icon area; stripes remain legible at 24/32/48 px diagnostics on both themes.",
+        "rationale": "First icon addition for an operating bank whose own live website serves this self-contained original vector as its favicon; a single-path square emblem suitable for the square cell.",
+        "role": "standalone symbol mark; no wordmark, no slogan",
+        "sha256": "a58feba9a1be922bb1080b08625c19d0bbaef328f7d0d389ab893a24aa8a9d90",
+        "sourceAssetUrl": "https://solidbank.ru/local/templates/solid_v2/images/favicon/favicon.svg",
+        "sourceUrl": "https://solidbank.ru/local/templates/solid_v2/images/favicon/favicon.svg",
+        "transforms": [
+          "whole-file SVGO 1.0.0 optimization on a copy (repository svgo.config.mjs, sha256 1473881... config owned by repo; 2334 -> 1897 bytes, -18.7%); 240px librsvg renders of working vs optimized are pixel-identical, optimized version selected as final.svg",
+          "no geometry transformation, no backing added: suitable transparent standalone mark per background policy"
+        ],
+        "variant": "square 512x512 symbol mark (burgundy #6B1D3D on transparent background) from the official favicon.svg; the horizontal lockup logo_new.svg was rejected as less suitable for a square cell",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the bank has no icon.svg at the frozen base commit, so the diff is absent-to-real-icon."
+      },
+      "candidateIconHash": "a58feba9a1be922bb1080b08625c19d0bbaef328f7d0d389ab893a24aa8a9d90",
+      "checkedAt": "2026-10-03T01:53:05.881203Z",
+      "humanReview": "pending",
+      "reason": "Self-contained original vector (512x512 single-path SVG, brand fill #6B1D3D, transparent background) of the operating brand's square mark, downloaded from the bank's live official website solidbank.ru. Identity confirmed by the site's own title/content and the CBR registry entry (AO 'Solid Bank', OGRN 1024100000121, license 1329, operating).",
+      "reviewPackage": {
+        "path": "evidence/4602/candidate-543483aed7ddaea4a9f0ebbe6196c110d2e7569942c7f27094a5e684015cf6bc.json",
+        "sha256": "543483aed7ddaea4a9f0ebbe6196c110d2e7569942c7f27094a5e684015cf6bc"
+      },
+      "sourceCandidate": {
+        "iconHash": "bea5f8ff1ae8d869f9e339bdaabce47a595b6accb84a969967e39feb6c8107ae",
+        "path": "evidence/4602/research-a1bba5e3cce74a47beacef2675b922ef/fetch-a8248c99fc7a45989cf0e3fbc892a582/attempt-1/body.bin",
+        "rationale": "Official favicon SVG of the operating bank's own website; original vector, no raster embedding, suitable standalone square mark.",
+        "retrieval": {
+          "path": "evidence/4602/research-a1bba5e3cce74a47beacef2675b922ef/fetch-a8248c99fc7a45989cf0e3fbc892a582/receipt.json",
+          "sha256": "492b78f10576a70917cd507d9f541f659db48790cbfba7876cfae26bf7cbcb36"
+        },
+        "sourceAssetUrl": "https://solidbank.ru/local/templates/solid_v2/images/favicon/favicon.svg",
+        "sourceMaterial": {
+          "path": "evidence/4602/source-material-78f7a046eff94649bace9d697d07cd97/material.json",
+          "sha256": "d6676e808e678b6cce5fc9c6c7dae511ec2eb92a9a2166a8619cb0f25e03d185"
+        },
+        "sourceUrl": "https://solidbank.ru/local/templates/solid_v2/images/favicon/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://solidbank.ru/local/templates/solid_v2/images/favicon/favicon.svg",
+          "checkedAt": "2026-10-03T01:51:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Official site of AO 'Solid Bank' (page title 'Solid Bank - loans, RKO, deposits, currency exchange and services for business'); favicon.svg referenced from the page template. Identity confirmed against CBR registry entry OGRN 1024100000121, license 1329, status operating.",
+          "url": "https://solidbank.ru/"
+        },
+        {
+          "checkedAt": "2026-10-03T01:51:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Self-contained 512x512 single-path SVG, fill #6B1D3D, transparent background; no raster, text or CSS dependencies.",
+          "url": "https://solidbank.ru/local/templates/solid_v2/images/favicon/favicon.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T01:51:00Z",
+          "independenceGroup": "official-site",
+          "kind": "official",
+          "observation": "Full horizontal lockup (CorelDRAW-generated, same brand color #6B1D3D); kept as variant context only, less suitable for a square cell.",
+          "url": "https://solidbank.ru/local/templates/solid_v2/images/logo_new.svg"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T01:59:47.045764Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a58feba9a1be922bb1080b08625c19d0bbaef328f7d0d389ab893a24aa8a9d90",
+        "xmlSha256": "1995ff4bb106151176948ea33862b5f98ead170adb1626a9121468c6ee27e067"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
