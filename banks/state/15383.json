@@ -1,0 +1,104 @@
+{
+  "lastAttemptAt": "2026-10-03T07:45:03.136443Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15383/assessed-74385f5fa302cc6c36e3a5ff62e8a4ec8b499753745350888816da075edb2106.json",
+        "sha256": "74385f5fa302cc6c36e3a5ff62e8a4ec8b499753745350888816da075edb2106"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official homepage and rebrand announcement (2021-10-07) fetched 2026-10-03; logo.svg served as header logo",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official maib.md; legal entity BC \"Maib\" SA; record id 15383 MD, maib.md",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site and its own rebrand announcement carry both the old identity fact and the new vector; single authoritative source group (maib) suffices for a rebrand observation",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current icon is pre-2021 emblem; official current mark is the teal leaf/swoosh per announcement and live site",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "a5e7608ed8f206932e83e6c389c543f1b39f76518f7598ceab861e373df378e0",
+      "candidate": {
+        "detailsJudgement": "Both lobes, the tapering negative-space swoosh gap and the flat teal color survive extraction, placement transform and SVGO verbatim; colors #40C1AC unchanged; no detail lost at 240px, 24px or in Compose renders.",
+        "faithful": true,
+        "iconHash": "6c9f52d1faa5c9f3ce77f9df851bcd732f7efa4d9bf9a165e2d8a4c984c3992b",
+        "path": "evidence/15383/candidate-6c9f52d1faa5c9f3ce77f9df851bcd732f7efa4d9bf9a165e2d8a4c984c3992b.svg",
+        "proportionsJudgement": "Uniform scale only; circular emblem fills the 54x54 cell edge-to-edge with original aspect and internal transparency intact; complete emblem, strokes and gap visible and legible on both themes at 24/32/48 diagnostics and full size.",
+        "rationale": "Replace the obsolete pre-2021 dark-green 'M' monogram with the bank's current teal (#40C1AC) leaf/swoosh mark from the official logo.svg, per the 2021-10 official rebrand.",
+        "role": "mark-only circular emblem extracted from the official horizontal lockup logo.svg (navy wordmark excluded for an icon-sized glyph, matching the mark-only convention of the replaced icon)",
+        "sha256": "6c9f52d1faa5c9f3ce77f9df851bcd732f7efa4d9bf9a165e2d8a4c984c3992b",
+        "sourceAssetUrl": "https://www.maib.md/images/logo.svg",
+        "sourceUrl": "https://www.maib.md/images/logo.svg",
+        "transforms": [
+          "Selected the two #40C1AC mark paths from the official 156x44 lockup; wordmark paths excluded (extraction, not redrawing).",
+          "Whole-emblem uniform scale 1.49236 and centering translation into a 54x54 canvas; no rotation, no stretching, no color change.",
+          "SVGO 4.1.0 with frozen repo config (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 692 -> 492 bytes; trial selected (smaller, rsvg-convert 240px/24px comparison identical except subpixel antialiasing).",
+          "No background added: the source mark is a suitable transparent standalone mark; transparency preserved (the white/dark gap between the two lobes is negative space, not paint)."
+        ],
+        "variant": "current maib teal leaf/swoosh mark (2021 refresh), teal #40C1AC on transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before: dark-green (#2F6554) circle with white angular 'M' monogram (pre-2021 emblem). After: teal (#40C1AC) leaf/swoosh mark (current 2021 identity). A real rebrand-driven replacement, not a serialization change."
+      },
+      "candidateIconHash": "6c9f52d1faa5c9f3ce77f9df851bcd732f7efa4d9bf9a165e2d8a4c984c3992b",
+      "checkedAt": "2026-10-03T07:45:03.136443Z",
+      "humanReview": "pending",
+      "reason": "Current icon is the obsolete pre-2021 dark-green 'M' monogram; maib rebranded in 2021-10 to the teal leaf/swoosh mark (official announcement), served site-wide as logo.svg on maib.md. Supported rebranding is an update reason.",
+      "reviewPackage": {
+        "path": "evidence/15383/candidate-07723772c2502a4b8af9932adb6c2e070db9ec9795b96fc41a0b5cc233aa82a2.json",
+        "sha256": "07723772c2502a4b8af9932adb6c2e070db9ec9795b96fc41a0b5cc233aa82a2"
+      },
+      "sourceCandidate": {
+        "iconHash": "9fc5151cdcabe9f43c11e53e7b12a624d47dd88cca65a55deda47d7e8dc610fd",
+        "path": "evidence/15383/research-a0ee589379bf432ca507662fe45ca6e8/fetch-20ef8d53d4d443a4bfc987b4f48e9a23/attempt-1/body.bin",
+        "rationale": "Original vector on the bank's own site containing the current teal (#40C1AC) circular leaf/swoosh mark; the two mark paths replace the obsolete green 'M' circle. Mark-only composition matches the current icon convention; navy wordmark excluded for an icon-sized glyph.",
+        "retrieval": {
+          "path": "evidence/15383/research-a0ee589379bf432ca507662fe45ca6e8/fetch-20ef8d53d4d443a4bfc987b4f48e9a23/receipt.json",
+          "sha256": "8156b7f5a43e968c0af7a96d78f4d27834cd84e9bc911bde02834741376d5c7a"
+        },
+        "sourceAssetUrl": "https://www.maib.md/images/logo.svg",
+        "sourceUrl": "https://www.maib.md/images/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.maib.md/images/logo.svg",
+          "checkedAt": "2026-10-03T07:38:00Z",
+          "independenceGroup": "maib",
+          "kind": "official",
+          "observation": "Homepage; header logo is /images/logo.svg; theme-color #40C1AC; og:site_name 'maib'",
+          "url": "https://www.maib.md/ro"
+        },
+        {
+          "assetUrl": "https://www.maib.md/images/logo.svg",
+          "checkedAt": "2026-10-03T07:38:00Z",
+          "independenceGroup": "maib",
+          "kind": "official",
+          "observation": "Original vector logo fetched with receipt: two #40C1AC mark paths + navy #253746 lowercase 'maib' wordmark; viewBox 0 0 156 44",
+          "url": "https://www.maib.md/images/logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T07:38:00Z",
+          "independenceGroup": "maib",
+          "kind": "official",
+          "observation": "Official brand-refresh announcement dated 2021-10-07",
+          "url": "https://www.maib.md/en/noutati/maib-has-refreshed-its-brand-modern-agile-innovative"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T07:47:51.706042Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6c9f52d1faa5c9f3ce77f9df851bcd732f7efa4d9bf9a165e2d8a4c984c3992b",
+        "xmlSha256": "3406cacd22fbbe20b43f41936f6d5a474f263f4c40ae6b86b2ca1a62c06060f1"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
