@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-03T17:41:23.072561Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15596/assessed-9a5a882cdaa9133ddfa88805c0a5292e841f4241d0580f0a26d9032adf9db80f.json",
+        "sha256": "9a5a882cdaa9133ddfa88805c0a5292e841f4241d0580f0a26d9032adf9db80f"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The lockup was observed live on the official site on the check date; the mirror asset is geometry-identical to the observed inline artwork.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official homepage header logo on capitalone.com identifies the same entity as record 15596 (US, capitalone.com).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The live official-page observation and the Capital One-published asset (Commons mirror of capitalone.co.uk brand asset) independently support identity and currency of the same lockup design.",
+        "uncertainties": [
+          "No official standalone swoosh-only vector was found; the candidate is the full 418x150 lockup whose square-cell fit and wordmark legibility must be judged on actual renders at candidate review."
+        ],
+        "variant": {
+          "basis": "Current variant is the red swoosh + navy wordmark lockup; the accepted red-disc/white-swoosh roundel is a different, unsupported variant. Candidate is the fetched original vector of the current lockup.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c84d84943726bdc60c0348a0623cfaf44b4f14fe03a4544a347a7d64a75dabd9.json",
+        "sha256": "c84d84943726bdc60c0348a0623cfaf44b4f14fe03a4544a347a7d64a75dabd9"
+      },
+      "baseIconHash": "96ba3d8425330d73cfe6163945ef628e635ff4563a5a615040be56318fbbc66e",
+      "candidate": {
+        "detailsJudgement": "All swoosh strokes and wordmark letterforms from the source vector survive the placement transform; source-final pairs on both themes are visually identical in shape, colors and relative geometry.",
+        "faithful": true,
+        "iconHash": "65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a",
+        "path": "evidence/15596/candidate-65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a.svg",
+        "proportionsJudgement": "Whole-emblem fit complete on the square canvas with equal margins; no clipping. Small-size limitation: at 24-32 px the wordmark is illegible and at 48 px marginal (thin letterforms); the red swoosh remains recognizable on both themes. Disclosed as a limitation for human MR review; no official standalone swoosh-only vector exists.",
+        "rationale": "Variant replacement: the accepted red-disc/white-swoosh roundel is not the mark in current official use; capitalone.com serves the red swoosh + navy wordmark lockup live, and the final bytes derive from a Capital One-published original vector (Commons mirror of capitalone.co.uk/images/c1/brand/logo.svg) whose geometry matches the official inline homepage artwork.",
+        "role": "Full official brand lockup (swoosh over wordmark) as the standalone mark; no separate bank-name text is added — the wordmark is part of the official mark itself.",
+        "sha256": "65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capital_One_logo.svg",
+        "transforms": [
+          "Placement only: the whole 418x150 lockup uniformly scaled by 216/418 and centered on a 240x240 transparent canvas (translate(12 81.2459) scale(0.516746)); no crop, stretch, recolor or emblem edit.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: trial produced 5243 B from 3742 B working (expansion); skipped, working bytes selected — no visual decision involved."
+        ],
+        "variant": "Current official Capital One lockup (red #cc2427 swoosh, navy #013d5b wordmark) replacing an unsupported red-disc roundel variant.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base and final are different variants: base is a red disc with a white swoosh roundel; final is the current official swoosh-over-wordmark lockup. The change replaces an unsupported roundel with the evidenced current brand mark, not a cosmetic reserialization."
+      },
+      "candidateIconHash": "65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a",
+      "checkedAt": "2026-10-03T17:41:23.072561Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "62950ea88e1cceb591d3278aea04ace1221ea67020f1ac2e2adf3a0fe88f443a",
+        "head": "bank-icon-maintenance/15596",
+        "headCommit": "40591e485bbea94d4f035e395dfb2c61fa753712",
+        "number": 69,
+        "observedAt": "2026-10-03T17:52:42.473434Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Capital One Bank (Company.id 15596)",
+        "url": "https://github.com/zenmoney/banks/pull/69"
+      },
+      "reason": "Current official Capital One logo (red swoosh #cc2427 over navy 'Capital One' wordmark #013d5b, viewBox 0 0 418 150) was observed live inline in the capitalone.com homepage header on the check date. The fetched vector is a Capital One-published asset (declared source capitalone.co.uk/images/c1/brand/logo.svg, Commons mirror) with path data matching that official inline artwork — not a traced copy. The accepted base icon is a red-disc/white-swoosh roundel variant not observed in current official use; the current variant is the swoosh+wordmark lockup. Square-cell suitability of the lockup will be judged with actual renders at candidate review.",
+      "reviewPackage": {
+        "path": "evidence/15596/candidate-fb6b6d9a967ef3f37844a904eccbe0d72b693b8e8d4acad44969494e3d3f0499.json",
+        "sha256": "fb6b6d9a967ef3f37844a904eccbe0d72b693b8e8d4acad44969494e3d3f0499"
+      },
+      "sourceCandidate": {
+        "iconHash": "69d918170633be70ec4c0fd57f421ad7b70c59641580a0ee77e929964a157c96",
+        "path": "evidence/15596/research-f7118f7c8cce416384b51034d0fa054f/fetch-a1ae912710ca4ae784e1d29ffdd09c7b/attempt-1/body.bin",
+        "rationale": "Supported variant replacement: the accepted red-disc roundel is not the current official mark; the current official lockup (swoosh + wordmark) is evidenced live on capitalone.com and preserved as an original vector published by Capital One (Commons mirror). This is a rebrand/variant correction, not serialization cleanup.",
+        "retrieval": {
+          "path": "evidence/15596/research-f7118f7c8cce416384b51034d0fa054f/fetch-a1ae912710ca4ae784e1d29ffdd09c7b/receipt.json",
+          "sha256": "5638be38ee8226cc89b725fc5018be309924914e798fac26ce58e1f78e72d1ad"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capital_One_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T17:36:00Z",
+          "independenceGroup": "official site live observation",
+          "kind": "official",
+          "observation": "Official homepage header logo labelled 'Capital One Home' observed live as inline SVG: red swoosh over navy 'Capital One' wordmark; same entity as the catalog record (US, capitalone.com). Receipt fetch-410a8de133e04eaebf3bc7d6bdbaa8e5. source-material extraction of the inline SVG was refused due to external style context.",
+          "url": "https://www.capitalone.com/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg",
+          "checkedAt": "2026-10-03T17:36:00Z",
+          "independenceGroup": "Commons mirror of Capital One published asset",
+          "kind": "third-party",
+          "observation": "Original vector fetched (3746 B, sha256 69d918170633be70ec4c0fd57f421ad7b70c59641580a0ee77e929964a157c96); file page declares source capitalone.co.uk/images/c1/brand/logo.svg (Capital One official). Geometry matches the official inline homepage artwork; independent of the live page fetch only as a mirror of the same publisher's asset.",
+          "url": "https://commons.wikimedia.org/wiki/File:Capital_One_logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T17:46:35.378185Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a",
+        "xmlSha256": "eac6edeadc07e201eda9c996654ecde0fac0adb9c59d526e792ec5c5d87ce225"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
