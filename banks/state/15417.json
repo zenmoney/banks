@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-03T08:16:52.970745Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15417/assessed-3a3dc8da4a9b659fb034b2a41b938b8a48b8ab5297148a4d881c311301ed5f64.json",
+        "sha256": "3a3dc8da4a9b659fb034b2a41b938b8a48b8ab5297148a4d881c311301ed5f64"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official site observed 2026-10-03 serves this mark; brand unchanged, group 2022+ rebrands do not affect the BY entity per the live site.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official alfabank.by favicon and sprite show the standalone A+bar mark for ЗАО «Альфа-Банк» (BY).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Live official site plus encyclopedia corroboration; sprite and favicon are two placements of one official source.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Favicon variant is the standalone solid-red mark without backing; chosen deliberately over the sprite symbol (currentColor, needs context).",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/79f8a7ed417d1d55be4c0737e4431b30105e12f5b413bcffc22465516e6fb6f5.json",
+        "sha256": "79f8a7ed417d1d55be4c0737e4431b30105e12f5b413bcffc22465516e6fb6f5"
+      },
+      "baseIconHash": "f5cf45e02fd47392954f28e825ccba8ab3823c885f60b74a49a2b836ffbd23ab",
+      "candidate": {
+        "detailsJudgement": "All details preserved: counter of the A, gap between A and underline bar, bar proportions, corner rounding; no lost strokes or satellite details.",
+        "faithful": true,
+        "iconHash": "d01a0f640f9907d337a5d5ef47a2dab4a456103c375713d3352a91b109f8cfb1",
+        "path": "evidence/15417/candidate-d01a0f640f9907d337a5d5ef47a2dab4a456103c375713d3352a91b109f8cfb1.svg",
+        "proportionsJudgement": "Complete emblem fits the square cell with comfortable margins on both themes; recognized clearly at 24/32/48 px diagnostics; no stretching or cropping; effective size good at target icon sizes.",
+        "rationale": "Official current design served by alfabank.by: solid red #EF3124 A with detached underline bar on a plain field, correcting the accepted icon's marble-texture avatar and white marking.",
+        "role": "standalone current brand mark (A + detached underline bar)",
+        "sha256": "d01a0f640f9907d337a5d5ef47a2dab4a456103c375713d3352a91b109f8cfb1",
+        "sourceAssetUrl": "https://www.alfabank.by/local/images/favicon.svg",
+        "sourceUrl": "https://www.alfabank.by/",
+        "transforms": [
+          "No geometry or color transformation; working SVG is the byte-faithful original download.",
+          "SVGO 4.1.0 with frozen worktree svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 745 -> 391 bytes, trial selected; output visually identical to working version in side-by-side rsvg renders and converter-compatible in the pinned Desktop export."
+        ],
+        "variant": "solid red #EF3124 mark on transparent field, as served by the official alfabank.by favicon; no circular backing added — the mark is a suitable transparent standalone symbol per background policy",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is the white A+bar over a multicolour marble-texture circular backdrop; final is the official current solid-red mark on a plain field. Supported color/presentation correction to the design currently served by alfabank.by, not a serialization-only change."
+      },
+      "candidateIconHash": "d01a0f640f9907d337a5d5ef47a2dab4a456103c375713d3352a91b109f8cfb1",
+      "checkedAt": "2026-10-03T08:16:52.970745Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ae98ca3ca2728ca97dd6772705e434453a1b08d1488728c652a3c66d2ff1ef86",
+        "head": "bank-icon-maintenance/15417",
+        "headCommit": "ee058ff7a18a71ec65c9dd577ab6983d011b4497",
+        "number": 48,
+        "observedAt": "2026-10-03T08:25:39.305568Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Альфа-Банк (Company.id 15417)",
+        "url": "https://github.com/zenmoney/banks/pull/48"
+      },
+      "reason": "The accepted icon is a white A-mark over a multicolour marble-texture circular backdrop; the official current design served by alfabank.by is the solid red (#EF3124) A with detached underline bar on a plain field. Supported color/presentation correction to the official current mark; standalone square-friendly symbol from the official site.",
+      "reviewPackage": {
+        "path": "evidence/15417/candidate-52da3ddc368a137db9becd191d1cc12c454cd614a3fb11a8166e883090535c1e.json",
+        "sha256": "52da3ddc368a137db9becd191d1cc12c454cd614a3fb11a8166e883090535c1e"
+      },
+      "sourceCandidate": {
+        "iconHash": "7bde4b79753f13ede9f2daf1306ffdaae4914e1cd3d4965793dbfd04e97761b5",
+        "path": "evidence/15417/research-940b10d64a774ef59be55c91edfdfbf6/fetch-fa7c913edfe449929061f4287a5f692b/attempt-1/body.bin",
+        "rationale": "Official current standalone mark: solid red A with underline on transparent field; corrects the accepted icon's marble-texture backdrop and white marking to the official current colors and plain presentation.",
+        "retrieval": {
+          "path": "evidence/15417/research-940b10d64a774ef59be55c91edfdfbf6/fetch-fa7c913edfe449929061f4287a5f692b/receipt.json",
+          "sha256": "c07dfb48d6b15fdb5586cb35dd26ef4d6be04475451cbf4020a23973ae356058"
+        },
+        "sourceAssetUrl": "https://www.alfabank.by/local/images/favicon.svg",
+        "sourceUrl": "https://www.alfabank.by/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.alfabank.by/local/images/favicon.svg",
+          "checkedAt": "2026-10-03T08:00:00Z",
+          "independenceGroup": "alfabank.by official",
+          "kind": "official",
+          "observation": "Live official site (fetched 2026-10-03) serves favicon.svg: 120x120 standalone 'A' mark with detached underline bar, #EF3124, no wordmark; homepage header/footer use the same mark via sprite symbol alfabank_logo (viewBox 0 0 28 44, currentColor).",
+          "url": "https://www.alfabank.by/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T08:02:00Z",
+          "independenceGroup": "wikipedia-ru",
+          "kind": "third-party",
+          "observation": "Alfa-Bank Belarus operates under the Alfa brand; the red A + underline mark is the group's current design (2019+).",
+          "url": "https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%91%D0%B0%D0%BD%D0%BA"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T08:19:22.276285Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d01a0f640f9907d337a5d5ef47a2dab4a456103c375713d3352a91b109f8cfb1",
+        "xmlSha256": "109adf8a5759667570e5baf2a5b75e4b63407950823dc55b2cef7070d593e30a"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
