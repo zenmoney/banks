@@ -1,0 +1,104 @@
+{
+  "lastAttemptAt": "2026-10-03T08:49:41.399918Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15419/assessed-4b215ece48cafe7609a5f8881073f698ee837361c90db29bf0493e0a7b6ac12e.json",
+        "sha256": "4b215ece48cafe7609a5f8881073f698ee837361c90db29bf0493e0a7b6ac12e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The with-underline CA mark is served as the site header logo and touch icon by the operating bank's production site, observed 2026-10-03.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official homepage of Crédit Agricole Ukraine (redirect target credit-agricole.ua) matches the catalog record (КРЕДІ АГРІКОЛЬ БАНК, UA, credit-agricole.com.ua).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Currency rests on the operating brand's own production site (homepage context, served header SVG, touch icon) — authoritative for current use; fetched as separate receipts.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone mark variant (monogram + integral underline bar, no accompanying text) confirmed by the site's own touch-icon presentation; differs from the accepted icon (no underline, off-palette colors), so the accepted icon is not an equivalent serialization.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "f5a5776e94c1b58f4d01f70087629ffc1c5d614958039ec3647431f9ed615b22",
+      "candidate": {
+        "detailsJudgement": "Small details preserved in the exact final renders: red flag accent, teal swash overlap, white gaps between monogram strokes, and the detached underline bar all render crisply at 240px on light and dark themes; no lost strokes or merged shapes.",
+        "faithful": true,
+        "iconHash": "dc59278ddb59bf2045c0edc3a9ae3ad59902b5ca98f064cc116c0159eb5e2a30",
+        "path": "evidence/15419/candidate-dc59278ddb59bf2045c0edc3a9ae3ad59902b5ca98f064cc116c0159eb5e2a30.svg",
+        "proportionsJudgement": "Source proportions preserved: no crop, stretch or distortion; the 60x60 source cell already fits the square catalog cell; the emblem occupies the same relative area as in the source with its own built-in clearances.",
+        "rationale": "Update candidate for 15419 (КРЕДІ АГРІКОЛЬ БАНК): the accepted icon is a non-equivalent variant (CA monogram only, no underline bar, off-palette colors #306D4F/#449A9C/#DB3832). The candidate is derived losslessly from the bank's own production-site vector (logo-credit-agricole-small.svg, Illustrator-exported inline paths) and carries the current official mark: monogram + teal swash + red flag + dark-green underline bar in official colors #008B92/#00664B/#E30613. Working SVG prepared by keeping only the in-viewBox (0 0 60 60) source elements and removing the two white background rects and off-canvas sprite content; no path geometry or paint was redrawn.",
+        "role": "backing",
+        "sha256": "dc59278ddb59bf2045c0edc3a9ae3ad59902b5ca98f064cc116c0159eb5e2a30",
+        "sourceAssetUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+        "sourceUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+        "transforms": [
+          "Extraction of in-viewBox content from the official sprite-style SVG (kept 6 of 88 drawable elements: 5 paths/rects forming the emblem, incl. underline rect x=10.9 y=40.7 36.9x3.3); removed white background rects (x=0 60x60, x=618 160x160) and off-canvas sprite content; added explicit SVG namespace; no geometry or color edits.",
+          "Background-only backing removal: the source's white background rects were dropped, preserving full emblem, official colors and alpha; no circular mask applied (source presentation is transparent-backed emblem on plain field).",
+          "SVGO 4.1.0 with frozen worktree config (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 1095 -> 776 bytes; selected optimized result (evidence/15419/optimize-1/svgo-receipt.json); working vs optimized renders pixel-identical via rsvg-convert (diff bbox None)."
+        ],
+        "variant": "Standalone square-fitting brand mark: CA monogram with integral underline bar, no accompanying wordmark — same variant the bank itself uses as its touch-icon standalone presentation.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base versus final: the accepted icon lacks the dark-green underline bar and uses off-palette colors (#306D4F/#449A9C/#DB3832) versus official #008B92/#00664B/#E30613; the candidate restores the official with-underline variant and exact brand colors. This is a supported variant/color correction against the bank's current official mark, not a serialization-only change. Backing role: the source emblem is a transparent-backed mark on a plain field; only the incidental white background rects were removed (background-only, zero emblem loss); no official circular avatar of this variant was observed, so no circle adaptation was applied; the whole emblem including the detached underline bar survives and is recognizable at catalog size on both themes."
+      },
+      "candidateIconHash": "dc59278ddb59bf2045c0edc3a9ae3ad59902b5ca98f064cc116c0159eb5e2a30",
+      "checkedAt": "2026-10-03T08:49:41.399918Z",
+      "humanReview": "pending",
+      "reason": "Crédit Agricole Ukraine is an operating brand (credit-agricole.ua, live 2026-10-03). Its current official mark is the CA monogram with green underline bar in brand colors (teal #008B92, dark green #00664B, red #E30613), observed on the official homepage header (logo-credit-agricole-small.svg), og:image and touch-icon-144.png. The existing accepted icon.svg (f5a5776e…) is a non-equivalent variant: monogram only, without the underline bar, in off-palette colors #306D4F/#449A9C/#DB3832. A supported update: variant/color correction with an original vector source (Illustrator-exported inline SVG, 82 paths, viewBox 0 0 60 60, served by the bank's own production site).",
+      "reviewPackage": {
+        "path": "evidence/15419/candidate-485fb286692b8b0cab1f254351b34670973730ec9f0105e8d89d1551497fd758.json",
+        "sha256": "485fb286692b8b0cab1f254351b34670973730ec9f0105e8d89d1551497fd758"
+      },
+      "sourceCandidate": {
+        "iconHash": "d6c7c6434def5a95cf0fb02c48f7ba3d1eebbf8dea6ee8081ec46de892e5e8a0",
+        "path": "evidence/15419/research-70205d73f5dd4b9881de418770796b8a/fetch-14cdbf4a339740b59fb21e41f97ddba5/attempt-1/body.bin",
+        "rationale": "Current official logo served by the bank's own production site; genuine original vector (Illustrator-exported inline SVG paths, not a traced copy). Identity confirmed (same CA monogram), currency confirmed (in live use on the operating bank's site, observed 2026-10-03), standalone square-fitting mark (monogram + integral underline bar, no accompanying text), matching the bank's own touch-icon presentation. Differs from the accepted icon in variant (missing underline bar) and brand colors, justifying an update candidate; render gates and human MR review remain in candidate preparation.",
+        "retrieval": {
+          "path": "evidence/15419/research-70205d73f5dd4b9881de418770796b8a/fetch-14cdbf4a339740b59fb21e41f97ddba5/receipt.json",
+          "sha256": "6f9c176cc906644f57163cf38e6e01b334b2b03c96ed16c5c22b529896968902"
+        },
+        "sourceAssetUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+        "sourceUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+          "checkedAt": "2026-10-03T08:36:35Z",
+          "independenceGroup": "official site (primary)",
+          "kind": "official",
+          "observation": "Homepage redirects to https://credit-agricole.ua (330165 bytes, receipt sha256 71f7ec6f23009f0ed2881f08f9cb3b4bf8696f8fefdaf038a41e4502b2b7b314). Header renders <img class=\"stiked-logo\" src=\"/storage/settings/logo-credit-agricole-small.svg\">; og:image logo-ca-320.png; touch icons /storage/settings/touch-icon-144.png. Site is live and branded Crédit Agricole Ukraine (operating bank). Receipt: fetch-6d2b55e73e5445c79e13a9fac3cc3f90.",
+          "url": "https://credit-agricole.com.ua/"
+        },
+        {
+          "assetUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+          "checkedAt": "2026-10-03T08:36:35Z",
+          "independenceGroup": "official site (primary, same publication as homepage header asset)",
+          "kind": "official",
+          "observation": "Original vector: 'Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In', 82 inline <path> elements, viewBox 0 0 60 60, CSS classes st1 #008B92 (teal C/swash), st2 #00664B (green A and underline bar), st3 #E30613 (red flag accent). Contains two white background rects (x=0 60x60, x=618 160x160) and off-canvas sprite content; the 60x60 field renders the full CA logo with underline. sha256 d6c7c6434def5a95cf0fb02c48f7ba3d1eebbf8dea6ee8081ec46de892e5e8a0, 17322 bytes. Receipt: fetch-14cdbf4a339740b59fb21e41f97ddba5.",
+          "url": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg"
+        },
+        {
+          "assetUrl": "https://credit-agricole.ua/storage/settings/touch-icon-144.png",
+          "checkedAt": "2026-10-03T08:36:35Z",
+          "independenceGroup": "official site (primary, corroboration of variant)",
+          "kind": "official",
+          "observation": "144x144 raster (receipt sha256 48f396756560640d990b916352d3d81f7197915126ad151714890b59b0ccf588): CA monogram with green underline bar on white square — confirms the with-underline variant is the bank's current standalone/app mark presentation; raster used as visual research evidence only. Receipt: fetch-7860521834c54e0199e9135a3dffb9aa.",
+          "url": "https://credit-agricole.ua/storage/settings/touch-icon-144.png"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T08:54:05.250096Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "dc59278ddb59bf2045c0edc3a9ae3ad59902b5ca98f064cc116c0159eb5e2a30",
+        "xmlSha256": "b65b1ec3934481f64a4546991becede974ede1f3b60ecb0048ed02fec042ed0f"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
