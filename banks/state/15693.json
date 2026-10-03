@@ -1,0 +1,119 @@
+{
+  "lastAttemptAt": "2026-10-03T22:41:32.540717Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15693/assessed-647d9d3cd4f47852b4aeca13d041e50a7b8605a59a150e0ab78729dd67f5391e.json",
+        "sha256": "647d9d3cd4f47852b4aeca13d041e50a7b8605a59a150e0ab78729dd67f5391e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The 2021-rebrand R app icon is declared current in the official guidelines retrieved live on 2026-10-03; the accepted icon's blue circle with white R is a different variant not present in the official package.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The R glyph is Revolut's own mark, supplied in Revolut's official logo package on developer.revolut.com and confirmed by the official guidelines PDF.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both sources are Revolut's own properties (official guidelines PDF and official logo package), one official provenance group; sufficent because currency of a current operating brand rests on official use.",
+        "uncertainties": [
+          "developer.revolut.com HTML pages returned Cloudflare challenges to the session fetcher; the linked PDF and ZIP assets were fetched live and verified, and link discovery used Wayback CDX of live asset URLs."
+        ],
+        "variant": {
+          "basis": "Standalone app-icon variant: black R on a white square field. The letter forms the mark itself, so it is suitable; the wordmark variant with accompanying text was rejected.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3ca286db5dec8511bc285132810905c41ef5ac7db63ae8c78ef889c722edbf73.json",
+        "sha256": "3ca286db5dec8511bc285132810905c41ef5ac7db63ae8c78ef889c722edbf73"
+      },
+      "baseIconHash": "83caa2f1f2482a3467feefb322c78cf4c4f485edd6ed9678c20734b79986c916",
+      "candidate": {
+        "detailsJudgement": "Black R glyph contours identical to the official app-icon artwork in source/final comparison on both themes; internal transparency outside the circle preserved; white circular field is the source's own uniform field reshaped, no emblem pixel changed.",
+        "faithful": true,
+        "iconHash": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4",
+        "path": "evidence/15693/candidate-4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4.svg",
+        "proportionsJudgement": "Whole-emblem fit confirmed: the R occupies the same central placement as in the 800x800 source; the circular background-only clip (r=400 centered) removes only white canvas corners, no glyph pixel (glyph bounds ~x209-629, y128-672, well inside the circle). Legible at 240px and 32px on both themes; the white field is invisible against a white page but the mark itself remains clear.",
+        "rationale": "Documented rebrand update: the accepted icon is a #1326FD blue circle with a white R (variant not present in official materials); Revolut's official app icon is the black R on a white field, extracted losslessly from the official retail logo package.",
+        "role": "catalog app-icon variant on its official white plain field, presented as a circle",
+        "sha256": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4",
+        "sourceAssetUrl": "https://developer.revolut.com/assets/oba/Main%28Retail%29-Logo-package.zip",
+        "sourceUrl": "https://developer.revolut.com/assets/oba/Main%28Retail%29-Logo-package.zip",
+        "transforms": [
+          "Lossless member extraction of Revolut-01-retail-appicon-FINAL-01.svg from the official logo package zip (source-material replayed from the fetched resource).",
+          "Background-only circular mask: the source's uniform white square field replaced by a same-color circle (clipPath circle cx=400 cy=400 r=400) with transparency outside; black R paths copied unchanged, no scaling, translation or recoloring (plain-field circle rule).",
+          "SVGO 4.1.0 with frozen worktree svgo.config.mjs (sha256 f2a406e0...) trial produced 717 bytes vs 699-byte working version — optimization skipped (larger output); working version fully verified instead."
+        ],
+        "variant": "official 2021-rebrand app icon: black R on white field, circular catalog presentation",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is a blue circle with white R; candidate is a white circle with the official black R — visibly different variant and colors."
+      },
+      "candidateIconHash": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4",
+      "checkedAt": "2026-10-03T22:41:32.540717Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "93c5fad8e900c5500534c59687bfb053763d4ba67be01058ce7c16aab9ef62f9",
+        "head": "bank-icon-maintenance/15693",
+        "headCommit": "1d5ca126c5b151a42b68b15a27146b8ce556a764",
+        "number": 83,
+        "observedAt": "2026-10-03T23:02:37.529376Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Revolut (Company.id 15693)",
+        "url": "https://github.com/zenmoney/banks/pull/83"
+      },
+      "reason": "Accepted icon (sha256 83caa2f1...) is a #1326FD blue circle with a white R — an older/invented-color variant. Revolut's official 2021-rebrand app icon is a black R on a white field, confirmed current by the official Open Banking brand guidelines PDF retrieved live 2026-10-03, and the original app-icon SVG was losslessly extracted from the official retail logo package. Proposed as a candidate replacement.",
+      "reviewPackage": {
+        "path": "evidence/15693/candidate-764eadb7a9139a563ee3097e7265f4fb15fec4ef4fed2bca5d6a71341803ab81.json",
+        "sha256": "764eadb7a9139a563ee3097e7265f4fb15fec4ef4fed2bca5d6a71341803ab81"
+      },
+      "sourceCandidate": {
+        "iconHash": "26e3d5c58905b6ad391f26cda00eccab0493f5316f5559c559b238178b529020",
+        "path": "evidence/15693/research-93f13152aa8f4d91b2d6007f3bfbde24/fetch-10de21e4ec664d97a8056a541ca062fa/attempt-1/body.bin",
+        "rationale": "Official original-vector app icon extracted losslessly from the official retail logo package; supports a documented rebrand/color-corrected update over the accepted non-official blue-circle variant.",
+        "retrieval": {
+          "path": "evidence/15693/research-93f13152aa8f4d91b2d6007f3bfbde24/fetch-10de21e4ec664d97a8056a541ca062fa/receipt.json",
+          "sha256": "91aa19732dcff6122bee2442d7610fa766c6b73892de32577466e2dc81e09dce"
+        },
+        "sourceAssetUrl": "https://developer.revolut.com/assets/oba/Main%28Retail%29-Logo-package.zip",
+        "sourceMaterial": {
+          "path": "evidence/15693/source-material-3ea1236d3c0a43bf8a27ce61c5e15aca/material.json",
+          "sha256": "e923ae0608ab39296e9710120ef9cc9fc9663ff9c4bd63896380a607793377da"
+        },
+        "sourceUrl": "https://developer.revolut.com/assets/oba/Main%28Retail%29-Logo-package.zip"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T22:25:00Z",
+          "independenceGroup": "official-revolut-properties",
+          "kind": "official",
+          "observation": "Official Revolut rebrand guidelines PDF ('Rebrand | revolut | guidelines', 14 pages): the lowercase wordmark is the primary logo and 'the same R from the wordmark is used for the app icon'. Confirms the 2021-rebrand identity as current.",
+          "url": "https://developer.revolut.com/assets/oba/Revolut-Open-Banking-guidelines.pdf"
+        },
+        {
+          "assetUrl": "https://developer.revolut.com/assets/oba/Main%28Retail%29-Logo-package.zip",
+          "checkedAt": "2026-10-03T22:27:00Z",
+          "independenceGroup": "official-revolut-properties",
+          "kind": "official",
+          "observation": "Official downloadable logo package linked from developer.revolut.com open-banking logo guidelines. Contains original Illustrator SVG exports including Revolut-01-retail-appicon-FINAL-01.svg (800x800, white rect + black R); selected losslessly via source-material from the fetched zip. The wordmark SVG was rejected for catalog use because of the accompanying name.",
+          "url": "https://developer.revolut.com/assets/oba/Main%28Retail%29-Logo-package.zip"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T22:52:04.270212Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4",
+        "xmlSha256": "4f7873f6b228d96c43779e72097ab55e28c5855ca1bc6cdf2a6eb4027406ab82"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
