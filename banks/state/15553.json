@@ -1,0 +1,121 @@
+{
+  "lastAttemptAt": "2026-10-03T16:00:13.942857Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15553/assessed-259a1320934228f68d228b73e807ce247a855bd6b1693e4deb71219d62cb32fa.json",
+        "sha256": "259a1320934228f68d228b73e807ce247a855bd6b1693e4deb71219d62cb32fa"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Favicon and pinned-tab SVG fetched live from postbank.de on 2026-10-03; brand portal active. Postbank remains an operating brand under Deutsche Bank AG.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record is Postbank (DE, postbank.de); the official design assets carry the Postbank three-wave mark.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two distinct official assets from postbank.de's design package corroborate each other; the search pass found no contradicting source.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Fetched replacement is the official colored variant: three waves (blue #0a3478, red #e10014) on Postbank yellow #ffcc00. Identical wave geometry to the accepted icon, corrected brand colors.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ba8a730b971b2af87c145db9452e1b26dd11346e2cab170060353c0ede03c30d.json",
+        "sha256": "ba8a730b971b2af87c145db9452e1b26dd11346e2cab170060353c0ede03c30d"
+      },
+      "baseIconHash": "740261befe146cd4ac8422d1bb4b63fd815e10838c72eac71581265f544a2d73",
+      "candidate": {
+        "detailsJudgement": "Wave contours, gaps between waves, corner cuts and relative geometry identical to the source raster; colors exact per official palette; internal shape edges clean at 240px and 24/32/48px diagnostics; no lost detail.",
+        "faithful": true,
+        "iconHash": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a",
+        "path": "evidence/15553/candidate-a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a.svg",
+        "proportionsJudgement": "Emblem proportions preserved by uniform scale; whole emblem fits the circle with even margins (~5px horizontal, ~12px vertical in 54px cell); recognizable and legible at 24px on light and dark themes; no clipping of any wave.",
+        "rationale": "The accepted icon reproduces the Postbank three-wave mark with visibly off-brand colors (yellow #f3c415, blue-violet #201a51, dull red #d33339) compared with the live official postbank.de favicon (#ffcc00 yellow, #0a3478 blue, #e10014 red). The replacement uses the official original vector's exact wave geometry and brand colors; this is a supported color correction, not a rebrand.",
+        "role": "Standalone Postbank three-wave mark (two blue waves, one red wave) on a circular Postbank-yellow catalog field; no accompanying name or slogan.",
+        "sha256": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a",
+        "sourceAssetUrl": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/favicon.svg",
+        "sourceUrl": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/favicon.svg",
+        "transforms": [
+          "Whole-emblem uniform scale 2.9 and translation (3.795, 3.78) of the official favicon.svg wave paths (16x16 grid) onto a 54x54 canvas; no rotation, stretching, recoloring, or path edits.",
+          "Background-only adaptation: the square #ffcc00 source field replaced by a same-color circle of diameter 54; all wave vertices verified inside the circle (max radius 26.4 of 27); emblem geometry byte-derived from the official source.",
+          "SVGO 4.1.0 (config sha256 f2a406e0..., frozen worktree svgo.config.mjs) on a copy: 931 -> 663 bytes; trial selected because it is smaller and visually faithful (max pixel difference 1/255 on a 240px independent rasterizer render); final = optimized trial."
+        ],
+        "variant": "Official colored variant from the live postbank.de favicon.svg: blue #0a3478 and red #e10014 waves on #ffcc00 yellow. Presentation is the catalog circular backing of the plain square yellow field, matching the accepted icon's established circular presentation; no official circular avatar was observed or claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base and final differ visibly in color only: the same wave geometry renders in dull off-brand shades in the base and in the official #ffcc00/#0a3478/#e10014 palette in the final, confirmed in side-by-side Desktop renders on both themes."
+      },
+      "candidateIconHash": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a",
+      "checkedAt": "2026-10-03T16:00:13.942857Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0c0a601bc7072b34bebe029ab84bfbbc178d0ff12361a20ae8b0c1c3fb8cd24e",
+        "head": "bank-icon-maintenance/15553",
+        "headCommit": "87fe25a0a2f5e89d0e11d4aba952e1c89cad14fd",
+        "number": 64,
+        "observedAt": "2026-10-03T16:12:34.521112Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Postbank (Company.id 15553)",
+        "url": "https://github.com/zenmoney/banks/pull/64"
+      },
+      "reason": "Current icon reproduces the Postbank three-wave mark with visibly off-brand colors (#f3c415/#201a51/#d33339) compared with the live official postbank.de favicon (#ffcc00/#0a3478/#e10014). The official favicon.svg (989 bytes, fetched live 2026-10-03) is an original vector of the same mark composition; a color-corrected replacement is warranted.",
+      "reviewPackage": {
+        "path": "evidence/15553/candidate-ddd196b06a3daf12a135f7d6020c239383760e25263eea08ff002e10b7e6ccd8.json",
+        "sha256": "ddd196b06a3daf12a135f7d6020c239383760e25263eea08ff002e10b7e6ccd8"
+      },
+      "sourceCandidate": {
+        "iconHash": "0e6cb3732979dbfa789623fbb8433402ffe739ff86e9116e83db978397838cc2",
+        "path": "evidence/15553/research-72327cc3def84082b3dab379ab220cd6/fetch-17b66dd8502f4914add667642030bc41/attempt-1/body.bin",
+        "rationale": "Official original vector of the current Postbank mark with the correct brand colors; replaces the accepted icon whose identical wave geometry uses visibly off-brand shades (#f3c415/#201a51/#d33339 vs #ffcc00/#0a3478/#e10014). Supported color correction, not a rebrand.",
+        "retrieval": {
+          "path": "evidence/15553/research-72327cc3def84082b3dab379ab220cd6/fetch-17b66dd8502f4914add667642030bc41/receipt.json",
+          "sha256": "520f5241bf843bd66c50a31afad7ee0931848ff057ffc1a58146d522e4721f3c"
+        },
+        "sourceAssetUrl": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/favicon.svg",
+        "sourceUrl": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/favicon.svg",
+          "checkedAt": "2026-10-03T15:55:00Z",
+          "independenceGroup": "postbank.de official design assets",
+          "kind": "official",
+          "observation": "Live official favicon: three-wave swoosh mark on #ffcc00 square field, 989 bytes, sha256 0e6cb3732979dbfa789623fbb8433402ffe739ff86e9116e83db978397838cc2. Original vector, same path composition as the current icon's waves. Receipt: evidence/15553/research-72327cc3def84082b3dab379ab220cd6/fetch-17b66dd8502f4914add667642030bc41/receipt.json",
+          "url": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/favicon.svg"
+        },
+        {
+          "assetUrl": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/safari-pinned-tab.svg",
+          "checkedAt": "2026-10-03T15:55:00Z",
+          "independenceGroup": "postbank.de official design assets",
+          "kind": "official",
+          "observation": "Live official monochrome pinned-tab SVG of the same mark (691 bytes, sha256 225345f2...); corroborates the mark's current use. Receipt: evidence/15553/research-72327cc3def84082b3dab379ab220cd6/fetch-8a88a46739c4438aaf473f72a86195be/receipt.json",
+          "url": "https://www.postbank.de/etc/designs/pb-eccs-pb/icons/safari-pinned-tab.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T15:55:00Z",
+          "independenceGroup": "Postbank brand portal",
+          "kind": "third-party",
+          "observation": "Postbank Brand Portal still exists and licenses Postbank brand assets; Postbank remains an active operating brand ('Postbank - eine Niederlassung der Deutsche Bank AG' per impressum excerpts), so the record keeps the Postbank mark. Accessed via search results, not fetched.",
+          "url": "https://brandportal.postbank.de/de/nutzungsbedingungen"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T16:05:22.576383Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a",
+        "xmlSha256": "60bac5b42d69266b44843291471bd6121e0f872c6af956725ffdb6dce6515aa5"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
