@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64">
+    <path
+            fill="#6a062b"
+            d="M0 64h64L32 32Z"/>
+    <path
+            fill="#a2072e"
+            d="M0 0v64l32-32Z"/>
+    <path
+            fill="#c41230"
+            d="M64 .01H.01v.01l32 31.99z"/>
+    <g clip-path="url(#a)">
+        <path
+                fill="#ef3e42"
+                d="M.01 0H64v32.01H.01z"/>
+    </g>
+    <defs>
+        <clipPath id="a">
+            <path d="M64 .01H.01v.01l32 31.99z"/>
+        </clipPath>
+    </defs>
+</svg>
