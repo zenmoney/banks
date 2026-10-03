@@ -1,0 +1,10 @@
+--- base/15540/icon.svg
++++ candidate/15540/icon.svg
+@@ -1,4 +1,4 @@
+-<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
+-    <path d="M7.00037 0H47.4558L47.5449 33.6832L27.139 54V13.6337L7.00037 33.5941V0Z" fill="#FDB913" />
+-    <path d="M47.5446 0H7.08911L7 33.6832L27.4059 54V13.6337L47.5446 33.5941V0Z" fill="#00A195" />
++<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" fill="none" viewBox="0 0 54 54">
++    <path fill="#00a296" d="m27.067 53.9955 20.198-20.2351V.0299H6.7869v33.7305z"/>
++    <path fill="#f3c000" d="M47.2649 33.7604 27.0672 13.525v40.4704z"/>
+ </svg>
