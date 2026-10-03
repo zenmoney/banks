@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-03T20:35:56.983987Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15649/assessed-ea1abaae52e40cbfa6969b882ef8143b62257a21d365eac2cf717d609a7689be.json",
+        "sha256": "ea1abaae52e40cbfa6969b882ef8143b62257a21d365eac2cf717d609a7689be"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "MBANK brand launched Feb 2023, legal rename registered 2025-01-30, licenses replaced 2025-02-05; mbank.kg live site (fetched 2026-10-03) uses the MBANK mark in its header and publishes it as the current brand kit.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record 15649 'Кыргызстан Коммерциялык банкы' (fullTitle 'Коммерческий банк Кыргызстан (MBANK)', url cbk.kg) is the same legal entity that now operates as MBANK (mbank.kg); the catalog metadata itself names MBANK. Fetched mark matches the MBANK brand published on the bank's own site.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official brand page assets are corroborated by the bank's rebrand announcements and an independent KSE listing document; the icon-only vector and the ICO raster come from different site files and agree.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Icon-only rounded-square app-mark variant observed as the site favicon (SVG vector and 64px ICO raster agree); the wordmark lockup exists separately and is deliberately not used because accompanying lettering is not catalog-suitable. Backing is the source's own branded gradient rounded square with internal transparency outside it.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/a2bf3ae2aa772fffe680201c7485ac026ba8c2e9d95ecdee9f7391d926c863f3.json",
+        "sha256": "a2bf3ae2aa772fffe680201c7485ac026ba8c2e9d95ecdee9f7391d926c863f3"
+      },
+      "baseIconHash": "5b52828e19dfbd26895b5664a3af8bea6d281571251eb0518ea37c0eaeb50f73",
+      "candidate": {
+        "detailsJudgement": "Both 'M' strokes with rounded terminals preserved; yellow (#FABF00) and white fills and the teal-green gradient backing match the source; rounded-square contour and outside transparency intact; only the drop shadow is absent.",
+        "faithful": true,
+        "iconHash": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1",
+        "path": "evidence/15649/candidate-26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1.svg",
+        "proportionsJudgement": "Rounded square fills the cell with even margins; emblem centered at its observed position; recognizable at 24/32/48 px on both themes; no clipping, distortion or stretching.",
+        "rationale": "Supported rebrand: OAO 'Коммерческий банк Кыргызстан' launched the MBANK brand (Feb 2023) and was legally renamed (registered 2025-01-30); the accepted icon still shows the older abstract mark. The current official icon-only MBANK mark replaces it.",
+        "role": "Official icon-only app/site mark of MBANK, served by mbank.kg as its favicon SVG alongside the brand kit on the official logo page.",
+        "sha256": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1",
+        "sourceAssetUrl": "https://mbank.kg/_next/static/media/favicon2.c2389d75.svg",
+        "sourceUrl": "https://mbank.kg/ru/guide_logo",
+        "transforms": [
+          "Presentation adaptation: removed the source's Gaussian drop-shadow filter (<filter> with feFlood/feColorMatrix/feGaussianBlur) because the pinned Svg2Vector converter rejects filter elements; emblem paths, gradient backing and geometry unchanged.",
+          "Optimization: SVGO 4.1.0 (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e), working-no-shadow 1334 bytes -> selected final 26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1 (1233 bytes); rsvg render pixel-identical between working-no-shadow and optimized."
+        ],
+        "variant": "Yellow and white 'M' stroke pair on the source's own rounded-square teal-to-green gradient backing; transparency outside the rounded square. Wordmark lockup deliberately not used.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base is the older abstract yellow-chevron/teal-circle mark; final is the current MBANK app mark with its gradient rounded-square backing. The difference is the documented 2023-2025 rebrand, not serialization."
+      },
+      "candidateIconHash": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1",
+      "checkedAt": "2026-10-03T20:35:56.983987Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f7714d612c308016fbcc5cb3265d6198f82311049e84eea96de9142d308c392a",
+        "head": "bank-icon-maintenance/15649",
+        "headCommit": "2b388ce4ba3d15457c22b940673f949ac3368b35",
+        "number": 78,
+        "observedAt": "2026-10-03T21:02:22.198159Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Кыргызстан Коммерциялык банкы (Company.id 15649)",
+        "url": "https://github.com/zenmoney/banks/pull/78"
+      },
+      "reason": "Bank rebranded from Коммерческий банк Кыргызстан to MBANK: brand launched Feb 2023 (mbank.kg), re-registered as OAO 'Мбанк' 2025-01-30, licenses replaced 2025-02-05. The existing icon shows the older abstract yellow-chevron/teal mark; the bank's current official identity is the MBANK mark, whose icon-only variant (yellow+white 'M' strokes on a teal-to-green gradient rounded square) is served by the bank's own site as an original vector favicon SVG.",
+      "reviewPackage": {
+        "path": "evidence/15649/candidate-a165fe17b2a3492d55dbd4cfa361e4be6210c26f0e6359cf9102dd503602330f.json",
+        "sha256": "a165fe17b2a3492d55dbd4cfa361e4be6210c26f0e6359cf9102dd503602330f"
+      },
+      "sourceCandidate": {
+        "iconHash": "7781b40a3c37af79875b90e09726e8ca13c9ac2a46855d4745f83489bb8461a1",
+        "path": "evidence/15649/research-1897f187d0de42cf815858e6cb970aa9/fetch-2bda2bd83deb4f2e8d9afa63ea170e67/attempt-1/body.bin",
+        "rationale": "Official icon-only original vector of the current MBANK mark from the bank's own site (fetched from the brand page context https://mbank.kg/ru/guide_logo): self-contained 56x56 SVG, two 'M' stroke paths plus rounded-square teal-green gradient backing; no embedded raster, no tracing. Replaces the pre-rebrand abstract mark with the current evidenced design.",
+        "retrieval": {
+          "path": "evidence/15649/research-1897f187d0de42cf815858e6cb970aa9/fetch-2bda2bd83deb4f2e8d9afa63ea170e67/receipt.json",
+          "sha256": "daa4ae0325f1687a8a2251768318c66bc386b59d40a706139e6cc7a2909c3cc7"
+        },
+        "sourceAssetUrl": "https://mbank.kg/_next/static/media/favicon2.c2389d75.svg",
+        "sourceUrl": "https://mbank.kg/ru/guide_logo"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://mbank.kg/_next/static/media/favicon2.c2389d75.svg",
+          "checkedAt": "2026-10-03T20:35:44Z",
+          "independenceGroup": "mbank.kg official brand page and its own assets",
+          "kind": "official",
+          "observation": "Official brand/logo page of mbank.kg (fetched 2026-10-03) publishes the MBANK logo kit: full/white/black SVG wordmark lockups, EPS variants, brand-guideline ZIP/PDF. The site's favicon SVG (favicon2.c2389d75.svg, fetched 2026-10-03) is a self-contained 56x56 original vector of the icon-only mark: yellow and white 'M' strokes on a rounded-square teal-to-green gradient backing, matching the 64px ICO favicon raster inspected as research evidence.",
+          "url": "https://mbank.kg/ru/guide_logo"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T20:35:44Z",
+          "independenceGroup": "mbank.kg official announcements",
+          "kind": "official",
+          "observation": "Bank's own news page documents the rebrand of OAO 'Коммерческий банк Кыргызстан' to the MBANK brand; corroborated by 2025 registration/license news items found via search.",
+          "url": "https://mbank.kg/en/news/bank-kyrgyzstan-teper-mbank"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T20:35:44Z",
+          "independenceGroup": "kse.kg regulator/listing source",
+          "kind": "third-party",
+          "observation": "Kyrgyz Stock Exchange listing audit document (June 2025) refers to the renamed bank, independently corroborating the legal renaming timeline found in the bank's announcements.",
+          "url": "https://www.kse.kg/Listing/KAKB-auditreport-2025-06-20.pdf"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T20:49:40.334175Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1",
+        "xmlSha256": "a7596e07967668f0eac4f054a0e190247f4457359b671ff7c932fa8e0f119163"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
