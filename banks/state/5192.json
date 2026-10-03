@@ -1,0 +1,128 @@
+{
+  "lastAttemptAt": "2026-10-03T06:08:39.152613Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/5192/assessed-f77416a8ef193eb45507c762f9c8b0a7d6a68b824ebb6461d8a94b1b9f57f5bc.json",
+        "sha256": "f77416a8ef193eb45507c762f9c8b0a7d6a68b824ebb6461d8a94b1b9f57f5bc"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Operating bank is confirmed by regulator; bank-controlled currently served loyalty page uses the same magenta P and Ренессанс Банк lockup as preserved original vector. Original creation/upload dates are historical provenance, while current use is evidenced by the fetched official page and header.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata official domain and legal name match programme footer and independent regulator registration 3354; consumer-brand name on original source is Ренессанс Банк, same entity.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Commons is a mirror of bank-origin vector, not independent proof of currency. Bank-hosted programme supplies actual current-use context; regulator independently establishes legal identity and active status.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Complete magenta standalone P is the source's first explicit path, visually matched against official header. It fits a square without accompanying text; retain all original geometry and #FF0078. Full wide lockup itself is unsuitable; isolate the mark without tracing or recoloring.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/987ad2523a8ad17e758a2fcb02a8ceeb0b2443fc09d5d46b9faa71cac5e0283a.json",
+        "sha256": "987ad2523a8ad17e758a2fcb02a8ceeb0b2443fc09d5d46b9faa71cac5e0283a"
+      },
+      "baseIconHash": "04d8e5c34eb72a38633c174615ff68f6b0bf122a627b553b2694fd189f763e60",
+      "candidate": {
+        "detailsJudgement": "Full source and both source/final views show same complete round upper shoulder, bowl, vertical stem and vertical lower-arm terminal. Working/trial independent theme images identical; working selected as smaller. No emblem redrawing or recoloring.",
+        "faithful": true,
+        "iconHash": "3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e",
+        "path": "evidence/5192/candidate-3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e.svg",
+        "proportionsJudgement": "Exact emblem viewport and complete original contour preserved, with internal transparency. Compose light/dark and bound 24/32/48px diagnostics show useful square-sized mark without clipping; no backing is required for contrast.",
+        "rationale": "Correct lower-arm terminal and preserve current bank source magenta emblem instead of unsupported white-on-pink-circle interpretation.",
+        "role": "Standalone P monogram; separate bank wordmark omitted.",
+        "sha256": "3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg",
+        "transforms": [
+          "Isolated complete first source path; resolved its original .cls-1 paint to #ff0078; removed separate wordmark; adjusted viewport to exact emblem bounds [55.02,55.03,187.08,187.08], without altering path geometry.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e:369 ->374 bytes; retain faithful smaller working version."
+        ],
+        "variant": "Original transparent #FF0078 P emblem from bank-origin vector corroborated by currently served official programme header. No added background.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before uses smaller white P with diagonal lower-arm terminal on #EA3378 circle. After uses full-size original magenta #FF0078 P with vertical terminal and transparency; source geometry and paint correction, not reserialization."
+      },
+      "candidateIconHash": "3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e",
+      "checkedAt": "2026-10-03T06:08:39.152613Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "685b950ba5502969e942f282b7b5871286a0ad742c6556a0d77cf32df48aba7e",
+        "head": "bank-icon-maintenance/o16z6s_l-5192",
+        "headCommit": "c8068b161da0a23d5c44b1ef5afbc97a2d2c66d1",
+        "number": 42,
+        "observedAt": "2026-10-03T06:19:17.419515Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+        "url": "https://github.com/zenmoney/banks/pull/42"
+      },
+      "reason": "An original vector lockup sourced from the bank website is preserved on Commons, and its standalone magenta P emblem matches the currently served official programme header. The operating bank remains legally КБ Ренессанс Кредит (ООО), registration 3354, while its consumer brand is Ренессанс Банк. The accepted white emblem differs: its lower horizontal arm has a diagonal terminal, whereas the supported original has a vertical terminal; its backing is #EA3378 rather than source emblem #FF0078. Propose faithful isolation of the source magenta emblem, not recoloring it white or retaining an unsupported backing.",
+      "reviewPackage": {
+        "path": "evidence/5192/candidate-1eb522f313679f5c58971e9800ab4203b2961104199167a0d9a9ccd36ba67140.json",
+        "sha256": "1eb522f313679f5c58971e9800ab4203b2961104199167a0d9a9ccd36ba67140"
+      },
+      "sourceCandidate": {
+        "iconHash": "70de0ee01dde6104eae437e8882d85d0c8954597ecae1c1412c0a4df78a61de8",
+        "path": "evidence/5192/research-f20ff69e747042a7ae43d9c25fa402bd/fetch-b72f4ecc42954ec4a7582d7d72863e98/attempt-1/body.bin",
+        "rationale": "Correct baseline's unsupported diagonal terminal using the current bank's sourced original standalone magenta emblem. Preserve first-path geometry and color; remove separate lettering. Presentation becomes a transparent magenta mark rather than unsupported white-on-#EA3378 circular adaptation; justify and review that difference separately.",
+        "retrieval": {
+          "path": "evidence/5192/research-f20ff69e747042a7ae43d9c25fa402bd/fetch-b72f4ecc42954ec4a7582d7d72863e98/receipt.json",
+          "sha256": "47a4a5b5370edbf96845090b5ca0f5efe5fa590d9e65e3fcfdc90bc78e909fd0"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T05:58:16Z",
+          "independenceGroup": "bank official publications",
+          "kind": "official",
+          "observation": "Main bank homepage returned HTTP 403; preserved failure receipt. This is not a successful logo observation.",
+          "url": "https://rencredit.ru/"
+        },
+        {
+          "assetUrl": "https://static.tildacdn.com/tild6230-6336-4538-a666-353035386663/RB_LOGO_COL_RGB.png",
+          "checkedAt": "2026-10-03T05:58:16Z",
+          "independenceGroup": "bank official publications",
+          "kind": "official",
+          "observation": "Currently served bank-controlled loyalty page is titled Ренессанс Банк and footer identifies КБ Ренессанс Кредит (ООО), licence 3354. Downloaded header image was visually inspected: magenta open P mark with vertical lower-arm terminal, beside dark two-line Ренессанс Банк wordmark. Raster is visual corroboration only; footer copyright 2007–2024 is not a 2026 publication date.",
+          "url": "https://promo.rencredit.ru/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "checkedAt": "2026-10-03T05:58:16Z",
+          "independenceGroup": "bank original asset mirrored by Commons",
+          "kind": "third-party",
+          "observation": "File page explicitly gives source https://rencredit.ru/, date 2022, author Ренессанс Банк and upload 12 May 2023. Original 3532-byte SVG consists of clean source paths and paint styles (#FF0078 emblem, #323E48 wordmark), with no raster embedding. Rendered full original was inspected and visually matches official programme header. Its complete first path is a separable standalone mark; accompanying lettering must not be included in catalog candidate.",
+          "url": "https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T05:58:16Z",
+          "independenceGroup": "Bank of Russia regulator",
+          "kind": "official",
+          "observation": "Bank of Russia current record identifies КБ Ренессанс Кредит (ООО), full legal name Коммерческий банк Ренессанс Кредит (Общество с ограниченной ответственностью), registration 3354, status Действует, bank with universal licence. Confirms operating entity rather than successor substitution.",
+          "url": "https://cbr.ru/finorg/foinfo/?id=1315037839440"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T06:13:02.686655Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e",
+        "xmlSha256": "7669f2ce2038e96e2936aa6f4d67e5147cb9011a4bbe161e80217ad07f878a67"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
