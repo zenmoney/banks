@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-03T12:46:30.298863Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15486/assessed-a8c53bc94002913178d0cbd5badd316a43871918623d70052968abe54f666b22.json",
+        "sha256": "a8c53bc94002913178d0cbd5badd316a43871918623d70052968abe54f666b22"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live site fetched 2026-10-03 serves the cyan flag as favicon and header logo.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "vtb-bank.kz is the official site of АО «Банк ВТБ (Казахстан)» per record metadata (ID/country/url).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from the bank's own live site (favicon and header logo, same fetch context); identity anchored by record metadata.",
+        "uncertainties": [
+          "Platform rendering beyond Desktop Compose was not exercised; Android/iOS checks are not-tested because no emulator/iOS tooling is available."
+        ],
+        "variant": {
+          "basis": "Current variant is the bare flag of three slanted bars in #00AAFF; the base icon is the older circled badge with white bars on #009FDF — a supported presentation/color update, same underlying symbol.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c375930ced4bd399a585d757f3872228ef5157dbe5d47d3342a969aaa967076b.json",
+        "sha256": "c375930ced4bd399a585d757f3872228ef5157dbe5d47d3342a969aaa967076b"
+      },
+      "baseIconHash": "5c96668e7bbc621cad4840cebc706467fda2a69b0aecd33b475a2136fe3e2a67",
+      "candidate": {
+        "detailsJudgement": "Edges crisp at 240px; the three bars render with sharp corners, uniform #00AAFF fill, no artifacts from optimization on either theme.",
+        "faithful": true,
+        "iconHash": "f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4",
+        "path": "evidence/15486/candidate-f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4.svg",
+        "proportionsJudgement": "The flag's 20x13 aspect is preserved (viewBox unchanged); in the square catalog cell it letterboxes centered, which matches the source proportions without stretching.",
+        "rationale": "The bank's own live site serves this exact flag (favicon.svg) and the same flag in its header logo.svg as the current brand symbol of VTB Kazakhstan; the base icon is the older circled badge variant with a superseded blue. Supported currency/presentation update from an original vector with receipt-bound provenance.",
+        "role": "standalone-symbol: the mark is used bare (transparent background) on the bank site; no enclosing circle in the current variant. Kept as the transparent mark without inventing a backing.",
+        "sha256": "f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4",
+        "sourceAssetUrl": "https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/favicon.svg",
+        "sourceUrl": "https://vtb-bank.kz",
+        "transforms": [
+          "SVGO 4.1.0 with the frozen worktree svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): input 321 bytes -> trial 270 bytes; path data unchanged at precision 4, fill #00AAFF serialized as #0af (same color), wrapper <g> and redundant attrs removed.",
+          "Selected the optimized trial as final bytes (sha256 f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4) after working-versus-optimized comparison with rsvg at 240px on white: visually identical; no other geometry, color or transparency change was made."
+        ],
+        "variant": "bare three-slanted-bar flag in #00AAFF on transparent; replaces the older white-bars-on-#009FDF-circle badge",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Deliberate: the update replaces the older circled white-bars badge with the current bare cyan flag, exactly as the bank presents its symbol today. Within the source-versus-final comparison there is no unintended difference."
+      },
+      "candidateIconHash": "f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4",
+      "checkedAt": "2026-10-03T12:46:30.298863Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "591edbe4398ec7f4a8a3fe795fe82d72bc9c3597efed339619f6364b14ab3998",
+        "head": "bank-icon-maintenance/vtb-kz-15486",
+        "headCommit": "16ea0cd99a7d8aa5bfcb32381c6f6d5af0ebae12",
+        "number": 57,
+        "observedAt": "2026-10-03T12:58:51.381639Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ВТБ (Казахстан) (Company.id 15486)",
+        "url": "https://github.com/zenmoney/banks/pull/57"
+      },
+      "reason": "The base icon (blue circle #009FDF with white slanted bars, app-badge style) is an older variant. The bank's own live site uses the current VTB flag — three slanted bars in refreshed cyan #00AAFF on transparent, no enclosing circle — both as its favicon.svg and in its header logo.svg (flag + #002882 wordmark). Supported currency/color/presentation update; original vector available directly from the bank site.",
+      "reviewPackage": {
+        "path": "evidence/15486/candidate-b861470efa84aa29285cd98433b23cd94e3ad514d4906dc0d3ed45dd1c13520a.json",
+        "sha256": "b861470efa84aa29285cd98433b23cd94e3ad514d4906dc0d3ed45dd1c13520a"
+      },
+      "sourceCandidate": {
+        "iconHash": "7e4bd5ee3bf81542c75cf0eb300e9d14f657474aaac1ccb77b487fd3a89e40f8",
+        "path": "evidence/15486/research-e95c8c711ea34cc286e07b3e4bdc15c4/fetch-1ea26eb745b44bf69dbb77dd4277fea9/attempt-1/body.bin",
+        "rationale": "Direct original SVG served by the bank's own site as its favicon (favicon.svg, 321 bytes, receipt-bound); the same flag variant appears in the site's header logo.svg, confirming it as the current brand symbol of VTB Kazakhstan. Self-contained vector, no scripts, external resources or raster.",
+        "retrieval": {
+          "path": "evidence/15486/research-e95c8c711ea34cc286e07b3e4bdc15c4/fetch-1ea26eb745b44bf69dbb77dd4277fea9/receipt.json",
+          "sha256": "7c52c33bc263f9e6d982d3f0e47f95074633a7d04aae8e91785c9b8b07acc4ed"
+        },
+        "sourceAssetUrl": "https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/favicon.svg",
+        "sourceUrl": "https://vtb-bank.kz"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/favicon.svg",
+          "checkedAt": "2026-10-03T12:41:00Z",
+          "independenceGroup": "vtbkz-site",
+          "kind": "official",
+          "observation": "Live homepage references favicon.svg and logo.svg; head shows the current slanted-bars flag as the site icon.",
+          "url": "https://vtb-bank.kz"
+        },
+        {
+          "checkedAt": "2026-10-03T12:41:00Z",
+          "independenceGroup": "vtbkz-site",
+          "kind": "official",
+          "observation": "Header logo is the same cyan flag plus #002882 ВТБ wordmark — same symbol variant as the favicon.",
+          "url": "https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T12:48:20.724935Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4",
+        "xmlSha256": "857ab87e9061c56408bc5c6cd2300e16cb7c7c5b7d2c32fd87c3bb690253cf86"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
