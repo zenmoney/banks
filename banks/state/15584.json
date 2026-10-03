@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-03T16:53:31.791096Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15584/assessed-e545bd88a6d11bcdb8ecb53e6beed862455f20b8537dc8c19760a3b4b75ce714.json",
+        "sha256": "e545bd88a6d11bcdb8ecb53e6beed862455f20b8537dc8c19760a3b4b75ce714"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Historical independent brand retained in catalog: full services suspended February 2020, 2022 solvent wind-down. Chosen source is the same original ePayments brand mark published on its dated September 2022 closure article (resource path 2018/07, not claimed as publication date); appropriate final independent-brand/wind-down period rather than successor.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Exact ePayments name and epayments.com metadata link to official ePayments blog; footer and independent decision identify ePayments Systems Ltd. Unknown catalog country is left unknown.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official pages establish artwork and closure announcement; independently authored Financial Ombudsman decision corroborates legal entity/lifecycle. Seeklogo listing corroborates name/domain only and is unnecessary to candidate provenance.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original official SVG contains discrete red standalone swirled lowercase e, separate from black Payments lettering. Its meaningful contours and internal transparency suit square cell; preserve #E5353E and all path data. Working copy removes only separate wordmark and changes viewport to 32 square. No field or circle is added. Final theme/small-size checks remain for coordinator.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/8cbbe0254910a6af5636d618b9a9b663e54e7785071b1318d69d99c706f5f016.json",
+        "sha256": "8cbbe0254910a6af5636d618b9a9b663e54e7785071b1318d69d99c706f5f016"
+      },
+      "baseIconHash": "a263c2842374138f045f8468c5ebc0c95990ca1364d91beec9642d016b3c9022",
+      "candidate": {
+        "detailsJudgement": "Full original source raster and exact source/final light/dark pairs preserve all swirl tips, central counter, path curvature, red and internal transparency. Actual final Compose renders are crisp, complete and unclipped.",
+        "faithful": true,
+        "iconHash": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb",
+        "path": "evidence/15584/candidate-1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb.svg",
+        "proportionsJudgement": "Standalone original emblem fills square cell with full tips and counter preserved, no stretching or excessive shrinking. Both themes show clear complete emblem and transparent gaps.",
+        "rationale": "Correct accepted #EB4846 red and contours to official period-specific #E5353E original-vector standalone emblem. No successor and no raster tracing.",
+        "role": "Standalone swirled lowercase e brand emblem, not accompanying text.",
+        "sha256": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb",
+        "sourceAssetUrl": "https://blog.epayments.com/content/images/2018/07/logo-black.svg",
+        "sourceUrl": "https://blog.epayments.com/epayments-has-decided-to-close-the-business/",
+        "transforms": [
+          "Remove only separate black Payments wordmark; preserve complete original red path and inherited evenodd rule. Viewport 0 0 145 32 becomes standalone 0 0 32 32 with 54px dimensions. No backing, circle, tracing, recoloring or distortion.",
+          "SVGO 4.1.0 frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 4212 to 4094 bytes; selected SHA256 1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb. Equal-size librsvg working/trial white/dark pairs inspected: faithful contours, tapered tips, central counter, color and alpha."
+        ],
+        "variant": "Historical ePayments official red #E5353E transparent emblem from dated September 2022 wind-down publication.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Source-backed #E5353E red corrects accepted #EB4846; original contour details replace approximate geometry, not a rebrand or serialization-only change."
+      },
+      "candidateIconHash": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb",
+      "checkedAt": "2026-10-03T16:53:31.791096Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "113148eee58204a686eac1f86665316898018582960b951804520f92b3cbe71b",
+        "head": "bank-icon-maintenance/dtma6l0b-15584",
+        "headCommit": "f5f7b05955bc8db3833f8ccad9980f1a9a5f2836",
+        "number": 67,
+        "observedAt": "2026-10-03T17:15:40.528964Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ePayments (Company.id 15584)",
+        "url": "https://github.com/zenmoney/banks/pull/67"
+      },
+      "reason": "Same historical ePayments brand, not a successor: official 12 September 2022 wind-down article carries an original red swirled e vector. Accepted icon uses #EB4846; official original uses #E5353E and subtly different contour detail. Source-backed color and geometry correction, not a rebrand or serialization change.",
+      "reviewPackage": {
+        "path": "evidence/15584/candidate-d303bcfd1ddc709fa03d3941ce82ed85b98a2e237015b2733bb5ac56e9b40275.json",
+        "sha256": "d303bcfd1ddc709fa03d3941ce82ed85b98a2e237015b2733bb5ac56e9b40275"
+      },
+      "sourceCandidate": {
+        "iconHash": "f090c0613ba74bf3fe914a72bac03828bbd03c1eddafa27af63b8aaa64e6ea61",
+        "path": "evidence/15584/research-dcdb1648fc6846069e3261d57cc65bad/fetch-678b198adf9b4c6fa1f3af71aeafaa41/attempt-1/body.bin",
+        "rationale": "Correct accepted #EB4846 red and contours to official period-specific #E5353E original-vector standalone emblem. No successor and no raster tracing.",
+        "retrieval": {
+          "path": "evidence/15584/research-dcdb1648fc6846069e3261d57cc65bad/fetch-678b198adf9b4c6fa1f3af71aeafaa41/receipt.json",
+          "sha256": "8647426a9011f20749e68b9f805f49d322fd3bfaad0d7ffeb685454839f88025"
+        },
+        "sourceAssetUrl": "https://blog.epayments.com/content/images/2018/07/logo-black.svg",
+        "sourceUrl": "https://blog.epayments.com/epayments-has-decided-to-close-the-business/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://blog.epayments.com/content/images/2018/07/logo-black.svg",
+          "checkedAt": "2026-10-03T16:52:16.811934Z",
+          "independenceGroup": "epayments-official",
+          "kind": "official",
+          "observation": "Article visibly dated 12 September 2022; publication metadata 2022-09-12T09:55:20Z. Says orderly solvent wind-down, would not return to full operations. Page includes logo-black.svg in header and schema publisher logo; source is genuine self-contained vector with black separate lettering and red #E5353E standalone swirled e. Full source independently rendered and inspected.",
+          "url": "https://blog.epayments.com/epayments-has-decided-to-close-the-business/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T16:52:16.811934Z",
+          "independenceGroup": "epayments-official",
+          "kind": "official",
+          "observation": "Current official website states ePayments has begun closing its doors and orderly solvent wind-down. Footer identifies ePayments Systems Ltd, FCA e-money entity. Inline header SVG extraction blocked due external CSS; not used as replacement.",
+          "url": "https://www.epayments.com/updates.html"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T16:52:16.811934Z",
+          "independenceGroup": "financial-ombudsman",
+          "kind": "third-party",
+          "observation": "Independent Ombudsman decision names Epayments Systems Ltd, records 11 February 2020 FCA limitations, 23 February 2022 refund review, September 2022 closure announcement and 11 November 2022 refund suspension. This corroborates lifecycle without attributing a successor.",
+          "url": "https://www.financial-ombudsman.org.uk/decision/DRN-4090927.pdf"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T17:00:23.326601Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb",
+        "xmlSha256": "bb766cb10a3a469e3a7dc9393358976ee13520f1f8a8004bce71666382396ab1"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
