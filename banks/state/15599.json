@@ -1,0 +1,130 @@
+{
+  "lastAttemptAt": "2026-10-03T17:41:48.675233Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15599/assessed-651aff159c9beaa9855147687788481263e4a69cfc706b0e0a77f0df2748c910.json",
+        "sha256": "651aff159c9beaa9855147687788481263e4a69cfc706b0e0a77f0df2748c910"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Continuous use of the symbol since 1968 (press) and current official usage (gov.br displays the blue BB symbol) support currency for this operating bank.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The grafema is the Banco do Brasil symbol; the Commons file cites the official bb.com.br origin asset and the entity matches record 15599 (BR, bb.com.br).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Commons mirror of the official asset, independent press, and government-site usage are mutually independent confirmations of identity and currency of the symbol design.",
+        "uncertainties": [
+          "The candidate's official blue #465eff and the accepted #2360a5 both read as BB blue; whether the color correction is a meaningful improvement is judged on actual base/final renders at candidate review."
+        ],
+        "variant": {
+          "basis": "Candidate is the standalone official-color grafema (blue #465eff, transparent). The accepted icon carries the same geometry in #2360a5 on a yellow rounded-square field; geometry is identical, colors and backing differ.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/132ae0bedb47dc91a61e6173aaba714e66e9a5af965d3e7954c5230086bcfbfb.json",
+        "sha256": "132ae0bedb47dc91a61e6173aaba714e66e9a5af965d3e7954c5230086bcfbfb"
+      },
+      "baseIconHash": "53721e4b8c7c8790911606bb5f2cc805755a7665b6cdc07d46fb647ca43703fd",
+      "candidate": {
+        "detailsJudgement": "All grafema contours, notches and satellite strokes identical between source and final; source-final pairs on both themes show the same geometry, color and internal transparency.",
+        "faithful": true,
+        "iconHash": "8bab85b815289ab2d33a8103ffabc3ddea494db0a86ebfc3f7fa0e1a1dfd7766",
+        "path": "evidence/15599/candidate-8bab85b815289ab2d33a8103ffabc3ddea494db0a86ebfc3f7fa0e1a1dfd7766.svg",
+        "proportionsJudgement": "Complete fit preserved at observed placement (full-bleed source canvas, no clipping); mark remains clearly recognizable at 24/32/48 px diagnostics on both themes with strong contrast; transparent background keeps useful emblem size.",
+        "rationale": "Color/presentation correction toward the official-origin asset: the final bytes are the BB grafema from the official bb.com.br login-logo asset (Commons mirror), official blue #465eff on transparency, replacing the accepted icon's darker #2360a5 fill on a yellow #fff22d rounded-square field. Geometry is identical; the change aligns color and standalone presentation with the cited official asset.",
+        "role": "Standalone official symbol (grafema) on transparency; the source is a transparent standalone mark so no backing is added.",
+        "sha256": "8bab85b815289ab2d33a8103ffabc3ddea494db0a86ebfc3f7fa0e1a1dfd7766",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Logotipo_do_Banco_do_Brasil_%28s%C3%ADmbolo%29.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logotipo_do_Banco_do_Brasil_(s%C3%ADmbolo).svg",
+        "transforms": [
+          "No placement transform: the source is already a square 500x500 canvas and the observed full-canvas placement is preserved (only the fixed width/height attributes were replaced by an equivalent viewBox).",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 461 B -> 441 B; selected — rsvg renders before/trial pixel-identical, only path coordinate reserialization."
+        ],
+        "variant": "Official-color standalone grafema (blue #465eff) versus the accepted darker-blue grafema on a yellow rounded-square field.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base versus final: same emblem geometry but the base shows a darker blue on a yellow rounded-square field while the final is the official-color blue symbol on transparency. This is a disclosed color/presentation correction toward the official-origin asset; the design preference is left to human MR review."
+      },
+      "candidateIconHash": "8bab85b815289ab2d33a8103ffabc3ddea494db0a86ebfc3f7fa0e1a1dfd7766",
+      "checkedAt": "2026-10-03T17:41:48.675233Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8c31d7da4b76b591d8fcf8c03d7744dca6709aa2dfa7ca4c1357b0302207d13f",
+        "head": "bank-icon-maintenance/15599",
+        "headCommit": "c2a9b99a90f8996eca0a48ee1cab7a0ed1753cda",
+        "number": 70,
+        "observedAt": "2026-10-03T17:55:25.531787Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Banco do Brasil (Company.id 15599)",
+        "url": "https://github.com/zenmoney/banks/pull/70"
+      },
+      "reason": "The fetched Banco do Brasil symbol is a standalone original vector of the BB grafema whose file page on Wikimedia Commons cites the official origin asset (https://www2.bb.com.br/aapf/imagens/logo-login.svg; direct fetch is 403 bot-blocked, receipt kept). Its geometry is path-equivalent to the accepted icon's emblem, but colors and presentation differ: the candidate is the official blue #465eff on transparency, while the accepted icon uses a darker blue #2360a5 on a yellow #fff22d rounded-square field. Currency is supported by continuous use of the grafema since 1968 (independent press) and current official usage (gov.br displays the blue BB symbol). This is a supported color/presentation correction candidate, not serialization cleanup; the meaningful visible difference will be judged on actual renders at candidate review.",
+      "reviewPackage": {
+        "path": "evidence/15599/candidate-49276091431c1b027ab50e9a1ba617ba0acfde8d5de81597445f061c4b6a4529.json",
+        "sha256": "49276091431c1b027ab50e9a1ba617ba0acfde8d5de81597445f061c4b6a4529"
+      },
+      "sourceCandidate": {
+        "iconHash": "3e2a34f6646494f509432a89968a150cbbe4284ab5c99cb2c7670bf3b3e90c39",
+        "path": "evidence/15599/research-8762d46e8cd3475c8f3a3036f2742c4b/fetch-8e462f370fe1471aaf2506c63332bae1/attempt-1/body.bin",
+        "rationale": "Supported color/presentation correction: identical emblem geometry with the official-origin blue (#465eff) on transparency replacing the accepted icon's darker blue on a rounded-square yellow field; official-origin asset (bb.com.br login logo) preserved byte-exact.",
+        "retrieval": {
+          "path": "evidence/15599/research-8762d46e8cd3475c8f3a3036f2742c4b/fetch-8e462f370fe1471aaf2506c63332bae1/receipt.json",
+          "sha256": "53d27d879f46ca6feb212d88e283bd3920d035227ec2831b953bbbe1d5436968"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Logotipo_do_Banco_do_Brasil_%28s%C3%ADmbolo%29.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logotipo_do_Banco_do_Brasil_(s%C3%ADmbolo).svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Logotipo_do_Banco_do_Brasil_%28s%C3%ADmbolo%29.svg",
+          "checkedAt": "2026-10-03T17:33:00Z",
+          "independenceGroup": "Commons mirror of official bb.com.br asset",
+          "kind": "third-party",
+          "observation": "Original vector fetched (464 B, single path, fill #465eff, 500x500, standalone symbol); file page source field cites the official bb.com.br login logo asset. Receipts fetch-0051ca76fbc34f8a84e7f04202225719 (file page) and fetch-8e462f370fe1471aaf2506c63332bae1 (bytes).",
+          "url": "https://commons.wikimedia.org/wiki/File:Logotipo_do_Banco_do_Brasil_(s%C3%ADmbolo).svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T17:33:00Z",
+          "independenceGroup": "Folha press",
+          "kind": "third-party",
+          "observation": "Independent press material supporting continuous use of the BB symbol since 1968.",
+          "url": "https://www1.folha.uol.com.br/folha/especial/2002/topofmind/financas.shtml"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T17:33:00Z",
+          "independenceGroup": "gov.br usage",
+          "kind": "third-party",
+          "observation": "Independent government-site usage showing the blue BB symbol in current official use (raster only, research evidence).",
+          "url": "https://www.gov.br/mcom/pt-br/assuntos/5g/seminarios-5g.br/imagens/LOGOBBAZUL.png/view"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T17:33:00Z",
+          "independenceGroup": "official site (blocked retrieval)",
+          "kind": "official",
+          "observation": "Direct fetches of bb.com.br homepage, the brand-guidance PDF, and logo-login.svg are 403 bot-blocked (receipts fetch-35c500226d8d4c959099770dea194db3, fetch-7fa0c6d234a7487889038371208a59bb, fetch-25f12652ac9a45dcb65323328f0db1ad); retrieval limitation, not counter-evidence.",
+          "url": "https://www.bb.com.br/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T17:46:41.472737Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8bab85b815289ab2d33a8103ffabc3ddea494db0a86ebfc3f7fa0e1a1dfd7766",
+        "xmlSha256": "c2ba16b717b131e9b35d3fa1334813630610cf26f86f9a83f2f0b6a5ac651fbc"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
