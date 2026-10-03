@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-03T14:30:54.051684Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15524/assessed-15dda2f80b698b19b17a8e5705c014c1ee270b7e44f64a0ee3568688bb8d5982.json",
+        "sha256": "15dda2f80b698b19b17a8e5705c014c1ee270b7e44f64a0ee3568688bb8d5982"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live app-store icon (2026-10-03) uses the red/white variant; committed gold-on-red matches the documented pre-2019 variant.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Wordmark lettering is the Wells Fargo brand wordmark; red/white palette matches the current app icon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "App-store listing (independent of the file host) corroborates the Wikimedia Commons 2020 wordmark vector; official domains were blocked, noted as retrieval limitation.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Full-bleed red square wordmark variant, matching the current app icon presentation.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c75f92080aa24db64ee90d3ca81d19009d13f8f5cd561c7e35c6ff7352a9fb98.json",
+        "sha256": "c75f92080aa24db64ee90d3ca81d19009d13f8f5cd561c7e35c6ff7352a9fb98"
+      },
+      "baseIconHash": "051d0d3ac0a883d78cc3feec78b343062530c32ac8da8c3e7c91b553c8a300d8",
+      "candidate": {
+        "detailsJudgement": "Wordmark letterforms and fills preserved verbatim from the source vector; serif details intact at catalog size on both themes.",
+        "faithful": true,
+        "iconHash": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605",
+        "path": "evidence/15524/candidate-be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605.svg",
+        "proportionsJudgement": "Full-bleed square matches the committed icon's presentation; wordmark proportions unchanged from source.",
+        "rationale": "Supported rebranding: committed icon is the obsolete gold-on-dark-red wordmark; the current brand icon is red with a white wordmark.",
+        "role": "full-bleed square wordmark app mark",
+        "sha256": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282020%29.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Logo_(2020).svg",
+        "transforms": [
+          "No geometric transformation; source vector used as-is (wordmark letters are the mark, consistent with the committed icon's wordmark variant)",
+          "SVGO via repository svgo.config.mjs: byte reduction with visually identical output (rsvg-convert, both themes), selected optimized hash f7a8f06f836dad34b4e103186b8c7be38a30e5d5a0240b4566003a2b5f3fb183"
+        ],
+        "variant": "red #dd1e25 square with white WELLS FARGO wordmark",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Palette and variant change: gold lettering on #B31E30 becomes white lettering on #dd1e25, matching the current operating app icon."
+      },
+      "candidateIconHash": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605",
+      "checkedAt": "2026-10-03T14:30:54.051684Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "d75462845d182f3ecb240e2020a42708887b3f591c4bbe38240a53aff5828f9e",
+        "head": "bank-icon-maintenance/15524",
+        "headCommit": "0e737feddd12069c402ac243ca2c4ffb6a8be150",
+        "number": 61,
+        "observedAt": "2026-10-03T14:43:32.038752Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Wells Fargo (Company.id 15524)",
+        "url": "https://github.com/zenmoney/banks/pull/61"
+      },
+      "reason": "Committed icon is the historical gold-on-dark-red wordmark variant (#B31E30/#FFCC02). The current operating brand icon (Google Play listing of com.wf.wellsfargomobile og:image, fetched 2026-10-03) is red with a WHITE 'WELLS FARGO' wordmark — a supported rebranding update.",
+      "reviewPackage": {
+        "path": "evidence/15524/candidate-a9eef92b79eda0ebbfdef7b24c04af9803f3f78f7b27d38a634400e3011f85f5.json",
+        "sha256": "a9eef92b79eda0ebbfdef7b24c04af9803f3f78f7b27d38a634400e3011f85f5"
+      },
+      "sourceCandidate": {
+        "iconHash": "d0bb253e04de6972500ebb3ac645db4dda03e35a779a447e29225ef614bae74a",
+        "path": "evidence/15524/research-add65a84508841cf9fc43ea7b1c00755/fetch-6d55de11ccea49449c2d374bc26ee3aa/attempt-1/body.bin",
+        "rationale": "Supported rebranding: replace obsolete gold-on-red wordmark with the current red/white wordmark vector.",
+        "retrieval": {
+          "path": "evidence/15524/research-add65a84508841cf9fc43ea7b1c00755/fetch-6d55de11ccea49449c2d374bc26ee3aa/receipt.json",
+          "sha256": "ecd31f06d5d78e4da0b28f702f3ddf17516913fc5cca5a55a9c813312b5bbc6f"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282020%29.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Logo_(2020).svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282019%29.svg",
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "wellsfargo-app-listing",
+          "kind": "third-party",
+          "observation": "Google Play og:image of the live Wells Fargo Mobile app shows the current red icon with white wordmark; wellsfc media domains 403-blocked automated fetch.",
+          "url": "https://play.google.com/store/apps/details?id=com.wf.wellsfargomobile"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Wells_Fargo_Logo_%282020%29.svg",
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "wikimedia-commons",
+          "kind": "third-party",
+          "observation": "Original vector SVG (2 paths, no raster embeds): red #dd1e25 square with white #fefefe WELLS FARGO wordmark; sha256 d0bb253e04de6972500ebb3ac645db4dda03e35a779a447e29225ef614bae74a.",
+          "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Logo_(2020).svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T14:34:26.538665Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605",
+        "xmlSha256": "5995ffef5a040b733dd0770faa758179c7f3e71115ca0090be74cb9a51e8dc33"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
