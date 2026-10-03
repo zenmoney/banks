@@ -1,0 +1,115 @@
+{
+  "lastAttemptAt": "2026-10-03T22:40:42.273163Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15692/assessed-fdd093c61deeaefb2b91f7a2e4db48d0d33c0a83e03e6331f53d92ce535056e9.json",
+        "sha256": "fdd093c61deeaefb2b91f7a2e4db48d0d33c0a83e03e6331f53d92ce535056e9"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The flat one-color #003087 outline monogram is PayPal's current monogram variant of the 2024-2025 brand refresh; observed live on official PayPal properties on 2026-10-03. The accepted icon is the older filled two-tone monogram variant in a circle with non-official #183686 fill.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The double-P monogram is PayPal's own mark, served from PayPal's official CDN (paypalobjects.com) and consistent with the official site's declared logo assets.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from PayPal's own properties (paypal.com homepage and developer.paypal.com) plus the official CDN asset itself; they are one official provenance group, which is sufficient because identity and currency of a current operating brand rest on official use.",
+        "uncertainties": [
+          "No official press/brand-kit bundle page was located; the monogram URL was verified by successful live fetch from the official CDN.",
+          "A two-tone filled monogram variant, if still used officially anywhere, was not located; the located official monogram is the flat outline style."
+        ],
+        "variant": {
+          "basis": "Standalone double-P monogram without accompanying text; suitable as a standalone catalog mark. The wordmark variant (black 'PayPal' text) was rejected for catalog use because of the accompanying name.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/fd09fa27fb64f5f3bd28c7d91abca7464cc72f199daa4108a570f35fc82320dd.json",
+        "sha256": "fd09fa27fb64f5f3bd28c7d91abca7464cc72f199daa4108a570f35fc82320dd"
+      },
+      "baseIconHash": "dc7a58d5a61511bdbe17e4b2f30c4b14e4eb841c1a03b965a9ba16a7feaeea96",
+      "candidate": {
+        "detailsJudgement": "Outline monogram paths, single #003087 fill and transparency identical between the source and final in source/final comparison on both themes; no detail loss.",
+        "faithful": true,
+        "iconHash": "86d7926a93f041fe68e0ca1130f7cb3319ef500691cb405029aa524857c02e1f",
+        "path": "evidence/15692/candidate-86d7926a93f041fe68e0ca1130f7cb3319ef500691cb405029aa524857c02e1f.svg",
+        "proportionsJudgement": "Standalone mark on transparency, source proportions preserved, no backing added, no transform beyond none; complete fit at 240px with even margins, recognizable at 32px on both themes. Disclosed limitation: the flat dark-blue #003087 mark has reduced contrast on the dark theme background, inherent to the official one-color variant; no recoloring is permitted.",
+        "rationale": "Documented rebrand update: the accepted icon is the superseded filled two-tone monogram in a dark circle with non-official #183686 fill; PayPal's current brand uses this flat one-color #003087 outline monogram, retrieved from the official CDN.",
+        "role": "catalog standalone brand mark on transparency",
+        "sha256": "86d7926a93f041fe68e0ca1130f7cb3319ef500691cb405029aa524857c02e1f",
+        "sourceAssetUrl": "https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-monogram-color.svg",
+        "sourceUrl": "https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-monogram-color.svg",
+        "transforms": [
+          "No geometry transformation: official monogram SVG used as fetched (viewBox 0 0 48 48, flat #003087).",
+          "SVGO 4.1.0 with frozen worktree svgo.config.mjs (sha256 f2a406e0...), multipass: 2443 -> 2381 bytes; optimized version selected (visually identical to working version at 240px on both themes, confirmed by model image comparison of rsvg-convert renders)."
+        ],
+        "variant": "official flat one-color outline double-P monogram (2024-2025 brand refresh)",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is a filled two-tone white/blue monogram in a dark circle; candidate is the current flat outline monogram without backing — visibly different variant and presentation."
+      },
+      "candidateIconHash": "86d7926a93f041fe68e0ca1130f7cb3319ef500691cb405029aa524857c02e1f",
+      "checkedAt": "2026-10-03T22:40:42.273163Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1c15c0f23ce80d13b7936815f6c1283c0f8f5c3b6a56e6c4c938679df578da0d",
+        "head": "bank-icon-maintenance/15692",
+        "headCommit": "4906983b59a77b5d84d550fe431c20225c727b7d",
+        "number": 82,
+        "observedAt": "2026-10-03T22:59:29.750289Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: PayPal (Company.id 15692)",
+        "url": "https://github.com/zenmoney/banks/pull/82"
+      },
+      "reason": "Accepted icon (sha256 dc7a58d5...) is the superseded 2014-era two-tone filled PP monogram in a dark-blue circle using non-official fill #183686. PayPal's current brand (2024-2025 refresh) uses a flat one-color #003087 outline double-P monogram; an official original-vector monogram was retrieved from the official PayPal CDN and is proposed as a candidate replacement.",
+      "reviewPackage": {
+        "path": "evidence/15692/candidate-e4fd00deb67fc9fa758f1413e46f372f7702fadfdc67f77098c6cd27eceb9e85.json",
+        "sha256": "e4fd00deb67fc9fa758f1413e46f372f7702fadfdc67f77098c6cd27eceb9e85"
+      },
+      "sourceCandidate": {
+        "iconHash": "ad752a9e173d62a06af0cd2ab1c437844f4588951f54ab3463d6c4004dc3e888",
+        "path": "evidence/15692/research-9f197125558f4cf5bacab113c79e52d6/fetch-39e63bd42b544ced8d413266fb8350a0/attempt-1/body.bin",
+        "rationale": "Official original-vector monogram of PayPal's current brand variant, retrieved live from the official PayPal CDN; supports a rebrand/color-corrected update over the superseded filled monogram in the accepted icon.",
+        "retrieval": {
+          "path": "evidence/15692/research-9f197125558f4cf5bacab113c79e52d6/fetch-39e63bd42b544ced8d413266fb8350a0/receipt.json",
+          "sha256": "ff839ce893bc113a74e67308dde66298cf38ec5ff9d401d20e6cdb161bfb92e5"
+        },
+        "sourceAssetUrl": "https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-monogram-color.svg",
+        "sourceUrl": "https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-monogram-color.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-monogram-color.svg",
+          "checkedAt": "2026-10-03T22:33:33Z",
+          "independenceGroup": "official-paypal-properties",
+          "kind": "official",
+          "observation": "Official homepage JSON-LD declares the current site logo as the official paypalobjects.com SVG wordmark of the 2024 PayPal Pro typeface refresh; the same official CDN hosts the flat #003087 outline monogram retrieved as the candidate. Raster monogram pp32.png on the same CDN was noted as research-only, not a vector candidate.",
+          "url": "https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-monogram-color.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T22:31:06Z",
+          "independenceGroup": "official-paypal-properties",
+          "kind": "official",
+          "observation": "Official developer icon listing hosts SVGs on paypalobjects.com; PayPal's own monogram is not listed there, but confirms paypalobjects.com as PayPal's official SVG asset host.",
+          "url": "https://developer.paypal.com/payment-methods/icons/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T22:52:02.308605Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "86d7926a93f041fe68e0ca1130f7cb3319ef500691cb405029aa524857c02e1f",
+        "xmlSha256": "2b96ff343a97a4d988cdbfca6f3e18a83ca7afb1b4686f77a6a8e4f01ab0e88c"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
