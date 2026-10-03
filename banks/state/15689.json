@@ -1,0 +1,107 @@
+{
+  "lastAttemptAt": "2026-10-03T22:42:54.234945Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15689/assessed-3bf7f269c68a1d264976fab27b23cea6728b2080362d7d6784babb974ef41855.json",
+        "sha256": "3bf7f269c68a1d264976fab27b23cea6728b2080362d7d6784babb974ef41855"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The tick mark is Sber's brand identity since 2020 and remains in current official use, observed live on 2026-10-03 in the official SberBusiness icon set and developer documentation.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The Sber tick (open ring with check entering upper right) is the current Sber brand mark used for СберБизнес, confirmed by the official SberBusiness/icons repository and Sber developer styleguide.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official provenance (SberBusiness GitHub organization and developers.sber.ru) is one official group; the Wikimedia copy is an independent third-party corroboration of the official color and period, with its source cited back to sberbank.ru.",
+        "uncertainties": [
+          "sberbank.ru itself is behind a government-CA/WAF barrier for this environment, so the live landing page was not rendered; currency rests on the official SberBusiness organization assets and developer documentation.",
+          "The official glyph retrieved is the monochrome light-theme variant; Sber's full-color gradient presentation exists in the lockup source, but recoloring the emblem is not permitted, so the candidate keeps the official monochrome artwork on transparency."
+        ],
+        "variant": {
+          "basis": "Standalone tick glyph without accompanying text, supplied by the official brand icon set as a first-class brand icon; suitable as a standalone catalog mark. The full-color gradient lockup variant was rejected due to the accompanying wordmark.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "c83357797cf8dcef4310771901122b049eb5d893b9444b8544aa88316e7fca28",
+      "candidate": {
+        "detailsJudgement": "All contours, gradient stops (including the exact official Sber green rgb(12.94%,62.75%,21.96%) = #21A038) and internal transparency of the lockup's tick artwork survive verbatim; the check and seven ring segments match the source raster exactly in the source/final comparison on both themes.",
+        "faithful": true,
+        "iconHash": "0225d98ccc88ba0ec750d1422014d9740a391085a2b3ff0256b179c1e943eb3a",
+        "path": "evidence/15689/candidate-0225d98ccc88ba0ec750d1422014d9740a391085a2b3ff0256b179c1e943eb3a.svg",
+        "proportionsJudgement": "The standalone tick occupies the full source emblem proportions on a transparent field; no backing was added and no whole-emblem transform beyond the original canvas was applied. Complete fit with clear margins at 240px, recognizable at 32px on both themes; no clipping or detail loss.",
+        "rationale": "Replaces the accepted icon's segment-drawn tick in non-official teal (#3a7d8a circle) with the official Sber tick artwork in official gradient colors — a documented color/geometry correction for the same current symbol, with the lockup's wordmark omitted per the catalog rule against accompanying bank names.",
+        "role": "catalog standalone brand mark on transparency",
+        "sha256": "0225d98ccc88ba0ec750d1422014d9740a391085a2b3ff0256b179c1e943eb3a",
+        "sourceAssetUrl": "https://raw.githubusercontent.com/SberBusiness/icons/main/icons/svgs/brand/ic_brd_sberbank_default_24_lm_w.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/SberBusiness/icons/main/icons/svgs/brand/ic_brd_sberbank_default_24_lm_w.svg",
+        "transforms": [
+          "Verbatim extraction of the standalone tick mark (check path + seven ring-segment paths with their six linearGradient definitions) from the fetched official-design 2020 lockup SVG (302x50, Commons copy citing Source=sberbank.ru); paths, paint and gradient definitions copied unchanged, no scaling, no recoloring; lockup wordmark paths omitted under the catalog suitability rule.",
+          "Viewbox set to 0 0 47 48 around the extracted emblem bounds (emblem x 0.14-46.44, y 0.41-47.22); emblem geometry and paint untouched.",
+          "SVGO 4.1.0 with frozen worktree svgo.config.mjs (sha256 f2a406e0...), multipass: 5850 -> 3742 bytes; optimized version selected (visually identical to working version on both themes at 240px, confirmed by model image comparison of rsvg-convert renders)."
+        ],
+        "variant": "official Sber 2020 gradient tick mark, standalone symbol variant (lockup text excluded)",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is a white segment-drawn tick on a non-official teal circle; candidate is the official tick geometry with official multicolor gradient on transparency — visibly different geometry, palette and presentation."
+      },
+      "candidateIconHash": "0225d98ccc88ba0ec750d1422014d9740a391085a2b3ff0256b179c1e943eb3a",
+      "checkedAt": "2026-10-03T22:42:54.234945Z",
+      "humanReview": "pending",
+      "reason": "Accepted icon (sha256 c8335779...) shows the correct current Sber tick symbol but in a non-official teal (#3a7d8a) circle with white strokes, and a segment-drawn ring rather than the official glyph. The current СберБизнес identity uses the official Sber tick mark; an official original-vector tick glyph was retrieved from the official SberBusiness/icons repository and is proposed as a candidate replacement (standalone mark on transparency).",
+      "reviewPackage": {
+        "path": "evidence/15689/candidate-1932b0fb3227d61587caa0ee4f38aedad15d63c7fe3749c860fa6a857fa9edb6.json",
+        "sha256": "1932b0fb3227d61587caa0ee4f38aedad15d63c7fe3749c860fa6a857fa9edb6"
+      },
+      "sourceCandidate": {
+        "iconHash": "3a7b5191482bc9d6e39b8eeaa8f5bfe3e885c7e8ccf355e558e40d20fefa76f0",
+        "path": "evidence/15689/research-1606ba168dfe41c58ed7ce5ddf161085/fetch-5fa2bbfc4cda4926ab9beeecd5571d85/attempt-1/body.bin",
+        "rationale": "Official original-vector Sber tick glyph from the official SberBusiness icon repository; replaces the accepted icon's segment-drawn, non-official-color rendition of the same mark with the official geometry, a supported color/geometry correction.",
+        "retrieval": {
+          "path": "evidence/15689/research-1606ba168dfe41c58ed7ce5ddf161085/fetch-5fa2bbfc4cda4926ab9beeecd5571d85/receipt.json",
+          "sha256": "3c4f98728da4db6fa43c35f9d0c1542ba1d005cd070d61fdffbca161469be6d6"
+        },
+        "sourceAssetUrl": "https://raw.githubusercontent.com/SberBusiness/icons/main/icons/svgs/brand/ic_brd_sberbank_default_24_lm_w.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/SberBusiness/icons/main/icons/svgs/brand/ic_brd_sberbank_default_24_lm_w.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://raw.githubusercontent.com/SberBusiness/icons/main/icons/svgs/brand/ic_brd_sberbank_default_24_lm_w.svg",
+          "checkedAt": "2026-10-03T22:39:51Z",
+          "independenceGroup": "official-sber-sberbusiness",
+          "kind": "official",
+          "observation": "Official SberBusiness/icons repository brand icon set: standalone Sber tick glyph as two paths, monochrome #1F1F22 light-theme variant (dark-theme sibling _dm_w exists); retrieved live with receipt.",
+          "url": "https://raw.githubusercontent.com/SberBusiness/icons/main/icons/svgs/brand/ic_brd_sberbank_default_24_lm_w.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T22:30:56Z",
+          "independenceGroup": "official-sber-sberbusiness",
+          "kind": "official",
+          "observation": "Official Sber developer styleguide confirming the current Sber tick brand symbol and its official green palette usage.",
+          "url": "https://developers.sber.ru/docs/ru/sber-api/start/styleguide"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sberbank_Logo_2020.svg",
+          "checkedAt": "2026-10-03T22:38:53Z",
+          "independenceGroup": "wikimedia-commons-copy",
+          "kind": "third-party",
+          "observation": "Wikimedia Commons copy of the 2020 Sberbank logo lockup, file page citing Source=sberbank.ru 'Sberbank logo since 2020'; its gradient stops contain the exact official Sber green #21A038, confirming the accepted icon's #3a7d8a teal is non-official. The lockup itself (tick + wordmark) was rejected for catalog use because of the accompanying name.",
+          "url": "https://commons.wikimedia.org/wiki/File:Sberbank_Logo_2020.svg"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T22:52:00.732997Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "0225d98ccc88ba0ec750d1422014d9740a391085a2b3ff0256b179c1e943eb3a",
+        "xmlSha256": "5045c9a8ffcc75880941c20cec238c594621184fd2508e5dc92acbff8df7bb2f"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
