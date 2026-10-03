@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-03T18:25:29.960095Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15607/assessed-73b1dcdaf21a15c854365ec06196d2a9948a101271fc408a2cacd571fed3a4b8.json",
+        "sha256": "73b1dcdaf21a15c854365ec06196d2a9948a101271fc408a2cacd571fed3a4b8"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Commons file metadata attributed to pkobp.pl dated 2026-02-05 plus the bank's own announcement slide republished by press.pl (fetched 2026-10-03); gradual rollout noted with old and new marks coexisting",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official rebranding announcement slide (press.pl republication of bank material) and Commons file page metadata",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank announcement (via press republication) and Commons file attributed to the bank; treated as one identity group since Commons metadata cites pkobp.pl.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "2026 refresh variant (black signet, larger coin slot, red dot) versus 2011-2025 red-dot variant; the standalone emblem is the appropriate square-cell mark",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d2466987da8d7d8a02a67aea86bc794b22df5d7af7deca82ebc01249cf065ea3.json",
+        "sha256": "d2466987da8d7d8a02a67aea86bc794b22df5d7af7deca82ebc01249cf065ea3"
+      },
+      "baseIconHash": "82cc5a7a0016fed8512eaa99ee8703d8eecef96251ec8191d966fbb60225703e",
+      "candidate": {
+        "detailsJudgement": "Signet contours, coin slot width, PKO cutout letterforms and the red dot reproduce the source vector exactly under the uniform transform; no lost strokes or details at 240px and at 24/32/48px diagnostics.",
+        "faithful": true,
+        "iconHash": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8",
+        "path": "evidence/15607/candidate-c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8.svg",
+        "proportionsJudgement": "Emblem centered with clear margins on both themes; complete emblem including the detached red dot survives; legible at small sizes.",
+        "rationale": "Existing icon is the pre-2011 signet with an orange dot, matching neither the 2011-2025 red-dot variant nor the 2026 refresh. The 2026 official mark (black signet, larger coin slot, red dot) is announced by the bank and published as an original vector attributed to pkobp.pl; a supported rebranding update is justified.",
+        "role": "standalone bank brand mark (coin signet with dot), wordmark omitted",
+        "sha256": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PKO_BP_logo_2026.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PKO_BP_logo_2026.svg",
+        "transforms": [
+          "Lossless subpath selection from the source vector: standalone emblem (red dot + signet subpaths) kept with exact path data; 'Bank Polski' wordmark subpaths omitted for the square cell",
+          "Uniform scale 0.10642 and translation of the whole emblem to center it on the 54x54 canvas; no rotation, stretch or path edits",
+          "Backing: transparent standalone mark preserved; the source white rect is the plain canvas, no backing added",
+          "Optimization: SVGO 4.1.0 with repo svgo.config.mjs (sha256 f2a406e0...), 1375 B -> 1349 B, pixel-identical render (Pillow diff bbox None); optimized bytes selected"
+        ],
+        "variant": "2026 evolutionary refresh: simplified black signet with larger coin slot, red (#ff2038) dot",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base shows the obsolete blue signet with orange dot; final shows the current black signet with larger coin slot and red dot — a clearly visible supported rebranding correction."
+      },
+      "candidateIconHash": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8",
+      "checkedAt": "2026-10-03T18:25:29.960095Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ce2a087130097c65765daa1c4a641ba4830086edb775e7abeb07afb55eadbca1",
+        "head": "bank-icon-maintenance/15607",
+        "headCommit": "1b9f309fcfa7070762ab7b10276e03341c3252af",
+        "number": 72,
+        "observedAt": "2026-10-03T18:35:46.565314Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: PKO Bank Polski (Company.id 15607)",
+        "url": "https://github.com/zenmoney/banks/pull/72"
+      },
+      "reason": "Existing icon is the pre-2011 PKO Bank Polski signet with an orange (#E0912F) dot. The official mark since 2011 uses a red dot, and on 2026-02-05 the bank announced an evolutionary refresh: simplified signet geometry, larger coin slot, black signet, red dot, new wordmark. The existing icon matches neither current variant, so a supported rebranding update is justified.",
+      "reviewPackage": {
+        "path": "evidence/15607/candidate-4ca32a8f86aaca8aaaeabe5007d9f24ac5160b082e4ba97e6234ce42a69e756f.json",
+        "sha256": "4ca32a8f86aaca8aaaeabe5007d9f24ac5160b082e4ba97e6234ce42a69e756f"
+      },
+      "sourceCandidate": {
+        "iconHash": "9db7518b38b2d4511518fc3ef287591ce2145797ab93be7a63d8514e32554b34",
+        "path": "evidence/15607/research-160add19d5154626b47a03b5b2d64069/fetch-31b8cc8646664174bd4dc6700d45b681/attempt-1/body.bin",
+        "rationale": "Commons original vector of the 2026 PKO Bank Polski logo (metadata: date 2026-02-05, source pkobp.pl, Karol Swiaka rework), corroborated by the bank presentation slide published on press.pl. Self-contained SVG with explicit geometry; the standalone emblem (red dot + black signet subpaths) is selected losslessly and the accompanying 'Bank Polski' wordmark subpaths are omitted for the square cell.",
+        "retrieval": {
+          "path": "evidence/15607/research-160add19d5154626b47a03b5b2d64069/fetch-31b8cc8646664174bd4dc6700d45b681/receipt.json",
+          "sha256": "fc8e4b52a4995d94ec8f32f9713cc4119b076d69820d124c8e447de6264506a6"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PKO_BP_logo_2026.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PKO_BP_logo_2026.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/PKO_BP_logo_2026.svg",
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "pko-2026-rebrand",
+          "kind": "third-party",
+          "observation": "Commons file page: PKO_BP_logo_2026.svg, date 2026-02-05, source pkobp.pl, own work rework of Karol Swiaka design; original vector uploaded to upload.wikimedia.org.",
+          "url": "https://commons.wikimedia.org/wiki/File:PKO_BP_logo_2026.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "pko-2026-rebrand",
+          "kind": "third-party",
+          "observation": "press.pl republication of the bank's rebranding announcement (2026-02-05): evolutionary refresh, simplified signet, larger coin slot, black signet, red dot, new wordmark; includes the bank's before/after slide photo.",
+          "url": "https://press.pl/tresc/91495%2Cpko-bp-rozpoczyna-rebranding_-pierwsze-zmiany-dotycza-logotypu-banku"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T18:26:17Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8",
+        "xmlSha256": "6dcbf3f7f18ef115f80ecc2532048dc0aea68b119405bb393f7bc12ab08bb4cc"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
