@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-03T15:06:42.555330Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15542/assessed-8475cc58ef8a357b9f54e47e941471e3941be31985ed218ec5372e667fc6e446.json",
+        "sha256": "8475cc58ef8a357b9f54e47e941471e3941be31985ed218ec5372e667fc6e446"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Commons upload dated 2022-05-05 matches the documented 2022 N26 rebrand; official n26.com was unreachable from this network (timeouts), so the official media-kit asset is unconfirmed and disclosed.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Source is the N26 wordmark of the 2022 identity; the base glyph represents the same mark in an outdated encircled variant.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "One third-party source; official-domain confirmation failed and is disclosed rather than implied.",
+        "uncertainties": [
+          "Commons mirror provenance not independently verified; n26.com unreachable from this network."
+        ],
+        "variant": {
+          "basis": "Flat uncircled monochrome wordmark; letters form the mark itself, permitted for standalone icon cells.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/976778eb7183ea1d3d9f91ab7b56a25ded7a8d8e4b27b5637c931469abcee21e.json",
+        "sha256": "976778eb7183ea1d3d9f91ab7b56a25ded7a8d8e4b27b5637c931469abcee21e"
+      },
+      "baseIconHash": "1761f2c6c6a4e1a78857af058c8dac82b927dbd684cdb54f0c5b712d64219e71",
+      "candidate": {
+        "detailsJudgement": "The N with its over- and underbars, the 2 and 6 counters and all letterform details survive exactly; single flat fill, no gradients; fill value unchanged (#1B1B1B).",
+        "faithful": true,
+        "iconHash": "249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776",
+        "path": "evidence/15542/candidate-249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776.svg",
+        "proportionsJudgement": "Complete wordmark fits inside the circle with clearance at both themes; letterforms read clearly at 24/32/48 px diagnostics and in the 240px frames; the source aspect ratio is preserved (no distortion); alpha outside the circle and inside letter counters preserved.",
+        "rationale": "Rebrand update: the accepted icon is the outdated encircled teal variant with a distorted N glyph; the current N26 identity (2022 refresh) is the flat monochrome #1B1B1B wordmark. The working version places the byte-preserved source wordmark on a plain white circular catalog backing for cross-theme legibility.",
+        "role": "Standalone wordmark mark (letters form the mark itself) on a catalog-added plain white circular field; no official circular avatar of this exact variant was observed, so the circle is a catalog adaptation, not an official app icon.",
+        "sha256": "249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:N26_logo.svg",
+        "transforms": [
+          "Wordmark path copied byte-identically from the fetched source (single evenodd path, fill #1B1B1B).",
+          "Whole-emblem uniform scale 0.09 and centered translation place the complete wordmark inside a white circular catalog backing (circle r=27 at 54x54 cell center); no stretching, rotation or recoloring.",
+          "White backing added per plain-field circle policy: the source is a dark transparent mark that would be illegible on the #121212 dark theme; the white field preserves internal transparency of the mark itself.",
+          "SVGO 4.1.0 with frozen repo config: 1917 -> 1445 bytes; trial render pixel-identical to the working version on #FFFFFF and #121212 at 240px; optimized bytes selected."
+        ],
+        "variant": "Current uncircled monochrome wordmark variant from the 2022 rebrand; source file is the flat mark on a transparent canvas.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon (teal circle, white distorted N glyph) versus current monochrome N26 wordmark on a white circular catalog backing: evidenced rebrand of the same bank, plus legibility repair. The difference is the entire point of the update, not a cosmetic serialization change."
+      },
+      "candidateIconHash": "249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776",
+      "checkedAt": "2026-10-03T15:06:42.555330Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ab3dc9bbc7dde97e0b0daa3bb045ab44d7035afd255696b90368dacfc933e336",
+        "head": "bank-icon-maintenance/15542",
+        "headCommit": "fb7589fbca130c04f001256f0d886a4cec3ff143",
+        "number": 63,
+        "observedAt": "2026-10-03T15:32:22.483184Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: N26 (Company.id 15542)",
+        "url": "https://github.com/zenmoney/banks/pull/63"
+      },
+      "reason": "Current N26 identity is the 2022+ flat monochrome #1B1B1B 'N26' wordmark (N with bar above and below, '26' to the right). An original vector was fetched from Wikimedia Commons (upload dated 2022-05-05, matching the rebrand) and bound via source-material from the fetch receipt. The base icon is an outdated teal-circle variant with distorted white N glyph; the supported rebrand justifies the update.",
+      "reviewPackage": {
+        "path": "evidence/15542/candidate-b84717b34ce500a89848705d25467c85f72006b9424caa63c77a77b4ed98e700.json",
+        "sha256": "b84717b34ce500a89848705d25467c85f72006b9424caa63c77a77b4ed98e700"
+      },
+      "sourceCandidate": {
+        "iconHash": "d8e0ca75165efaec2d7dbff74ecd23b2ee3525478f5c1302c1b390a3328e7b8c",
+        "path": "evidence/15542/research-de8d48bd1bb74d1c9e45341d5e2a111f/fetch-24182cb2faf6434d8d3f11644e827c13/attempt-1/body.bin",
+        "rationale": "Original vector of the current (2022+) wordmark, byte-identical material bound through source-material; supported rebrand of the same bank is the update reason.",
+        "retrieval": {
+          "path": "evidence/15542/research-de8d48bd1bb74d1c9e45341d5e2a111f/fetch-24182cb2faf6434d8d3f11644e827c13/receipt.json",
+          "sha256": "1f1b8feaf226bf0c13210d68aaf1aafebc3a1ebfff60535227d42df47e985487"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15542/source-material-c5019210c46442f2978732f058c86790/material.json",
+          "sha256": "ee4917ea50f0c4bfda115f9d1633cfda7e70e6997b87477c4b6c28b69eb9149b"
+        },
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:N26_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg",
+          "checkedAt": "2026-10-03T15:01:59Z",
+          "independenceGroup": "Wikimedia Commons file page and its upload mirror",
+          "kind": "third-party",
+          "observation": "Fetched asset sha256 d8e0ca75165efaec2d7dbff74ecd23b2ee3525478f5c1302c1b390a3328e7b8c, 1956 bytes, viewBox 0 0 454 373, single path, #1B1B1B; Commons upload 2022-05-05. Independent render via rsvg-convert 2.58.0 (evidence/15542/research-de8d48bd1bb74d1c9e45341d5e2a111f/source-reference.png) shows the current wordmark.",
+          "url": "https://commons.wikimedia.org/wiki/File:N26_logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T15:21:29.055692Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776",
+        "xmlSha256": "49a7474b34d9efc6a64310ce60933518113703495bf29b0e043d0aeeef3f9f63"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
