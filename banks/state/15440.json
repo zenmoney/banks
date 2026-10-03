@@ -1,0 +1,104 @@
+{
+  "lastAttemptAt": "2026-10-03T10:18:47.643849Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15440/assessed-379743549fbd6412c61bdfb741e130846fcc7bebe81fcccb98e6938fc980d161.json",
+        "sha256": "379743549fbd6412c61bdfb741e130846fcc7bebe81fcccb98e6938fc980d161"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official seb.lv notice announces the light-to-dark-green colour change of the unchanged SEB app icon; App Store shows the dark-green icon with currentVersionReleaseDate 2026-10-01. The accepted baseline light green (#60cd18) is the pre-change colour.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The white SEB lettermark with vertical separators is served by seb.lv itself as its favicon/logo asset; letter geometry matches the accepted baseline lettering and the current app icon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "One official written announcement (seb.lv notice), the bank's own served SVG assets, and the store listing of the bank's app under its control; the store entry is a separate distribution channel, not a copy of the notice page.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current variant: white SEB letters on dark green (~#013823). The country-flag corner belongs to the Latvia app icon presentation; the standalone SEB mark is the lettering on the green field, used here without the flag.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "15a081135dd613fb1520aea5c12c723bb96d9ba88322a22d54bcf5d6ccb21e16",
+      "candidate": {
+        "detailsJudgement": "All separators and letter counters preserved; no clipped strokes at circle edge; small-size legibility fine - the lettermark is bold and high-contrast on the dark green field.",
+        "faithful": true,
+        "iconHash": "157f15b0613c6b0ae494f2ab6044b31043398be2865891a7232a0e79830c259e",
+        "path": "evidence/15440/candidate-157f15b0613c6b0ae494f2ab6044b31043398be2865891a7232a0e79830c259e.svg",
+        "proportionsJudgement": "Letter block centred in the circle, comparable scale to the accepted baseline; whole emblem fits within the circular field with margin at top and bottom of the letters.",
+        "rationale": "Documented rebrand: official SEB LV notice (seb.lv, 2026) changed the app icon colour from light green to dark green with unchanged design, and the App Store shows the dark-green icon (currentVersionReleaseDate 2026-10-01). The accepted baseline is the pre-change light green (#60cd18), so an update is justified.",
+        "role": "Standalone SEB lettermark (white SEB letters with vertical separators) on a dark-green plain-field circular backing; catalog presentation of the bank mark without the country-flag corner used in the Latvia app icon.",
+        "sha256": "157f15b0613c6b0ae494f2ab6044b31043398be2865891a7232a0e79830c259e",
+        "sourceAssetUrl": "https://www.seb.lv/themes/custom/seb8/favicon_dark.svg",
+        "sourceUrl": "https://www.seb.lv/themes/custom/seb8/favicon_dark.svg",
+        "transforms": [
+          "Embedded the original letter paths from the official favicon_dark.svg unchanged inside a scaled group: translate(0,-0.25) scale(1.6875) into a 54x54 viewBox; no geometry or colour change to the emblem.",
+          "Added a background-only plain field: circle cx=27 cy=27 r=27 fill=#013823 behind the letters (plain-field circle policy; #013823 sampled from the official App Store icon per the colour-change notice).",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1886 -> 1513 bytes, output sha256 157f15b0613c6b0ae494f2ab6044b31043398be2865891a7232a0e79830c259e, selected; rsvg renders pixel-identical to the working version on both themes (ImageChops bbox None)."
+        ],
+        "variant": "Current dark-green variant per the official colour-change notice; letterforms taken unchanged from the official seb.lv favicon_dark.svg.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Field colour changes from light green #60cd18 to dark green #013823; letterforms and circular presentation are visually equivalent to the baseline."
+      },
+      "candidateIconHash": "157f15b0613c6b0ae494f2ab6044b31043398be2865891a7232a0e79830c259e",
+      "checkedAt": "2026-10-03T10:18:47.643849Z",
+      "humanReview": "pending",
+      "reason": "Documented rebrand: official SEB LV notice states the app icon colour changed from light green to dark green with unchanged design; the accepted baseline is the light-green (#60cd18) circle, so it is not the current variant.",
+      "reviewPackage": {
+        "path": "evidence/15440/candidate-341cbee16febc125b269445410b8fa43cfa37bbf1099984f87f397fad4063f36.json",
+        "sha256": "341cbee16febc125b269445410b8fa43cfa37bbf1099984f87f397fad4063f36"
+      },
+      "sourceCandidate": {
+        "iconHash": "3d027002a833d12c275426c3624e726845748edd7236c13d3f4a38a2369f447f",
+        "path": "evidence/15440/research-aa0fe6c1bd3e4602a3a12e0b3b3713bd/fetch-1d18af7ca77f4d65ba7da5e91c96fcea/attempt-1/body.bin",
+        "rationale": "Official original-vector lettermark of the current SEB brand (white letters with separators), downloaded directly from seb.lv (sha256 3d027002a833d12c275426c3624e726845748edd7236c13d3f4a38a2369f447f, saved as evidence/15440/candidate-source.svg); used as-is with only a background-field adaptation to the officially announced dark green. Documented update: official notice + 2026-10-01 store icon replace the light-green (#60cd18) baseline.",
+        "retrieval": {
+          "path": "evidence/15440/research-aa0fe6c1bd3e4602a3a12e0b3b3713bd/fetch-1d18af7ca77f4d65ba7da5e91c96fcea/receipt.json",
+          "sha256": "7b345bb030ae7f8a4f487677298da13c4f3f828300009b46de8bc26de64a9de7"
+        },
+        "sourceAssetUrl": "https://www.seb.lv/themes/custom/seb8/favicon_dark.svg",
+        "sourceUrl": "https://www.seb.lv/themes/custom/seb8/favicon_dark.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T10:13:27Z",
+          "independenceGroup": "seb.lv official announcement",
+          "kind": "official",
+          "observation": "Official SEB Latvia notice 'Drizumā mainīsies SEB Mobilās lietotnes ikona': the app icon design stays the same (SEB logo with the Latvian flag in the upper right corner) and only its colour changes - from light green to dark green, rolled out over about two weeks.",
+          "url": "https://www.seb.lv/info/pazinojumi/drizuma-mainisies-seb-mobilas-lietotnes-ikona"
+        },
+        {
+          "assetUrl": "https://www.seb.lv/themes/custom/seb8/favicon_dark.svg",
+          "checkedAt": "2026-10-03T10:11:38Z",
+          "independenceGroup": "seb.lv official site assets",
+          "kind": "official",
+          "observation": "Current seb.lv theme serves favicon_dark.svg directly (32x32, SEB letters with vertical separators, viewBox 0 0 32 32, letters within clip 28x12.29 at translate(2,10)); referenced from the page https://www.seb.lv/ with rel=icon. The favicon_dark letters render white on transparent; seb-logo.svg is the black-letters header variant.",
+          "url": "https://www.seb.lv/themes/custom/seb8/favicon_dark.svg"
+        },
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/aa/14/a7aa144c-0136-6c62-efc1-8ec3004378e6/AppIcon_LV-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "checkedAt": "2026-10-03T10:14:55Z",
+          "independenceGroup": "Apple App Store listing of the bank's own app",
+          "kind": "third-party",
+          "observation": "App Store listing 'SEB Latvia' (bundle se.seb.seblatvia, seller Skandinaviska Enskilda Banken AB, currentVersionReleaseDate 2026-10-01): icon is a dark green field (~#013823) with white SEB letters and the Latvian flag corner, matching the official colour-change notice.",
+          "url": "https://itunes.apple.com/search?term=SEB&country=lv&entity=software&limit=10"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T10:21:58.132747Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "157f15b0613c6b0ae494f2ab6044b31043398be2865891a7232a0e79830c259e",
+        "xmlSha256": "6064cebd872d005535b472acda9b43f43da36cc21954b74bee2a95ac027a9d60"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

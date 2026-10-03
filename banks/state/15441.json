@@ -1,0 +1,96 @@
+{
+  "lastAttemptAt": "2026-10-03T10:27:35.738977Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15441/assessed-4aa6e2516a612de4f82377d022a56bca2e159800e10e6ea36e0e28c212423dd2.json",
+        "sha256": "4aa6e2516a612de4f82377d022a56bca2e159800e10e6ea36e0e28c212423dd2"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Fetched today from the official site's active template; the lockup is what belapb.by currently presents.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The mark is served by belapb.by itself as its site logo; its sprout emblem geometry is identical to the accepted baseline emblem.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The official site asset is primary; the independent vector catalogue entry corroborates the same emblem without copying the site asset.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current variant is the flat orange #E85222 standalone mark; the accepted baseline white-on-#EDA944 circle is not the presentation served by the bank today.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "0cc74282cbd46675a0bca4ef0530138fb79968ddcd3b4f31f27bd5fd37298460",
+      "candidate": {
+        "detailsJudgement": "All three rays and both leaf contours preserved with the original evenodd counters; no clipping, no lost detail at icon sizes; legible on both light and dark themes.",
+        "faithful": true,
+        "iconHash": "7ba49350ef2af8088df473d194995db721bba7aa8c9cf707e78ffebad982994c",
+        "path": "evidence/15441/candidate-7ba49350ef2af8088df473d194995db721bba7aa8c9cf707e78ffebad982994c.svg",
+        "proportionsJudgement": "The mark is naturally near-square (51.7x51.6); the tight viewBox keeps the whole emblem visible without shrinking.",
+        "rationale": "Documented variant update: the bank's current site logo is the flat orange #E85222 standalone sprout mark; the accepted baseline is the white emblem on an #EDA944 circular field, an older presentation and colour.",
+        "role": "Standalone bank emblem without lettering, presented on a transparent background; the mark is the emblem itself, so no backing field is required.",
+        "sha256": "7ba49350ef2af8088df473d194995db721bba7aa8c9cf707e78ffebad982994c",
+        "sourceAssetUrl": "https://belapb.by/local/templates/belapb/img/logo.svg",
+        "sourceUrl": "https://belapb.by/local/templates/belapb/img/logo.svg",
+        "transforms": [
+          "Extracted the single #E85222 mark path losslessly from the official logo.svg lockup (387x52); discarded the grey #575656 lettering paths; no coordinates changed.",
+          "Changed the canvas to a tight viewBox 0 0 51.7 51.6 (mark bounds measured from a 10x raster render); the emblem path itself is untouched.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2444 -> 2027 bytes, output sha256 7ba49350ef2af8088df473d194995db721bba7aa8c9cf707e78ffebad982994c, selected; renders identical to the working version except a sub-pixel precision edge region (ImageChops bbox (43,25,48,52) at 240px), visually faithful on both themes."
+        ],
+        "variant": "Current official flat orange variant served by belapb.by today.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Presentation changes from white-on-#EDA944 circle to the flat orange #E85222 standalone mark; emblem geometry is the same design."
+      },
+      "candidateIconHash": "7ba49350ef2af8088df473d194995db721bba7aa8c9cf707e78ffebad982994c",
+      "checkedAt": "2026-10-03T10:27:35.738977Z",
+      "humanReview": "pending",
+      "reason": "Documented variant update: the current official belapb.by logo is the flat orange (#E85222) standalone sprout mark served today as /local/templates/belapb/img/logo.svg, while the accepted baseline is the white emblem on an #EDA944 circular field - an older presentation and colour.",
+      "reviewPackage": {
+        "path": "evidence/15441/candidate-896d611b65d46961094581c605458583606af06fa71d5977bf78d63c6159b55c.json",
+        "sha256": "896d611b65d46961094581c605458583606af06fa71d5977bf78d63c6159b55c"
+      },
+      "sourceCandidate": {
+        "iconHash": "57c5e40b022efcf4478021034c4acbced939e48718ad18d8c5e16c90212011f0",
+        "path": "evidence/15441/research-85a852679df941a2bff9363a13e9c03d/fetch-3e61f1e8a3e6470cbab4f2e1944ac842/attempt-1/body.bin",
+        "rationale": "Official original vector (single orange sprout path extracted losslessly from the bank's own logo.svg lockup; lettering paths discarded). Documented update: current flat orange standalone mark replaces the outdated white-on-#EDA944-circle presentation of the accepted baseline.",
+        "retrieval": {
+          "path": "evidence/15441/research-85a852679df941a2bff9363a13e9c03d/fetch-3e61f1e8a3e6470cbab4f2e1944ac842/receipt.json",
+          "sha256": "395306d3f67bee816f5c19d0e33f5d513f7f880e6360ec46addc63304c044a1e"
+        },
+        "sourceAssetUrl": "https://belapb.by/local/templates/belapb/img/logo.svg",
+        "sourceUrl": "https://belapb.by/local/templates/belapb/img/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://belapb.by/local/templates/belapb/img/logo.svg",
+          "checkedAt": "2026-10-03T10:25:30Z",
+          "independenceGroup": "belapb.by official site assets",
+          "kind": "official",
+          "observation": "The current belapb.by homepage (https://belapb.by/) embeds local/templates/belapb/img/logo.svg (387x52 lockup): one orange #E85222 path (the sprout mark, leftmost region) plus grey #575656 lettering paths spelling the bank name. The mark path geometry matches the emblem inside the accepted baseline (three rays above two leaves).",
+          "url": "https://belapb.by/local/templates/belapb/img/logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T10:24:50Z",
+          "independenceGroup": "ph4.org vector catalogue",
+          "kind": "third-party",
+          "observation": "Independent vector catalogue lists Belagroprombank logo in CDR/AI/EPS vector formats (no SVG), corroborating that the current logo is distributed as a vector emblem; search results contained no newer rebrand.",
+          "url": "https://www.ph4.org/logo_logo.php?d=belagroprombank"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T10:29:44.688396Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7ba49350ef2af8088df473d194995db721bba7aa8c9cf707e78ffebad982994c",
+        "xmlSha256": "22a447bbbd7a9d2b73b37e3a3c171467ee2f6584394aa884ad74f435fd6246bd"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
