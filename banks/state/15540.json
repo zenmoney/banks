@@ -1,0 +1,119 @@
+{
+  "lastAttemptAt": "2026-10-03T15:09:03.722027Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15540/assessed-408599fbc49ba6901f6950efec2f66c95a198dc822b795e110cc383910907845.json",
+        "sha256": "408599fbc49ba6901f6950efec2f66c95a198dc822b795e110cc383910907845"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Shield mark unchanged in current brand; palette corrected to #F3C000/#00A296 per the newer Commons color-variant file. abnamro.nl/com returned 503/transfer failures to scripted fetch, so official inline SVG is unconfirmed; Commons provenance is third-party.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Source is the ABN AMRO green shield; base icon shield geometry matches the source exactly (two mirrored halves meeting at a bottom point).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two separate Commons uploads with different palettes agree on geometry; official-site direct confirmation failed (503) and is disclosed.",
+        "uncertainties": [
+          "Official abnamro.nl asset unreachable from this network; palette #F3C000/#00A296 rests on third-party sources."
+        ],
+        "variant": {
+          "basis": "Shield-only variant selected; the grey wordmark beside the mark is not part of a standalone icon cell.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/058c2ffd7b90fcca15dcd45ac50a03113204528eb963e0dc718d352520a7baf2.json",
+        "sha256": "058c2ffd7b90fcca15dcd45ac50a03113204528eb963e0dc718d352520a7baf2"
+      },
+      "baseIconHash": "c822846ae77f0d8daedc55d694eacb5dd6ec9bdbb427fd930b30cdcc390273ca",
+      "candidate": {
+        "detailsJudgement": "Both shield halves, the bottom point and all contours survive exactly; flat fills only, no gradients or strokes to lose; colors match the source file's own fills byte-for-byte after SVGO normalization (lowercase hex, same values).",
+        "faithful": true,
+        "iconHash": "ef673b830705dbc1c28ad35cb5cc4dc8d96405c369a0ec07ef3f26e96898b290",
+        "path": "evidence/15540/candidate-ef673b830705dbc1c28ad35cb5cc4dc8d96405c369a0ec07ef3f26e96898b290.svg",
+        "proportionsJudgement": "Whole-emblem uniform placement keeps the source aspect ratio (40.5 x 54 units inside the 54-unit cell); no clipping at any theme or export; emblem reads clearly at 24/32/48 px diagnostics; alpha preserved (transparent corners).",
+        "rationale": "Shield-only working version of the fetched ABN AMRO original vector: the two shield paths with the current brand palette carried by the source file (#00A296 / #F3C000), replacing the accepted icon's outdated palette (#FDB913 / #00A195). Geometry is byte-preserved from the source; the grey wordmark beside the mark is excluded for standalone icon-cell suitability.",
+        "role": "Standalone shield emblem extracted from the official lockup source vector; wordmark dropped as accompanying text.",
+        "sha256": "ef673b830705dbc1c28ad35cb5cc4dc8d96405c369a0ec07ef3f26e96898b290",
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ABN_AMRO_logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ABN_AMRO_logo.svg",
+        "transforms": [
+          "Selected the two shield paths from the 162x40 source lockup viewBox; dropped the wordmark path and clip group.",
+          "Uniform scale 1.36674 and translation x+6.7569 place the complete shield in the 54x54 catalog cell without stretching, rotation or recoloring.",
+          "SVGO 4.1.0 with frozen repo config (multipass, precision 4/5): 373 -> 259 bytes; trial render pixel-identical to the working version on #FFFFFF and #121212 at 240px; optimized bytes selected."
+        ],
+        "variant": "Current two-tone shield variant (teal field, yellow right half) in the 2020s refreshed palette; source file has a rectangular lockup canvas, no backing contour of its own — transparent standalone mark, no backing added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Same geometry as the accepted icon; the update is the corrected current brand palette (#FDB913 -> #F3C000 yellow, #00A195 -> #00A296 teal) supported by the fetched original vector and a second Commons color-variant file. The visible difference is intentionally subtle: it is a color correction of the same mark, not a redesign."
+      },
+      "candidateIconHash": "ef673b830705dbc1c28ad35cb5cc4dc8d96405c369a0ec07ef3f26e96898b290",
+      "checkedAt": "2026-10-03T15:09:03.722027Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ef8d02f6573b921a975f69b11cfd5de61058e0da3c8d1d0fb135b40d3b148667",
+        "head": "bank-icon-maintenance/15540",
+        "headCommit": "25b43c8c3dcf05204c4d9ce3c9c1033efc4864c4",
+        "number": 62,
+        "observedAt": "2026-10-03T15:29:07.821263Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ABN Amro (Company.id 15540)",
+        "url": "https://github.com/zenmoney/banks/pull/62"
+      },
+      "reason": "Current ABN AMRO mark verified as the green/yellow shield; an original vector (Wikimedia Commons 'ABN AMRO logo.svg', byte-identical served from upload.wikimedia.org) was fetched and bound via source-material. The base icon geometry matches the source shield but uses an outdated palette (#FDB913 yellow / #00A195 teal vs current #F3C000 / #00A296), so a palette-corrected shield candidate is justified.",
+      "reviewPackage": {
+        "path": "evidence/15540/candidate-a99b7de6d756a66d32f095dd8ce3e005729c0da4e4614a09a6b7bbe5d3a2f453.json",
+        "sha256": "a99b7de6d756a66d32f095dd8ce3e005729c0da4e4614a09a6b7bbe5d3a2f453"
+      },
+      "sourceCandidate": {
+        "iconHash": "7f863428ec7766756eca7c561ccf994c277ab6373399085351853a91458fba95",
+        "path": "evidence/15540/research-36eb912eaf914aa3b72e4ae8db41e746/fetch-402fd782174a4da7991085cd0905431b/attempt-3/body.bin",
+        "rationale": "Original vector of the current shield; byte-identical material bound through source-material from the fetch receipt. Shield palette update against the accepted icon is the supported update reason; the grey wordmark is dropped for standalone icon suitability.",
+        "retrieval": {
+          "path": "evidence/15540/research-36eb912eaf914aa3b72e4ae8db41e746/fetch-402fd782174a4da7991085cd0905431b/receipt.json",
+          "sha256": "1f4a795856260cac5dd6326faec66e754f570b9792c0270b21595dd596f8acdd"
+        },
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ABN_AMRO_logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15540/source-material-e3bc7fde7fac4076b10dcd576883b72b/material.json",
+          "sha256": "c0a616ba185042b9d8625a0486d699032fb911b06021ed6a1ac4f0a6d6d55ff0"
+        },
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ABN_AMRO_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ABN_AMRO_logo.svg",
+          "checkedAt": "2026-10-03T15:01:59Z",
+          "independenceGroup": "Wikimedia Commons file page and its upload mirror",
+          "kind": "third-party",
+          "observation": "Fetched via Special:FilePath redirect chain (receipt fetch-402fd782..., final 200 image/svg+xml, sha256 7f863428ec7766756eca7c561ccf994c277ab6373399085351853a91458fba95, 2720 bytes). True vector: shield halves in #00A296/#F3C000 plus grey #868686 'ABN AMRO' wordmark, viewBox 0 0 162 40.",
+          "url": "https://commons.wikimedia.org/wiki/File:ABN_AMRO_logo.svg"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/ABN-AMRO_Logo_new_colors.svg",
+          "checkedAt": "2026-10-03T15:01:59Z",
+          "independenceGroup": "Wikimedia Commons separate upload (not a mirror of the first file)",
+          "kind": "third-party",
+          "observation": "Second Commons file with newer palette (#009286/#F3C000) fetched but rejected by source-material ingest (DOCTYPE/entities); corroborates that the shield palette was updated while geometry stayed the same.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/ABN-AMRO_Logo_new_colors.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T15:21:27.224714Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "ef673b830705dbc1c28ad35cb5cc4dc8d96405c369a0ec07ef3f26e96898b290",
+        "xmlSha256": "44dca10f6b48d9d00b7f2c506ddcaccf2580fc2ba5d2063a7291b712366c2517"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
