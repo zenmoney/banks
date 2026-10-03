@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-03T09:49:19.790588Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15431/assessed-2126faaaaa6de2bb387f01eb3753d3cd7bf416fefba7f667636dda188bb529ad.json",
+        "sha256": "2126faaaaa6de2bb387f01eb3753d3cd7bf416fefba7f667636dda188bb529ad"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "For this historical record the relevant period is the bank's final operating period: the archived asset dates to 2020-12-25, within the 2020 branding period that ended with the merger into Росбанк (ceased 2021-03-01 per the CBR registry).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The lockup is served from api.rusfinancebank.ru, the bank's own API domain, and archived during the bank's operation; the symbol matches the emblem depicted by the accepted icon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "First-party asset provenance (bank's own API domain via the Internet Archive) corroborated by the independent CBR registry for lifecycle; the mobile header variant (separate file, sha256 5a4ad6f8683d…) shows the same symbol, supporting the extraction.",
+        "uncertainties": [
+          "The original site is offline; the official asset is preserved through Internet Archive captures, so current on-site use cannot be observed — irrelevant for a defunct-brand record whose relevant period ended 2021-03-01."
+        ],
+        "variant": {
+          "basis": "Standalone symbol variant (red block over black block with white slot) extracted from the header lockup; this is the same emblem the accepted icon depicts, without wordmark lettering.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ece6a99f3351a933bfba8348188acdee14b968b342d0b5973b28b66875c54f50.json",
+        "sha256": "ece6a99f3351a933bfba8348188acdee14b968b342d0b5973b28b66875c54f50"
+      },
+      "baseIconHash": "ddd6e0df12f2418dce7e5b44843395b9f94a90d786a89bcb79bd634f60aa3b2e",
+      "candidate": {
+        "detailsJudgement": "The symbol has three flat blocks; all edges are crisp and complete in the final renders; the white slot is preserved exactly as authored in the source (white paint, narrower than the blocks), not redrawn or erased.",
+        "faithful": true,
+        "iconHash": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b",
+        "path": "evidence/15431/candidate-e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b.svg",
+        "proportionsJudgement": "The near-square symbol viewBox (26.933 x 26.988 units) is preserved with no scaling or translation beyond the authored geometry; the full-bleed composition fills the cell as in the accepted icon; legible and recognizable at 24/32/48 px on both themes.",
+        "rationale": "Replace the accepted icon with the standalone symbol of the bank's final-period official header logo vector: it corrects the off-brand palette (#de4149/#221f20 → official #E4032E red and black with the white slot) and is backed by an original first-party vector, archived during the bank's operation (merged into Росбанк effective 2021-03-01, so 2020 branding is the relevant period).",
+        "role": "Standalone symbol mark: red block over black block with a white slot — the emblem part of the official lockup, without wordmark lettering; the blocks themselves are the whole emblem, no separate backing.",
+        "sha256": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b",
+        "sourceAssetUrl": "https://web.archive.org/web/20201225074205id_/https://api.rusfinancebank.ru/uploads/rfb/header_logo_d/1/5fa8cf50a9053.svg",
+        "sourceUrl": "https://web.archive.org/web/20201225074205id_/https://api.rusfinancebank.ru/uploads/rfb/header_logo_d/1/5fa8cf50a9053.svg",
+        "transforms": [
+          "Lossless whole-element selection from the original lockup vector: the three symbol paths (red block, black block, white slot) are carried over verbatim; a square viewBox bounds the symbol; no path data, color or geometry was edited; no transformation of the emblem was needed.",
+          "SVGO 4.1.0 with frozen worktree config (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 330 → 302 bytes; independent rsvg renders pixel-identical (zero channel difference); optimized bytes selected."
+        ],
+        "variant": "Symbol variant of the 2020 'БУДУЩЕЕ ЭТО ТЫ' lockup; the accepted icon already depicts this same symbol variant, so only palette/provenance change, not a redesign.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Palette correction: the accepted icon's softened red #de4149 and dark-gray #221f20 with a transparent notch are replaced by the official vivid #E4032E red and black with the source's white slot; on a light background both render similarly, but the official colors are visibly more saturated and the slot is white rather than background-colored on dark themes — matching the archived official asset."
+      },
+      "candidateIconHash": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b",
+      "checkedAt": "2026-10-03T09:49:19.790588Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "57bcd538c8d257d543b3fec5c980aa121bfe6ad158e132ea88c44750ce173b5e",
+        "head": "bank-icon-maintenance/15431",
+        "headCommit": "c2cf405a5eb64b0106c2550fe6625e8c33a9c593",
+        "number": 50,
+        "observedAt": "2026-10-03T10:01:52.646207Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Русфинанс Банк (Company.id 15431)",
+        "url": "https://github.com/zenmoney/banks/pull/50"
+      },
+      "reason": "The accepted icon approximates the bank's final-period official mark with off-brand colors: baseline #de4149/#221f20 versus the official #E4032E red and black. The official desktop header logo SVG (served by the bank's own API api.rusfinancebank.ru, archived by the Internet Archive on 2020-12-25) is a genuine original vector whose standalone symbol (red block over black block with white slot) is square-cell suitable; extracting it corrects the palette while preserving the emblem geometry. Historical record: the bank merged into ПАО Росбанк (CBR decision 17.12.2020, ceased 01.03.2021), so the 2020 branding is the relevant period; the current РФК-банк is a different entity.",
+      "reviewPackage": {
+        "path": "evidence/15431/candidate-56d627bfd4c55812ca3d2ec71ace698d87298af3edaf91817e7c28781694f518.json",
+        "sha256": "56d627bfd4c55812ca3d2ec71ace698d87298af3edaf91817e7c28781694f518"
+      },
+      "sourceCandidate": {
+        "iconHash": "bb75f7aee30422d506e7ed3575a2db529d6768ca7c4c91d0b7bf263d66cf9829",
+        "path": "evidence/15431/research-e476c643c3a04ff0a9e9b4d65af0abb5/fetch-faada8ed421546a099d05bfbbf3cfbf6/attempt-1/body.bin",
+        "rationale": "Official original vector of the final-period brand; its standalone symbol corrects the accepted icon's off-brand colors (#de4149/#221f20 → official #E4032E/black with white slot) while preserving the emblem composition.",
+        "retrieval": {
+          "path": "evidence/15431/research-e476c643c3a04ff0a9e9b4d65af0abb5/fetch-faada8ed421546a099d05bfbbf3cfbf6/receipt.json",
+          "sha256": "a4b2f659b0fe85f1856533c825486e80003cb219b79e706337aecc2584619553"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20201225074205id_/https://api.rusfinancebank.ru/uploads/rfb/header_logo_d/1/5fa8cf50a9053.svg",
+        "sourceUrl": "https://web.archive.org/web/20201225074205id_/https://api.rusfinancebank.ru/uploads/rfb/header_logo_d/1/5fa8cf50a9053.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20201225074205id_/https://api.rusfinancebank.ru/uploads/rfb/header_logo_d/1/5fa8cf50a9053.svg",
+          "checkedAt": "2026-10-03T09:31:00Z",
+          "independenceGroup": "Rusfinance Bank first-party assets via Internet Archive",
+          "kind": "official",
+          "observation": "Official desktop header logo lockup SVG (311x53, authored vector paths, no embedded raster, no traced-copy signs) preserved by the Internet Archive on 2020-12-25 from the bank's own API; contains the standalone red/black symbol plus wordmark lettering. sha256 bb75f7aee30422d506e7ed3575a2db529d6768ca7c4c91d0b7bf263d66cf9829.",
+          "url": "https://web.archive.org/web/20201225074205id_/https://api.rusfinancebank.ru/uploads/rfb/header_logo_d/1/5fa8cf50a9053.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T09:31:00Z",
+          "independenceGroup": "Central Bank of Russia registry",
+          "kind": "official",
+          "observation": "Central Bank of Russia financial-organization registry: АО «Русфинанс Банк» (OGRN 1026300001991) ceased activity 1 March 2021 upon accession to ПАО Росбанк; reorganization decision dated 17.12.2020, register entry posted 21.12.2020. Establishes the 2020 branding as the bank's final operating period.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1026300001991"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T09:50:52.883214Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b",
+        "xmlSha256": "e9ec36462e9156e62f68e27d696a1bf15356c42ec3ab51c72f403163fc082bc7"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
