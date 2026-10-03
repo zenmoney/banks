@@ -1,0 +1,119 @@
+{
+  "lastAttemptAt": "2026-10-03T18:17:17.180834Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15606/assessed-1e4d4fa62a58fd1fae525ad4532228b4b77236616219713f3514e9c04fde1b3b.json",
+        "sha256": "1e4d4fa62a58fd1fae525ad4532228b4b77236616219713f3514e9c04fde1b3b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "rb.cz homepage inline SVG emblem (fetched 2026-10-03) and official RBI brand portal 'Logo 2016' asset",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official brand.rbinternational.com favicon.svg and Gable Cross.zip brand bundle; emblem construction matches rb.cz homepage emblem",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Identity and currency established by the official RBI brand portal and the bank's own rb.cz homepage; both are first-party sources under one group, treated as one independence group.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Official Gable Cross.zip variant set compared with the fetched favicon.svg and rb.cz homepage emblem",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/2286e85a886b207c534ce15d481221f3880af43ef479c2f8e0bdf2f88f78c176.json",
+        "sha256": "2286e85a886b207c534ce15d481221f3880af43ef479c2f8e0bdf2f88f78c176"
+      },
+      "baseIconHash": "05c49c92166d232efbdd669d17c87853534a5d44c5ae755ffa15c7f35a288959",
+      "candidate": {
+        "detailsJudgement": "Cross contours, chimney notch, arm widths and both colors reproduce the source vector exactly under the uniform transform; no lost strokes or satellite details at 240px and at 24/32/48px diagnostics.",
+        "faithful": true,
+        "iconHash": "7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591",
+        "path": "evidence/15606/candidate-7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591.svg",
+        "proportionsJudgement": "Emblem occupies a centered box similar to the accepted icon's placement; complete emblem survives inside the circle with clear margins on both themes; legible at small sizes.",
+        "rationale": "Existing icon is the outdated gable-cross presentation (pale yellow circle, black square frame, outlined two-tone cross). The current official mark is the squared-colour variant: solid #FEE600 field with solid #2B2D33 cross, served by the official RBI brand portal and corroborated by rb.cz.",
+        "role": "standalone bank brand mark (gable cross emblem), no wordmark",
+        "sha256": "7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591",
+        "sourceAssetUrl": "https://brand.rbinternational.com/favicon.svg",
+        "sourceUrl": "https://brand.rbinternational.com/favicon.svg",
+        "transforms": [
+          "Uniform scale 0.1074 and translation of the whole emblem to center it on the catalog circle; no rotation, stretch or path edits",
+          "Backing: the uniform #FEE600 source field fills the catalog circle with transparency outside (plain-field circle rule); no emblem pixels masked",
+          "Optimization: SVGO 4.1.0 with repo svgo.config.mjs (sha256 f2a406e0...) trial produced 658 B vs 518 B working bytes with pixel-identical render (Pillow diff bbox None); working version retained"
+        ],
+        "variant": "Gable Cross 'squared colour' variant (solid #FEE600 field, solid #2B2D33 cross), matching rb.cz homepage emblem and the official Gable Cross.zip Squared-Col variant",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base shows the obsolete framed, outlined two-tone cross; final shows the current solid squared-colour cross without the frame — a clearly visible supported rebranding/presentation correction."
+      },
+      "candidateIconHash": "7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591",
+      "checkedAt": "2026-10-03T18:17:17.180834Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "aba1a7f70f751ceebe2e1b2d8bb2673c242aa1e73c474127e1f4c1f689a0cb41",
+        "head": "bank-icon-maintenance/15606",
+        "headCommit": "d6b1b166a447ac25f1651bb44c300a72e57ae74b",
+        "number": 71,
+        "observedAt": "2026-10-03T18:32:59.549580Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+        "url": "https://github.com/zenmoney/banks/pull/71"
+      },
+      "reason": "Existing icon shows an outdated gable-cross presentation (yellow #fdeb3f circle, black square frame, outlined two-tone cross). The mark in use today by Raiffeisenbank (CZ) and the RBI group is the 'Gable Cross — squared colour' variant: solid #FEE600 square with solid #2B2D33 cross, no frame or outline. Supported rebranding/geometry correction justifies the update.",
+      "reviewPackage": {
+        "path": "evidence/15606/candidate-71c1207b9615a200c0d109a9a8f300bff74eac49e890f7d4b27bd0d50f7aacc2.json",
+        "sha256": "71c1207b9615a200c0d109a9a8f300bff74eac49e890f7d4b27bd0d50f7aacc2"
+      },
+      "sourceCandidate": {
+        "iconHash": "3e923ee4de8646dde7c6e5fa7747cd101ee98d3862680b1d06961d80f11976ac",
+        "path": "evidence/15606/research-e2d7abf9837d4b64add91c5dcb20654c/fetch-98717fa6e4eb4c7d9cb0fc0b76056236/attempt-1/body.bin",
+        "rationale": "Official RBI brand portal favicon.svg is a self-contained original vector of the current squared-colour Gable Cross (#FEE600 square, #2B2D33 solid cross), byte-corroborated by the official Gable Cross.zip 'Squared-Col' variant (PDF-verified colors) and by the inline SVG emblem colors/geometry (#fee600/#2b2d33) on the rb.cz homepage. The CZ bank publishes no standalone SVG on rb.cz itself.",
+        "retrieval": {
+          "path": "evidence/15606/research-e2d7abf9837d4b64add91c5dcb20654c/fetch-98717fa6e4eb4c7d9cb0fc0b76056236/receipt.json",
+          "sha256": "35fb1b2ae8858c02c3a3a8886e974afa386580dbd4b3729a29ed2f0352b4b50c"
+        },
+        "sourceAssetUrl": "https://brand.rbinternational.com/favicon.svg",
+        "sourceUrl": "https://brand.rbinternational.com/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://brand.rbinternational.com/favicon.svg",
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "rbi-brand-portal",
+          "kind": "official",
+          "observation": "Official RBI brand portal favicon: self-contained original-vector squared-colour Gable Cross (sha256 3e923ee4de86...976ac).",
+          "url": "https://brand.rbinternational.com/favicon.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "rbi-brand-portal",
+          "kind": "official",
+          "observation": "rb.cz homepage inline SVG emblem uses #fee600/#2b2d33 with the same squared gable cross geometry, corroborating currency of the squared-colour variant.",
+          "url": "https://www.rb.cz/"
+        },
+        {
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "rbi-brand-portal",
+          "kind": "official",
+          "observation": "Official Gable Cross brand bundle; Squared-Col variant verified (#FEE600 square, #2B2D33 cross) matching the fetched favicon.",
+          "url": "https://brand.rbinternational.com/content/dam/rbi/brand/public/Gable%20Cross.zip.coredownload.zip"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T18:20:30Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591",
+        "xmlSha256": "beacdd838f1891673b5f3164c047769f51c8b7a5fb576598bf9de320b60e6e79"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
