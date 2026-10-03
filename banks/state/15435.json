@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-03T09:38:45.581806Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15435/assessed-02d618c08d660cf587953dc4ed459e135c9b7eb3cc3fb9bfb6e236e59a941fa0.json",
+        "sha256": "02d618c08d660cf587953dc4ed459e135c9b7eb3cc3fb9bfb6e236e59a941fa0"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Fetched live from bnb.by on 2026-10-03 and used in the current homepage header, footer and favicon set.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The fetched favicon.svg is served by bnb.by, the official domain of Company.id 15435 (БНБ-Банк, fullTitle Белорусский народный банк), and its lion emblem matches the header/footer logos on the live homepage.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single first-party source set; the favicon variant is corroborated by the independently fetched header and footer lockups on the same live page.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone square variant (emblem in rounded-square frame) versus the header/footer wordmark lockups of the same mark; this standalone variant is what the accepted icon also depicts, but with off-brand colors (#ff9800/#bebebe instead of #F96302/#ECEDEE).",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/de59f35b8041f473e4d956daf136e258e4b674db20cf827bda98d60a4567bbf0.json",
+        "sha256": "de59f35b8041f473e4d956daf136e258e4b674db20cf827bda98d60a4567bbf0"
+      },
+      "baseIconHash": "370f4fb54235b091509a1299ff3f2168d8001edec6f120c3ff7200faf3b35eea",
+      "candidate": {
+        "detailsJudgement": "All emblem details survive: the dotted blanket stripes, eye spiral, ear dot clusters, claws and the white counters in the body are present and crisp in the final renders; the emblem overlaps the frame edge on the right exactly as in the source, with no clipping or lost strokes.",
+        "faithful": true,
+        "iconHash": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77",
+        "path": "evidence/15435/candidate-a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77.svg",
+        "proportionsJudgement": "The 256x256 viewBox is preserved with the emblem at its authored scale; complete emblem including strokes and the tail fits the square cell with clearances on both themes; legible and recognizable at 24/32/48 px preview sizes; internal transparency of the frame is preserved.",
+        "rationale": "Replace the accepted icon with the bank's official standalone favicon vector: it corrects the off-brand palette (#ff9800/#bebebe → official #F96302/#ECEDEE) and restores the official frame weight and emblem treatment of the current БНБ lion mark, served first-party at bnb.by and current on 2026-10-03.",
+        "role": "Standalone square favicon mark: the lion emblem inside a rounded-square frame, no lettering; the frame is part of the official mark, not a catalog backing.",
+        "sha256": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77",
+        "sourceAssetUrl": "https://bnb.by/favicon.svg",
+        "sourceUrl": "https://bnb.by/favicon.svg",
+        "transforms": [
+          "No geometry transformation: the working SVG is the unmodified official favicon.svg; whole-emblem placement is as authored.",
+          "SVGO 4.1.0 with frozen worktree config (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 13755 → 9495 bytes; trial visually identical to the working version (independent rsvg render max channel difference ≤16, antialiasing only); optimized bytes selected."
+        ],
+        "variant": "Official standalone favicon variant of the БНБ lion mark, matching the variant already depicted by the accepted icon; header/footer lockups of the same mark carry the wordmark and are not used.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Palette correction: the accepted icon's yellow-orange #ff9800 emblem with gray #bebebe frame and etched internal detailing is replaced by the official deeper orange #F96302 emblem with the official #ECEDEE rounded-square frame and solid-dot detailing, matching the bank's current first-party assets; this is a supported color/geometry correction, not a serialization-only change."
+      },
+      "candidateIconHash": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77",
+      "checkedAt": "2026-10-03T09:38:45.581806Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3df6717b38b25d90bf4f2addc6df746bdb279175ae07c73209e2cca8d2a35ce9",
+        "head": "bank-icon-maintenance/15435",
+        "headCommit": "1b3800f065f6e843432b24fabb3ea6d8840f4131",
+        "number": 49,
+        "observedAt": "2026-10-03T09:47:48.194420Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: БНБ-Банк (Company.id 15435)",
+        "url": "https://github.com/zenmoney/banks/pull/49"
+      },
+      "reason": "The accepted icon uses off-brand colors: material orange #ff9800 and gray #bebebe frame, while the bank's current official standalone mark (favicon.svg served by bnb.by, fetched 2026-10-03) uses #F96302 orange and #ECEDEE frame with the same lion emblem composition. The official first-party favicon.svg is a genuine original vector (48 authored paths, no embedded raster, served at the root of the bank's own domain), standalone (no lettering), square, and current on the live homepage header/footer/favicon set. A color-faithful replacement is warranted; the emblem geometry matches the accepted design.",
+      "reviewPackage": {
+        "path": "evidence/15435/candidate-675e6aee88d2c757cd51dcfd5d522fa940fc68871858f77367e026b6b75baf01.json",
+        "sha256": "675e6aee88d2c757cd51dcfd5d522fa940fc68871858f77367e026b6b75baf01"
+      },
+      "sourceCandidate": {
+        "iconHash": "f6cf5c8f73139ae220a08ad95b6278221d0a2882b1d11569f2f3943a47061593",
+        "path": "evidence/15435/research-9ec2fa57587a4798ac313639d64eeae0/fetch-2d809b21020e4352b4211d55370355f6/attempt-1/body.bin",
+        "rationale": "Official first-party standalone vector of the current brand mark; corrects the accepted icon's off-brand colors (#ff9800/#bebebe → official #F96302/#ECEDEE) while preserving the same emblem composition.",
+        "retrieval": {
+          "path": "evidence/15435/research-9ec2fa57587a4798ac313639d64eeae0/fetch-2d809b21020e4352b4211d55370355f6/receipt.json",
+          "sha256": "244f4e98c7320735f349d8c40ea64b2f573d1050caa511b6f33f093c4525bd35"
+        },
+        "sourceAssetUrl": "https://bnb.by/favicon.svg",
+        "sourceUrl": "https://bnb.by/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://bnb.by/favicon.svg",
+          "checkedAt": "2026-10-03T09:31:00Z",
+          "independenceGroup": "bnb.by first-party assets (homepage header/footer/favicon set)",
+          "kind": "official",
+          "observation": "Live official homepage (fetched 2026-10-03) uses the same lion-in-rounded-square mark in its header logo, footer logo and favicon; identity and currency confirmed on the bank's own domain.",
+          "url": "https://bnb.by/"
+        },
+        {
+          "assetUrl": "https://bnb.by/favicon.svg",
+          "checkedAt": "2026-10-03T09:31:00Z",
+          "independenceGroup": "bnb.by first-party assets (homepage header/footer/favicon set)",
+          "kind": "official",
+          "observation": "Official standalone vector mark, 256x256 viewBox, 48 authored paths, fills #F96302/#ECEDEE/white, no <text>/<image> elements, no traced-copy signs; standalone square mark without accompanying lettering. sha256 f6cf5c8f73139ae220a08ad95b6278221d0a2882b1d11569f2f3943a47061593.",
+          "url": "https://bnb.by/favicon.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T09:41:13.187541Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77",
+        "xmlSha256": "9848b4ab0dde178e957ef8cb9c12184bc0d4fe2350d6b1d7a86da60d1c9c6508"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
