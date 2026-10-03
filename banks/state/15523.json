@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-03T14:30:54.802301Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15523/assessed-c82bb8fca597e0cc2e75f332032665e9fa36c45dc263ee610bb9acbfca1467b3.json",
+        "sha256": "c82bb8fca597e0cc2e75f332032665e9fa36c45dc263ee610bb9acbfca1467b3"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official pages fetched 2026-10-03 use the pixel-M mark; main site 403-blocked (retrieval limitation), payment subdomain is official and current.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Pixel-M emblem matches official modulbank assets; bank title/fullTitle consistent.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two official modulbank assets agree (logo lockup and standalone pinned-tab mark); search found no contradicting newer variant.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current official standalone/app presentation is solid #072DA0 rounded square; committed gradient circle matches no observed official presentation.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/877397f2d70bb3a6a5f51a5a2e02520f2d6862ad5edb7490ac3716a44d50f32f.json",
+        "sha256": "877397f2d70bb3a6a5f51a5a2e02520f2d6862ad5edb7490ac3716a44d50f32f"
+      },
+      "baseIconHash": "76ec802ed4440b22dbf77d0a0906791f757db5de9a13d034de9deea52a118cd7",
+      "candidate": {
+        "detailsJudgement": "Pixel-M cells, rounded-square corner radii and exact #072DA0 fill preserved verbatim from the source vector; no detail lost.",
+        "faithful": true,
+        "iconHash": "47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5",
+        "path": "evidence/15523/candidate-47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5.svg",
+        "proportionsJudgement": "Emblem occupies the full square cell with even margins, matching the official standalone presentation; no crop or distortion.",
+        "rationale": "Geometry/color correction: committed icon shows the pixel-M emblem on a blue gradient circle; the current official mark is the same emblem on a solid #072DA0 rounded square.",
+        "role": "standalone app mark (emblem only, wordmark excluded)",
+        "sha256": "47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5",
+        "sourceAssetUrl": "https://pay.modulbank.ru/static/images/logo/bank/logo-solid.svg",
+        "sourceUrl": "https://pay.modulbank.ru/",
+        "transforms": [
+          "Selected emblem group (backing rounded square, clipped near-white inner square, white pixel-M path) verbatim from the official logo lockup SVG; wordmark paths excluded",
+          "Uniform placement in a 90x90 viewBox (translate 0, no scaling or distortion)",
+          "SVGO 0.8x via repository svgo.config.mjs: 2503 -> 1273 bytes, visually identical (rsvg-convert, both themes), selected optimized hash 47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5"
+        ],
+        "variant": "solid #072DA0 rounded square with white pixel-M emblem",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Backing changes from a blue gradient circle to the official solid #072DA0 rounded square; emblem geometry unchanged."
+      },
+      "candidateIconHash": "47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5",
+      "checkedAt": "2026-10-03T14:30:54.802301Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f792e5225f90779b9cf6a64f683cdb8ce3ce8394f230a1c4a7a420df80829c7c",
+        "head": "bank-icon-maintenance/15523",
+        "headCommit": "e1f0c5b3520d27c203723b78d826eb19a6fb375a",
+        "number": 60,
+        "observedAt": "2026-10-03T14:40:59.116472Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Модульбанк (Company.id 15523)",
+        "url": "https://github.com/zenmoney/banks/pull/60"
+      },
+      "reason": "Committed icon renders the pixel-M emblem on a blue GRADIENT circle; the current official mark (live pay.modulbank.ru logo-solid.svg, fetched 2026-10-03) is the same pixel-M on a SOLID #072DA0 rounded square. Field-color/presentation correction with unchanged emblem geometry.",
+      "reviewPackage": {
+        "path": "evidence/15523/candidate-92b9bae0c21ae2c01adbc27676fdaab331723445d23cca11f19b82c0c71af1df.json",
+        "sha256": "92b9bae0c21ae2c01adbc27676fdaab331723445d23cca11f19b82c0c71af1df"
+      },
+      "sourceCandidate": {
+        "iconHash": "a61968c02bb08beb5155ad459b93f3fefc063cb5e7e2ed636098edef0c9167bb",
+        "path": "evidence/15523/research-d8aeb73bc6724089915a89c1e58f6e83/fetch-22673e7a5f094be0b88eb044ef651e0e/attempt-2/body.bin",
+        "rationale": "Geometry/color correction: replace gradient-circle presentation with the official solid #072DA0 rounded-square mark, emblem geometry preserved.",
+        "retrieval": {
+          "path": "evidence/15523/research-d8aeb73bc6724089915a89c1e58f6e83/fetch-22673e7a5f094be0b88eb044ef651e0e/receipt.json",
+          "sha256": "4806486bf2330c70a22990e64f1c5d0859d8004c2cecc9bf1d478375e91a7954"
+        },
+        "sourceAssetUrl": "https://pay.modulbank.ru/static/images/logo/bank/logo-solid.svg",
+        "sourceUrl": "https://pay.modulbank.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://pay.modulbank.ru/static/images/logo/bank/logo-solid.svg",
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "modulbank-official",
+          "kind": "official",
+          "observation": "Live official payment subdomain serves logo-solid.svg: solid #072DA0 rounded square with white pixel-M emblem and wordmark (receipt fetch-22673e7a5f094be0b88eb044ef651e0e, body sha256 a61968c02bb08beb5155ad459b93f3fefc063cb5e7e2ed636098edef0c9167bb).",
+          "url": "https://pay.modulbank.ru/"
+        },
+        {
+          "assetUrl": "https://pay.modulbank.ru/static/favicon/safari-pinned-tab.svg",
+          "checkedAt": "2026-10-03T00:00:00Z",
+          "independenceGroup": "modulbank-official",
+          "kind": "official",
+          "observation": "Official standalone single-path pixel-M vector mask corroborates the emblem design.",
+          "url": "https://pay.modulbank.ru/static/favicon/safari-pinned-tab.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T14:34:25.074848Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5",
+        "xmlSha256": "4ba9b1d86ef41d989944363eb44511cfcb0bcc14788fa924fa409c5778b23939"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
