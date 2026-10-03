@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-03T16:26:03.214727Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15570/assessed-90fcf85d5a79502c82a4350f662256c413bf88f2ea8c8ed3871bb99ae01eb390.json",
+        "sha256": "90fcf85d5a79502c82a4350f662256c413bf88f2ea8c8ed3871bb99ae01eb390"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Original negative SVG is actively linked as the bank logo on both live consumer and media pages; current banking services establish an operating-brand context.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata Komerční banka CZ kb.cz matches the live bank-labelled official page and footer vector.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All positive evidence is current primary-bank publication; two pages and raster are not counted as independent sources. No residual identity/current-use/variant gap requires independent or image-discovery searches.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Source-supported standalone emblem selected from negative KB lockup: preserve original rect and all three emblem paths exactly, including white perimeter and painted center bar; remove only separate KB lettering. Square red/black contour is significant emblem geometry, not a uniform plain backing eligible for circular masking. Working reference visually matches source emblem; final catalog fit still requires coordinator renders.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/81ad16c48fd1bad52a5d3990525540635d590afaa8a1c4fd84827e54747f92e0.json",
+        "sha256": "81ad16c48fd1bad52a5d3990525540635d590afaa8a1c4fd84827e54747f92e0"
+      },
+      "baseIconHash": "ddd6e0df12f2418dce7e5b44843395b9f94a90d786a89bcb79bd634f60aa3b2e",
+      "candidate": {
+        "detailsJudgement": "Original SVG, exact final SVG and generated XML inspected: final retains red upper square, black lower square, white-painted horizontal bar and original white perimeter. Full-source and source/final pairs inspected on both themes. No tracing, lost detail, or changed internal alpha observed.",
+        "faithful": true,
+        "iconHash": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3",
+        "path": "evidence/15570/candidate-e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3.svg",
+        "proportionsJudgement": "Complete meaningful square contour preserved; no circular crop or backing adaptation. Separate KB letters removed, emblem retains source coordinates and proportions. Bound Compose base/final frames inspected on light/dark; resized 162px icon-region diagnostics at24/32/48 preserve recognizable square and center white bar without clipping or excessive shrink. Perimeter gives dark-theme outline, while naturally blending into white theme. Diagnostics are resized Desktop evidence, not mobile/native passes.",
+        "rationale": "Correct accepted muted #de4149/#221f20 colors and transparent center cutout to current original official negative KB vector #E60029/black/#FFFFFE. White perimeter is source-supported and improves dark-theme lower-square visibility. This is a color/geometry and rendering correction, not a claimed rebrand or cosmetic circle normalization.",
+        "role": "standalone-mark",
+        "sha256": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3",
+        "sourceAssetUrl": "https://www.kb.cz/getmedia/b4e50f15-df4c-4c07-8c29-02d287289323/KB-Logo-Negative-4.svg?ext=.svg",
+        "sourceUrl": "https://www.kb.cz/cs/obcane",
+        "transforms": [
+          "Original negative lockup viewport78x32 changed to32x32; remove only two separate KB lettering paths; retain exact four emblem elements including source white perimeter. No emblem recoloring, redrawing, circular masking or independent part repositioning.",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduces 520 to 486 bytes; selected e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3. Rect converted to equivalent path, shorthand/precision4 normalization; independent rsvg-convert working/trial renders identical at 320px and inspected on white/#121212 canvases. Selection remains contingent on coordinator converter/Compose compatibility checks."
+        ],
+        "variant": "Official current negative KB square emblem with red/black halves, painted white bar and white perimeter. Red/black square is meaningful logo silhouette rather than a separable uniform backing; no official circular presentation observed or claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Final is more saturated red and true black; white-painted bar replaces the accepted transparent hole. White perimeter reveals the complete black lower square on dark theme; bar remains white instead of becoming background-dark. Source geometry also yields a shorter horizontal bar matching the original. Light-theme white perimeter is unobtrusive."
+      },
+      "candidateIconHash": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3",
+      "checkedAt": "2026-10-03T16:26:03.214727Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f08113749e486204c76c7eb166e0ccac2043c7b2c1700320546f15588c28df68",
+        "head": "bank-icon-maintenance/msebyr0y-15570",
+        "headCommit": "6dcf68de5b1ba2a51308571546ee610c76ae9da2",
+        "number": 65,
+        "observedAt": "2026-10-03T16:37:34.100290Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Komerční banka (Company.id 15570)",
+        "url": "https://github.com/zenmoney/banks/pull/65"
+      },
+      "reason": "The official current KB website supplies an original self-contained negative logo vector. Its standalone red/black square emblem has an explicitly painted #FFFFFE center bar and white perimeter, unlike the accepted icon's transparent center cutout and muted red/black colors. Propose a source-supported color and dark-theme legibility correction, not an inferred rebrand.",
+      "reviewPackage": {
+        "path": "evidence/15570/candidate-5ad788ea1b3449a91ddad4b3e9aba269a46ed1b8999ff3f18c9b4640d8a9dc6c.json",
+        "sha256": "5ad788ea1b3449a91ddad4b3e9aba269a46ed1b8999ff3f18c9b4640d8a9dc6c"
+      },
+      "sourceCandidate": {
+        "iconHash": "2aab77753a965ea8a877db4899d6c297481cf08bde86d001a433137e6f35bc9c",
+        "path": "evidence/15570/research-2ffd671da9e649bb94fcd4e1f9c529b1/fetch-7ba0a76f81c54e1ba9acead74c470365/attempt-1/body.bin",
+        "rationale": "Correct accepted muted colors and transparent center bar using currently published original negative KB vector. Preserve white perimeter for the source's dark-background variant; do not describe this as a rebrand or circular normalization.",
+        "retrieval": {
+          "path": "evidence/15570/research-2ffd671da9e649bb94fcd4e1f9c529b1/fetch-7ba0a76f81c54e1ba9acead74c470365/receipt.json",
+          "sha256": "0c71c7808af95adc81bedcaefbf569cb6c3f950969f15cf021feedbefc07f0a7"
+        },
+        "sourceAssetUrl": "https://www.kb.cz/getmedia/b4e50f15-df4c-4c07-8c29-02d287289323/KB-Logo-Negative-4.svg?ext=.svg",
+        "sourceUrl": "https://www.kb.cz/cs/obcane"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.kb.cz/getmedia/b4e50f15-df4c-4c07-8c29-02d287289323/KB-Logo-Negative-4.svg?ext=.svg",
+          "checkedAt": "2026-10-03T16:23:10Z",
+          "independenceGroup": "Komerční banka official website",
+          "kind": "official",
+          "observation": "The live Komerční banka consumer page describes current KB+ accounts and financial services. Header kb-logo identifies the red/black square with a white horizontal bar and KB lettering; the footer image is explicitly labelled Logo Komerční banky and links to this self-contained negative SVG. Its original paths use #E60029, black and #FFFFFE with a #FFFFFE square perimeter. Official asset and independently rendered full source were inspected. This is the represented operating CZ bank, not a successor substitution.",
+          "url": "https://www.kb.cz/cs/obcane"
+        },
+        {
+          "assetUrl": "https://www.kb.cz/getmedia/b4e50f15-df4c-4c07-8c29-02d287289323/KB-Logo-Negative-4.svg?ext=.svg",
+          "checkedAt": "2026-10-03T16:23:10Z",
+          "independenceGroup": "Komerční banka official website",
+          "kind": "official",
+          "observation": "Current official press-center page identifies itself as Komerční banka's media information, financial results and press releases. It repeats the same labelled header/footer KB emblem and original vector link. This corroborates current use within the same primary publication, not an independent source.",
+          "url": "https://www.kb.cz/cs/o-bance/pro-media"
+        },
+        {
+          "assetUrl": "https://www.kb.cz/getmedia/31feed07-7101-4a05-a59e-20155d0d3302/ch-logo-kb-288x288-ret.webp",
+          "checkedAt": "2026-10-03T16:23:10Z",
+          "independenceGroup": "Komerční banka official website",
+          "kind": "official",
+          "observation": "Official OG image was downloaded and visually inspected: red upper/black lower square, white center bar, separate KB lettering on white. Raster is contextual evidence only, not a vector replacement source. It confirms that square silhouette and center bar are emblem geometry; no circular official presentation was observed.",
+          "url": "https://www.kb.cz/cs/obcane"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T16:33:00.421565Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3",
+        "xmlSha256": "1f40b8eeaeadc6ef71a629591d963c3f1f1fbe473f54a297cec9b618f336ecd4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

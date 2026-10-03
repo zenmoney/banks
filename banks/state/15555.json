@@ -1,0 +1,88 @@
+{
+  "lastAttemptAt": "2026-10-03T16:25:17.148886Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15555/assessed-b94ae8c2986452a746381cac00b01e65c8462c4d210bbfa4c470dad0632a2d86.json",
+        "sha256": "b94ae8c2986452a746381cac00b01e65c8462c4d210bbfa4c470dad0632a2d86"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current successfully fetched operating UAE personal banking site deploys the selected SVG in its header CSS; no successor or historical-period substitution.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Catalog AE URL is the live official UAE Standard Chartered page, explicitly naming the UAE bank in footer.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Direct first-party current deployment resolves identity/current use/vector provenance; independent/image searches are unnecessary because no evidence gap remains. CSS, page and SVG are one primary publication, not independent sources.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Complete standalone emblem is first four self-contained vector paths from the directly deployed official logo, keeping exact geometry, paints and alpha. Separate lettering is removed only in working copy.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "e3fe66b22bff76862a662033349da868c73164b117c11312de47b591fe9bc9bb",
+      "candidate": {
+        "detailsJudgement": "Full original official logo and actual source/final pairs inspected. Both round teardrop terminals, long blue upper fold, long green lower fold and internal diagonal transparent separation retained. Exact final SVG has four original-source-derived paths only; no wordmark, external assets, raster or backing. Generated XML retains four corresponding paths and #0473ea/#38d200 fills, translating x by20 for negative viewBox origin. Actual Compose frames show crisp full contours without seam artefacts or clipping.",
+        "faithful": true,
+        "iconHash": "6327640bf3f3082bb27dbc6f65be8eb5c24b4fbbcfd7bd9a458b3943691ae246",
+        "path": "evidence/15555/candidate-6327640bf3f3082bb27dbc6f65be8eb5c24b4fbbcfd7bd9a458b3943691ae246.svg",
+        "proportionsJudgement": "Original emblem proportions retained in110x110 square viewBox -20 0 110 110; horizontal canvas space centers the narrow ~69x110 mark without stretch. Source/final comparison changes scale and excludes accompanying wordmark only. Resized24/32/48px whole Compose-frame diagnostics read on both themes: all four emblem parts and diagonal gaps remain distinguishable; finest curves naturally soften at24px. These are resized diagnostics, not actual mobile renders.",
+        "rationale": "Live official UAE header deploys this redesigned flat vivid-blue/green emblem. Replaces accepted older interwoven ribbon geometry and #3271E2/#6BCF3D paints; actual before/after shows meaningful source-supported geometry and colour update, not serialization or circle cosmetics.",
+        "role": "Standalone Standard Chartered ribbon emblem, extracted from official current header lockup; no accompanying lettering.",
+        "sha256": "6327640bf3f3082bb27dbc6f65be8eb5c24b4fbbcfd7bd9a458b3943691ae246",
+        "sourceAssetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+        "sourceUrl": "https://www.sc.com/ae/",
+        "transforms": [
+          "Retain first four original official SVG paths as complete emblem; remove nineteen separate wordmark paths.",
+          "Square transparent110x110 canvas, viewBox -20 0 110 110; no emblem redrawing/recolouring/backing/masking.",
+          "SVGO 4.1.0; frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e; 1968→1109 bytes; selected SHA256 6327640bf3f3082bb27dbc6f65be8eb5c24b4fbbcfd7bd9a458b3943691ae246; smaller and visually faithful on both theme canvases."
+        ],
+        "variant": "Current official flat blue #0473EA and vivid green #38D200 standalone emblem; transparent field. No circle or new background added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Compared actual base/final on both themes: accepted icon is an older overlapped/interwoven ribbon with tapered joins, internal seams and muted blue/green; candidate has rounded terminal drops and simplified uninterrupted flat ribbon areas with more vivid official paints. Complete current emblem remains recognizable and unclipped."
+      },
+      "candidateIconHash": "6327640bf3f3082bb27dbc6f65be8eb5c24b4fbbcfd7bd9a458b3943691ae246",
+      "checkedAt": "2026-10-03T16:25:17.148886Z",
+      "humanReview": "pending",
+      "reason": "Official UAE website currently uses a redesigned flat two-colour ribbon emblem with rounded blue/green teardrop ends and vivid #0473EA/#38D200 fills. The accepted icon has an older interwoven multi-segment ribbon geometry. Replacement is supported by current official use, not serialization.",
+      "reviewPackage": {
+        "path": "evidence/15555/candidate-145ee27664199d9c76df37093e8e690a75087aabe69107ab44ac0ddcf40c6bbc.json",
+        "sha256": "145ee27664199d9c76df37093e8e690a75087aabe69107ab44ac0ddcf40c6bbc"
+      },
+      "sourceCandidate": {
+        "iconHash": "75f45303a558f48d99512cc4bb53d66e76663b112802b58a29122ccf315a30d4",
+        "path": "evidence/15555/research-660edc0c324047759a819b7b33fd2632/fetch-07b2f6d48bec45b4bfa8f101968b6f1c/attempt-1/body.bin",
+        "rationale": "Source-supported current emblem replacement: preserve first four original paths exactly, remove separate wordmark, center in square transparent canvas. Current emblem geometry/colour differs from accepted older ribbon.",
+        "retrieval": {
+          "path": "evidence/15555/research-660edc0c324047759a819b7b33fd2632/fetch-07b2f6d48bec45b4bfa8f101968b6f1c/receipt.json",
+          "sha256": "4d0795a5c7bc26898e02be59d66667ed90c360e192e10133727faba38033570e"
+        },
+        "sourceAssetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+        "sourceUrl": "https://www.sc.com/ae/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+          "checkedAt": "2026-10-03T16:22:18Z",
+          "independenceGroup": "Standard Chartered official UAE website and asset CDN",
+          "kind": "official",
+          "observation": "Successful verified HTTPS retrieval. Metadata identifies Standard Chartered UAE and sc:country ae; footer identifies Standard Chartered Bank (United Arab Emirates) Limited and United Arab Emirates. Header link title Standard Chartered uses sc-meganav__logo-link. Linked style-base stylesheet declares its background-image as this direct official SVG. Independently inspected full original SVG reference: left blue/bright-green standalone ribbon emblem and right grey Standard Chartered lettering. The first four original paths comprise the complete emblem; all remaining paths are lettering. Footer independently repeats matching current emblem paths in same official page.",
+          "url": "https://www.sc.com/ae/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-03T16:29:45.725192Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6327640bf3f3082bb27dbc6f65be8eb5c24b4fbbcfd7bd9a458b3943691ae246",
+        "xmlSha256": "25089664228abc1a9dbdcf785da472117d9ac78be6911c8bd9e951f7e03fd2b4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
