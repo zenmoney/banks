@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-03T12:10:59.741019Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15470/assessed-31cabf27a1535aa13a2fb05a138b36db17b75121e153ecd4a7309d81a64208fc.json",
+        "sha256": "31cabf27a1535aa13a2fb05a138b36db17b75121e153ecd4a7309d81a64208fc"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The 2023-rebrand mark is served from citibank.com and used on the live Kazakhstan page header (2026-10-03); the accepted teal-circle badge is the pre-2023 variant no longer used in the official header.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The candidate is the Citi brand mark referenced from the official Citibank Kazakhstan page; the record 'Ситибанк Казахстан' (KZ, citibank.com/kazakhstan) is Citibank Kazakhstan JSC, the same operating entity.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single official publication chain (citibank.com page and its header asset) plus page context; identity of the record and currency corroborated by the live entity page content and its financial-statement links.",
+        "uncertainties": [
+          "Researcher accounting limitation: several scout searches and page reads ran outside research-reserve/research-finish accounting (no shell in scout runtime); disclosed, not claimed as accounted."
+        ],
+        "variant": {
+          "basis": "Standalone 'citi' wordmark + red arc on transparent field, exactly as served by the official asset URL; no alternative current variant (the old circular badge is retired from the header).",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d90474b378f699c80195c0a0a49f29e3aacca816a1349bfea9d196a942996b5a.json",
+        "sha256": "d90474b378f699c80195c0a0a49f29e3aacca816a1349bfea9d196a942996b5a"
+      },
+      "baseIconHash": "a527303fcb4edb30ccda72104a9372d5f8c5bac044cc062119e9cd81ec5e629f",
+      "candidate": {
+        "detailsJudgement": "Wordmark glyph outlines and the arc's inner cutout survive intact; no lost thin strokes or gaps; internal transparency preserved (arc floats above the wordmark without a filled panel).",
+        "faithful": true,
+        "iconHash": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3",
+        "path": "evidence/15470/candidate-5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3.svg",
+        "proportionsJudgement": "Complete emblem fits the square cell with useful margins on both themes; optical weight is balanced; at 24px the wordmark is small but recognizable, at 32px and 48px fully legible on both backgrounds.",
+        "rationale": "Evidenced rebrand: Citibank Kazakhstan operates under Citi's 2023 brand mark (blue 'citi' wordmark with red arc on a transparent field), served by citibank.com and used on the official Kazakhstan page header; the accepted teal-circle badge is the retired pre-2023 variant. Update replaces the obsolete badge with the current official mark.",
+        "role": "Standalone official brand mark: the 'citi' wordmark with the red arc; the letters form the mark itself, no accompanying bank name, slogan or explanatory text.",
+        "sha256": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3",
+        "sourceAssetUrl": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg",
+        "sourceUrl": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg",
+        "transforms": [
+          "No geometry transformation: the official vector was used as the working SVG; only uniform scale/centering is applied by the catalog renderer.",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1196 -> 721 bytes; selected: optimized bytes (smaller, visually identical in side-by-side 240px renders, converter-compatible); working hash before optimization e7685e26ef5d7b3497a1fee4e6b8bac9ca7da765a96953a8e3d81709f156f114."
+        ],
+        "variant": "2023-rebrand primary mark: #255BE3 wordmark, #FF3C28 arc, transparent field, exactly as served at the official asset URL; transparent standalone mark kept without an added backing (no observed official circular presentation of this variant to reproduce).",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Retired teal circular badge replaced by the current transparent blue wordmark + red arc: an evidenced rebrand of the same bank, not a cosmetic serialization change."
+      },
+      "candidateIconHash": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3",
+      "checkedAt": "2026-10-03T12:10:59.741019Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0ca224288d6a8901b0f77c92243262a36ace94cf2f3831bf97ddb9f61f9d464e",
+        "head": "bank-icon-maintenance/citibank-kazakhstan-15470",
+        "headCommit": "1ce469f777af34b71d3bbfb06f6c1b8c7cf06733",
+        "number": 55,
+        "observedAt": "2026-10-03T12:18:05.076329Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ситибанк Казахстан (Company.id 15470)",
+        "url": "https://github.com/zenmoney/banks/pull/55"
+      },
+      "reason": "The accepted icon is the pre-2023 Citi badge variant (teal circle with white 'citi' and red arc). Citibank Kazakhstan JSC is operating (official page live 2026-10-03: 32 years in Kazakhstan, Euromoney 2024-2026 awards, 2024 audited statements) and Citi's current official brand mark, in use on the official Kazakhstan page header today, is the 2023-rebrand wordmark: 'citi' in Citi blue #255BE3 with red arc #FF3C28 on a transparent field. This is an evidenced rebrand of the same bank; the teal badge variant is retired from official use.",
+      "reviewPackage": {
+        "path": "evidence/15470/candidate-5d2218615eb4a3fecf6061067972cfebf88e75013630be8504e3a31edb98b19e.json",
+        "sha256": "5d2218615eb4a3fecf6061067972cfebf88e75013630be8504e3a31edb98b19e"
+      },
+      "sourceCandidate": {
+        "iconHash": "e7685e26ef5d7b3497a1fee4e6b8bac9ca7da765a96953a8e3d81709f156f114",
+        "path": "evidence/15470/research-8e531fe8280d4d679a77328143481ad7/fetch-4f98d716e8dd4cdba448c5cfb81994e2/attempt-1/body.bin",
+        "rationale": "Evidenced rebrand: Citibank Kazakhstan operates under Citi's 2023 brand mark (blue 'citi' wordmark + red arc, transparent field); the accepted teal-circle badge is the retired pre-2023 variant. Official original vector served directly by citibank.com.",
+        "retrieval": {
+          "path": "evidence/15470/research-8e531fe8280d4d679a77328143481ad7/fetch-4f98d716e8dd4cdba448c5cfb81994e2/receipt.json",
+          "sha256": "e9252fd015310c83765e1bdfd74b05fc1eeee7b35664661c204fce5cafb778c6"
+        },
+        "sourceAssetUrl": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg",
+        "sourceUrl": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-03T12:03:00Z",
+          "independenceGroup": "citibank.com",
+          "kind": "official",
+          "observation": "Live official Kazakhstan page: entity description, 'Citi has been operating in Kazakhstan for 32 years', Euromoney awards 2024/2025/2026, links to financial statements; page header uses the 2023-rebrand Citi logo.",
+          "url": "https://www.citibank.com/icg/sa/emea/kazakhstan/english/citi/"
+        },
+        {
+          "assetUrl": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg",
+          "checkedAt": "2026-10-03T12:03:00Z",
+          "independenceGroup": "citibank.com",
+          "kind": "official",
+          "observation": "Header include used by the Kazakhstan page (comment 'VIS 2023 Logo change') references citi-logo-blue.svg rendered at 65x42 alt='Citi'.",
+          "url": "https://www.citibank.com/icg/assets/include/2023-rebrand/header-no-nav.html"
+        },
+        {
+          "assetUrl": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg",
+          "checkedAt": "2026-10-03T12:04:00Z",
+          "independenceGroup": "citibank.com",
+          "kind": "official",
+          "observation": "Genuine original vector asset of the current Citi brand mark served as image/svg+xml by citibank.com: Adobe Illustrator 25.4.1 export, viewBox 0 0 180.6 116.5, wordmark paths fill #255BE3 and arc fill #FF3C28; no raster, no external references. Retrieved via workflow.py fetch, receipt evidence/15470/research-8e531fe8280d4d679a77328143481ad7/fetch-4f98d716e8dd4cdba448c5cfb81994e2/receipt.json, sha256 e7685e26ef5d7b3497a1fee4e6b8bac9ca7da765a96953a8e3d81709f156f114.",
+          "url": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T12:14:13.185614Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3",
+        "xmlSha256": "5306834e03333cf27aa32e7e05270505f807398b60c9f20f25a49b5099b5b2a8"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
