@@ -1,0 +1,103 @@
+{
+  "lastAttemptAt": "2026-10-04T01:52:45.813644Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15736/assessed-625e7350e682feef8f6a0f0ecf01564d7ec320edb529bf683c063df53661fd2b.json",
+        "sha256": "625e7350e682feef8f6a0f0ecf01564d7ec320edb529bf683c063df53661fd2b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset served live by sc.com/sg header on 2026-10-04; Commons dates the two-colour mark to 2021-02-05 with continued use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official current sc.com logo asset and live header reference; Commons corroboration.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary observation is the official asset served by sc.com; Commons independently dates the same mark; no dependence on copies.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current official variant is the two-colour ribbon; the base lightened four-colour variant is not attested on any official current surface.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "f1543d7e66d1b7b841c9f0827c48148a49588bf27214c0675c93e24dd06d31e6",
+      "candidate": {
+        "detailsJudgement": "Internal details preserved: rounded segment ends, the blue chevron aperture, and both detached end caps match the official source; official hex values reproduced exactly (#38D200->#38d200 serialization only).",
+        "faithful": true,
+        "iconHash": "1211212968512eb6d526596087a313e2228440508cee2e3860a7a49a9eadeec8",
+        "path": "evidence/15736/candidate-1211212968512eb6d526596087a313e2228440508cee2e3860a7a49a9eadeec8.svg",
+        "proportionsJudgement": "Source aspect preserved (69.5x109.5); uniform fit into the 162px icon area without stretching; clearances and whole-emblem fit verified in the exact 240px renders.",
+        "rationale": "Colour/geometry correction to the current official mark: the base is the outdated lightened four-colour ribbon variant; the candidate reproduces the official standalone two-colour mark (#38d200/#0473ea) from the official sc.com logo SVG. Supported rebranding (2021 mark refresh, dated by Commons) plus colour correction of unattested lightened fills.",
+        "role": "Standalone brand symbol (interlocking ribbon) extracted from the official full logo; wordmark lettering deliberately excluded as unsuitable text for a square standalone app icon.",
+        "sha256": "1211212968512eb6d526596087a313e2228440508cee2e3860a7a49a9eadeec8",
+        "sourceAssetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+        "sourceUrl": "https://sc.com/sg/",
+        "transforms": [
+          "Selected the four mark paths (2x #38D200, 2x #0473EA) from the official 280x110 full-logo SVG; no geometry edits.",
+          "ViewBox narrowed from 0 0 280 110 to 0 0 69.5 109.5 around the unchanged mark geometry (pure crop = translation only, no scaling of path data).",
+          "SVGO 4.1.0 on a copy with repository svgo.config.mjs: 1929 -> 1073 bytes (44.4% smaller); optimized result selected after independent working-vs-optimized render comparison showed identical appearance.",
+          "No color, path, or backdrop changes; no tracing; transparency preserved."
+        ],
+        "variant": "Current official two-colour mark; the base lightened four-colour variant is not attested on any official current surface.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base versus final differ visibly: base uses four lightened, unattested fills (#a4d09f/#77add2/#0071a9/#21a947) of the older ribbon weave; final reproduces the current official two-colour mark. This is the intended brand-currency correction, not a serialization change."
+      },
+      "candidateIconHash": "1211212968512eb6d526596087a313e2228440508cee2e3860a7a49a9eadeec8",
+      "checkedAt": "2026-10-04T01:52:45.813644Z",
+      "humanReview": "pending",
+      "reason": "Base icon is an outdated lightened four-colour variant (#a4d09f/#77add2/#0071a9/#21a947) of the Standard Chartered interlocking ribbon; the current official mark uses the brand two-colour scheme (#38D200 green / #0473EA blue) with identical ribbon geometry. This is a supported colour correction of the same organization's current mark, not a serialization-only change.",
+      "reviewPackage": {
+        "path": "evidence/15736/candidate-87afaad22f69a66569fe7329adf04b844a5eb15cb006aa6bb1c5d799c27089ea.json",
+        "sha256": "87afaad22f69a66569fe7329adf04b844a5eb15cb006aa6bb1c5d799c27089ea"
+      },
+      "sourceCandidate": {
+        "iconHash": "75f45303a558f48d99512cc4bb53d66e76663b112802b58a29122ccf315a30d4",
+        "path": "evidence/15736/research-acc69d59c7a84426933af7fe236b7c78/fetch-442ca01d95224c0bb8e6c0c43ee87b40/attempt-1/body.bin",
+        "rationale": "Colour correction to the current official two-colour mark (#38D200/#0473EA) replacing the outdated lightened four-colour variant; geometry/identity unchanged (same interlocking ribbon).",
+        "retrieval": {
+          "path": "evidence/15736/research-acc69d59c7a84426933af7fe236b7c78/fetch-442ca01d95224c0bb8e6c0c43ee87b40/receipt.json",
+          "sha256": "8b69f597b79827a2e389467830a9875e849afa76a50a51bc3ad791c8fa57b0cf"
+        },
+        "sourceAssetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+        "sourceUrl": "https://sc.com/sg/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+          "checkedAt": "2026-10-04T01:47:00Z",
+          "independenceGroup": "sc-official",
+          "kind": "official",
+          "observation": "Official current full logo SVG (wordmark + standalone mark subtree, viewBox ~0 0 68 110); served from the live sc.com/sg header; sha256 75f45303a558f48d99512cc4bb53d66e76663b112802b58a29122ccf315a30d4. Receipt fetch-442ca01d95224c0bb8e6c0c43ee87b40.",
+          "url": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-04T01:46:00Z",
+          "independenceGroup": "sc-official",
+          "kind": "official",
+          "observation": "Live Singapore header references the same standard-chartered-logo.svg asset; favicon shows the standalone mark.",
+          "url": "https://sc.com/sg/"
+        },
+        {
+          "checkedAt": "2026-10-04T01:47:00Z",
+          "independenceGroup": "wikimedia-commons",
+          "kind": "third-party",
+          "observation": "Commons dates the two-colour mark to 2021-02-05; 'Logo only' SVG is an Inkscape crop of exactly the official URL - corroboration of currentness, not source material.",
+          "url": "https://commons.wikimedia.org/wiki/Standard_Chartered"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T01:55:06.637536Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "1211212968512eb6d526596087a313e2228440508cee2e3860a7a49a9eadeec8",
+        "xmlSha256": "b2a912d41c9beefe59e592b9d85cf08d39bc5ea8444685e24c67aefec2efd13d"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
