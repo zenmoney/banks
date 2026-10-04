@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-04T03:38:32.604596Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15762/assessed-ce51dbaa0d16afa73a8fbe0e57f9b8e70ccb0ec0b5972ee3f8ffedb8f8ea4669.json",
+        "sha256": "ce51dbaa0d16afa73a8fbe0e57f9b8e70ccb0ec0b5972ee3f8ffedb8f8ea4669"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live business.psbank.ru serves only the new orange/indigo mark on 2026-10-04; old blue mark absent from the site.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Assets from the bank's own business.psbank.ru host for the ПСБ Бизнес service; fullTitle Промсвязьбанк is the operating bank (renamed Банк ПСБ).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two asset files from the same official host corroborate each other; main site brand page 403-blocked, disclosed.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone pinwheel glyph is the icon mark used beside the wordmark; transparent standalone paths; no circular avatar observation; no backing added.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/bc07212f63a91625df286575b050f5ba2cd0bd4d30bd385620d2883ef5886cf2.json",
+        "sha256": "bc07212f63a91625df286575b050f5ba2cd0bd4d30bd385620d2883ef5886cf2"
+      },
+      "baseIconHash": "96a4262c9fa51764d088712b0a06c4008b9911e524a38f32f32ba6618d385bc3",
+      "candidate": {
+        "detailsJudgement": "Both pinwheel halves, their notches and colors match the official lockup mark exactly; no raster or recoloring involved.",
+        "faithful": true,
+        "iconHash": "b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6",
+        "path": "evidence/15762/candidate-b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6.svg",
+        "proportionsJudgement": "Square emblem fills the cell evenly at 240px and stays recognizable at small sizes on both themes.",
+        "rationale": "Evidenced rebrand: the operating brand serves the orange/indigo pinwheel mark (business.psbank.ru) while the catalog icon is the retired pre-rebrand blue ПСБ mark.",
+        "role": "standalone brand mark (pinwheel glyph from the official lockup, wordmark excluded per catalog suitability)",
+        "sha256": "b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6",
+        "sourceAssetUrl": "https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg",
+        "sourceUrl": "https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg",
+        "transforms": [
+          "viewBox narrowed to the mark bounds (0 0 24 24); only the two mark paths carried over; no scale/rotation/path edits",
+          "SVGO 4.1.0 with the frozen repository svgo.config.mjs: 277→257 bytes; trial selected, renders verified identical to working on both themes"
+        ],
+        "variant": "current flat two-color mark, transparent background preserved; no circular avatar observation, no backing added",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Evidenced rebrand: retired blue ПСБ-era icon replaced by the current two-color pinwheel used across the bank's live business service."
+      },
+      "candidateIconHash": "b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6",
+      "checkedAt": "2026-10-04T03:38:32.604596Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "acab785e2eee7c82bd974cbfff19658da62926b346dd0631c0c7e43a95de57e8",
+        "head": "bank-icon-maintenance/15762",
+        "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
+        "number": 95,
+        "observedAt": "2026-10-04T03:44:33.134657Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
+        "url": "https://github.com/zenmoney/banks/pull/95"
+      },
+      "reason": "Bank operates as Банк ПСБ with the orange/indigo pinwheel mark since the 2019-2020 rebrand (Рromsvyazbank name retired 2025-04-01); business.psbank.ru serves only the new mark; catalog icon is the old blue ПСБ mark.",
+      "reviewPackage": {
+        "path": "evidence/15762/candidate-181645d8fc4f2ba08ff254ef07f525ad48fd85c3975fe8eebc74c2278403d980.json",
+        "sha256": "181645d8fc4f2ba08ff254ef07f525ad48fd85c3975fe8eebc74c2278403d980"
+      },
+      "sourceCandidate": {
+        "iconHash": "a29e0e4d2c8e56ec752ff26ead87ef54f3db161bdca1513a8ad24ce988bcf854",
+        "path": "evidence/15762/research-6b228b85b2204116a96ec48ed31da5ae/fetch-3032681462c949acb58db8b90874bf75/attempt-2/body.bin",
+        "rationale": "Direct original SVG lockup from the official host; the 24x24 pinwheel mark is its first two paths, carried over losslessly without tracing.",
+        "retrieval": {
+          "path": "evidence/15762/research-6b228b85b2204116a96ec48ed31da5ae/fetch-3032681462c949acb58db8b90874bf75/receipt.json",
+          "sha256": "5122910399169e436b26c53fa55d9e4f300b0a5075118a36576593ba7bde167a"
+        },
+        "sourceAssetUrl": "https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg",
+        "sourceUrl": "https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T03:24:00Z",
+          "independenceGroup": "official psbank.ru business site",
+          "kind": "official",
+          "observation": "Business banking SPA references its logo assets including logo-on-white SVG; og:image points to the site logo.",
+          "url": "https://business.psbank.ru/"
+        },
+        {
+          "assetUrl": "https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg",
+          "checkedAt": "2026-10-04T03:24:00Z",
+          "independenceGroup": "official psbank.ru business site",
+          "kind": "official",
+          "observation": "Direct original-vector lockup 140x24: pinwheel glyph (orange #EA5616 + indigo #2C2D84, first two paths) plus ПСБ | Бизнес wordmark; no raster.",
+          "url": "https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg"
+        },
+        {
+          "assetUrl": "https://business.psbank.ru/assets/logo-on-white_7203a90e8570648383de.svg",
+          "checkedAt": "2026-10-04T03:24:00Z",
+          "independenceGroup": "official psbank.ru business site",
+          "kind": "official",
+          "observation": "Direct SVG of the same mark + ПСБ wordmark (88x32), corroborating the current mark design and colors.",
+          "url": "https://business.psbank.ru/assets/logo-on-white_7203a90e8570648383de.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T03:39:53.978215Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6",
+        "xmlSha256": "40783422b70b55a2f75076bf6f84ae1d335481a6323d7b607ed94b904ac5cdba"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
