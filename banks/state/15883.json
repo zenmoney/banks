@@ -1,0 +1,85 @@
+{
+  "lastAttemptAt": "2026-10-04T12:34:47.912591Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "2023 redesign confirmed in current use: official app updated 2026-09-29 ships the wordmark-centric identity; the base blue/yellow mark matches the retired design still mirrored by third-party icon libraries.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Candidate is the current Itaú Unibanco consumer mark (lowercase 'itaú' wordmark); identity corroborated by the official App Store listing and independent encyclopedic use.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official currency evidence (App Store listing) is independent of the vector host (Wikimedia Commons) and of the encyclopedic corroboration; the stale-library observation is a fourth independent party.",
+        "uncertainties": [
+          "Current official iOS app icon shows a navy square on an orange field; the candidate uses the orange square with white 'itaú' variant used as the current logo by pt.wikipedia. The exact app-store color variant was not found as an original vector."
+        ],
+        "variant": {
+          "basis": "Orange rounded square with white 'itaú' — the wordmark is the mark itself (no separate standalone symbol exists in the current identity), so the letters forming the mark satisfy catalog suitability; accompanying-text rule does not apply.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "22ef2d7fb0a9ca964422a4018d4bb14d6beafeb19073d3645c5bcb9b8703b0bf",
+      "candidate": {
+        "iconHash": "efe25b538d0aad3525571ddd087f14eea647aa46367dce0f6886f2926374f087",
+        "path": "evidence/15883/research-9585392d4ef44892be896c3f209d8bc2/fetch-928ef8b23b5f4f0cb2d6b22088fd4607/attempt-1/body.bin",
+        "rationale": "Genuine original vector of the current 2023 design (orange square, white 'itaú' counterform wordmark), preserved byte-exact from the Commons upload; replaces the retired blue/yellow base mark with a supported evidenced update.",
+        "retrieval": {
+          "path": "evidence/15883/research-9585392d4ef44892be896c3f209d8bc2/fetch-928ef8b23b5f4f0cb2d6b22088fd4607/receipt.json",
+          "sha256": "d4129738fcad8902e9563e858664ff004ebcd5330c9786d939ebbde999805272"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ita%C3%BA_Unibanco_logo_2023.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ita%C3%BA_Unibanco_logo_2023.svg"
+      },
+      "candidateIconHash": "efe25b538d0aad3525571ddd087f14eea647aa46367dce0f6886f2926374f087",
+      "checkedAt": "2026-10-04T12:34:47.912591Z",
+      "reason": "The accepted base icon reproduces the retired blue/yellow Itaú mark (blue #1a5493 rounded square with yellow #fff212 bar) which the bank no longer uses; the current identity (2023 redesign, still shipped in the 2026-09-29 app update) is the lowercase 'itaú' wordmark on an orange field. A genuine original vector of the current design exists.",
+      "sources": [
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/0f/01/d10f01ec-0b4d-ee60-b8d8-bec9bc968330/Varejo-AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/512x512bb.jpg",
+          "checkedAt": "2026-10-04T12:20:00Z",
+          "independenceGroup": "official-appstore",
+          "kind": "official",
+          "observation": "Official App Store listing 'Banco Itaú: Conta, Cartão e +' (com.itau.iphone.varejo, currentVersionReleaseDate 2026-09-29). Icon raster (evidence only): orange field with navy rounded square and white lowercase 'itaú'. Confirms the current wordmark-centric design; raster is not a replacement source.",
+          "url": "https://itunes.apple.com/search?term=ita%C3%BA&country=br&entity=software&limit=5"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ita%C3%BA_Unibanco_logo_2023.svg",
+          "checkedAt": "2026-10-04T12:19:20Z",
+          "independenceGroup": "commons-vector",
+          "kind": "third-party",
+          "observation": "Direct fetch of the original vector: 11250 bytes, sha256 efe25b538d0aad3525571ddd087f14eea647aa46367dce0f6886f2926374f087, 500x500, orange rounded square with white 'itaú' counterform wordmark; genuine vector paths, not traced from raster. Receipt fetch-928ef8b23b5f4f0cb2d6b22088fd4607.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ita%C3%BA_Unibanco_logo_2023.svg"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ita%C3%BA_Unibanco_logo_2023.svg",
+          "checkedAt": "2026-10-04T12:19:20Z",
+          "independenceGroup": "commons-vector",
+          "kind": "third-party",
+          "observation": "Original vector preserved (11250 bytes, sha256 efe25b538d0aad3525571ddd087f14eea647aa46367dce0f6886f2926374f087, 500x500): orange rounded square with white lowercase 'itaú' wordmark as counterforms; genuine vector paths, not traced from raster.",
+          "url": "https://commons.wikimedia.org/wiki/File:Ita%C3%BA_Unibanco_logo_2023.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T12:21:00Z",
+          "independenceGroup": "encyclopedic",
+          "kind": "third-party",
+          "observation": "pt.wikipedia infobox uses Itaú_Unibanco_logo_2023.svg as the current logo — independent corroboration that this variant represents the operating brand.",
+          "url": "https://pt.wikipedia.org/wiki/Ita%C3%BA_Unibanco"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T12:22:00Z",
+          "independenceGroup": "library-stale",
+          "kind": "third-party",
+          "observation": "Icon library still distributes the retired blue/yellow mark with geometry and colors identical to the accepted base icon — evidence that the base icon is the outdated design, not a replacement source.",
+          "url": "https://thesvg.org/icons/itau/default.svg"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
