@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-04T14:45:19.095438Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15903/assessed-8035af470663534f0a8e75d373c0ee34664dd3d24de1cfd5689af2db2c882b97.json",
+        "sha256": "8035af470663534f0a8e75d373c0ee34664dd3d24de1cfd5689af2db2c882b97"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The press page using this asset has content dated through 2026; the chevron mark is UniCredit's post-2023 rebrand, and the accepted sphere/swoosh icon is the superseded pre-2023 design.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The fetched SVG is served from unicredit.pl (official UniCredit domain) as the live press-site logo and depicts the UniCredit chevron mark; no third-party copy is involved.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The primary observation is the official UniCredit press site serving the asset; Wikimedia and group brand page checks independently rule out better vector sources and corroborate the rebrand timeline.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone symbol variant (two right-pointing chevrons, #E2001A, transparent background, 48x48 canvas) with no accompanying wordmark, matching catalog standalone-mark suitability.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/e88a2bfa752b57d19589a692980b0b4718b0678cc4a7835734abc69d0f3b8feb.json",
+        "sha256": "e88a2bfa752b57d19589a692980b0b4718b0678cc4a7835734abc69d0f3b8feb"
+      },
+      "baseIconHash": "165651a1dd923f20e4fa3eddd8938617013517d59898c4fcc7b17300f92841f0",
+      "candidate": {
+        "detailsJudgement": "Both chevron outlines, their rounded ends and the even gap between them are preserved; no stroke or contour loss against the working version or the original source.",
+        "faithful": true,
+        "iconHash": "05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd",
+        "path": "evidence/15903/candidate-05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd.svg",
+        "proportionsJudgement": "Symbol fills the square cell usefully with the canvas's own small margins; renders cleanly at 24/32/48 px on white and #121212; chevrons remain distinct and recognizable at small sizes on both themes.",
+        "rationale": "Replace the superseded pre-2023 UniCredit sphere/swoosh icon with the current two-chevron mark (#E2001A), taken from an original self-contained SVG served by UniCredit's own press-site DAM. This is an evidenced brand update, not a serialization change.",
+        "role": "Standalone bank symbol: the two-chevron mark is the entire current UniCredit symbol, with no accompanying wordmark or explanatory text.",
+        "sha256": "05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd",
+        "sourceAssetUrl": "https://unicredit.pl/dam/jcr:4f91e433-a0eb-4d1a-959f-84737db89c4f/Last_K10.svg",
+        "sourceUrl": "https://unicredit.pl/media",
+        "transforms": [
+          "No geometric transformation: the original vector paths were used unchanged (no scaling, translation or path edits needed; the 48x48 viewBox already fits the square catalog cell).",
+          "SVGO 4.1.0 (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 525 -> 483 bytes, output sha256 05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd; optimized result selected after working-vs-optimized comparison on white canvas showed identical geometry and color; no detail lost."
+        ],
+        "variant": "Current post-2023 full-color chevron variant on transparent background, square 48x48 canvas; the same variant used as the live logo on the official unicredit.pl press page.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after shows a real design change: the old red sphere with white swoosh is replaced by the current double-chevron mark. This is UniCredit's post-2023 rebrand, not a cosmetic or byte-level change."
+      },
+      "candidateIconHash": "05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd",
+      "checkedAt": "2026-10-04T14:45:19.095438Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "4bd74e7660976b058e32f170af2cbc1d23db8f724e6b26c46cd10f5aee88bf26",
+        "head": "bank-icon-maintenance/15903",
+        "headCommit": "dc150d678a44277ed3673b78154ed5676a21d59a",
+        "number": 124,
+        "observedAt": "2026-10-04T14:59:43.014947Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: UniCredit (Company.id 15903)",
+        "url": "https://github.com/zenmoney/banks/pull/124"
+      },
+      "reason": "The accepted icon is the pre-2023 UniCredit sphere/swoosh mark; UniCredit's current brand (in use since the 2023 rebrand) is the two-chevron red mark, observed as the live logo asset of the official UniCredit press site (unicredit.pl DAM, page content current to 2026). The fetched asset is a self-contained original vector SVG (525 bytes, two filled paths, #E2001A) with no external references; raster tracing was not involved.",
+      "reviewPackage": {
+        "path": "evidence/15903/candidate-5cb7e5841f75dae4757f9bd4963694df31e4fd02b37daf6b678fd9537730fc94.json",
+        "sha256": "5cb7e5841f75dae4757f9bd4963694df31e4fd02b37daf6b678fd9537730fc94"
+      },
+      "sourceCandidate": {
+        "iconHash": "f0e46a4dd1e21d0856c4ed0cf9962c23347b27f43fa6fddd2f657d0851de903e",
+        "path": "evidence/15903/research-010d6597dc06436d86f6c94e9ef1318a/fetch-1d0835565cf34230af93efa9ba5885b9/attempt-1/body.bin",
+        "rationale": "Original self-contained SVG (525 bytes, two #E2001A chevron paths) of the current UniCredit mark, served by UniCredit's own press-site DAM; replaces the superseded pre-2023 sphere/swoosh accepted icon.",
+        "retrieval": {
+          "path": "evidence/15903/research-010d6597dc06436d86f6c94e9ef1318a/fetch-1d0835565cf34230af93efa9ba5885b9/receipt.json",
+          "sha256": "f71c5eed2856305f7867dbc3bd608af2a7812a823f15fe0b315eda3ab2cf718d"
+        },
+        "sourceAssetUrl": "https://unicredit.pl/dam/jcr:4f91e433-a0eb-4d1a-959f-84737db89c4f/Last_K10.svg",
+        "sourceUrl": "https://unicredit.pl/media"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://unicredit.pl/dam/jcr:4f91e433-a0eb-4d1a-959f-84737db89c4f/Last_K10.svg",
+          "checkedAt": "2026-10-04T14:26:44Z",
+          "independenceGroup": "unicredit.pl press site (official UniCredit domain)",
+          "kind": "official",
+          "observation": "Official UniCredit Poland press page renders its logo from this DAM asset in three places; the asset is the current two-chevron UniCredit mark in #E2001A.",
+          "url": "https://unicredit.pl/media"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T14:40:00Z",
+          "independenceGroup": "Wikimedia Commons",
+          "kind": "third-party",
+          "observation": "All 8 Wikimedia SVGs in the UniCredit category are subsidiary or legacy (1998/2017) marks; none depicts the current chevron, so no better independent vector source exists there.",
+          "url": "https://commons.wikimedia.org/wiki/Category:SVG_logos_of_UniCredit"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T14:40:00Z",
+          "independenceGroup": "UniCredit group brand pages",
+          "kind": "official",
+          "observation": "Official group brand page (search-result observation; direct fetch HTTP 403) confirming the current group brand identity; unicredit.it and unicreditgroup.eu direct fetches returned 403, so the accessible unicredit.pl DAM asset was used.",
+          "url": "https://www.unicreditgroup.eu/en/unicredit-at-a-glance/our-brand.html"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T14:48:12.221938Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd",
+        "xmlSha256": "932c1858dd92d9ae4ba9463db4b9fd462e0e8afd6d4899f4b44bacae593d978c"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
