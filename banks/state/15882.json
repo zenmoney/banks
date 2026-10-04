@@ -1,0 +1,130 @@
+{
+  "lastAttemptAt": "2026-10-04T12:34:47.103771Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15882/assessed-9ce096da88046693287704b439e0d6e336ee6d353a5f3d4fbb84bd82f5400a9d.json",
+        "sha256": "9ce096da88046693287704b439e0d6e336ee6d353a5f3d4fbb84bd82f5400a9d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "2023-12 rebrand design corroborated as current by the FY2025 SEC annual report (filed 2026) and the live Play Store icon observation on 2026-10-04; an old launch date was not treated as obsolescence.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Candidate fan symbol belongs to Banco Inter S.A. (BR, bancointer.com.br/inter.co): the Commons 2023 lockup combines the fan with the 'inter' wordmark, and the official Play listing (developer CNPJ confirmed) shows the fan alone as the current app icon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official currency evidence (Play listing page and its icon raster, SEC filing) is independent of the third-party vector host (Wikimedia Commons upload); the two support identity/currency and geometry provenance respectively.",
+        "uncertainties": [
+          "No official-host standalone SVG obtained: bancointer.com.br and inter.co fetches timed out (failure receipts preserved); vector provenance rests on the Commons copy of the 2023 logo."
+        ],
+        "variant": {
+          "basis": "Standalone fan symbol variant, matching the current store icon (white symbol on orange field). The accepted base icon is the wordmark avatar variant, not the current standalone-symbol presentation.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6a4c74bd087bca231f58f6b118687355de6ed7760539952c0d87ca5eaf086019.json",
+        "sha256": "6a4c74bd087bca231f58f6b118687355de6ed7760539952c0d87ca5eaf086019"
+      },
+      "baseIconHash": "df66bd088c9ab46aedb28a52e5695a79c1e5b494b350ebaae1a41e41c8ae4b09",
+      "candidate": {
+        "detailsJudgement": "All 7 rays, their gaps and the vertical bar preserved; endpoints and wedge angles match the source lockup render; no strokes or satellite details lost",
+        "faithful": true,
+        "iconHash": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d",
+        "path": "evidence/15882/candidate-b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d.svg",
+        "proportionsJudgement": "Fan is near-square (106x102 source units) and fills the 54-cell with 1px vertical margin; remains recognizable at 24/32/48 px diagnostics on both themes Actual resized bound Desktop diagnostics now inspected: recognizable at all three sizes on light/dark, complete emblem and clear gaps.",
+        "rationale": "Current official store presentation uses the standalone fan; base uses the wordmark. Commons source page attributes the vector to Banco Inter S.A. and contadigital.inter.co, supporting original provenance; preserved source is a third-party-hosted copy, not an official-host download. Extracted orange fan remains source-faithful; it is not claimed to reproduce the white-on-orange store composition.",
+        "role": "standalone brand symbol (fan/sunburst) on a transparent field, matching the current standalone-symbol app-icon presentation",
+        "sha256": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_do_banco_Inter_%282023%29.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_do_banco_Inter_%282023%29.svg",
+        "transforms": [
+          "Fan subpath cluster selected verbatim from the single lockup path (lossless subpath selection, no coordinate edits)",
+          "Uniform scale 0.512868 and vertical translation -10.9822 of the whole fan into a 54x54 viewBox (whole-emblem placement only)",
+          "SVGO 4.1.0 with repository svgo.config.mjs (sha256-config file in repo root, multipass, floatPrecision 4) on a copy: 601 -> 443 bytes; selected (faithful, AA-edge rounding only, max channel diff 9/255)"
+        ],
+        "variant": "Standalone source-orange #ea7100 fan on transparency; source-backed lockup extraction, not the white-on-orange official store color variant.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Replaces the retired wordmark-avatar variant (orange gradient circle + white 'inter') with the current standalone fan symbol used by the bank's official app icon; geometry and color follow the 2023 original vector"
+      },
+      "candidateIconHash": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d",
+      "checkedAt": "2026-10-04T12:34:47.103771Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "cf4b79c7f6a8e1efd14d1f09ce9b9b917820d4a8d24bf943a1b9a20b67dc75f4",
+        "head": "bank-icon-maintenance/15882",
+        "headCommit": "c2acd01d0166078282238ac434ef40ac5b4237c2",
+        "number": 119,
+        "observedAt": "2026-10-04T12:58:11.086372Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Inter (Company.id 15882)",
+        "url": "https://github.com/zenmoney/banks/pull/119"
+      },
+      "reason": "Current official presentation (Google Play listing of Banco Inter S.A., CNPJ confirmed on page) is an orange square with the white 7-bar fan symbol and no wordmark; the accepted base icon is an orange gradient circle with the white 'inter' wordmark, i.e. the older/wordmark avatar variant. A genuine original vector containing the current fan exists (Wikimedia Commons 'Logo do banco Inter (2023).svg', 2023-12 rebrand); the fan is formed by subpaths of the single path element, so a standalone-symbol candidate can be derived without tracing.",
+      "reviewPackage": {
+        "path": "evidence/15882/candidate-d9c6cfb1a2abd0cb893b09731db8afd859de40bfcc7f24424c8a37292cbe5303.json",
+        "sha256": "d9c6cfb1a2abd0cb893b09731db8afd859de40bfcc7f24424c8a37292cbe5303"
+      },
+      "sourceCandidate": {
+        "iconHash": "42c7eaf1421db28b3113f667ab2902c13dddecf0869bf12793749cb7eb5293c7",
+        "path": "evidence/15882/research-cb362030f30d4d18a41e011d2c50b225/fetch-551137016a3d4cf2a6bde096655ecc67/attempt-1/body.bin",
+        "rationale": "Genuine original vector (Inkscape-authored SVG preserved byte-exact from the Commons upload) containing the current 7-bar fan symbol as subpaths of the single path element; supports a trace-free standalone-symbol update matching the current official app-icon presentation.",
+        "retrieval": {
+          "path": "evidence/15882/research-cb362030f30d4d18a41e011d2c50b225/fetch-551137016a3d4cf2a6bde096655ecc67/receipt.json",
+          "sha256": "58a535d8c903cf8048c8453086a62540a22976241a46589a45a5adec8099d46f"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_do_banco_Inter_%282023%29.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_do_banco_Inter_%282023%29.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/zUp6OkIQ7sYvowxxeYgIVg2x65i2m9lk7PAcuUVMh4gddUmCq3qBTVNvnNrDpN2OkwEeydgExBTrvrBFIFiUlJI",
+          "checkedAt": "2026-10-04T12:27:00Z",
+          "independenceGroup": "official-play-listing",
+          "kind": "official",
+          "observation": "Official Play listing 'Inter: Conta, Cartão e Pix' by Banco Inter S.A. (CNPJ 00.416.968/0001-01 confirmed on page). Current app icon raster evidence (512px PNG, sha256 aa9a3369f2b5124a0e2391da54972f861891872789d8a188df8d35f6b6138876): solid orange square, white 7-bar fan/sunburst symbol, no wordmark. Raster is currency evidence only, not a replacement source.",
+          "url": "https://play.google.com/store/apps/details?gl=BR&id=br.com.intermedium"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_do_banco_Inter_%282023%29.svg",
+          "checkedAt": "2026-10-04T12:19:05Z",
+          "independenceGroup": "commons-asset",
+          "kind": "third-party",
+          "observation": "Direct fetch of the original vector: 1537 bytes, sha256 42c7eaf1421db28b3113f667ab2902c13dddecf0869bf12793749cb7eb5293c7, viewBox 0 0 500 127, fill #ea7100, Inkscape serialization; single path whose subpaths form the fan symbol and the wordmark. Receipt fetch-551137016a3d4cf2a6bde096655ecc67.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_do_banco_Inter_%282023%29.svg"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Logo_do_banco_Inter_%282023%29.svg",
+          "checkedAt": "2026-10-04T12:19:05Z",
+          "independenceGroup": "commons-asset",
+          "kind": "third-party",
+          "observation": "Original vector preserved (1537 bytes, sha256 42c7eaf1421db28b3113f667ab2902c13dddecf0869bf12793749cb7eb5293c7, viewBox 0 0 500 127, fill #ea7100, Inkscape-authored): single path whose subpaths form the 7-bar fan symbol and the 'inter' wordmark; fan selectable without tracing. Commons copy of the 2023-12-19 rebrand logo; bank's own sites (bancointer.com.br, inter.co) timed out — two failure receipts preserved, so official-host SVG confirmation remains an open gap.",
+          "url": "https://commons.wikimedia.org/wiki/File:Logo_do_banco_Inter_(2023).svg"
+        },
+        {
+          "checkedAt": "2026-10-04T12:31:00Z",
+          "independenceGroup": "sec-filing",
+          "kind": "third-party",
+          "observation": "Inter & Co FY2025 SEC annual report corroborates the current brand in official use through the reporting period; Commons file dated to the 2023-12-19 rebrand.",
+          "url": "https://www.sec.gov/Archives/edgar/data/1864163/000207097926000185/intr-20251231.htm"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T12:50:21.331901Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d",
+        "xmlSha256": "638090205ae4524ad784ebfe6944d198c450b63d6db8a16235bbee9f45ba63af"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
