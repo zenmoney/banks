@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-04T10:47:30.668360Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15871/assessed-ee5ab867d1c43f0c85be03671eeb022f6a988749457d42f2296c927a05e1fc4d.json",
+        "sha256": "ee5ab867d1c43f0c85be03671eeb022f6a988749457d42f2296c927a05e1fc4d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Served live on porschefinance.ro on 2026-10-04 as the organization logo; the redirect from porschebank.ro shows the current operating brand presentation of this record.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official porschefinance.ro identity chain: porschebank.ro redirect, JSON-LD organization.logo, and about-page statement tying the brand to Porsche Bank AG Romania. Mark is the brand signet, not Porsche AG's crest.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary official self-publication (porschefinance.ro logo asset) corroborated by the same site's about page and the parent group site; these are one brand's own publications plus identity context, with no third-party copying involved.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone Signet path group (viewBox 56.4 24.8 60.9 29.3, fill #103344) extracted verbatim from the official lockup; official favicons are raster and were not used. The signet alone is the brand's standalone mark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/30cd3bd89f98b30dcbb576966504e3fba49696f81b7d560d22997f0fdaab982a.json",
+        "sha256": "30cd3bd89f98b30dcbb576966504e3fba49696f81b7d560d22997f0fdaab982a"
+      },
+      "baseIconHash": "97988b9b27b33daed8d59d7939fbcd81d4d0ced51f600a7f2e045c29de590f62",
+      "candidate": {
+        "detailsJudgement": "All strokes, gaps and the two road lanes survive extraction and optimization identically on both themes; internal transparency preserved; no invented colors (single official fill #103344).",
+        "faithful": true,
+        "iconHash": "fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d",
+        "path": "evidence/15871/candidate-fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d.svg",
+        "proportionsJudgement": "Complete emblem preserved at ~2:1; uniform placement only, no stretching or clipping; recognizable at 24/32/48 px previews on light, adequate on dark; no backing or mask applied.",
+        "rationale": "Current official brand signet from porschefinance.ro (porschebank.ro redirects there), replacing the accepted brighter-blue variant; supported rebranding/color correction for the same bank identity.",
+        "role": "Standalone brand signet (stylized road/P monogram), no accompanying wordmark or text.",
+        "sha256": "fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d",
+        "sourceAssetUrl": "https://www.porschefinance.ro/files/at/Archiv/Porsche-Romania-Logo-RGB.svg",
+        "sourceUrl": "https://www.porschefinance.ro/",
+        "transforms": [
+          "Lossless extraction of the Signet group from the official lockup SVG: paths and fill unchanged, viewBox cropped to group bounds (56.4 24.8 60.9 29.3); no scale/translation beyond canvas crop.",
+          "SVGO 4.1.0 with frozen repo config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1345 -> 879 bytes, selected (smaller, visually identical in rsvg and Compose renders, converter-compatible)."
+        ],
+        "variant": "Current flat #103344 standalone signet as self-published by the brand; transparent standalone mark, no backing added, no circular avatar observation involved.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon uses a brighter blue gradient-toned variant; the current official mark is the flat #103344 signet. Supported brand-currentness correction, not a serialization or cosmetic change."
+      },
+      "candidateIconHash": "fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d",
+      "checkedAt": "2026-10-04T10:47:30.668360Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8f63e786623cd75b2495e86aa1d97ea4dd0164ba80077e28d96ab3a826d71d38",
+        "head": "bank-icon-maintenance/15871",
+        "headCommit": "dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d",
+        "number": 113,
+        "observedAt": "2026-10-04T10:58:15.879524Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Porsche Bank (Company.id 15871)",
+        "url": "https://github.com/zenmoney/banks/pull/113"
+      },
+      "reason": "Official original-vector Porsche Finance Group Romania signet (stylized road/P mark, #103344) self-published in the JSON-LD organization.logo of porschefinance.ro (porschebank.ro redirects there). Standalone Signet group extracted verbatim from the official lockup SVG; visually verified as a standalone mark suitable for a square cell. Identity of the record (Porsche Bank, RO) confirmed against porschefinance.ro 'despre noi' (local subsidiary of Porsche Bank AG); not a Porsche AG crest.",
+      "reviewPackage": {
+        "path": "evidence/15871/candidate-b7ec6352064d3def3b94d180d941fc8273690c8431b9b9239d1ba3357a75f384.json",
+        "sha256": "b7ec6352064d3def3b94d180d941fc8273690c8431b9b9239d1ba3357a75f384"
+      },
+      "sourceCandidate": {
+        "iconHash": "ddd179f91df1278b64606f0799357913e7ea20055c07bd792f9823808ed01efa",
+        "path": "evidence/15871/research-fac1e40d1c0a4e18af240a12df521cac/fetch-92ed8a07a5da4c5c959abde33bc5a679/attempt-1/body.bin",
+        "rationale": "Original vector from the brand's own JSON-LD organization.logo. The standalone Signet group is extracted losslessly (paths and fill unchanged, viewBox cropped to the group) from the official lockup SVG; no tracing, raster embedding or redraw. Official provenance, current use, square-suitable standalone mark.",
+        "retrieval": {
+          "path": "evidence/15871/research-fac1e40d1c0a4e18af240a12df521cac/fetch-92ed8a07a5da4c5c959abde33bc5a679/receipt.json",
+          "sha256": "b72ed685b8bf9bf76200bd36ed49b567ad371e5bc4d1b62a05ec730ed93ee9ef"
+        },
+        "sourceAssetUrl": "https://www.porschefinance.ro/files/at/Archiv/Porsche-Romania-Logo-RGB.svg",
+        "sourceUrl": "https://www.porschefinance.ro/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.porschefinance.ro/files/at/Archiv/Porsche-Romania-Logo-RGB.svg",
+          "checkedAt": "2026-10-04T10:40:57Z",
+          "independenceGroup": "porschefinance.ro official self-publication",
+          "kind": "official",
+          "observation": "Homepage JSON-LD organization.logo points to Porsche-Romania-Logo-RGB.svg; site self-identifies as Porsche Finance Group Romania (Porsche Bank AG local subsidiary). Fetched 17782 B, original vector lockup (Signet group + wordmark paths).",
+          "url": "https://www.porschefinance.ro/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T10:44:00Z",
+          "independenceGroup": "porschefinance.ro official self-publication",
+          "kind": "official",
+          "observation": "About page states Porsche Finance Group Romania is the Romanian subsidiary of Porsche Bank AG; confirms record identity mapping. Site still uses 'Contact Porsche Bank' wording.",
+          "url": "https://www.porschefinance.ro/despre-noi/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T10:46:00Z",
+          "independenceGroup": "porschebank.at official parent-group site",
+          "kind": "official",
+          "observation": "porschebank.com resolves to porschebank.at/international/ (Austrian parent group site), corroborating that the RO record is the Porsche Bank group brand, not Porsche AG.",
+          "url": "https://www.porschebank.com"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T10:49:41.247676Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d",
+        "xmlSha256": "8787ffa608a845d306fb1727b6a2174781e9942cf2777f2074c20fde670b5fa4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
