@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-04T18:11:27.597637Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15970/assessed-9dd8e091ddaad14f9c38a05717f5abceb0c36a9adee2745ad2cfec0505c38745.json",
+        "sha256": "9dd8e091ddaad14f9c38a05717f5abceb0c36a9adee2745ad2cfec0505c38745"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset referenced by the live official site on 2026-10-04; brand blue #0B72FD confirmed in the navbar wordmark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The replacement is Monese's own favicon served from the official site's Webflow CDN; same operating brand as Company 15970.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single first-party source (official site + its own CDN asset referenced from its HTML); suitability and identity judged from the fetched vector and rendered reference.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current official variant: blue circle with interlaced-M glyph. The accepted green rounded-M is a different, older variant; the replacement is the current standalone app/favicon mark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/e640a2d468c423383520c3afbafa887f7286b6d7a221d6f7839c2c43ad04bc3c.json",
+        "sha256": "e640a2d468c423383520c3afbafa887f7286b6d7a221d6f7839c2c43ad04bc3c"
+      },
+      "baseIconHash": "1fa46b081d08ebc27076542feadae56dd8945e9641993bd531ca34e651ee72f5",
+      "candidate": {
+        "detailsJudgement": "All glyph contours, stroke gaps and the circle edge are preserved; the interlaced-M detail is intact in the final Desktop renders at 240px and in the SVGO comparison; no lost detail or colour drift.",
+        "faithful": true,
+        "iconHash": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880",
+        "path": "evidence/15970/candidate-d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880.svg",
+        "proportionsJudgement": "Uniform scale only; the mark fills the 54-unit cell exactly as in the source (circle touching the viewBox edges) and remains recognizable at 24/32/48 px diagnostics on both themes; circular field keeps useful size on light and dark backgrounds.",
+        "rationale": "Replace the accepted green rounded-M variant with Monese's current official mark: blue #0B72FD circle with the white interlaced-M glyph, taken from the bank's own favicon SVG referenced by monese.com on 2026-10-04. Supported brand-mark/colour correction for the same operating brand.",
+        "role": "Standalone circular app/favicon mark of the current Monese brand.",
+        "sha256": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880",
+        "sourceAssetUrl": "https://cdn.prod.website-files.com/67d9807e0c2d6c210fedd9f5/67dd8f719db4b5f02b4d3b07_favicon.svg",
+        "sourceUrl": "https://www.monese.com/",
+        "transforms": [
+          "No geometric transformation; the source emblem is used unchanged (uniform display scaling only). No backing was added: the source itself provides the blue circular field on transparent corners.",
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 1916 -> 1425 bytes; optimized selected after visual comparison showed no fidelity change (receipt evidence/15970/work/opt/svgo-receipt.json)."
+        ],
+        "variant": "Current official variant: blue #0B72FD circle, white interlaced-M glyph (source favicon 32x32, rect rx=16, transparent corners).",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base icon is a green (#28DC8E) circle with a rounded-M glyph; final is the current official blue (#0B72FD) circle with the interlaced-M glyph. Difference is a supported brand-mark/colour correction to the current official variant, not a serialization change."
+      },
+      "candidateIconHash": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880",
+      "checkedAt": "2026-10-04T18:11:27.597637Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "38838b70b8304ac8f1cb9f03c6dc7c755c87968b0d26efe1166f647461e2ab22",
+        "head": "bank-icon-maintenance/15970",
+        "headCommit": "12773436cb936b7b9bb20e6046731eb262a4e38a",
+        "number": 129,
+        "observedAt": "2026-10-04T18:23:16.965694Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Monese (Company.id 15970)",
+        "url": "https://github.com/zenmoney/banks/pull/129"
+      },
+      "reason": "Accepted green rounded-M circle does not match the current official Monese mark: monese.com serves a blue #0B72FD circle with the interlaced-M glyph as its favicon (original vector). Supported brand-mark/colour correction for the same operating brand; Monese continues to operate (site live 2026-10-04).",
+      "reviewPackage": {
+        "path": "evidence/15970/candidate-703858edfe9915b12075e04e7e115e68a211dd3372492e99af379f6629867879.json",
+        "sha256": "703858edfe9915b12075e04e7e115e68a211dd3372492e99af379f6629867879"
+      },
+      "sourceCandidate": {
+        "iconHash": "6cd4468932ec97719874094c338a6e57076d09f0f1733703325f8f65994782fc",
+        "path": "evidence/15970/research-7f58a47556e1442d947bd8f82dd22bac/fetch-fa618420020848bdb88b9ec342ec4e89/attempt-1/body.bin",
+        "rationale": "Official current favicon vector (blue #0B72FD circle, interlaced-M glyph) replaces the accepted green rounded-M variant; supported brand-mark/colour correction for the same operating brand, bytes bound by receipt fetch-fa618420020848bdb88b9ec342ec4e89.",
+        "retrieval": {
+          "path": "evidence/15970/research-7f58a47556e1442d947bd8f82dd22bac/fetch-fa618420020848bdb88b9ec342ec4e89/receipt.json",
+          "sha256": "69ec982b42577649d28caa253abf966ff65ee9ce2fe4934a38e06dd9c87e5e40"
+        },
+        "sourceAssetUrl": "https://cdn.prod.website-files.com/67d9807e0c2d6c210fedd9f5/67dd8f719db4b5f02b4d3b07_favicon.svg",
+        "sourceUrl": "https://www.monese.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.prod.website-files.com/67d9807e0c2d6c210fedd9f5/67dd8f719db4b5f02b4d3b07_favicon.svg",
+          "checkedAt": "2026-10-04T17:58:53Z",
+          "independenceGroup": "monese-official-site",
+          "kind": "official",
+          "observation": "Official Monese site (observed 2026-10-04) is live and operating (a service-status banner about a banking-partner technical issue is shown; the company still operates). Its favicon SVG is a blue #0B72FD circle with the white interlaced-M glyph, viewBox 0 0 32 32; bytes bound by receipt fetch-fa618420020848bdb88b9ec342ec4e89 (evidence/15970/research-7f58a47556e1442d947bd8f82dd22bac/15970-favicon.svg). The site navbar uses the same brand blue wordmark.",
+          "url": "https://www.monese.com/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T17:58:03Z",
+          "independenceGroup": "monese-official-site",
+          "kind": "official",
+          "observation": "monese.com redirects to https://www.monese.com/; official Webflow CDN asset URL for the favicon is referenced from the served HTML head (fetch-1dcf9b04946f4ef39bb3eabd7f1a05c7).",
+          "url": "https://monese.com/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T18:13:02.962531Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880",
+        "xmlSha256": "39afa34c265525088517e71f17f9f2dc14e6fa0b24babd5c7ce74aaeb9ca065e"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

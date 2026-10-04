@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-04T18:13:51.522740Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15971/assessed-6aa1d0abe29db22bbfcfdb8306e1507ebf568e95771db0dc56a807c298b445b2.json",
+        "sha256": "6aa1d0abe29db22bbfcfdb8306e1507ebf568e95771db0dc56a807c298b445b2"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset uploaded 2026-08-10 on the bank's own CMS and displayed live on 2026-10-04; org logo dated 2026-08-04 shows the same mark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The replacement is the current official Bakai Bank mark served by the bank's own site (bakai.kg) and shown in its header/org logo for Company 15971 'BAKAI BANK'.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single first-party source group (bank's own site: vector asset plus matching header/org raster context); visual judgment made from the fetched vector rendered independently (librsvg).",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current official variant: navy/red split-B pattern. The accepted blue/grey double-ring 'BB' is an older variant; the replacement is the standalone current mark without wordmark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c0f957954563d3cfb664d3ff7d2630db34888bb0b78f21deda54fbe6fe5a8ce2.json",
+        "sha256": "c0f957954563d3cfb664d3ff7d2630db34888bb0b78f21deda54fbe6fe5a8ce2"
+      },
+      "baseIconHash": "adf5619a56161b961b98c1ef15869fa73e4006b5bdb229cfb55a6e16e424eb2c",
+      "candidate": {
+        "detailsJudgement": "All four half-capsule contours and the two colours are preserved; SVGO only inlined the stylesheet fills; no lost detail or colour drift in the final Desktop renders.",
+        "faithful": true,
+        "iconHash": "ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4",
+        "path": "evidence/15971/candidate-ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4.svg",
+        "proportionsJudgement": "Uniform scale only; the square 925.7 viewBox mark fills the 54-unit cell as in the source and stays recognizable at 24/32/48 px on both themes; transparent background keeps contrast on light and dark.",
+        "rationale": "Replace the accepted older blue/grey double-ring 'BB' variant with Bakai Bank's current official standalone mark: navy #001F47 and dark-red #811E3B split-B pattern, taken from the bank's own CMS vector (bakai.kg, uploaded 2026-08-10) and corroborated by the site header/org logo. Supported rebrand update for the same operating bank.",
+        "role": "Standalone current brand mark of Bakai Bank (no wordmark).",
+        "sha256": "ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4",
+        "sourceAssetUrl": "https://bakai.kg/bbank/assets/marketing_configs/2026/8/10/marketing_config_z9Qlv0iJMWcKBodw9hsv.svg",
+        "sourceUrl": "https://bakai.kg/",
+        "transforms": [
+          "No geometric transformation; the source emblem is used unchanged (uniform display scaling only). No backing added: the source is a transparent standalone mark.",
+          "SVGO 4.1.0 with repository svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 1017 -> 745 bytes; internal <style> classes inlined to fill attributes; optimized selected after visual comparison showed identical geometry/colours (receipt evidence/15971/work/opt/svgo-receipt.json)."
+        ],
+        "variant": "Current official variant: four half-capsule 'B' forms, two navy #001F47 and two dark-red #811E3B, transparent background, viewBox 0 0 925.7 925.7.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base icon is the older blue/grey 'BB' monogram inside a double ring; final is the current official navy/red split-B mark without a ring. A supported rebrand of the same bank, evidenced by the bank's own site."
+      },
+      "candidateIconHash": "ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4",
+      "checkedAt": "2026-10-04T18:13:51.522740Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3030aef283c59e6f7e69d6ee482cd55b8ef70b03f6814d99ecd8eb1c2b0d5ad3",
+        "head": "bank-icon-maintenance/15971",
+        "headCommit": "144555cc62aa9882b645716f6e0b68daed856b2d",
+        "number": 130,
+        "observedAt": "2026-10-04T18:27:36.514853Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BAKAI BANK (Company.id 15971)",
+        "url": "https://github.com/zenmoney/banks/pull/130"
+      },
+      "reason": "Accepted blue/grey 'BB in double ring' icon is an older Bakai variant; the bank's current official mark (navy #001F47 / dark-red #811E3B split-B pattern) is served as an original vector from bakai.kg's own CMS and shown in the site header and org logo. Supported rebrand update for the same operating bank.",
+      "reviewPackage": {
+        "path": "evidence/15971/candidate-1c88e6f13a071b32b74781ff01c172f0d81b61cf84cc3292f60f790f0dfcb3c6.json",
+        "sha256": "1c88e6f13a071b32b74781ff01c172f0d81b61cf84cc3292f60f790f0dfcb3c6"
+      },
+      "sourceCandidate": {
+        "iconHash": "772c4306c8e14431a5d165f7a601f21feee1d0532eba5a61448ce4c6f7bf3565",
+        "path": "evidence/15971/research-334930c2b0834dbe81aafa3db8b13c5b/fetch-8e0c7ac27b1b46429b5b3ba5c386afad/attempt-1/body.bin",
+        "rationale": "Official current standalone mark vector (navy/red split-B, 925.7 viewBox) replaces the accepted older blue/grey double-ring 'BB' variant; supported rebrand for the same bank, bytes bound by receipt fetch-8e0c7ac27b1b46429b5b3ba5c386afad.",
+        "retrieval": {
+          "path": "evidence/15971/research-334930c2b0834dbe81aafa3db8b13c5b/fetch-8e0c7ac27b1b46429b5b3ba5c386afad/receipt.json",
+          "sha256": "fcc623ed444291cc470b14089466fc4f0c0ef84861f767fbced7872eeac0e4ac"
+        },
+        "sourceAssetUrl": "https://bakai.kg/bbank/assets/marketing_configs/2026/8/10/marketing_config_z9Qlv0iJMWcKBodw9hsv.svg",
+        "sourceUrl": "https://bakai.kg/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://bakai.kg/bbank/assets/marketing_configs/2026/8/10/marketing_config_z9Qlv0iJMWcKBodw9hsv.svg",
+          "checkedAt": "2026-10-04T17:59:51Z",
+          "independenceGroup": "bakai-official-site",
+          "kind": "official",
+          "observation": "Official Bakai Bank site (observed 2026-10-04): first-party CMS SVG (Illustrator export, viewBox 0 0 925.7 925.7, four half-capsule paths, fills #001F47 navy and #811E3B dark red) used as the BakAi product/QR logo; bytes bound by receipt fetch-8e0c7ac27b1b46429b5b3ba5c386afad (evidence/15971/research-334930c2b0834dbe81aafa3db8b13c5b/bakai-marketing-config.svg). The site header/org logo PNG shows the same navy/red split-B mark; navbar evidence evidence/15971/research-334930c2b0834dbe81aafa3db8b13c5b/bakai-header-nav.png and org logo bakai-org-logo.png.",
+          "url": "https://bakai.kg/"
+        },
+        {
+          "assetUrl": "https://bakai.kg/bbank/resize/400/1000000/assets/general_menu_metas/2026/8/4/general_menu_meta_wtH4Ehq1LEO2wio3Lx3mNXfso08m0Mt3.png",
+          "checkedAt": "2026-10-04T17:59:52Z",
+          "independenceGroup": "bakai-official-site",
+          "kind": "official",
+          "observation": "Site org/meta logo (raster, 48x48): navy/red split-B mark matching the vector; corroborates current official variant (receipt fetch-6bc40f6525fd47c3bdecb1890d4baf17). Raster used as context evidence only.",
+          "url": "https://bakai.kg/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T18:15:05.031365Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4",
+        "xmlSha256": "82dfb24852de507e938553d208e68c72df1c8bc7b9b6c0152fd7e338cbdaeb2e"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
