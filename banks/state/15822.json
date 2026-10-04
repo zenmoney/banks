@@ -1,0 +1,126 @@
+{
+  "lastAttemptAt": "2026-10-04T06:06:28.626393Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15822/assessed-8487b80bff607e95b06c40c7df42cb4ad5f5417538c0236365ea6d8de98ecaf0.json",
+        "sha256": "8487b80bff607e95b06c40c7df42cb4ad5f5417538c0236365ea6d8de98ecaf0"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Capture of the bank's own live asset URL dated 2024-12-27; negative white variant corresponds to the bank's current dark-blue site header presentation. Live re-check blocked by anti-bot; recency rests on the archived official asset.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Emblem (plavec figure with ČSOB lettering) on the bank's own csob.cz asset; matches the record ČSOB / Československá obchodní banka, CZ.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary: bank's own csob.cz asset URL (archived capture). Rejections (Commons 1999 variant, mirrors, leasing lockup) are distinct uploads, not copies of the candidate.",
+        "uncertainties": [
+          "Live csob.cz could not be re-verified (anti-bot); currency rests on the 2024-12-27 archived capture of the bank's own URL."
+        ],
+        "variant": {
+          "basis": "White negative mark without background field, matching current dark-header usage; the blue-field presentation is applied as backing, not part of the source.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/9dc3ab5e0a50e47f2c6264a5198c5c1f3233b832c0db159c434c646da6c8a21b.json",
+        "sha256": "9dc3ab5e0a50e47f2c6264a5198c5c1f3233b832c0db159c434c646da6c8a21b"
+      },
+      "baseIconHash": "d2d3af5eec301fdb08f2a8b25ce7b19b08fb4a7202b2a09dd0096ae70aa98c4e",
+      "candidate": {
+        "detailsJudgement": "All emblem details survive: plavec circle and ribbon strokes, detached elements, and the ČSOB lettering with háček are present and crisp in the 240px final renders on both themes; no strokes clipped by the circular backing.",
+        "faithful": true,
+        "iconHash": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621",
+        "path": "evidence/15822/candidate-fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621.svg",
+        "proportionsJudgement": "Whole 42x34 emblem placed by uniform translation (29,33) onto a 100x100 dark-blue #003A66 circle; no scaling, rotation or distortion; emblem occupies the circle center with comfortable optical margins; full emblem inside the circle.",
+        "rationale": "Official current ČSOB negative mark (white plavec + ČSOB lettering) from the bank's own document-library SVG replaces the accepted icon, which shows a different older light-blue/blue positive variant; update reflects the bank's current presentation.",
+        "role": "Negative standalone bank mark (plavec figure with ČSOB lettering), white fill, originally without background field.",
+        "sha256": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621",
+        "sourceAssetUrl": "https://web.archive.org/web/20241227081401id_/https://www.csob.cz/documents/10710/16116813/logo-csob.svg",
+        "sourceUrl": "https://web.archive.org/web/20241227081401id_/https://www.csob.cz/documents/10710/16116813/logo-csob.svg",
+        "transforms": [
+          "Catalog backing adaptation: added a uniform dark-blue #003A66 circular field behind the white negative mark (plain-field circle rule for a white-on-dark official presentation); emblem untouched, uniform translate(29 33) onto the 100x100 canvas; no scaling.",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 3266 -> 2298 bytes; optimized output selected after working-vs-optimized rasterizer comparison showed identical geometry."
+        ],
+        "variant": "White negative variant on a dark-blue field, matching the bank's current dark-header presentation; the accepted icon is an older light-blue positive variant.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is the older light-blue/blue positive logo (light-blue plavec, blue ČSOB lettering on white); final is the current official negative mark (white plavec + lettering) on the brand dark-blue circle — evidenced current-brand update, not a serialization change."
+      },
+      "candidateIconHash": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621",
+      "checkedAt": "2026-10-04T06:06:28.626393Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ef4411062290dbf1b0cb2a748ec1f790853daa24a8a581adef8b318fe24cbb15",
+        "head": "bank-icon-maintenance/15822",
+        "headCommit": "95f6daf800bc727c2806b7982bd0cbe7d4be60e6",
+        "number": 99,
+        "observedAt": "2026-10-04T06:23:39.115400Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ČSOB (Company.id 15822)",
+        "url": "https://github.com/zenmoney/banks/pull/99"
+      },
+      "reason": "Official csob.cz document-library negative ČSOB mark (plavec figure with ČSOB lettering as vector paths, white fill) retrieved via Wayback capture (web.archive.org 2024-12-27 id_) of the bank's own URL; current accepted icon shares the same emblem but the negative original vector is a proper source; visual comparison in candidate stage decides update vs unchanged.",
+      "reviewPackage": {
+        "path": "evidence/15822/candidate-4ca2ca7ac10f7f4c75a5fa50583df59a737201f900673b68b483c1d88eda5b49.json",
+        "sha256": "4ca2ca7ac10f7f4c75a5fa50583df59a737201f900673b68b483c1d88eda5b49"
+      },
+      "sourceCandidate": {
+        "iconHash": "17786826bcd7e40c3d393fe984778e2eec39c873c491745bbfe38c142710d797",
+        "path": "evidence/15822/research-e9c06231afc44912bf667acf2d8f0167/fetch-e8e5a2953ed74457a596755aee83e267/attempt-1/body.bin",
+        "rationale": "Bank's own original vector negative mark (plavec + ČSOB lettering as paths), gzip-served; hand-authored path geometry, not a trace; retrieved via Wayback because the live site blocks automated clients.",
+        "retrieval": {
+          "path": "evidence/15822/research-e9c06231afc44912bf667acf2d8f0167/fetch-e8e5a2953ed74457a596755aee83e267/receipt.json",
+          "sha256": "7f5e034a9cddec7b63bb38e2ebc3c975c40c989b4cb0b10ed9779d0847668887"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20241227081401id_/https://www.csob.cz/documents/10710/16116813/logo-csob.svg",
+        "sourceMaterial": {
+          "path": "evidence/15822/source-material-39f96e354ad2440d8cbd22ebd65aa648/material.json",
+          "sha256": "1a1a3c25b4dd502ef30a6f564994609862ef966c0c115ad015f3f43715ec7617"
+        },
+        "sourceUrl": "https://web.archive.org/web/20241227081401id_/https://www.csob.cz/documents/10710/16116813/logo-csob.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20241227081401id_/https://www.csob.cz/documents/10710/16116813/logo-csob.svg",
+          "checkedAt": "2026-10-04T06:01:03Z",
+          "independenceGroup": "csob.cz official assets (live page blocked by F5/TSPD anti-bot; capture via web.archive.org)",
+          "kind": "official",
+          "observation": "Wayback capture (2024-12-27, id_ raw bytes) of the bank's own document-library asset https://www.csob.cz/documents/10710/16116813/logo-csob.svg: 42x34 vector, plavec circle+ribbon with ČSOB lettering as authored paths, fill=white (negative variant used in current dark-blue header). gzip content-encoding; decompressed bytes inspected via source-material.",
+          "url": "https://web.archive.org/web/20241227081401id_/https://www.csob.cz/documents/10710/16116813/logo-csob.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:46:37Z",
+          "independenceGroup": "csob.cz official site access attempt",
+          "kind": "official",
+          "observation": "Live www.csob.cz returns anti-bot 307 to error.html and a 500/timeout on the error page to curl; direct live re-verification unavailable this run.",
+          "url": "https://www.csob.cz/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:50:16Z",
+          "independenceGroup": "Wikimedia Commons and vector mirrors (each distinct upload)",
+          "kind": "third-party",
+          "observation": "Wikimedia Commons ČSOB logo.svg is the older 1999 variant (blue text + blue plavec, different geometry); rejected as not current. Same for worldvectorlogo mirror; vectorseek preview watermarked; csobleasing.cz is a leasing lockup.",
+          "url": "https://commons.wikimedia.org/wiki/File:%C4%8CSOB_logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T06:13:05.011317Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621",
+        "xmlSha256": "6bfe1ab3f62cc0b938d61544abc092d4d6aac409dd520e1c1273cec8d250ecf3"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
