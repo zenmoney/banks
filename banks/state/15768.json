@@ -1,0 +1,99 @@
+{
+  "lastAttemptAt": "2026-10-04T03:24:37.361550Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15768/assessed-4c52197432a540b3f4052f1b674d0b398c6abc8f5e5e78f80b5691782cac2378.json",
+        "sha256": "4c52197432a540b3f4052f1b674d0b398c6abc8f5e5e78f80b5691782cac2378"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Homepage served 2026-10-04 uses the flat #0065FF mark via logo.svg; no gradient (#3478F6/#63D8FB) colors appear on the homepage.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Mark on official click.uz is the CLICK (Click SuperApp, Uzbekistan) lens/eye symbol, same glyph family as the catalog icon; record url click.uz, country UZ matches.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site homepage and its own linked asset come from one source (click.uz); search corroborated absence of an alternative official asset page.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Icon-only lens mark, transparent standalone path on the source canvas; wordmark is separate and excluded. No circular official avatar observation made; keep transparency, no backing added.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "23eda6f08e9dc606539482e9bcc02801c6de030349828d8dc1fccae8ef2cdc00",
+      "candidate": {
+        "detailsJudgement": "Contours, corner radii, hole shape and internal transparency match the official source exactly after optimization; single flat fill unchanged.",
+        "faithful": true,
+        "iconHash": "4d429f5dac41654724199e4f45af2c663e177a50fd91544256a073f64d0e4d37",
+        "path": "evidence/15768/candidate-4d429f5dac41654724199e4f45af2c663e177a50fd91544256a073f64d0e4d37.svg",
+        "proportionsJudgement": "Whole emblem fits the square cell with even margins at 240px and remains recognizable at small sizes on both themes; lens hole preserved as transparency, not filled.",
+        "rationale": "Official click.uz logo.svg mark extracted losslessly (no tracing, no geometry change); replaces the obsolete #3478F6→#63D8FB gradient variant with the current flat #0065FF brand mark.",
+        "role": "standalone brand mark (the lens/eye squircle from the official logo.svg, wordmark excluded per catalog suitability)",
+        "sha256": "4d429f5dac41654724199e4f45af2c663e177a50fd91544256a073f64d0e4d37",
+        "sourceAssetUrl": "https://click.uz/click/images/logo.svg",
+        "sourceUrl": "https://click.uz/click/images/logo.svg",
+        "transforms": [
+          "viewBox narrowed to the mark bounds (-0.0147 0.3135 39.3886 39.6871); no scale/rotation/path edits",
+          "SVGO 4.1.0 with the frozen repository svgo.config.mjs: 618→488 bytes; trial selected, renders verified identical to working on both themes"
+        ],
+        "variant": "current flat #0065FF icon-only mark, transparent background preserved (no circular avatar observation; no backing added)",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Evidenced rebrand: current official mark is flat #0065FF with a squarer lens opening; the accepted icon is the older light-blue gradient variant with a rounder hole. Official homepage and logo.svg no longer use the gradient style."
+      },
+      "candidateIconHash": "4d429f5dac41654724199e4f45af2c663e177a50fd91544256a073f64d0e4d37",
+      "checkedAt": "2026-10-04T03:24:37.361550Z",
+      "humanReview": "pending",
+      "reason": "Official click.uz homepage links its logo.svg (fetched 1902 B) containing the current flat #0065FF CLICK lens mark plus wordmark; catalog icon is the older #3478F6→#63D8FB gradient variant no longer used on the official site.",
+      "reviewPackage": {
+        "path": "evidence/15768/candidate-f21ca3b3388cbf098ec1925f6e0c18d6b6f6d1f38c23c93081b6b3cc45234b1d.json",
+        "sha256": "f21ca3b3388cbf098ec1925f6e0c18d6b6f6d1f38c23c93081b6b3cc45234b1d"
+      },
+      "sourceCandidate": {
+        "iconHash": "f9c0e970a641534439dda63faafcd4c70020b5c7b10ffcffd3fd73062e427101",
+        "path": "evidence/15768/research-7b42d14140a84ce4a083005ad36395a4/fetch-018860e57e0c47228c01c024177789c2/attempt-1/body.bin",
+        "rationale": "Direct original SVG served by the official website; icon-only mark is its first path and can be carried over losslessly without tracing.",
+        "retrieval": {
+          "path": "evidence/15768/research-7b42d14140a84ce4a083005ad36395a4/fetch-018860e57e0c47228c01c024177789c2/receipt.json",
+          "sha256": "490b4d4ce2a574c87d7741f635df604e2fba9e75d11d2e4408e1db44c40461a8"
+        },
+        "sourceAssetUrl": "https://click.uz/click/images/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15768/source-material-5c87bd06f24147fbb3bc219b3a374862/material.json",
+          "sha256": "a95e0a0806581c6fd65827bdfdad7f0e77457eb1cdab4d1048be77bedf78d43e"
+        },
+        "sourceUrl": "https://click.uz/click/images/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T03:22:37Z",
+          "independenceGroup": "official click.uz site",
+          "kind": "official",
+          "observation": "Homepage references /click/images/logo.svg; page uses brand blues #0264FF/#0073FF, no legacy gradient colors present.",
+          "url": "https://click.uz/uz"
+        },
+        {
+          "assetUrl": "https://click.uz/click/images/logo.svg",
+          "checkedAt": "2026-10-04T03:22:37Z",
+          "independenceGroup": "official click.uz site",
+          "kind": "official",
+          "observation": "Direct original-vector SVG: flat #0065FF lens/eye mark (first path, viewBox x 0-39.4) plus Click wordmark.",
+          "url": "https://click.uz/click/images/logo.svg"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T03:26:52.406205Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4d429f5dac41654724199e4f45af2c663e177a50fd91544256a073f64d0e4d37",
+        "xmlSha256": "c724f4e2e8bb57f65007d51e9b16fef5a2b8a3884ca2f9ec7b029842aad75be9"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
