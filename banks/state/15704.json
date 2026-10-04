@@ -1,0 +1,123 @@
+{
+  "lastAttemptAt": "2026-10-04T00:24:40.595959Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15704/assessed-7fdd8d3b5ff2abf7e40112686bd42abb5f62d5e4403b297f8e1d48df483a6abd.json",
+        "sha256": "7fdd8d3b5ff2abf7e40112686bd42abb5f62d5e4403b297f8e1d48df483a6abd"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "cifra-bank.ru live homepage (fetched 2026-10-04) operates under ЦИФРА банк branding; CBR registry entry (OGRN 1026500000317) listed among top results; Google Play listing renamed to Цифра банк.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "logo-footer.svg is served from the bank's own domain job.cifra-bank.ru and spells 'ЦИФРА банк'; cifra-bank.ru homepage and Telegram channel cifrabank_official use the same brand. Repository icon (green circle F) matches the former Freedom Finance mark, not the current brand.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary asset from bank-controlled domain (official); Google Play only corroborates naming; no third-party vector reused.",
+        "uncertainties": [
+          "Candidate is a path subset of the official wordmark SVG (lossless extraction of the self-contained symbol group), not a standalone symbol file published by the bank; original bytes retained alongside.",
+          "Green used by favicon variant is solid green square; footer logo symbol variant is black square with green F; both are current official variants — candidate follows the footer-logo variant."
+        ],
+        "variant": {
+          "basis": "Extracted candidate is the standalone square symbol (rounded square + F cutout) as used for favicons/app icons; no accompanying wordmark text; square cell suitable.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/773dde473893da98f20babc24785009aa23b2bae6a721d27446f9db2937ac961.json",
+        "sha256": "773dde473893da98f20babc24785009aa23b2bae6a721d27446f9db2937ac961"
+      },
+      "baseIconHash": "8dbd914bcc0f30f88620407f3276d517102eb9d0275819bb8e54e33486beb90e",
+      "candidate": {
+        "detailsJudgement": "All symbol details survive: rounded-square contour, corner radius, F cutout proportions, exact green #0AE15F and black fill; no clipping or lost detail at 240px or 24px on either theme.",
+        "faithful": true,
+        "iconHash": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f",
+        "path": "evidence/15704/candidate-7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f.svg",
+        "proportionsJudgement": "Source symbol proportions preserved (square viewBox 22.5x22.5, full-bleed rounded square fills the cell); complete emblem fits the square icon cell with useful optical size and no distortion.",
+        "rationale": "Replacement needed: the accepted base icon is the former Freedom Finance green-circle 'F' mark; the bank operates as ЦИФРА банк and the official footer logo from job.cifra-bank.ru contains the current standalone symbol (black rounded square, green #0AE15F F). The symbol group was losslessly selected from that original vector.",
+        "role": "standalone brand symbol for the ЦИФРА банк catalog icon",
+        "sha256": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f",
+        "sourceAssetUrl": "https://job.cifra-bank.ru/wp-content/uploads/logo-footer.svg",
+        "sourceUrl": "https://job.cifra-bank.ru/",
+        "transforms": [
+          "Working candidate derived from the fetched original logo-footer.svg (sha256 c51ef648…) by lossless selection of the self-contained two-path symbol group; viewBox tightened to the symbol bounds (55.5 0 22.5 22.5); no geometry, color or path data changes.",
+          "SVGO 4.1.0 with repository svgo.config.mjs (sha256 f2a406e05dd8849e…), multipass, 425→376 bytes (output sha256 7561a8fb…); optimized bytes selected as final after 240px and 24px comparison showed visual equivalence."
+        ],
+        "variant": "black rounded square with green #0AE15F F cutout, the standalone symbol variant of the current ЦИФРА банк identity as used on the bank's favicon/app surfaces; no accompanying wordmark text",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The accepted base icon is the former Freedom Finance green-circle 'F' mark; the bank rebranded to ЦИФРА банк and the replacement is the current official standalone symbol (black rounded square with green F). Before/after renders show a clear, evidenced rebrand difference, not a cosmetic byte change."
+      },
+      "candidateIconHash": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f",
+      "checkedAt": "2026-10-04T00:24:40.595959Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "30d34dcb71de6af5f82cafa62a4c7b5e50f7d83441e92bc8fb7716d4d05081d4",
+        "head": "bank-icon-maintenance/15704",
+        "headCommit": "a2f7b41867ee6ee54d63e672ac396d85613ccfb5",
+        "number": 89,
+        "observedAt": "2026-10-04T00:35:00.980020Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ЦИFРА банк (Company.id 15704)",
+        "url": "https://github.com/zenmoney/banks/pull/89"
+      },
+      "reason": "Repository icon is the former Freedom Finance (ФФИН) green-circle 'F' mark; bank rebranded to ЦИФРА банк. Official footer logo SVG (job.cifra-bank.ru, official careers property) contains the current standalone brand symbol (rounded square with legacy-F cutout, green #0AE15F); symbol extracted losslessly as a self-contained path subset of the original official vector and verified by rendering.",
+      "reviewPackage": {
+        "path": "evidence/15704/candidate-d9027fc41a73e2920b460c9de5639d249f18cbd36e2ab8dd57a98b8736d0241c.json",
+        "sha256": "d9027fc41a73e2920b460c9de5639d249f18cbd36e2ab8dd57a98b8736d0241c"
+      },
+      "sourceCandidate": {
+        "iconHash": "c51ef6480c652d2abeb9157e15e462636833eb1d9345b2f6a639ad67d9fb95f2",
+        "path": "evidence/15704/research-9bdc3cda773b4539836be7bd0ec9213e/fetch-754ffb3ca9c34857abce22cf23b998e4/attempt-1/body.bin",
+        "rationale": "iconHash and path bind the exact fetched original logo-footer.svg (sha256 c51ef648…) from the bank-controlled careers domain; it is the current official ЦИФРА банк wordmark whose self-contained standalone symbol group (green #0AE15F F on black rounded square, viewBox 55.5 0 22.5 22.5) was losslessly extracted for the working candidate and visually verified at 240x240.",
+        "retrieval": {
+          "path": "evidence/15704/research-9bdc3cda773b4539836be7bd0ec9213e/fetch-754ffb3ca9c34857abce22cf23b998e4/receipt.json",
+          "sha256": "7142673149abd5db8945e19351afc86d4decfa1d96170c1923f64918d59afbef"
+        },
+        "sourceAssetUrl": "https://job.cifra-bank.ru/wp-content/uploads/logo-footer.svg",
+        "sourceUrl": "https://job.cifra-bank.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T00:12:00Z",
+          "independenceGroup": "cifra-bank.ru",
+          "kind": "official",
+          "observation": "Homepage of cifra-bank.ru operates as Цифра банк (rebranded from Freedom Finance); inline header wordmark SVG 'ЦИФРА банк' with Ф rendered as the square symbol; favicon set is PNG only (196x196 favicon shows green square with F-shaped slot).",
+          "url": "https://cifra-bank.ru/"
+        },
+        {
+          "assetUrl": "https://job.cifra-bank.ru/wp-content/uploads/logo-footer.svg",
+          "checkedAt": "2026-10-04T00:20:00Z",
+          "independenceGroup": "cifra-bank.ru",
+          "kind": "official",
+          "observation": "Official careers site references wp-content/uploads/logo-footer.svg; fetched SVG is an original 190x25 wordmark 'ЦИФРА банк' where the Ф is the standalone brand symbol (black rounded square + green #0AE15F F cutout). Favicon android-icon-192x192-1.png on same property matches the square symbol.",
+          "url": "https://job.cifra-bank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T00:16:00Z",
+          "independenceGroup": "google-play",
+          "kind": "third-party",
+          "observation": "Google Play listing 'Цифра банк' uses package com.bankffin.portfolio (retains former FFIN id), confirming the rebrand lineage; app icon not used (raster).",
+          "url": "https://play.google.com/store/apps/details?id=com.bankffin.portfolio"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T00:27:46.297618Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f",
+        "xmlSha256": "510984d96001f6db611e64a422e3655681e8b0efca9c6630920fb631adcdce1d"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
