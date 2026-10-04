@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-04T06:05:59.888749Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15829/assessed-e92a219dee7586ec41da3353b2521b60cfd84cd53f708f4d08727f6d795df5ea.json",
+        "sha256": "e92a219dee7586ec41da3353b2521b60cfd84cd53f708f4d08727f6d795df5ea"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Observed live 2026-10-04 on the bank's official site; red field with white C is the current brand presentation.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "White 'C' swirl mark served by the bank's own citadele.lt domain; matches the record Citadele, LT.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary: bank's own citadele.lt assets (several distinct files consistent in palette and emblem). No third-party SVG exists on Wikimedia Commons (PNG only).",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone square mark with the C emblem; the accepted icon lacks the C entirely, so it cannot be a supported equivalent.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/7aa2973516348668d97f6ed84c48e5823215bcc8298940fef7c2d3a04ce328cf.json",
+        "sha256": "7aa2973516348668d97f6ed84c48e5823215bcc8298940fef7c2d3a04ce328cf"
+      },
+      "baseIconHash": "29362d34b6b4c77a119758f0df48337620670625b246273aff150521f46bc16f",
+      "candidate": {
+        "detailsJudgement": "The white C swirl is complete with all terminal cuts and inner counters; circle edges clean; no clipping or distortion in 240px renders on both themes.",
+        "faithful": true,
+        "iconHash": "5ef50763ebda99f58f5145e29c71eb1a335287713f6e60559e5162e841d5ae31",
+        "path": "evidence/15829/candidate-5ef50763ebda99f58f5145e29c71eb1a335287713f6e60559e5162e841d5ae31.svg",
+        "proportionsJudgement": "Square red field replaced by the same-color circle (background-only adaptation: the C emblem lies fully inside the inscribed circle; only red corners are removed); emblem untouched, no scaling/translation of the C.",
+        "rationale": "The accepted icon shows only two white bars — a truncated fragment of the Citadele brand tile without the C emblem. The bank's own current standalone mark (red field, white C) is a complete, correct replacement; visible emblem repair.",
+        "role": "Standalone bank mark: red #E3002C field with white C swirl.",
+        "sha256": "5ef50763ebda99f58f5145e29c71eb1a335287713f6e60559e5162e841d5ae31",
+        "sourceAssetUrl": "https://www.citadele.lt/storage/app/media/vacancy/logo-large.svg",
+        "sourceUrl": "https://www.citadele.lt/storage/app/media/vacancy/logo-large.svg",
+        "transforms": [
+          "Catalog backing adaptation: red #E3002C square field replaced by a same-color circle r=38 (background-only mask; no emblem pixels removed); viewBox and C placement preserved unchanged.",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 773 -> 675 bytes; optimized output selected after working-vs-optimized comparison showed identical rendering."
+        ],
+        "variant": "Red square/field with white C swirl as served by citadele.lt; the accepted icon lacks the C entirely.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base renders as a red disc with two white bars (emblem truncated); final renders the complete official C mark on the same red field — geometry/emblem repair, not a rebrand."
+      },
+      "candidateIconHash": "5ef50763ebda99f58f5145e29c71eb1a335287713f6e60559e5162e841d5ae31",
+      "checkedAt": "2026-10-04T06:05:59.888749Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a84319507b88281daf885adfa97944df83bd4187446d3e9af26a95d09b0f6a21",
+        "head": "bank-icon-maintenance/15829",
+        "headCommit": "1b27fdf84814975b297e4482ecd21c02d2377061",
+        "number": 100,
+        "observedAt": "2026-10-04T06:27:07.533273Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Citadele (Company.id 15829)",
+        "url": "https://github.com/zenmoney/banks/pull/100"
+      },
+      "reason": "The accepted icon is a red circle with two white bars and no 'C': the Citadele emblem is truncated. The bank's own citadele.lt serves the complete standalone mark (red #E3002C field with white 'C' swirl) as an original vector; replacing the truncated variant is a visible geometry/emblem repair.",
+      "reviewPackage": {
+        "path": "evidence/15829/candidate-d56ce33b1f863af134c816fb976a17f572b175fc16f100859901bbafc77fa3a1.json",
+        "sha256": "d56ce33b1f863af134c816fb976a17f572b175fc16f100859901bbafc77fa3a1"
+      },
+      "sourceCandidate": {
+        "iconHash": "4f2af551a6167226e998a535892d246ab81de36b473736bf5460778509475320",
+        "path": "evidence/15829/fetch-bf113337b9a64ab8b15d9f407d43148f/attempt-1/body.bin",
+        "rationale": "Bank's own standalone current mark as original vector (red field + white C swirl); complete emblem where the accepted icon is truncated.",
+        "retrieval": {
+          "path": "evidence/15829/fetch-bf113337b9a64ab8b15d9f407d43148f/receipt.json",
+          "sha256": "82f027228c00868550d60d1a30a42a649f3d275f7cd68ec39b9df7b9d247c6f6"
+        },
+        "sourceAssetUrl": "https://www.citadele.lt/storage/app/media/vacancy/logo-large.svg",
+        "sourceUrl": "https://www.citadele.lt/storage/app/media/vacancy/logo-large.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.citadele.lt/storage/app/media/vacancy/logo-large.svg",
+          "checkedAt": "2026-10-04T05:51:31Z",
+          "independenceGroup": "citadele.lt official assets",
+          "kind": "official",
+          "observation": "Official citadele.lt serves the standalone red #E3002C square (77x76) with white 'C' swirl path (logo-large.svg, careers media); the homepage logo.svg and a C BRANDS lockup (C_brands.svg, not standalone) corroborate the red/white current brand. A themes icon composite (white bars + C on rounded red tile) shows the accepted two-bars variant corresponds to a partial crop of the brand tile without the C.",
+          "url": "https://www.citadele.lt/storage/app/media/vacancy/logo-large.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:51:05Z",
+          "independenceGroup": "citadele.lt official assets",
+          "kind": "official",
+          "observation": "Official citadele.lt homepage and themes assets corroborate the red/white current brand; C_brands.svg lockup (not standalone) and a themes tile composite show the accepted two-bars icon corresponds to a partial crop of the brand tile without the C.",
+          "url": "https://www.citadele.lt/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T06:13:06.786934Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "5ef50763ebda99f58f5145e29c71eb1a335287713f6e60559e5162e841d5ae31",
+        "xmlSha256": "4a3c8af8e52a2d2f58e641f3a39a2b63086bf869ff620b3e0e571ccf8099591b"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
