@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-04T02:18:28.814610Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15745/assessed-2078c1b7dd5ddc770de88121c212d199813ef2d6b28f1ffcd593db617b080c3a.json",
+        "sha256": "2078c1b7dd5ddc770de88121c212d199813ef2d6b28f1ffcd593db617b080c3a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The brand SVG is served live by the official homepage on 2026-10-04 as the current header logo; this is the design in current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The red four-strokes-and-crossbar mark is the UOB brand symbol shown in the header logo of the bank's own official site (uob.com.sg / uobgroup.com) for the Singapore bank (metadata url uob.com.sg, country SG).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Observations come from the bank's own official site (header SVG and favicon of the same origin) and are mutually consistent; no third-party source is needed because the official vector asset directly confirms the design and color.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The source red mark matches the accepted icon's composition (four rounded vertical strokes crossed by a horizontal bar, red on transparent); the only difference is the red shade (#f5333f official vs #D03532 accepted), a supported color correction.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/0261f3e7cfbf62182a6c5172a3d233ccc73da4abcee9716552531781087b1f06.json",
+        "sha256": "0261f3e7cfbf62182a6c5172a3d233ccc73da4abcee9716552531781087b1f06"
+      },
+      "baseIconHash": "689e1c8f962daab6adf59cbe5bccb1d33f678328e21b300237422734ca1c46bd",
+      "candidate": {
+        "detailsJudgement": "All contours, rounded stroke ends, the crossbar and internal transparency survive exactly; the source/final pairs on both themes show no lost or altered details.",
+        "faithful": true,
+        "iconHash": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e",
+        "path": "evidence/15745/candidate-421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e.svg",
+        "proportionsJudgement": "Whole emblem fits the square cell with small even margins on both themes and stays legible at small sizes; strokes and gaps remain distinct; no stretching or clipping.",
+        "rationale": "Correction of the UOB mark red to the authoritative official brand color #f5333f taken from the single .cls-1 compound path of the official brand lockup SVG served by the official homepage (fetched 2026-10-04, sha256 139bed79c5409437b22b737603686cebc1fd627796f09cb02208f4b2bec8da39). The accepted icon uses #D03532 (dE76 approx 13.9, clearly visible); geometry is untouched.",
+        "role": "standalone brand mark extracted from the horizontal lockup; the blue UOB wordmark paths were excluded",
+        "sha256": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e",
+        "sourceAssetUrl": "https://www.uobgroup.com/assets/iwov-resources/assets/BrandAssets/UOB_Logo.svg",
+        "sourceUrl": "https://www.uobgroup.com/uobgroup/index.page",
+        "transforms": [
+          "lossless selection of the single red .cls-1 path from the downloaded official SVG (no geometry changes)",
+          "square viewBox -24.19 -30.69 118.19 118.19 chosen to center the whole emblem (pure canvas placement; no scale/rotation/crop of the emblem itself)",
+          "SVGO 4.1.0 with the repository svgo.config.mjs on a copy: 1247 -> 1037 bytes; renders pixel-identical to the working SVG (ImageChops diff bbox None); optimized result chosen"
+        ],
+        "variant": "same four-rounded-strokes-and-crossbar mark as the accepted icon, in the official red #f5333f on transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after desktop pairs show the identical mark with a visibly brighter, more saturated red (#f5333f official vs #D03532 accepted, dE76 approx 13.9); the final sits slightly smaller in the cell because the official emblem proportions are kept whole instead of filling the square edge-to-edge."
+      },
+      "candidateIconHash": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e",
+      "checkedAt": "2026-10-04T02:18:28.814610Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "284e09ef225108ed0310d862761d6d4990ed630254264af79727030235de9cd8",
+        "head": "bank-icon-maintenance/15745",
+        "headCommit": "0f5bfa5b97b307029674f9df8bd08a098b250466",
+        "number": 92,
+        "observedAt": "2026-10-04T02:26:20.330237Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: UOB (Company.id 15745)",
+        "url": "https://github.com/zenmoney/banks/pull/92"
+      },
+      "reason": "The official UOB group site serves the brand lockup SVG (https://www.uobgroup.com/assets/iwov-resources/assets/BrandAssets/UOB_Logo.svg, fetched 2026-10-04, sha256 139bed79c5409437b22b737603686cebc1fd627796f09cb02208f4b2bec8da39) whose single red path (.cls-1, #f5333f) is the standalone four-strokes-and-crossbar mark identical in geometry to the accepted catalog icon, but in the authoritative current brand red. The accepted icon uses #D03532 (dE76 approx 13.9 vs #f5333f), a clearly visible shade difference; the source is the original vector, so a color-correction replacement is supported.",
+      "reviewPackage": {
+        "path": "evidence/15745/candidate-3a7ba01877a69c6fbadd1c68421dcc0e54f75261b8be72636d98a855cd988b61.json",
+        "sha256": "3a7ba01877a69c6fbadd1c68421dcc0e54f75261b8be72636d98a855cd988b61"
+      },
+      "sourceCandidate": {
+        "iconHash": "139bed79c5409437b22b737603686cebc1fd627796f09cb02208f4b2bec8da39",
+        "path": "evidence/15745/research-27821a9657384904b76ec62a00e4db08/fetch-d4bcffb321de4956adf1edc25aefda4f/attempt-1/body.bin",
+        "rationale": "Original vector (single compound .cls-1 path from the official brand lockup SVG served by the official homepage); correction of the mark red to the authoritative official brand color #f5333f. Geometry untouched; no wordmark text accepted into the standalone mark.",
+        "retrieval": {
+          "path": "evidence/15745/research-27821a9657384904b76ec62a00e4db08/fetch-d4bcffb321de4956adf1edc25aefda4f/receipt.json",
+          "sha256": "f43058a5e50424c6238fea96859a4c5a3e88f4e15b65ce4bca4e056a52a19f4d"
+        },
+        "sourceAssetUrl": "https://www.uobgroup.com/assets/iwov-resources/assets/BrandAssets/UOB_Logo.svg",
+        "sourceUrl": "https://www.uobgroup.com/uobgroup/index.page"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.uobgroup.com/assets/iwov-resources/assets/BrandAssets/UOB_Logo.svg",
+          "checkedAt": "2026-10-04T02:10:20Z",
+          "independenceGroup": "uobgroup.com official site",
+          "kind": "official",
+          "observation": "Official UOB group homepage (uob.com.sg redirects here) header references this brand SVG (2619 bytes, viewBox 0 0 214 60, id uob-logo_214x60px_Chinese_UOB_Logo.svg). Its single .cls-1 path (fill #f5333f) is the red UOB mark (four vertical strokes with rounded ends crossed by a horizontal bar); .cls-2 paths (#005cb9) are the wordmark letters. Extracting the red path reproduces the accepted catalog design exactly except for the red shade.",
+          "url": "https://www.uobgroup.com/uobgroup/index.page"
+        },
+        {
+          "assetUrl": "https://www.uobgroup.com/assets/iwov-resources/assets/Icons/favicon.ico",
+          "checkedAt": "2026-10-04T02:12:00Z",
+          "independenceGroup": "uobgroup.com official site",
+          "kind": "official",
+          "observation": "Official favicon is a 16x16 raster of the same red mark (used as visual research evidence only). Its flat red (#FF0000 at 16px) corroborates the red-only mark but is too small to adjudicate the exact shade; the vector brand asset (#f5333f) is authoritative.",
+          "url": "https://www.uobgroup.com/uobgroup/index.page"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T02:20:50Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e",
+        "xmlSha256": "7af42ee6d61d7aa3a9601bb71da98d2191c4e4b344a8feb625b849473d789f40"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

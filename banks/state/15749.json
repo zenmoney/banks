@@ -1,0 +1,115 @@
+{
+  "lastAttemptAt": "2026-10-04T02:30:59.321732Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15749/assessed-94bad526e96f90a632b5b1208ec585a2c0e9c5d220e30735db9b54b73a46ddb0.json",
+        "sha256": "94bad526e96f90a632b5b1208ec585a2c0e9c5d220e30735db9b54b73a46ddb0"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The 2026-09-25 capture of the live official homepage shows the new logo as header and favicon; the file name 'new-logo' and the current use confirm the design in use. Limitation: the live site blocks automated retrieval, so currency rests on the recent archive capture of the live site plus the live-referenced asset paths.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The wave-and-green-arc emblem is served by the bank's own domain bank-yahav.co.il (favicon and about-us logotype, header logo 'new-logo') for Bank Yahav (בנק יהב, Israel).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from the bank's own official site as captured by a single independent archivist (Wayback) on 2026-09-25; header logo raster and favicon/logotype SVG corroborate each other. The WAF block prevents additional live observation; this is disclosed as a retrieval limitation.",
+        "uncertainties": [
+          "Exact adoption date of the new logo is unknown; currentness is supported by the 2026-09-25 capture of the live official homepage."
+        ],
+        "variant": {
+          "basis": "The candidate is the bank's current standalone emblem variant (blue layered waves, white separations, green arc, transparent background, no wordmark). The accepted icon is a different, older dark-indigo circular emblem design; the accepted design is not the bank's current mark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/443dde6517f2596fdf5abddd18a6c8e436264c4f777733fb0553220d4b7318c6.json",
+        "sha256": "443dde6517f2596fdf5abddd18a6c8e436264c4f777733fb0553220d4b7318c6"
+      },
+      "baseIconHash": "f105766a49bddf700473d94e948f151ef227820c3a1d32df530bb35f1367d2d2",
+      "candidate": {
+        "detailsJudgement": "All wave layers, white separations, rounded contours, the green arc and internal transparency survive exactly; source/final pairs on both themes show no lost or altered details.",
+        "faithful": true,
+        "iconHash": "bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55",
+        "path": "evidence/15749/candidate-bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55.svg",
+        "proportionsJudgement": "The whole emblem including the arc fits the square cell with even margins on both themes and remains legible at small sizes; white separations stay distinct; no stretching, rotation or clipping.",
+        "rationale": "Replacement of the accepted older dark-indigo circular emblem with the bank's current standalone mark (blue layered waves, white separations, green arc), taken unchanged from the bank's own logotype vector also used as the site favicon on the 2026-09-25 capture of the live homepage.",
+        "role": "standalone bank emblem from the official site logotype SVG; no wordmark present",
+        "sha256": "bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55",
+        "sourceAssetUrl": "https://web.archive.org/web/20260925134704im_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg",
+        "sourceUrl": "https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/",
+        "transforms": [
+          "lossless copy of the bank's logotype SVG geometry (no geometry, color or transparency changes)",
+          "square viewBox 0.5 -28.25 325 325 (pure translation of the canvas) so the whole emblem, including the green arc, fits the square cell; the original 326x269 canvas had unequal margins",
+          "removed the <title> metadata GUID and ran SVGO 4.1.0 with the repository svgo.config.mjs: 5733 -> 3478 bytes; renders identical within antialiasing (max channel difference 11/255, mean ~0.2%), optimized result chosen"
+        ],
+        "variant": "the bank's current wave-and-green-arc emblem on transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after desktop pairs show the accepted retired dark-indigo circular emblem replaced by the bank's current wave-and-green-arc mark — a different design per the bank's current branding, not a restyling of the old icon."
+      },
+      "candidateIconHash": "bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55",
+      "checkedAt": "2026-10-04T02:30:59.321732Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "96a8d87765b4a9ae35e3fe0e67194c6c31061cf36bab30417c8c82f4d2f29697",
+        "head": "bank-icon-maintenance/15749",
+        "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
+        "number": 93,
+        "observedAt": "2026-10-04T02:40:55.175547Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Yahav (Company.id 15749)",
+        "url": "https://github.com/zenmoney/banks/pull/93"
+      },
+      "reason": "Bank Yahav's current standalone mark is the blue layered-wave emblem with a green arc, served as the site's own logotype vector and favicon (about-us-logotype.svg). The accepted catalog icon is the older dark-indigo circular emblem, a different design. This is a supported rebranding replacement from an original vector.",
+      "reviewPackage": {
+        "path": "evidence/15749/candidate-ed71bf3629c6e69a6cf268ee124c498cc4cf3a6bdb910096030eca0de3a83406.json",
+        "sha256": "ed71bf3629c6e69a6cf268ee124c498cc4cf3a6bdb910096030eca0de3a83406"
+      },
+      "sourceCandidate": {
+        "iconHash": "14d8b69c760b063895f3a1a54a799f7e148b07d705f45db52405558c1eabf442",
+        "path": "evidence/15749/research-988ee592448a49c583b7cb00542caac3/fetch-1c0c1970cd2649d7ae114993a37401c6/attempt-2/body.bin",
+        "rationale": "Original vector: the bank's own standalone logotype SVG (blue layered waves with white separations and green arc, 326x269, no text, no gradients, no raster). Replacement of the accepted older dark-indigo circular emblem design with the bank's current mark.",
+        "retrieval": {
+          "path": "evidence/15749/research-988ee592448a49c583b7cb00542caac3/fetch-1c0c1970cd2649d7ae114993a37401c6/receipt.json",
+          "sha256": "50755e22637365669db73166a072e4aa8d73657a9296840c99fafb4f88d66737"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20260925134704im_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg",
+        "sourceUrl": "https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20260925134704im_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg",
+          "checkedAt": "2026-10-04T02:24:00Z",
+          "independenceGroup": "bank-yahav.co.il official site (archived)",
+          "kind": "official",
+          "observation": "Wayback capture (2026-09-25) of the live official homepage shows the site header logo new-logo-medium.png and the favicon about-us-logotype.svg — the blue layered-wave emblem with green arc. The live site is Incapsula WAF-blocked to automated fetches (HTTP 403 / JS challenge), so observation is via the archive capture of the live site; the SVG itself was retrieved losslessly through the Wayback im_ copy (sha256 14d8b69c760b063895f3a1a54a799f7e148b07d705f45db52405558c1eabf442).",
+          "url": "https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/"
+        },
+        {
+          "assetUrl": "https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png",
+          "checkedAt": "2026-10-04T02:24:30Z",
+          "independenceGroup": "bank-yahav.co.il official site (archived)",
+          "kind": "official",
+          "observation": "Official current header logo raster (567x174, 'new-logo-medium.png') shows the same blue wave motif with green arc as the logotype SVG (raster used as visual research evidence only).",
+          "url": "https://web.archive.org/web/20260925id_/https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T02:33:27Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55",
+        "xmlSha256": "9d2f9b06d67cf20f5c59a2c22650d22ffe33ecbe2820b57ee3d83056f50abfba"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
