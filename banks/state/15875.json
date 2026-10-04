@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-04T11:00:56.353296Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15875/assessed-a2c15c08af9e4cf08421950d2fea7f7873534ed399b72ce54b1669530fb5b38b.json",
+        "sha256": "a2c15c08af9e4cf08421950d2fea7f7873534ed399b72ce54b1669530fb5b38b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "2022 redesign: Commons DateTimeOriginal 2022-09-19; logotyp.us and search results show the same design in current use; live official domain confirms operating brand; no newer redesign evidence.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Commons file is titled and described as the Logotipo Unicaja Banco; lockup text reads 'Unicaja Banco'; matches the record identity (ES, unicajabanco.es).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Commons copy of the official asset corroborated by an independent aggregator lockup; both show the same 2022 design; official-site retrieval failed and is disclosed.",
+        "uncertainties": [
+          "No direct official-site asset observation due to unicajabanco.es timeouts; variant corroborated by two independent sources of the official design."
+        ],
+        "variant": {
+          "basis": "Standalone green fan mark (#278600) extracted losslessly from the official lockup (single path, viewBox cropped to mark bounds); wordmark and red underline excluded; not the pre-2022 pinwheel variant of the accepted icon.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/b0e87d248f6d1eced6a6e784d842051f62d17f9fbabe1ecfe1a7736c505d5c39.json",
+        "sha256": "b0e87d248f6d1eced6a6e784d842051f62d17f9fbabe1ecfe1a7736c505d5c39"
+      },
+      "baseIconHash": "f739df857af5cf24fa47d8d1af073d145933a22c0916bd5734306dd38ee6f018",
+      "candidate": {
+        "detailsJudgement": "All eleven blades, their separations and the folded fan contour survive extraction and optimization on both themes; internal transparency preserved; single official fill #278600.",
+        "faithful": true,
+        "iconHash": "6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c",
+        "path": "evidence/15875/candidate-6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c.svg",
+        "proportionsJudgement": "Complete emblem preserved (~1.4:1); uniform placement only; blade gaps remain distinguishable at target sizes on both themes; no backing or mask applied.",
+        "rationale": "2022 official Unicaja Banco rebrand mark extracted losslessly from the official lockup copy; replaces the pre-2022 pinwheel accepted icon for the same bank identity.",
+        "role": "Standalone brand symbol: green abanico/fan mark; no wordmark or text.",
+        "sha256": "6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c",
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo_Unicaja_Banco.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logotipo_Unicaja_Banco.svg",
+        "transforms": [
+          "Lossless extraction of the fan path from the official lockup SVG: path and fill unchanged, viewBox cropped to mark bounds; no scale/translation beyond canvas crop.",
+          "SVGO 4.1.0 with frozen repo config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1209 -> 903 bytes, selected (smaller, zero-pixel-difference renders, converter-compatible)."
+        ],
+        "variant": "Current 2022 variant, single fill #278600 on a transparent field; wordmark and #E1251B underline elements of the lockup excluded.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is the pre-2022 light-green pinwheel; the current official design is the detailed 2022 fan in #278600. Supported rebranding update."
+      },
+      "candidateIconHash": "6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c",
+      "checkedAt": "2026-10-04T11:00:56.353296Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "d917a1b4158c4ccb3ed59831781901578b793ccaf8f82520b2673ae7db04ac95",
+        "head": "bank-icon-maintenance/15875",
+        "headCommit": "8aac3ae58d79f7208090b7e60c4e736f4c78704d",
+        "number": 116,
+        "observedAt": "2026-10-04T11:27:02.255486Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Unicaja Banco (Company.id 15875)",
+        "url": "https://github.com/zenmoney/banks/pull/116"
+      },
+      "reason": "Official original-vector Unicaja Banco 2022 lockup (Commons copy of the official logo, CC BY-SA 4.0, dated 2022-09-19) with the green abanico/fan mark (#278600) extracted losslessly as the standalone symbol. Supported rebrand: the accepted icon is the pre-2022 plain-green pinwheel (#66CF48); the current brand uses the 2022 fan mark with darker green #278600.",
+      "reviewPackage": {
+        "path": "evidence/15875/candidate-2902c2ca829183d1455a0ac8a60b2aaa90314950ba11325ba3279cb867e479ee.json",
+        "sha256": "2902c2ca829183d1455a0ac8a60b2aaa90314950ba11325ba3279cb867e479ee"
+      },
+      "sourceCandidate": {
+        "iconHash": "9a7e22c6c82f0eb29a6b939a4951ec5780535d720c98e50f7911c942db46874b",
+        "path": "evidence/15875/research-44f923451d5c4fffa3e838b9a943c59c/fetch-44fea187b42d42bf90496da9e2039790/attempt-3/body.bin",
+        "rationale": "2022 official rebrand mark extracted losslessly from the official lockup copy; replaces the pre-2022 pinwheel accepted icon — supported rebranding update for the same bank identity.",
+        "retrieval": {
+          "path": "evidence/15875/research-44f923451d5c4fffa3e838b9a943c59c/fetch-44fea187b42d42bf90496da9e2039790/receipt.json",
+          "sha256": "0ce4f7352fa378776d4edd63838c1100b828f89015111421fd409a5ee418d67f"
+        },
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo_Unicaja_Banco.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logotipo_Unicaja_Banco.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo_Unicaja_Banco.svg",
+          "checkedAt": "2026-10-04T10:57:00Z",
+          "independenceGroup": "Commons copy of the official asset (freely licensed)",
+          "kind": "third-party",
+          "observation": "Commons file 'Logotipo Unicaja Banco' (CC BY-SA 4.0, DateTimeOriginal 2022-09-19) holds the official 2022 horizontal lockup (1240x310): green fan mark #278600, dark wordmark #103829, red underline/accent #E1251B. Fetched via Special:FilePath; mark path extracted losslessly.",
+          "url": "https://commons.wikimedia.org/wiki/File:Logotipo_Unicaja_Banco.svg"
+        },
+        {
+          "assetUrl": "https://logotyp.us/file/unicaja-banco.svg",
+          "checkedAt": "2026-10-04T10:55:00Z",
+          "independenceGroup": "Independent third-party corroboration",
+          "kind": "third-party",
+          "observation": "Third-party aggregator lockup matches the same 2022 design and colors (#278600/#E1251B/#103829); corroborates variant, not used as the source.",
+          "url": "https://logotyp.us/get/unicaja-banco/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T10:54:00Z",
+          "independenceGroup": "Access-failure observation (official site unreachable)",
+          "kind": "official",
+          "observation": "unicajabanco.es live (301 to /es/particulares); the full particulares page timed out twice on retrieval, so no direct official asset observation.",
+          "url": "https://www.unicajabanco.es/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T11:05:04.119033Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c",
+        "xmlSha256": "b9366d76e94035ebca8de874eba089ad2dd8816415234edff3f122b2eb711429"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
