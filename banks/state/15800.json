@@ -1,0 +1,124 @@
+{
+  "lastAttemptAt": "2026-10-04T04:35:55.151415Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15800/assessed-e1f5947021990c03c6152c85bb1eea098dce173bd7cd49553048d45f7703ab61.json",
+        "sha256": "e1f5947021990c03c6152c85bb1eea098dce173bd7cd49553048d45f7703ab61"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Symbol ZIP is served live from the bank's official brand-manager downloads on 2026-10-04 and the same symbol design appears in the current swedbank.com header logotype; this is the design in current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset served by swedbank.com brand manager for Swedbank AB; symbol matches the header logotype of swedbank.com, the catalog entry's own domain swedbank.se group brand.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All key observations come from one official primary source domain (swedbank.com): the brand download page, the symbol ZIP and the live header logotype; the header serves as an internal cross-check of variant, not as an independent second source. Identity is not disputed, so no additional independent source was required.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Symbol-only variant (no accompanying wordmark), square 48x48 canvas; the official standalone symbol variant offered for collaboration logotypes, matching the current gradient multi-tone brand palette.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/e8dbd3141acb46a1951a593ac448bca77e5b341b572b01c70371531d9f3d9632.json",
+        "sha256": "e8dbd3141acb46a1951a593ac448bca77e5b341b572b01c70371531d9f3d9632"
+      },
+      "baseIconHash": "44142174ef0291cf21e1bbbda6e6e5496b56be221b992431464cf2d1832efede",
+      "candidate": {
+        "detailsJudgement": "All emblem details survive: gradient ring, inner disc gradient, oak foliage with leaf cutouts, trunk and roots, internal shading strokes; no lost strokes or negative-space features.",
+        "faithful": true,
+        "iconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "path": "evidence/15800/candidate-334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97.svg",
+        "proportionsJudgement": "Proportions unchanged from the source (no scaling other than fit-to-cell); the circular emblem fills the square cell appropriately and stays recognizable at 24/32/48 px diagnostics on both themes; alpha outside the circle preserved.",
+        "rationale": "Replaces the stored flat single-colour simplified oak with the official current gradient multi-tone emblem extracted losslessly from the bank's own brand-manager symbol ZIP; a supported fidelity correction to the current brand artwork.",
+        "role": "Standalone brand symbol (oak tree emblem) without accompanying wordmark; suitable as an application icon.",
+        "sha256": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "sourceAssetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+        "sourceUrl": "https://www.swedbank.com/newsroom/logotype.html",
+        "transforms": [
+          "No geometry transformation was needed: the source SVG is already a square 48x48 standalone emblem on a transparent canvas; it was used as-is (only namespace/style serialization preserved).",
+          "SVGO 4.1.0 optimization with frozen repository config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 72513 -> 65344 bytes, selected (rsvg-convert comparison at 240px identical, no visible or measurable geometry change; converter-compatible)."
+        ],
+        "variant": "Official current gradient multi-tone emblem variant from the bank's brand-manager symbol ZIP; square transparent canvas with the emblem's own circular field preserved as-is.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The accepted icon is a flat single-colour (#ee7023) simplified rendition of the oak emblem; the candidate reproduces the official current gradient multi-tone artwork (brighter ring, lighter inner disc, detailed two-tone tree with leaf cutouts). This is a supported fidelity correction to the bank's current brand artwork, not a rebrand."
+      },
+      "candidateIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+      "checkedAt": "2026-10-04T04:35:55.151415Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a458f2713a101e58060d67f1587b4bfd6891c47832d9ca1e484b25577d00d79e",
+        "head": "bank-icon-maintenance/15800",
+        "headCommit": "f5dbabb450da8861aed0bfebcc458f8bd1118952",
+        "number": 97,
+        "observedAt": "2026-10-04T04:48:46.077817Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Swedbank (Company.id 15800)",
+        "url": "https://github.com/zenmoney/banks/pull/97"
+      },
+      "reason": "Official current Swedbank symbol (gradient multi-tone orange sheep, viewBox 0 0 48 48) extracted losslessly from the bank's own brand-manager ZIP (The-Symbol_Collaboration-logotype/SVG/Symbol.svg). The stored icon.svg is a flat #ee7023 simplified sheep that does not match the official current gradient artwork; geometry and palette of the official asset are materially richer, so a replacement is justified as a supported update for the same bank.",
+      "reviewPackage": {
+        "path": "evidence/15800/candidate-8360511f92446a51679cbdd9d6a7b8f1835f99ee8154f53467180eb9b4063cfb.json",
+        "sha256": "8360511f92446a51679cbdd9d6a7b8f1835f99ee8154f53467180eb9b4063cfb"
+      },
+      "sourceCandidate": {
+        "iconHash": "ba3ca180a11e180c892ab5ce400ac3dcc9774b685fad7aa0478eb0e1761ed6cb",
+        "path": "evidence/15800/research-fd97888ca7934b1e9415d63fc204f7eb/fetch-4ecbf8e046924caaa52046f17cf2bae4/attempt-1/body.bin",
+        "rationale": "Losslessly extracted official symbol-only original vector (SVG member of the official brand ZIP). Square 1:1 symbol without wordmark; gradient palette is the current brand artwork, so the stored flat simplified variant is an outdated rendition of the same mark, justifying a replacement.",
+        "retrieval": {
+          "path": "evidence/15800/research-fd97888ca7934b1e9415d63fc204f7eb/fetch-4ecbf8e046924caaa52046f17cf2bae4/receipt.json",
+          "sha256": "a5c1dc8888da24b96657c4071939bf6e1e4701129ee733dd67b4850f73bccf6b"
+        },
+        "sourceAssetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+        "sourceMaterial": {
+          "path": "evidence/15800/source-material-90f247fdf06f45e3a7ce251a405b1334/material.json",
+          "sha256": "cf4c69b29e02afccecde42a0dee3bc018da2b614dcf579fd05fd521533a73ae4"
+        },
+        "sourceUrl": "https://www.swedbank.com/newsroom/logotype.html"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T04:32:00Z",
+          "independenceGroup": "swedbank.com brand manager",
+          "kind": "official",
+          "observation": "Official brand/logotype download page offering Swedbank_Logotype.zip and The-Symbol_Collaboration-logotype.zip (symbol-only, AI/PDF/PNG/SVG).",
+          "url": "https://www.swedbank.com/newsroom/logotype.html"
+        },
+        {
+          "assetUrl": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip",
+          "checkedAt": "2026-10-04T04:32:00Z",
+          "independenceGroup": "swedbank.com brand manager",
+          "kind": "official",
+          "observation": "Downloaded ZIP; member The-Symbol_Collaboration-logotype/SVG/Symbol.svg selected via source-material. viewBox 0 0 48 48, square, symbol-only (no wordmark), gradient multi-tone orange sheep in circle.",
+          "url": "https://www.swedbank.com/content/dam/swedbank/brand-manager/downloads/logotypes/The-Symbol-our-collaboration-logotype/The-Symbol_Collaboration-logotype.zip"
+        },
+        {
+          "assetUrl": "https://www.swedbank.com/content/dam/global/brand/logotypes/8999-swedbank-logo-default.svg",
+          "checkedAt": "2026-10-04T04:32:00Z",
+          "independenceGroup": "swedbank.com brand manager",
+          "kind": "official",
+          "observation": "Current site header logotype (symbol + wordmark, viewBox 0 0 598 130) corroborates the same symbol design as the standalone Symbol.svg.",
+          "url": "https://www.swedbank.com/content/dam/global/brand/logotypes/8999-swedbank-logo-default.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T04:41:58.900112Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+        "xmlSha256": "f79c1df2b73e2ff20cdcaf2fff44fca33da58ee7633f38e2c1f60c45234cf7a9"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
