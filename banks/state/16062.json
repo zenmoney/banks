@@ -1,0 +1,93 @@
+{
+  "lastAttemptAt": "2026-10-04T22:08:40.322975Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16062/assessed-3bd2d6348cfe2fc87a60d7bf3c047f94e777f9224465f3e0370a9b0bf97377bf.json",
+        "sha256": "3bd2d6348cfe2fc87a60d7bf3c047f94e777f9224465f3e0370a9b0bf97377bf"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The favicon is the currently served site icon of the operating tonscan.org site, retrieved 2026-10-04.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset is served from tonscan.org itself and declared as the site icon in the homepage HTML of tonscan.org, the URL recorded for Company.id 16062.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single official primary source (site + its declared icon are one publication); no independent third-party corroboration was sought because the official domain directly serves the asset and matches the record URL.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The site publishes a single mark (favicon.svg plus mask-icon pointing to the same file); no competing variant was observed.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "fc60d2662a9669e1be0dbf7248f22789e1aa4785e4c6e2cfd8632476e0d087a2",
+      "candidate": {
+        "detailsJudgement": "All source details survive: outline stroke, ears, eyes and nose are present and correctly shaped in the final Desktop renders; alpha ~85% is preserved (translucent face visible on both themes).",
+        "faithful": true,
+        "iconHash": "d6ec106f1b6f23b48965f3b910602e49f0c493558cc2cfdc593f2c1b26f6ad95",
+        "path": "evidence/16062/candidate-d6ec106f1b6f23b48965f3b910602e49f0c493558cc2cfdc593f2c1b26f6ad95.svg",
+        "proportionsJudgement": "Square 32x32 viewBox preserved without scaling; the emblem fills the cell with even margins as in the source; useful size at 24/32/48 px diagnostics retains recognition.",
+        "rationale": "Replace the unrelated accepted glyph with the official current TonScan mark served at tonscan.org/favicon.svg; identity, currency and variant of the fetched asset are confirmed against the official domain.",
+        "role": "standalone site-icon mark of the operating tonscan.org service",
+        "sha256": "d6ec106f1b6f23b48965f3b910602e49f0c493558cc2cfdc593f2c1b26f6ad95",
+        "sourceAssetUrl": "https://tonscan.org/favicon.svg",
+        "sourceUrl": "https://tonscan.org/",
+        "transforms": [
+          "Resolved the source stylesheet's light-theme paints to identical values in 8-digit hex notation: stroke/fill rgba(0,0,0,0.85) -> #000000D9, face fill rgba(255,255,255,0.85) -> #FFFFFFD9; no color or geometry change",
+          "Removed the source <style> element (currentColor and dark-mode media query unsupported by the pinned converter); dark-theme source variant not reproducible in one static file, light-theme values chosen",
+          "SVGO (repository svgo.config.mjs): 1068 -> 1039 bytes on the hex-notation copy, output visually identical on both themes; selected the optimized result as final.svg",
+          "No geometric transform, scaling or backing added; source 32x32 viewBox preserved"
+        ],
+        "variant": "light-theme favicon variant: dark outline and features over translucent white face fill; no backing field (transparent standalone mark)",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The accepted icon shows a completely different glyph (white plus-like symbol on a blue circular field); the replacement shows the official TonScan cat-face mark. The change is a full symbol and color correction, not a cosmetic reserialization."
+      },
+      "candidateIconHash": "d6ec106f1b6f23b48965f3b910602e49f0c493558cc2cfdc593f2c1b26f6ad95",
+      "checkedAt": "2026-10-04T22:08:40.322975Z",
+      "humanReview": "pending",
+      "reason": "Official tonscan.org favicon.svg (declared via <link rel=icon> on the homepage, fetched from the official domain) shows a stylized cat-face mark with dark outline, white face fill and dark eyes/mouth. The accepted icon.svg is an unrelated white plus-like glyph on a blue circular field that matches no TonScan-published asset; the official mark differs visibly in symbol and colors, so a supported replacement is proposed.",
+      "reviewPackage": {
+        "path": "evidence/16062/candidate-7e713beab60ccaca1027de82a5281881a91f21d1c471a799a9a724e102a699fb.json",
+        "sha256": "7e713beab60ccaca1027de82a5281881a91f21d1c471a799a9a724e102a699fb"
+      },
+      "sourceCandidate": {
+        "iconHash": "6a7aebac47cd1b91235de92b9e8f12f8371c68195cd13b3b1aa8b07225bc71d3",
+        "path": "evidence/16062/research-c25639e17fdf48e194f9f70a1d15bb3f/fetch-3d064510fb5d467885fe6badbf3e7f2a/attempt-1/body.bin",
+        "rationale": "Original vector (official favicon.svg, real SVG paths, no raster) of the current official TonScan mark; the accepted icon depicts a different glyph and fails identity against the official asset.",
+        "retrieval": {
+          "path": "evidence/16062/research-c25639e17fdf48e194f9f70a1d15bb3f/fetch-3d064510fb5d467885fe6badbf3e7f2a/receipt.json",
+          "sha256": "6e516b424285336dd7b917a221e331dd7bc3f0ab233b692e5e36783bb0b24fb5"
+        },
+        "sourceAssetUrl": "https://tonscan.org/favicon.svg",
+        "sourceMaterial": {
+          "path": "evidence/16062/source-material-a25594f52cee41cf8f6e7e0e83b64abb/material.json",
+          "sha256": "811bbf7c72ef9b6e15f706f235680a723a10ed661e81c047082fda6f79b3237d"
+        },
+        "sourceUrl": "https://tonscan.org/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://tonscan.org/favicon.svg",
+          "checkedAt": "2026-10-04T22:06:00Z",
+          "independenceGroup": "official-tonscan",
+          "kind": "official",
+          "observation": "Homepage declares <link rel=icon href=/favicon.svg>; the fetched SVG (712 bytes, gzip transfer) is a standalone 32x32 viewBox mark (cat-like head, currentColor strokes plus stylesheet with light/dark values and .head white fill). Rendered independently with rsvg-convert on white: dark outline, white face, dark eyes/nose.",
+          "url": "https://tonscan.org/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T22:14:00Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d6ec106f1b6f23b48965f3b910602e49f0c493558cc2cfdc593f2c1b26f6ad95",
+        "xmlSha256": "188a0866e0b3218329296e1072fe3e06bc87116af9b28a43c1590db483b9f5a6"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
