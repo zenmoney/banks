@@ -1,0 +1,123 @@
+{
+  "lastAttemptAt": "2026-10-04T16:33:51.627595Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15926/assessed-5789e224263e13d32c999b4fb550b438e6bd2e268e3f68fa3b4081dc7d2dad8c.json",
+        "sha256": "5789e224263e13d32c999b4fb550b438e6bd2e268e3f68fa3b4081dc7d2dad8c"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Header logo served first-hand from static.agibank.com.br (official CDN) on 2026-10-04; Play listing br.com.agipag.app ld+json icon (fetched s512) shows the same wordmark variant on the official blue tile.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Visual comparison of fetched CDN vector and Play icon against the base icon; the diamond-knot base shares nothing with the observed agi wordmark and colors.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The primary source is the bank's own CDN asset (official); the Play listing is a second official presentation of the same variant.",
+        "uncertainties": [
+          "Homepage body never fully downloaded (slow transfer, two timeouts at 7.7KB and 15.9KB of ~171KB); the wordmark was identified from the official CDN asset URL referenced by the partial header HTML.",
+          "Full rebrand timeline (when the diamond mark was replaced) not researched; not required for the currency finding."
+        ],
+        "variant": {
+          "basis": "Observed official square-cell presentation (Play app icon): white 'agi' wordmark + green dot on bright-blue #266BFF square tile; favicon shows an inverse white circle with blue wordmark. The header CDN asset is the transparent white wordmark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/7f5c6a53ec75e4aa9f518cb44c1f78ba47ac2ebf5c63ce497e19431c6c270e6f.json",
+        "sha256": "7f5c6a53ec75e4aa9f518cb44c1f78ba47ac2ebf5c63ce497e19431c6c270e6f"
+      },
+      "baseIconHash": "22a121f8fbd943fce4deb8b20721d5608d1206f9fd3e284e4a530efc15f5cc28",
+      "candidate": {
+        "detailsJudgement": "Wordmark contours, letterforms, green dot color/position and internal contrast are identical to the source vector; the backing color #266BFF is taken from the observed official app icon, not invented.",
+        "faithful": true,
+        "iconHash": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2",
+        "path": "evidence/15926/candidate-ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2.svg",
+        "proportionsJudgement": "Whole emblem visible with balanced clearances on the square tile; wordmark occupies about 85% of tile width matching the official app-icon composition; legible at 24/32/48 px on both themes (white on blue, independent of page background).",
+        "rationale": "The base icon is a blue/green interlaced diamond knot sharing no identity, geometry, variant or color with the current Agibank brand — misattributed or long-obsolete. The current official mark is the lowercase 'agi' wordmark with green #2FC750 dot over the i, confirmed first-hand from the bank's own CDN and the official Play app icon.",
+        "role": "Standalone brand mark: the transparent white wordmark asset placed on the observed official square-cell backing (bright-blue #266BFF tile) exactly as in the official Play app icon (ld+json s512, Banco Agibank S.A.).",
+        "sha256": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2",
+        "sourceAssetUrl": "https://static.agibank.com.br/web_public/agi-ui/img/menu-logo-agi.svg",
+        "sourceUrl": "https://static.agibank.com.br/web_public/agi-ui/img/menu-logo-agi.svg",
+        "transforms": [
+          "No transformation of the emblem geometry: the original CDN wordmark paths are embedded unchanged, only whole-emblem uniform scale 0.2754 and translation to center on the tile (translate(4 12.7)).",
+          "Added a full-bleed square backing rect fill #266BFF (54x54 viewBox) reproducing the observed official app-icon tile color; no rounding or masking.",
+          "SVGO 4.1.0 trial with repository svgo.config.mjs on a copy increased size 3415 -> 3466 bytes (+1.5%, pretty-printed output); optimization result skipped, working version kept as final."
+        ],
+        "variant": "White 'agi' wordmark on blue tile — the observed official square-cell presentation; the header CDN asset supplies the original wordmark vector.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base is a completely different mark (blue/green diamond knot) with no relation to the current brand; the candidate replaces it with the confirmed current 'agi' identity on its official tile."
+      },
+      "candidateIconHash": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2",
+      "checkedAt": "2026-10-04T16:33:51.627595Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1806bbf3ca5a64abc73def6bafcb1b7feeac6a9b050910ca6de82121dc1e5ab7",
+        "head": "bank-icon-maintenance/agibank-15926",
+        "headCommit": "10761d09f2c38c68abde31157353cc4ea08d48f8",
+        "number": 128,
+        "observedAt": "2026-10-04T16:44:42.748766Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Agibank (Company.id 15926)",
+        "url": "https://github.com/zenmoney/banks/pull/128"
+      },
+      "reason": "Base icon is a blue/green interlaced diamond knot that shares no identity, geometry, variant or color with the current Agibank brand — appears misattributed or long-obsolete. Current official mark is the lowercase 'agi' wordmark with green dot (#2FC750) over the i, served first-hand from the bank's own CDN.",
+      "reviewPackage": {
+        "path": "evidence/15926/candidate-3b04cf13f71e514b1914d47099a957e97662e21d87574ad8508e3f7991ae29a9.json",
+        "sha256": "3b04cf13f71e514b1914d47099a957e97662e21d87574ad8508e3f7991ae29a9"
+      },
+      "sourceCandidate": {
+        "iconHash": "d754b12fc7aad5aebe402ec405e4a71ab4a34bff9f854c31191dfc785edc5f60",
+        "path": "evidence/15926/research-6b4222afd94e4a56922d587547888060/fetch-70075cecd6124ce6aba12be13d990e2f/attempt-1/body.bin",
+        "rationale": "Supported replacement: the base diamond-knot icon does not match the current operating brand at all (identity misattribution), while the current 'agi' wordmark is confirmed first-hand from the bank's own CDN and official app presentation. Working candidate will reproduce the observed official presentation (white wordmark on the observed blue tile).",
+        "retrieval": {
+          "path": "evidence/15926/research-6b4222afd94e4a56922d587547888060/fetch-70075cecd6124ce6aba12be13d990e2f/receipt.json",
+          "sha256": "75d0f8e10f5ea8fecba0f95620806c85850dc3e98afcca013c0515efa1d43e33"
+        },
+        "sourceAssetUrl": "https://static.agibank.com.br/web_public/agi-ui/img/menu-logo-agi.svg",
+        "sourceUrl": "https://static.agibank.com.br/web_public/agi-ui/img/menu-logo-agi.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://static.agibank.com.br/web_public/agi-ui/img/menu-logo-agi.svg",
+          "checkedAt": "2026-10-04T16:23:00Z",
+          "independenceGroup": "agibank-cdn",
+          "kind": "official",
+          "observation": "Official CDN header asset: white lowercase 'agi' wordmark with green #2FC750 dot over the i, viewBox 0 0 167 104, Illustrator export; fetched first-hand.",
+          "url": "https://static.agibank.com.br/web_public/agi-ui/img/menu-logo-agi.svg"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/jPXAFjPTq0MfTg7d6mopYhXfC2Qh0aKkUA02HBwlqSD1eJ48kJ9VrX7xFHIV7INb85SHOu8gC9Ifee-qZwHe0wI",
+          "checkedAt": "2026-10-04T16:24:00Z",
+          "independenceGroup": "agibank-play",
+          "kind": "official",
+          "observation": "Play listing (Banco Agibank S.A.) ld+json icon at s512: solid blue #266BFF square with white 'agi' wordmark + green dot — official square-cell presentation.",
+          "url": "https://play.google.com/store/apps/details?id=br.com.agipag.app"
+        },
+        {
+          "checkedAt": "2026-10-04T16:19:00Z",
+          "independenceGroup": "agibank-site",
+          "kind": "official",
+          "observation": "Homepage body incomplete (two curl timeouts mid-transfer); header markup on both attempts referenced the CDN menu-logo-agi.svg used as the identity source.",
+          "url": "https://www.agibank.com.br/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T16:35:50.465540Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2",
+        "xmlSha256": "94ecc967a98e0c1c6cfeaa2c82ddbbd3ffbc421d3af5d6e5679a44395a57b4b2"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
