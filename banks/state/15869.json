@@ -1,0 +1,123 @@
+{
+  "lastAttemptAt": "2026-10-04T10:10:29.809072Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15869/assessed-5cfd1844fa9a0051f4c2f83846fcca921fab71d3f5edc3a5ca995b8ec439781a.json",
+        "sha256": "5cfd1844fa9a0051f4c2f83846fcca921fab71d3f5edc3a5ca995b8ec439781a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official group/media assets use this design today; independent logo-history sources confirm 2018-today variant; unicreditbank.hu direct fetch 403 (bot protection), disclosed.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "UniCredit Bank Hungary operates under the group brand; current symbol is the flat red circle with white 1 introduced 2018.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official PL media asset plus independent logo-history source; group brand page corroborates via search despite 403.",
+        "uncertainties": [
+          "No unicreditbank.hu-specific asset fetched (403); group brand applies to the Hungarian subsidiary."
+        ],
+        "variant": {
+          "basis": "Emblem portion (red disc + white 1) of UC_LOGO.svg without wordmark; flat variant, not retired gradient sphere.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/1d2cd127faa0d5406b127b307a266aa47c115a4a3578d652c056fed5cf088548.json",
+        "sha256": "1d2cd127faa0d5406b127b307a266aa47c115a4a3578d652c056fed5cf088548"
+      },
+      "baseIconHash": "165651a1dd923f20e4fa3eddd8938617013517d59898c4fcc7b17300f92841f0",
+      "candidate": {
+        "detailsJudgement": "Disc outline and the white 1 with its notch reproduced exactly from official paths; optimization comparison showed no lost detail.",
+        "faithful": true,
+        "iconHash": "b64ab37fa038c21c14ff3e55be3b05094f57199db76b6fe6f7d3ec5b3a51b575",
+        "path": "evidence/15869/candidate-b64ab37fa038c21c14ff3e55be3b05094f57199db76b6fe6f7d3ec5b3a51b575.svg",
+        "proportionsJudgement": "Emblem region is square (26.95x26.95); uniform fit without stretching; alpha preserved.",
+        "rationale": "Replace redrawn flat icon in off-brand coral (#df493a) with the official UniCredit emblem (red disc + white 1, #E2001A) extracted from UC_LOGO.svg (first three paths); viewBox set to the emblem region 20 20 26.95 26.95; wordmark excluded. Evidenced color and geometry correction of the current 2018-today mark.",
+        "role": "standalone brand emblem (red disc with white 1), wordmark excluded",
+        "sha256": "b64ab37fa038c21c14ff3e55be3b05094f57199db76b6fe6f7d3ec5b3a51b575",
+        "sourceAssetUrl": "https://unicredit.pl/dam/jcr:a36fffd3-5c7a-4db2-8035-70740d588510/UC_LOGO.svg",
+        "sourceUrl": "https://www.unicredit.pl/media",
+        "transforms": [
+          "lossless path copy of the three emblem paths from official UC_LOGO.svg",
+          "viewBox changed from 0 0 180 67 to the emblem region (uniform scale/translation only)",
+          "SVGO with repository svgo.config.mjs on a copy: 2433 -> 1838 bytes, trial produced and visually identical; optimized bytes selected"
+        ],
+        "variant": "flat 2018-today UniCredit emblem (not the retired 2003-2018 gradient sphere)",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon uses off-brand coral red and an approximated 1/disc; final uses official brand red #E2001A and exact official geometry - clearly visible difference."
+      },
+      "candidateIconHash": "b64ab37fa038c21c14ff3e55be3b05094f57199db76b6fe6f7d3ec5b3a51b575",
+      "checkedAt": "2026-10-04T10:10:29.809072Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "4bab3a97f62a80d3f61a53072ea4765f92c1e0a3a18679e05e3708f59a159560",
+        "head": "bank-icon-maintenance/15869",
+        "headCommit": "bb736bcef9781b0403fec6b32ef88065f56f1bb5",
+        "number": 112,
+        "observedAt": "2026-10-04T10:31:31.538346Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: UniCredit Bank (Company.id 15869)",
+        "url": "https://github.com/zenmoney/banks/pull/112"
+      },
+      "reason": "Accepted icon renders the current flat red circle-with-white-1 mark but in off-brand red #df493a; official UC_LOGO.svg (unicredit.pl media page) supplies the current design with brand red #E2001A. Evidenced color/geometry correction from an official original vector.",
+      "reviewPackage": {
+        "path": "evidence/15869/candidate-bddc9db147b98bed3a6b901a1c5c94ef8bccdd0d40bf155a4358ccc70da9eba8.json",
+        "sha256": "bddc9db147b98bed3a6b901a1c5c94ef8bccdd0d40bf155a4358ccc70da9eba8"
+      },
+      "sourceCandidate": {
+        "iconHash": "24eae6bf70186db15554a1b8c5bc9e32d5ac774412fd21541b3c5988d2ee038d",
+        "path": "evidence/15869/research-b9b8642bd82d48e5ade902d063ec3088/fetch-6923dd0165034c4c8f60fac864bbe9ea/attempt-1/body.bin",
+        "rationale": "Official original vector of the current mark; corrects off-brand red and redrawn geometry of the accepted icon.",
+        "retrieval": {
+          "path": "evidence/15869/research-b9b8642bd82d48e5ade902d063ec3088/fetch-6923dd0165034c4c8f60fac864bbe9ea/receipt.json",
+          "sha256": "dc106b0784a3d9a5fe71e7e5e5a0faea12fbdc3997b2663f84b40910bca69d94"
+        },
+        "sourceAssetUrl": "https://unicredit.pl/dam/jcr:a36fffd3-5c7a-4db2-8035-70740d588510/UC_LOGO.svg",
+        "sourceUrl": "https://www.unicredit.pl/media"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://unicredit.pl/dam/jcr:a36fffd3-5c7a-4db2-8035-70740d588510/UC_LOGO.svg",
+          "checkedAt": "2026-10-04T09:59:47.538374Z",
+          "independenceGroup": "unicredit.pl official media assets",
+          "kind": "official",
+          "observation": "Official UniCredit media page serves UC_LOGO.svg (180x67) and UniCredit_logo_podstawowe.svg (4559x875); emblem fill #E2001A; flat circle-with-1 design in current group use.",
+          "url": "https://www.unicredit.pl/media"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T09:58:38.583840Z",
+          "independenceGroup": "1000logos + Wikimedia",
+          "kind": "third-party",
+          "observation": "Documents flat 2018-today variant (current) vs retired 2003-2018 3D sphere; Wikimedia UniCredit.svg is the retired gradient variant and was rejected.",
+          "url": "https://1000logos.net/unicredit-bank-logo/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T09:56:34.899780Z",
+          "independenceGroup": "unicreditgroup.eu (blocked, indirect)",
+          "kind": "third-party",
+          "observation": "Direct fetch blocked (HTTP 403); current group brand symbol = red circle with white 1, established via search result content.",
+          "url": "https://www.unicreditgroup.eu/en/unicredit-at-a-glance/our-brand.html"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T10:15:00.666661Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b64ab37fa038c21c14ff3e55be3b05094f57199db76b6fe6f7d3ec5b3a51b575",
+        "xmlSha256": "d1c80bd743a1e6c5b7078f92afa4c351142a47163fa8c6f591a3e3edaf48c065"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
