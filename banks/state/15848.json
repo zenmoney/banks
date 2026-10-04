@@ -1,0 +1,134 @@
+{
+  "lastAttemptAt": "2026-10-04T07:52:50.873269Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15848/assessed-e7a30b9d81452029a952a1209cb40890e835192f624af5a26b04927bcbe2b2d7.json",
+        "sha256": "e7a30b9d81452029a952a1209cb40890e835192f624af5a26b04927bcbe2b2d7"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current successful official website/application retrieval distributes this green/purple original vector; independent logo catalog published April 2026 displays matching current emblem. Browser surface was inaccessible, so no browser visual-context success is claimed.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Exact work-order title Uzum Bank (Apelsin), existing URL apelsin.uz returning Uzum Bank page, and 2022 Central Bank name/license announcement connect the same legal bank record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site supplies vector; regulator independently establishes entity continuity; LogoTeka independently corroborates displayed green/purple variant but is not original geometry authority. Official hostname variants and assets count as one group.",
+        "uncertainties": [
+          "Accepted plain violet-circle variant has no sourced lifecycle attribution from this research; do not label it obsolete solely from difference. Browser page current-use screenshot unavailable (500 Service Unavailable); successful current website bundle and 2026 independent displayed icon support replacement. Final target-size and converter/platform fidelity remain coordinator review, not inferred from rsvg reference."
+        ],
+        "variant": {
+          "basis": "Standalone circular emblem is explicitly present as first four drawable elements in full official logo. Keep its original green circle, fine green stroke, purple geometry and white mark unchanged; remove only accompanying separate wordmark in working copy. No invented field or whole-emblem mask; the circle is present in original vector.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/b8ad10315a23d71483e9951b4320f86bb8619790e3198412015f3e8a4986f40d.json",
+        "sha256": "b8ad10315a23d71483e9951b4320f86bb8619790e3198412015f3e8a4986f40d"
+      },
+      "baseIconHash": "10ae360e2ae8ba7d8933135ce29582833919f74629918b3469c839d82ce602fa",
+      "candidate": {
+        "detailsJudgement": "Full original and exact source/final pairs preserve green field, purple opposing lobes, white U and detached central stroke. Original vector geometry/colors retained; no traced or raster-backed elements. Working/optimized comparisons visually faithful.",
+        "faithful": true,
+        "iconHash": "c8d350a87c562a2c7480c9e798c1dad6c41eedbeed1880e284da5ada3a7268fd",
+        "path": "evidence/15848/candidate-c8d350a87c562a2c7480c9e798c1dad6c41eedbeed1880e284da5ada3a7268fd.svg",
+        "proportionsJudgement": "Complete circular original field fits cell with original emblem placement. No arbitrary margins or circular adaptation. Inspected 24/32/48px exact-frame resized diagnostics remain recognizable and contrastful on both themes.",
+        "rationale": "Use current source-supported green/purple Uzum symbol; regulator proves Apelsin rename continuity. Meaningful emblem/presentation correction, not parent substitution or serialization.",
+        "role": "Standalone circular Uzum bank emblem without wordmark.",
+        "sha256": "c8d350a87c562a2c7480c9e798c1dad6c41eedbeed1880e284da5ada3a7268fd",
+        "sourceAssetUrl": "https://apelsin.uz/_nuxt/img/uzumbank-logo-2.f412a3c.svg",
+        "sourceUrl": "https://apelsin.uz",
+        "transforms": [
+          "Copied first four original emblem drawables unchanged, omitted separate lettering; isolated original circle with viewBox 0.40625 0 50 50; no recoloring or backing adaptation.",
+          "SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1171 to 1012 bytes; optimized version selected after independent working/optimized comparison."
+        ],
+        "variant": "Original green circular field and fine stroke, purple opposing diagonal lobes and white U/power shape; no reconstructed field or clipping mask.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact before/after replaces plain violet disk with original green circle and purple interlocking diagonal contours and source-scale U, a substantial visible composition difference."
+      },
+      "candidateIconHash": "c8d350a87c562a2c7480c9e798c1dad6c41eedbeed1880e284da5ada3a7268fd",
+      "checkedAt": "2026-10-04T07:52:50.873269Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "15ae04f73e7f62ec0fefa94e0fbba16b340acc133b01a0f4152e2cbe2e86adbe",
+        "head": "bank-icon-maintenance/a3me6hif-15848",
+        "headCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+        "number": 106,
+        "observedAt": "2026-10-04T08:18:31.843612Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Uzum Bank (Apelsin) (Company.id 15848)",
+        "url": "https://github.com/zenmoney/banks/pull/106"
+      },
+      "reason": "Official original vector and independently published 2026 icon support a green circular field with purple interlocking diagonal emblem and white Uzum U. This is a meaningful design/variant correction from the accepted plain violet circle, not a serialization change. Regulatory evidence identifies Uzum Bank as renamed BANK APELSIN, not a successor substitution.",
+      "reviewPackage": {
+        "path": "evidence/15848/candidate-72ee56df7905c8a81053a2c23aecd45d5e52c5a987bc0f3044903c44e75fae85.json",
+        "sha256": "72ee56df7905c8a81053a2c23aecd45d5e52c5a987bc0f3044903c44e75fae85"
+      },
+      "sourceCandidate": {
+        "iconHash": "f7fc900d2bb8bf4dc233662bde6fd35de312bbf017b8c39a17d64bb811ca0e87",
+        "path": "evidence/15848/research-1b4ad2ed276942bcb009f6b39a8a6d8f/fetch-d4dc35b825a4408287598f05dc096cb5/attempt-1/body.bin",
+        "rationale": "Replace unsupported accepted plain violet-circle composition with source-supported green circular emblem retaining original purple zigzag geometry and white U. Use standalone symbol isolated from official original vector, not shrunk full wordmark.",
+        "retrieval": {
+          "path": "evidence/15848/research-1b4ad2ed276942bcb009f6b39a8a6d8f/fetch-d4dc35b825a4408287598f05dc096cb5/receipt.json",
+          "sha256": "3808372e8bb4b5224aca5187cfe3466fd02e179ed31bdfb7cbb27ec17a07720e"
+        },
+        "sourceAssetUrl": "https://apelsin.uz/_nuxt/img/uzumbank-logo-2.f412a3c.svg",
+        "sourceMaterial": {
+          "path": "evidence/15848/source-material-0ce13b64567e4a47becf26a18920223b/material.json",
+          "sha256": "e1d67ba2b0f65b2f025eedc7d27617c57a6c23085b03a4e2c08deacc19fe4b21"
+        },
+        "sourceUrl": "https://apelsin.uz"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://apelsin.uz/_nuxt/img/uzumbank-logo-2.f412a3c.svg",
+          "checkedAt": "2026-10-04T07:48:36.439425Z",
+          "independenceGroup": "Uzum bank primary website and application assets",
+          "kind": "official",
+          "observation": "HTTPS homepage identifies Uzum Bank and loads /_nuxt/a49ee81.js. That downloaded live application bundle explicitly names this original vector and other Uzum logo variants. Full vector inspected: green round emblem, purple opposing diagonal lobes, white U/power mark, followed by separate uzum bank wordmark.",
+          "url": "https://apelsin.uz"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T07:48:36.439425Z",
+          "independenceGroup": "Central Bank of Uzbekistan regulator",
+          "kind": "third-party",
+          "observation": "Central Bank announcement dated 2022-11-29 explicitly states BANK APELSIN was renamed UZUM BANK and its banking license reissued. This resolves same-bank identity independently of website metadata.",
+          "url": "https://cbu.uz/ru/press_center/news/761117/"
+        },
+        {
+          "assetUrl": "https://logo-teka.com/wp-content/uploads/2026/04/uzum-bank-icon-logo.png",
+          "checkedAt": "2026-10-04T07:48:36.439425Z",
+          "independenceGroup": "LogoTeka independent logo catalog",
+          "kind": "third-party",
+          "observation": "Page article datePublished 2026-04-12. Actual downloaded icon inspected: same green circle, purple opposing diagonal-lobed emblem, and white U/power mark as original website vector. Independent catalog corroboration, not replacement geometry or proof of official avatar masking.",
+          "url": "https://logo-teka.com/en/uzum-bank/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T07:48:36.439425Z",
+          "independenceGroup": "Uzum bank primary website and application assets",
+          "kind": "official",
+          "observation": "Headless browser navigation returned title 500 Service Unavailable. No actual bank webpage/round avatar screenshot observed; this failure is preserved. Separate workflow HTTPS retrieval succeeded with Uzum Bank HTML and live bundle references.",
+          "url": "https://uzumbank.uz/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T07:56:27.920466Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "c8d350a87c562a2c7480c9e798c1dad6c41eedbeed1880e284da5ada3a7268fd",
+        "xmlSha256": "15ddf29484330e1d1ecf941c15ebb1116dfa7b27850fdd5adc0c132208dbf651"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
