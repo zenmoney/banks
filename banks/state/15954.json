@@ -1,0 +1,95 @@
+{
+  "lastAttemptAt": "2026-10-04T17:29:37.012665Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15954/assessed-2e883f750194bf8fa24fc1947d5ff27205c16853418f1aff886e82f8ad296f2d.json",
+        "sha256": "2e883f750194bf8fa24fc1947d5ff27205c16853418f1aff886e82f8ad296f2d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The Bank of Georgia design-system favicon served by conditions.bog.ge (a bog.ge property titled 'საქართველოს ბანკი') on 2026-10-04 shows the same orange lion emblem currently in official use; the bank is operating.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The fetched favicon.svg from conditions.bog.ge (BoG design-system assets, site titled 'საქართველოს ბანკი') is the Bank of Georgia lion emblem, matching this record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Identity and currency rest on the official bog.ge primary publication (conditions.bog.ge favicon served from the bank's own design-system assets), directly compared against the accepted SVG by shape and color.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The fetched favicon.svg is the official current solid-plate variant: orange lion emblem on a white rounded plate, 114x97 viewBox, standalone with no accompanying text.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "e95a20c6485501b24d370088efef4a74b083bfeeed1fd7225717dc7734c16d34",
+      "candidate": {
+        "detailsJudgement": "The lion's mane stripes, face and legs survive conversion and SVGO; both theme renders are crisp with the correct orange fill on the white plate.",
+        "faithful": true,
+        "iconHash": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+        "path": "evidence/15954/candidate-2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800.svg",
+        "proportionsJudgement": "The 114x97 emblem is uniformly scaled into the 54x54 cell preserving aspect; no crop or distortion; centered with even clearance.",
+        "rationale": "Aligns the catalog icon with the bank's current official icon variant: the rebranded lion emblem on a solid white rounded plate, served from the bank's own design-system assets.",
+        "role": "standalone brand emblem (official favicon/app-mark variant of Bank of Georgia)",
+        "sha256": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+        "sourceAssetUrl": "https://conditions.bog.ge/assets/favicon.svg",
+        "sourceUrl": "https://conditions.bog.ge/en/information/locations",
+        "transforms": [
+          "uniform scale of the whole 114x97 emblem into the 54x54 catalog cell; no crop, no geometry or color changes",
+          "SVGO multipass with frozen repo svgo.config.mjs: 4271 -> 2779 bytes, optimized version selected as final (visually faithful, converter-compatible)"
+        ],
+        "variant": "official current solid-plate variant from conditions.bog.ge/assets/favicon.svg",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before: older lion artwork (dotted collar) inside a rounded-square outline frame, near-invisible frame on light theme. After: current rebranded lion artwork (striped collar) on a solid white rounded plate, matching the bank's present icon presentation; also fixes the light-theme low-contrast backing."
+      },
+      "candidateIconHash": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+      "checkedAt": "2026-10-04T17:29:37.012665Z",
+      "humanReview": "pending",
+      "reason": "The accepted SVG shows the same Bank of Georgia lion emblem inside a rounded-square outline frame, while the bank's current official icon variant places the emblem on a solid white rounded plate. The official current variant favicon.svg is proposed as the replacement so the catalog matches the bank's present icon presentation. The old icon's attribution is recorded as an unresolved historical note and does not block a supported replacement.",
+      "reviewPackage": {
+        "path": "evidence/15954/candidate-27ad3a7f51a31f497909c71a352a1c2995fd287a079d0ac4f6c58bb6e139634f.json",
+        "sha256": "27ad3a7f51a31f497909c71a352a1c2995fd287a079d0ac4f6c58bb6e139634f"
+      },
+      "sourceCandidate": {
+        "iconHash": "8f55fca17009c28664b990b7851d937a654562f79f9721ce77ded9270d1843bc",
+        "path": "evidence/15954/research-646903a63e994e62aab8a308f9664763/fetch-810668f810494cb19aac0f4227f81af9/attempt-1/body.bin",
+        "rationale": "Official current Bank of Georgia icon variant (solid white plate with orange lion) served from the bank's own design-system assets; original vector, standalone, square-cell suitable.",
+        "retrieval": {
+          "path": "evidence/15954/research-646903a63e994e62aab8a308f9664763/fetch-810668f810494cb19aac0f4227f81af9/receipt.json",
+          "sha256": "457a34a5cab5fae3d7f162d70658e442660b20e7cecbe9707e131483a09b40c1"
+        },
+        "sourceAssetUrl": "https://conditions.bog.ge/assets/favicon.svg",
+        "sourceUrl": "https://conditions.bog.ge/en/information/locations"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://conditions.bog.ge/assets/favicon.svg",
+          "checkedAt": "2026-10-04T17:27:00Z",
+          "independenceGroup": "bog.ge official primary publication",
+          "kind": "official",
+          "observation": "BoG conditions site (HTML title 'საქართველოს ბანკი') references assets/favicon.svg; retrieved SVG is the official orange lion emblem (114x97 viewBox, orange lion on white plate). Compared with the accepted icon: same lion emblem and palette; accepted icon uses an outline frame variant.",
+          "url": "https://conditions.bog.ge/en/information/locations"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T17:25:27Z",
+          "independenceGroup": "bog.ge official primary publication",
+          "kind": "official",
+          "observation": "bankofgeorgia.ge homepage transfer timed out twice after partial download (curl exit 28, HTTP 200); no logo asset extracted from partial body. Access failure noted; conditions.bog.ge evidence carried the decision instead.",
+          "url": "https://bankofgeorgia.ge/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T17:36:21.767487Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "2e779e08aa32e9b040e4376f15bc04a3562e7ce8946fc46a9bb642c6d0854800",
+        "xmlSha256": "ff9e57c3113e95b61b40faa9c48f35aaffabeeab73db2a0ce8dcf085bbf7864b"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
