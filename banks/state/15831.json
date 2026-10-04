@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-04T06:06:01.434370Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15831/assessed-76338e601fb7d6d6a2e9c8a085d12f334967552670d51077997d4ac662c48148.json",
+        "sha256": "76338e601fb7d6d6a2e9c8a085d12f334967552670d51077997d4ac662c48148"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Observed live 2026-10-04 on the bank's official properties; former wordmark no longer used by the bank.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Mark served by the renamed bank's own domain (sb.lt/Šiaulių bankas → artea.lt); rename of the same legal entity confirmed by official FAQ and press release.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary: bank's own artea.lt assets; rename corroborated by independent GlobeNewswire release; rejected lockups are distinct official files, not evidence copies.",
+        "uncertainties": [
+          "Catalog record title remains 'Šiaulių bankas' while the current brand is Artea bankas; icon update reflects the evidenced rename of the same bank, metadata titles are out of scope for the icon change."
+        ],
+        "variant": {
+          "basis": "Standalone geometric mark without lettering (favicon.svg), matching the mark component of the official lockups.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/273a2c62f2f4e8d6cd90f0178ce9730d54cc8c75ca173df803a1d1fbd3c9a4e2.json",
+        "sha256": "273a2c62f2f4e8d6cd90f0178ce9730d54cc8c75ca173df803a1d1fbd3c9a4e2"
+      },
+      "baseIconHash": "6d9c3b17c69c782de5bd17a05a91c99c6e88b7a044b618f78c3ee58d29c6913a",
+      "candidate": {
+        "detailsJudgement": "Single navy path renders cleanly: angular 'a'-like mark with counter hole preserved as true transparency; no fill-in, no distortion in 240px renders.",
+        "faithful": true,
+        "iconHash": "fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248",
+        "path": "evidence/15831/candidate-fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248.svg",
+        "proportionsJudgement": "Source used as-is: 600x600 standalone mark, no transforms, no backing added (suitable transparent standalone mark); centered by the source viewBox with even margins.",
+        "rationale": "Šiaulių bankas renamed to Artea bankas effective 2025-05-05 (official FAQ, GlobeNewswire); the accepted icon is the former lowercase wordmark while the bank's current standalone mark is the Artea geometric mark served as the official favicon.svg — evidenced rename update of the same bank.",
+        "role": "Standalone current bank mark (Artea geometric mark, navy #071844), transparent background.",
+        "sha256": "fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248",
+        "sourceAssetUrl": "https://www.artea.lt/favicon.svg",
+        "sourceUrl": "https://www.artea.lt/favicon.svg",
+        "transforms": [
+          "No geometric transformation; source mark used unchanged.",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 989 -> 829 bytes; optimized output selected after working-vs-optimized comparison showed identical rendering."
+        ],
+        "variant": "Current official standalone mark (favicon.svg at artea.lt site root); matches the mark component of the official lockups, which are rejected for lettering.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base is the former 'šiaulių bankas' SB monogram; final is the current Artea geometric mark — evidenced rename of the same legal entity, not a successor substitution."
+      },
+      "candidateIconHash": "fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248",
+      "checkedAt": "2026-10-04T06:06:01.434370Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "9ee9539f6aad7accc4f1ab38b73b20522a7447f2d118e59e72ce8c772839b469",
+        "head": "bank-icon-maintenance/15831",
+        "headCommit": "b251e9f3edd6bda416e69dab7975dc9c7a171c84",
+        "number": 102,
+        "observedAt": "2026-10-04T06:34:09.586442Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+        "url": "https://github.com/zenmoney/banks/pull/102"
+      },
+      "reason": "Šiaulių bankas renamed to Artea bankas effective 2025-05-05 (official FAQ, GlobeNewswire notice, Wikipedia); the accepted icon is the former lowercase 'šiaulių bankas' wordmark while the bank's current standalone mark is the Artea geometric mark, available as the bank's own favicon.svg original vector.",
+      "reviewPackage": {
+        "path": "evidence/15831/candidate-b52afc18734aafc2c4a9a94c5c08e0a543812869a029bb423400e5fef69ceb20.json",
+        "sha256": "b52afc18734aafc2c4a9a94c5c08e0a543812869a029bb423400e5fef69ceb20"
+      },
+      "sourceCandidate": {
+        "iconHash": "fd05ff8208ae8a235148babf9f6bcf119a6952bf1f5d7fa827beb07563b3a911",
+        "path": "evidence/15831/research-3b184455e7eb46ffa1ead1271e3907a0/fetch-d3d5de7a1ebb4bccb1205b0ca73a93c7/attempt-1/body.bin",
+        "rationale": "Bank's own standalone current mark as original vector (single authored path, no lettering); serves as site favicon of the renamed bank's official domain.",
+        "retrieval": {
+          "path": "evidence/15831/research-3b184455e7eb46ffa1ead1271e3907a0/fetch-d3d5de7a1ebb4bccb1205b0ca73a93c7/receipt.json",
+          "sha256": "8684af487a54f56b42274d78a9e118a61e1cdc013b2824aa8975daa583adf31a"
+        },
+        "sourceAssetUrl": "https://www.artea.lt/favicon.svg",
+        "sourceUrl": "https://www.artea.lt/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.artea.lt/favicon.svg",
+          "checkedAt": "2026-10-04T05:51:33Z",
+          "independenceGroup": "artea.lt official assets",
+          "kind": "official",
+          "observation": "Official artea.lt (renamed bank) serves favicon.svg: 600x600 viewBox, single navy #071844 path forming the standalone Artea geometric mark without lettering; geometry matches the mark inside official lockups (cdn.artea.lt/mainweb/logo.svg, uploads/media/67d827529218b/artea-logo-dark.svg — both lockups rejected for lettering). favicon.svg resolves at site root; homepage HTML has no <link rel=icon> (labeled probe).",
+          "url": "https://www.artea.lt/favicon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:49:58Z",
+          "independenceGroup": "GlobeNewswire release and artea.lt FAQ",
+          "kind": "third-party",
+          "observation": "GlobeNewswire notice (2025-03-31) and artea.lt rebrand FAQ confirm Šiaulių bankas renamed to Artea bankas effective 2025-05-05; same legal entity continuing.",
+          "url": "https://www.globenewswire.com/news-release/2025/03/31/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T06:13:11.154447Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248",
+        "xmlSha256": "80f2fcdfe8dc1c1012078f4d37e8b9e0f81fba1cf81861fc4d9f37ac794b1345"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
