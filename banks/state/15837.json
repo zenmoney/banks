@@ -1,0 +1,115 @@
+{
+  "lastAttemptAt": "2026-10-04T07:24:33.043480Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15837/assessed-0da61bcc3edd9557af89f5e1c431daadc698a53e63bdc6b61a6c9f75476f8dac.json",
+        "sha256": "0da61bcc3edd9557af89f5e1c431daadc698a53e63bdc6b61a6c9f75476f8dac"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Original red wordmark remains homepage header/OG logo; standalone O remains actively linked touch-icon asset, with contemporary 2026 news and copyright.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Exact metadata domain is current official Slovak Oberbank website, header identifies Logo Oberbank and links bank entity and Slovak portal.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Companieslogo is not an independent design authority; nested EPS/Sketch layer IDs, matching eight path identities, cubic contour structure and identical red paint support derivative original-vector lineage. Official current wordmark and separately linked touch icon establish currency and standalone use.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Official red O is independently published as a standalone touch icon and is available as genuine vector path Fill-1_2_ in current original wordmark. Source-preserving path selection with #C90000 is suitable for a square application cell; full wordmark is not.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "da9784694899cd242bf5f1af672d3e9a70098891ce9c3015d4daf7fdd7551846",
+      "candidate": {
+        "detailsJudgement": "Original full wordmark, official touch icon, working/optimized and source/final pairs inspected. O outer/inner cubic contours intact and complete; transparent hole preserved, no invented paint or detail.",
+        "faithful": true,
+        "iconHash": "82599ed495aa962e500d0c185b9441d2a6f5c9aee9efcd5e26757be24b372117",
+        "path": "evidence/15837/candidate-82599ed495aa962e500d0c185b9441d2a6f5c9aee9efcd5e26757be24b372117.svg",
+        "proportionsJudgement": "Complete O fits square icon cell without distortion or clipping; 24/32/48px diagnostics inspected and monogram remains recognizable both themes. Transparent source-backed symbol retained; no added circle/white fill.",
+        "rationale": "Replace accompanying stacked bank-name lettering with current officially used standalone O for a recognizable square-cell mark; no rebrand claim.",
+        "role": "standalone O bank monogram",
+        "sha256": "82599ed495aa962e500d0c185b9441d2a6f5c9aee9efcd5e26757be24b372117",
+        "sourceAssetUrl": "https://companieslogo.com/img/orig/OBS.VI_BIG-264d0ad9.svg?t=1720244493&download=true",
+        "sourceUrl": "https://companieslogo.com/oberbank/logo/",
+        "transforms": [
+          "Selected exact Fill-1_2_ path from source wordmark, retained evenodd fill and #C90000; removed accompanying lettering, selected 253.5x283 viewport without clipping; no tracing/redrawing/recoloring.",
+          "SVGO 4.1.0 config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 374 to 360 bytes; visually equivalent working/optimized pairs on light/dark; selected 82599ed495aa962e500d0c185b9441d2a6f5c9aee9efcd5e26757be24b372117."
+        ],
+        "variant": "Original red #C90000 O with transparent interior/exterior; official touch icon confirms standalone use, not circular backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Actual both-theme base/final pairs show stacked wordmark/white backing replaced by larger official standalone O. Meaningful catalog suitability/recognition improvement, not obsolete-brand claim."
+      },
+      "candidateIconHash": "82599ed495aa962e500d0c185b9441d2a6f5c9aee9efcd5e26757be24b372117",
+      "checkedAt": "2026-10-04T07:24:33.043480Z",
+      "humanReview": "pending",
+      "reason": "Current official Slovak website supplies an original Illustrator/Sketch EPS-derived red Oberbank wordmark and separately publishes its O as a standalone touch icon. The accepted icon contains accompanying wordmark lettering on a white circular field; a source-preserving selection of the original wordmark's first O path is the supported square-symbol replacement, not the traced pinned-tab SVG.",
+      "reviewPackage": {
+        "path": "evidence/15837/candidate-1b22ffb7b6425e99161712e0fa38c34a072e23ee70c02bb1eb74aebaeca3c108.json",
+        "sha256": "1b22ffb7b6425e99161712e0fa38c34a072e23ee70c02bb1eb74aebaeca3c108"
+      },
+      "sourceCandidate": {
+        "iconHash": "1eeb78c2dc6bedc40fc3e1db7b473ffba0b0c890ba278f40b414859e05697e92",
+        "path": "evidence/15837/research-c7279d9a191e4b43a7cea7f1e6f4f727/fetch-e9b300fd9bbd44c980e0dd8b4aa7be75/attempt-1/body.bin",
+        "rationale": "Source-preserving selection of derivative original-vector O replaces accompanying lettering with current officially standalone symbol. Geometry lineage corroborated against primary official Illustrator/Sketch source; not tracing or rebrand.",
+        "retrieval": {
+          "path": "evidence/15837/research-c7279d9a191e4b43a7cea7f1e6f4f727/fetch-e9b300fd9bbd44c980e0dd8b4aa7be75/receipt.json",
+          "sha256": "d4cd0918545cf2515455d8578b701708336dace18f87b572069f1d3233b14938"
+        },
+        "sourceAssetUrl": "https://companieslogo.com/img/orig/OBS.VI_BIG-264d0ad9.svg?t=1720244493&download=true",
+        "sourceMaterial": {
+          "path": "evidence/15837/source-material-fc7dc58f56944846af96a3c5166c75fb/material.json",
+          "sha256": "0a201d37d8fbefb36017d33df07eb352172b7f203dcf8f2526e44a0317362576"
+        },
+        "sourceUrl": "https://companieslogo.com/oberbank/logo/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.oberbank.sk/documents/20195/21715/oberbank_logo.svg/cdfe1f2e-1469-4a2c-ab97-f41543c61060",
+          "checkedAt": "2026-10-04T07:13:46Z",
+          "independenceGroup": "Oberbank official Slovak website",
+          "kind": "official",
+          "observation": "Fetched current Slovak commercial-banking homepage identifies header image as Logo Oberbank, links Oberbank AG and Slovak banking portal; includes board news discussing March 2026 and 2027 appointments. SVG has Adobe Illustrator export metadata and EPS/Sketch lineage, eight outlined lettering paths; first path Fill-1_2_ is the red O. Independently rasterized original and visually inspected complete red wordmark.",
+          "url": "https://www.oberbank.sk/"
+        },
+        {
+          "assetUrl": "https://www.oberbank.sk/o/oberbank-2024-theme/img/favicon/apple-touch-icon-520x520.png",
+          "checkedAt": "2026-10-04T07:13:46Z",
+          "independenceGroup": "Oberbank official Slovak website",
+          "kind": "official",
+          "observation": "Homepage explicitly links 520px touch icon. Downloaded and inspected: red standalone O on transparent field, no accompanying text. It supports official standalone O use and proportions; raster is context only, not replacement geometry.",
+          "url": "https://www.oberbank.sk/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T07:13:46Z",
+          "independenceGroup": "Oberbank official Slovak website",
+          "kind": "official",
+          "observation": "Oberbank AG page on Slovak official domain states independence as its highest goal, offers branch navigation and carries Oberbank 2026 copyright. This is a current operating Oberbank brand, not a redirected successor/historical record.",
+          "url": "https://www.oberbank.sk/oberbank-ag"
+        },
+        {
+          "assetUrl": "https://companieslogo.com/img/orig/OBS.VI_BIG-264d0ad9.svg?t=1720244493&download=true",
+          "checkedAt": "2026-10-04T07:16:38Z",
+          "independenceGroup": "Companieslogo derivative of official Oberbank vector",
+          "kind": "third-party",
+          "observation": "Page links full-size SVG and was last updated July 6 2024. Fetched SVG preserves original official EPS/Sketch nested layer IDs and all eight Fill-N_2_ paths, same #C90000, scaled/rounded coordinates and reversed equivalent evenodd O subpaths. The first O outer/inner contours correspond to original cubic geometry scaled 9.75; this concrete lineage supports derivative original vector, not raster tracing. Independently rendered and inspected full matching wordmark. Source-material successfully accepted exact unmodified resource.",
+          "url": "https://companieslogo.com/oberbank/logo/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T07:29:07.548031Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "82599ed495aa962e500d0c185b9441d2a6f5c9aee9efcd5e26757be24b372117",
+        "xmlSha256": "7ee3615eee9dbc6862e65fab6629a73e7dbe07eb3f6f65eaebe49c00a9bed4a7"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
