@@ -1,0 +1,116 @@
+{
+  "lastAttemptAt": "2026-10-04T22:16:33.224763Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16067/assessed-bfa19189f34e8c37e06cb13c1c284a883b0d703bf82e6dda735dd309dd7b447d.json",
+        "sha256": "bfa19189f34e8c37e06cb13c1c284a883b0d703bf82e6dda735dd309dd7b447d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The branding page is the current official publication and its logomark matches the currently served favicon/apple-touch-icon design (retrieved 2026-10-04).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset is served from solana.com's own branding page, the official domain for the Solana record (Company.id 16067, url solana.com).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "One official primary publication (solana.com brand page) plus its served favicon/touch-icon corroborate within the same official source; no independent third party was needed because the official domain directly serves the standalone asset.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The standalone logomark (gradient bars, transparent) is the current official icon-only variant; no white-on-gradient-circle variant is published on any official surface checked.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/8456226202f4c4083ccf77d4063e06d63f84487f59347265cfa0ade6f281c468.json",
+        "sha256": "8456226202f4c4083ccf77d4063e06d63f84487f59347265cfa0ade6f281c468"
+      },
+      "baseIconHash": "8b9b75ed7f854cebefa9398835f6810410a30f78414a2c0b77fa9d3332563e3d",
+      "candidate": {
+        "detailsJudgement": "All three bars with their beveled corners and per-bar gradient positions survive; no lost detail in the final Desktop renders on either theme.",
+        "faithful": true,
+        "iconHash": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0",
+        "path": "evidence/16067/candidate-b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0.svg",
+        "proportionsJudgement": "The wide three-bar mark fills the square cell with balanced margins after no transform; it remains recognizable at 24/32/48 px diagnostics on both themes.",
+        "rationale": "Replace the undocumented white-on-gradient-circle avatar with the official standalone Solana logomark published on the official brand page and mirrored by every current official favicon surface.",
+        "role": "standalone logomark (icon-only variant) from the official Solana brand assets",
+        "sha256": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0",
+        "sourceAssetUrl": "https://solana.com/src/img/branding/solanaLogoMark.svg",
+        "sourceUrl": "https://solana.com/branding",
+        "transforms": [
+          "No geometric transform, scaling or backing added; source viewBox 0 0 101 88 preserved as-is",
+          "SVGO (repository svgo.config.mjs): 2519 -> 1808 bytes; render difference at most 1/255 per channel on both themes (gradient re-serialization antialiasing); selected the optimized result as final.svg"
+        ],
+        "variant": "current gradient branding: three bars with #9945FF to #19FB9B gradient on a transparent background; no backing field added",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The accepted icon is a white-glyph-on-gradient-circle avatar; the replacement is the official gradient logomark on transparent. Colors invert from white-bars to gradient-bars and the circular field is removed, matching the official current variant."
+      },
+      "candidateIconHash": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0",
+      "checkedAt": "2026-10-04T22:16:33.224763Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "44136c9e10de69b26e8ece4048fc3b3d17749d9ff5538cc6598a65e503552c42",
+        "head": "bank-icon-maintenance/16067",
+        "headCommit": "f081bea07349c2307aff1fed079ff4bd15954f76",
+        "number": 139,
+        "observedAt": "2026-10-04T22:28:39.592057Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Solana (Company.id 16067)",
+        "url": "https://github.com/zenmoney/banks/pull/139"
+      },
+      "reason": "The official Solana brand page (solana.com/branding) publishes the gradient three-bar logomark on transparent as the standalone mark, and every current official surface (apple-touch-icon, favicon, explorer favicon) uses gradient bars on dark/transparent. The accepted icon.svg is a white-bars-on-gradient-circle avatar presentation for which no first-party official evidence exists (no official Solana app on Play; branding page lists no such variant). Replacing the undocumented ecosystem avatar with the official current logomark is a source-supported correction.",
+      "reviewPackage": {
+        "path": "evidence/16067/candidate-7e0271df213acc510480e9a0ad98fe494260eb5eb0980882ba942186fd0d283c.json",
+        "sha256": "7e0271df213acc510480e9a0ad98fe494260eb5eb0980882ba942186fd0d283c"
+      },
+      "sourceCandidate": {
+        "iconHash": "3d3401109aa061dec40a8659f1847817a8e647f98de1e65e76e86a95bbe1f08a",
+        "path": "evidence/16067/research-8621fd7c1ca24bf98fc577a380c54048/fetch-96353c518c694bdea4d02541f33c5113/attempt-1/body.bin",
+        "rationale": "Original vector (official solanaLogoMark.svg, plain SVG paths with gradient, no raster) of the current official standalone Solana mark; the accepted icon is an undocumented third-party avatar presentation whose colors invert the official design.",
+        "retrieval": {
+          "path": "evidence/16067/research-8621fd7c1ca24bf98fc577a380c54048/fetch-96353c518c694bdea4d02541f33c5113/receipt.json",
+          "sha256": "7e345e8c64cf7bc66390b1faa5dc012cab4bbf4e37e1af4404f4ab30e7c0ecd0"
+        },
+        "sourceAssetUrl": "https://solana.com/src/img/branding/solanaLogoMark.svg",
+        "sourceMaterial": {
+          "path": "evidence/16067/source-material-8fe0467ef0ff49b0b562abffd6ff93c7/material.json",
+          "sha256": "a16d96dbf3ac8aec983d3e0acef4592ce839af6e6fca271f05b309bf1b54acc7"
+        },
+        "sourceUrl": "https://solana.com/branding"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://solana.com/src/img/branding/solanaLogoMark.svg",
+          "checkedAt": "2026-10-04T22:10:00Z",
+          "independenceGroup": "official-solana-brand",
+          "kind": "official",
+          "observation": "Official Brand & Press page lists SVG brand assets (logo, logomark, vertical, wordmark, foundation) as gradient-on-transparent variants; fetched solanaLogoMark.svg (2519 bytes, viewBox 0 0 101 88, gradient #9945FF→#8752F3→#5497D5→#43B4CA→#28E0B9→#19FB9B).",
+          "url": "https://solana.com/branding"
+        },
+        {
+          "assetUrl": "https://solana.com/_next/static/media/apple-touch-icon.e9b82e54.png",
+          "checkedAt": "2026-10-04T22:10:00Z",
+          "independenceGroup": "official-solana-brand",
+          "kind": "official",
+          "observation": "Official apple-touch-icon (180x180 PNG) shows gradient bars on black, not the white-on-gradient-circle avatar; corroborates that the accepted icon's presentation is not the current official variant.",
+          "url": "https://solana.com/branding"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T22:17:55.226Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0",
+        "xmlSha256": "04137201f584c9a8b4b95e5927570bea9490a4ea67f71cb476a4e7c8009ed180"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
