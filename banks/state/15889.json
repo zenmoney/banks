@@ -1,0 +1,116 @@
+{
+  "lastAttemptAt": "2026-10-04T13:16:11.536280Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15889/assessed-430bf617f1d3b76f3e3f1b0b112a838cb50118d84a40467ec746da7967d52397.json",
+        "sha256": "430bf617f1d3b76f3e3f1b0b112a838cb50118d84a40467ec746da7967d52397"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The retrieved live bank home page actively references this favicon/apple-touch icon, and current header independently presents the same blue emblem. No merger/successor substitution inferred.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Known ardshinbank.am official page identifies Ardshinbank OJSC and Armenian address; favicon linked by the same page.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations are same primary bank publication, not independent corroboration. Direct official current use resolves currency and provenance; additional search not needed.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original blue #0A64C8 transparent standalone emblem with meaningful square frame, preserved rather than circularly clipped. No wordmark; source viewport clearspace retained. Full-source independent render shows suitable legible square-cell mark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/19de8082b99f1979399216299539623878b0ed41aa275bc0a2c95e622bfb5851.json",
+        "sha256": "19de8082b99f1979399216299539623878b0ed41aa275bc0a2c95e622bfb5851"
+      },
+      "baseIconHash": "0c31652495cda4ba9e7d826bba0bbe5e704bf873c739ffa86a2471bfe7c48257",
+      "candidate": {
+        "detailsJudgement": "Inspected full960px librsvg original plus actual source/final pairs, final frames and base/final pairs in both themes. Complete square frame, two stepped diagonal strokes, pointed starts and transparent interior survive; no clipping, filled holes or geometry/color loss observed.",
+        "faithful": true,
+        "iconHash": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7",
+        "path": "evidence/15889/candidate-0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7.svg",
+        "proportionsJudgement": "Original1080-square viewport and164.34..915.66 frame retained, no added margin/scaling/crop. Full emblem fits catalog162px icon area at about113px outer frame, source-supported clearspace. Resized byte-bound24/32/48px diagnostics on both themes remain recognizable, with tiny diagonals softened at24px and lower dark-theme contrast than white baseline; no detail disappears. Meaningful square contour preserved, not mistaken for separable background field.",
+        "rationale": "Correct catalog to explicitly current official standalone blue transparent original-vector favicon variant also matching current header emblem, rather than unsupported white-on-dark-square baseline. Not an asserted dated rebrand or cosmetic byte-only change.",
+        "role": "standalone bank emblem",
+        "sha256": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7",
+        "sourceAssetUrl": "https://ardshinbank.am/favicon.svg",
+        "sourceUrl": "https://ardshinbank.am/?lang=hy",
+        "transforms": [
+          "Retained all original polygon/path geometry, #0A64C8 paint, fill rules, internal alpha and1080x1080 viewBox; removed legacy tiny-ps/id/xlink header metadata and supplied explicit1080px dimensions. No recoloring, tracing, circle adaptation or changed emblem placement.",
+          "SVGO4.1.0 using frozen config SHA256f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced845→532 bytes. Selected SHA2560fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7;480px original/optimized RGBA identical and both theme pairs inspected."
+        ],
+        "variant": "Official currently linked #0A64C8 transparent framed emblem. Square frame is meaningful original geometry; no backing added or circular presentation claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Actual Compose before/after pairs show old large white emblem on solid#183794 square replaced by smaller clearspace-preserving blue#0A64C8 emblem with transparent surround/interior and source-defined frame/proportions. Difference corrects sourced variant; baseline has no observed render defect and candidate dark contrast is lower, not claimed legibility improvement."
+      },
+      "candidateIconHash": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7",
+      "checkedAt": "2026-10-04T13:16:11.536280Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8228520449f5e487e9cfa63e4e0a75a543f1897c9d0b5680f2a3ff32d2368c11",
+        "head": "bank-icon-maintenance/w8pdbui1-15889",
+        "headCommit": "1b142e547ec4d4f4388ac09206c876c86cbd5c1c",
+        "number": 121,
+        "observedAt": "2026-10-04T13:38:54.860133Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ardshinbank (Company.id 15889)",
+        "url": "https://github.com/zenmoney/banks/pull/121"
+      },
+      "reason": "Official current favicon supplies the original blue #0A64C8 transparent standalone framed emblem; the live header uses the same blue symbol. Baseline is a different white emblem on #183794 solid square with visibly different frame/emblem proportions. Update is a source-supported color/geometry/variant correction, not a claimed dated rebrand or serialization cleanup.",
+      "reviewPackage": {
+        "path": "evidence/15889/candidate-25d97aa353ce5ff1c48dbd1ed8fb316e0776b2789f7c10e4502f2dee7363a237.json",
+        "sha256": "25d97aa353ce5ff1c48dbd1ed8fb316e0776b2789f7c10e4502f2dee7363a237"
+      },
+      "sourceCandidate": {
+        "iconHash": "b2583be53a48531e3172488277644615583bb2bade93086a3298990d3ead94cf",
+        "path": "evidence/15889/research-7d6620c0f8df44f381a4bf60ba537a77/fetch-7f288a88155f41159a7a7ebc7809eaa6/attempt-1/body.bin",
+        "rationale": "Replace unsupported inverse dark-square variant with the explicitly current official standalone blue transparent framed original vector; preserve meaningful square contour, source coordinates and clearspace.",
+        "retrieval": {
+          "path": "evidence/15889/research-7d6620c0f8df44f381a4bf60ba537a77/fetch-7f288a88155f41159a7a7ebc7809eaa6/receipt.json",
+          "sha256": "0382cca1bf4cf38a126e77424ce9e462438dc06d1019ae33813cf09306c418f3"
+        },
+        "sourceAssetUrl": "https://ardshinbank.am/favicon.svg",
+        "sourceMaterial": {
+          "path": "evidence/15889/source-material-018c51e0742344a8a30d56e6eefcaad3/material.json",
+          "sha256": "44311efba891cc8561ba5c0fe13dec7264f2987334549554e9fbb55171634eb1"
+        },
+        "sourceUrl": "https://ardshinbank.am/?lang=hy"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://ardshinbank.am/favicon.svg",
+          "checkedAt": "2026-10-04T13:13:49.384274Z",
+          "independenceGroup": "Ardshinbank official website",
+          "kind": "official",
+          "observation": "Preserved live HTML identifies Ardshinbank as an Armenian banking organization; structured Organization name Ardshinbank, ©2026 Ardshinbank OJSC with Yerevan address, current banking services, and head links favicon.svg as both SVG favicon and apple-touch-icon. Download is Adobe Illustrator original SVG with three simple vector elements and no raster or tracing evidence.",
+          "url": "https://ardshinbank.am/?lang=hy"
+        },
+        {
+          "assetUrl": "https://ardshinbank.am/logos/logo-header.svg",
+          "checkedAt": "2026-10-04T13:13:49.384274Z",
+          "independenceGroup": "Ardshinbank official website",
+          "kind": "official",
+          "observation": "Live HTML header img references this exact asset. Full independently rendered lockup shows matching blue framed double-diagonal emblem beside bank name. Lockup unsuitable as catalog candidate because accompanying text; standalone favicon avoids text.",
+          "url": "https://ardshinbank.am/?lang=hy"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T13:21:16.663293Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7",
+        "xmlSha256": "732e177a47367bd10bcd2c7677bd06ad3f2ccf0a32d4a1a396717b86ef3c33f8"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
