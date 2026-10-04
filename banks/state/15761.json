@@ -1,0 +1,117 @@
+{
+  "lastAttemptAt": "2026-10-04T03:07:45.320015Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15761/assessed-0d8f8d84c4291bb71484addfc9b58e3e990d1d7dcb45bf351e576ef41f15a862.json",
+        "sha256": "0d8f8d84c4291bb71484addfc9b58e3e990d1d7dcb45bf351e576ef41f15a862"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current business HTML directly references downloaded favicon; live business portal uses newer broad A family. Not historical successor material.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "alfa-biz.by redirect, explicit business product names, Belarus entity/license and Minsk footer.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official redirect and page asset relationship establish identity and currency directly. Official app raster and portal support the business relationship but are not independent organizations. Google Play search supports identity only, not vector geometry.",
+        "uncertainties": [
+          "Baseline gradient/circle variant attribution remains unverified; official mobile app gradient remains in use."
+        ],
+        "variant": {
+          "basis": "Official plain red standalone A/underline is used on business website, no ancillary name. Square-source SVG is self-contained; candidate fit still requires rendering.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "921c1e0cb1b3eb6f25212a14c5a9bdb65f385398b4ffa9115c923b3f5224361a",
+      "candidate": {
+        "detailsJudgement": "Full source and source/final pairs retain curved apex, broad flat leg ends, transparent triangular counter and separated rectangular underline. Original red unchanged; rejected trial omits A.",
+        "faithful": true,
+        "iconHash": "3fdad69ef9b0b1ace9a2e2f752bd7e515bc372a7084ffa0fb92f1d41e5008b96",
+        "path": "evidence/15761/candidate-3fdad69ef9b0b1ace9a2e2f752bd7e515bc372a7084ffa0fb92f1d41e5008b96.svg",
+        "proportionsJudgement": "Actual full-size and24/32/48px resized diagnostics show complete useful-size A and underline without clipping on both themes. Source canvas retained; transparent mark needs no backing.",
+        "rationale": "Replace unsupported narrower/flared baseline geometry with the directly sourced current Belarus business-website standalone A/underline; larger complete emblem and source-correct broad flat-ended legs. This is a current website/business-service variant, not a claim that gradient mobile branding is obsolete.",
+        "role": "Standalone A monogram and underline; no accompanying name",
+        "sha256": "3fdad69ef9b0b1ace9a2e2f752bd7e515bc372a7084ffa0fb92f1d41e5008b96",
+        "sourceAssetUrl": "https://www.alfabank.by/local/images/favicon.svg",
+        "sourceUrl": "https://www.alfabank.by/business/",
+        "transforms": [
+          "Removed packaging RDF metadata only; paths, original paint,120x120 viewport and alpha unchanged. No backing added or emblem placement transform.",
+          "SVGO4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e trial458→391 bytes rejected: merged-path output lost entire A in both independent theme renders; selected458-byte working hash3fdad69ef9b0b1ace9a2e2f752bd7e515bc372a7084ffa0fb92f1d41e5008b96."
+        ],
+        "variant": "Official #EF3124 transparent standalone favicon referenced by Belarus business website",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base has smaller white flared-leg A over gradient circle; final has source-supported broader flat-ended red A with larger optical size and source-correct underline on transparency. Current official mobile gradient remains in use; no universal app rebrand asserted."
+      },
+      "candidateIconHash": "3fdad69ef9b0b1ace9a2e2f752bd7e515bc372a7084ffa0fb92f1d41e5008b96",
+      "checkedAt": "2026-10-04T03:07:45.320015Z",
+      "humanReview": "pending",
+      "reason": "A current original standalone vector was found on the same Belarus business website; recommend supported website/business-service mark geometry instead of the baseline's unsourced narrower rounded/flared geometry. Gradient app variant remains in official raster use; this is not an assertion of app rebranding.",
+      "reviewPackage": {
+        "path": "evidence/15761/candidate-f30a1d9a26a77857378dd7e809ae3beae3dd0230dbd9b22e85aa26fc8a9ad6f4.json",
+        "sha256": "f30a1d9a26a77857378dd7e809ae3beae3dd0230dbd9b22e85aa26fc8a9ad6f4"
+      },
+      "sourceCandidate": {
+        "iconHash": "7bde4b79753f13ede9f2daf1306ffdaae4914e1cd3d4965793dbfd04e97761b5",
+        "path": "evidence/15761/research-b139b93e02ef402681709cad64741fe4/fetch-0575d9b593eb428ea708f43c45ae900c/attempt-1/body.bin",
+        "rationale": "Use directly sourced current Belarus business website standalone emblem with broad flat-ended A geometry; baseline narrower flared-leg geometry differs. No claim that gradient app branding disappeared.",
+        "retrieval": {
+          "path": "evidence/15761/research-b139b93e02ef402681709cad64741fe4/fetch-0575d9b593eb428ea708f43c45ae900c/receipt.json",
+          "sha256": "1ee19e0d8dc4679a3fa4e4dadaa15e403c18b985112d0b6cfe2d7965be7bcc62"
+        },
+        "sourceAssetUrl": "https://www.alfabank.by/local/images/favicon.svg",
+        "sourceMaterial": {
+          "path": "evidence/15761/source-material-801b188293e74003a8921bf2ab2f1d9b/material.json",
+          "sha256": "f2dd7ec038e729fa1777774487a26cea9da1604a639f6c8613d252837e076666"
+        },
+        "sourceUrl": "https://www.alfabank.by/business/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.alfabank.by/local/images/favicon.svg",
+          "checkedAt": "2026-10-04T03:06:17.534530Z",
+          "independenceGroup": "Belarus Alfa-Bank official website",
+          "kind": "official",
+          "observation": "Redirects to https://www.alfabank.by/business/. Business service and Belarus legal entity established in retained HTML. Page references standalone favicon and master logo sprite. Page retrieval 03:01:29Z; favicon retrieval 03:02:10Z, both 2026-10-04.",
+          "url": "https://alfa-biz.by"
+        },
+        {
+          "assetUrl": "https://www.alfabank.by/upload/img/biznes/main/abm_icon.jpg",
+          "checkedAt": "2026-10-04T03:06:17.534530Z",
+          "independenceGroup": "Belarus Alfa-Bank official website",
+          "kind": "official",
+          "observation": "Official business app raster visually inspected: white broad A/underline on red-to-navy background with Belarus ornament strip at left. Research only; not vector source; retained to avoid false claim that gradient branding disappeared. Retrieved 2026-10-04T03:01:56Z.",
+          "url": "https://www.alfabank.by/business/"
+        },
+        {
+          "assetUrl": "https://online.alfabank.by/Content/svg/sprites.svg?v=3",
+          "checkedAt": "2026-10-04T03:06:17.534530Z",
+          "independenceGroup": "Belarus Alfa-Bank business portal",
+          "kind": "official",
+          "observation": "Live portal title Альфа-Бизнес Онлайн and apple-mobile-web-app-title Альфа банк для бизнеса. HTML uses svg-icon-big-logo. Fetched original sprite contains that wide name logo with broad flat-ended A/underline; confirms shared current business identity, not an app-specific icon source. Portal retrieved 03:03:23Z; sprite 03:04:07Z, both 2026-10-04.",
+          "url": "https://online.alfabank.by/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T03:06:17.534530Z",
+          "independenceGroup": "Publisher listing hosted by Google Play",
+          "kind": "third-party",
+          "observation": "Native search returned Альфа Бизнес Мобайл Беларусь, package by.alfabank.abm and summary reporting update 2026-09-04. Search result only, not separately fetched verification; publisher-authored listing is not independent design corroboration.",
+          "url": "https://play.google.com/store/apps/details?hl=en&id=by.alfabank.abm"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T03:12:37.774916Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "3fdad69ef9b0b1ace9a2e2f752bd7e515bc372a7084ffa0fb92f1d41e5008b96",
+        "xmlSha256": "a4e2ff08d46a85429142e9c92408b4f78b7c3238eb97a499bd96a5ba6afd0fbb"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
