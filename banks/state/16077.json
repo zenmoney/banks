@@ -1,0 +1,63 @@
+{
+  "lastAttemptAt": "2026-10-04T22:51:48.437554Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Live d360.com header logo observed 2026-10-04 with the current design.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "D360 Bank (Saudi Arabia), d360.com; digital bank; record matches operator.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official live asset plus independent archive and encyclopedia evidence.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current brand is orange emblem + navy 'D360' lockup; accepted blue-field red mark is a superseded design.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "8b2741da63182f72bcb7007ef58a467ff0f559136fc0f021e896cadca8389cb6",
+      "candidate": {
+        "iconHash": "3883290c02c0eac4dbda1c6d87f2e7bcca70ce8405077561802048705708085c",
+        "path": "evidence/16077/research-21ba886f1038427d8336a277dc02419d/fetch-a67b0e9fa76e45928ffe729f15149038/attempt-1/body.bin",
+        "rationale": "Supported rebranding: vector matching the live official raster replaces the obsolete blue/red icon.",
+        "retrieval": {
+          "path": "evidence/16077/research-21ba886f1038427d8336a277dc02419d/fetch-a67b0e9fa76e45928ffe729f15149038/receipt.json",
+          "sha256": "c89a6f2dc68ac645defce921112918783b938a16bc2444ff8d2e7c6e22e32a17"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/D360_Bank.svg",
+        "sourceMaterial": {
+          "path": "evidence/16077/source-material-27f8ce9a6df34d94b1e8683e2d48fa2f/material.json",
+          "sha256": "e1e3859d5a6613872d57ae7e9a5495672f1f5b90a0c32b60f883af1df904a564"
+        },
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/D360_Bank.svg"
+      },
+      "candidateIconHash": "3883290c02c0eac4dbda1c6d87f2e7bcca70ce8405077561802048705708085c",
+      "checkedAt": "2026-10-04T22:51:48.437554Z",
+      "reason": "Accepted icon (blue field with red angular D) does not match the current D360 Bank mark: orange (#EB644C) angular-D emblem over navy (#263244) 'D360' lettering, confirmed against the live d360.com header logo raster on 2026-10-04 and the matching Wikimedia Commons vector.",
+      "sources": [
+        {
+          "assetUrl": "https://d360.com/assets/logo2_a240e6aea9.png",
+          "checkedAt": "2026-10-04T12:00:00Z",
+          "independenceGroup": "d360.com official",
+          "kind": "official",
+          "observation": "Live d360.com header 'D360 Bank Logo' PNG shows the current emblem+wordmark design (raster, research only).",
+          "url": "https://d360.com/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/D360_Bank.svg",
+          "checkedAt": "2026-10-04T12:00:00Z",
+          "independenceGroup": "wikimedia",
+          "kind": "third-party",
+          "observation": "Commons SVG (2378 B, Figma-export style) matches the official raster geometry exactly; selected as original vector material.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/D360_Bank.svg"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}

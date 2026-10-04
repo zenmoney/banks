@@ -1,0 +1,65 @@
+{
+  "lastAttemptAt": "2026-10-04T22:51:30.704642Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Live official Logo.svg plus 2026-01-09 archive capture and 2025 fee-change/operating evidence.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Timo (Vietnam), timo.vn, digital bank by BVBank; record matches operator.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official live asset plus independent archive and encyclopedia evidence.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current mark is the multicolor 'timo' wordmark lockup; accepted green plant icon is not the current brand mark.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "616c49b4750012b77648db524efd028cade9329a3756088ca26b37a80a50a1a4",
+      "candidate": {
+        "iconHash": "873e9beffe14a6ef1b07c0fde650a81efd9d58011310f89d128d04c9f05f46d0",
+        "path": "evidence/16074/research-6e82e9ee124242109a072189e54af8d0/fetch-f681e25468d1485899d9c4ba33d357fb/attempt-1/body.bin",
+        "rationale": "Supported rebranding: official current wordmark lockup replaces the obsolete green plant icon.",
+        "retrieval": {
+          "path": "evidence/16074/research-6e82e9ee124242109a072189e54af8d0/fetch-f681e25468d1485899d9c4ba33d357fb/receipt.json",
+          "sha256": "ff44518831df6fcd9080d406f20dbf2f8dc1e4947890317960c52fec5d7f76b8"
+        },
+        "sourceAssetUrl": "https://timo.vn/wp-content/uploads/Logo.svg",
+        "sourceUrl": "https://timo.vn/wp-content/uploads/Logo.svg"
+      },
+      "candidateIconHash": "873e9beffe14a6ef1b07c0fde650a81efd9d58011310f89d128d04c9f05f46d0",
+      "checkedAt": "2026-10-04T22:51:30.704642Z",
+      "reason": "Accepted icon (green field, white plant, color stripes) does not match the current Timo operating-brand mark: the four-color lowercase 'timo' wordmark with 'DIGITAL BANK by BVBank' byline. Official live Logo.svg fetched 2026-10-04; same design in 2026-01-09 Wayback capture and 2025 operating evidence.",
+      "sources": [
+        {
+          "assetUrl": "https://timo.vn/wp-content/uploads/Logo.svg",
+          "checkedAt": "2026-10-04T12:00:00Z",
+          "independenceGroup": "timo.vn official",
+          "kind": "official",
+          "observation": "Official Illustrator 28 SVG export, viewBox 0 0 500 79.4, four-color 'timo' letter paths plus byline text paths; fetched live via workflow.py fetch.",
+          "url": "https://timo.vn/wp-content/uploads/Logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-04T12:00:00Z",
+          "independenceGroup": "web.archive.org",
+          "kind": "third-party",
+          "observation": "Wayback capture of timo.vn (2026-01-09) shows the same Logo.svg with alt 'Ngân hàng số Timo – by BVBank', confirming current use of this variant.",
+          "url": "https://web.archive.org/web/20260109000000/https://timo.vn/"
+        },
+        {
+          "checkedAt": "2026-10-04T12:00:00Z",
+          "independenceGroup": "wikimedia",
+          "kind": "third-party",
+          "observation": "2022 Wikimedia PNG of the same four-color wordmark design (research only, raster).",
+          "url": "https://commons.wikimedia.org/wiki/File:Timo_logo.png"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
