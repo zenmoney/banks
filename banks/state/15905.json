@@ -1,0 +1,67 @@
+{
+  "lastAttemptAt": "2026-10-04T14:40:59.254559Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "assessment": {
+        "currency": {
+          "basis": "The artwork is from the official HYPE press kit distributed in 2024 (Commons upload 2024-11-27) and is the brand's current published logo.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The asset is the logo of HYPE S.p.A., the Banca Sella group payments fintech behind hype.it; identity disambiguated via official hype.it properties.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The primary vector evidence is an independent Commons upload whose bytes match the officially named press-kit source; hype.it properties independently establish the entity identity.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Full-color mark variant: tri-color swirl with white letter counters (letters forming the mark, no separate wordmark text), viewBox 2000x1604.26, no accompanying bank-name text.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "78a0c0d7e56556f6cf034588a29e93c880c0c16f42b885e0bc2efaa2fb292f38",
+      "candidate": {
+        "iconHash": "ad5db1732b8172a0af417b66402a5fdb28722d864b5fd32103a33496c0c015e3",
+        "path": "evidence/15905/research-0d8e4953cfe741a5b13fb3b1c2070806/fetch-400bf5a4cfca4709a1b0a706c3fa19cc/attempt-1/body.bin",
+        "rationale": "Original vector SVG (2497 bytes, byte-identical to the official presskit asset per Commons-registered SHA-1) of the current HYPE S.p.A. tri-color mark; replaces the accepted single-path blue design that matches no currently published HYPE artwork.",
+        "retrieval": {
+          "path": "evidence/15905/research-0d8e4953cfe741a5b13fb3b1c2070806/fetch-400bf5a4cfca4709a1b0a706c3fa19cc/receipt.json",
+          "sha256": "bdfd67b225368ded39195c2f182be136eb782f07c6e91b2accd86cd8b809ea95"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Logo-HYPE-S.p.A.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo-HYPE-S.p.A.svg"
+      },
+      "candidateIconHash": "ad5db1732b8172a0af417b66402a5fdb28722d864b5fd32103a33496c0c015e3",
+      "checkedAt": "2026-10-04T14:40:59.254559Z",
+      "reason": "The accepted icon is a single-path blue blob with white 'HYPE' lettering that matches no currently published HYPE artwork. The current official HYPE S.p.A. logo (Banca Sella group Italian payments fintech) is the tri-color coral/light-blue/blue swirl wordmark. The fetched asset is the original vector SVG from the official HYPE press kit (uploaded to Wikimedia Commons 2024-11-27; bytes match the Commons-registered SHA-1), an evidenced rebrand relative to the accepted design. The letters form part of the mark itself, satisfying standalone suitability.",
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T14:25:00Z",
+          "independenceGroup": "hype.it official properties",
+          "kind": "official",
+          "observation": "Official HYPE property confirming the entity as the Banca Sella group Italian payments fintech; used for identity disambiguation against unrelated 'hype' brands.",
+          "url": "https://signup.hype.it/hype"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Logo-HYPE-S.p.A.svg",
+          "checkedAt": "2026-10-04T14:26:17Z",
+          "independenceGroup": "Wikimedia Commons original upload of the official presskit asset",
+          "kind": "third-party",
+          "observation": "Wikimedia Commons original upload 'Logo banca HYPE S.p.A.' (2024-11-27) whose stated source is the official HYPE press kit (prstrgextfilewe01.blob.core.windows.net); file-page SHA-1 ca48f8661135f2ef43003eb8c4746dc7c689539f matches the fetched 2497-byte SVG. Tri-color swirl wordmark (coral #fc766a, light blue #3ccdff, blue #163cff, white counters).",
+          "url": "https://commons.wikimedia.org/wiki/File:Logo-HYPE-S.p.A.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T14:26:30Z",
+          "independenceGroup": "official HYPE presskit distribution",
+          "kind": "official",
+          "observation": "Official HYPE press kit zip (upstream source named on the Commons file page); fetch attempt failed with an HTTPS transfer error (receipt evidence/15905/research-0d8e4953cfe741a5b13fb3b1c2070806/fetch-b2253508c60740daad9d51f54b824180), so the byte-identical Commons upload was used.",
+          "url": "https://prstrgextfilewe01.blob.core.windows.net/publicresources/website/assets/zip/HYPE_Presskit.zip"
+        }
+      ],
+      "status": "pending"
+    }
+  ],
+  "schemaVersion": 1
+}
