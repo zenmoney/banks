@@ -1,0 +1,103 @@
+{
+  "lastAttemptAt": "2026-10-04T05:33:50.698821Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15821/assessed-19740f54cb0965d8ab10a79a70f9c551345257b6ac709eccb8ba7d8d19cd703d.json",
+        "sha256": "19740f54cb0965d8ab10a79a70f9c551345257b6ac709eccb8ba7d8d19cd703d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Historical record: license revoked 2022-04-30 (CNB); the archived official asset from 2021-12 documents the mark for the last independent brand period, which is the required evidence for this record.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The archived asset comes from the official sberbank.cz site of Sberbank CZ a.s. and shows the bank's own Sberbank emblem; record 15821 'Sberbank CZ' (CZ, sberbank.cz) is exactly this entity.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The period mark is documented by the bank's own archived site (primary) and the lifecycle by the Czech National Bank (independent regulator); the live liquidation site is a distinct later source.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone emblem without wordmark, square 283.46 canvas, green circle with striped checkmark; suitable for the square catalog cell.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "e6c0fc1fa79c419096a03c13a892ea70dba8cdfa07d9c304ec087ea851b0b659",
+      "candidate": {
+        "detailsJudgement": "All four striped check bands, their angles and the circle contour are preserved in the final render on both themes; internal transparency of the band gaps retained; no detail lost by optimization.",
+        "faithful": true,
+        "iconHash": "5cb9da9a3be91c20585236c0d6f961ca05231262df1cbce620580647cf8c2818",
+        "path": "evidence/15821/candidate-5cb9da9a3be91c20585236c0d6f961ca05231262df1cbce620580647cf8c2818.svg",
+        "proportionsJudgement": "Emblem fills the square canvas as in the source; circle and check proportions match the source raster reference at identical viewport; no stretching or cropping.",
+        "rationale": "Replaces the accepted generic check-in-circle icon with the official Sberbank emblem (green circle with striped checkmark) used by Sberbank CZ during its operating period; the bank is a historical record (licence revoked 2022-04-30) and the archived official site asset documents the mark for the relevant period.",
+        "role": "Standalone circular bank emblem without accompanying wordmark or text; suitable as the single icon of the square catalog cell.",
+        "sha256": "5cb9da9a3be91c20585236c0d6f961ca05231262df1cbce620580647cf8c2818",
+        "sourceAssetUrl": "https://web.archive.org/web/20211208160303im_/https://www.sberbank.cz/-/media/images/sberbankcz/icons/logo-switcher.svg",
+        "sourceUrl": "https://web.archive.org/web/20211210000000/https://www.sberbank.cz/",
+        "transforms": [
+          "Lossless copy of the downloaded original SVG as working.svg (no geometry change; source already fills its square 283.46x283.46 viewBox with transparent backing)",
+          "SVGO 4.1.0 with repository svgo.config.mjs sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1178 -> 1156 bytes, selected; visually identical at 216px on white in independent rsvg comparison"
+        ],
+        "variant": "Official Sberbank emblem variant served by sberbank.cz in December 2021: green (#279d38) circle with four white striped check bands; transparent square canvas.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after renders show a real design difference: the accepted icon is an outline circle with a plain checkmark in a different green, while the candidate is the official solid green circle with the striped Sberbank check used by the bank in its operating period; this is an evidenced correction to the actual historical mark, not a serialization change."
+      },
+      "candidateIconHash": "5cb9da9a3be91c20585236c0d6f961ca05231262df1cbce620580647cf8c2818",
+      "checkedAt": "2026-10-04T05:33:50.698821Z",
+      "humanReview": "pending",
+      "reason": "The accepted SVG is a generic check-in-circle design in amber/green tones that does not match the official Sberbank mark used by Sberbank CZ during its operating period; the archived official sberbank.cz logo asset provides the correct standalone emblem as an original vector, so a replacement candidate is proposed.",
+      "reviewPackage": {
+        "path": "evidence/15821/candidate-aec996b20dd9301ac09f7fb25e8df0cf9546b8698d7cea24dde7b4417386d146.json",
+        "sha256": "aec996b20dd9301ac09f7fb25e8df0cf9546b8698d7cea24dde7b4417386d146"
+      },
+      "sourceCandidate": {
+        "iconHash": "9e29b920a762f490f8326d88f7ad9cffb6b83f3f915648b11c9e4c1a1eff8681",
+        "path": "evidence/15821/research-aa4ceac54031459ab2d7feecd2e088cf/fetch-7eb805854b4745a8a3ad7ed318b18405/attempt-2/body.bin",
+        "rationale": "Original vector emblem downloaded losslessly from the archived official Sberbank CZ site; replaces the accepted icon whose design (outline circle with plain check, non-official color) does not match the bank's actual operating-period mark (green #279d38 circle with striped Sberbank check). Saved asset: evidence/15821/logo-switcher-source.svg (sha256 9e29b920a762f490f8326d88f7ad9cffb6b83f3f915648b11c9e4c1a1eff8681).",
+        "retrieval": {
+          "path": "evidence/15821/research-aa4ceac54031459ab2d7feecd2e088cf/fetch-7eb805854b4745a8a3ad7ed318b18405/receipt.json",
+          "sha256": "44405842798d433433e301d8c0c30acc35681a1f21ddad076d3fa496c31ec2d4"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20211208160303im_/https://www.sberbank.cz/-/media/images/sberbankcz/icons/logo-switcher.svg",
+        "sourceUrl": "https://web.archive.org/web/20211210000000/https://www.sberbank.cz/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20211208160303im_/https://www.sberbank.cz/-/media/images/sberbankcz/icons/logo-switcher.svg",
+          "checkedAt": "2026-10-04T05:26:00Z",
+          "independenceGroup": "web.archive.org capture of sberbank.cz primary site",
+          "kind": "official",
+          "observation": "Archived official Sberbank CZ website (capture 2021-12) serves logo-switcher.svg: the standalone Sberbank emblem, a green (#279d38) circle with the striped checkmark, viewBox 0 0 283.46 283.46, no accompanying wordmark.",
+          "url": "https://web.archive.org/web/20211210000000/https://www.sberbank.cz/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:24:30Z",
+          "independenceGroup": "Czech National Bank primary publication",
+          "kind": "official",
+          "observation": "CNB press release: Sberbank CZ banking license revoked with legal force on 2022-04-30 (bank unable to meet obligations since 2022-02-25); establishes the bank as a historical record whose relevant period is its operation under the Sberbank brand until 2022.",
+          "url": "https://www.cnb.cz/cs/cnb-news/tiskove-zpravy/CNB-odebrala-licenci-Sberbank-CZ/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:20:00Z",
+          "independenceGroup": "sberbank.cz liquidation site, separate from the archived operating-period site",
+          "kind": "third-party",
+          "observation": "Live sberbank.cz is now a liquidation/information site ('Sberbank CZ, a.s. v likvidaci') with no operating-bank branding; it does not represent the operating-period mark and was not used as the icon source.",
+          "url": "https://www.sberbank.cz/"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T05:36:00Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "5cb9da9a3be91c20585236c0d6f961ca05231262df1cbce620580647cf8c2818",
+        "xmlSha256": "48ebf48ba11a32eb3ff6d7a0308962be9145366143ec5c772c11fecffd77ce5c"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
