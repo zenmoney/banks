@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-04T10:10:28.962001Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15866/assessed-f8d9e61450a33bc4206d51ba1250a9fbd323f6f3cfc7f27a4466d51fbfe055f0.json",
+        "sha256": "f8d9e61450a33bc4206d51ba1250a9fbd323f6f3cfc7f27a4466d51fbfe055f0"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current live site header uses this emblem (fetched 2026-10-04); App Store version notes and independent sources corroborate the 2021 design change.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official cib.hu portal and its header asset CIB_Color.svg show the orange-frame three-arches emblem used since the 2021 Intesa Sanpaolo-aligned rebrand; record is operating CIB Bank (HU).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official portal asset corroborated by independent encyclopedia and app-store release notes; portal page and its CDN asset are one publication group.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone square emblem region (0 0 116.14 116.14) of CIB_Color.svg; wordmark paths are separate trailing paths.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/43105e80fd7ef8ea3c3ba539a4a8174bbfced8d015c927b11e12e5cf7d174dbb.json",
+        "sha256": "43105e80fd7ef8ea3c3ba539a4a8174bbfced8d015c927b11e12e5cf7d174dbb"
+      },
+      "baseIconHash": "d433a295db8286b8b62155cf78d296c863edac837f1878dadb2c1ea9725e0d37",
+      "candidate": {
+        "detailsJudgement": "All strokes, frame corners and the hand-drawn lintel reproduced exactly from official paths; no detail lost in optimization comparison.",
+        "faithful": true,
+        "iconHash": "975608d9585b1c5fcf0ba9d58222d54e4f000471185ba0643cf2a577d6b3ab80",
+        "path": "evidence/15866/candidate-975608d9585b1c5fcf0ba9d58222d54e4f000471185ba0643cf2a577d6b3ab80.svg",
+        "proportionsJudgement": "Emblem is square in the source (116.14x116.14); fills the catalog cell uniformly without stretching; clearances preserved.",
+        "rationale": "Replace approximate redrawn emblem with exact official vector emblem extracted from CIB_Color.svg (leading five paths, 0 0 116.14 116.14); class fills inlined (source-preserving serialization), viewBox set to the emblem square, uniform fit into the catalog cell. Corrects ~2% coordinate deviations of the accepted icon and aligns colors to official palette (#e2b900/#006935/#004587/#ed6b06).",
+        "role": "standalone emblem square (orange frame, yellow lintel, three colored arches), wordmark excluded",
+        "sha256": "975608d9585b1c5fcf0ba9d58222d54e4f000471185ba0643cf2a577d6b3ab80",
+        "sourceAssetUrl": "https://res.cloudinary.com/cib-bank/image/upload/prod/publicportal/logo/SVG/CIB_Color.svg",
+        "sourceUrl": "https://cib.hu/",
+        "transforms": [
+          "lossless path copy of the five emblem paths from the official CIB_Color.svg",
+          "class-based fills inlined as fill attributes (values from the file's own internal stylesheet); no geometry change",
+          "viewBox changed from full 728.14x177.95 logo to the emblem region 0 0 116.14 116.14 (translation-free; emblem paths already at origin)",
+          "SVGO 1.x with repository svgo.config.mjs on a copy: 14116 -> 13684 bytes, trial produced and visually identical; optimized bytes selected"
+        ],
+        "variant": "post-2021 Intesa-aligned CIB emblem, full-color",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is an approximate redraw with off-palette colors (#e3b505 vs #e2b900) and visibly different arch stroke shapes at 54px; final uses the official vector geometry and colors."
+      },
+      "candidateIconHash": "975608d9585b1c5fcf0ba9d58222d54e4f000471185ba0643cf2a577d6b3ab80",
+      "checkedAt": "2026-10-04T10:10:28.962001Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "803c7b8fcbb164c1119b8215c85b4209e0846e189cf50c4fba8f2fad3015bbd1",
+        "head": "bank-icon-maintenance/15866",
+        "headCommit": "2d7965d0595933120a09e4c080cd902315610f91",
+        "number": 111,
+        "observedAt": "2026-10-04T10:27:32.474369Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: CIB Bank (Company.id 15866)",
+        "url": "https://github.com/zenmoney/banks/pull/111"
+      },
+      "reason": "Accepted icon.svg is an approximate redraw of the current (post-2021) CIB emblem; an official original vector of the same current symbol is served by cib.hu's Cloudinary asset (CIB_Color.svg, 12 paths, viewBox 728x178; standalone emblem = leading paths in 0 0 116.14 116.14). Evidenced geometry correction.",
+      "reviewPackage": {
+        "path": "evidence/15866/candidate-7114614c7428cf2023a7b857ebaf47b33693c01c61d0bd5fd2f9e31ead1d03d2.json",
+        "sha256": "7114614c7428cf2023a7b857ebaf47b33693c01c61d0bd5fd2f9e31ead1d03d2"
+      },
+      "sourceCandidate": {
+        "iconHash": "fff89962bf7e9111129cc9914c85c9f6ac4f0517a8471fa98e06b707f9884aaf",
+        "path": "evidence/15866/research-b131faa3d39d49dab2757ffcb338ff77/fetch-dbcafcbfc39446d9b1b1945ecfa4a4ff/attempt-1/body.bin",
+        "rationale": "Official original vector of the current emblem; accepted icon is an approximate redraw (~2% coordinate deviations). Geometry-corrected replacement from the official asset.",
+        "retrieval": {
+          "path": "evidence/15866/research-b131faa3d39d49dab2757ffcb338ff77/fetch-dbcafcbfc39446d9b1b1945ecfa4a4ff/receipt.json",
+          "sha256": "89e903d09ff9ad2ba24fc1a9f1890cbb9ee127948eb23bb7d68c07455869c415"
+        },
+        "sourceAssetUrl": "https://res.cloudinary.com/cib-bank/image/upload/prod/publicportal/logo/SVG/CIB_Color.svg",
+        "sourceUrl": "https://cib.hu/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://res.cloudinary.com/cib-bank/image/upload/prod/publicportal/logo/SVG/CIB_Color.svg",
+          "checkedAt": "2026-10-04T10:00:32.325722Z",
+          "independenceGroup": "cib.hu portal and its referenced CDN assets",
+          "kind": "official",
+          "observation": "Official portal header references CIB_Color.svg (Illustrator export, 12 paths, 728x178 viewBox); emblem occupies the leading 116.14x116.14 region; rebrand to Intesa-aligned arches emblem announced on official site (fetched 2026-10-04). cib.hu root timed out; subpage and its Cloudinary assets fetched successfully.",
+          "url": "https://cib.hu/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T09:57:56.154237Z",
+          "independenceGroup": "wikipedia",
+          "kind": "third-party",
+          "observation": "CIB Bank Zrt. operating Intesa Sanpaolo subsidiary; 2021 rebrand period corroborated.",
+          "url": "https://hu.wikipedia.org/wiki/CIB_Bank"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T10:14:59.083282Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "975608d9585b1c5fcf0ba9d58222d54e4f000471185ba0643cf2a577d6b3ab80",
+        "xmlSha256": "624c2c578ab17a7f290c0ddb11c88e269eb8d79335fb97f81827cd6dad593419"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
