@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-04T03:30:48.120332Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15771/assessed-58f839a6a9ea1cd03effe9739c8c3f725c353a1291fb0de0a9be49d5c94576ad.json",
+        "sha256": "58f839a6a9ea1cd03effe9739c8c3f725c353a1291fb0de0a9be49d5c94576ad"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "New mark observed on the live official site and rebrand announced 2025-09-25; old #007744 logo retired.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official ipakyulibank.uz assets and rebrand announcement; record url/country (UZ) match Ipak Yuli Bank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Site header asset and the rebrand announcement are both official but separate pages; search found the brandbook page listing approved layouts.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Mark is the striped square symbol at the left of the official lockup; standalone and transparent; wordmark excluded. No circular avatar observation; no backing added.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/96f9647454e2a40a53c68a1147b9d4a1268a5b7e5729895a87890bcd00382804.json",
+        "sha256": "96f9647454e2a40a53c68a1147b9d4a1268a5b7e5729895a87890bcd00382804"
+      },
+      "baseIconHash": "699f13a4e40d5c15fa1682af8b71e5ec5abc726365a91d2f36fb47c00e55f95b",
+      "candidate": {
+        "detailsJudgement": "Stripe count, tapering, spacing and the clip mask match the official source exactly; two-tone palette untouched (#4CEA4C stripes; #02691A appears only in the excluded wordmark).",
+        "faithful": true,
+        "iconHash": "8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76",
+        "path": "evidence/15771/candidate-8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76.svg",
+        "proportionsJudgement": "Square emblem fills the cell with even margins at 240px and stays recognizable at small sizes on both themes; stripes remain distinct.",
+        "rationale": "Official 2025-09-25 rebrand: the striped #4CEA4C mark from the official header SVG replaces the retired pre-2025 #007744 dome logo.",
+        "role": "standalone brand mark (left square of the official lockup, wordmark excluded per catalog suitability)",
+        "sha256": "8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76",
+        "sourceAssetUrl": "https://ipakyulibank.uz/images/iyb_logo_v2.svg",
+        "sourceUrl": "https://ipakyulibank.uz/images/iyb_logo_v2.svg",
+        "transforms": [
+          "viewBox narrowed to the mark bounds (0 1.12402 41.5757 41.5778); only the self-contained clipPath group carried over; no scale/rotation/path edits",
+          "SVGO 4.1.0 with the frozen repository svgo.config.mjs: 2650→1749 bytes; trial selected, renders verified identical to working on both themes"
+        ],
+        "variant": "current bright-green striped mark, transparent background preserved; no circular avatar observation, no backing added",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Evidenced rebrand of 2025-09-25: dark-green dome mark replaced by a bright-green striped square symbol, per the official rebrand announcement and live site asset."
+      },
+      "candidateIconHash": "8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76",
+      "checkedAt": "2026-10-04T03:30:48.120332Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e05368b6d5ed008c9359a89fc6a2ee0aef06d53832fc124bf584bc27b2f0c0d9",
+        "head": "bank-icon-maintenance/15771",
+        "headCommit": "512a99097c5da629c8135f88893f8eb3c9edf2d8",
+        "number": 94,
+        "observedAt": "2026-10-04T03:38:26.899302Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ipak Yu'li Banki (Company.id 15771)",
+        "url": "https://github.com/zenmoney/banks/pull/94"
+      },
+      "reason": "Official 2025-09-25 rebrand ('Think Big', first in 35 years): official site now serves the new green striped mark via images/iyb_logo_v2.svg; catalog icon still shows the pre-2025 #007744 logo.",
+      "reviewPackage": {
+        "path": "evidence/15771/candidate-6ce1523594d19e94e6984dd0cd8fd88e51cf7344f9ff6c82f945a08e9248d1af.json",
+        "sha256": "6ce1523594d19e94e6984dd0cd8fd88e51cf7344f9ff6c82f945a08e9248d1af"
+      },
+      "sourceCandidate": {
+        "iconHash": "aa37ca43f1002128006a40734c5d264ae0650c3f0ccde06892577e9aa1eedc85",
+        "path": "evidence/15771/research-bb6767d40ee34c52ae5d9661e8a5cd90/fetch-f540c0e1a10a4d42b9703bc99a836059/attempt-1/body.bin",
+        "rationale": "Direct original SVG from the official website header; mark is its left square group with self-contained clipPath, carried over losslessly without tracing.",
+        "retrieval": {
+          "path": "evidence/15771/research-bb6767d40ee34c52ae5d9661e8a5cd90/fetch-f540c0e1a10a4d42b9703bc99a836059/receipt.json",
+          "sha256": "4d264936261ba45915d4583293ff9f7f099be5a840110059c69c3233b4a09ff9"
+        },
+        "sourceAssetUrl": "https://ipakyulibank.uz/images/iyb_logo_v2.svg",
+        "sourceUrl": "https://ipakyulibank.uz/images/iyb_logo_v2.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T03:22:00Z",
+          "independenceGroup": "official ipakyulibank.uz site",
+          "kind": "official",
+          "observation": "Homepage (redirects to /physical) references the header logo /images/iyb_logo_v2.svg with the new brand colors.",
+          "url": "https://ipakyulibank.uz/"
+        },
+        {
+          "assetUrl": "https://ipakyulibank.uz/images/iyb_logo_v2.svg",
+          "checkedAt": "2026-10-04T03:22:00Z",
+          "independenceGroup": "official ipakyulibank.uz site",
+          "kind": "official",
+          "observation": "Direct original-vector SVG (viewBox 0 0 148 43): new mark of vertical growing stripes in #4CEA4C inside the left square area plus 'ipak yuli bank' wordmark in #02691A/#4CEA4C; no embedded raster.",
+          "url": "https://ipakyulibank.uz/images/iyb_logo_v2.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T03:22:00Z",
+          "independenceGroup": "official ipakyulibank.uz announcements",
+          "kind": "official",
+          "observation": "Official rebranding announcement dated 2025-09-25 confirms the old logo is retired.",
+          "url": "https://en.ipakyulibank.uz/news/rebranding"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T03:32:45.044533Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76",
+        "xmlSha256": "38f5a1509b64af39a90880ed10311e47eee2a1e746a2a44f1037b1a0012af9c2"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
