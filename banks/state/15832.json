@@ -1,0 +1,117 @@
+{
+  "lastAttemptAt": "2026-10-04T06:53:16.944037Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15832/assessed-c16b3c00c6e3f92051cd71c8a95bfd70394f1af4e5ec504a194f5af570b32822.json",
+        "sha256": "c16b3c00c6e3f92051cd71c8a95bfd70394f1af4e5ec504a194f5af570b32822"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset served live by the official site on 2026-10-04; site is the operating EE bank.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset fetched from the official citadele.ee site of Citadele pank, matching record id 15832 (EE, citadele.ee).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary official source; no third-party mirrors needed for the identity/currency decision.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone icon-only C monogram variant; square red field with white C, no accompanying name or slogan.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/1a11db87bc0fe2b1fc072ededd107b24fabf2e356e518d13913cbc9a7a620406.json",
+        "sha256": "1a11db87bc0fe2b1fc072ededd107b24fabf2e356e518d13913cbc9a7a620406"
+      },
+      "baseIconHash": "29362d34b6b4c77a119758f0df48337620670625b246273aff150521f46bc16f",
+      "candidate": {
+        "detailsJudgement": "All C contours, stroke terminals and the fully closed outer curve survive; the SVGO trial is pixel-identical to the working version at 480 px (diff bbox none).",
+        "faithful": true,
+        "iconHash": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104",
+        "path": "evidence/15832/candidate-63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104.svg",
+        "proportionsJudgement": "Whole C emblem kept at source scale inside a same-color circular backing; complete fit with clear margin, no clipping of strokes; recognizable at 24/32/48 px on both themes.",
+        "rationale": "Update to the current official Citadele mark: live citadele.ee serves the white C monogram on brand red; the accepted icon shows the superseded two-bar symbol. Same-color circular catalog backing replaces the square field; the legacy two-bar rects, fully occluded by the opaque square overlay in the source layering, are omitted as invisible geometry.",
+        "role": "Original square icon tile with a full-bleed red field; the C is the standalone emblem, the field is backing, not a branded silhouette.",
+        "sha256": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104",
+        "sourceAssetUrl": "https://www.citadele.ee/themes/citadele_lv/assets/images/icons/logo.svg",
+        "sourceUrl": "https://www.citadele.ee/",
+        "transforms": [
+          "Replaced the square field (rx=5 rect plus opaque overlay path) with a same-color #D90730 circle (cx=20, cy=20, r=20); no emblem geometry changed.",
+          "Omitted two legacy white bars fully occluded by the opaque overlay in the source layering; invisible in the source render.",
+          "SVGO 4.1.0 with frozen repo config (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 790 -> 646 bytes, selected (pixel-identical trial)."
+        ],
+        "variant": "Standalone icon-only C monogram on a plain red field; no accompanying name or slogan.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base/final Desktop pairs show the old red-circle two-bar symbol replaced by the current red-circle C monogram; the difference is the evidenced rebrand, visible on both themes."
+      },
+      "candidateIconHash": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104",
+      "checkedAt": "2026-10-04T06:53:16.944037Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "4a238eb2bb2d708956e701b2f1ffaae273d289c4945d227d64f3ee78254c18b3",
+        "head": "bank-icon-maintenance/15832",
+        "headCommit": "a34026f4f265639e5b4af3757e280f19dc8b86a8",
+        "number": 103,
+        "observedAt": "2026-10-04T07:03:52.531131Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Citadele (Company.id 15832)",
+        "url": "https://github.com/zenmoney/banks/pull/103"
+      },
+      "reason": "Official current citadele.ee mobile header asset logo.svg (fetched live 2026-10-04) is the white C monogram on brand red; accepted icon.svg shows the older two-bar symbol, an evidenced rebrand, so an update is justified.",
+      "reviewPackage": {
+        "path": "evidence/15832/candidate-f88a12a6243e1811190ce5ddcfda49b29be160c97352a7500845502bf0963367.json",
+        "sha256": "f88a12a6243e1811190ce5ddcfda49b29be160c97352a7500845502bf0963367"
+      },
+      "sourceCandidate": {
+        "iconHash": "b996fa1a3e2b74632a40ed0b0be3b4185bda0f8bfc1b8cdd0c2e676811e31922",
+        "path": "evidence/15832/research-6099d372fe56431e9cc4e280b002fe05/fetch-fe654bf060964a7fbe444e51d74d8c9f/attempt-1/body.bin",
+        "rationale": "Original vector served live by the official site; standalone C monogram mark; replaces the superseded two-bar symbol with an evidenced rebrand.",
+        "retrieval": {
+          "path": "evidence/15832/research-6099d372fe56431e9cc4e280b002fe05/fetch-fe654bf060964a7fbe444e51d74d8c9f/receipt.json",
+          "sha256": "3d1260a6357d4acd3189e1b19053944d7768ad977f187a7525967624b48cbc8c"
+        },
+        "sourceAssetUrl": "https://www.citadele.ee/themes/citadele_lv/assets/images/icons/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15832/source-material-07d59fb984694044a40a8c1f0e95b700/material.json",
+          "sha256": "dd56a6d32d68368cf748b95e530bef8119b9baab614d95ca8c8e609cb56f9412"
+        },
+        "sourceUrl": "https://www.citadele.ee/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.citadele.ee/themes/citadele_lv/assets/images/icons/logo.svg",
+          "checkedAt": "2026-10-04T06:46:39Z",
+          "independenceGroup": "citadele.ee primary site",
+          "kind": "official",
+          "observation": "Live citadele.ee header/mobile serves logo.svg (40x40, white C monogram on red #D90730 rounded-square field); JSON-LD identifies the entity as Citadele pank. Served today, so the C mark is the current brand asset.",
+          "url": "https://www.citadele.ee/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T06:46:39Z",
+          "independenceGroup": "citadele.ee primary site",
+          "kind": "official",
+          "observation": "Same-site desktop-logo.svg is the wordmark variant (red panel + Citadele lettering); logo.svg is the compact standalone mark. C_brands.svg retains older red #E3002C with BANKS text.",
+          "url": "https://www.citadele.ee/themes/citadele_lv/assets/images/icons/desktop-logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T06:56:16.663920Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104",
+        "xmlSha256": "d84fc77a80dc9e66f967e492bc5f1088c9ae04f92193de5790506eb87ab27e94"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
