@@ -1,0 +1,116 @@
+{
+  "lastAttemptAt": "2026-10-04T09:31:06.785103Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15862/assessed-3edceb6205204b884d3f3af6c021fde9c1a9f10b9d34ef5cfa68e4d175aedacd.json",
+        "sha256": "3edceb6205204b884d3f3af6c021fde9c1a9f10b9d34ef5cfa68e4d175aedacd"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The kit zip is dated 2025-09-12 and uses the current brand purple #533AFD of Stripe's recent rebrand; it is the media kit the official newsroom page currently offers for download.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The wordmark 'stripe' in the official logo kit is Stripe's own brand asset served from stripeassets.com via the official newsroom page; lowercase stripe letterforms are unmistakable.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single official source (newsroom kit); the favicon from the same official asset domain corroborates the #533AFD brand color.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Blurple wordmark variant selected from the official kit (slate/white variants also present); wordmark is the variant the accepted icon also presents, and letters forming the mark are allowed for catalog suitability.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d09d1e89a3d44d9812d4edf618b0287c590fb04eac4adb8d5295a8ef0dc3a43a.json",
+        "sha256": "d09d1e89a3d44d9812d4edf618b0287c590fb04eac4adb8d5295a8ef0dc3a43a"
+      },
+      "baseIconHash": "22a41d6cba169a674518bbfb566c12fb8adbf40444330ddf287c04408a5baf85",
+      "candidate": {
+        "detailsJudgement": "All letter strokes, counters and the t-crossbar survive conversion and optimization; the rsvg source reference and the offscreen final renders show identical shapes with no lost detail or artifacts.",
+        "faithful": true,
+        "iconHash": "6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444",
+        "path": "evidence/15862/candidate-6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444.svg",
+        "proportionsJudgement": "The 360x150 wordmark is uniformly scaled into the square cell; at 240x240 the mark spans the icon area with comfortable margins and stays legible at 24/32/48 px diagnostics; no stretching or cropping.",
+        "rationale": "Stripe's official newsroom logo kit (2025-09-12) serves the current wordmark in the new brand purple #533AFD; the accepted icon uses the legacy blurple circle with the older wordmark letterforms. This is a documented rebrand of the same bank, so the update replaces obsolete branding rather than normalizing bytes.",
+        "role": "Standalone wordmark: lowercase 'stripe' letterforms are the mark itself, without any accompanying slogan or explanatory text.",
+        "sha256": "6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444",
+        "sourceAssetUrl": "https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip",
+        "sourceUrl": "https://stripe.com/newsroom/information",
+        "transforms": [
+          "No geometry transformation was needed: the whole wordmark viewBox 0 0 360 150 is kept unchanged with only whole-emblem uniform scaling/centering by the catalog renderer.",
+          "SVGO 4.1.0 with the repository frozen svgo.config.mjs (config bound to baseCommit) reduced the working copy from 2139 to 1459 bytes; the optimized trial was pixel-identical (PIL ImageChops difference bbox None) and was selected as final.svg."
+        ],
+        "variant": "Blurple (#533AFD) wordmark variant selected from the official kit; the slate and white variants were not used. The wordmark is presented transparent on the catalog cell, matching the same transparent presentation of the downloaded official SVG.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base is a legacy blurple circle containing the older white wordmark; the candidate is the current official wordmark in brand purple #533AFD without the circle backing. The difference is the evidenced Stripe rebrand plus presentation without the circular backing of the old asset."
+      },
+      "candidateIconHash": "6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444",
+      "checkedAt": "2026-10-04T09:31:06.785103Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "7a68769ec7596765e100ead9a5e69e9cd44e4fd8b24388f45e21a13f1138fae3",
+        "head": "bank-icon-maintenance/15862",
+        "headCommit": "5316f8b9f71d480b891186db4730c32bcae86d03",
+        "number": 110,
+        "observedAt": "2026-10-04T09:44:12.401455Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Stripe (Company.id 15862)",
+        "url": "https://github.com/zenmoney/banks/pull/110"
+      },
+      "reason": "Stripe rebranded: the accepted icon uses the legacy blurple (#6772E5-style) circle with the older wordmark, while Stripe's official newsroom media kit (zip dated 2025-09-12) serves the current wordmark in the new brand purple #533AFD. The fetched member 'asset-wordmark/Stripe wordmark - Blurple.svg' is an original official vector (pure paths, viewBox 0 0 360 150). The official favicon.svg rounded-square variant contains only a bare white parallelogram and is not a recognizable standalone mark, so the official wordmark is the evidenced replacement. This is a documented rebrand of the same bank, not an identity dispute.",
+      "reviewPackage": {
+        "path": "evidence/15862/candidate-b20479ae0191d5711077f89e909b0ee0d27bb17c99c116810748f723e39c66a8.json",
+        "sha256": "b20479ae0191d5711077f89e909b0ee0d27bb17c99c116810748f723e39c66a8"
+      },
+      "sourceCandidate": {
+        "iconHash": "30f4308c21a8f6c3fe603354ce69222fd498afeb80f54fda193fb7291208906f",
+        "path": "evidence/15862/research-d3114039a9a1463ab3175ba2c59feb31/fetch-89c0700eae434eaebf9ef33a1881b7c0/attempt-1/body.bin",
+        "rationale": "Official original-vector wordmark in the current brand color #533AFD replaces the accepted legacy-color (#6772E5-style) wordmark icon; evidenced rebrand plus updated letterforms.",
+        "retrieval": {
+          "path": "evidence/15862/research-d3114039a9a1463ab3175ba2c59feb31/fetch-89c0700eae434eaebf9ef33a1881b7c0/receipt.json",
+          "sha256": "04e5d8519b2b551549031e5f75abfbc98d1cac01bb1dc977de243930b31900ff"
+        },
+        "sourceAssetUrl": "https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip",
+        "sourceMaterial": {
+          "path": "evidence/15862/source-material-9bc646e2db894bb3ae63ac7486142c39/material.json",
+          "sha256": "19ae54d586688b73e0b8949ebadfa41c680d20ffaae2b4e9f7bf5119351c492a"
+        },
+        "sourceUrl": "https://stripe.com/newsroom/information"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip",
+          "checkedAt": "2026-10-04T09:24:00Z",
+          "independenceGroup": "stripe-official-newsroom-kit",
+          "kind": "official",
+          "observation": "Official Stripe newsroom media-assets page offers 'Download logo kit' with blurple/slate/white wordmark variants and a Marks Usage Agreement; the zip (sha256 30f4308c21a8f6c3fe603354ce69222fd498afeb80f54fda193fb7291208906f) contains the blurple wordmark SVG (#533AFD) with current letterforms.",
+          "url": "https://stripe.com/newsroom/information"
+        },
+        {
+          "assetUrl": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg",
+          "checkedAt": "2026-10-04T09:24:00Z",
+          "independenceGroup": "stripe-official-newsroom-kit",
+          "kind": "official",
+          "observation": "Official favicon.svg is a #533AFD rounded square whose only foreground element is a white parallelogram; inspected as a rendered image it is not a recognizable standalone Stripe mark, so it was rejected as candidate material.",
+          "url": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T09:33:12.531634Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444",
+        "xmlSha256": "8bbdeba58515eabcdfb9aa897ec6eaff9ed19c4ac0ddc8c791fbb231254fd858"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
