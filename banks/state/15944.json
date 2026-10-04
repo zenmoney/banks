@@ -1,0 +1,103 @@
+{
+  "lastAttemptAt": "2026-10-04T17:21:30.591303Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15944/assessed-f8d1fa79eb3ff998d31a1e678f97fa66186d3a7c6ed72895f3baa33abde2ac92.json",
+        "sha256": "f8d1fa79eb3ff998d31a1e678f97fa66186d3a7c6ed72895f3baa33abde2ac92"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "menu-logo.svg is served by the live btcscan.org homepage stylesheet as the site's navigation logo on 2026-10-04; BtcScan is an operating explorer brand.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "menu-logo.svg is referenced from btcscan.org's own stylesheet (url(img/icons/menu-logo.svg)) as the site brand mark for the Bitcoin explorer titled 'BTCScan', matching record title 'BtcScan' and url btcscan.org.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Identity and currency derive from the official btcscan.org site itself (homepage HTML plus its stylesheet and served asset); no third-party copies were relied on.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone 60x60 circular coin emblem (gold gradient Bitcoin-B tilted coin) with no accompanying text; the site's square icon variant.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "c8066801d5ca0c47d18de7a7b7aeff689f68e9c924c680164bcdc2ffa9cceb70",
+      "candidate": {
+        "detailsJudgement": "Coin rim highlight, tilted B glyph and gradient survive conversion and SVGO; both theme renders are crisp with correct #FCC538→#F7931A gradient.",
+        "faithful": true,
+        "iconHash": "080678949b6cf67d91fd2f285246c435b01ede60009d70fc7912d32f1b021349",
+        "path": "evidence/15944/candidate-080678949b6cf67d91fd2f285246c435b01ede60009d70fc7912d32f1b021349.svg",
+        "proportionsJudgement": "The 60x60 emblem is uniformly scaled into the 54x54 cell; the coin stays centered with even clearance and no distortion.",
+        "rationale": "Replaces the generic flat Bitcoin network logo with BtcScan's own official site mark (gradient tilted-coin badge from btcscan.org).",
+        "role": "standalone site logo mark (menu-logo.svg of btcscan.org)",
+        "sha256": "080678949b6cf67d91fd2f285246c435b01ede60009d70fc7912d32f1b021349",
+        "sourceAssetUrl": "https://btcscan.org/img/icons/menu-logo.svg",
+        "sourceUrl": "https://btcscan.org/style.css",
+        "transforms": [
+          "uniform scale of the whole 60x60 emblem into the 54x54 catalog cell; no crop, no geometry or color changes",
+          "SVGO multipass with frozen repo svgo.config.mjs: 2170 -> 1265 bytes, optimized version selected as final (visually faithful, converter-compatible)"
+        ],
+        "variant": "official menu logo variant served from btcscan.org/img/icons/menu-logo.svg",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before: flat #f7931a Bitcoin circle (the network logo). After: BtcScan's own tilted gradient coin badge. Visible identity correction to the explorer brand's own mark."
+      },
+      "candidateIconHash": "080678949b6cf67d91fd2f285246c435b01ede60009d70fc7912d32f1b021349",
+      "checkedAt": "2026-10-04T17:21:30.591303Z",
+      "humanReview": "pending",
+      "reason": "The accepted icon is the generic Bitcoin network logo, not the BtcScan explorer brand mark. The official site serves a distinct standalone vector logo (menu-logo.svg, gradient coin badge) which is proposed as the replacement. The site's header variants (btcscan-light/dark.svg) embed raster <image> data and were rejected as replacement sources.",
+      "reviewPackage": {
+        "path": "evidence/15944/candidate-af412732085c9094f15e9d966478b305ca9d82df4d0938b61250816320ef60d6.json",
+        "sha256": "af412732085c9094f15e9d966478b305ca9d82df4d0938b61250816320ef60d6"
+      },
+      "sourceCandidate": {
+        "iconHash": "ccf4222c88eeca52071df7f98e5459f0022839b599ae07990fd91aeeccecfc68",
+        "path": "evidence/15944/research-6d1e653ad6e34c7c8090e661de09067b/fetch-897c7ff9d75e437d8f4345170f93e1be/attempt-1/body.bin",
+        "rationale": "The accepted SVG is the generic flat Bitcoin network logo (#f7931a circle with white B). The BtcScan brand's own official mark is a distinct tilted-coin badge with a #FCC538→#F7931A gradient. The official standalone vector menu-logo.svg replaces the misattributed network logo; original vector, no text, square-cell suitable.",
+        "retrieval": {
+          "path": "evidence/15944/research-6d1e653ad6e34c7c8090e661de09067b/fetch-897c7ff9d75e437d8f4345170f93e1be/receipt.json",
+          "sha256": "aabdf1eafbf2a95774e24961d8bda45478674c81d252c1b945caf65981479107"
+        },
+        "sourceAssetUrl": "https://btcscan.org/img/icons/menu-logo.svg",
+        "sourceUrl": "https://btcscan.org/style.css"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T17:19:48Z",
+          "independenceGroup": "btcscan.org official primary publication",
+          "kind": "official",
+          "observation": "Homepage of BTCScan explorer; only raster favicon referenced in HTML head; brand assets live in the stylesheet.",
+          "url": "https://btcscan.org/"
+        },
+        {
+          "assetUrl": "https://btcscan.org/img/icons/menu-logo.svg",
+          "checkedAt": "2026-10-04T17:20:19Z",
+          "independenceGroup": "btcscan.org official primary publication",
+          "kind": "official",
+          "observation": "Stylesheet references url(img/icons/menu-logo.svg) plus header variants btcscan-light/dark.svg; retrieved menu-logo.svg (60x60 'btc_main', gradient coin emblem) as the standalone site logo.",
+          "url": "https://btcscan.org/style.css"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T17:20:18Z",
+          "independenceGroup": "btcscan.org official primary publication",
+          "kind": "official",
+          "observation": "Header logo variant contains an embedded raster <image> element; rejected as a vector replacement source.",
+          "url": "https://btcscan.org/img/icons/btcscan-light.svg"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T17:36:12.066625Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "080678949b6cf67d91fd2f285246c435b01ede60009d70fc7912d32f1b021349",
+        "xmlSha256": "c9e45f8c15dc52f7aa197b1b1e61558874c782617973e2bd8c744faaad222672"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
