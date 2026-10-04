@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-04T20:04:54.284531Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16004/assessed-512d0811232d016dc9c30c0afcb290daa07a4ebb035830a0f5ae953217819506.json",
+        "sha256": "512d0811232d016dc9c30c0afcb290daa07a4ebb035830a0f5ae953217819506"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official-site asset and current Play listing icon fetched 2026-10-04; the retired standalone 'in' mark is no longer used in official identity surfaces.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The wordmark lockup is declared and rendered by ininal.com as its logo and matches the official Play app icon for the ininal wallet.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "First-party site assets and the official publisher's Play listing are two independent publication channels confirming the same current design.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Transparent wordmark-plus-bars lockup variant (dark wordmark); presentation/backing decided at candidate preparation.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/f84ca46e608d5df57f825175439c87383e6f0f309296dc297d92535ed69b6c2b.json",
+        "sha256": "f84ca46e608d5df57f825175439c87383e6f0f309296dc297d92535ed69b6c2b"
+      },
+      "baseIconHash": "d0ba08ea0dbf1aed661bb9c52a6f78d90afb9c29466ee00ea7e24d11a0aeb2e5",
+      "candidate": {
+        "detailsJudgement": "Wordmark letterforms and the three underline bars survive conversion exactly; both theme renders show sharp, complete details with no lost gaps or rounded corners.",
+        "faithful": true,
+        "iconHash": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac",
+        "path": "evidence/16004/candidate-47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac.svg",
+        "proportionsJudgement": "Lockup aspect ratio preserved by uniform scale; placed at 48/54 width with full clearance inside the circle (vertical extent about 18 of 54). At 24/32/48 px diagnostics the wordmark stays readable and the bars remain visible; comparable small-size behavior to the accepted icon.",
+        "rationale": "Evidenced rebrand to the current official ininal identity: the wordmark lockup (dark wordmark plus cyan/yellow/red underline bars) is declared as the site logo on ininal.com, used as the favicon, and is the official Google Play app icon; the accepted standalone 'in' mark is the retired previous-generation app icon.",
+        "role": "backing",
+        "sha256": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac",
+        "sourceAssetUrl": "https://www.ininal.com/assets/images/logo.svg",
+        "sourceUrl": "https://www.ininal.com/en",
+        "transforms": [
+          "Working SVG rebuilt from the official logo.svg: the three paths copied unchanged (fills #3cb4e5, #ffc600, #e54360 on the bars, dark charcoal wordmark), class and data-name attributes removed; no geometry edits.",
+          "Whole-emblem placement only: uniform scale 0.507292 and translation centering the lockup (viewBox 0 0 94.62 35.71 -> width 48 of 54), no rotation, stretch, crop or redraw.",
+          "Catalog backing added: plain white circle r=27 behind the emblem. The source is transparent with no brand field, so the neutral white circle is a catalog presentation adaptation for dark-theme legibility, not an observed official avatar.",
+          "SVGO run on a copy with the repository svgo.config.mjs: output grew 1718 -> 2055 bytes, so optimization was skipped and the unoptimized working version was kept as final; both versions render identically."
+        ],
+        "variant": "Current official wordmark-lockup variant (transparent source: dark charcoal wordmark + three colored bars) on a constructed white circular catalog backing; the wordmark is the brand's entire mark, no accompanying name, slogan or explanatory text.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon: retired standalone 'in' app mark (dark rounded square, light-blue glyphs). Final: current official 'ininal' wordmark lockup with colored bars on a white circular field. The change is the evidenced current official identity, clearly different in both themes; not a serialization change."
+      },
+      "candidateIconHash": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac",
+      "checkedAt": "2026-10-04T20:04:54.284531Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f7bbcef80f694955ee36f8432cf2df15686e1120808e415033d279fdff8594dc",
+        "head": "bank-icon-maintenance/16004",
+        "headCommit": "6705af739bfba85f7e68f4a3a77bde011a196789",
+        "number": 135,
+        "observedAt": "2026-10-04T20:23:43.942058Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ininal (Company.id 16004)",
+        "url": "https://github.com/zenmoney/banks/pull/135"
+      },
+      "reason": "Supported rebrand: the current official ininal identity is the 'ininal' wordmark lockup (dark wordmark plus cyan/yellow/red underline bars), used as the official logo.svg on ininal.com (declared by the site's schema.org logo field and rendered in the header/footer), as the official favicon, and as the official Google Play app icon (512px raster). The accepted icon's standalone 'in' mark is the previous-generation app icon and no current standalone mark exists publicly. The wordmark is the brand's entire mark (letters form the mark; no accompanying name, slogan or explanatory text beyond the mark itself), so it is catalog-eligible. Original vector available (official SVG, no raster).",
+      "reviewPackage": {
+        "path": "evidence/16004/candidate-c10087af76951f8ee96367be92ec0714d77a2944b72791e83ae665b481e40c70.json",
+        "sha256": "c10087af76951f8ee96367be92ec0714d77a2944b72791e83ae665b481e40c70"
+      },
+      "sourceCandidate": {
+        "iconHash": "1b5491d50de4fb6bdc895b553b55af8dc4c43249e312b577782e1e7f46f17492",
+        "path": "evidence/16004/research-9a28905d549d48c28c62841576b6f917/fetch-a22d73ac2a174252998a3b72f966d5c9/attempt-1/body.bin",
+        "rationale": "Official original vector of the current wordmark-lockup identity, served from the bank's own domain; pure vector paths, no raster.",
+        "retrieval": {
+          "path": "evidence/16004/research-9a28905d549d48c28c62841576b6f917/fetch-a22d73ac2a174252998a3b72f966d5c9/receipt.json",
+          "sha256": "399f255232d69e0ceaa2fa91152ca84e0dc2e999abd2ad2e52b9ced0b76dc706"
+        },
+        "sourceAssetUrl": "https://www.ininal.com/assets/images/logo.svg",
+        "sourceUrl": "https://www.ininal.com/en"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.ininal.com/assets/images/logo.svg",
+          "checkedAt": "2026-10-04T19:56:24.970236Z",
+          "independenceGroup": "ininal.com first-party site and CDN assets (one publication)",
+          "kind": "official",
+          "observation": "Official ininal.com site declares logo.svg as its schema.org logo and renders the same lockup inline in header/footer. The SVG is the 'ininal' wordmark plus three underline accent bars (#3cb4e5/#ffc600/#e54360), viewBox 0 0 94.62 35.71, dark charcoal wordmark, pure vector paths, no raster, no extra text.",
+          "url": "https://www.ininal.com/en"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/rz-vHoJJWMZ_NfDoFGfKdEsKT-bhjfq96v-YJGIkZr1ITm28avzbtBSmph4Q1VP4F7SMOeq1yG-2u5-GLrunkS0=w512-h512",
+          "checkedAt": "2026-10-04T20:02:34.949375Z",
+          "independenceGroup": "Google Play listing of the official publisher app (distinct from ininal.com site)",
+          "kind": "official",
+          "observation": "Official Google Play listing icon (512x512, itemprop=image) shows the same wordmark lockup as the current app icon on a dark rounded square; confirms the lockup is the current official identity and the standalone 'in' mark is retired.",
+          "url": "https://play.google.com/store/apps/details?id=com.ininal.wallet"
+        },
+        {
+          "assetUrl": "https://www.ininal.com/assets/images/favicon.png",
+          "checkedAt": "2026-10-04T20:02:05.573205Z",
+          "independenceGroup": "ininal.com first-party site (same publication as the logo source)",
+          "kind": "official",
+          "observation": "Official favicon (32x32 webp served as favicon.png, exact URL from homepage HTML) shows the wordmark lockup on dark background; third first-party confirmation of the current identity.",
+          "url": "https://www.ininal.com/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T20:10:40.115250Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac",
+        "xmlSha256": "0013ecd9feffb016be3e8041f4830cf1fe3df59007da4c53e027187b63c42405"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
