@@ -1,0 +1,127 @@
+{
+  "lastAttemptAt": "2026-10-04T15:21:16.058733Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15908/assessed-19cf1cbf54b23711a5bc364796c931299b197728293faba6280bfc41b51aff50.json",
+        "sha256": "19cf1cbf54b23711a5bc364796c931299b197728293faba6280bfc41b51aff50"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "2024 logo evolution documented on BPER group history pages reached via research; Commons file dated 2024-04-04 sourced from group.bper.it. Existing icon is the superseded pre-2023 full-name wordmark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Candidate is the BPER Banca wordmark (letters forming the mark) per Commons file credited to BPER Banca S.p.A.; matches record 15908 BPER Banca / Banca Popolare dell'Emilia Romagna, IT.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Commons copy is a verbatim redistribution of the official asset (author/source fields name BPER); group history page corroborates the rebrand timeline independently of the file host.",
+        "uncertainties": [
+          "Official BPER hosts refused TLS from this network, so the exact official asset URL could not be observed directly; Commons provenance fields are the source of the official-asset attribution."
+        ],
+        "variant": {
+          "basis": "Standalone lettermark variant, no accompanying name/slogan text; square-cell suitable with whole-emblem fit.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/74c80fee181762a16a8d56a006ab29be8b183c59dc9cf07b2a432995bfea10ce.json",
+        "sha256": "74c80fee181762a16a8d56a006ab29be8b183c59dc9cf07b2a432995bfea10ce"
+      },
+      "baseIconHash": "b29bbba72da79e6d7ff450fbeee319db2fa9ab8c54cd9920dce09769c4f572e7",
+      "candidate": {
+        "detailsJudgement": "All letterform contours and the two square dots survive exactly (same path data); color #005157 preserved; internal transparency preserved (no backing added).",
+        "faithful": true,
+        "iconHash": "58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8",
+        "path": "evidence/15908/candidate-58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8.svg",
+        "proportionsJudgement": "Wide lettermark centered with uniform margins; complete emblem fits the square cell including the dots; recognizable at 24/32/48 px diagnostics on both themes, though small like any wide lettermark; no clipping or distortion.",
+        "rationale": "Evidenced brand evolution: the accepted icon is the 2023 interim 'BPER: / Banca' stacked lockup; the current mark (since April 2024) is 'BPER' plus the two square dots with the 'Banca' line dropped. Replacement uses the original vector of the current logo (Commons copy credited to BPER Banca S.p.A., uploaded 2024-04-04 from group.bper.it).",
+        "role": "Standalone lettermark: the BPER letters and the two square dots form the mark itself; no accompanying name, slogan or explanatory text in the final SVG.",
+        "sha256": "58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8",
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BPER_Banca_Logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BPER_Banca_Logo.svg",
+        "transforms": [
+          "Dropped the source's non-rendering display:none duplicate group (class st0) and its CSS/defs; the three visible #005157 paths are byte-identical path data.",
+          "Whole-emblem placement only: uniform scale 1.221 with translate(40 100.95) around the source's own translate(0 -13.4), centering the lettermark on a 240x240 canvas; no rotation, stretch, crop or recolor.",
+          "SVGO 4.1.0 trial with frozen config (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): input 1260 B, trial 1454 B; trial visually identical but larger, so the working version was selected (final sha256 58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8)."
+        ],
+        "variant": "Current 2024 lettermark variant, transparent standalone mark on a 240x240 canvas (no backing field; the source has no background field to adapt, so no circle or mask was added).",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after: the accepted icon shows the interim 'BPER:' with the green 'Banca' line below; the candidate is the current 2024 'BPER:' lettermark with the 'Banca' line removed, matching the documented April 2024 brand evolution. A real design update of the same bank, not a serialization or background change."
+      },
+      "candidateIconHash": "58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8",
+      "checkedAt": "2026-10-04T15:21:16.058733Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "65726e8d60a60999d0415e5b61bec3ef3960eb12141b93539a2e79c07742bbaf",
+        "head": "bank-icon-maintenance/bper-15908",
+        "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
+        "number": 126,
+        "observedAt": "2026-10-04T15:35:36.989719Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BPER Banca (Company.id 15908)",
+        "url": "https://github.com/zenmoney/banks/pull/126"
+      },
+      "reason": "Existing icon.svg is the pre-2023 'BPER Banca' green wordmark with 'banca popolare dell'emilia romagna' lettering. BPER evolved its brand (2023 rebrand, April 2024 logo evolution): current mark is 'BPER' lettering plus two square dots, no 'Banca' line. Original vector of the current logo secured from Wikimedia Commons (uploaded 2024-04-04, credited to BPER Banca S.p.A. from group.bper.it) because all official BPER hosts refused TLS handshake from this network (curl exit 35, geo-block suspected; recorded in sources).",
+      "reviewPackage": {
+        "path": "evidence/15908/candidate-5e54c1e026e4869a8889e2b5c9298480cbe344403e1731591aa18f7a5462bfea.json",
+        "sha256": "5e54c1e026e4869a8889e2b5c9298480cbe344403e1731591aa18f7a5462bfea"
+      },
+      "sourceCandidate": {
+        "iconHash": "a94c631d3de91cbe831c0bfb1a2b61b6bdca99c385fd4204eca43df696e97797",
+        "path": "evidence/15908/research-0ab5e97ae42d4f03ad97dd5314e031ce/fetch-5c6873675f6d49099a27bb350d6079bf/attempt-3/body.bin",
+        "rationale": "Original self-contained vector of the current 2024 BPER mark; evidenced rebrand replacement for the superseded pre-2023 wordmark.",
+        "retrieval": {
+          "path": "evidence/15908/research-0ab5e97ae42d4f03ad97dd5314e031ce/fetch-5c6873675f6d49099a27bb350d6079bf/receipt.json",
+          "sha256": "1e384c2ec3978eae9c38c775007a3f33140c56e750121adda1b39d2f79db16ca"
+        },
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BPER_Banca_Logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15908/source-material-b2e0e6743e214fff90e33ae8b8a795c5/material.json",
+          "sha256": "45943244977d4063b3427e7b025c6b98207d37c2cc66501d167e92af41be6b68"
+        },
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BPER_Banca_Logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/BPER_Banca_Logo.svg",
+          "checkedAt": "2026-10-04T15:15:01Z",
+          "independenceGroup": "commons-copy-of-official-asset",
+          "kind": "third-party",
+          "observation": "Original SVG of the current BPER logo (BPER + two square dots), 4868 bytes, uploaded 4 Apr 2024, source credited to BPER group site, author BPER Banca S.p.A. Rendered and visually matches the 2024 mark: letters form the mark, no separate slogan text.",
+          "url": "https://commons.wikimedia.org/wiki/File:BPER_Banca_Logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T15:16:20Z",
+          "independenceGroup": "commons-copy-of-official-asset",
+          "kind": "third-party",
+          "observation": "2023 interim stacked 'BPER Banca' SVG inspected and rejected as superseded by the 2024 evolution.",
+          "url": "https://commons.wikimedia.org/wiki/File:BPER_Banca_logo_(2023).svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T15:14:30Z",
+          "independenceGroup": "official-site-attempt",
+          "kind": "official",
+          "observation": "TLS handshake refused from this network (curl exit 35, SSL_ERROR_SYSCALL; also bpergroup.it, group.bper.it). No official asset reachable directly; retrieval failure recorded, not treated as absence.",
+          "url": "https://www.bper.it"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T15:28:40.193993Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8",
+        "xmlSha256": "1ac813b04137acb3afe33770181adb2932317bf0c944e205ee2fb3f4b6d7c231"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
