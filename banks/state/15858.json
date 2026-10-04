@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-04T08:56:02.625847Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15858/assessed-386d64d6136691863575525241635c66a01ff55992e65482dde81b7040b68127.json",
+        "sha256": "386d64d6136691863575525241635c66a01ff55992e65482dde81b7040b68127"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live hsbc.com header asset (fetched 2026-10-04); #DB0011 is the current brand red.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The hexagon mark is HSBC's masterbrand symbol; asset served from hsbc.com.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official hsbc.com asset corroborated by a Commons mirror that cites it; geometry compared numerically against the baseline.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone hexagon brandmark (no wordmark) matches the baseline presentation; hexagon geometry identical to baseline construction, so only the corrected brand color changes.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/604c157574b0ca985681b833e91b869d262b6f6ed685f9730eb4fff16c8d3a95.json",
+        "sha256": "604c157574b0ca985681b833e91b869d262b6f6ed685f9730eb4fff16c8d3a95"
+      },
+      "baseIconHash": "108f7cff8f6ec5f7ade1351775386f03dab4e7fdc2a5fe6db03ce2f24411e55f",
+      "candidate": {
+        "detailsJudgement": "Hexagon construction (white rect, four triangles) matches the official SVG and the baseline geometry; librsvg working vs optimized renders are pixel-identical; official #DB0011 red confirmed in both themes.",
+        "faithful": true,
+        "iconHash": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85",
+        "path": "evidence/15858/candidate-11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85.svg",
+        "proportionsJudgement": "Native 2:1 emblem kept; catalog ContentScale.Fit centers it in the square cell; 240x240 frames show the complete hexagon with horizontal margins, recognizable at icon size on both themes.",
+        "rationale": "Correct the outdated hexagon fill #ee3224 to the official HSBC brand red #DB0011 from the live hsbc.com masterbrand SVG. Geometry is already identical to the official construction; this is a supported color-correction update, with the wordmark lockup reduced to the standalone hexagon brandmark matching the accepted presentation.",
+        "role": "Standalone HSBC hexagon brandmark (no wordmark), matching the accepted baseline presentation.",
+        "sha256": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85",
+        "sourceAssetUrl": "https://www.hsbc.com/-/files/hsbc/header/hsbc-logo-200x25.svg",
+        "sourceUrl": "https://www.hsbc.com/",
+        "transforms": [
+          "Selected the standalone hexagon (white rect + four red polygons) from the official masterbrand lockup SVG, dropping only the HSBC wordmark text paths and title; all retained geometry, coordinates and fills are the original official values.",
+          "Framed the emblem with its own natural bounds as viewBox 0 0 170.1 85.1; no scaling, translation or color edits beyond keeping the official values.",
+          "SVGO 4.1.0 trial with repository svgo.config.mjs (config sha256 f2a406e0...) reduced 415 to 297 bytes; optimized output selected after pixel-identical comparison (difference bbox empty at 240x240 on both themes)."
+        ],
+        "variant": "Current official hexagon with white chevron field and #DB0011 red triangles, transparent background outside the hexagon.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The visible change is the corrected brand red: baseline #ee3224 (lighter orange-red) becomes the official #DB0011 (deeper red), clearly distinguishable side by side; geometry is unchanged."
+      },
+      "candidateIconHash": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85",
+      "checkedAt": "2026-10-04T08:56:02.625847Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b3fda4abd670c09abd00db6526ed2bba02db5b8e967dd16ac957287bda0fcf1b",
+        "head": "bank-icon-maintenance/15858",
+        "headCommit": "4dfb1581813ad4bc1c1ccc10cbc03ae1bc122c7c",
+        "number": 109,
+        "observedAt": "2026-10-04T09:12:52.134018Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: HSBC (Company.id 15858)",
+        "url": "https://github.com/zenmoney/banks/pull/109"
+      },
+      "reason": "Baseline hexagon geometry is current (construction numerically matches the official masterbrand SVG) but its red is #ee3224 instead of the official brand red #DB0011. Supported color-correction update; final candidate is the standalone hexagon brandmark derived from the official vector.",
+      "reviewPackage": {
+        "path": "evidence/15858/candidate-f89864a760642148fbb745a7859b66c9cbd8ead7175215406c13e10ef2bd42cb.json",
+        "sha256": "f89864a760642148fbb745a7859b66c9cbd8ead7175215406c13e10ef2bd42cb"
+      },
+      "sourceCandidate": {
+        "iconHash": "c54ff461737c5f44be46d9d1f9e4b3a64db412af82d795736f78b9bc3298ca2c",
+        "path": "evidence/15858/fetch-6995b2b0eda14b12b75a392b75bb87ca/attempt-1/body.bin",
+        "rationale": "Official masterbrand lockup as fetched (hexagon + wordmark). The prepared final selects the standalone hexagon brandmark with official fills, preserving original geometry; baseline keeps outdated #ee3224.",
+        "retrieval": {
+          "path": "evidence/15858/fetch-6995b2b0eda14b12b75a392b75bb87ca/receipt.json",
+          "sha256": "5650817cfce3dcdc883646a32b3df381690a463ce868f9bdb8780af6b0f7e8eb"
+        },
+        "sourceAssetUrl": "https://www.hsbc.com/-/files/hsbc/header/hsbc-logo-200x25.svg",
+        "sourceUrl": "https://www.hsbc.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.hsbc.com/-/files/hsbc/header/hsbc-logo-200x25.svg",
+          "checkedAt": "2026-10-04T08:54:46Z",
+          "independenceGroup": "HSBC official site",
+          "kind": "official",
+          "observation": "Official masterbrand lockup SVG (id HSBC_MASTERBRAND_LOGO_WW_RGB, Illustrator 19.2 export): hexagon as white rect + 4 red polygons fill #DB0011, plus HSBC wordmark paths. Geometry/colors byte-equivalent in a Commons mirror citing this exact hsbc.com source URL.",
+          "url": "https://www.hsbc.com/"
+        },
+        {
+          "assetUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/HSBC_logo_(2018).svg",
+          "checkedAt": "2026-10-04T08:54:46Z",
+          "independenceGroup": "Wikimedia Commons HSBC file",
+          "kind": "third-party",
+          "observation": "Commons mirror with identical polygon/path data and #db0011 fills; file page cites the hsbc.com asset as source — corroboration, not an independent observation.",
+          "url": "https://commons.wikimedia.org/wiki/File:HSBC_logo_(2018).svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T08:59:35.554533Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85",
+        "xmlSha256": "2f5df2518e20e9552512d05d959552764f924043f19b49b4b072b3788676e7e8"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

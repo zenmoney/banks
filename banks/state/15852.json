@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-04T08:56:01.768847Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15852/assessed-1a9aea3cb1876d4bea15d7b53b1240c932f5b7ef64fc294f5887ba8697be0c8e.json",
+        "sha256": "1a9aea3cb1876d4bea15d7b53b1240c932f5b7ef64fc294f5887ba8697be0c8e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Observed live on monzo.com (fetched 2026-10-04); the site serves this SVG as its current icon.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The M mark is Monzo's brand symbol; the asset is served from the official monzo.com domain as its favicon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Single official source; currency confirmed from the bank's own live site, sufficient for an operating brand.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone M mark without wordmark or background, gradient leg variant, transparent background — directly suitable for a square catalog cell.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/327729d23e405fc73c59e103cb0f94ce425ee5226a065c8968abf2f203db8a9c.json",
+        "sha256": "327729d23e405fc73c59e103cb0f94ce425ee5226a065c8968abf2f203db8a9c"
+      },
+      "baseIconHash": "247025d6946f5530a73fffe75ff34e195c7314a6ce9f500b739fee6ca7794313",
+      "candidate": {
+        "detailsJudgement": "All four filled shapes and both linear gradients are preserved from the official asset; librsvg source vs final comparison is pixel-identical (difference bbox empty); no detail loss from the switch unwrap.",
+        "faithful": true,
+        "iconHash": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0",
+        "path": "evidence/15852/candidate-e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0.svg",
+        "proportionsJudgement": "Native viewBox 0 0 1024 926 kept; the catalog ContentScale.Fit places the mark centered in the square cell without stretching; final 240x240 frames show full emblem with clear margins on both themes.",
+        "rationale": "Replace the flat-fill M on a dark circle with the current official standalone M mark as served by monzo.com itself: gradient teal/coral legs and current chevron colors on a transparent background. Supported currency update for the operating brand; the dark circular backing is a catalog adaptation of an earlier presentation, not an observed current official presentation.",
+        "role": "Standalone bank brand mark (the Monzo M), used by the bank as its own favicon/app icon.",
+        "sha256": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0",
+        "sourceAssetUrl": "https://static-assets.monzo.com/monzo-com/b8727850205e500aca928d05029efe492c1f8494/_next/static/media/favicon.4c6ebc6f.svg",
+        "sourceUrl": "https://monzo.com/press",
+        "transforms": [
+          "No geometry transformation: the official emblem is used at its native proportions; only the incidental <switch> wrapper around the single content group was removed because the catalog SVG converter rejects <switch> (rendered output verified pixel-identical under librsvg).",
+          "SVGO 4.1.0 trial with repository svgo.config.mjs (config sha256 f2a406e0...) produced 1738 bytes from 1640 bytes; the larger optimized output was NOT selected and the working bytes were kept."
+        ],
+        "variant": "Current gradient-fill M mark without wordmark or background circle, transparent background.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The update replaces the catalog's dark-circle flat-color M with the current official gradient M on transparent background: visibly different fills (gradient teal/coral legs, current chevron colors) and removal of the non-official dark backing circle."
+      },
+      "candidateIconHash": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0",
+      "checkedAt": "2026-10-04T08:56:01.768847Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "17a6b38866241e4303c0307241c03365a3169bce8c4ea401731541ee12100356",
+        "head": "bank-icon-maintenance/15852",
+        "headCommit": "993b603fcd94ed169d4f6d25cc8b6bc7245a0bfd",
+        "number": 108,
+        "observedAt": "2026-10-04T09:08:59.651161Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Monzo (Company.id 15852)",
+        "url": "https://github.com/zenmoney/banks/pull/108"
+      },
+      "reason": "Official current Monzo \"M\" mark SVG served as the live monzo.com favicon; same M silhouette as the baseline but with the current gradient leg fills and without the baseline dark background circle. Supported replacement for the operating brand.",
+      "reviewPackage": {
+        "path": "evidence/15852/candidate-d4b0afd3ffacaee5459fa1b890ca4d22b8363a5f7d3104552f8e51a214541714.json",
+        "sha256": "d4b0afd3ffacaee5459fa1b890ca4d22b8363a5f7d3104552f8e51a214541714"
+      },
+      "sourceCandidate": {
+        "iconHash": "ac1aa7a41d4f28504811029e77948c698d188a7f43d8dfa6b97aadf4ca2ca430",
+        "path": "evidence/15852/fetch-9b1ccdb2f976497486904171b6ed222a/attempt-1/body.bin",
+        "rationale": "Official current favicon SVG as fetched; original vector, self-contained, no raster. Baseline shows the same silhouette in flat fills on a dark circle; candidate is the current official rendering.",
+        "retrieval": {
+          "path": "evidence/15852/fetch-9b1ccdb2f976497486904171b6ed222a/receipt.json",
+          "sha256": "ae2ac86cd90c3d42b6674ca4fc0f1e91d08d55f469a50b759ec31f001f837ccf"
+        },
+        "sourceAssetUrl": "https://static-assets.monzo.com/monzo-com/b8727850205e500aca928d05029efe492c1f8494/_next/static/media/favicon.4c6ebc6f.svg",
+        "sourceUrl": "https://monzo.com/press"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://static-assets.monzo.com/monzo-com/b8727850205e500aca928d05029efe492c1f8494/_next/static/media/favicon.4c6ebc6f.svg",
+          "checkedAt": "2026-10-04T08:54:46Z",
+          "independenceGroup": "Monzo official site",
+          "kind": "official",
+          "observation": "Live monzo.com press page links rel=icon type=image/svg+xml to this asset; fetched 1640-byte self-contained SVG, viewBox 0 0 1024 926, gradient teal/coral legs, #bbf42e/#48d3b2 chevrons, transparent background.",
+          "url": "https://monzo.com/press"
+        },
+        {
+          "assetUrl": "https://downloads.ctfassets.net/ro61k101ee59/2zfabTQILrAL4IDPKjJQCm/ca5ed206d818d2cc45652043f1e984ce/Monzo-Press-Kit-2026.zip",
+          "checkedAt": "2026-10-04T08:54:46Z",
+          "independenceGroup": "Monzo press kit",
+          "kind": "official",
+          "observation": "Official 2026 press kit exists; fetch exceeded the 16 MiB workflow cap (curl exit 63) — access fact, not blocking.",
+          "url": "https://monzo.com/press"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T08:59:33.939950Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0",
+        "xmlSha256": "8a9e42c65ece014990ca5f4e334197e7dc91a2b99f18b9b8f809809dd107f72b"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
