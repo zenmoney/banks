@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-04T10:59:11.232412Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15872/assessed-8a427c7b95ddd518ee6178261f6ab44509aab6ccf4143ec434e768b2a7a1fb59.json",
+        "sha256": "8a427c7b95ddd518ee6178261f6ab44509aab6ccf4143ec434e768b2a7a1fb59"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset served live on the current unicredit.pl AEM platform on 2026-10-04; group brand communications and Wikipedia still use the same design; no redesign evidence found.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "UniCredit group logo published by the group's own Polish subsidiary DAM; the RO record (unicredit.ro, blocked 403) belongs to the same group brand; sphere-'1' is the recognized UniCredit symbol.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary official DAM asset corroborated by an independent encyclopedia and group brand page search results; the Romanian subsidiary site itself was inaccessible (403), disclosed as a limitation, with the group logo shared across subsidiaries.",
+        "uncertainties": [
+          "Romanian subsidiary variant not directly verified due to unicredit.ro 403; group logo is shared across subsidiaries, low risk."
+        ],
+        "variant": {
+          "basis": "Basic positive variant (sphere #E2001A + white '1' + black wordmark); standalone sphere symbol extracted losslessly (paths/fills unchanged, viewBox cropped to sphere bounds 0 0 881 875); white variant and smaller UC_LOGO.svg on the same page not used.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/a13b39bb15b70f506124cd34aee1e5227360b619552f7658e213b705c73d2ac0.json",
+        "sha256": "a13b39bb15b70f506124cd34aee1e5227360b619552f7658e213b705c73d2ac0"
+      },
+      "baseIconHash": "165651a1dd923f20e4fa3eddd8938617013517d59898c4fcc7b17300f92841f0",
+      "candidate": {
+        "detailsJudgement": "Sphere contour, white '1' and evenodd overlaps survive extraction and optimization on both themes; internal transparency preserved; only official fills #E2001A/#fff used.",
+        "faithful": true,
+        "iconHash": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046",
+        "path": "evidence/15872/candidate-9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046.svg",
+        "proportionsJudgement": "Complete circular emblem preserved; uniform placement only; strong legibility at 24/32/48 px on both themes; no backing or mask applied.",
+        "rationale": "Current official group symbol from the bank's own DAM; corrects the accepted muted #df493a red to the official #E2001A and removes the accepted icon's stray white edge artifact.",
+        "role": "Standalone UniCredit sphere symbol with white '1'; no wordmark or text.",
+        "sha256": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046",
+        "sourceAssetUrl": "https://unicredit.pl/dam/jcr:74ceb40c-03e8-4f85-889a-98cb5d2c8753/UniCredit_logo_podstawowe.svg",
+        "sourceUrl": "https://unicredit.pl/media",
+        "transforms": [
+          "Lossless extraction of the three sphere paths from the official lockup SVG: paths and fills unchanged, viewBox cropped to sphere bounds (0 0 881 875); no scale/translation beyond canvas crop.",
+          "SVGO 4.1.0 with frozen repo config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2412 -> 1970 bytes, selected (smaller, visually identical, converter-compatible)."
+        ],
+        "variant": "Basic positive group variant (#E2001A sphere, white '1', transparent field); white variant and smaller UC_LOGO.svg from the same page not used.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon red is muted #df493a with a white edge sliver; the official symbol is crisp #E2001A. Supported brand-color correction with cleaner official vector geometry."
+      },
+      "candidateIconHash": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046",
+      "checkedAt": "2026-10-04T10:59:11.232412Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "798dae23e9b99eb454efcefe846b113ad8ea78d8c7ee48cec447109e8d207658",
+        "head": "bank-icon-maintenance/15872",
+        "headCommit": "17025c52a2c27643dbc3a253af904d62aa6de03e",
+        "number": 114,
+        "observedAt": "2026-10-04T11:18:56.249927Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: UniCredit Bank (Company.id 15872)",
+        "url": "https://github.com/zenmoney/banks/pull/114"
+      },
+      "reason": "Official original-vector UniCredit lockup from the group's own DAM (unicredit.pl media page): red sphere with white '1' (#E2001A) plus black UniCredit wordmark. Current group brand variant; no evidence of a 2025 redesign. Standalone sphere symbol extracted losslessly from the lockup as the working candidate for a square cell. Update basis: accepted icon uses muted #df493a with a white edge; the official symbol red is #E2001A — supported color correction.",
+      "reviewPackage": {
+        "path": "evidence/15872/candidate-fb3c435696b4b47eb763788ed3d0ea0825fff85f3d9d9cb3775e75acaa9e506a.json",
+        "sha256": "fb3c435696b4b47eb763788ed3d0ea0825fff85f3d9d9cb3775e75acaa9e506a"
+      },
+      "sourceCandidate": {
+        "iconHash": "3a68b2888989836b2431d33ecc091f2225897cc3aef41c230595f4604371d106",
+        "path": "evidence/15872/research-dae87f4c7fa14219ace9b1af7fe24443/fetch-f8cb48afeb4542ab96f9f9dc01f9316c/attempt-1/body.bin",
+        "rationale": "Official current group logo from the bank's own DAM; standalone sphere symbol is extracted losslessly from the lockup (no tracing/redraw); current design, square-suitable mark, corrects the accepted icon against the live brand.",
+        "retrieval": {
+          "path": "evidence/15872/research-dae87f4c7fa14219ace9b1af7fe24443/fetch-f8cb48afeb4542ab96f9f9dc01f9316c/receipt.json",
+          "sha256": "bb18754360d67f01ec571275ea185f1bad2250a95cf3009063d27d2d10bf4e03"
+        },
+        "sourceAssetUrl": "https://unicredit.pl/dam/jcr:74ceb40c-03e8-4f85-889a-98cb5d2c8753/UniCredit_logo_podstawowe.svg",
+        "sourceUrl": "https://unicredit.pl/media"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://unicredit.pl/dam/jcr:74ceb40c-03e8-4f85-889a-98cb5d2c8753/UniCredit_logo_podstawowe.svg",
+          "checkedAt": "2026-10-04T10:47:00Z",
+          "independenceGroup": "UniCredit group official self-publication (unicredit.pl DAM)",
+          "kind": "official",
+          "observation": "UniCredit Bank Polska press/media page serves the basic group logo SVG (4559x875 lockup: sphere #E2001A with white '1' + black wordmark) from the bank's own AEM DAM; same page offers white variant and a smaller UC_LOGO.svg.",
+          "url": "https://unicredit.pl/media"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Unicredit_logo.svg",
+          "checkedAt": "2026-10-04T10:49:00Z",
+          "independenceGroup": "Independent encyclopedic corroboration",
+          "kind": "third-party",
+          "observation": "English Wikipedia infobox uses the same sphere-'1' + wordmark design; Commons file fetched as design corroboration, not used as a candidate source.",
+          "url": "https://en.wikipedia.org/wiki/UniCredit"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T10:48:00Z",
+          "independenceGroup": "Independent search corroboration",
+          "kind": "third-party",
+          "observation": "Group brand page search results still describe the red sphere with white '1'; direct fetch returned 403/timeout. Web search found no evidence of a 2025 logo redesign.",
+          "url": "https://www.unicreditgroup.eu/our-brand (via search result, direct fetch blocked 403/timeout)"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T11:04:59.261306Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046",
+        "xmlSha256": "860545988f8b963d1654505973d7f6b95f95c762742054d75a90df277a0ce3d5"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
