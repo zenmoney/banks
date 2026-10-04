@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-04T11:01:20.256330Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15874/assessed-f112de2214a00f26c2a42377c0d96d5aedaa2ee1ebc8441feb6fe5cced2613f7.json",
+        "sha256": "f112de2214a00f26c2a42377c0d96d5aedaa2ee1ebc8441feb6fe5cced2613f7"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Referenced by the live brand-center CSS (Wayback 2025-07-04) and still linked from the 2025-12-05 brand-home snapshot; brand-center logo page (2025-09-08) presents the same current system; Commons wordmark revised 2022 matches.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset published by Bankinter's own brand center and referenced by its live brand stylesheet as the compact logo; 'bk.' is the bank's own secondary mark.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary official brand-center publication (CSS-referenced asset, Wayback bytes) corroborated by an independent Commons category; live-host 403 disclosed as an access limitation, with the official URL and capture date recorded.",
+        "uncertainties": [
+          "Byte-identity with the live (403) origin not directly verifiable; retrieval was via a Wayback capture of the official URL referenced by the live stylesheet."
+        ],
+        "variant": {
+          "basis": "Compact 'bk.' mark, single official fill #FF7300, standalone on transparent field; letters form the mark itself (allowed); not the horizontal 'bankinter.' lockup (also saved, not square-suitable).",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/f9884da1da9ba05bf5d816a30cb690caf563a6dd3480139140662d6048036e82.json",
+        "sha256": "f9884da1da9ba05bf5d816a30cb690caf563a6dd3480139140662d6048036e82"
+      },
+      "baseIconHash": "a22decbe06443cd10becb845a359c1dd3b12040c425315eb0ea2602e31016952",
+      "candidate": {
+        "detailsJudgement": "Letter contours, bowl counters and the period survive unchanged on both themes; single official fill #FF7300; transparency preserved.",
+        "faithful": true,
+        "iconHash": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3",
+        "path": "evidence/15874/candidate-81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3.svg",
+        "proportionsJudgement": "Complete mark preserved at ~2:1; uniform placement only; legible at 24/32/48 px on both themes; no backing or mask applied.",
+        "rationale": "Official current compact brand mark from the bank's own brand center; replaces the accepted app-icon-style rounded-square rendering with the standalone official mark, matching the catalog's transparent-mark convention and the current brand system (no knot symbol exists).",
+        "role": "Standalone compact brand mark: lowercase 'bk.' letters forming the mark; no accompanying wordmark or explanatory text.",
+        "sha256": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3",
+        "sourceAssetUrl": "https://web.archive.org/web/20250704161529im_/https://marca.bankinter.com/file_source/Marca/configuration/images/svg/logo_BK_NW_min.svg",
+        "sourceUrl": "https://marca.bankinter.com/entender/basicos/logotipos",
+        "transforms": [
+          "No geometry transformation: working SVG is the fetched official asset verbatim.",
+          "SVGO 4.1.0 with frozen repo config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 881 -> 471 bytes, selected (smaller, zero-pixel-difference renders, converter-compatible)."
+        ],
+        "variant": "Compact orange #FF7300 'bk.' on a transparent field, as published by the brand center; not the horizontal 'bankinter.' lockup.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon renders an app-style white-on-orange rounded square; the official brand asset is the orange 'bk.' on transparency. Supported presentation normalization to the current official standalone mark."
+      },
+      "candidateIconHash": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3",
+      "checkedAt": "2026-10-04T11:01:20.256330Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a36ed455fd92732873e5e5c9e6fd4d6a806847b0a98d0cef7af8e800333cb13a",
+        "head": "bank-icon-maintenance/15874",
+        "headCommit": "4464a6d1f79e518d85ae73efe06210916d752f4c",
+        "number": 115,
+        "observedAt": "2026-10-04T11:22:56.811361Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Bankinter (Company.id 15874)",
+        "url": "https://github.com/zenmoney/banks/pull/115"
+      },
+      "reason": "Official original-vector Bankinter compact mark 'bk.' (single fill #FF7300, viewBox 64.4x32) from the bank's own Brand Center asset referenced by the live brand stylesheet; retrieved via Wayback capture 2025-07-04 because live hosts 403 the fetcher. Current brand system has no stylized-'b' knot symbol; the accepted icon's rounded-square presentation is replaced by the official standalone mark on a transparent field, consistent with catalog convention.",
+      "reviewPackage": {
+        "path": "evidence/15874/candidate-212fcfd55f3f20c42b8e4ddf5bbc7935f223905cd052af58541026bcecc1227c.json",
+        "sha256": "212fcfd55f3f20c42b8e4ddf5bbc7935f223905cd052af58541026bcecc1227c"
+      },
+      "sourceCandidate": {
+        "iconHash": "5c093613d9a5f94febe246d6d1e24f9c0119d1cec2d986c9f785726121a85044",
+        "path": "evidence/15874/research-4c147e85fa744908a128a348dfcd2154/fetch-c6c45e2b27d6468f9e650a581d33b3db/attempt-2/body.bin",
+        "rationale": "Official current compact brand mark from the bank's brand center; replaces the accepted white-on-orange rounded-square presentation with the standalone official mark on transparency (catalog-consistent presentation normalization to the official asset, supported rebrand-era source).",
+        "retrieval": {
+          "path": "evidence/15874/research-4c147e85fa744908a128a348dfcd2154/fetch-c6c45e2b27d6468f9e650a581d33b3db/receipt.json",
+          "sha256": "3daacca730e7f566b7bd544548878d333df28fbd74b8112296c42d4e00522c38"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20250704161529im_/https://marca.bankinter.com/file_source/Marca/configuration/images/svg/logo_BK_NW_min.svg",
+        "sourceUrl": "https://marca.bankinter.com/entender/basicos/logotipos"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://web.archive.org/web/20250704161529im_/https://marca.bankinter.com/file_source/Marca/configuration/images/svg/logo_BK_NW_min.svg",
+          "checkedAt": "2026-10-04T10:52:00Z",
+          "independenceGroup": "Bankinter official brand center self-publication (live CSS reference; Wayback bytes)",
+          "kind": "official",
+          "observation": "Bankinter Brand Center logo page presents the current logo system: lowercase 'bankinter.' wordmark and compact 'bk.' secondary mark, orange #FF7300. The brand stylesheet references logo_BK_NW_min.svg (official URL https://marca.bankinter.com/file_source/Marca/configuration/images/svg/logo_BK_NW_min.svg) as the compact/mobile logo; bytes retrieved from the Wayback capture 20250704161529 of that exact URL (live host 403).",
+          "url": "https://marca.bankinter.com/entender/basicos/logotipos"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T10:54:00Z",
+          "independenceGroup": "Independent Commons corroboration",
+          "kind": "third-party",
+          "observation": "Commons Category:Bankinter holds only File:Bankinter.svg (orange lowercase wordmark, revised 2022-01-18), corroborating the current wordmark/compact-mark design and the absence of the pre-rebrand knot symbol.",
+          "url": "https://commons.wikimedia.org/wiki/Category:Bankinter"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T10:51:00Z",
+          "independenceGroup": "Access-failure observation (official site unreachable)",
+          "kind": "third-party",
+          "observation": "All bankinter.com hosts return HTTP 403 to the fetcher; official Bankinter_Logo.zip referenced from the archived brand page is 403 live and has no Wayback capture.",
+          "url": "https://www.bankinter.com (www/webcorporativa/docs hosts)"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T11:05:01.473961Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3",
+        "xmlSha256": "248a268f5c2e5c4a1e9a2e3a46eebdfd96f93353281411c713fb03f453838816"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
