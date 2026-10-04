@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-04T16:00:22.891878Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15925/assessed-c05fd33e0da0678026e0d51c7f710821776feb87a2ef7d01c8203bba885ae544.json",
+        "sha256": "c05fd33e0da0678026e0d51c7f710821776feb87a2ef7d01c8203bba885ae544"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "pt.wikipedia infobox (page served 2026-10-01) uses the exact fetched file as the current logo; no rebrand evidence found.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Bank 15925 is Banco Original (BR, original.com.br), Banco Original S.A.; the fetched lockup is this bank's brand logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official asset (Commons mirror of original.com.br file) plus independent pt.wikipedia infobox usage.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Candidate is the standalone box symbol cropped from the official lockup without the accompanying wordmark, which is unsuitable for a square icon cell.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/9e1dabe626333bcf95b39f110b50023697f84f90c479f4506b7867372d3ff829.json",
+        "sha256": "9e1dabe626333bcf95b39f110b50023697f84f90c479f4506b7867372d3ff829"
+      },
+      "baseIconHash": "02906907fb3bb9d94801c2557af5191df9e628f366249bda383e164d7413e1a7",
+      "candidate": {
+        "detailsJudgement": "Rounded stroke joins and the rounded-corner box contours are preserved; SVGO removed only editor metadata; no detail loss at 240px or 480px renders.",
+        "faithful": true,
+        "iconHash": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023",
+        "path": "evidence/15925/candidate-4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023.svg",
+        "proportionsJudgement": "Symbol aspect (131:150) preserved with uniform scale; centered 54dp icon area shows the whole emblem with clear margins on both themes.",
+        "rationale": "Official current Banco Original lockup (box symbol + wordmark) sourced from original.com.br; the standalone box symbol is cropped by viewBox for the square icon cell. Evidenced geometry/color correction of the accepted heavier darker-green redraw.",
+        "role": "standalone bank symbol without accompanying wordmark",
+        "sha256": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023",
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_do_Banco_Original.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_do_Banco_Original.svg",
+        "transforms": [
+          "viewBox cropped from the 500x150 lockup to the 131x150 standalone symbol region; uniform scale only",
+          "SVGO 1.x trial with repository svgo.config.mjs (config sha256 bound to baseCommit): 8668 -> 5831 bytes, visually identical working-vs-optimized comparison; optimized bytes selected (output sha256 4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023)",
+          "no other transformation; path geometry and official fill untouched"
+        ],
+        "variant": "thin-stroke open box symbol, official green #00a857, transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base/final pairs show the accepted heavier, darker-green (#01874D) redraw replaced by the official thinner-stroke #00a857 symbol; supported by the official source and current-use evidence."
+      },
+      "candidateIconHash": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023",
+      "checkedAt": "2026-10-04T16:00:22.891878Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a7e15af273428de7ec9b5d0fb8fb7fb0dd01f5b70f397e64716a5e7791035eec",
+        "head": "bank-icon-maintenance/original-15925",
+        "headCommit": "09903802a559e1ccc7b7648d8a6e22d60aed9a9a",
+        "number": 127,
+        "observedAt": "2026-10-04T16:11:05.487679Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Original (Company.id 15925)",
+        "url": "https://github.com/zenmoney/banks/pull/127"
+      },
+      "reason": "Base icon is a heavier redraw of the Banco Original box symbol with the darker green #01874D; the official current logo (source original.com.br, in current use per pt.wikipedia 2026) uses the thin-stroke box in #00a857. Evidenced geometry/color correction.",
+      "reviewPackage": {
+        "path": "evidence/15925/candidate-e47014adf35746ff8524a179602210481d5e8dc5c78a3053dc3a8024af22818f.json",
+        "sha256": "e47014adf35746ff8524a179602210481d5e8dc5c78a3053dc3a8024af22818f"
+      },
+      "sourceCandidate": {
+        "iconHash": "6ce1e0881b8ebec0f22b69b35e76af8c4813d55ef8f798f8f6a50bb071ef9ae0",
+        "path": "evidence/15925/research-9eb35698f801443a82d98836e22936f8/fetch-99ca004575eb47f39180fbb155aada29/attempt-2/body.bin",
+        "rationale": "Base icon is a heavier redraw with the darker green #01874D; the official current logo (original.com.br asset, current use per pt.wikipedia 2026) uses the thin-stroke box in #00a857. Supported geometry/color correction; viewBox crop of the standalone symbol only, path geometry and official fill untouched.",
+        "retrieval": {
+          "path": "evidence/15925/research-9eb35698f801443a82d98836e22936f8/fetch-99ca004575eb47f39180fbb155aada29/receipt.json",
+          "sha256": "bc52d2cb78e04e3d81f268aa88b118ce99901acc3d70a6ef9604439d36cc473b"
+        },
+        "sourceAssetUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_do_Banco_Original.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_do_Banco_Original.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_do_Banco_Original.svg",
+          "checkedAt": "2026-10-04T15:59:16Z",
+          "independenceGroup": "Original official asset via Commons",
+          "kind": "official",
+          "observation": "Fetched current Banco Original lockup (box symbol + 'Banco ORIGINAL' wordmark), sourced from original.com.br per the Commons file page (uploaded 2023-03-12, PD-textlogo). original.com.br blocks bots (403).",
+          "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_do_Banco_Original.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T15:59:16Z",
+          "independenceGroup": "pt.wikipedia",
+          "kind": "third-party",
+          "observation": "Infobox uses File:Logo do Banco Original.svg as the current logo; page cache timestamp 2026-10-01.",
+          "url": "https://pt.wikipedia.org/wiki/Banco_Original"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T16:02:32Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023",
+        "xmlSha256": "0b017a0859fcfbf6fe7bb2c5821971c421bf97467531808e5539fde62d3ef97d"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
