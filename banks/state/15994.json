@@ -1,0 +1,132 @@
+{
+  "lastAttemptAt": "2026-10-04T19:29:24.400473Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15994/assessed-6347fdec113cd0e721a079d0c3d37a94c9a31eef075634a64887588d41b1454f.json",
+        "sha256": "6347fdec113cd0e721a079d0c3d37a94c9a31eef075634a64887588d41b1454f"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "kutxabank.es (fetched 2026-10-04) and the official Play listing icon present this mark as current; 2024 repositioning kept it.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The k artwork (rounded lowercase k, three white rivets, red dot) is identical across the official site, official app icon and the source vector.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site + official app listing (independent channels) agree; third-party vector matches both; press corroborates the 2024 continuity.",
+        "uncertainties": [
+          "The replacement vector comes from Wikimedia Commons (official site serves no standalone SVG); its artwork was verified against the bank's own rendering rather than an official SVG download."
+        ],
+        "variant": {
+          "basis": "Current standalone presentation is the k on a white rounded-square card; the baseline red disc is not evidenced in current standalone use.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/f7ad257a63f6820c8fe48945b47968d7b63ac3194386d3e38169d69b3d5aa3e9.json",
+        "sha256": "f7ad257a63f6820c8fe48945b47968d7b63ac3194386d3e38169d69b3d5aa3e9"
+      },
+      "baseIconHash": "6ad634d7ffe3bf4db981ee6ec3cbd3a4de84c32e5ec50eab055b794f7a6b0b2c",
+      "candidate": {
+        "detailsJudgement": "Rivet holes, stem-foot red dot and rounded terminals preserved exactly from the original vector; card corners are clean background geometry.",
+        "faithful": true,
+        "iconHash": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b",
+        "path": "evidence/15994/candidate-85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b.svg",
+        "proportionsJudgement": "Emblem aspect ratio preserved under uniform scale; centered with even margins matching the official app icon's composition.",
+        "rationale": "Replace the unevidenced red-disc treatment with the bank's current standalone presentation: the original-vector k emblem on a white rounded-square card matching the official app-store icon.",
+        "role": "White rounded-square card is the plain brand field observed in the official Google Play listing icon; the k emblem (rivets and red dot) is the meaningful mark on top. Card is background only; no emblem detail masked.",
+        "sha256": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kutxabank.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kutxabank.svg",
+        "transforms": [
+          "Selected the standalone k emblem group from the original 17-path vector; removed the accompanying 'kutxabank' wordmark paths (wordmark text is excluded from catalog icons).",
+          "Uniform scale 0.7084 and translate(133.8, 66.5) to center the whole emblem on a 512x512 canvas; no other geometry change.",
+          "Added plain white rounded-square field (rect rx=58) matching the observed official app-icon presentation; background only, nothing emblem-covered.",
+          "SVGO 4.1.0 (frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 3523 to 3124 bytes, selected; visually faithful on both themes."
+        ],
+        "variant": "Black rounded lowercase k with three white rivets and #e1001b red dot at stem foot, on a white rounded-square card.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Backing changes from the baseline's red circular disc to the white rounded-square card observed in the bank's current official standalone icon; this also repairs dark-theme legibility of the black k. Emblem geometry is unchanged original vector artwork."
+      },
+      "candidateIconHash": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b",
+      "checkedAt": "2026-10-04T19:29:24.400473Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "9546c862b844be21844a1bd62bd4af5e26da94de6bd2e78ef5ccacf54dbd0e47",
+        "head": "bank-icon-maintenance/kutxabank-15994",
+        "headCommit": "14b5556ab1eb303fd41b673dbece49022e38a1de",
+        "number": 133,
+        "observedAt": "2026-10-04T19:46:32.296469Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Kutxabank (Company.id 15994)",
+        "url": "https://github.com/zenmoney/banks/pull/133"
+      },
+      "reason": "Kutxabank's current standalone mark (official site logo and Google Play listing icon, fetched 2026-10-04) is the black lowercase rounded 'k' (#0d0d0d) with three white rivets and a red dot (#e1001b) at the stem foot, on a white rounded-square card. The accepted baseline instead puts the k on a solid red #e1001b circular disc, a treatment not evidenced in the bank's current standalone use. An original vector of the k artwork (Wikimedia Commons Kutxabank.svg, identical in structure to the mark displayed on kutxabank.es) is the replacement basis.",
+      "reviewPackage": {
+        "path": "evidence/15994/candidate-6c6ee80abefc9d565f58be2fb17bdbab79cf4d5676d541d510be08ff0911a3dd.json",
+        "sha256": "6c6ee80abefc9d565f58be2fb17bdbab79cf4d5676d541d510be08ff0911a3dd"
+      },
+      "sourceCandidate": {
+        "iconHash": "a2f7e3c8f22a1ffb3d4660ddaea5691d41e2b677529f15d40300487f43a2eb23",
+        "path": "evidence/15994/research-3d69a0851c9f48a0abb7f43085b209df/fetch-9b8c646258354e94aab1770519a7ad50/attempt-1/body.bin",
+        "rationale": "Original vector (true SVG paths, Illustrator export) of the k artwork the bank currently displays; matches the official site logo and official app icon. Working candidate selects the standalone k emblem (wordmark paths removed, emblem preserved whole) and adds a plain white rounded-square field matching the observed official app-icon presentation; only uniform scale/translation applied to the emblem.",
+        "retrieval": {
+          "path": "evidence/15994/research-3d69a0851c9f48a0abb7f43085b209df/fetch-9b8c646258354e94aab1770519a7ad50/receipt.json",
+          "sha256": "f87e52cf3747e7ddb846c71a962b5e0f4cf5e7238ca6b0839d701af251c60b7e"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kutxabank.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kutxabank.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T19:22:00Z",
+          "independenceGroup": "kutxabank.es primary site and its own assets",
+          "kind": "official",
+          "observation": "Official site (maintenance/landing HTML fetched 2026-10-04) embeds the current mark: black rounded 'k' with three white rivets and red dot at the stem foot beside the black lowercase 'kutxabank' wordmark; no red disc behind the k. Receipt fetch-e1e32e915de841428ef687dd4265a6bc.",
+          "url": "https://kutxabank.es/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kutxabank.svg",
+          "checkedAt": "2026-10-04T19:22:00Z",
+          "independenceGroup": "Independent vector repository cross-checked against official site rendering",
+          "kind": "third-party",
+          "observation": "Original vector (Illustrator-exported SVG, 15568 bytes, uploaded 2020-12-01, 779x546): 17 paths, fills #0d0d0d (k + wordmark), #e1001b (dot), #ffffff (rivets); artwork identical in structure to the mark displayed on kutxabank.es. Receipt fetch-9b8c646258354e94aab1770519a7ad50, sha256 a2f7e3c8f22a1ffb3d4660ddaea5691d41e2b677529f15d40300487f43a2eb23.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kutxabank.svg"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/2vuzcpUI81EHqEH7QLyC-fxe3U4GGka5K9rloZ2Z09O3w3sMTWvrLnEUy0jyqRWY2jrxOZqZVg-g74-q409owQ=s256",
+          "checkedAt": "2026-10-04T19:26:00Z",
+          "independenceGroup": "Official app-store listing (publisher KUTXABANK S.A.)",
+          "kind": "official",
+          "observation": "Official Google Play listing icon (KUTXABANK S.A.): black k with white rivets and red dot on a white rounded-square card; confirms the current standalone presentation is the white card, not the red disc. Raster used as research evidence only; not traced. Receipt fetch-6466669691b746d4ba5ade0085834541.",
+          "url": "https://play.google.com/store/search?q=kutxabank&c=apps"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T19:23:00Z",
+          "independenceGroup": "Independent press corroboration of the 2024 repositioning",
+          "kind": "third-party",
+          "observation": "2024-10-08 article: Kutxabank's 2024 brand repositioning kept the black k, red dot and black wordmark; no disc redesign.",
+          "url": "https://dircomfidencial.com/marketing/kutxabank-presenta-su-nuevo-posicionamiento-de-marca-el-banco-que-va-en-serio-20241008-1616/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T19:32:23.740412Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b",
+        "xmlSha256": "a47db059d720ea8e2ebbf2f473f5b2bfa9489def93f11d81073a348ed0afcf38"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
