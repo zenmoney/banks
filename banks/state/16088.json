@@ -1,0 +1,124 @@
+{
+  "lastAttemptAt": "2026-10-04T23:25:15.672496Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16088/assessed-4229c9ac4e3974b9bbc28b785b034b1f02a2d58803fb9b8980ed73449f19732b.json",
+        "sha256": "4229c9ac4e3974b9bbc28b785b034b1f02a2d58803fb9b8980ed73449f19732b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "App Store listing operated by Tesco Bank (fetched 2026-10-04) uses this branding; brand continues after retail sale to Barclays.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Vector shows TESCO Bank wordmark with red TESCO, blue Bank, blue underlines — same branding as the verified current app icon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official app listing plus third-party vector source and Tesco PLC publication; no rebrand contradictions found.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Full-colour lockup variant; selected because the app-icon tile exists only as raster, which is not a permitted replacement source.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/27b3bf6de64a011314b17ee4d0c819ee34023d8b3e86a047874db4e7af297b5f.json",
+        "sha256": "27b3bf6de64a011314b17ee4d0c819ee34023d8b3e86a047874db4e7af297b5f"
+      },
+      "baseIconHash": "6246430dbce880b7b2e167a3299cbe51026614ddf3d2b9cd00bcb3e31c53b574",
+      "candidate": {
+        "detailsJudgement": "All letters, underlines and colours reproduced from the original vector; no lost detail versus the source (source/final pairs match on both themes).",
+        "faithful": true,
+        "iconHash": "edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b",
+        "path": "evidence/16088/candidate-edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b.svg",
+        "proportionsJudgement": "Lockup proportions preserved exactly (uniform scale); centred with 2px clearances in the square cell; wide but complete.",
+        "rationale": "Accepted icon is the obsolete standalone red Tesco T; the evidenced current Tesco Bank branding is the TESCO Bank lockup (red TESCO, blue Bank, blue underlines), verified against the official App Store listing. Original vector source recorded in the attempt.",
+        "role": "Full-colour horizontal lockup of the bank's wordmark; standalone brand mark without slogans or extra text.",
+        "sha256": "edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b",
+        "sourceAssetUrl": "https://seekvectors.com/storage/images/tesco-bank-logo-01.svg",
+        "sourceUrl": "https://seekvectors.com/post/tesco-bank-logo-icon",
+        "transforms": [
+          "Uniform scale 0.0556793 (whole emblem, no distortion) and translation to centre in a 54x54 viewBox with 2px side clearances; no other geometry or colour change.",
+          "SVGO 1.x with repository svgo.config.mjs run on a copy: output grew 4076 -> 4418 bytes (8.4%); optimization result rejected, working version retained as final bytes."
+        ],
+        "variant": "Horizontal TESCO Bank lockup, full colour, transparent background.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon shows a red letter T with blue dashes; candidate shows the current full TESCO Bank lockup — an evidenced brand update, clearly visible in before/after pairs on both themes."
+      },
+      "candidateIconHash": "edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b",
+      "checkedAt": "2026-10-04T23:25:15.672496Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0462ea9a8100a083393e4a12b692c5477b8db65069ca2444da3b0acaeb02a4c0",
+        "head": "bank-icon-maintenance/16088",
+        "headCommit": "ee0f498df7b1b7e676d311831cee0b2d9aa50f8f",
+        "number": 140,
+        "observedAt": "2026-10-04T23:42:20.117588Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Tesco Bank (Company.id 16088)",
+        "url": "https://github.com/zenmoney/banks/pull/140"
+      },
+      "reason": "Current Tesco Bank app icon is a blue tile with white 'Bank' and the red TESCO wordmark with blue underlines; accepted red-T icon is an obsolete variant.",
+      "reviewPackage": {
+        "path": "evidence/16088/candidate-0e4ca20924accb66d7285e038fbdc8f9b240697111fa0c433afc9309e1a74e99.json",
+        "sha256": "0e4ca20924accb66d7285e038fbdc8f9b240697111fa0c433afc9309e1a74e99"
+      },
+      "sourceCandidate": {
+        "iconHash": "cc062fea3564464d0428f4b70f15ab752aa418bde933722245ad1ea23e7e0b61",
+        "path": "evidence/16088/research-146a03a230e34bb0bddfe8023eac09ce/fetch-6c402311482e4a71b36935e0146bffaa/attempt-1/body.bin",
+        "rationale": "Accepted icon is the obsolete standalone red T; current evidenced Tesco Bank branding is the TESCO Bank lockup, available as an original vector.",
+        "retrieval": {
+          "path": "evidence/16088/research-146a03a230e34bb0bddfe8023eac09ce/fetch-6c402311482e4a71b36935e0146bffaa/receipt.json",
+          "sha256": "892132e37bde6b40615ca77252400b92d6c1bd365454094f0764f4d358b1c47f"
+        },
+        "sourceAssetUrl": "https://seekvectors.com/storage/images/tesco-bank-logo-01.svg",
+        "sourceMaterial": {
+          "path": "evidence/16088/source-material-7152f456bca04583af013c59cbe5e26a/material.json",
+          "sha256": "26d0a19076add0d88af8a56c0c20f29e0a61f913e24e30fe0f62d709b8d3bc16"
+        },
+        "sourceUrl": "https://seekvectors.com/post/tesco-bank-logo-icon"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/e9/d1/b2e9d1a7-5e2c-16d2-8a37-2386590117a3/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/1200x630wa.png",
+          "checkedAt": "2026-10-04T23:25:15Z",
+          "independenceGroup": "Tesco Bank official app listing",
+          "kind": "official",
+          "observation": "Official Tesco Bank App Store listing (fetched 2026-10-04) shows the current app icon: blue tile, white 'Bank', red TESCO with blue underlines. Raster used as research evidence only.",
+          "url": "https://apps.apple.com/gb/app/tesco-bank/id857834425"
+        },
+        {
+          "assetUrl": "https://seekvectors.com/storage/images/tesco-bank-logo-01.svg",
+          "checkedAt": "2026-10-04T23:25:15Z",
+          "independenceGroup": "seekvectors",
+          "kind": "third-party",
+          "observation": "Original vector TESCO Bank lockup (red TESCO, blue Bank, blue underlines; Adobe Illustrator export) matching the current app icon branding. Other variants on the page are the obsolete red T or Tesco PLC wordmark.",
+          "url": "https://seekvectors.com/post/tesco-bank-logo-icon"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T23:25:15Z",
+          "independenceGroup": "Tesco PLC publications",
+          "kind": "third-party",
+          "observation": "Tesco PLC materials show the Tesco Bank logo as blue 'Bank' text and stripes with red TESCO.",
+          "url": "https://www.tescoplc.com/media/759672/tesco-bank-everyones-welcome-report.pdf"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T23:28:27.720271Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b",
+        "xmlSha256": "1865070285bb35c3587fab8890ad87d49f083b16628b43bc3e107afde3875dcf"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
