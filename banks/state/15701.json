@@ -1,0 +1,119 @@
+{
+  "lastAttemptAt": "2026-10-03T23:26:19.287356Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15701/assessed-df9558488dcee65492c4b3287b20cf650b6ad409742116ca3661f1b03d5c1b4b.json",
+        "sha256": "df9558488dcee65492c4b3287b20cf650b6ad409742116ca3661f1b03d5c1b4b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "2026-09-23 archived official homepage shows the same mark; Wikipedia file declares official source.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official app-mark geometry (white hill on blue tile with navy base) matches the existing symbol.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Wikipedia (declared official source) and the Wayback snapshot are independent of each other.",
+        "uncertainties": [
+          "Live leumi.co.il could not be reached this run; currency rests on the 2026-09-23 archived homepage and the declared official source."
+        ],
+        "variant": {
+          "basis": "Existing icon uses off-brand blues; current mark uses #0066FF and #10069A; candidate from the official-source vector.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/cca54be5e7201b8c8346a4e8918746c81fdd4d8dd5341aadfbf14ba802792fa9.json",
+        "sha256": "cca54be5e7201b8c8346a4e8918746c81fdd4d8dd5341aadfbf14ba802792fa9"
+      },
+      "baseIconHash": "5acf0bca882eb300567b9484259460c755b114bbd4aa7cec831a0871f2b66427",
+      "candidate": {
+        "detailsJudgement": "Tile, hill, wordmark render cleanly in export frames on both themes; converter accepted the serialization.",
+        "faithful": true,
+        "iconHash": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a",
+        "path": "evidence/15701/candidate-e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a.svg",
+        "proportionsJudgement": "Official 200x200 artwork fills the cell; whole emblem including ring preserved.",
+        "rationale": "Existing icon is an icon-pack rendition with off-brand blues; current official app-mark vector (declared source leumi.co.il/en) used as-is with colors 0066FF and 10069A.",
+        "role": "official branded superellipse tile as published artwork",
+        "sha256": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a",
+        "sourceAssetUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/Bank_leumi_new_logo.svg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/Bank_leumi_new_logo.svg",
+        "transforms": [
+          "Percent-rgb fills re-serialized as identical hex values; default fill-opacity/stroke-opacity/fill-rule attributes dropped; affine transform matrix(1.020721,0,0,1.038529,0,0) flattened into the stroked path coordinates (raster verified pixel-identical)."
+        ],
+        "variant": "current official app-mark including wordmark; English variant per official leumi.co.il/en source; Hebrew-wordmark variant observed only as raster this run",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Replaced icon-pack colors with official ones; official tile silhouette and wordmark now present."
+      },
+      "candidateIconHash": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a",
+      "checkedAt": "2026-10-03T23:26:19.287356Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5dbe0973bacd8c6c01097b682f044b9de939fe53caf30c50cbe1ccb3d1af8253",
+        "head": "bank-icon-maintenance/15701",
+        "headCommit": "e5b5d6475e9f026839505b8eff65ee598a842c84",
+        "number": 86,
+        "observedAt": "2026-10-03T23:58:36.691045Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: לאומי (Company.id 15701)",
+        "url": "https://github.com/zenmoney/banks/pull/86"
+      },
+      "reason": "Existing icon is an icon-pack rendition with #5591ED/#2B4594; the current Leumi app-mark uses #0066FF and navy #10069A. Official site was unreachable this run, so the current vector was obtained from Wikipedia's Bank_leumi_new_logo.svg whose declared source is leumi.co.il/en; currency supported by the 2026-09-23 archived homepage showing the same current mark.",
+      "reviewPackage": {
+        "path": "evidence/15701/candidate-00f014bc658ace1eae782d76bb3680ddc82b908e23ca8209b51f2863ecdca5d9.json",
+        "sha256": "00f014bc658ace1eae782d76bb3680ddc82b908e23ca8209b51f2863ecdca5d9"
+      },
+      "sourceCandidate": {
+        "iconHash": "f6108b8b182e49ec93f6f72c1a87912d29b5aa419fcc78e42c4bd9403ec693e9",
+        "path": "evidence/15701/research-0063cf8d38934050a961dbff2bdb9d12/fetch-c2d3cf6ecb0c4bad9fdbfd0db9ca3b04/attempt-2/body.bin",
+        "rationale": "Vector of the current official app-mark (declared source leumi.co.il/en); geometry copied without redraw. Existing icon has off-brand colors (#5591ED/#2B4594 vs #0066FF/#10069A).",
+        "retrieval": {
+          "path": "evidence/15701/research-0063cf8d38934050a961dbff2bdb9d12/fetch-c2d3cf6ecb0c4bad9fdbfd0db9ca3b04/receipt.json",
+          "sha256": "07a927cb2cd8c6d3e2244bf2059049053e32f6e01ef1ed2857488b022a5d98a2"
+        },
+        "sourceAssetUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/Bank_leumi_new_logo.svg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/Bank_leumi_new_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/Bank_leumi_new_logo.svg",
+          "checkedAt": "2026-10-03T23:22:05Z",
+          "independenceGroup": "leumi-wikipedia",
+          "kind": "third-party",
+          "observation": "Current Leumi logo vector (200x200 app-mark, fills rgb(0%,40%,100%) and rgb(6.27%,2.35%,60.39%)); file page declares source leumi.co.il/en.",
+          "url": "https://en.wikipedia.org/wiki/Special:Redirect/file/Bank_leumi_new_logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T23:21:42Z",
+          "independenceGroup": "leumi-wikipedia",
+          "kind": "third-party",
+          "observation": "File page: source https://www.leumi.co.il/en; description 'Logo for Bank Leumi'.",
+          "url": "https://en.wikipedia.org/wiki/File:Bank_leumi_new_logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T23:19:23Z",
+          "independenceGroup": "leumi-archive",
+          "kind": "third-party",
+          "observation": "2026-09-23 snapshot of the official homepage shows the same current mark (logoLeumi.png). Live leumi.co.il was unreachable: curl timed out mid-transfer three times and Chromium navigation timed out after 90s.",
+          "url": "https://web.archive.org/web/20260923085905/https://www.leumi.co.il/he"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T23:42:16.685634Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a",
+        "xmlSha256": "ff54d2e03966bbe922b6b414bb1bd3093a09aa22f2816825a9ae805bbcf31084"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
