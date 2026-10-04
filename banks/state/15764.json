@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-04T03:44:40.592147Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15764/assessed-f88c3201692646a2b4e51fb29e41da92dfba2e87ee585db81bdf5ab4d2484a73.json",
+        "sha256": "f88c3201692646a2b4e51fb29e41da92dfba2e87ee585db81bdf5ab4d2484a73"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "For this historical record the relevant period is the last independent brand period (ended 2025-01); the candidate mark matches that period per the independent lockup source. Continued-use evidence is not required for a discontinued brand; merger facts recorded.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Circular O emblem is the documented last-period Otkritie Bank mark; record title/fullTitle and RU country match.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Wikimedia vector and Interfax news are mutually independent; open.ru access failure disclosed and does not override the period evidence.",
+        "uncertainties": [
+          "No live official source of the period mark remains (site closed, VTB bot-protected); provenance relies on the independent Wikimedia vector for the historical period."
+        ],
+        "variant": {
+          "basis": "Standalone circular emblem from the lockup, self-contained single path; wordmark excluded. Transparent outside the disc; no backing added.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/de9aa8f1636b2e1e13c99ec4ec802a1843ba5144558fcf35c4425c0ab0ea05de.json",
+        "sha256": "de9aa8f1636b2e1e13c99ec4ec802a1843ba5144558fcf35c4425c0ab0ea05de"
+      },
+      "baseIconHash": "d5da05b0e5cd89c6e3fb2a6034ed5d12a3ab4e04d634e34198c326276afb1396",
+      "candidate": {
+        "detailsJudgement": "Disc geometry, glyph aperture angles and cut positions match the source path exactly; single fill #02BAE8 unchanged.",
+        "faithful": true,
+        "iconHash": "d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994",
+        "path": "evidence/15764/candidate-d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994.svg",
+        "proportionsJudgement": "Circular emblem fills the cell with even margins at 240px; glyph remains legible at small sizes on both themes.",
+        "rationale": "Historical-period correction: the last independent Otkritie brand mark (cyan #02BAE8 circular emblem) replaces an accepted variant that deviates with a lighter color and an extra white inner plate.",
+        "role": "standalone circular brand emblem (single self-contained path from the independent last-period vector, wordmark excluded per catalog suitability)",
+        "sha256": "d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg",
+        "transforms": [
+          "viewBox narrowed to the emblem bounds (0 0 44 44); the single emblem path carried over unchanged",
+          "SVGO 4.1.0 with the frozen repository svgo.config.mjs: 758→687 bytes; trial selected, renders verified identical to working on both themes"
+        ],
+        "variant": "authentic last-period mark, cyan disc with white glyph; transparency outside the disc preserved; no backing added",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Correction to the authentic period mark: correct brand cyan #02BAE8 and the real glyph shape, replacing the accepted lighter variant with a spurious white inner plate; not a rebrand (the brand itself is unchanged for its historical period)."
+      },
+      "candidateIconHash": "d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994",
+      "checkedAt": "2026-10-04T03:44:40.592147Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3330787d39946eb819137fb6452ecabda72c3c8fbba740b4d423e1a89bbc6672",
+        "head": "bank-icon-maintenance/15764",
+        "headCommit": "4e14c7d1a86dd5b6ac79fc6b1702fecd3eb32643",
+        "number": 96,
+        "observedAt": "2026-10-04T03:50:23.492104Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Открытие\" Бизнес (Company.id 15764)",
+        "url": "https://github.com/zenmoney/banks/pull/96"
+      },
+      "reason": "Historical record: Банк ФК Открытие merged into БМ-банк (VTB) on 2025-01-01 and branches rebranded to ВТБ; the record is retained for the last independent brand period. The accepted icon deviates from that period's authentic mark (extra white inner plate, lighter #4ab9e4 instead of #02BAE8), so a period-mark correction candidate is prepared.",
+      "reviewPackage": {
+        "path": "evidence/15764/candidate-a68b4eaec3e8a9cabcdcfc10c54aeb202652eb39091d2ac8ff7f1b79c79d3ef3.json",
+        "sha256": "a68b4eaec3e8a9cabcdcfc10c54aeb202652eb39091d2ac8ff7f1b79c79d3ef3"
+      },
+      "sourceCandidate": {
+        "iconHash": "9bb92c2fbfd2188bbdec5d91886093f8ee5b593b77c82b69e0a3bcff7e19b459",
+        "path": "evidence/15764/research-dfa6c9c6f7e3486b84a7ed4c2f23edd6/fetch-ebe74128bc434df3b47f938e0a449da8/attempt-1/body.bin",
+        "rationale": "Independent original vector of the last-period mark; its circular emblem is a single self-contained path carried over losslessly to correct the accepted icon's color and spurious inner plate.",
+        "retrieval": {
+          "path": "evidence/15764/research-dfa6c9c6f7e3486b84a7ed4c2f23edd6/fetch-ebe74128bc434df3b47f938e0a449da8/receipt.json",
+          "sha256": "eef93ee9358b2df3503c41abd73ba367b4c0ff42dd9703a0ad2a5a7869d7511c"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg",
+          "checkedAt": "2026-10-04T03:23:00Z",
+          "independenceGroup": "Wikimedia Commons file (independent of the catalog)",
+          "kind": "third-party",
+          "observation": "Original-vector 280x44 lockup of the last Otkritie brand: cyan #02BAE8 circular O emblem (single self-contained path) plus ОТКРЫТИЕ | Банк wordmark in #1F232B; matches the brand's last independent period.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T03:23:00Z",
+          "independenceGroup": "Interfax news",
+          "kind": "third-party",
+          "observation": "Interfax: merger into БМ-банк completed 2025-01-01, offices rebranded to ВТБ by 2025-01-09; establishes the historical-period context.",
+          "url": "https://www.interfax.ru/business/1002133"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T03:23:00Z",
+          "independenceGroup": "official site access attempt",
+          "kind": "official",
+          "observation": "HTTP 401 on fetch; former bank site no longer serves brand material. VTB serves former clients at vtb.ru/open (bot-protected, fetch 403).",
+          "url": "https://open.ru"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T03:45:40.163110Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994",
+        "xmlSha256": "482bd342c26c78e0e8795ef90511ff881aaf41ad5c222c0410ce798689109ac5"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
