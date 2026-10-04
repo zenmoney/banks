@@ -1,0 +1,110 @@
+{
+  "lastAttemptAt": "2026-10-03T23:25:12.664588Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15699/assessed-4505a9cbc8f73bd2dca2feaf3fc5a10530f037dc19290f945133afbffcf635c6.json",
+        "sha256": "4505a9cbc8f73bd2dca2feaf3fc5a10530f037dc19290f945133afbffcf635c6"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Lockup SVG is linked from the live homepage and the apple-touch avatar (fetched 2026-10-03) uses the same current smile variant.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official lockup shows the identical דיסקונט wordmark+smile emblem as the existing icon; observed on discountbank.co.il on 2026-10-03.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from the bank's own domain (one independence group, official).",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Existing icon is a mint-gradient circular rendition; official avatar uses flat brand green #00A661 with the same emblem — a color-corrected candidate from the official vector is justified.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/13fa62380b14aacc67daad0f92ac2e22dba9aa55a5091e281bc564921d1f0b0e.json",
+        "sha256": "13fa62380b14aacc67daad0f92ac2e22dba9aa55a5091e281bc564921d1f0b0e"
+      },
+      "baseIconHash": "227def4c523dbe7467c7fe662c00562bba8db7897786a1a7c8d7341b00b220a7",
+      "candidate": {
+        "detailsJudgement": "Wordmark and smile strokes render cleanly at 240px and in export frames on both themes; no broken subpaths or artifacts.",
+        "faithful": true,
+        "iconHash": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642",
+        "path": "evidence/15699/candidate-20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642.svg",
+        "proportionsJudgement": "Lockup scaled to 40/54 cell width, centered; complete emblem preserved with clear margins, no clipping.",
+        "rationale": "Existing icon is an icon-pack rendition with mint gradient 56B28D-60BD68 and non-official glyph geometry; official vector (white wordmark+smile) copied without redraw over brand green 00A661 from the official avatar.",
+        "role": "plain brand-green circular field with white official lockup; circle chosen per plain-field rule, matching the circular presentation of the previous icon",
+        "sha256": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642",
+        "sourceAssetUrl": "https://www.discountbank.co.il/media/q1zjqb5z/logo-landing-1.svg",
+        "sourceUrl": "https://www.discountbank.co.il/media/q1zjqb5z/logo-landing-1.svg",
+        "transforms": [
+          "Official SVG root children wrapped unchanged in translate(7 19.857) scale(0.357142) inside a 54-unit viewport; plain #00A661 circle background added as the circular field."
+        ],
+        "variant": "official English-of-record style lockup (Hebrew wordmark) identical to previous icon's variant, colors corrected to current brand",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Color corrected from mint gradient to flat brand green 00A661; glyph geometry replaced by official outlines."
+      },
+      "candidateIconHash": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642",
+      "checkedAt": "2026-10-03T23:25:12.664588Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "517f147306b609d7a00a4016aa31596008ee422cf5dbf9080f24c2c370d693dd",
+        "head": "bank-icon-maintenance/15699",
+        "headCommit": "c65121a1a6486c8fb87f6dedbd256fef176477bc",
+        "number": 84,
+        "observedAt": "2026-10-03T23:52:26.195295Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: דיסקונט (Company.id 15699)",
+        "url": "https://github.com/zenmoney/banks/pull/84"
+      },
+      "reason": "Existing icon is an icon-pack rendition (clip0_49_2807) with a mint gradient (56B28D-60BD68) that does not match current brand green; official site serves the current wordmark+smile lockup as an original vector and the official apple-touch avatar uses flat green #00A661.",
+      "reviewPackage": {
+        "path": "evidence/15699/candidate-a760afe2b31b1c0aa4ac14ea971a0bff326f42305d3c4e461158654f74ae73b7.json",
+        "sha256": "a760afe2b31b1c0aa4ac14ea971a0bff326f42305d3c4e461158654f74ae73b7"
+      },
+      "sourceCandidate": {
+        "iconHash": "8fec2b4e49f7eb2fd1f8b400758ad91082019a158db88ced3884ee54e7d61a75",
+        "path": "evidence/15699/research-cf3d8165a3dd45499798100550759c4e/fetch-f75135c47d5548548726b5859890c484/attempt-1/body.bin",
+        "rationale": "Original vector served by the bank's own CMS (white wordmark+smile lockup); geometry copied without redraw. Existing icon is an icon-pack rendition with off-brand mint gradient (56B28D-60BD68); official avatar uses flat brand green #00A661, so a color-corrected candidate from the official vector is justified.",
+        "retrieval": {
+          "path": "evidence/15699/research-cf3d8165a3dd45499798100550759c4e/fetch-f75135c47d5548548726b5859890c484/receipt.json",
+          "sha256": "73baa818e7a9263282e0724b6ec5a2e369fd0d8c6b15c9137d68ec62a7c52641"
+        },
+        "sourceAssetUrl": "https://www.discountbank.co.il/media/q1zjqb5z/logo-landing-1.svg",
+        "sourceUrl": "https://www.discountbank.co.il/media/q1zjqb5z/logo-landing-1.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.discountbank.co.il/media/q1zjqb5z/logo-landing-1.svg",
+          "checkedAt": "2026-10-03T23:12:36Z",
+          "independenceGroup": "discount-official",
+          "kind": "official",
+          "observation": "Official header lockup SVG (white wordmark+smile) linked from the live homepage; fetched via receipt.",
+          "url": "https://www.discountbank.co.il/media/q1zjqb5z/logo-landing-1.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T23:18:12Z",
+          "independenceGroup": "discount-official",
+          "kind": "official",
+          "observation": "Official app avatar: flat green #00A661 field with white smile, 180x180",
+          "url": "https://www.discountbank.co.il/apple-touch-icon.png"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T23:42:13.417490Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642",
+        "xmlSha256": "5938a008e7d2d1ea18c100a98d443eeb8e800ca66785274ee4bcabddf4f88b74"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
