@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-04T11:43:20.414942Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15878/assessed-78b2792970ff88e0902dedc861a42bea4aef41405a2317ad4f683e2abe7891ea.json",
+        "sha256": "78b2792970ff88e0902dedc861a42bea4aef41405a2317ad4f683e2abe7891ea"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "2017 rebrand announced by CGD press office and documented by dated independent sources; no later redesign observed as of 2026-10-04. Live cgd.pt verification blocked by 403 (technical, disclosed).",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The vector is the CGD 'Caixa' symbol (hexagonal interlocking mark with green/red Portuguese-flag brush accents); file attributed to Caixa Geral de Depósitos and matches the design depicted (defectively) by the accepted SVG.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Commons vector credited to CGD (one attribution chain), CGD press-office rebrand announcement (official), and direct offscreen/raster comparison of the accepted SVG; not copies of one source.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone symbol without wordmark in official colors; same variant as the accepted baseline but with complete brush strokes and original geometry.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c7372ad5851a04f794b5438d00d5e85538efb9649c0c11c044c8fa30a0420806.json",
+        "sha256": "c7372ad5851a04f794b5438d00d5e85538efb9649c0c11c044c8fa30a0420806"
+      },
+      "baseIconHash": "00ef67e1b85bdd889347bd4cb2e785377d67f1faad3545d360240b814b045d7c",
+      "candidate": {
+        "detailsJudgement": "All original details preserved: hexagonal interlocking symbol geometry, blue fill, and both green and red gradient brush strokes including their texture edges; internal transparency unchanged.",
+        "faithful": true,
+        "iconHash": "4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1",
+        "path": "evidence/15878/candidate-4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1.svg",
+        "proportionsJudgement": "Emblem proportions match the source exactly (uniform scale only); it fits the 54 dp cell with margins on both themes and remains recognizable at small sizes.",
+        "rationale": "Repairs the accepted icon's lost green brush stroke and restores the original geometry of the current CGD 'Caixa' mark from the original 2017-rebrand vector credited to CGD.",
+        "role": "standalone bank symbol without wordmark on transparent background",
+        "sha256": "4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg",
+        "transforms": [
+          "Original SVG used as source; CSS class fills inlined as presentation attributes (no geometry change); source viewBox already crops the 212.6 canvas to the emblem",
+          "Set width/height proportional to the source viewBox (54 x 43.23); uniform scale only, no crop or distortion of the emblem",
+          "SVGO 4.1.0 with frozen svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 54010 -> 17544 bytes, optimized selected (240 px render pixel-identical to working)"
+        ],
+        "variant": "current 2017-rebrand 'Caixa' emblem, official blue #0071B9 with green/red gradient brush strokes",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base/final offscreen pairs show the accepted icon lost nearly all of the green brush stroke (only a sliver beside the red stroke) and rendered the emblem white on a blue rounded square; the final renders the complete original blue emblem with both green and red strokes on a transparent field."
+      },
+      "candidateIconHash": "4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1",
+      "checkedAt": "2026-10-04T11:43:20.414942Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "77f2c57d06d62417105db5d56053d7f40f988bfc2052245c2ce30aebf401e503",
+        "head": "bank-icon-maintenance/cgd-15878",
+        "headCommit": "f0e429bdfa828ab279fa08c71d75220b242054c9",
+        "number": 118,
+        "observedAt": "2026-10-04T12:08:26.946294Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Caixa Geral De Depositos (Company.id 15878)",
+        "url": "https://github.com/zenmoney/banks/pull/118"
+      },
+      "reason": "Accepted SVG drops most of the green brush stroke of the current CGD 'Caixa' mark (offscreen render shows only a tiny green sliver beside the red stroke, while the original vector renders full green+red strokes), a visible render/geometry repair supported by the original vector. Proposal replaces it with the original SVG of the 2017-rebrand mark (blue #0071B9 symbol with green/red brush accents), credited to Caixa Geral de Depósitos.",
+      "reviewPackage": {
+        "path": "evidence/15878/candidate-1a30d43932c628bdd789ed3d635df308f5d26d0390287344448e529338a49afd.json",
+        "sha256": "1a30d43932c628bdd789ed3d635df308f5d26d0390287344448e529338a49afd"
+      },
+      "sourceCandidate": {
+        "iconHash": "f0e6e0f46225429f8f13cfd1e770d9200722636d2febc8456de8db5b69ff3efd",
+        "path": "evidence/15878/research-d569e76fd05e45e1809ad8fd763401f3/fetch-06aba7a0667d4813a237ce44a86b1825/attempt-1/body.bin",
+        "rationale": "Original vector of the current CGD 'Caixa' mark with complete green/red brush strokes; repairs the accepted SVG's missing green stroke and restores original geometry. Catalog presentation (white symbol on blue square field) to be adapted in the working SVG from the original paths.",
+        "retrieval": {
+          "path": "evidence/15878/research-d569e76fd05e45e1809ad8fd763401f3/fetch-06aba7a0667d4813a237ce44a86b1825/receipt.json",
+          "sha256": "a870bbadf80e815ded1583d88449506db4205ec12af65e792125db1d1f394a79"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg",
+          "checkedAt": "2026-10-04T11:38:27Z",
+          "independenceGroup": "Wikimedia Commons (CGD-attributed vector)",
+          "kind": "third-party",
+          "observation": "Wikimedia Commons file https://commons.wikimedia.org/wiki/File:Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg (receipt fetch-da9833993e7445d09ee6bc140e279995) dates the file to 2017 and credits Caixa Geral de Depósitos. Original SVG (54556 bytes, 5 paths, viewBox 1.5 27.2 163.25 130.6). Rendered independently with rsvg-convert: complete 'Caixa' symbol in CGD blue #0071B9 with full green and red brush strokes. Retrieved via workflow.py fetch receipt fetch-06aba7a0667d4813a237ce44a86b1825.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T11:37:15Z",
+          "independenceGroup": "cgd.pt primary publication",
+          "kind": "official",
+          "observation": "CGD 2017 press announcement of the new 'Caixa' brand concept (search-result evidence); cgd.pt direct fetches returned HTTP 403 on all attempts (receipts fetch-* recorded), so official bytes could not be retrieved.",
+          "url": "https://www.cgd.pt/Sala-de-Imprensa/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T11:52:16Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1",
+        "xmlSha256": "f9cb744649c62fd4de38a451f5150cb92db42acde1b6a03187bca0a38fb506c4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

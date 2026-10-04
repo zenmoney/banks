@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-04T11:46:27.131196Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15877/assessed-c5ac3e2e6dba3512dca5532d9f01fbdf5d86ccfd710f7a0a2a3017f412d96169.json",
+        "sha256": "c5ac3e2e6dba3512dca5532d9f01fbdf5d86ccfd710f7a0a2a3017f412d96169"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Asset served by the live ing.es homepage on 2026-10-04; ING orange-lion identity unchanged.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The extracted orange path is the ING sitting lion from the official ing.es homepage asset; identical mark to the one depicted (color-inverted) by the accepted SVG.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Live ing.es homepage asset plus ING corporate history context; the offscreen render of the accepted SVG was observed directly.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone lion symbol without wordmark, official fill #ff6800 on white/transparent field; the accepted baseline's white-lion-on-orange inversion is not an observed official variant.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/e1dad749be1d95122e880b99f418c641750fc06d19ef4b3a04f8731dd9af3172.json",
+        "sha256": "e1dad749be1d95122e880b99f418c641750fc06d19ef4b3a04f8731dd9af3172"
+      },
+      "baseIconHash": "db6cfcdb9e6623af83a7deed4f0d1c274d0ac5f48170d1c04621cd7168defc31",
+      "candidate": {
+        "detailsJudgement": "All lion details preserved: mane, face, legs, tail and body cutout details match the official path; single flat official orange fill; internal transparency unchanged.",
+        "faithful": true,
+        "iconHash": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c",
+        "path": "evidence/15877/candidate-7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c.svg",
+        "proportionsJudgement": "Emblem proportions match the source exactly (uniform scale only); the lion spans the 54 dp cell width with margins and is clearly recognizable on both themes at small sizes.",
+        "rationale": "Repairs the accepted icon's unsupported white-on-orange color inversion with the officially presented orange-on-white ING lion from the original ing.es vector.",
+        "role": "standalone bank symbol (sitting lion) without wordmark on transparent background",
+        "sha256": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c",
+        "sourceAssetUrl": "https://www.ing.es/binaries/content/gallery/hipposp/ContentBlockImageSet/comunes/ing_leon-01.svg",
+        "sourceUrl": "https://www.ing.es/binaries/content/gallery/hipposp/ContentBlockImageSet/comunes/ing_leon-01.svg",
+        "transforms": [
+          "Standalone lion path (class cls-2) extracted losslessly from the official 321.2 x 79.85 lockup; navy ING wordmark path excluded (the wordmark is not part of the standalone mark); class fill inlined as fill attribute, no geometry change",
+          "viewBox set to the lion path bounds (199.12 0 122.08 78.85) with proportional width/height 54 x 34.86; uniform scale only, no crop or distortion of the emblem",
+          "SVGO 4.1.0 with frozen svgo.config.mjs (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 14558 -> 14495 bytes, optimized selected (pixel-identical to working on both themes)"
+        ],
+        "variant": "current ING orange lion, official fill #ff6800",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base/final offscreen pairs show the accepted white-lion-on-orange-disc inversion replaced by the official orange-lion-on-transparent presentation; the lion geometry itself is unchanged from the source."
+      },
+      "candidateIconHash": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c",
+      "checkedAt": "2026-10-04T11:46:27.131196Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "50f51464c53a3fb246749d095caa7e01b56d5909e1cef77346048c98b3fe05ce",
+        "head": "bank-icon-maintenance/ing-15877",
+        "headCommit": "2ceaf6cbd862b71418284bba32f0daa29a3f0de6",
+        "number": 117,
+        "observedAt": "2026-10-04T12:04:19.481616Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ING (Company.id 15877)",
+        "url": "https://github.com/zenmoney/banks/pull/117"
+      },
+      "reason": "Accepted SVG inverts the current ING lion presentation: it renders a white lion on an orange disc, while the official current mark is an orange (#ff6800) lion on white. The official ing.es lockup vector (ing_leon-01.svg) confirms the orange-on-white presentation and provides an original lion path; a color-corrected candidate from that original vector is supported.",
+      "reviewPackage": {
+        "path": "evidence/15877/candidate-77ea0b16836389d768d0b10a5cf45f87d467ca5458c86a712eced2ae5480bca0.json",
+        "sha256": "77ea0b16836389d768d0b10a5cf45f87d467ca5458c86a712eced2ae5480bca0"
+      },
+      "sourceCandidate": {
+        "iconHash": "ad41002b9ed1d3afe3fe7a6ecce6591890c4a76c18f479e31c451a9eec824927",
+        "path": "evidence/15877/research-458265a2ad6f48b6b4b25e686a89709a/fetch-b140f42e436347e5a5d5683e9b227595/attempt-1/body.bin",
+        "rationale": "Original vector of the current ING lion in official orange #ff6800; repairs the accepted SVG's unsupported white-on-orange color inversion with the officially presented orange-on-white lion.",
+        "retrieval": {
+          "path": "evidence/15877/research-458265a2ad6f48b6b4b25e686a89709a/fetch-b140f42e436347e5a5d5683e9b227595/receipt.json",
+          "sha256": "b66687c59074fdca0ceaaf7c79b28d62ec3765633f02628a09aa6e00014ede0a"
+        },
+        "sourceAssetUrl": "https://www.ing.es/binaries/content/gallery/hipposp/ContentBlockImageSet/comunes/ing_leon-01.svg",
+        "sourceUrl": "https://www.ing.es/binaries/content/gallery/hipposp/ContentBlockImageSet/comunes/ing_leon-01.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.ing.es/binaries/content/gallery/hipposp/ContentBlockImageSet/comunes/ing_leon-01.svg",
+          "checkedAt": "2026-10-04T11:39:00Z",
+          "independenceGroup": "ing.es primary publication",
+          "kind": "official",
+          "observation": "Original SVG 'ING_Leon' (viewBox 0 0 321.2 79.85; two paths: navy #000169 ING wordmark and orange #ff6800 lion) referenced as <img> on the live https://www.ing.es/ homepage HTML (receipt fetch-b140f42e436347e5a5d5683e9b227595, HTTP 200, 15559 bytes). Lion path extracts losslessly and renders the complete sitting lion with tail.",
+          "url": "https://www.ing.es/binaries/content/gallery/hipposp/ContentBlockImageSet/comunes/ing_leon-01.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T11:37:00Z",
+          "independenceGroup": "ing.com primary publication",
+          "kind": "official",
+          "observation": "ING corporate history pages confirm the orange lion identity in continuous use; no successor design observed as of 2026-10-04.",
+          "url": "https://www.ing.com/About-us/Our-history.htm"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T11:54:49Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c",
+        "xmlSha256": "53652255272bb874f65565525d7d1f859594da7bbe2f7c44553eb4fb520f33e9"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
