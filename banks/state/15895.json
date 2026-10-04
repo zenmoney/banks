@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-04T13:14:41.134006Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15895/assessed-c453f68be84a7463fcf721d2812ce47d0c982c8bf72c68b84cdbe27a6ea82615.json",
+        "sha256": "c453f68be84a7463fcf721d2812ce47d0c982c8bf72c68b84cdbe27a6ea82615"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current official page uses this mobile-header logo and shows current October 2026 offerings and notices; no successor substitution.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record IDBank AM idbank.am matches operating Armenian ID Bank CJSC identified on official English website.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Direct primary operating-bank website plus its own original vector; these are one publication group, not independent corroboration. Primary identity and contemporaneous use resolve the relevant gaps.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone orange emblem is complete first path of official mobile-header lockup, with source color and internal transparency preserved. Remove separate wordmark only; no backing added. Suitable nested triangular bank mark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/7588203769d5e12cdd29f142624c42384d62281e892db03e508724a22ea65d12.json",
+        "sha256": "7588203769d5e12cdd29f142624c42384d62281e892db03e508724a22ea65d12"
+      },
+      "baseIconHash": "3d60574924204aa0d4ecdf190cc06eba41354235a1f2051825c7ac5b0e5c8076",
+      "candidate": {
+        "detailsJudgement": "Full bound original raster and source/final pairs inspected; three orange nested contours, rounded triangular aperture and transparent spaces survive. No emblem segment removed or repainted. Independent working/optimized comparison showed no visible change.",
+        "faithful": true,
+        "iconHash": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d",
+        "path": "evidence/15895/candidate-3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d.svg",
+        "proportionsJudgement": "Actual final Compose frames show full emblem centered with clear surrounding space on both themes, no clipping or distortion. Resized bound-frame 24/32/48px diagnostics preserve recognizable rings and center aperture; 24px is denser but still legible. Transparent mark requires no circle/background adaptation.",
+        "rationale": "Correct the standalone bank emblem to current official original-vector geometry and #F5821E orange. Actual before/after shows rounder inner aperture corners and altered ring/base contours; not a rebrand or serialization-only update. Baseline provenance is unestablished.",
+        "role": "standalone bank emblem",
+        "sha256": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d",
+        "sourceAssetUrl": "https://idbank.am/images/m-logo.svg",
+        "sourceUrl": "https://idbank.am/en/",
+        "transforms": [
+          "Copy complete first original path without geometry or paint changes; omit only separate second wordmark path. Square viewBox 0 0 24.858 24.858 and uniform translation y +0.429 retain whole emblem centered without clipping.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2242 to 1703 bytes; selected final SHA256 3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d after independent working/optimized light/dark comparison."
+        ],
+        "variant": "Complete orange #F5821E nested triangular symbol from current official mobile-header logo, transparent negative spaces, separate gray wordmark omitted. No background added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Actual base/final pairs show fuller, differently rounded outer and inner rings and softened source-backed triangular aperture corners; source orange #F5821E replaces baseline #fd7e13. Both are legible but final restores official source contours/color."
+      },
+      "candidateIconHash": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d",
+      "checkedAt": "2026-10-04T13:14:41.134006Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "702c32c9f4291e546dbd2a10f3018fc2ed7eaa09645e348128486caf6031d1f2",
+        "head": "bank-icon-maintenance/w8pdbui1-15895",
+        "headCommit": "1bdab52d55a3e74a68687290b490a8480013c34a",
+        "number": 120,
+        "observedAt": "2026-10-04T13:31:07.146156Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: IDBank (Company.id 15895)",
+        "url": "https://github.com/zenmoney/banks/pull/120"
+      },
+      "reason": "Official current logo supplies an original orange standalone emblem; baseline uses visibly different reconstructed curves and #fd7e13 instead of source #F5821E. Propose geometry/color correction, not a rebrand.",
+      "reviewPackage": {
+        "path": "evidence/15895/candidate-1220a23b5d5651384144a549127ea6d5fa991c8845844e1bd78575cbf359e36f.json",
+        "sha256": "1220a23b5d5651384144a549127ea6d5fa991c8845844e1bd78575cbf359e36f"
+      },
+      "sourceCandidate": {
+        "iconHash": "7c4d3f8628e6a0e180b1833bfd5cd62c4c2c94daba64be2eefade345e72a1275",
+        "path": "evidence/15895/research-6a762f25fc164973af7f59cbb32dbcbe/fetch-f6768949a33f47fbbfc2d26d30d2ff69/attempt-1/body.bin",
+        "rationale": "Restore current original-vector geometry and exact orange #F5821E; baseline has different color and rounded triangle curves. Preserve complete first original path as standalone emblem; remove separate bank lettering.",
+        "retrieval": {
+          "path": "evidence/15895/research-6a762f25fc164973af7f59cbb32dbcbe/fetch-f6768949a33f47fbbfc2d26d30d2ff69/receipt.json",
+          "sha256": "6c9baffffb149b1ee787bbc9a806f1af664abf5cb9ff935aadf6e4090405b5b4"
+        },
+        "sourceAssetUrl": "https://idbank.am/images/m-logo.svg",
+        "sourceUrl": "https://idbank.am/en/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://idbank.am/images/m-logo.svg",
+          "checkedAt": "2026-10-04T13:13:29.673417Z",
+          "independenceGroup": "IDBank official website",
+          "kind": "official",
+          "observation": "Official English operating-bank site identifies ID Bank CJSC supervised by Central Bank of Armenia, has 2026 banking notices and updated 02.10.2026 footer; mobile header references /images/m-logo.svg. Download is two-path original SVG: orange #F5821E standalone nested triangular emblem plus gray wordmark. Full original independently rasterized and inspected.",
+          "url": "https://idbank.am/en/"
+        },
+        {
+          "assetUrl": "https://idbank.am/local/assets/favicons/safari-pinned-tab.svg",
+          "checkedAt": "2026-10-04T13:13:29.673417Z",
+          "independenceGroup": "IDBank official website",
+          "kind": "official",
+          "observation": "Current page references pinned-tab SVG. Download explicitly says Created by potrace 1.14; rejected as traced replacement source. Use authored mobile-header vector instead.",
+          "url": "https://idbank.am/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T13:18:11.406166Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d",
+        "xmlSha256": "bd7cd779c9512f86bf464b2cab4e5a51f69e99aec4237f84c2eda4b7476e3d0c"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
