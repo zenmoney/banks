@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-04T20:42:43.942202Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16018/assessed-c6ba1810843f0a751a721826c602ffc0d7e7c1c54932e095eacf83c74887a3c6.json",
+        "sha256": "c6ba1810843f0a751a721826c602ffc0d7e7c1c54932e095eacf83c74887a3c6"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current use observed in 2026 on the live online-banking portal, live site and archived 2026-02-03 capture; the accepted swirl mark is the 2016 launch-era design it replaced.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Candidate is the documented current Nest Bank sygnet 'N!' (press-kit sygnet 'Confident Graphite_Violet', portal favicon, site header) for the same operating bank record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Live portal asset, archived bank site, press-kit sygnet PNG and site favicon are independent official records converging on the same design.",
+        "uncertainties": [
+          "Exact rebrand announcement date unverified (prowly.com blocks automated fetch, including via Wayback)"
+        ],
+        "variant": {
+          "basis": "Standalone monogram variant ('N!'), the mark the bank itself publishes standalone; exact rebrand date unverified (press release host blocked) but current use is confirmed regardless.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/666ddad1cfcd3b94bf861f3eacc1f125f6eaaf26a6f4c0523d828cb39c56456d.json",
+        "sha256": "666ddad1cfcd3b94bf861f3eacc1f125f6eaaf26a6f4c0523d828cb39c56456d"
+      },
+      "baseIconHash": "b71026a154e82db97aa881185675ecc4adf0fb18824f92c84edbbff9c7227a4c",
+      "candidate": {
+        "detailsJudgement": "All mark details preserved: the N with its slanted cut, the separate vertical bar of the '!' and its round dot; internal transparency kept; no lost or filled features",
+        "faithful": true,
+        "iconHash": "27f2a14711f73d542c523836d9fab37a416877c4f013ef2c7a017ae2d703854c",
+        "path": "evidence/16018/candidate-27f2a14711f73d542c523836d9fab37a416877c4f013ef2c7a017ae2d703854c.svg",
+        "proportionsJudgement": "Complete monogram fills the square cell edge-to-edge exactly as the source publishes it; legible on both themes at target sizes in the Desktop frames; no clipping or distortion",
+        "rationale": "Evidenced rebrand of an operating bank: Nest Bank replaced the 2016 launch-era swirl-with-text badge with the violet 'N!' standalone monogram, observed as the portal favicon, site header logo and press-kit sygnet in 2026; the accepted SVG no longer represents the bank's current mark.",
+        "role": "Standalone monogram mark ('N!' — the exclamation dot is part of the mark; letters form the mark itself, no accompanying bank name or slogan)",
+        "sha256": "27f2a14711f73d542c523836d9fab37a416877c4f013ef2c7a017ae2d703854c",
+        "sourceAssetUrl": "https://online.nestbank.pl/favicon.svg",
+        "sourceUrl": "https://online.nestbank.pl/",
+        "transforms": [
+          "No geometry change; whole-emblem uniform scale only (viewBox 0 0 16 16 preserved, width/height set to 54); placement matches the source's edge-to-edge composition, no added margin.",
+          "SVGO (installed CLI, frozen repo config, receipt in evidence/16018/optimize/svgo-receipt.json): 852 -> 559 bytes, trial selected; working vs optimized 240px renders differ only at 12 edge pixels by alpha 1 (antialiasing rounding), visually identical."
+        ],
+        "variant": "Current official standalone variant, violet #BCA8FF on transparent background as published; no circular backing observed in official use and none applied",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The bank's evidenced rebrand: the accepted nest-swirl badge is visibly replaced by the current violet 'N!' monogram; different design, same bank record."
+      },
+      "candidateIconHash": "27f2a14711f73d542c523836d9fab37a416877c4f013ef2c7a017ae2d703854c",
+      "checkedAt": "2026-10-04T20:42:43.942202Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "4e59c69573840642a10d7d546b28f8888182d8aa0d39f2555ee53b3593dacb88",
+        "head": "bank-icon-maintenance/16018",
+        "headCommit": "0683962aa7c255a640862ef7e8b9a33c4e7dc3b9",
+        "number": 137,
+        "observedAt": "2026-10-04T21:01:23.425183Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Nest Bank Biznes (Company.id 16018)",
+        "url": "https://github.com/zenmoney/banks/pull/137"
+      },
+      "reason": "Evidenced rebrand of an operating bank: Nest Bank retired the 2016 launch-era mark (dark-brown circle with light-blue nest swirl, the accepted SVG) in favor of the violet 'N!' monogram (violet #BCA8FF on graphite), used as the portal favicon, site header logo and press-kit sygnet. The official online-banking portal publishes an original standalone vector of the new mark (favicon.svg, three filled paths, not a raster wrapper), which is the candidate.",
+      "reviewPackage": {
+        "path": "evidence/16018/candidate-c9d1db675fdb1a6c8062070ea98f75e7e0fea9f99509bcfa65161bdb733bd838.json",
+        "sha256": "c9d1db675fdb1a6c8062070ea98f75e7e0fea9f99509bcfa65161bdb733bd838"
+      },
+      "sourceCandidate": {
+        "iconHash": "a98b7addbf407485d311ca4cc7e33445cc341f4c5e8e4c8f979a3646e7019748",
+        "path": "evidence/16018/research-c5b47fee83f94126b8603f71b20fa0e7/fetch-fe0e3818c2214c4ba4fba2cb3b2583ce/attempt-1/body.bin",
+        "rationale": "Evidenced rebrand of an operating bank: violet 'N!' monogram replaces the 2016-era nest-swirl mark; candidate is the bank's own published standalone original vector (three filled paths), visually identical to the official press-kit sygnet.",
+        "retrieval": {
+          "path": "evidence/16018/research-c5b47fee83f94126b8603f71b20fa0e7/fetch-fe0e3818c2214c4ba4fba2cb3b2583ce/receipt.json",
+          "sha256": "e5fe558287622a540fb392b1eebd08263e795654fd7294df481be9b366ece4a4"
+        },
+        "sourceAssetUrl": "https://online.nestbank.pl/favicon.svg",
+        "sourceUrl": "https://online.nestbank.pl/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://online.nestbank.pl/favicon.svg",
+          "checkedAt": "2026-10-04T20:40:00Z",
+          "independenceGroup": "official portal asset; press kit and site favicon are separate official records",
+          "kind": "official",
+          "observation": "The bank's own online-banking portal links and serves favicon.svg: the violet 'N!' standalone mark as three filled paths, an original published vector (not a traced redraw). Geometry and color visually match the official press-kit sygnet PNG and the nestbank.pl favicon.",
+          "url": "https://online.nestbank.pl/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T20:40:00Z",
+          "independenceGroup": "archived bank site, independent of the online portal",
+          "kind": "official",
+          "observation": "Archived 2026-02-03 capture of the operating bank's site confirms Nest Bank is active (not merged into VeloBank — that is the unrelated Getin Noble resolution successor) and uses the violet 'N!' branding.",
+          "url": "https://web.archive.org/web/20260203041804/https://nestbank.pl/o-banku"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T20:48:04.549164Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "27f2a14711f73d542c523836d9fab37a416877c4f013ef2c7a017ae2d703854c",
+        "xmlSha256": "698a390c3a8995c968d0bfe320ea51ba4b319642a9efb0d92e3df13dd95dedf1"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}

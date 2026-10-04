@@ -1,0 +1,113 @@
+{
+  "lastAttemptAt": "2026-10-04T20:42:44.800667Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16014/assessed-9d720bc2753655a18e4a4b4c797f1a1b68276267bef8e4aeb7b0024ba55e25fd.json",
+        "sha256": "9d720bc2753655a18e4a4b4c797f1a1b68276267bef8e4aeb7b0024ba55e25fd"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Served today by the official dskbank.bg of the operating OTP-group bank; the symbol is the brand mark announced in 2017 and still in use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Candidate is the same DSK Bank standalone symbol the accepted SVG represents; geometry identical to the official favicon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official favicon asset, bank press release, and the OTP-group relationship (Wikipedia corroboration) are independent records.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone symbol variant without text, published by the bank itself as favicon; colors per official source #50B848/#0F744A.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/abc950f2312a5b08a7b80e9ed0bf4a7eace6f376f979ee6e6a443f1e551dac1a.json",
+        "sha256": "abc950f2312a5b08a7b80e9ed0bf4a7eace6f376f979ee6e6a443f1e551dac1a"
+      },
+      "baseIconHash": "2f19fffa243d0b9e3da7595ee8ec5a6299e899f0ece525f22f4dc9bccad5fc32",
+      "candidate": {
+        "detailsJudgement": "All emblem details preserved: open-ring gap, disc, satellite dot, internal transparency; no lost strokes or negative-space features",
+        "faithful": true,
+        "iconHash": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8",
+        "path": "evidence/16014/candidate-f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8.svg",
+        "proportionsJudgement": "Complete emblem fits the square cell with balanced clearances at 240px render; useful size and optical weight match the base; no clipping on either theme",
+        "rationale": "Geometry-preserving color correction to the official source fills: the accepted icon reproduces the current DSK Bank mark with drifted colors (~59% of sampled pixels differ by >20 total RGB); the bank's own published favicon.svg is the authoritative standalone original vector.",
+        "role": "Standalone bank symbol (ring + disc + dot), the bank's favicon variant, no accompanying text",
+        "sha256": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8",
+        "sourceAssetUrl": "https://dskbank.bg/DSKbank/assets/web/images/favicons/favicon.svg",
+        "sourceUrl": "https://dskbank.bg/",
+        "transforms": [
+          "Dropped the source's redundant svgjs outer svg wrapper, its no-op luminance mask (full-canvas white rect, unresolved reference #mask0_48_20664) and the no-op prefers-color-scheme style block; the three emblem paths are byte-identical (serialization-only normalization, verified pixel-identical at 240px).",
+          "No geometry change; no scale/translation needed (source viewBox 0 0 35 35 used as-is).",
+          "SVGO (installed CLI, frozen repo config svgo.config.mjs sha256-bound in optimize/svgo-receipt.json): 1043 -> 900 bytes, trial selected; working vs optimized renders differ only in 0 pixels above alpha-level noise (max channel diff 8, 0 pixels >8 at 240px)."
+        ],
+        "variant": "Current official standalone symbol with source fills #0F744A/#50B848; no circular-backing presentation observed or applied; transparent outside the emblem",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Visible before/after color difference: inner disc and ring shift from the accepted file's drifted greens (#4fae2e/#016438) to the official source greens (#50B848/#0F744A); geometry and composition unchanged."
+      },
+      "candidateIconHash": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8",
+      "checkedAt": "2026-10-04T20:42:44.800667Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0ae3d77d54b2d3dad8d286e06092bc60015fd2f158c43c2da0ae2c9be271e16f",
+        "head": "bank-icon-maintenance/16014",
+        "headCommit": "5a52c1813f1298df2e8cfb87a7f8922baf9eb479",
+        "number": 136,
+        "observedAt": "2026-10-04T20:56:43.802711Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банка ДСК (Company.id 16014)",
+        "url": "https://github.com/zenmoney/banks/pull/136"
+      },
+      "reason": "The accepted SVG reproduces the current DSK Bank (OTP Group) standalone symbol with correct geometry, but its fill colors drift from the official source: inner disc #4fae2e vs official #50B848, ring #016438 vs official #0F744A; independent rendering shows ~59% of sampled pixels differing by >20 total RGB, a visible color shift. The official site serves the original vector favicon.svg, proposed as the color-corrected candidate.",
+      "reviewPackage": {
+        "path": "evidence/16014/candidate-95bf8120b2fc986a92b4c477e5f5b503075c188d71c93c998e839b5b77c388af.json",
+        "sha256": "95bf8120b2fc986a92b4c477e5f5b503075c188d71c93c998e839b5b77c388af"
+      },
+      "sourceCandidate": {
+        "iconHash": "d11239dc910ba6472bbc2a94ab67576216b402d05c63c89bf3a195150452f96b",
+        "path": "evidence/16014/research-edfa44010deb403693173e817e3460db/fetch-6b440fb585d542dab4e04061876669b0/attempt-1/body.bin",
+        "rationale": "Geometry-preserving color correction of the accepted icon to the official fills (#50B848/#0F744A) from the bank's own original vector; visible drift (~59% of sampled pixels differ by >20 RGB total) is confirmed by independent rasterization of both files.",
+        "retrieval": {
+          "path": "evidence/16014/research-edfa44010deb403693173e817e3460db/fetch-6b440fb585d542dab4e04061876669b0/receipt.json",
+          "sha256": "47032a6ef7b28d5fd077d028dd2bdd3ab4c89d1e45518e739fc3ec552a6aaf83"
+        },
+        "sourceAssetUrl": "https://dskbank.bg/DSKbank/assets/web/images/favicons/favicon.svg",
+        "sourceUrl": "https://dskbank.bg/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://dskbank.bg/DSKbank/assets/web/images/favicons/favicon.svg",
+          "checkedAt": "2026-10-04T20:40:00Z",
+          "independenceGroup": "official site favicon; press-kit page and 2017 rebrand announcement are separate official records",
+          "kind": "official",
+          "observation": "The official site serves favicon.svg: the standalone DSK symbol (light-green inner disc, dark-green open ring, top-right dot, no text) as an original published vector. Geometry matches the accepted SVG exactly; official fills are #50B848/#0F744A. Official press kit (media center) contains only mark+wordmark lockups (AI/CMYK), no standalone vector.",
+          "url": "https://dskbank.bg/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T20:40:00Z",
+          "independenceGroup": "bank press release, independent of the favicon asset",
+          "kind": "official",
+          "observation": "Bank announcement of the OTP-aligned visual identity (2017) confirms the ring+disc+dot symbol is the bank's current brand mark, retained under the DSK name.",
+          "url": "https://dskbank.bg/новини-и-промоции/детайли/2017/05/17/банка-дск-с-нова-визия"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T20:47:58.784606Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8",
+        "xmlSha256": "5f7e8a0e90e041915a053fa1215b4ea2ba18c65c4ee20b1fa8a25812849b71f7"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
