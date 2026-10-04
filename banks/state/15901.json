@@ -1,0 +1,118 @@
+{
+  "lastAttemptAt": "2026-10-04T13:53:20Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15901/assessed-b25ddb11f73c0b673d986b3168b3bb430e2693d53c0e237ae243439f8be320de.json",
+        "sha256": "b25ddb11f73c0b673d986b3168b3bb430e2693d53c0e237ae243439f8be320de"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The asset is live on the bank's production login page as of 2026-10-04, and the same mark and #FCB000 yellow appear across official properties.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The candidate vector is served from the bank's own vakifbank.com.tr production login channel and is unambiguously the VakıfBank rounded VB tile mark (the rebrand symbol still in current use); the current icon renders the same design.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both color observations come from independent official properties (open-banking login asset, developer portal); the rejected youth sub-brand is recorded separately.",
+        "uncertainties": [
+          "The corporate brand-guidelines PDF with canonical Pantone/CMYK was not retrieved (main site WAF-blocked); #FCB000 is evidenced by two official in-use properties instead."
+        ],
+        "variant": {
+          "basis": "Candidate is the standalone symbol variant (no text) of the same mark; the current icon's geometry matches, only the tile yellow deviates from brand #FCB000.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/47697754d255d66d20893a42b9aa285cc3516950fbd43b6fbccdc71427d0b417.json",
+        "sha256": "47697754d255d66d20893a42b9aa285cc3516950fbd43b6fbccdc71427d0b417"
+      },
+      "baseIconHash": "55f5c0b282fc3b4225f14e92e4d061178dcfd47107ed185bd75cdf6411204384",
+      "candidate": {
+        "detailsJudgement": "Single original path with fill-rule evenodd preserved; tile outline, knocked-out V counter and curves identical to the official asset render; fill corrected from off-brand #FBC34E to brand #FCB000.",
+        "faithful": true,
+        "iconHash": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a",
+        "path": "evidence/15901/candidate-d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a.svg",
+        "proportionsJudgement": "Whole emblem visible with clear margins in the square cell; diagnostic renders at 24/32/48 px remain recognizable on both themes.",
+        "rationale": "Official single-path VakıfBank VB-tile vector served by the bank production login, recolored to the correct brand yellow; replaces the same mark stored in off-brand pale yellow.",
+        "role": "standalone bank symbol (rounded VB tile with knocked-out V), no text",
+        "sha256": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a",
+        "sourceAssetUrl": "https://subesiz.vakifbank.com.tr/open-banking/assets/img/vakifbank/logo.svg",
+        "sourceUrl": "https://subesiz.vakifbank.com.tr/open-banking/login",
+        "transforms": [
+          "Square 23x23 canvas: the 23x17 official emblem translated down by 3 units (uniform translation, no scaling) and centered; internal transparency preserved.",
+          "SVGO 4.1.0 with frozen svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 882 -> 709 bytes, selected (visually faithful, converter-compatible)."
+        ],
+        "variant": "current VB tile mark matching the official open-banking asset",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Corrected colors: the stored tile yellow #FBC34E (measured RGB 251,195,78) visibly differs from the official brand yellow #FCB000 (measured RGB 252,176,0); geometry is unchanged."
+      },
+      "candidateIconHash": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a",
+      "checkedAt": "2026-10-04T13:53:20Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "341e2b52211adc8c037207499d2dfb620d9ddb7898ce1c7ea9d3b16492876f48",
+        "head": "bank-icon-maintenance/15901",
+        "headCommit": "6615ce8a94aabd93dc0636155a7a06a0fd87f0c1",
+        "number": 123,
+        "observedAt": "2026-10-04T14:17:12.480614Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: VakıfBank (Company.id 15901)",
+        "url": "https://github.com/zenmoney/banks/pull/123"
+      },
+      "reason": "The current icon reproduces the current VakıfBank rounded VB tile mark but in an off-brand pale yellow (#FBC34E, measured RGB 251,195,78); the mark the bank serves today from its own production open-banking login is the same geometry in brand yellow #FCB000 (measured RGB 252,176,0, corroborated by the apiportal spinner color). A corrected-colors replacement using the official original single-path vector meets the update bar; serialization alone would not.",
+      "reviewPackage": {
+        "path": "evidence/15901/candidate-26da6d66918459de5037708c9ae954b90fe66ba53a814b846daaa65d3e9bcc3c.json",
+        "sha256": "26da6d66918459de5037708c9ae954b90fe66ba53a814b846daaa65d3e9bcc3c"
+      },
+      "sourceCandidate": {
+        "iconHash": "8f28cd53cdfde6d31f3edfea178de3db5eb4a81732a4516962fa6a9936fba4c4",
+        "path": "evidence/15901/source-vakifbank.svg",
+        "rationale": "Official original vector in the correct brand yellow #FCB000 replacing the off-brand #FBC34E tile; geometry is preserved from the official single path, with the final working candidate placing the 23x17 emblem centered on a square 23x23 transparent canvas by uniform translation.",
+        "sourceAssetUrl": "https://subesiz.vakifbank.com.tr/open-banking/assets/img/vakifbank/logo.svg",
+        "sourceUrl": "https://subesiz.vakifbank.com.tr/open-banking/login"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://subesiz.vakifbank.com.tr/open-banking/assets/img/vakifbank/logo.svg",
+          "checkedAt": "2026-10-04T13:52:00Z",
+          "independenceGroup": "vakifbank.com.tr production properties",
+          "kind": "official",
+          "observation": "Official VakıfBank open-banking login SPA references /open-banking/assets/img/vakifbank/logo.svg and a spinner stroked #fcb000. The fetched logo.svg (sha256 8f28cd53cdfde6d31f3edfea178de3db5eb4a81732a4516962fa6a9936fba4c4) is an original single-path vector, fill-rule evenodd, fill #FCB000, viewBox 0 0 23 17: the rounded VB tile with the V as a knocked-out counter. Its render visually matches the current icon's design; only the fill differs. Receipts: evidence/15901/research-ed62f70b48e740e4b5a1f688946709ef/fetch-8cc526adad75455c83ddf18bc3710003/ and fetch-576326c274774daca09a1abf4d8c9014/.",
+          "url": "https://subesiz.vakifbank.com.tr/open-banking/login"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T13:52:10Z",
+          "independenceGroup": "vakifbank.com.tr production properties",
+          "kind": "official",
+          "observation": "Official developer portal uses brand yellow #fcb000 for its spinner (favicon raster only, no brand SVG), corroborating #FCB000 as the in-use brand yellow. Receipt fetch-81a4c1c04b3d493badebf093e93af8e0. The corporate brand-guidelines PDF was not retrieved (www.vakifbank.com.tr WAF rejection, receipt fetch-9f622dd10b7542748f25177332431de9).",
+          "url": "https://apiportal.vakifbank.com.tr/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T13:52:20Z",
+          "independenceGroup": "vakifbank.com.tr sub-brand (rejected option)",
+          "kind": "third-party",
+          "observation": "Official subdomain SVG inspected and rejected: it is the 'Vinov Kampüs' youth sub-brand lockup (wordmark text, yellow #FDB913), not the bank mark — different brand and unsuitable accompanying text. Receipt fetch-6196faeeda3f49609edcace2a8903575.",
+          "url": "https://vinovkampus.vakifbank.com.tr/assets/images/logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T13:56:40Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a",
+        "xmlSha256": "a9b35e93e657237d5bb92ba21ac2ce54827324b7465f9ab4b26fd68c2e06d717"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
