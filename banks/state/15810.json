@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-04T05:02:44.973526Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15810/assessed-180911107eefd2d8cd3ee2e2a1922c2655cfbdbb1c760546368c91c0941dafcb.json",
+        "sha256": "180911107eefd2d8cd3ee2e2a1922c2655cfbdbb1c760546368c91c0941dafcb"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "'Logo 2016' served live from the operating bank's site in October 2026; RBI brand guidelines still prescribe the same shorthand; no newer redesign found.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset served by raiffeisenbank.rs, the bank's own domain from metadata; gable-cross is the RBI group mark used by Raiffeisen banka a.d. Beograd; site live in 2025/2026.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "raiffeisenbank.rs official assets corroborated by RBI-wide brand guidelines (separate domain/publication); not copies of one page.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone emblem-only square mark (yellow field, dark gable-cross), the same variant as the site favicon; no accompanying text.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ceee838bccac0c5852998963b21e644f11f0be8f22bd4ea624b487289d206247.json",
+        "sha256": "ceee838bccac0c5852998963b21e644f11f0be8f22bd4ea624b487289d206247"
+      },
+      "baseIconHash": "de63866067f6336d933b0dd3fd33209351b70b7bce5170f35e4a04ca18131bc7",
+      "candidate": {
+        "detailsJudgement": "All emblem details preserved: both gable/horse-head strokes, the notched ends and the central crossing are intact in the 240px final renders; no stroke or satellite detail lost by the circular backing.",
+        "faithful": true,
+        "iconHash": "7f96ae0e4ce36c00bd73cbbef893753917c65bdc105efd0a502e80a26f09f109",
+        "path": "evidence/15810/candidate-7f96ae0e4ce36c00bd73cbbef893753917c65bdc105efd0a502e80a26f09f109.svg",
+        "proportionsJudgement": "Emblem occupies the same central placement as the source; whole emblem including stroke ends fits inside the circle with comfortable margin; recognizable at 24/32/48px on both themes; #FEE600/#2B2D33 contrast holds on light and dark backgrounds.",
+        "rationale": "Corrects the accepted icon's off-brand colors (pale #fdeb3f/#191919) and non-official circle-with-black-square-frame presentation to the current official standalone mark: Raiffeisen gable-cross in #2B2D33 on saturated Raiffeisen yellow #FEE600 ('Logo 2016'), served by the bank's own domain and current per RBI brand guidelines.",
+        "role": "standalone bank emblem mark (gable-cross shorthand) on a uniform branded field; no accompanying text",
+        "sha256": "7f96ae0e4ce36c00bd73cbbef893753917c65bdc105efd0a502e80a26f09f109",
+        "sourceAssetUrl": "https://www.raiffeisenbank.rs/favicon.svg",
+        "sourceUrl": "https://www.raiffeisenbank.rs/sr/stanovnistvo.html",
+        "transforms": [
+          "background-only change: the full-bleed #FEE600 square field is represented as a same-color circle r=200 centered in the 400x400 canvas; emblem geometry, colors and placement are byte-identical to the source path (uniform scale/translation: none)",
+          "SVGO 4.1.0 with repository svgo.config.mjs on a working copy: 453 -> 446 bytes (0.9% further reduction); output compared with the pre-optimization working version - identical rendering, only whitespace/case/relative-arc normalization; optimized version selected"
+        ],
+        "variant": "square-canvas favicon variant of 'Logo 2016'; catalog presentation is a same-color circular backing with transparency outside, since the plain yellow field is separable and unbranded outside the emblem; no official circular avatar observation was made, so this is a catalog adaptation, not an official round asset",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base and final visibly differ: pale yellow circle with black square frame and smaller emblem becomes saturated Raiffeisen-yellow circle with the larger unframed gable-cross in the official dark gray - the corrected official colors and presentation, not a re-serialization."
+      },
+      "candidateIconHash": "7f96ae0e4ce36c00bd73cbbef893753917c65bdc105efd0a502e80a26f09f109",
+      "checkedAt": "2026-10-04T05:02:44.973526Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "6d500c1a5fc9dc57c585c7f5429b6f4eebd9922b809efde2032e2768994d9ec3",
+        "head": "bank-icon-maintenance/15810",
+        "headCommit": "cec9abd4fd137f04acf918949f09b6ef107070e4",
+        "number": 98,
+        "observedAt": "2026-10-04T05:14:06.484949Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Raiffeisen Srbije (Company.id 15810)",
+        "url": "https://github.com/zenmoney/banks/pull/98"
+      },
+      "reason": "Operating bank (Raiffeisen banka a.d. Beograd, RBI group). The bank's own site serves a standalone original-vector mark (favicon.svg, 'Logo 2016': #FEE600 yellow field, #2B2D33 gable-cross, no text). The accepted base icon uses visibly different colors (#fdeb3f, #191919) and a circle-with-black-square-frame presentation that does not match the current official plain yellow-square mark. Supported color/presentation correction, not serialization noise.",
+      "reviewPackage": {
+        "path": "evidence/15810/candidate-8655bd1b4d34ac0be457d1a320f5fd0aadd5f38fb84a1a3e15349d06855902d2.json",
+        "sha256": "8655bd1b4d34ac0be457d1a320f5fd0aadd5f38fb84a1a3e15349d06855902d2"
+      },
+      "sourceCandidate": {
+        "iconHash": "3e923ee4de8646dde7c6e5fa7747cd101ee98d3862680b1d06961d80f11976ac",
+        "path": "evidence/15810/research-267301973fa940f7a36e74389dfd5f47/fetch-dd3b89462379436891c55cde6099f64e/attempt-1/body.bin",
+        "rationale": "Original vector favicon served by the bank's own domain: complete current emblem (gable-cross on Raiffeisen yellow), standalone, fits a square cell; corrects the base icon's off-brand colors and non-official framed presentation.",
+        "retrieval": {
+          "path": "evidence/15810/research-267301973fa940f7a36e74389dfd5f47/fetch-dd3b89462379436891c55cde6099f64e/receipt.json",
+          "sha256": "f46fb08313db1ae26c870d1d1534b5008b626b5d0c320dd3395fcb849a153ba5"
+        },
+        "sourceAssetUrl": "https://www.raiffeisenbank.rs/favicon.svg",
+        "sourceUrl": "https://www.raiffeisenbank.rs/sr/stanovnistvo.html"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.raiffeisenbank.rs/favicon.svg",
+          "checkedAt": "2026-10-04T05:00:00Z",
+          "independenceGroup": "raiffeisenbank.rs",
+          "kind": "official",
+          "observation": "Official site live (2025/2026 report PDFs); JSON-LD organization logo Raiffeisen Bank.svg; favicon.svg is 'Logo 2016', viewBox 0 0 400 400, #FEE600 square with #2B2D33 gable-cross emblem, no text. Fetched bytes verified: 472 bytes, sha256 3e923ee4de8646dde7c6e5fa7747cd101ee98d3862680b1d06961d80f11976ac.",
+          "url": "https://www.raiffeisenbank.rs/sr/stanovnistvo.html"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:00:00Z",
+          "independenceGroup": "raiffeisenbank.rs",
+          "kind": "official",
+          "observation": "Official full lockup SVG confirms current colors #FEE600/#2B2D33; accompanying wordmark text makes it unsuitable as the catalog mark itself.",
+          "url": "https://www.raiffeisenbank.rs/content/dam/rbi/common/logos/Raiffeisen%20Bank.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:00:00Z",
+          "independenceGroup": "rbi-brand",
+          "kind": "third-party",
+          "observation": "RBI central brand guidelines confirm the gable-cross shorthand logo, black on Raiffeisen yellow, group-wide including Serbia.",
+          "url": "https://brand.rbinternational.com/en/brand-guidelines.html"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T05:08:49.929566Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7f96ae0e4ce36c00bd73cbbef893753917c65bdc105efd0a502e80a26f09f109",
+        "xmlSha256": "4f71ed3b2bf0e55ec9f4a6a76925c255f75c146cbd34c2fb9a8348a7b0ac96c5"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
