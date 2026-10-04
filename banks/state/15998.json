@@ -1,0 +1,124 @@
+{
+  "lastAttemptAt": "2026-10-04T20:04:25.169333Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15998/assessed-2262f75f4073adbd69115c6754c287766e4af57ff9b06ae1570d9a03a478bff5.json",
+        "sha256": "2262f75f4073adbd69115c6754c287766e4af57ff9b06ae1570d9a03a478bff5"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Commons inception 2019-04-25 and current bbva.com brand pages found via search corroborate the 2019 identity as the brand in current use; the accepted icon's rounded letterforms predate it. Official-site retrieval failure disclosed separately.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The angular stroke-built BBVA wordmark is the 2019 BBVA identity; the file shows exactly the letters BBVA in that style, matching the brand of the bank record BBVA (PT).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Commons file page is a third-party publication with its own upload provenance; the rebrand date is corroborated by bbva.com brand pages found independently in search results. The failed official retrievals are disclosed rather than counted as support.",
+        "uncertainties": [
+          "First-party asset bytes from bbva.pt/bbva.com could not be fetched (403/transfer failure); currency rests on Commons plus corroborating brand-page search evidence."
+        ],
+        "variant": {
+          "basis": "Standalone monochrome wordmark #004580, no accompanying slogan or explanatory text; the letters themselves form the mark. Catalog presentation (backing/circle) is decided at candidate preparation, not here.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/140a3ba7b97c7f3b786130aebf6feb62a0d00b0c9e39e7f4c0de852981010529.json",
+        "sha256": "140a3ba7b97c7f3b786130aebf6feb62a0d00b0c9e39e7f4c0de852981010529"
+      },
+      "baseIconHash": "cfd1bd0ef34bd0b8d0342a2bb47ea717e9b6948797fc78e44b2189d7c7f97802",
+      "candidate": {
+        "detailsJudgement": "All letterform details (stroke-built B's, angular V, caret-style A) survive conversion and optimization; the Skia/painterResource renders on both themes show sharp, complete letterforms with no lost counters or distorted joints.",
+        "faithful": true,
+        "iconHash": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf",
+        "path": "evidence/15998/candidate-4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf.svg",
+        "proportionsJudgement": "Wordmark aspect ratio preserved (uniform scale); placed at 48/54 width the emblem fits fully inside the circle with clearance (vertical extent about 14.4 of 54). At 24/32/48 px diagnostics the wordmark remains recognizable, comparable to the accepted icon's lettering size; the white circle is invisible on the light theme background, which is expected for a neutral white field and does not harm legibility.",
+        "rationale": "Evidenced 2019 BBVA rebrand: the accepted pre-2019 circular lockup with rounded letterforms is replaced by the current angular stroke-built wordmark (Commons BBVA_2019.svg, inception 2019-04-25, collated clean serialization from worldvectorlogo). Supported rebranding justifies the update.",
+        "role": "backing",
+        "sha256": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf",
+        "sourceAssetUrl": "https://cdn.worldvectorlogo.com/logos/bbva-2.svg",
+        "sourceUrl": "https://worldvectorlogo.com/logo/bbva-2",
+        "transforms": [
+          "Working SVG rebuilt from the fetched vector: outer <g> carried over unchanged except removal of the Illustrator class-based fill, replaced by the identical literal fill #004580 on the group.",
+          "Whole-emblem placement only: uniform scale 0.024020 and translation centering the wordmark (viewBox -.004 0 1998.364 600.414 -> width 48 of 54), no rotation, stretch, crop or redraw.",
+          "Catalog backing added: plain white circle r=27 behind the emblem; the source has a transparent canvas and no brand field, so the neutral white circle is a catalog presentation adaptation chosen for dark-theme legibility, not part of the official design and not an observed official avatar.",
+          "SVGO 1.x (repository svgo.config.mjs) run on a copy: 6134 -> 5405 bytes; selected optimized result; rsvg render comparison shows only <=1/255 channel rounding differences, geometry and colors unchanged."
+        ],
+        "variant": "2019 standalone BBVA wordmark (#004580) on a constructed white circular catalog backing; the letters themselves form the mark, no accompanying text.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon: pre-2019 rounded BBVA letterforms, white on a blue (#004580) circular field. Final: current 2019 angular wordmark in brand blue #004580 on a white circular field. The change is the evidenced 2019 rebrand (new letterform design) plus inversion of the field/emblem roles so the emblem keeps its official brand color without recoloring; before/after renders on both themes show a clear, meaningful redesign difference, not a serialization change."
+      },
+      "candidateIconHash": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf",
+      "checkedAt": "2026-10-04T20:04:25.169333Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e18d012d21cc9286d426fe86dbc76cfa755c0faae1e77efc1af3c72081b9c276",
+        "head": "bank-icon-maintenance/15998",
+        "headCommit": "2006ad598377042fef7cbbca51b0a5481c0dd2e4",
+        "number": 134,
+        "observedAt": "2026-10-04T20:19:08.766063Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BBVA (Company.id 15998)",
+        "url": "https://github.com/zenmoney/banks/pull/134"
+      },
+      "reason": "Found a current original-vector replacement: the 2019 BBVA wordmark. The accepted icon reproduces the pre-2019 circular lockup with rounded letterforms; BBVA rebranded in April 2019 to the angular stroke-built wordmark, corroborated by the Commons file page (captioned 'BBVA wordmark (2019)', inception 2019-04-25) and bbva.com brand pages found in search. The primary Commons original (Adobe Illustrator export) contains DOCTYPE ENTITY declarations that the pipeline rejects, so the candidate binds a byte-clean single-group copy from worldvectorlogo (plain fill=#004580, no DOCTYPE/entities/raster/text) whose rsvg render was visually compared against the Commons original: identical geometry and color. Supported rebranding justifies the update.",
+      "reviewPackage": {
+        "path": "evidence/15998/candidate-06c68c31a2533006b369b01e56cc29f543e2c97375c4d5a6bdab29cc0213d7ec.json",
+        "sha256": "06c68c31a2533006b369b01e56cc29f543e2c97375c4d5a6bdab29cc0213d7ec"
+      },
+      "sourceCandidate": {
+        "iconHash": "a0583abf1791903dce06b8a78556da379cefc9aef7609860d4b0b3ddf7ee2d74",
+        "path": "evidence/15998/research-3751ae24189a420e9c2276511452519d/fetch-8935a96e3668463789115f5dc01afc04/attempt-1/body.bin",
+        "rationale": "Original vector artwork of the current 2019 BBVA wordmark. The bound bytes are a serialization copy collated byte-for-byte geometry-identical (by render comparison) to the Wikimedia Commons Illustrator original; provenance of the artwork is the 2019 BBVA identity, not a raster trace. Suitable standalone mark: the letters themselves form the mark.",
+        "retrieval": {
+          "path": "evidence/15998/research-3751ae24189a420e9c2276511452519d/fetch-8935a96e3668463789115f5dc01afc04/receipt.json",
+          "sha256": "d47799ff8183058150a066f934a4c966127065baba629501855ad5939f4edf82"
+        },
+        "sourceAssetUrl": "https://cdn.worldvectorlogo.com/logos/bbva-2.svg",
+        "sourceUrl": "https://worldvectorlogo.com/logo/bbva-2"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.worldvectorlogo.com/logos/bbva-2.svg",
+          "checkedAt": "2026-10-04T20:02:29.573555Z",
+          "independenceGroup": "worldvectorlogo upload, visually collated to the Commons original (serialization copy of one artwork)",
+          "kind": "third-party",
+          "observation": "Byte-clean vector of the 2019 angular BBVA wordmark: 6036 bytes, single <g fill=\"#004580\"> over vector paths, no DOCTYPE/entities, no raster, no text elements. rsvg render visually identical to the Commons Illustrator original BBVA_2019.svg (same letterforms and color).",
+          "url": "https://worldvectorlogo.com/logo/bbva-2"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/BBVA_2019.svg",
+          "checkedAt": "2026-10-04T19:56:00Z",
+          "independenceGroup": "Wikimedia Commons file page and uploaded original (one publication)",
+          "kind": "third-party",
+          "observation": "Commons original: Adobe Illustrator 23.0.1 SVG export, single path, viewBox 0 0 3543.2 1059.5, fill #004580, captioned 'BBVA wordmark (2019)', inception 2019-04-25. Rejected as candidate material only because of DOCTYPE ENTITY declarations; retained as the provenance and geometry reference for the collated copy.",
+          "url": "https://commons.wikimedia.org/wiki/File:BBVA_2019.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T19:55:00Z",
+          "independenceGroup": "bbva.pt/bbva.com first-party attempts (failed retrievals)",
+          "kind": "official",
+          "observation": "Official bbva.pt returned HTTP 403/empty and bbva.com brand-logo page failed with a transfer error; first-party asset bytes unretrievable. Disclosed retrieval limitation, not a currency contradiction.",
+          "url": "https://www.bbva.pt/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T20:10:35.096601Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf",
+        "xmlSha256": "8a7273101eb54665971947beb75c5296e5c559f4cfb60e593038a4f60df2a669"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
