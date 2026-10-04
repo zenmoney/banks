@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-04T01:18:55.234426Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15727/assessed-80230d090a99dc4865891dd1a5273db1fc566834dd7ec51e948c04afb531031f.json",
+        "sha256": "80230d090a99dc4865891dd1a5273db1fc566834dd7ec51e948c04afb531031f"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live site structured data as of 2026-10-04 (site last-modified 2026-10-02); timing of the ~September 2023 change corroborated by one third-party forum account.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset byte-identical across two official CDN hosts and referenced as schema.org logo/og:image by bcr.ro; title 'BCR Romania'/'Banca Comercială Română' matches.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official bcr.ro metadata plus official CDN asset; timing corroborated by one independent third-party source.",
+        "uncertainties": [
+          "No standalone symbol-only or multicolor SVG found on official hosts; white variant is transparent-background and needs a backing decision at candidate stage."
+        ],
+        "variant": {
+          "basis": "Full white monochrome lockup (viewBox 386.54x150.77) incl. 'BCR' letterforms and Erste S symbol; no official symbol-only or multicolor standalone variant found.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/714636beac1ad7f8e84e81d1daaf9dcdec1c1e4af1bce8d600cdf67a07ba21c1.json",
+        "sha256": "714636beac1ad7f8e84e81d1daaf9dcdec1c1e4af1bce8d600cdf67a07ba21c1"
+      },
+      "baseIconHash": "284d8868f9d2ae3eca02e4453317bce2bda446872f071e04ccd2d411fcffdf72",
+      "candidate": {
+        "detailsJudgement": "All letterforms, the S symbol and its detached dot survive; internal shapes (letter counters, S gaps) preserved as negative space; white fill unchanged.",
+        "faithful": true,
+        "iconHash": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde",
+        "path": "evidence/15727/candidate-8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde.svg",
+        "proportionsJudgement": "Whole lockup fits inside the circle with even margins and no clipping; legible at 24/32/48 px and a 96 px diagnostic on both themes; wordmark strokes remain readable at target sizes.",
+        "rationale": "Post-2023 official BCR 'BCR'+S white lockup replaces the superseded 2007 red spark/flower monogram; backing uses the Erste-blue #2870ed field color observed in the official composited og:image variant of the same lockup.",
+        "role": "Full official lockup including wordmark and S symbol; original vector bound to the bcr.ro/Erste CDN fetch receipt.",
+        "sha256": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde",
+        "sourceAssetUrl": "https://cdn0.erstegroup.com/content/dam/ro/bcr/common/logo-svg/BCR_web_internal-material.svg",
+        "sourceUrl": "https://cdn0.erstegroup.com/content/dam/ro/bcr/common/logo-svg/BCR_web_internal-material.svg",
+        "transforms": [
+          "Uniform scale 0.103483 with translation (7,19.201) placing the complete 386.54x150.77 lockup (40x15.6 px) centered inside the 54x54 circle; no rotation, stretch, recolor, part moves, or clipping; dot over the S fully preserved.",
+          "Added circular backing circle r=27 fill #2870ed (catalog adaptation; evidenced official field color).",
+          "SVGO 4.1.0 trial, frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1789 -> 1676 bytes; rsvg-convert working vs optimized pixel-identical on both themes (diff bbox None). Optimized bytes selected as final.svg (sha256 8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde)."
+        ],
+        "variant": "Official white monochrome lockup variant on a circular catalog backing in #2870ed. The official composited variant (BCR_Special_screen_RGB.svg, og:image) shows the same white lockup on a #2870ed rounded-square tile; no official circular avatar was observed, so this is a catalog adaptation using the evidenced field color, not a claim of official circular use.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Entire design changed versus base: the 2007 red spark/flower monogram on light-blue was superseded by the 2023 monochrome white lockup on the Erste-blue field; supported by official structured-data assets."
+      },
+      "candidateIconHash": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde",
+      "checkedAt": "2026-10-04T01:18:55.234426Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8fbe54cd95a036260f0c9a739dc3ecc752d39599f6a967cc2ba3b6405a7af0d2",
+        "head": "bank-icon-maintenance/bcr-romania-15727",
+        "headCommit": "595cdacbfca114668a3d2a2a245a7c94ac3dc01e",
+        "number": 91,
+        "observedAt": "2026-10-04T01:34:24.104293Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BCR Romania (Company.id 15727)",
+        "url": "https://github.com/zenmoney/banks/pull/91"
+      },
+      "reason": "Official post-2023 monochrome white 'BCR'+S lockup SVG from the Erste Group CDN referenced by bcr.ro structured data; base is the 2007 red spark/flower monogram that the rebrand superseded.",
+      "reviewPackage": {
+        "path": "evidence/15727/candidate-995bdfef36d641c3e42d025ffe2c0baf2ee1d2d0ef08eaacbfe8e1cd8d42b02b.json",
+        "sha256": "995bdfef36d641c3e42d025ffe2c0baf2ee1d2d0ef08eaacbfe8e1cd8d42b02b"
+      },
+      "sourceCandidate": {
+        "iconHash": "fb023d64dfea566fdf64267d95058b66209cbc92cc28670567c0d45e908ac2ea",
+        "path": "evidence/15727/research-6b32eb3848394bcfaa775a250a907685/fetch-46c8da8b10d344a5b33c27d637842758/attempt-1/body.bin",
+        "rationale": "Original official vector of the current BCR lockup, referenced by the bank's own site metadata; replaces the superseded 2007 monogram.",
+        "retrieval": {
+          "path": "evidence/15727/research-6b32eb3848394bcfaa775a250a907685/fetch-46c8da8b10d344a5b33c27d637842758/receipt.json",
+          "sha256": "1b24e2ce1203b5fa418ea43fb4514188d82a6b750fd5931fb6e634e20b28b63b"
+        },
+        "sourceAssetUrl": "https://cdn0.erstegroup.com/content/dam/ro/bcr/common/logo-svg/BCR_web_internal-material.svg",
+        "sourceUrl": "https://cdn0.erstegroup.com/content/dam/ro/bcr/common/logo-svg/BCR_web_internal-material.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn0.erstegroup.com/content/dam/ro/bcr/common/logo-svg/BCR_web_internal-material.svg",
+          "checkedAt": "2026-10-04T01:04:32Z",
+          "independenceGroup": "bcr.ro official",
+          "kind": "official",
+          "observation": "Official current white lockup, byte-identical to BCR_Logo_screen_white.svg on the other CDN host.",
+          "url": "https://cdn0.erstegroup.com/content/dam/ro/bcr/common/logo-svg/BCR_web_internal-material.svg"
+        },
+        {
+          "checkedAt": "2026-10-04T01:04:04Z",
+          "independenceGroup": "bcr.ro official",
+          "kind": "official",
+          "observation": "Official homepage declares the CDN asset as schema.org logo and og:image.",
+          "url": "https://www.bcr.ro/ro/persoane-fizice"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T01:26:29.813241Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde",
+        "xmlSha256": "387c8d61d40e250348e26cbe07ab536f7f2111acc61e8a4ffa527c96a06fbf05"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
