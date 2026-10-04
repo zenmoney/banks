@@ -1,0 +1,112 @@
+{
+  "lastAttemptAt": "2026-10-04T19:29:23.534408Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15996/assessed-113e3c837ec7ae77d8eec3ad8102473f6c333118192b5047835278583486a4cf.json",
+        "sha256": "113e3c837ec7ae77d8eec3ad8102473f6c333118192b5047835278583486a4cf"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live millenniumbcp.pt serves this favicon/apple-touch presentation as the current standalone mark, fetched 2026-10-04.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official site favicon vector carries the same stylized serif 'M' with curved left leg as the baseline; wordmark M glyph matches.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All observations from the bank's own live domain; vector favicon cross-checked against apple-touch raster and wordmark glyph.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "White M on flat magenta #D1005D rounded square is the current variant; baseline's circular disc and hue differ and are not evidenced in current standalone use.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/1d8801feb090a4a4138ef0b4153d56ed3d1c916c8a970ec5a2c203f11d1ee7c1.json",
+        "sha256": "1d8801feb090a4a4138ef0b4153d56ed3d1c916c8a970ec5a2c203f11d1ee7c1"
+      },
+      "baseIconHash": "c081d13f403dd479af326ddced2de3e6b008eac268274b15f1c809fac35609c9",
+      "candidate": {
+        "detailsJudgement": "M serif details and the curved left leg preserved exactly; rect corner radius rx=4 preserved; no lost details.",
+        "faithful": true,
+        "iconHash": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e",
+        "path": "evidence/15996/candidate-3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e.svg",
+        "proportionsJudgement": "Identical to the official 64x64 favicon; M occupies its official position and size within the card.",
+        "rationale": "Replace the unevidenced circular-disc treatment with the bank's current official standalone mark: white M on #D1005D rounded square, taken from the original official favicon vector.",
+        "role": "Official favicon/app-icon card: flat brand field carrying the white M emblem; the square card is the meaningful brand backing, not incidental canvas.",
+        "sha256": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e",
+        "sourceAssetUrl": "https://www.millenniumbcp.pt/media/32hpfa4u/favicon.svg",
+        "sourceUrl": "https://www.millenniumbcp.pt/media/32hpfa4u/favicon.svg",
+        "transforms": [
+          "No geometry transformation: original single-path M and rounded-square rect preserved verbatim.",
+          "SVGO 4.1.0 (frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 993 to 853 bytes, selected; visually faithful in working-versus-optimized comparison on both themes."
+        ],
+        "variant": "White 'M' on flat #D1005D rounded square (rx=4), as served by millenniumbcp.pt as favicon and apple-touch-icon.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Backing changes from the baseline's circular crimson disc to the bank's current official rounded-square #D1005D card; M scale within the frame increases to the official presentation. Justified by evidenced current use of this exact variant as the bank's standalone mark; not byte-level or serialization noise."
+      },
+      "candidateIconHash": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e",
+      "checkedAt": "2026-10-04T19:29:23.534408Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "72807fe5e6778e8bb3a7af47bd4483d8f78447736ff07e2a624068596071233e",
+        "head": "bank-icon-maintenance/millennium-bcp-15996",
+        "headCommit": "2ad3a8b395890124fc889385d18d31e96e7f31bd",
+        "number": 132,
+        "observedAt": "2026-10-04T19:40:35.183896Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Millennium BCP (Company.id 15996)",
+        "url": "https://github.com/zenmoney/banks/pull/132"
+      },
+      "reason": "millenniumbcp.pt (fetched 2026-10-04) currently presents the Millennium 'M' as white glyph on a flat magenta #D1005D rounded square (official favicon.svg vector, apple-touch-icon raster). The accepted baseline shows the same M glyph on a circular crimson disc; the disc presentation is not what the bank currently uses as its standalone mark. The official favicon.svg is an original, untraced vector of the current mark.",
+      "reviewPackage": {
+        "path": "evidence/15996/candidate-b882b4c54090cdc89f5c0bd30ab11fea3950aab1c9f6a555578ab9bf74257856.json",
+        "sha256": "b882b4c54090cdc89f5c0bd30ab11fea3950aab1c9f6a555578ab9bf74257856"
+      },
+      "sourceCandidate": {
+        "iconHash": "d56023022f460341dab64f01e48a6dc2a67c98d078c2afb566aa73d19cdd610a",
+        "path": "evidence/15996/research-1dff284618184b578d5380d03ce66a24/fetch-6c7debb7a8644a44ab65ce8ea152431f/attempt-1/body.bin",
+        "rationale": "Original untraced SVG vector of the current standalone mark from the bank's own site: white stylized 'M' on #D1005D rounded square. Source-preserving SVGO optimization (4.1.0, frozen config, 993B to 853B) applied; no geometry or color changes.",
+        "retrieval": {
+          "path": "evidence/15996/research-1dff284618184b578d5380d03ce66a24/fetch-6c7debb7a8644a44ab65ce8ea152431f/receipt.json",
+          "sha256": "bc66099d0193b677ac1f039a3099df0269aa9d11053ff1e7b75f82b7257d7d61"
+        },
+        "sourceAssetUrl": "https://www.millenniumbcp.pt/media/32hpfa4u/favicon.svg",
+        "sourceUrl": "https://www.millenniumbcp.pt/media/32hpfa4u/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.millenniumbcp.pt/media/32hpfa4u/favicon.svg",
+          "checkedAt": "2026-10-04T19:20:00Z",
+          "independenceGroup": "millenniumbcp.pt primary site and its own assets",
+          "kind": "official",
+          "observation": "Official favicon: original SVG vector, 64x64, single white path stylized serif 'M' with the signature curved left leg, on #D1005D rounded square (rx=4). Receipt evidence/15996/research-1dff284618184b578d5380d03ce66a24/fetch-6c7debb7a8644a44ab65ce8ea152431f/receipt.json, sha256 d56023022f460341dab64f01e48a6dc2a67c98d078c2afb566aa73d19cdd610a.",
+          "url": "https://www.millenniumbcp.pt/media/32hpfa4u/favicon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T19:20:00Z",
+          "independenceGroup": "millenniumbcp.pt primary site and its own assets",
+          "kind": "official",
+          "observation": "Homepage references apple-touch-icon.png (180x180, white M on flat #D1005D square) and magenta 'Millennium bcp' wordmark whose M matches the favicon glyph; the current standalone presentation is the square card, not the baseline's circular disc.",
+          "url": "https://www.millenniumbcp.pt"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T19:31:28.203478Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e",
+        "xmlSha256": "7f7792f6deaa5008f68d64808b961f8b806510e8cddcecda7439c387c2d57ec5"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
