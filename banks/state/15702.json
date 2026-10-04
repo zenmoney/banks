@@ -1,0 +1,110 @@
+{
+  "lastAttemptAt": "2026-10-03T23:26:20.047426Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15702/assessed-83afb550ac442cfcfc8002827a2edafd2256d3dba8977cb8b2110e07cf1723a1.json",
+        "sha256": "83afb550ac442cfcfc8002827a2edafd2256d3dba8977cb8b2110e07cf1723a1"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Logo SVG is referenced by the live homepage fetched 2026-10-03.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official lockup infinity emblem matches the existing symbol.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations from the bank's own domain.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Existing icon uses off-brand orange #E78C41 vs official #F5821F and gray #545A5E vs #4D555A; candidate from official vector.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6982062d5b593a014d8521e83ae4c45067d932c5244b965da7f8a75756696405.json",
+        "sha256": "6982062d5b593a014d8521e83ae4c45067d932c5244b965da7f8a75756696405"
+      },
+      "baseIconHash": "f929300aa57ad8b4ce41ef234d55a2d4483adf12ef5b2c5dc46ac6c8bd0def50",
+      "candidate": {
+        "detailsJudgement": "Two-tone infinity renders cleanly in export frames on both themes.",
+        "faithful": true,
+        "iconHash": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57",
+        "path": "evidence/15702/candidate-298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57.svg",
+        "proportionsJudgement": "Emblem fills the cell proportionally like the base icon; complete emblem preserved.",
+        "rationale": "Existing icon is an icon-pack rendition with off-brand orange E78C41 and gray 545A5E; official infinity emblem paths copied without redraw with colors F5821F and 4D555A.",
+        "role": "transparent standalone emblem, no field",
+        "sha256": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57",
+        "sourceAssetUrl": "https://www.mizrahi-tefahot.co.il/media/vlwlbdf2/logo.svg",
+        "sourceUrl": "https://www.mizrahi-tefahot.co.il/media/vlwlbdf2/logo.svg",
+        "transforms": [
+          "viewBox cropped to emblem bounds 138.5 313.672 334 159; wordmark paths excluded; emblem kept as the three original path elements (orange stroke, gray sweep, gray crescent)."
+        ],
+        "variant": "official emblem-only variant of the current lockup",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Colors corrected to official values; geometry now exactly official outlines."
+      },
+      "candidateIconHash": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57",
+      "checkedAt": "2026-10-03T23:26:20.047426Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b40f45c8fdd97ab16f1715120001c633753bbe0284443636c9d4357d5600b79b",
+        "head": "bank-icon-maintenance/15702",
+        "headCommit": "23eca22be854b22d7babb3565a413163b1007629",
+        "number": 87,
+        "observedAt": "2026-10-04T00:01:44.700618Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: מזרחי-טפחות (Company.id 15702)",
+        "url": "https://github.com/zenmoney/banks/pull/87"
+      },
+      "reason": "Existing icon is an icon-pack rendition with #545A5E/#E78C41; the official logo vector served by mizrahi-tefahot.co.il uses #4D555A and #F5821F. A color-corrected emblem-only candidate from the official vector is justified.",
+      "reviewPackage": {
+        "path": "evidence/15702/candidate-c1ba6433af473e266642ab60bc4bd54f53683bdb28e111088bbe8e759fabda50.json",
+        "sha256": "c1ba6433af473e266642ab60bc4bd54f53683bdb28e111088bbe8e759fabda50"
+      },
+      "sourceCandidate": {
+        "iconHash": "800014a7872cce186f7c71f03489c2415dfeec0e7e3e8b5ebdb02cfb7f1c96dd",
+        "path": "evidence/15702/research-c54f1f40f67e4514aa13ad7d4b702be4/fetch-63b0e5d1c5dc4dd88e3387624518c2bf/attempt-1/body.bin",
+        "rationale": "Original vector from the bank's own CMS; emblem geometry copied without redraw. Existing colors are off-brand.",
+        "retrieval": {
+          "path": "evidence/15702/research-c54f1f40f67e4514aa13ad7d4b702be4/fetch-63b0e5d1c5dc4dd88e3387624518c2bf/receipt.json",
+          "sha256": "a3c709392911483c36aecc9b890b342c4852890c5ca15a9dfac7e40b8ba8696e"
+        },
+        "sourceAssetUrl": "https://www.mizrahi-tefahot.co.il/media/vlwlbdf2/logo.svg",
+        "sourceUrl": "https://www.mizrahi-tefahot.co.il/media/vlwlbdf2/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.mizrahi-tefahot.co.il/media/vlwlbdf2/logo.svg",
+          "checkedAt": "2026-10-03T23:12:36Z",
+          "independenceGroup": "mizrahi-official",
+          "kind": "official",
+          "observation": "Official site logo lockup SVG (infinity emblem + Hebrew wordmark).",
+          "url": "https://www.mizrahi-tefahot.co.il/media/vlwlbdf2/logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T23:11:24Z",
+          "independenceGroup": "mizrahi-official",
+          "kind": "official",
+          "observation": "Live homepage references /media/vlwlbdf2/logo.svg.",
+          "url": "https://www.mizrahi-tefahot.co.il/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T23:42:18.856496Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57",
+        "xmlSha256": "957bc5c4f642710cd6824cb35cc2a2d136e0c87be6c2b4fc5128764d56e2a242"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
