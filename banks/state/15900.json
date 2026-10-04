@@ -1,0 +1,117 @@
+{
+  "lastAttemptAt": "2026-10-04T13:50:49Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15900/assessed-ca03ca421e6cbefb55ba50b0f71f6a18eefe998681b178c23ca0172315099e86.json",
+        "sha256": "ca03ca421e6cbefb55ba50b0f71f6a18eefe998681b178c23ca0172315099e86"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official homepage logo fetched 2026-10-04 shows the compass emblem in current use; the stored eight-point star-cross corresponds to the pre-rebrand Finansbank/QNB mark and is no longer used by the bank.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The replacement four-arrow compass emblem is the exact mark displayed on the bank's own homepage for QNB (Turkey; QNB Finansbank uses the group mark), visually identical in arm arrangement, gradients and proportions.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary evidence is the bank's own homepage asset; the Commons vector is an independent host whose rendered emblem matches the official PNG, not a mirror of it.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Candidate is the standalone emblem variant of the current lockup, cropped from the original vector without geometry changes; emblem-only presentation is the form used in app icons and favicons.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ba875a9bc7329809426b75abd60d6632d881db27fc5987d199ba530c77b1ffac.json",
+        "sha256": "ba875a9bc7329809426b75abd60d6632d881db27fc5987d199ba530c77b1ffac"
+      },
+      "baseIconHash": "8ed9aa2be62e4d9129ddaa5f1a4ca9c754f38dd0ca8d886325bdcd563312ca1c",
+      "candidate": {
+        "detailsJudgement": "All four arrow arms keep their original path data and gradient stops; edges crisp, no lost detail or invented colors versus the source render.",
+        "faithful": true,
+        "iconHash": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc",
+        "path": "evidence/15900/candidate-abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc.svg",
+        "proportionsJudgement": "Emblem is square (434.4x434.6), centered by the crop, complete with no clipping; diagnostic renders at 24/32/48 px remain recognizable on both themes.",
+        "rationale": "Standalone emblem extracted from the Wikimedia Commons QNB Group vector lockup whose render matches the logo currently served on qnb.com.tr; replaces the superseded flat eight-point star-cross icon with the current four-arrow compass mark.",
+        "role": "standalone brand emblem (compass of four inward arrows) from the official lockup",
+        "sha256": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/QNB_Logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:QNB_Logo.svg",
+        "transforms": [
+          "Emblem-only extraction: wordmark path (Path 6) and gray outline path (Path 1) of the original lockup removed; emblem paths 2-5 and their linear gradient definitions kept byte-for-byte.",
+          "viewBox cropped from 0 0 1550 452 to 9.2 8.7 434.4 434.6 to the emblem square; no scaling or geometry change.",
+          "SVGO 4.1.0 with frozen svgo.config.mjs (config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 2568 -> 2557 bytes, selected (visually faithful, converter-compatible)."
+        ],
+        "variant": "current lockup emblem variant matching the official homepage asset",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Rebrand: the stored flat #305da2 eight-point star-cross is replaced by the current four-arrow compass emblem with blue/magenta gradients used on the bank homepage."
+      },
+      "candidateIconHash": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc",
+      "checkedAt": "2026-10-04T13:50:49Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "dd1b9d06f19a86598e375bb0f8621a02e77f3bc65589e262c85fe3c5d8e066e1",
+        "head": "bank-icon-maintenance/15900",
+        "headCommit": "d860aa07eb31f65e54051fcc74b0371e03cae534",
+        "number": 122,
+        "observedAt": "2026-10-04T14:12:56.560681Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: QNB (Company.id 15900)",
+        "url": "https://github.com/zenmoney/banks/pull/122"
+      },
+      "reason": "The stored icon is an older flat #305da2 eight-point star-cross; the live QNB brand mark is a four-arrow compass emblem with blue/magenta gradients, shown as the logo on the official qnb.com.tr homepage and available as a genuine original vector on Wikimedia Commons (attributed to QNB Group). Evidenced rebrand plus corrected geometry/colors meet the update bar. The candidate is the emblem-only extraction of the Commons lockup (wordmark and gray outline dropped, viewBox cropped to the emblem), not a redraw.",
+      "reviewPackage": {
+        "path": "evidence/15900/candidate-34dbefa477c7d5479ed580f2c056ea97dc05a9b188321260af108976044adbe5.json",
+        "sha256": "34dbefa477c7d5479ed580f2c056ea97dc05a9b188321260af108976044adbe5"
+      },
+      "sourceCandidate": {
+        "iconHash": "63f275ad69be8d89263c6cf0a8242821efb2b6b5e048b20a309c5e24a33acb38",
+        "path": "evidence/15900/source-qnb.svg",
+        "rationale": "Original vector replacement for an evidenced rebrand: the four-arrow compass emblem extracted from the Commons QNB Group lockup matches the emblem on the bank's live homepage. Emblem paths and gradients are preserved byte-for-byte from the original vector; the final working candidate will crop the viewBox to the emblem square and drop the wordmark/gray outline paths.",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/QNB_Logo.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:QNB_Logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.qnb.com.tr/_assets/img/logo.png",
+          "checkedAt": "2026-10-04T13:48:30Z",
+          "independenceGroup": "qnb.com.tr primary publication",
+          "kind": "official",
+          "observation": "Official homepage references only /_assets/img/logo.png; the fetched 280x82 PNG shows the current four-arrow compass emblem (two blue tones plus magenta/dark arm) beside the QNB wordmark. No SVG logo asset on the TR site; official media page offers JPG only. Receipt: evidence/15900/research-490df3eec231437db81f01a51029ccac/fetch-b0d414edf72940d6bb93e600217e12ec/receipt.json.",
+          "url": "https://www.qnb.com.tr/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/QNB_Logo.svg",
+          "checkedAt": "2026-10-04T13:48:04Z",
+          "independenceGroup": "Wikimedia Commons vector; visual match to official qnb.com.tr asset",
+          "kind": "third-party",
+          "observation": "Wikimedia Commons QNB_Logo.svg (4753 bytes, sha256 63f275ad69be8d89263c6cf0a8242821efb2b6b5e048b20a309c5e24a33acb38), attributed to QNB Group: original vector with emblem paths s1-s4 using linear gradients (#003d74/#006cbc blues, #b41d52/#710830/#2c2e35 magenta/dark), plus wordmark path s5 and gray outline path s0. Rendered emblem visually matches the official homepage PNG exactly. Receipt: fetch-cc57cf7b221d4311bc849548c31cba27/receipt.json.",
+          "url": "https://commons.wikimedia.org/wiki/File:QNB_Logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T13:48:40Z",
+          "independenceGroup": "Wikimedia Commons search",
+          "kind": "third-party",
+          "observation": "Commons file search found no emblem-only QNB SVG; the full-lockup SVG is the only Commons vector. Emblem paths s1-s4 span roughly x 9.2-443.6, y 8.7-443.3, a compact square region croppable without touching emblem geometry.",
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=QNB%20logo&srnamespace=6"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T13:56:30Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc",
+        "xmlSha256": "23560d07570cfd9eb4f5c6aeb9bb00c56d61b5047023d408e7c2112783d5a0fd"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
