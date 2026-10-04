@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-04T06:06:00.674132Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15830/assessed-afd68b5a05510fbf29c256686f6517fe8ccf162ee5990e30861da1cb243e804c.json",
+        "sha256": "afd68b5a05510fbf29c256686f6517fe8ccf162ee5990e30861da1cb243e804c"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Observed live 2026-10-04 on the bank's official homepage; the legacy Medicinos red mark is no longer used on official properties.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The mark is served by the bank's own renamed official domain (medbank.lt → urbo.lt); same legal entity continuing under the Urbo brand.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary: bank's own official site assets; redirect behaviour of the old domain corroborates; Wikimedia legacy file is a distinct rejected source.",
+        "uncertainties": [
+          "Catalog record title remains 'Medicinos bankas' while the current brand is Urbo bankas; icon update reflects evidenced rebrand of the same bank, metadata titles are out of scope for the icon change."
+        ],
+        "variant": {
+          "basis": "Standalone 'U' mark without wordmark, as presented in the homepage large logo; wordmark lockups also exist but are rejected for the square icon cell.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/efc2345d5c3780adbfa8415bee97e0417dfb876952f1a9f9d0822a9555e567df.json",
+        "sha256": "efc2345d5c3780adbfa8415bee97e0417dfb876952f1a9f9d0822a9555e567df"
+      },
+      "baseIconHash": "9a6dc1bb85a698801ad82eb1d1d693b1816f401013b7ffe3bfe46618ddb13938",
+      "candidate": {
+        "detailsJudgement": "Both green paths of the stylized U with the notch/flag detail are preserved; edges crisp in 240px renders; transparency outside the mark retained.",
+        "faithful": true,
+        "iconHash": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9",
+        "path": "evidence/15830/candidate-de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9.svg",
+        "proportionsJudgement": "Source used as-is: near-square 311x313 standalone mark, no transforms, no backing added (suitable transparent standalone mark); fills the square cell with even margins.",
+        "rationale": "Medicinos bankas rebranded to Urbo bankas (medbank.lt redirects to urbo.lt); the accepted icon shows the legacy olive wordmark badge while the bank's current standalone mark is the green stylized U from the bank's own site — evidenced rebrand update.",
+        "role": "Standalone current bank mark (stylized U, green #23715F), transparent background.",
+        "sha256": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9",
+        "sourceAssetUrl": "https://urbo.lt/build/assets/logo-large-mIskFbvK.svg",
+        "sourceUrl": "https://urbo.lt/build/assets/logo-large-mIskFbvK.svg",
+        "transforms": [
+          "No geometric transformation; source mark used unchanged.",
+          "SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 477 -> 419 bytes; optimized output selected after working-vs-optimized comparison showed identical rendering."
+        ],
+        "variant": "Current official standalone mark as presented on urbo.lt homepage; wordmark lockups exist but are rejected for the square icon cell.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Base is the legacy Medicinos bankas olive/brown circular wordmark badge; final is the current green Urbo standalone U mark — evidenced brand rename of the same bank."
+      },
+      "candidateIconHash": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9",
+      "checkedAt": "2026-10-04T06:06:00.674132Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "2d781ed1d102025c090403c726d4cb42e81ab990f82d59ebed7750aafb45a407",
+        "head": "bank-icon-maintenance/15830",
+        "headCommit": "6838f8b6dde296a9c6cbd30f50076f40bb655e8a",
+        "number": 101,
+        "observedAt": "2026-10-04T06:30:36.965449Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Medicinos bankas (Company.id 15830)",
+        "url": "https://github.com/zenmoney/banks/pull/101"
+      },
+      "reason": "medbank.lt redirects to urbo.lt: Medicinos bankas rebranded to Urbo bankas; the accepted icon shows the legacy olive/brown wordmark badge while the bank's current standalone mark is the green stylized U, available as the bank's own original SVG.",
+      "reviewPackage": {
+        "path": "evidence/15830/candidate-f79f078c3fb12403497f319ee895f224b73cce2db885b741f0e66207e2ae5991.json",
+        "sha256": "f79f078c3fb12403497f319ee895f224b73cce2db885b741f0e66207e2ae5991"
+      },
+      "sourceCandidate": {
+        "iconHash": "557ab08dc82b6808e7547ef258b4c1c472aad880c3a3719bdaffdad33725f84d",
+        "path": "evidence/15830/research-1fea50967e49471e8788b8bf4a8360dc/fetch-19f86f9cc1174ec88a7fcd8a7b2fb5b5/attempt-1/body.bin",
+        "rationale": "Bank's own current standalone mark, original vector observed as homepage large-logo source; near-square, fills the icon cell without lettering.",
+        "retrieval": {
+          "path": "evidence/15830/research-1fea50967e49471e8788b8bf4a8360dc/fetch-19f86f9cc1174ec88a7fcd8a7b2fb5b5/receipt.json",
+          "sha256": "36267440ae7a86a80d08541ae03e3d7559efcd7b0c8ce5d2887eede4a4c8c93c"
+        },
+        "sourceAssetUrl": "https://urbo.lt/build/assets/logo-large-mIskFbvK.svg",
+        "sourceUrl": "https://urbo.lt/build/assets/logo-large-mIskFbvK.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://urbo.lt/build/assets/logo-large-mIskFbvK.svg",
+          "checkedAt": "2026-10-04T05:52:18Z",
+          "independenceGroup": "urbo.lt official assets",
+          "kind": "official",
+          "observation": "Official site homepage (medbank.lt redirects to urbo.lt) serves the standalone near-square green #23715F stylized 'U' mark (311x313, two paths, no wordmark) as the homepage large-logo img src; original vector from the bank's own build assets.",
+          "url": "https://urbo.lt/build/assets/logo-large-mIskFbvK.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T05:50:36Z",
+          "independenceGroup": "medbank.lt redirect behaviour",
+          "kind": "official",
+          "observation": "medbank.lt redirects to urbo.lt, evidencing the rebrand of Medicinos bankas to Urbo bankas; legacy red cross/star Medicinos logo persists only on Wikimedia Commons.",
+          "url": "https://medbank.lt"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T06:13:08.804864Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9",
+        "xmlSha256": "fabbfb231dc7a08924209ba797bd519b6de8f165143d601a8892d1844dcb5ddd"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
