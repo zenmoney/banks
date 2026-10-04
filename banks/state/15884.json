@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-04T12:35:26.664943Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15884/assessed-d9fd31754d495f055b7d8c03a59466ad7f6527e7634a755afb6b058c5c3a8bf7.json",
+        "sha256": "d9fd31754d495f055b7d8c03a59466ad7f6527e7634a755afb6b058c5c3a8bf7"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Flame in #EC0000 confirmed current via the live official site footer SVG and the 2020 brand guide; santander.com.br itself returns HTTP 403 from this environment, recorded as a residual BR-specific gap.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Candidate flame is the Santander brand symbol from the bank's own current site asset; the same brand system serves Santander Brasil (santander.com.br, the record's URL).",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official site asset, official brand guide PDF and official media page are separate official publications; no third-party copies were relied on for the decision.",
+        "uncertainties": [
+          "santander.com.br returns HTTP 403, so the Brazil-specific variant was not verified directly; the corporate global asset was accepted as the same brand system."
+        ],
+        "variant": {
+          "basis": "Standalone flame, the variant the official brand guide sanctions for app pictograms; no accompanying text.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "3b09a659cc0309bbf6e57e52e3066390526d7cbd65568f2feb8abe7ad88a6430",
+      "candidate": {
+        "detailsJudgement": "Flame tongues, notches and elliptical bowl preserved exactly; curve control points identical to the official artwork subpath",
+        "faithful": true,
+        "iconHash": "f8f71341052b7282445e670b16752b6f19d6968485dac5d1d4349a9b38c39d9c",
+        "path": "evidence/15884/candidate-f8f71341052b7282445e670b16752b6f19d6968485dac5d1d4349a9b38c39d9c.svg",
+        "proportionsJudgement": "Flame+bowl fills the square cell with ~1px margins; crisp and recognizable at 24/32/48 px on both themes Actual resized bound Desktop diagnostics now inspected: recognizable at all three sizes on light/dark, complete emblem and clear gaps.",
+        "rationale": "The official current flame artwork differs from the accepted base: brand red #EC0000 and current curve geometry per the bank's own site asset and 2020 brand guide. The flame is extracted trace-free as the leading subpath of the clean Illustrator serialization of the same official artwork.",
+        "role": "standalone flame symbol (flame + elliptical bowl, one closed subpath) on a transparent field, the official app-pictogram variant",
+        "sha256": "f8f71341052b7282445e670b16752b6f19d6968485dac5d1d4349a9b38c39d9c",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg",
+        "transforms": [
+          "Flame subpath selected verbatim from the single lockup path (lossless subpath selection)",
+          "Uniform scale 1.232877 and vertical translation 0.9247 of the whole emblem into a 54x54 viewBox",
+          "SVGO 4.1.0 trial on a copy: 727 -> 800 bytes (regression from pretty-printing); working version retained"
+        ],
+        "variant": "current flame in brand red #EC0000; subpath selected verbatim, no recoloring applied",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Corrects the accepted flame to the current official artwork: brand red #EC0000 replaces the outdated #ea1d25 fill and the curve drawing matches the bank's current site asset"
+      },
+      "candidateIconHash": "f8f71341052b7282445e670b16752b6f19d6968485dac5d1d4349a9b38c39d9c",
+      "checkedAt": "2026-10-04T12:35:26.664943Z",
+      "humanReview": "pending",
+      "reason": "The official current flame artwork differs from the accepted base icon: the official flame uses brand red #EC0000 with the current curve geometry (official Illustrator-exported site asset), while the base uses #ea1d25 and proportionally different control points. The brand guide sanctions the flame alone as the app-pictogram variant, and the flame is selectable from the official positive-logo SVG without tracing.",
+      "reviewPackage": {
+        "path": "evidence/15884/candidate-c56a9f2211519dceff309b4e2cc23881323949b42f5478b5f0f5481e93bbc352.json",
+        "sha256": "c56a9f2211519dceff309b4e2cc23881323949b42f5478b5f0f5481e93bbc352"
+      },
+      "sourceCandidate": {
+        "iconHash": "3ecfff6429bc48679ac68adebd64b31beaefa96cc9563f14f04d5600c14c1f4c",
+        "path": "evidence/15884/research-eb76071829524ce493b60438e57d2a2c/fetch-f4916083b36b4f65bcf6248afaf18ed4/attempt-1/body.bin",
+        "rationale": "Genuine original vector artwork identical to the bank's own current logo asset (clean Illustrator serialization; the official DAM URL's DOCTYPE/entities prolog is rejected by the SVG safety gate); the flame subpath preserves the current official geometry and brand red #EC0000, correcting both the base icon's outdated fill (#ea1d25) and its divergent curve drawing.",
+        "retrieval": {
+          "path": "evidence/15884/research-eb76071829524ce493b60438e57d2a2c/fetch-f4916083b36b4f65bcf6248afaf18ed4/receipt.json",
+          "sha256": "592eb037520f4cac0a17a0c410b3276f1586f4f6f197988b793bb542d7a8a514"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg",
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg",
+          "checkedAt": "2026-10-04T12:33:26Z",
+          "independenceGroup": "commons-vector",
+          "kind": "third-party",
+          "observation": "Clean-serialization copy of the same official artwork (Illustrator 22 export comment, docname Banco_Santander..., 4461 bytes, sha256 3ecfff6429bc48679ac68adebd64b31beaefa96cc9563f14f04d5600c14c1f4c, viewBox 0 0 238.2 41.5, no DOCTYPE/entities): flame + wordmark in one path, 6 subpaths, flame leading. Bound as candidate source because the official serialization carries an XML DOCTYPE/entities prolog that the SVG safety gate rejects; flame subpath extracted verbatim and verified to render identically to the official asset's flame.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Banco_Santander_Logotipo.svg"
+        },
+        {
+          "assetUrl": "https://www.santander.com/content/dam/santander-com/images/logo/santander-logo-positive.svg",
+          "checkedAt": "2026-10-04T12:17:47Z",
+          "independenceGroup": "official-site-asset",
+          "kind": "official",
+          "observation": "Current official logo SVG served on santander.com: flame + Santander wordmark in one path, fill #EC0000, Illustrator export (sha256 45cb5f772b92c232f84d2369c663155fb401710fc4b4fcbdf864118e0bef5481). Flame is the leading subpath spanning x 0.001–35.352, y 1.464–35.0; selectable verbatim without tracing.",
+          "url": "https://www.santander.com/content/dam/santander-com/images/logo/santander-logo-positive.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T12:18:30Z",
+          "independenceGroup": "official-brand-guide",
+          "kind": "official",
+          "observation": "Official brand guide (Basic guidelines, 2020, 13 pp, vector PDF): the flame is the brand symbol; the symbol alone is used in small spaces such as the app pictogram; brand red is PMS 485 C / HEX #EC0000; official artwork ships as AI/EPS/PDF/JPG/PNG (no SVG download).",
+          "url": "https://www.santander.com/content/dam/santander-com/es/documentos/marca-santander/Guia_Marca_Santander_EN.PDF"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T12:16:40Z",
+          "independenceGroup": "official-media",
+          "kind": "official",
+          "observation": "Official media resources page references the logo DAM assets; favicons are raster PNG only; no standalone flame SVG is published for download.",
+          "url": "https://www.santander.com/en/press-room/media-resources"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T12:50:23.034914Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "f8f71341052b7282445e670b16752b6f19d6968485dac5d1d4349a9b38c39d9c",
+        "xmlSha256": "6b8fd11668e3c83e22463b16b214743f633cd8642b3857d09273d9ee510d140c"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
