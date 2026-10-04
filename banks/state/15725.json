@@ -1,0 +1,115 @@
+{
+  "lastAttemptAt": "2026-10-04T01:18:54.462483Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15725/assessed-7a7ec9671750ddb0b79be6f0f36bc7ac893fa3f7f8912f46d9b83625d3f8db39.json",
+        "sha256": "7a7ec9671750ddb0b79be6f0f36bc7ac893fa3f7f8912f46d9b83625d3f8db39"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Assets live on the design system's master branch and npm package in active use at fetch date 2026-10-04.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Asset ships in Alfa-Bank's own public design-system monorepo (core-ds/ui-primitives, published as @alfalab/icons-logotype), matching the post-2022 'Á'+underline symbol; record title is the business sub-brand of Alfa-Bank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official design-system repository is the primary source; Wikimedia/vectorseek checked as independent third parties and rejected.",
+        "uncertainties": [
+          "alfabank.ru and biz.alfabank.ru were bot-blocked (403), so on-site presentation and any distinct business-sub-brand mark were not directly observed."
+        ],
+        "variant": {
+          "basis": "Compact standalone symbol variant (18x18, single path), no wordmark; same glyph geometry as base but flat single-color instead of white-on-gradient disc.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/1711c4ceb628e76704a9295fd5591bc175e3f9bfdda08411ed8f075f21855c51.json",
+        "sha256": "1711c4ceb628e76704a9295fd5591bc175e3f9bfdda08411ed8f075f21855c51"
+      },
+      "baseIconHash": "921c1e0cb1b3eb6f25212a14c5a9bdb65f385398b4ffa9115c923b3f5224361a",
+      "candidate": {
+        "detailsJudgement": "All emblem contours survive: apex, crossbar counter, and full-width underline with internal transparency preserved; rsvg-convert source/final pairs show identical shapes.",
+        "faithful": true,
+        "iconHash": "d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e",
+        "path": "evidence/15725/candidate-d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e.svg",
+        "proportionsJudgement": "Whole emblem fits the square cell with even margins; recognizable and legible at 24/32/48 px diagnostics on both themes; no shrinking beyond useful size; transparent backing kept per policy for a suitable transparent standalone mark.",
+        "rationale": "Post-2022 official Alfa-Bank standalone 'A'+underline symbol from Alfa's own design system, replacing the base's older white-glyph-on-gradient-disc presentation. Brand-red fill chosen from official colored contexts for legibility on both themes.",
+        "role": "Standalone brand symbol (no wordmark); original vector source bound to the design-system fetch receipt.",
+        "sha256": "d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e",
+        "sourceAssetUrl": "https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg",
+        "transforms": [
+          "Uniform scale 2.5x with translation (4.5,4.5) placing the complete 18x18 emblem on the 54x54 canvas with even margins; no rotation, stretch, recolor of paths, or part moves.",
+          "Fill changed from default #000000 to official brand-red #EF3124 (official colored variant context).",
+          "SVGO 4.1.0 trial with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 492 -> 393 bytes; rsvg-convert renders working vs optimized pixel-identical on #FFFFFF and #121212 (diff bbox None both). Optimized bytes selected as final.svg (sha256 d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e)."
+        ],
+        "variant": "Official compact standalone mark variant; official brand-red #EF3124 color context selected over default black for dark-theme legibility. No official circular avatar of this variant was observed (official site bot-blocked), so no circular-presentation claim is made.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Presentation difference versus base: gradient disc with white glyph replaced by the current official flat red symbol on transparent background; this is the supported rebrand presentation, not a serialization change."
+      },
+      "candidateIconHash": "d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e",
+      "checkedAt": "2026-10-04T01:18:54.462483Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "84f1dc0d63064aa5d31248d45600f77f4c345cce3da3fbd5e417e362510b290f",
+        "head": "bank-icon-maintenance/alfa-bank-business-15725",
+        "headCommit": "25fc768a583e4e20f0f78510984d34ad9588aeaa",
+        "number": 90,
+        "observedAt": "2026-10-04T01:31:08.227818Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Альфа-Банк Бизнес (Company.id 15725)",
+        "url": "https://github.com/zenmoney/banks/pull/90"
+      },
+      "reason": "Post-2022 official 'Á' glyph with underline, standalone compact SVG from Alfa-Bank's own design system (core-ds/ui-primitives master); base is an older stylized white-on-gradient-disc presentation of the same glyph.",
+      "reviewPackage": {
+        "path": "evidence/15725/candidate-28b200892cfae1708ebc68f4b71e349153dbd8665e7c97b7cfd1e4f17df4964b.json",
+        "sha256": "28b200892cfae1708ebc68f4b71e349153dbd8665e7c97b7cfd1e4f17df4964b"
+      },
+      "sourceCandidate": {
+        "iconHash": "dadb1b913e475973415a99c2ccbf1aa567aec3f4ecdb5a633df6bf50498e02b0",
+        "path": "evidence/15725/research-3548510c4b6a4779825bb53ccdaade50/fetch-e5ae27edee574930997aa19a3cbd762f/attempt-1/body.bin",
+        "rationale": "Original standalone vector of the current Alfa-Bank symbol from Alfa's own maintained design system; replaces the older gradient-disc presentation.",
+        "retrieval": {
+          "path": "evidence/15725/research-3548510c4b6a4779825bb53ccdaade50/fetch-e5ae27edee574930997aa19a3cbd762f/receipt.json",
+          "sha256": "2816447f2d856a4e038ad7d1edb3ae8617d90bc5b4c5561799701399b7f928b6"
+        },
+        "sourceAssetUrl": "https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg",
+          "checkedAt": "2026-10-04T01:08:34Z",
+          "independenceGroup": "alfa-laboratory official design system",
+          "kind": "official",
+          "observation": "Official compact standalone mark, single path, rendered correctly with rsvg-convert.",
+          "url": "https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Alfa_Bank_RU_logo.svg",
+          "checkedAt": "2026-10-04T01:05:51Z",
+          "independenceGroup": "wikimedia commons (independent)",
+          "kind": "third-party",
+          "observation": "Pre-2022 Cyrillic wordmark; rejected as outdated.",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Alfa_Bank_RU_logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T01:22:12.343614Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e",
+        "xmlSha256": "b97640d064fb19df98d61e34291c0db831927a4f9e133801882557164cb4a007"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
