@@ -1,0 +1,95 @@
+{
+  "lastAttemptAt": "2026-10-04T17:19:13.122668Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15936/assessed-97bcef4b4ed81901c96da4eb97e1e7ce9b8ac9b55d100c39d761f920239920ff.json",
+        "sha256": "97bcef4b4ed81901c96da4eb97e1e7ce9b8ac9b55d100c39d761f920239920ff"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live brand-assets page served 2026-10-04 lists this variant as the current official logo; operating explorer brand in active use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The circle SVG is published by etherscan.io on its own brand-assets page as the Etherscan logo-circle variant, matching the record title 'EtherScan' and url etherscan.io.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations come from the official etherscan.io brand-assets page; identity of the replacement does not depend on third-party copies. The accepted icon was recognized as the Ethereum network diamond by direct path comparison with the official ethereum-original asset.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone circular emblem without accompanying text; matches the observed official circle presentation of the brand mark.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "53c7032cf078d66b7b45d2caf38816f696e1bd76f20d3f44e00f2b7760fd82b5",
+      "candidate": {
+        "detailsJudgement": "All internal emblem details (bar chart columns, tonal circle ring, magnifier notch) survive conversion and SVGO; both theme renders show crisp edges and correct fills.",
+        "faithful": true,
+        "iconHash": "a6931c99d392536df6161b2eb18d2f2546bcc436756a5abced0380c07084c3b1",
+        "path": "evidence/15936/candidate-a6931c99d392536df6161b2eb18d2f2546bcc436756a5abced0380c07084c3b1.svg",
+        "proportionsJudgement": "The 123x123 circular mark is uniformly scaled to the 54x54 cell with no distortion; the emblem stays centered with even clearance.",
+        "rationale": "Replaces the misattributed Ethereum network diamond with the official current Etherscan circular chart-bar mark from the brand-assets page.",
+        "role": "standalone circular brand mark (official circle variant of the Etherscan logo)",
+        "sha256": "a6931c99d392536df6161b2eb18d2f2546bcc436756a5abced0380c07084c3b1",
+        "sourceAssetUrl": "https://etherscan.io/images/brandassets/etherscan-logo-circle.svg",
+        "sourceUrl": "https://etherscan.io/brandassets",
+        "transforms": [
+          "uniform scale of the whole 123x123 emblem into the 54x54 catalog cell; no crop, no geometry or color changes",
+          "SVGO 1.x multipass with frozen repo svgo.config.mjs (config sha256 per opt-trial receipt): 2254 -> 1079 bytes, optimized version selected as final (visually faithful, converter-compatible)"
+        ],
+        "variant": "official circle badge variant from etherscan.io/images/brandassets/etherscan-logo-circle.svg",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before: black faceted Ethereum diamond with opacity layers (the network logo, wrong identity). After: navy circular Etherscan chart-bar mark. Visible identity correction, not a cosmetic byte change."
+      },
+      "candidateIconHash": "a6931c99d392536df6161b2eb18d2f2546bcc436756a5abced0380c07084c3b1",
+      "checkedAt": "2026-10-04T17:19:13.122668Z",
+      "humanReview": "pending",
+      "reason": "The accepted SVG is the Ethereum diamond logo (facet paths with opacity 0.45-0.8), not the Etherscan brand mark; it is the logo of the underlying blockchain network, not of the explorer brand this record names. The official current Etherscan circular mark was retrieved from the official brand-assets page and is proposed as a replacement.",
+      "reviewPackage": {
+        "path": "evidence/15936/candidate-c1da58a0cc83d49e9eb649a19eace0754b1abaa920beaf5e927ef97edd1f9bf3.json",
+        "sha256": "c1da58a0cc83d49e9eb649a19eace0754b1abaa920beaf5e927ef97edd1f9bf3"
+      },
+      "sourceCandidate": {
+        "iconHash": "21c1a4e2578a29059d8b50ba67e5a0eb25adaa8689f19fbadb21981d50bd9476",
+        "path": "evidence/15936/research-da38cc2c28b6454b96236aafd3ef1055/fetch-a25d7df21c7d40d9a7ab5a723b189e09/attempt-1/body.bin",
+        "rationale": "Official current circular Etherscan mark replaces the misattributed Ethereum network diamond; original vector, no accompanying text, square-cell suitable.",
+        "retrieval": {
+          "path": "evidence/15936/research-da38cc2c28b6454b96236aafd3ef1055/fetch-a25d7df21c7d40d9a7ab5a723b189e09/receipt.json",
+          "sha256": "151ff4b19ff20b17844584ed236b7b0dc7465aa70c554b49e514f6b471b054f7"
+        },
+        "sourceAssetUrl": "https://etherscan.io/images/brandassets/etherscan-logo-circle.svg",
+        "sourceUrl": "https://etherscan.io/brandassets"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://etherscan.io/images/brandassets/etherscan-logo-circle.svg",
+          "checkedAt": "2026-10-04T17:18:20Z",
+          "independenceGroup": "etherscan.io official primary publication",
+          "kind": "official",
+          "observation": "Official brand-assets page lists logo variants with SVG download options, including a circle mark variant; retrieved etherscan-logo-circle.svg (123x123, magnifier-glyph circular badge, #21325B/#979695 tonal ring).",
+          "url": "https://etherscan.io/brandassets"
+        },
+        {
+          "assetUrl": "https://etherscan.io/images/svg/brands/ethereum-original.svg",
+          "checkedAt": "2026-10-04T17:18:25Z",
+          "independenceGroup": "etherscan.io official primary publication",
+          "kind": "official",
+          "observation": "The same official page distinguishes the 'ethereum-original' network brand SVG from the Etherscan logo variants; the accepted repository icon matches the Ethereum network diamond, not any Etherscan-branded asset.",
+          "url": "https://etherscan.io/brandassets"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T17:35:43.178698Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a6931c99d392536df6161b2eb18d2f2546bcc436756a5abced0380c07084c3b1",
+        "xmlSha256": "4942266e318d08e16ac3702d120c80f7acb5d574c8ff40b5b940955a3b777fcd"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
