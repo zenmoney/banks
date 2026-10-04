@@ -1,0 +1,167 @@
+{
+  "lastAttemptAt": "2026-10-04T07:16:21.960137Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15841/assessed-5f88dd0cb7ea29ae1eeb573cf3bfd24f64ad37bf149d2f9c48996f3f91d85389.json",
+        "sha256": "5f88dd0cb7ea29ae1eeb573cf3bfd24f64ad37bf149d2f9c48996f3f91d85389"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current official DK webpage uses the original new progress-bar symbol; official 2024 rebrand announcement independently explains its introduction within the same corporate publication group.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Exact official Danish metadata domain and bank-labelled footer asset; no successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All retrieved evidence is one official publisher; no false claim of independent corroboration. Direct original asset plus actual operating site use closes provenance/currency gap, so conditional independent/image-discovery stages unnecessary.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone navy and white progress-bar vector, no separate text; symbol can be centered in square cell as officially shown by square touch icon. Wide 4.24:1 geometry is intrinsic symbol, not squeezed full wordmark.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "c95eb995b3c27f196f1eb20d0b50969605fdfa67ac37c0caf482bb7ae099b424",
+      "candidate": {
+        "detailsJudgement": "Full original/source-final rasters and both Compose theme pairs inspected. Navy inset and white right segment/perimeter match source; no clipping, invented color or lost negative space.",
+        "faithful": true,
+        "iconHash": "cc514324cbdd97610b1e61b0eef8218325503553a51f5ebaf42c895a39ed4868",
+        "path": "evidence/15841/candidate-cc514324cbdd97610b1e61b0eef8218325503553a51f5ebaf42c895a39ed4868.svg",
+        "proportionsJudgement": "Intrinsic wide symbol centered without distortion. Whole rectangle fits; integral white segment retained, not removed as background. 24/32/48px resized diagnostics inspected: simple silhouette survives, though small and white portion blends on white as in source. Official touch-icon context supports standalone square-cell use.",
+        "rationale": "Replace older D monogram with officially introduced progress-bar standalone symbol, currently used by Danish bank website and touch icon. This is an evidenced identity refresh, not a serialization change.",
+        "role": "standalone bank symbol",
+        "sha256": "cc514324cbdd97610b1e61b0eef8218325503553a51f5ebaf42c895a39ed4868",
+        "sourceAssetUrl": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43",
+        "sourceUrl": "https://danskebank.dk",
+        "transforms": [
+          "No emblem geometry, color or backing adaptation; preserve original horizontal 391:92.2 composition.",
+          "SVGO 4.1.0 frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 546 to 196 bytes; independently inspected working/optimized on both themes, equivalent complete geometry and paints; selected cc514324cbdd97610b1e61b0eef8218325503553a51f5ebaf42c895a39ed4868."
+        ],
+        "variant": "Original navy #002346 progress bar with integral white right segment and thin white perimeter; preserve its intrinsic rectangular contour and transparent surrounding canvas. No circular-avatar claim.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Actual theme pairs show D circle replaced by current horizontal progress-bar symbol; source-supported brand refresh."
+      },
+      "candidateIconHash": "cc514324cbdd97610b1e61b0eef8218325503553a51f5ebaf42c895a39ed4868",
+      "checkedAt": "2026-10-04T07:16:21.960137Z",
+      "humanReview": "pending",
+      "reason": "Supported official current progress-bar symbol replaces accepted D monogram; 2024 rebrand and current Danish footer/touch-icon use support change. Candidate still requires coordinator preparation and actual platform render review.",
+      "reviewPackage": {
+        "path": "evidence/15841/candidate-1fd6277ebf37ed1cdfcd5effd582646ffd5898479624b915b3e17ff24c4a0184.json",
+        "sha256": "1fd6277ebf37ed1cdfcd5effd582646ffd5898479624b915b3e17ff24c4a0184"
+      },
+      "sourceCandidate": {
+        "iconHash": "827f4ca63cc16001f17e72f5ed84e395ba15764afbc322f981b6f83611a2b5df",
+        "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-39ff79604eb14a7da3a1c04fcbc37f30/attempt-1/body.bin",
+        "rationale": "Current officially published standalone symbol, original vector and no lettering; replace unsupported older D variant based on evidenced rebrand, not serialization.",
+        "retrieval": {
+          "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-39ff79604eb14a7da3a1c04fcbc37f30/receipt.json",
+          "sha256": "755d1d9367b7c0d954528b07ab8c209bd5f6dce26e86ae899eff683b25e159d4"
+        },
+        "sourceAssetUrl": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43",
+        "sourceMaterial": {
+          "path": "evidence/15841/source-material-5e72dc7913384d9f83f178e88036be4a/material.json",
+          "sha256": "7fa24ef094967395359cc80c32ccb1f721415c6f1518a48335c9c926dab0eedb"
+        },
+        "sourceUrl": "https://danskebank.dk"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43",
+          "body": {
+            "bytes": 546,
+            "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-39ff79604eb14a7da3a1c04fcbc37f30/attempt-1/body.bin",
+            "sha256": "827f4ca63cc16001f17e72f5ed84e395ba15764afbc322f981b6f83611a2b5df"
+          },
+          "checkedAt": "2026-10-04T07:13:28.553218Z",
+          "independenceGroup": "Danske Bank official publications",
+          "kind": "official",
+          "observation": "Original Adobe Illustrator SVG served and linked by official Danish site. Self-contained 391x92.2 viewBox: white rectangular field and inset #002346 left rectangle. No lettering or raster. Independently rendered with rsvg-convert and image inspected: full horizontal progress-bar symbol with substantial white right segment.",
+          "receipt": "/sessions/bank-icon-sfgd4wj8/session/evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-39ff79604eb14a7da3a1c04fcbc37f30/receipt.json",
+          "url": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43"
+        },
+        {
+          "assetUrl": null,
+          "body": {
+            "bytes": 198839,
+            "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-4b9628ac192c460b8500998c8c19287e/attempt-1/body.bin",
+            "sha256": "944fcfa09779a374d284238d6532c16c887f6080f9ee827d2607db68fb299f38"
+          },
+          "checkedAt": "2026-10-04T07:13:11.065187Z",
+          "independenceGroup": "Danske Bank official publications",
+          "kind": "official",
+          "observation": "Official download page still uses standalone progress-bar footer symbol; provided logo downloads are full wordmarks and not needed as standalone source.",
+          "receipt": "/sessions/bank-icon-sfgd4wj8/session/evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-4b9628ac192c460b8500998c8c19287e/receipt.json",
+          "url": "https://danskebank.com/news-and-insights/image-bank"
+        },
+        {
+          "assetUrl": null,
+          "body": {
+            "bytes": 88612,
+            "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-dcb5290ad41a4d44a0ce9c6c74606160/attempt-1/body.bin",
+            "sha256": "014ad521b59394c725775e7ad30accb0a21175eb5e3b1daf4467b63ab3a6817c"
+          },
+          "checkedAt": "2026-10-04T07:13:02.477039Z",
+          "independenceGroup": "Danske Bank official publications",
+          "kind": "official",
+          "observation": "Official 2024 announcement explicitly introduces new standalone progress-bar symbol and refreshed identity, with gradual three-year rollout. Currency is corroborated by actual present Danish site use, not launch date alone.",
+          "receipt": "/sessions/bank-icon-sfgd4wj8/session/evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-dcb5290ad41a4d44a0ce9c6c74606160/receipt.json",
+          "url": "https://danskebank.com/news-and-insights/news-archive/news/2024/02092024"
+        },
+        {
+          "assetUrl": "https://danskebank.dk/~/media/Danske%20Bank/favicons/Apple/apple-touch-icon-180x180.png",
+          "body": {
+            "bytes": 450,
+            "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-86eb60a6e0ca48fea99505439ddbb851/attempt-1/body.bin",
+            "sha256": "aa23d16bbceb1a984a9424d4c9c1c7f9a8d0f74848202b6c44dae7b1def7225e"
+          },
+          "checkedAt": "2026-10-04T07:12:14.848165Z",
+          "independenceGroup": "Danske Bank official publications",
+          "kind": "official",
+          "observation": "Image read: actual official square touch icon shows centered horizontal navy/white progress bar, no accompanying text; transparent surrounding canvas (black in image viewer). This supports square-cell use of this standalone symbol, not tracing or a circular avatar claim.",
+          "receipt": "/sessions/bank-icon-sfgd4wj8/session/evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-86eb60a6e0ca48fea99505439ddbb851/receipt.json",
+          "url": "https://danskebank.dk/~/media/Danske%20Bank/favicons/Apple/apple-touch-icon-180x180.png"
+        },
+        {
+          "assetUrl": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-logo-svg.svg?iar=0&rev=e556e7c368a649ec9bc5b3e1701ecf23&hash=A4A585E5A96F33CC2EFAB973823F1BEB",
+          "body": {
+            "bytes": 3638,
+            "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-d96799150ff74b8e945fedb290adc50e/attempt-1/body.bin",
+            "sha256": "b079d4f2b408311f61145cc7530f7fd2d883b90dc1491a1d97e0069bbde1e7d2"
+          },
+          "checkedAt": "2026-10-04T07:11:57.649983Z",
+          "independenceGroup": "Danske Bank official publications",
+          "kind": "official",
+          "observation": "Full 1920x195 wordmark SVG with outlined letters; rejected as catalog icon because accompanying bank name is unsuitable.",
+          "receipt": "/sessions/bank-icon-sfgd4wj8/session/evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-d96799150ff74b8e945fedb290adc50e/receipt.json",
+          "url": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-logo-svg.svg?iar=0&rev=e556e7c368a649ec9bc5b3e1701ecf23&hash=A4A585E5A96F33CC2EFAB973823F1BEB"
+        },
+        {
+          "assetUrl": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43",
+          "body": {
+            "bytes": 288700,
+            "path": "evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-6a718e3c71e54c939faaf8ad5344a4ba/attempt-2/body.bin",
+            "sha256": "30c1a2f9540a58fec50ded2019cd1835b2922db23980749769b9197084bc9c47"
+          },
+          "checkedAt": "2026-10-04T07:11:38.152598Z",
+          "independenceGroup": "Danske Bank official publications",
+          "kind": "official",
+          "observation": "Current Danish personal-banking site identifies Danske Bank and directly embeds standalone progress-bar SVG in its footer (line 2204), plus matching progress-bar touch icon (line 34). Active banking services support operating-brand identity.",
+          "receipt": "/sessions/bank-icon-sfgd4wj8/session/evidence/15841/research-2b5b48533bda419895c5ca6e7c94f873/fetch-6a718e3c71e54c939faaf8ad5344a4ba/receipt.json",
+          "url": "https://danskebank.dk"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-04T07:20:34.747212Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "cc514324cbdd97610b1e61b0eef8218325503553a51f5ebaf42c895a39ed4868",
+        "xmlSha256": "62ddf542cc571fd7ac4f112409c330201331e086da95ee614c8cbfc917bb1e2e"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
