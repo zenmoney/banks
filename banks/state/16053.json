@@ -1,0 +1,120 @@
+{
+  "lastAttemptAt": "2026-10-04T21:33:04.222804Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16053/assessed-6f428c3633cff0036cecfa077ebffc09589bff7e6534e5f5aab824cc50ffd680.json",
+        "sha256": "6f428c3633cff0036cecfa077ebffc09589bff7e6534e5f5aab824cc50ffd680"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Mark observed live on the bank's own site on 2026-10-04 (header logo asset and favicon); not an archived source.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "raiffeisenbank.rs homepage serves the yellow gabled-heads mark; entity is Raiffeisen banka a.d. Beograd (Raiffeisen Bank Serbia), matching the record title 'Raiffeisen Srbije Biznis'.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Two separate official files on the same domain (header logo lockup and favicon) plus RBI brand guidelines naming the standalone symbol.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone mark variant is approved (RBI brand guidelines list 'Gable Cross' as standalone symbol); official favicon.svg supplies it as a standalone vector on the brand-yellow field.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3c6e2dfe58d88542ea6e66d22fa3a7923e29b09c9f8fb34849f593ddf6d67ebe.json",
+        "sha256": "3c6e2dfe58d88542ea6e66d22fa3a7923e29b09c9f8fb34849f593ddf6d67ebe"
+      },
+      "baseIconHash": "de63866067f6336d933b0dd3fd33209351b70b7bce5170f35e4a04ca18131bc7",
+      "candidate": {
+        "detailsJudgement": "Full source raster (librsvg reference, 960px) compared with the final: the gabled heads, roof notches, diagonal beam ends and the central diamond counterform are all present and unchanged; no stroke or satellite detail lost by the circular backing.",
+        "faithful": true,
+        "iconHash": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c",
+        "path": "evidence/16053/candidate-91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c.svg",
+        "proportionsJudgement": "Mark occupies the same central position as the source; complete emblem fits the circle with margin (corner radius 172.6 of 200). Useful size at 24/32/48 px diagnostics remains legible; equal treatment on both themes.",
+        "rationale": "Presentation correction: replace the accepted icon's non-official black square frame inside a yellow circle with the bank's official standalone mark on the brand-yellow field. Emblem geometry is the original bank vector (favicon.svg, data-name 'Logo 2016') unchanged.",
+        "role": "Standalone two-gabled-heads (Giebelkreuz) mark on a plain brand-yellow field; no accompanying bank name or slogan.",
+        "sha256": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c",
+        "sourceAssetUrl": "https://www.raiffeisenbank.rs/favicon.svg",
+        "sourceUrl": "https://www.raiffeisenbank.rs/favicon.svg",
+        "transforms": [
+          "Background-only backing change: the official square #FEE600 canvas is replaced by a same-color circle (r=200, center 200,200) with transparency outside; the mark path itself is byte-identical geometry with no scale, rotation or translation (mark bbox corners lie within radius 172.6 < 200, so nothing is clipped).",
+          "SVGO 4.1.0 trial with frozen config (sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e): 480 -> 480 bytes, only hex-case/path normalization; kept the working version as final."
+        ],
+        "variant": "Catalog circular backing: the official favicon.svg has a square #FEE600 canvas; the same plain yellow field is reproduced as a full 400x400 circle with transparency outside, emblem placement unchanged. This is a catalog presentation adaptation of a plain field, not an official round asset.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The accepted icon draws the mark inside a thin black square outline that appears in no observed official asset (header lockup and favicon both show the bare mark on the yellow field). The candidate removes that frame and normalizes the backing to the catalog circle; the mark itself is unchanged, so the visible difference is removal of the non-official frame, not a rebrand."
+      },
+      "candidateIconHash": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c",
+      "checkedAt": "2026-10-04T21:33:04.222804Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e463cf3ad5042ea667b9e4f0ca3fe7bcc459133a8f57ab00dd26171d53227c55",
+        "head": "bank-icon-maintenance/16053",
+        "headCommit": "a15f854002d18d06c019d0074aa73880df170deb",
+        "number": 138,
+        "observedAt": "2026-10-04T21:49:16.141776Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Raiffeisen Srbije Biznis (Company.id 16053)",
+        "url": "https://github.com/zenmoney/banks/pull/138"
+      },
+      "reason": "Live official site (raiffeisenbank.rs, fetched 2026-10-04) serves the yellow/black gabled-heads Giebelkreuz mark in current use. Official favicon.svg is a standalone original vector of the mark on the brand-yellow field. The catalog icon shows the same mark but adds a black square frame not present in any observed official asset; a presentation-correcting candidate is justified.",
+      "reviewPackage": {
+        "path": "evidence/16053/candidate-e2b968dc5b2a6ac6ce87d4669f0169ea110771966785edf48cd8dfdf75d30d14.json",
+        "sha256": "e2b968dc5b2a6ac6ce87d4669f0169ea110771966785edf48cd8dfdf75d30d14"
+      },
+      "sourceCandidate": {
+        "iconHash": "3e923ee4de8646dde7c6e5fa7747cd101ee98d3862680b1d06961d80f11976ac",
+        "path": "evidence/16053/research-06c9344ea86d4fbf9eb1e4d64079f362/fetch-1d07d9865de44827b96a9749c21a03ee/attempt-1/body.bin",
+        "rationale": "Genuine original vector authored by the bank (data-name 'Logo 2016'; two paths: #FEE600 field and #2B2D33 mark), standalone with no accompanying text, suitable for a square cell. Direct HTTPS download of exact SVG bytes, not traced; retrieval receipt binds the bytes.",
+        "retrieval": {
+          "path": "evidence/16053/research-06c9344ea86d4fbf9eb1e4d64079f362/fetch-1d07d9865de44827b96a9749c21a03ee/receipt.json",
+          "sha256": "62a787ff066e0ea24da85ba2594a4f3ebdffe278a7e6312b799c32a4e3b8515d"
+        },
+        "sourceAssetUrl": "https://www.raiffeisenbank.rs/favicon.svg",
+        "sourceUrl": "https://www.raiffeisenbank.rs/favicon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.raiffeisenbank.rs/content/dam/rbi/common/logos/Raiffeisen%20Bank.svg",
+          "checkedAt": "2026-10-04T21:31:49Z",
+          "independenceGroup": "raiffeisenbank.rs site assets",
+          "kind": "official",
+          "observation": "Homepage (final URL /sr/stanovnistvo.html) header serves 'Raiffeisen Bank.svg': yellow square with the black gabled-heads mark beside the 'Raiffeisen Bank' wordmark (190x48 lockup, sha256 7e2b16e0...).",
+          "url": "https://www.raiffeisenbank.rs/"
+        },
+        {
+          "assetUrl": "https://www.raiffeisenbank.rs/favicon.svg",
+          "checkedAt": "2026-10-04T21:31:49Z",
+          "independenceGroup": "raiffeisenbank.rs site assets",
+          "kind": "official",
+          "observation": "Standalone SVG mark: 400x400 viewBox, #FEE600 square field, #2B2D33 two-gabled-heads path, data-name 'Logo 2016'; sha256 3e923ee4de8646dde7c6e5fa7747cd101ee98d3862680b1d06961d80f11976ac. Selected candidate asset.",
+          "url": "https://www.raiffeisenbank.rs/favicon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T21:31:49Z",
+          "independenceGroup": "Raiffeisen Bank International brand publications",
+          "kind": "third-party",
+          "observation": "RBI brand guidelines (budgeted search, ticket b86202bc19f3407a93dd49a7b1d291b0) list the 'Gable Cross' as an approved standalone symbol, supporting the standalone variant's legitimacy.",
+          "url": "https://brand.rbinternational.com/en/brand-guidelines.html"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T21:36:17.199452Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c",
+        "xmlSha256": "f94d23645984054bb9c052b75e9b30bb4e97de5ce22c3e4c8e607733db93f530"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
