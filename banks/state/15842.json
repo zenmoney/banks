@@ -1,0 +1,106 @@
+{
+  "lastAttemptAt": "2026-10-04T07:46:25.336479Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15842/assessed-bd6ee01d773125cd972ba8164c439d2263fe8ef4d6ee61712e59dedbeebf10ac.json",
+        "sha256": "bd6ee01d773125cd972ba8164c439d2263fe8ef4d6ee61712e59dedbeebf10ac"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "This exact vector is linked as the bank logo in the currently fetched operating-bank homepage. Current use is supported by live source context, not inferred from source creation time or search summary.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Exact metadata host and bank name match live official header context and Turkish retail banking content; no parent/successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Homepage and asset are one authoritative primary source. Search provided no independent evidence; identity/current-use gap is directly resolved by exact official header asset linkage, so no copied material counted as independent.",
+        "uncertainties": [
+          "Baseline original attribution is not established; it was observed only as a flat green reference. Exact Compose gradient compatibility and dark-theme small-size contrast are not verified in research."
+        ],
+        "variant": {
+          "basis": "Standalone eight-part clover selected from official original vector group LOGO, with complete contours, transforms, paint gradients and internal transparency preserved. Separate wordmark omitted in working copy. Transparent mark; no field or backing added. No official circular-avatar claim. Square viewBox only centers complete emblem with uniform unscaled geometry; final theme/small-size fit remains review-stage work.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/120b04dc9952d39a2aebed05a67ff54b7c3df612137eb3180462580eda3e3e74.json",
+        "sha256": "120b04dc9952d39a2aebed05a67ff54b7c3df612137eb3180462580eda3e3e74"
+      },
+      "baseIconHash": "5587b14634ea2d6553af461e6c42c59633f25a4019ad75ad9658795b4fac5160",
+      "candidate": {
+        "detailsJudgement": "Full source and exact final show all eight leaves, asymmetric contours, original gradients and internal transparent gaps preserved. No clipping or invented paint. Working/optimized references show no visible change.",
+        "faithful": true,
+        "iconHash": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4",
+        "path": "evidence/15842/candidate-49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4.svg",
+        "proportionsJudgement": "Whole clover fits centered at useful scale on both themes. Exact Desktop resized diagnostics at 24/32/48px remain recognizable. Darkest upper tips have low contrast on dark theme, inherent to original vector; complete silhouette and bright lower leaves remain distinguishable. No backing invented to conceal that tradeoff.",
+        "rationale": "Restore gradient-green colors and complete original clover contours from the live official header; meaningful source-fidelity correction, not a documented rebrand or claim that flat baseline is obsolete.",
+        "role": "Standalone bank clover emblem, separate lettering omitted.",
+        "sha256": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4",
+        "sourceAssetUrl": "https://www.garantibbva.com.tr/content/experience-fragments/public-website/tr/site/header/master1/_jcr_content/root/header/headerdesktop/image.coreimg.svg/1782192398335/logo.svg",
+        "sourceUrl": "https://www.garantibbva.com.tr/",
+        "transforms": [
+          "Preserved original LOGO subtree and gradient definitions; omitted separate wordmark; centered complete emblem in square viewBox -10.5 0 59 59 without distortion.",
+          "SVGO 4.1.0 config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 10316 to 5676 bytes; selected optimized version after independent working/optimized image comparison."
+        ],
+        "variant": "Original green gradients on transparent field; no backing or circular adaptation.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact before/after shows flat green replaced by source-original dark/light gradients and subtle source contours, clearly visible on both themes; not serialization alone."
+      },
+      "candidateIconHash": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4",
+      "checkedAt": "2026-10-04T07:46:25.336479Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e5102ee29733c0ef2d70d6ebc403268ea9534f2d55163e45c576432af85df11a",
+        "head": "bank-icon-maintenance/a3me6hif-15842",
+        "headCommit": "76ce6fd5febb890deca40e25e5ae038d6fc2e85f",
+        "number": 104,
+        "observedAt": "2026-10-04T08:04:59.257815Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Garanti BBVA (Company.id 15842)",
+        "url": "https://github.com/zenmoney/banks/pull/104"
+      },
+      "reason": "Official live Turkish Garanti BBVA website supplies an original gradient-green clover vector. Baseline shows the same general clover silhouette in flat #00673f; source-backed gradient/color correction is visible in independent rsvg reference renders. Propose only the standalone original emblem, not the wordmark. This is not a documented rebrand and does not declare the baseline obsolete.",
+      "reviewPackage": {
+        "path": "evidence/15842/candidate-860dfb8ae60a4c453016433af36554ed62ebc7b014ff95fb0bdf030129d4583d.json",
+        "sha256": "860dfb8ae60a4c453016433af36554ed62ebc7b014ff95fb0bdf030129d4583d"
+      },
+      "sourceCandidate": {
+        "iconHash": "7804d50a6b9e8bf9baad7e2dfe821d34921b78863c3c8e7274a6fe67060fbbfe",
+        "path": "evidence/15842/research-2da8b7ed05c048a5b6b9f28e29f4b2e9/fetch-d4f2a19ed7ce437398f818d51c7281a0/attempt-1/body.bin",
+        "rationale": "Replace flat clover rendition with source-original gradient-green emblem from exact live official header. Complete source geometry and internal transparency retained; accompanying wordmark removed for square-cell suitability. Source preserving crop, not tracing/redrawing/recoloring or cosmetic backing normalization.",
+        "retrieval": {
+          "path": "evidence/15842/research-2da8b7ed05c048a5b6b9f28e29f4b2e9/fetch-d4f2a19ed7ce437398f818d51c7281a0/receipt.json",
+          "sha256": "472b27c5292969a9bfbbc50094c1ffd7695cf466980a203d53a5394f0028e2ea"
+        },
+        "sourceAssetUrl": "https://www.garantibbva.com.tr/content/experience-fragments/public-website/tr/site/header/master1/_jcr_content/root/header/headerdesktop/image.coreimg.svg/1782192398335/logo.svg",
+        "sourceUrl": "https://www.garantibbva.com.tr/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.garantibbva.com.tr/content/experience-fragments/public-website/tr/site/header/master1/_jcr_content/root/header/headerdesktop/image.coreimg.svg/1782192398335/logo.svg",
+          "checkedAt": "2026-10-04T07:45:08.165862Z",
+          "independenceGroup": "Garanti BBVA official website",
+          "kind": "official",
+          "observation": "Retrieved operating Turkish retail-bank homepage with deposit, credit, payments and mobile banking services. Header explicitly labels its linked SVG Garanti BBVA logosu. Downloaded SVG renders a complete gradient-green clover plus black Garanti and blue BBVA lettering. Source has eight original path groups with retained gradients, not raster embedding or traced reconstruction.",
+          "url": "https://www.garantibbva.com.tr/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T07:51:43.524336Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4",
+        "xmlSha256": "f81d97eee760d0063c0e4151263bd5d8e4eb9ac081e3b45020bec7a3818b7485"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
