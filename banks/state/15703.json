@@ -1,0 +1,119 @@
+{
+  "lastAttemptAt": "2026-10-03T23:26:20.817601Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15703/assessed-18d0ac2e5176c8cb57ec33a44b1418b915cf8e2d08baf29a4139372fc6b66e9d.json",
+        "sha256": "18d0ac2e5176c8cb57ec33a44b1418b915cf8e2d08baf29a4139372fc6b66e9d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Logo is described as the current FIBI logo on the file page fetched 2026-10-03; no competing or superseding variant found.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official zigzag symbol matches the existing standalone symbol.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Wikipedia file (agency attribution) is the single vector source; official site inaccessible is disclosed.",
+        "uncertainties": [
+          "Official fibi.co.il could not be reached this run (Radware bot block incl. archive copy); current-use rests on the Wikipedia file and absence of any newer variant in search."
+        ],
+        "variant": {
+          "basis": "Existing icon uses off-brand orange #E8A33E vs current #FDB726; candidate from the agency-attributed vector.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/e61950f6f4fcc6e9c9ac572c005a4c749c7dde42cbd6c0cf8fac6c08f21f1ac2.json",
+        "sha256": "e61950f6f4fcc6e9c9ac572c005a4c749c7dde42cbd6c0cf8fac6c08f21f1ac2"
+      },
+      "baseIconHash": "2bf28b61e8f21f7ffb3502d58372e4be2d838a264b785e31bc8eb8a310928aa7",
+      "candidate": {
+        "detailsJudgement": "Three zigzag strokes render cleanly in export frames on both themes.",
+        "faithful": true,
+        "iconHash": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96",
+        "path": "evidence/15703/candidate-b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96.svg",
+        "proportionsJudgement": "Symbol fills the cell like the base icon; complete emblem preserved.",
+        "rationale": "Existing icon is an icon-pack rendition with off-brand orange E8A33E; official zigzag symbol path (FDB726) copied without redraw.",
+        "role": "transparent standalone emblem, no field",
+        "sha256": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96",
+        "sourceAssetUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/First_International_Bank_of_Israel_logo.svg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/First_International_Bank_of_Israel_logo.svg",
+        "transforms": [
+          "viewBox cropped to symbol bounds -4 1 313 313; wordmark path excluded; symbol kept as the original single path element."
+        ],
+        "variant": "official symbol-only variant of the current lockup attributed to the bank's agency",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Color corrected to official FDB726; geometry now exactly official outlines."
+      },
+      "candidateIconHash": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96",
+      "checkedAt": "2026-10-03T23:26:20.817601Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "93d9fd6dd701f75ed5cabaeef1cdfe249431ad6e6f964ca4f25a947ea33293ff",
+        "head": "bank-icon-maintenance/15703",
+        "headCommit": "bb2079c8c35b619a244be920017f76d7822df36e",
+        "number": 88,
+        "observedAt": "2026-10-04T00:07:48.966650Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: בינלאומי (Company.id 15703)",
+        "url": "https://github.com/zenmoney/banks/pull/88"
+      },
+      "reason": "Existing icon is an icon-pack rendition with #E8A33E; the current FIBI logo (Wikipedia First_International_Bank_of_Israel_logo.svg, declared author First International Bank of Israel, source tactico.co.il, FIBI's agency) uses symbol #FDB726 and wordmark #00529B. The official site is fully bot-blocked (Radware) this run, so the vector came from Wikipedia.",
+      "reviewPackage": {
+        "path": "evidence/15703/candidate-73e689bd216d07c1bb19787402b8c542f9798409cc525d17cb703165ae04767c.json",
+        "sha256": "73e689bd216d07c1bb19787402b8c542f9798409cc525d17cb703165ae04767c"
+      },
+      "sourceCandidate": {
+        "iconHash": "5e743f65b37e4cb178ac3d4c22fd42e4073e43044b4621656df3277b60228984",
+        "path": "evidence/15703/research-f04d19c648cf491295e0a14ec3d1cee4/fetch-84b0b4f14bd0454681b356347562c7a5/attempt-2/body.bin",
+        "rationale": "Vector of the current lockup attributed to the bank's own agency; symbol geometry copied without redraw. Existing icon has off-brand orange #E8A33E vs current #FDB726.",
+        "retrieval": {
+          "path": "evidence/15703/research-f04d19c648cf491295e0a14ec3d1cee4/fetch-84b0b4f14bd0454681b356347562c7a5/receipt.json",
+          "sha256": "bdc130d95f3952c33fd3bb914125b9b2809031454394f233a5392f3101a50059"
+        },
+        "sourceAssetUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/First_International_Bank_of_Israel_logo.svg",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/First_International_Bank_of_Israel_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://en.wikipedia.org/wiki/Special:Redirect/file/First_International_Bank_of_Israel_logo.svg",
+          "checkedAt": "2026-10-03T23:22:04Z",
+          "independenceGroup": "fibi-wikipedia",
+          "kind": "third-party",
+          "observation": "Current FIBI lockup vector (orange zigzag symbol #FDB726 + Hebrew wordmark #00529B).",
+          "url": "https://en.wikipedia.org/wiki/Special:Redirect/file/First_International_Bank_of_Israel_logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T23:21:40Z",
+          "independenceGroup": "fibi-wikipedia",
+          "kind": "third-party",
+          "observation": "File page: Author 'First International Bank of Israel', source https://tactico.co.il/ (the bank's brand agency).",
+          "url": "https://en.wikipedia.org/wiki/File:First_International_Bank_of_Israel_logo.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T23:19:00Z",
+          "independenceGroup": "fibi-official-block",
+          "kind": "official",
+          "observation": "Official site serves a Radware Bot Manager captcha to curl (all paths incl. sitemap) and redirects headless Chromium to validate.perfdrive.com; official assets not retrievable this run. The site's own error-page template references the bank logo asset, confirming the block is on the bank's infrastructure.",
+          "url": "https://www.fibi.co.il/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T23:42:21.287619Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96",
+        "xmlSha256": "610fd331d94eb555d8d4c618697ddbafc32e6a769f6d0c02e295456bd99bf13e"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
