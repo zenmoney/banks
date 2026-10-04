@@ -1,0 +1,110 @@
+{
+  "lastAttemptAt": "2026-10-03T23:26:18.522561Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15700/assessed-317aa4ac68e0aec20c05cbfcf7b0c19012b31bc94b15f1c31d5e7ad83bf040f5.json",
+        "sha256": "317aa4ac68e0aec20c05cbfcf7b0c19012b31bc94b15f1c31d5e7ad83bf040f5"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Lockup SVG is linked from the live homepage fetched 2026-10-03.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official lockup diamond emblem matches the existing diamond symbol.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations from the bank's own domain.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Existing icon is emblem-only with off-brand red #DB3B30 vs official #F0000B; candidate is the official emblem variant.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/54a77021bf8b1bb462eb354c24ed79f268dc5681e2ef7f2020b9977a289af049.json",
+        "sha256": "54a77021bf8b1bb462eb354c24ed79f268dc5681e2ef7f2020b9977a289af049"
+      },
+      "baseIconHash": "da08662701be5d50944f1d9c88611afe2cd91922f2e464aae22bf234e44de494",
+      "candidate": {
+        "detailsJudgement": "Diamond renders cleanly in export frames on both themes; edges smooth at 240px.",
+        "faithful": true,
+        "iconHash": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b",
+        "path": "evidence/15700/candidate-c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b.svg",
+        "proportionsJudgement": "Emblem fills the cell as before with proportional margins; complete emblem preserved.",
+        "rationale": "Existing icon is an icon-pack diamond in off-brand red DB3B30; official emblem path (F0000B) copied without redraw; luminance mask (redundant bounding box) flattened to the identical path.",
+        "role": "transparent standalone emblem, no field",
+        "sha256": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b",
+        "sourceAssetUrl": "https://www.bankhapoalim.co.il/api/media/l3hlwykh/logo-poalim-1.svg",
+        "sourceUrl": "https://www.bankhapoalim.co.il/api/media/l3hlwykh/logo-poalim-1.svg",
+        "transforms": [
+          "viewBox cropped from 0 0 154 26 to the official mask box 128.149 0 25.351 26; redundant luminance mask (a bounding-box white rect fully containing the path) removed so the identical emblem path renders directly."
+        ],
+        "variant": "official emblem-only variant of the current lockup; emblem colors corrected to F0000B",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Color corrected from DB3B30 to official F0000B; geometry now exactly the official outlines."
+      },
+      "candidateIconHash": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b",
+      "checkedAt": "2026-10-03T23:26:18.522561Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "eeebe9c913bdce403a7e2c458eefe3059a78001eef167736b0ebac3a29a5b344",
+        "head": "bank-icon-maintenance/15700",
+        "headCommit": "3afef47ef11a2c2a0a8bac22647e6a4162ebf043",
+        "number": 85,
+        "observedAt": "2026-10-03T23:55:31.160166Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: הפועלים (Company.id 15700)",
+        "url": "https://github.com/zenmoney/banks/pull/85"
+      },
+      "reason": "Existing icon is an icon-pack rendition with diamond fill #DB3B30; the official header logo vector served by bankhapoalim.co.il uses diamond #F0000B (plus #525252 wordmark). A color-corrected emblem-only candidate from the official vector is justified.",
+      "reviewPackage": {
+        "path": "evidence/15700/candidate-080d4aec5f4395633546ea03596597278697d4c09a0997653c17037220c5d2aa.json",
+        "sha256": "080d4aec5f4395633546ea03596597278697d4c09a0997653c17037220c5d2aa"
+      },
+      "sourceCandidate": {
+        "iconHash": "dab88b8f083690bb6efccebd187b1482bb509c262295e4c10883b838598d4a98",
+        "path": "evidence/15700/research-5f93cbd809384711ad1476d2b6317881/fetch-e3298de1f8a0444faefcd6d1d55016ee/attempt-1/body.bin",
+        "rationale": "Original vector from the bank's own CMS; emblem geometry copied without redraw. Existing icon uses off-brand red; official diamond is #F0000B.",
+        "retrieval": {
+          "path": "evidence/15700/research-5f93cbd809384711ad1476d2b6317881/fetch-e3298de1f8a0444faefcd6d1d55016ee/receipt.json",
+          "sha256": "4d314bcd6aac0ff3cf92be5783bbe08ad69c7c86685a50c728dc224e1faee729"
+        },
+        "sourceAssetUrl": "https://www.bankhapoalim.co.il/api/media/l3hlwykh/logo-poalim-1.svg",
+        "sourceUrl": "https://www.bankhapoalim.co.il/api/media/l3hlwykh/logo-poalim-1.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.bankhapoalim.co.il/api/media/l3hlwykh/logo-poalim-1.svg",
+          "checkedAt": "2026-10-03T23:11:23Z",
+          "independenceGroup": "hapoalim-official",
+          "kind": "official",
+          "observation": "Official header logo lockup SVG (red diamond emblem + Hebrew wordmark), fetched from the bank CMS.",
+          "url": "https://www.bankhapoalim.co.il/api/media/l3hlwykh/logo-poalim-1.svg"
+        },
+        {
+          "checkedAt": "2026-10-03T23:10:13Z",
+          "independenceGroup": "hapoalim-official",
+          "kind": "official",
+          "observation": "Live homepage links the logo SVG asset.",
+          "url": "https://www.bankhapoalim.co.il/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-03T23:42:14.918264Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b",
+        "xmlSha256": "c61e4df1ebd7cb2fa4790f24d8f7e8e16fe1840d2fe5320b2df629c98f9ec071"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
