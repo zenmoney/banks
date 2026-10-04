@@ -1,0 +1,138 @@
+{
+  "lastAttemptAt": "2026-10-04T07:48:59.749084Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15846/assessed-dbc862c56f3581c96812a659e10000e918477a01b4a9c4f84bd7f3d874dc5325.json",
+        "sha256": "dbc862c56f3581c96812a659e10000e918477a01b4a9c4f84bd7f3d874dc5325"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current accessible official press kit still offers logo matching aqueduct composition. 2019 brand explanation and 2018 Commons asset dates are not relabeled current; present official publication corroborates continued use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata names operating Italian bank Intesa Sanpaolo. Official brand page and press logo use exact same name and central aqueduct; no successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official press and brand explanation provide identity/current display; Commons separately preserves attributed original vector. Companieslogo is a distinct secondary variant, not counted as exact color confirmation.",
+        "uncertainties": [
+          "Accepted icon provenance is undocumented; its differing colors/transparency do not prove bank rebrand. Exact final Compose compatibility and small-size legibility remain candidate-stage checks."
+        ],
+        "variant": {
+          "basis": "Complete standalone aqueduct extracted from attributed original SVG includes square orange frame, white inner square, yellow line and three colored arches; official description assigns significance to square contour. Preserve square and white field, not circular adaptation. No official avatar observed or claimed. Final small-size/theme suitability needs coordinator renders.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3dbdb1479e9449026edf11087419d5077a8db6c721c265df810e45c580ca5c81.json",
+        "sha256": "3dbdb1479e9449026edf11087419d5077a8db6c721c265df810e45c580ca5c81"
+      },
+      "baseIconHash": "fe6dc8ad58d507f52c32fc71e5426d0afd39491700c110ca9d8f741494805ee2",
+      "candidate": {
+        "detailsJudgement": "Full original and independent source/final pairs match complete rough-edge arch contours, colors and white field. Exact final XML render preserves them; no clipping, lost path or invented paint. Working/optimized comparisons visually faithful.",
+        "faithful": true,
+        "iconHash": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b",
+        "path": "evidence/15846/candidate-f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b.svg",
+        "proportionsJudgement": "Square emblem fills useful centered cell, preserves frame and natural group geometry. Thin arches remain distinguishable in inspected 24/32/48px exact-frame resized diagnostics on both themes; white field improves dark readability.",
+        "rationale": "Restore source-original white inner field and colors of aqueduct; dark-theme backing correction rather than rebrand.",
+        "role": "Standalone framed aqueduct bank pictogram, no accompanying name.",
+        "sha256": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Intesa_Sanpaolo_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intesa_Sanpaolo_logo.svg",
+        "transforms": [
+          "Selected original aqueduct group, omitted wordmark and unrelated metadata; removed outer placement transform while preserving natural original local paths and white square; no circle normalization.",
+          "SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 31310 to 20000 bytes; optimized version selected after independent working/optimized comparison."
+        ],
+        "variant": "Meaningful orange square frame, white interior, yellow line and blue/green/orange arches. Square preserved because official brand explanation assigns significance.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before/after shows white interior restored on dark theme, original orange and arch colors and source frame proportions restored on both themes."
+      },
+      "candidateIconHash": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b",
+      "checkedAt": "2026-10-04T07:48:59.749084Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e8e6ce2654f7f83f19617d4ed25c36efc4d9f50a9ad1f8a3db1344da2f4adb0a",
+        "head": "bank-icon-maintenance/a3me6hif-15846",
+        "headCommit": "c533f0c5130342281c6a8673b2e96bf6abe9ffe3",
+        "number": 105,
+        "observedAt": "2026-10-04T08:10:25.806392Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Intesa Sanpaolo (Company.id 15846)",
+        "url": "https://github.com/zenmoney/banks/pull/105"
+      },
+      "reason": "A supported original-vector aqueduct symbol includes an explicit white inner square and orange meaningful frame. The accepted SVG drops the white field, visibly exposing dark theme behind the arches, and uses different colors. Propose source-supported restoration, not a rebrand or cosmetic circle normalization.",
+      "reviewPackage": {
+        "path": "evidence/15846/candidate-a199a142850176bfb070160f4e3cf72d1a4b84ef180b12c2cd219bb9c6109baa.json",
+        "sha256": "a199a142850176bfb070160f4e3cf72d1a4b84ef180b12c2cd219bb9c6109baa"
+      },
+      "sourceCandidate": {
+        "iconHash": "5b204a21ce98d32169cd28161f7ade2d7453ca55c08f76d94e6a81aa55e14007",
+        "path": "evidence/15846/research-d3c70ad330e04d508a061d8dacb49034/fetch-aaf78ab50918464589ef6b81905ea0e1/attempt-1/body.bin",
+        "rationale": "Restore supported white inner field and original source colors while preserving the branded square frame and complete aqueduct. Working SVG removes only separate name path and whole-group placement transform, retaining original local path coordinates and fills.",
+        "retrieval": {
+          "path": "evidence/15846/research-d3c70ad330e04d508a061d8dacb49034/fetch-aaf78ab50918464589ef6b81905ea0e1/receipt.json",
+          "sha256": "8ab3f9d5510ffc224d7587a4ef1d7e400ca03cdd5df91d2517e922ad47b6f831"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Intesa_Sanpaolo_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intesa_Sanpaolo_logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T07:47:38.042079Z",
+          "independenceGroup": "Intesa Sanpaolo official web publications",
+          "kind": "official",
+          "observation": "Known metadata website request failed; failed receipt retained. Group official page explicitly links this domain as Individual Customers.",
+          "url": "https://www.intesasanpaolo.com"
+        },
+        {
+          "assetUrl": "https://group.intesasanpaolo.com/content/dam/portalgroup/repository-documenti/public/Contenuti/RISORSE/Documenti%20ZIP/CNT-04-00000000207DB.zip",
+          "checkedAt": "2026-10-04T07:47:38.042079Z",
+          "independenceGroup": "Intesa Sanpaolo official web publications",
+          "kind": "official",
+          "observation": "Current accessible official press kit labels ZIP as Intesa Sanpaolo Logo. ZIP contains only logo/logo/logo_intesa_sanpaolo.jpg. Inspected full image: green name and central orange square frame, white interior, yellow line and blue/green/orange arches. Raster supports current use and composition, not vector geometry. Header also references official Illustrator SVG logo_isp.svg, a white monochrome lockup unsuitable as direct square icon.",
+          "url": "https://group.intesasanpaolo.com/en/newsroom/PressKit"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T07:47:38.042079Z",
+          "independenceGroup": "Intesa Sanpaolo official web publications",
+          "kind": "official",
+          "observation": "Official explanation identifies merged Intesa Sanpaolo brand and square Roman aqueduct pictogram; explicitly describes square form as harmonious/balanced and colored square as corporate identity element. Page publication update is 14 November 2019, separate from current retrieval.",
+          "url": "https://group.intesasanpaolo.com/en/about-us/our-brand"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Intesa_Sanpaolo_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "checkedAt": "2026-10-04T07:47:38.042079Z",
+          "independenceGroup": "Commons contributor publication with attributed bank artwork",
+          "kind": "third-party",
+          "observation": "Commons credits Intesa Sanpaolo as author and cites former official group brand page as source. Uploaded vector dated 20 July 2018 contains separate aqueduct group g5188, original paths/colors and explicit white inner square. Render inspected against current official press JPG; same complete emblem/frame/white interior. SVG retains unrelated bper-logo title/metadata and unused BPER style definitions; these are metadata artifacts, not visible artwork or identity evidence. No tracing claim found; original vector attribution and independently observed official composition support source provenance.",
+          "url": "https://commons.wikimedia.org/wiki/File:Intesa_Sanpaolo_logo.svg"
+        },
+        {
+          "assetUrl": "https://companieslogo.com/img/orig/ISP.MI-e5cb8f4f.svg?t=1746543241&download=true",
+          "checkedAt": "2026-10-04T07:47:38.042079Z",
+          "independenceGroup": "Companieslogo database",
+          "kind": "third-party",
+          "observation": "Page dated May 6 2025 supplies standalone symbol but calls SVG vectorized; different color palette and transparent inner field. Download retained but not selected because original-vector lineage and white-field variant are less supported than attributed Commons artwork.",
+          "url": "https://companieslogo.com/intesa-sanpaolo/logo/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T07:56:27.181135Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b",
+        "xmlSha256": "71aa54f7df2e3ec1393b003423b5b7cd502d9d89b2509f8119155124769c018a"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
