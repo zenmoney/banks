@@ -1,0 +1,123 @@
+{
+  "lastAttemptAt": "2026-10-04T18:48:47.234474Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15985/assessed-27b82c3eb5d1d8e119b8b3938a3e80c69219d67e60ce72aa712655f62caae61d.json",
+        "sha256": "27b82c3eb5d1d8e119b8b3938a3e80c69219d67e60ce72aa712655f62caae61d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The /logo/kompanion-logo.svg asset is the live header logo of the operating site observed 2026-10-04, ~2.5 years after the rebrand; current 2025-2026 news/tariff documents on the same domain confirm continued operation under the new identity. The baseline pinwheel is the superseded pre-2024 design.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fetched asset is served by the bank's own domain as its header logo and depicts the new green leaf/«K» emblem + KOMPANION BANK wordmark; the announcement page attributes the new logo to Банк Компаньон dated 2024-05-09.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary evidence is the bank's own domain (announcement page and served logo asset are one publication). Independent corroboration of the rebrand date and continued use comes from search-indexed third-party pages (banks.kg, brandfetch, news), a different observation path from the fetched assets.",
+        "uncertainties": [
+          "No separately published square app-icon or emblem-only SVG file was found on the site (only /logo/favicon.png raster, unusable as source); the emblem-only variant relies on isolating the emblem path from the official lockup SVG during candidate preparation.",
+          "The official 2024 announcement page could not be checked in an archive snapshot; date taken from the live page text and corroborating search results."
+        ],
+        "variant": {
+          "basis": "Primary variant is the lockup (emblem + wordmark + ®). The standalone emblem exists as a single discrete subpath (.st1, #7FC344) inside the same original SVG; the standalone icon variant is obtainable by narrowing the viewBox to the emblem region without altering geometry or colors. The wordmark lockup itself is not icon-suitable per catalog policy.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/54b386721e03bec5b34e7675a4f1f8e32c915fe6e998ddd413fed8a6f7ad219a.json",
+        "sha256": "54b386721e03bec5b34e7675a4f1f8e32c915fe6e998ddd413fed8a6f7ad219a"
+      },
+      "baseIconHash": "4e44f8ff51558506eec6282a1169ecaac1babc8acf27d7e972ab00a07b9dd7a4",
+      "candidate": {
+        "detailsJudgement": "All emblem contours survive: outer leaf arc, the cut corner, the inner notch and the detached lower-left stroke are complete; edges crisp in 240px renders on both themes; single flat #7FC344 fill matches the source exactly; internal transparency preserved.",
+        "faithful": true,
+        "iconHash": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47",
+        "path": "evidence/15985/candidate-8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47.svg",
+        "proportionsJudgement": "Aspect of the emblem region (374x355) is nearly square; uniform scale and centering leave ~1.35px clear margins top/bottom and full-width use; no stretching, cropping of emblem detail, or added margins. Whole-emblem fit in the square cell is complete and balanced.",
+        "rationale": "Standalone green leaf/«K» emblem isolated from the bank's official post-2024-05-09 identity SVG (https://www.kompanion.kg/logo/kompanion-logo.svg, receipt-bound original Illustrator export). The lockup itself is unsuitable (accompanying wordmark), but the emblem is a single discrete path in the same original vector, so extracting it preserves original geometry and color without tracing or redrawing. It supersedes the pre-2024 pinwheel baseline.",
+        "role": "Standalone brand emblem (transparent background, no field), the mark portion of the official БАНК КОМПАНЬОН lockup, used as the bank's symbol in the post-2024 identity.",
+        "sha256": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47",
+        "sourceAssetUrl": "https://www.kompanion.kg/logo/kompanion-logo.svg",
+        "sourceUrl": "https://www.kompanion.kg/logo/kompanion-logo.svg",
+        "transforms": [
+          "Working SVG built from the original emblem path only: viewBox narrowed from '0 0 2270 643.75' to the emblem region (93 142.85 374 355.3) and uniform scale 0.144385 with centering translation into the 54x54 canvas; no geometry, color or masking changes.",
+          "SVGO (repository svgo.config.mjs, svgo 4.x via npx) on a copy: flattened the transform into path coordinates, lowercased fill; 424 -> 389 bytes (8.3% smaller). Working and optimized versions were rendered independently and compared visually before choosing the optimized bytes; faithful and converter-compatible, so optimized output selected as final.svg."
+        ],
+        "variant": "Post-2024 standalone emblem variant, green #7FC344, no wordmark, no backing field. Matches the emblem in the official lockup and the mark shown at the head of the rebrand announcement page.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The accepted baseline is the superseded pre-2024 four-petal pinwheel in blue/green (#007DC5/#D7DF23/#A6CE39). The candidate is the bank's post-2024 leaf/«K» emblem in solid green #7FC344 — a different, evidenced rebrand design for the same bank, not a serialization or presentation change."
+      },
+      "candidateIconHash": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47",
+      "checkedAt": "2026-10-04T18:48:47.234474Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0b7f11edded0256cb31bcca75ea6e9c4860664a23cd2552d541cf55bedca1a8a",
+        "head": "bank-icon-maintenance/kompanion-15985",
+        "headCommit": "5e58f03bc6bc05f4990f88ab4b1078b2ee397ae8",
+        "number": 131,
+        "observedAt": "2026-10-04T19:10:38.228151Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Компаньон Банкы (Company.id 15985)",
+        "url": "https://github.com/zenmoney/banks/pull/131"
+      },
+      "reason": "The baseline pinwheel icon is the pre-2024 Kompanion Bank logo. The bank officially introduced an updated identity on 2024-05-09 (20th anniversary): a green leaf/«K» emblem with the KOMPANION BANK wordmark. The live official site serves this identity as an original Adobe Illustrator-exported SVG at https://www.kompanion.kg/logo/kompanion-logo.svg (receipt evidence/15985/research-1f971565cfd34471b29afde2cab58bdd/fetch-504fcacd66644635a95ae4cb65b16495/receipt.json, body sha256 c5dd5588...84e9fea). The lockup is not icon-suitable (accompanying wordmark), but the standalone green #7FC344 emblem exists as a single discrete path (.st1) inside the same original vector, extractable without tracing or redrawing.",
+      "reviewPackage": {
+        "path": "evidence/15985/candidate-4f42acd44d1e6acaa8a710b273cc25f6e8fdc280d89c5cf9c02fa97eecf5d06d.json",
+        "sha256": "4f42acd44d1e6acaa8a710b273cc25f6e8fdc280d89c5cf9c02fa97eecf5d06d"
+      },
+      "sourceCandidate": {
+        "iconHash": "c5dd55886d708190486b811596dfc5f61c11c0666e9aa9de09be517aa84e9fea",
+        "path": "evidence/15985/research-1f971565cfd34471b29afde2cab58bdd/fetch-504fcacd66644635a95ae4cb65b16495/attempt-1/body.bin",
+        "rationale": "Original vector (Illustrator-exported SVG) of the bank's current post-2024-05-09 brand mark, served by the official domain as its live header logo. Contains the standalone green #7FC344 leaf/«K» emblem as one path, extractable without tracing. Supersedes the baseline pinwheel, which predates the 2024 rebrand.",
+        "retrieval": {
+          "path": "evidence/15985/research-1f971565cfd34471b29afde2cab58bdd/fetch-504fcacd66644635a95ae4cb65b16495/receipt.json",
+          "sha256": "a5d57422a3a1c89c3010dc8805cf85f2a8f0d30c17a9994fd4898e2b1e2610a3"
+        },
+        "sourceAssetUrl": "https://www.kompanion.kg/logo/kompanion-logo.svg",
+        "sourceUrl": "https://www.kompanion.kg/logo/kompanion-logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.kompanion.kg/logo/kompanion-logo.svg",
+          "checkedAt": "2026-10-04T18:38:11Z",
+          "independenceGroup": "kompanion.kg official site (announcement page + served logo asset)",
+          "kind": "official",
+          "observation": "Official announcement «Трансформация Банка Компаньон» introduces the updated logo dated 9 May 2024: new green leaf mark. Fetched HTML (313585 bytes, sha256 f1e01f24de48c5b2f0fbfba105668e1ec2abc6a19d262961862ffd40a7056ee3) references /logo/kompanion-logo.svg as the site header logo; no old pinwheel artwork appears on the page.",
+          "url": "https://www.kompanion.kg/ru/news/news_newlogo/"
+        },
+        {
+          "assetUrl": "https://www.kompanion.kg/logo/kompanion-logo.svg",
+          "checkedAt": "2026-10-04T18:38:21Z",
+          "independenceGroup": "kompanion.kg official site (announcement page + served logo asset)",
+          "kind": "official",
+          "observation": "Original vector retrieved via workflow fetch (7251 bytes, sha256 c5dd55886d708190486b811596dfc5f61c11c0666e9aa9de09be517aa84e9fea). Adobe Illustrator 27.5.0 export; viewBox 0 0 2270 643.75; .st0 fill #007DC5 (wordmark + ®), .st1 fill #7FC344 (standalone leaf/«K» emblem, one path). Genuine original vector, not a traced raster; referenced as the live site header logo.",
+          "url": "https://www.kompanion.kg/logo/kompanion-logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-04T18:37:00Z",
+          "independenceGroup": "independent search corroboration",
+          "kind": "third-party",
+          "observation": "Two web searches independently corroborated the May 2024 rebrand (banks.kg directory, brandfetch page, AmCham newsletter) and continued operation under the new identity (site news items Sep 2025 - Jan 2026). Operating bank/brand record, not historical.",
+          "url": "https://www.kompanion.kg/ru/ (search corroboration)"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T18:53:26.501659Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47",
+        "xmlSha256": "7e38d31a3efd14b2691286b38905a5ffc0a806b115626682d78cd5d8c53fa2d4"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
