@@ -1,0 +1,128 @@
+{
+  "lastAttemptAt": "2026-10-04T07:48:30.782354Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15849/assessed-f3ad9423dd9556779885ce5d6ab0f9f189957c4dd33859269a21d1659e3e1e4d.json",
+        "sha256": "f3ad9423dd9556779885ce5d6ab0f9f189957c4dd33859269a21d1659e3e1e4d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Proposed flat #DF0E21 variant is referenced by the currently fetched live public Internet Banking login header. Official shaded ED1C24 alternative remains hosted; no exclusive/newest-variant or obsolescence claim.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata TR Ziraat Bankasi website agrees with official operating-bank homepage and explicitly titled live Internet Banking header.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official live deployment directly supports candidate; Commons independently attributes the older hosted alternative but shares bank-provided geometry. No claim of multiple independent original publishers.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Standalone recognizable wheat emblem consists of complete original red paths of current deployed SVG. Transparent backing, no circle added. Working copy removes only separate lettering and unused full-lockup clip/defs, preserves all ten emblem d/fill attributes, uses square viewBox -10.5 0 42 42. Reference shows complete emblem, but final Compose fit/small-size review pending.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/9d1211ba8d63f4f3c0abe88cfbb42599c2d73eb5f3395db59c82c018451909b3.json",
+        "sha256": "9d1211ba8d63f4f3c0abe88cfbb42599c2d73eb5f3395db59c82c018451909b3"
+      },
+      "baseIconHash": "dd50ea66c2ab05625ecd158ad640292edeb607a1c08cace1ed80b6c924bfaf7b",
+      "candidate": {
+        "detailsJudgement": "Full original and source/final pairs preserve all wheat branches, source-specific joints, detached upper initials and transparent central slit. Exact final render faithfully reproduces source contours/color. Working/optimized images visually match.",
+        "faithful": true,
+        "iconHash": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13",
+        "path": "evidence/15849/candidate-8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13.svg",
+        "proportionsJudgement": "Narrow upright complete emblem centered in square without stretching, added field or clipped details. Inspected 24/32/48px exact-frame resized diagnostics show recognizable branches and upper details on both themes.",
+        "rationale": "Restore exact contours and DF0E21 red of currently deployed original wheat emblem; not an exclusive/newest variant claim or rebrand.",
+        "role": "Standalone original wheat bank emblem, separate lettering omitted.",
+        "sha256": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13",
+        "sourceAssetUrl": "https://bireysel.ziraatbank.com.tr/Content/assets/img/new-logo.svg",
+        "sourceUrl": "https://bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?ReturnUrl=%2f",
+        "transforms": [
+          "Retained all ten original red emblem paths, omitted separate lettering and unused lockup defs; centered complete original symbol with viewBox -10.5 0 42 42.",
+          "SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 11198 to 5948 bytes; optimized version selected after independent working/optimized comparison."
+        ],
+        "variant": "Flat DF0E21 original wheat on transparent field; hosted shaded ED1C24 variant also exists, no claim baseline obsolete.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact before/after shows source-specific branch joins and central gap contours, slightly different top geometry and darker official DF0E21 red instead of simplified ED1C24 baseline."
+      },
+      "candidateIconHash": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13",
+      "checkedAt": "2026-10-04T07:48:30.782354Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "452487f73f980e0f7a95f8d7925103cb4851da7f18b430445958a979212e9596",
+        "head": "bank-icon-maintenance/a3me6hif-15849",
+        "headCommit": "bcbceca28930f000047531a561f88c2862bcae9b",
+        "number": 107,
+        "observedAt": "2026-10-04T08:25:05.616103Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ziraat Bankasi (Company.id 15849)",
+        "url": "https://github.com/zenmoney/banks/pull/107"
+      },
+      "reason": "The live official Internet Banking header supplies an original vector wheat emblem in #DF0E21; accepted icon uses #ED1C24 and simplified contours. Propose the exact currently deployed flat emblem, not a wordmark or an invented rebrand. Official 2025 alternative remains hosted with #ED1C24 and shaded detail; this proves coexistence, not that the baseline is obsolete. Final conversion/render review remains required.",
+      "reviewPackage": {
+        "path": "evidence/15849/candidate-f7a34c2686649e5471698609db5df8401d73a69256c5b00c1c117619861b0aa0.json",
+        "sha256": "f7a34c2686649e5471698609db5df8401d73a69256c5b00c1c117619861b0aa0"
+      },
+      "sourceCandidate": {
+        "iconHash": "9058d967141eb143e5f94d6de40856cccb4573b077618580c4df0aa498dbf319",
+        "path": "evidence/15849/research-3b2e2c418b3f494a8cc3c9c8784d668a/fetch-ba9516c27c7947a79448418d647efc40/attempt-1/body.bin",
+        "rationale": "Use original vector contours and exact red paint of the live deployed standalone bank emblem, correcting color/geometry relative to accepted simplified ED1C24 emblem. Retain transparency and full symbol; do not replace with lockup.",
+        "retrieval": {
+          "path": "evidence/15849/research-3b2e2c418b3f494a8cc3c9c8784d668a/fetch-ba9516c27c7947a79448418d647efc40/receipt.json",
+          "sha256": "2d95d8a0daf2047225ae90d26ea534c4881c38b867c73f87bb400cb7f5b2059f"
+        },
+        "sourceAssetUrl": "https://bireysel.ziraatbank.com.tr/Content/assets/img/new-logo.svg",
+        "sourceUrl": "https://bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?ReturnUrl=%2f"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.ziraatbank.com.tr/SiteAssets/images/logo.gif?v5",
+          "checkedAt": "2026-10-04T07:47:14Z",
+          "independenceGroup": "Ziraat official websites",
+          "kind": "official",
+          "observation": "Homepage is current operating-bank content with 2026 campaigns, identifies Ziraat Bankası and Internet Banking links. Animated GIF has 130 frames; inspected frame 100 displays red wheat emblem, Ziraat Bankası name and 162-year anniversary graphic. GIF is context only, not geometry source.",
+          "url": "https://www.ziraatbank.com.tr/tr"
+        },
+        {
+          "assetUrl": "https://bireysel.ziraatbank.com.tr/Content/assets/img/new-logo.svg",
+          "checkedAt": "2026-10-04T07:47:14Z",
+          "independenceGroup": "Ziraat official websites",
+          "kind": "official",
+          "observation": "Live public Internet Banking page title identifies Ziraat Bankası; LoginLogoButton img references ../../Content/assets/img/new-logo.svg. Download is self-contained 225x42 original SVG containing 14 black wordmark paths then 10 red #DF0E21 emblem paths. Inspected full librsvg reference. Useful standalone wheat symbol is separable without tracing, recoloring or redrawing.",
+          "url": "https://bireysel.ziraatbank.com.tr/Transactions/Login/FirstLogin.aspx?ReturnUrl=%2f"
+        },
+        {
+          "assetUrl": "https://bireysel.ziraatbank.com.tr/Content/assets/img/logo2025/svg/LogoColored.svg",
+          "checkedAt": "2026-10-04T07:47:14Z",
+          "independenceGroup": "Ziraat official websites",
+          "kind": "official",
+          "observation": "Official hosted 142x27 SVG has black wordmark and shaded red wheat symbol with #ED1C24 base and additional red edge/gradient paints. Full raster inspected. Valid original vector alternative, but the observed live login page deploys new-logo.svg rather than this file.",
+          "url": "https://bireysel.ziraatbank.com.tr/Content/assets/img/logo2025/svg/LogoColored.svg"
+        },
+        {
+          "assetUrl": "https://bireysel.ziraatbank.com.tr/Content/assets/img/logo2025/svg/LogoColored.svg",
+          "checkedAt": "2026-10-04T07:47:14Z",
+          "independenceGroup": "Wikimedia attribution of Ziraat official asset",
+          "kind": "third-party",
+          "observation": "Commons describes Türkiye Cumhuriyeti Ziraat Bankası logosu, source is exact official LogoColored.svg, date and upload 6 February 2025. This is independent contextual attribution but an asset mirror, not independent confirmation of current flat deployed variant.",
+          "url": "https://commons.wikimedia.org/wiki/File:Ziraat_Bankas%C4%B1_2025_Logo.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-04T07:56:28.679455Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13",
+        "xmlSha256": "10a86ade265915b0f6faee95416f7f49d11b2a415f83deb1a22713ab6ee49978"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
