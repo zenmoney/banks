@@ -1,0 +1,136 @@
+{
+  "lastAttemptAt": "2026-10-05T00:56:37.628646Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16201/assessed-ecad360664c0ef1f9866c56d5b2475aabd553cca806824985fe7440e667ae352.json",
+        "sha256": "ecad360664c0ef1f9866c56d5b2475aabd553cca806824985fe7440e667ae352"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live fetches 2026-10-05 of bingx.com favicon.ico and apple-touch-icon.png and the current main branch of BingX-API/docs-v3 all show the same X mark in current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "bingx.com homepage is the operating BingX exchange site (og:site_name 'BingX'); favicon and apple-touch-icon served from the same domain show the X mark; the vector comes from BingX's own GitHub org docs repo. Single official publication origin for all three.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All confirming sources are BingX-controlled publications (bingx.com domain and BingX-API GitHub org); identity does not rest on third-party vector sites. Third-party hosts (seeklogo, iconlogovector, logotyp.us) were observed only in search results and not used.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Current standalone symbol is the blue X glyph on transparent background (docs vector mark; favicon). App icon applies it white-on-blue-square as platform presentation. The accepted SVG instead cuts the X out of a solid blue circle — a different presentation of the same motif.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ae14a73929ec440ec208eb3a204d672ba35bc836ef55b8e02ab2d9ad8b6375d9.json",
+        "sha256": "ae14a73929ec440ec208eb3a204d672ba35bc836ef55b8e02ab2d9ad8b6375d9"
+      },
+      "baseIconHash": "31ef268fc07ad07a07f8aa1e22852923c8593c207fac80978ed413230640c4e2",
+      "candidate": {
+        "detailsJudgement": "Both curved strokes and their crossing overlap reproduce the source mark exactly; the subtle radial-gradient darkening on the upper stroke is present; fills match #2A54FF; background fully transparent.",
+        "faithful": true,
+        "iconHash": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317",
+        "path": "evidence/16201/candidate-8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317.svg",
+        "proportionsJudgement": "Original mark aspect (28.0065 x 21.8043) preserved; centered by the catalog's square-cell fit without stretching; margins come from the cell, not altered geometry.",
+        "rationale": "Original vector from BingX's official GitHub organization (BingX-API/docs-v3 static/logo.svg): the standalone X mark, losslessly subset from the official lockup with original paths, #2A54FF fills and the 0.3-opacity radial-gradient overlay preserved. Standalone brand mark without accompanying text; square-cell suitable. The accepted icon presents the same X motif cut out of a solid blue circle, a presentation that matches no observed current official presentation (favicon: blue X on transparent; app icon: white X on blue field). Supported current-design update.",
+        "role": "standalone brand mark (official docs logo mark; favicon/app-icon glyph)",
+        "sha256": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317",
+        "sourceAssetUrl": "https://raw.githubusercontent.com/BingX-API/docs-v3/main/static/logo.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/BingX-API/docs-v3/main/static/logo.svg",
+        "transforms": [
+          "Lossless subset of the official lockup SVG: kept the three mark paths (two #2A54FF strokes, one opacity-0.3 radial-gradient overlay) and the original radialGradient defs; wordmark paths removed; viewBox tightened to the mark bounds 0 0 28.0065 21.8043. No geometry, color or paint edits.",
+          "SVGO 4.1.0 trial with frozen repo svgo.config.mjs (sha256 f2a406e0…): 2585 -> 1980 bytes; optimized selected — renders identical to working version under rsvg-convert at 256px (difference confined to antialiasing/gradient interpolation), gradient and opacity preserved (evidence/16201/optimize-1/)."
+        ],
+        "variant": "blue X glyph, transparent background, #2A54FF with radial-gradient shading on the upper stroke",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon: white X cut out of a solid blue circle. Replacement: the official standalone blue X glyph on transparent background, without the circle backing. Same motif, different supported presentation."
+      },
+      "candidateIconHash": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317",
+      "checkedAt": "2026-10-05T00:56:37.628646Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "bd42be57ad4feae3a16412a3d2fdda612653c12300ea371c38fa942f62ad64fe",
+        "head": "bank-icon-maintenance/bank-icon-16201",
+        "headCommit": "b643852bce960572bd076fcbdbbe2cb0ec544d32",
+        "number": 143,
+        "observedAt": "2026-10-05T01:10:48.747929Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BingX (Company.id 16201)",
+        "url": "https://github.com/zenmoney/banks/pull/143"
+      },
+      "reason": "Official BingX standalone mark is the blue X glyph (two interlocking curved strokes, #2A54FF with a subtle radial-gradient overlay), published as original vector in BingX's own GitHub docs repo (BingX-API/docs-v3 static/logo.svg lockup, mark subset) and confirmed as the current variant by bingx.com favicon.ico (blue X on transparent, #0047FF-rendered) and apple-touch-icon.png (white X on blue field). The accepted SVG presents the same X motif cut out of a solid blue circle — a presentation variant that does not match any observed current official standalone presentation. Supported current-design update to the official standalone mark.",
+      "reviewPackage": {
+        "path": "evidence/16201/candidate-c06dde50566fb7a989377590b64c6a12e49850fc641e432f426d0679fbba1d0a.json",
+        "sha256": "c06dde50566fb7a989377590b64c6a12e49850fc641e432f426d0679fbba1d0a"
+      },
+      "sourceCandidate": {
+        "iconHash": "7ab5290b68d5a2b4537b42347cde5dcb8c7ad188dfb5f22cc056b757c9b379f5",
+        "path": "evidence/16201/research-5d3857f284724c558697979a80f532b0/fetch-8c6af638fea744b1af0945d995bb466d/attempt-1/body.bin",
+        "rationale": "Original vector from BingX's official GitHub organization: the standalone X mark subset of the official logo lockup, preserving original paths, #2A54FF fills and the 0.3-opacity radial-gradient overlays. Standalone brand mark without accompanying text; square-cell suitable as a compact glyph. Supported update over the accepted circle-cutout presentation, which matches no observed current official presentation of the mark.",
+        "retrieval": {
+          "path": "evidence/16201/research-5d3857f284724c558697979a80f532b0/fetch-8c6af638fea744b1af0945d995bb466d/receipt.json",
+          "sha256": "5e89747860858f000005f25dc646f0874ada7304b2279d16c2aceeafc4c13c8d"
+        },
+        "sourceAssetUrl": "https://raw.githubusercontent.com/BingX-API/docs-v3/main/static/logo.svg",
+        "sourceUrl": "https://raw.githubusercontent.com/BingX-API/docs-v3/main/static/logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://raw.githubusercontent.com/BingX-API/docs-v3/main/static/logo.svg",
+          "checkedAt": "2026-10-05T00:55:39Z",
+          "independenceGroup": "bingx-official",
+          "kind": "official",
+          "observation": "Official BingX API docs repository (github.com/BingX-API, org-controlled) logo lockup SVG, 84x24 viewBox: standalone X mark at x 0..28.0065, y 0..21.8043 as two mirrored interlocking curved-stroke paths, fill #2A54FF, each overlaid with opacity 0.3 radial gradient (paint0_radial_369_1438); 'BingX' wordmark follows as black letter paths. Original vector, no text inside the mark area.",
+          "url": "https://raw.githubusercontent.com/BingX-API/docs-v3/main/static/logo.svg"
+        },
+        {
+          "assetUrl": "https://bingx.com/favicon.ico",
+          "checkedAt": "2026-10-05T00:55:39Z",
+          "independenceGroup": "bingx-official",
+          "kind": "official",
+          "observation": "bingx.com favicon.ico (64x64 ICO, 16958 bytes, sha256 d8a41577e87cf614a45c1420b1a87d2242279a16897cb4f9db093c3a8d0308df): transparent background, standalone blue X glyph, dominant color rgb(0,71,255); visually the same X motif as the docs vector mark.",
+          "url": "https://bingx.com/favicon.ico"
+        },
+        {
+          "assetUrl": "https://bingx.com/apple-touch-icon.png",
+          "checkedAt": "2026-10-05T00:55:39Z",
+          "independenceGroup": "bingx-official",
+          "kind": "official",
+          "observation": "bingx.com apple-touch-icon.png (120x120, 1401 bytes): blue square field with white X mark centered — current app-icon presentation of the same X mark; square-platform backing, not part of the symbol itself.",
+          "url": "https://bingx.com/apple-touch-icon.png"
+        },
+        {
+          "assetUrl": "https://static-app.bb-os.com/fe-common/assets/share_card.png?v=20240123",
+          "checkedAt": "2026-10-05T00:55:39Z",
+          "independenceGroup": "bingx-official",
+          "kind": "official",
+          "observation": "bingx.com homepage (fetched via workflow helper, 124629 bytes, receipt evidence/16201/research-5d3857f284724c558697979a80f532b0/fetch-8946ffd3aae34bb2a8fcfefdf21cde9e/receipt.json) is the operating BingX site; og:image share_card.png and site chrome confirm bingx.com as the official domain. Site asset SVGs on bin.bb-os.com include only a customer-service mascot logo (cs-logo.U-ZdSlFj.svg), not the brand mark.",
+          "url": "https://bingx.com/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-05T00:55:39Z",
+          "independenceGroup": "bingx-brand-portal",
+          "kind": "third-party",
+          "observation": "BingX brand-assets portal exists but returned HTTP 403 to direct fetch and a Cloudflare turnstile interactive challenge in headless Chromium; not accessible for asset retrieval this run.",
+          "url": "https://agent.bingx.com/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-05T00:59:16.281177Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317",
+        "xmlSha256": "7000d555b4caa13281a5b7f5e93482d61f0264807c749bf83a81798ed9e78e59"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
