@@ -1,0 +1,126 @@
+{
+  "lastAttemptAt": "2026-10-05T00:22:25.986547Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16193/assessed-55e50f8636d81cfdaf5d6d58436a4c57c268a9bdcda8e0a6e3c24f364b629808.json",
+        "sha256": "55e50f8636d81cfdaf5d6d58436a4c57c268a9bdcda8e0a6e3c24f364b629808"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The cat-disc mark is published in the official brand kit and served as the live docs favicon (2026-10-05); the accepted coral 'J' disc is the older Jupiter Exchange mark not used in current branding.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Jupiter Card is Jupiter's card product (official docs); the candidate mark is the current Jupiter brand mark used across Jupiter products including the card.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official product docs, the official brand kit, and the live site favicon are separate official publications; no third-party source was needed for the rebrand observation.",
+        "uncertainties": [
+          "The brand kit ZIP files carry 2023–2024 timestamps; whether Jupiter changed the logo glyph after the kit was last updated is unconfirmed, but the same mark is served as the current live favicon, supporting its currency."
+        ],
+        "variant": {
+          "basis": "logo-bright.svg is the standalone mark-only variant intended for bright/light backgrounds; a dark variant also exists. Mark-only (no text) suits the catalog square cell.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c29515b178fc417cee4ce192a8164957c7b06cd9cb4edaefad1e943b9f29fb02.json",
+        "sha256": "c29515b178fc417cee4ce192a8164957c7b06cd9cb4edaefad1e943b9f29fb02"
+      },
+      "baseIconHash": "c47a03c332b9208eb18c7850b4b244b9c9004a3bc7c3672407573dee5686a010",
+      "candidate": {
+        "detailsJudgement": "All stripes, gradient fills and the transparent gaps between stripes survive SVGO and conversion unchanged; the disc is complete with no clipping; gradients render correctly on both themes.",
+        "faithful": true,
+        "iconHash": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a",
+        "path": "evidence/16193/candidate-80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a.svg",
+        "proportionsJudgement": "The disc nearly fills the square cell, matching the source proportions; useful size is good at 24/32/48 px diagnostics and full 240 px frames; no stretching or added margins.",
+        "rationale": "Official brand-kit standalone cat-disc mark (JupiterLogo/logo-bright.svg) replaces the retired coral 'J' disc; evidenced Jupiter rebrand, and the card product uses the main Jupiter brand.",
+        "role": "Standalone brand mark (striped disc), no accompanying text, transparent background outside the disc.",
+        "sha256": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a",
+        "sourceAssetUrl": "https://raw.githubusercontent.com/jup-ag/docs/main/static/files/brand-kit/jupiter-brand-kit.zip",
+        "sourceUrl": "https://developers.jup.ag/docs/resources/brand-kit",
+        "transforms": [
+          "No geometry transformation: the 256x256 source mark is used whole; no crop, recolor, or backing change; transparency outside the disc preserved.",
+          "SVGO 3.x (installed /usr/local/bin/svgo), repository svgo.config.mjs (frozen, bound in evidence/16193/opt/svgo-receipt.json): 3909 -> 3480 bytes; optimized bytes selected after visual comparison (working vs optimized rendered identically on light and dark canvases)."
+        ],
+        "variant": "logo-bright.svg — mark-only bright-background variant from the official brand kit; same mark served as the live docs favicon.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Old accepted icon is the coral circle with the white 'J' monogram; the candidate is the current striped green/blue cat-disc. A complete, evidenced brand replacement — not a serialization or backing change."
+      },
+      "candidateIconHash": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a",
+      "checkedAt": "2026-10-05T00:22:25.986547Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "6ba13bc815736f04b05feaa31cdeadb1476e1b617d3b68fef1df372a54ccab73",
+        "head": "bank-icon-maintenance/16193",
+        "headCommit": "6781a958847c672b6013902108fb2c681d4abc18",
+        "number": 141,
+        "observedAt": "2026-10-05T00:38:31.020601Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Jupiter Card (Company.id 16193)",
+        "url": "https://github.com/zenmoney/banks/pull/141"
+      },
+      "reason": "Jupiter Card is the active Visa debit card product of Jupiter (jup.ag); the card is presented under the main Jupiter brand (official docs confirm the product and its placement under Jupiter Spend; no Card-specific logo exists — card pages use the Jupiter brand). The accepted icon is the retired 2021-era Jupiter Exchange 'J' monogram on a coral disc, which no longer matches the current Jupiter identity: the striped cat-planet disc mark, published as original SVGs in the official brand kit (JupiterLogo/logo-bright.svg) and used as the current jup.ag favicon/site mark. Evidenced rebrand of the same brand supports an update; the coral 'J' is not the current mark.",
+      "reviewPackage": {
+        "path": "evidence/16193/candidate-6f388b8fcae85c72649312dbceed4325c7fac9cf92d532a4895a05f37fe103d6.json",
+        "sha256": "6f388b8fcae85c72649312dbceed4325c7fac9cf92d532a4895a05f37fe103d6"
+      },
+      "sourceCandidate": {
+        "iconHash": "3a4bf9229af1806a8e59524f7b78c1a183ab961fb77fcd8c003c5d9320136de1",
+        "path": "evidence/16193/research-d1d0460657f243fea3af92cab2327401/fetch-60dae0b516724f0eb608da3a0f8e418f/attempt-1/body.bin",
+        "rationale": "Official brand-kit standalone mark (JupiterLogo/logo-bright.svg) is the current Jupiter identity replacing the retired coral 'J' disc; evidenced rebrand of the same brand that the Jupiter Card record belongs to.",
+        "retrieval": {
+          "path": "evidence/16193/research-d1d0460657f243fea3af92cab2327401/fetch-60dae0b516724f0eb608da3a0f8e418f/receipt.json",
+          "sha256": "3fa0fddb8c9764e21169458d6a6a377657db2a45ed0892c73215f244c6665ad4"
+        },
+        "sourceAssetUrl": "https://raw.githubusercontent.com/jup-ag/docs/main/static/files/brand-kit/jupiter-brand-kit.zip",
+        "sourceMaterial": {
+          "path": "evidence/16193/source-material-cc0d8a2c872f4c75a0d1dd6c41a5fcf3/material.json",
+          "sha256": "81d641717fbdb3365e62e6d6aaa9fceed7af9f3f20a74f572c5c844f7cb7421b"
+        },
+        "sourceUrl": "https://developers.jup.ag/docs/resources/brand-kit"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-05T00:09:10Z",
+          "independenceGroup": "jup-ag-official",
+          "kind": "official",
+          "observation": "Official docs: 'The Jupiter Card is a Visa debit card that allows users to spend their USDC balance as USD at any merchant that accepts Visa.' Confirms the record's identity as the active Jupiter Card product (issuers Rain/DCS by region).",
+          "url": "https://docs.jup.ag/user-docs/global/spend/jupiter-card.md"
+        },
+        {
+          "assetUrl": "https://raw.githubusercontent.com/jup-ag/docs/main/static/files/brand-kit/jupiter-brand-kit.zip",
+          "checkedAt": "2026-10-05T00:09:10Z",
+          "independenceGroup": "jup-ag-official",
+          "kind": "official",
+          "observation": "Official brand kit page links the ZIP (sha256 3a4bf9229af1806a8e59524f7b78c1a183ab961fb77fcd8c003c5d9320136de1, 534032 B) containing original SVG logo variants; JupiterLogo/logo-bright.svg (3909 B) is the standalone cat-disc mark (no accompanying text). Selected as the candidate source material.",
+          "url": "https://developers.jup.ag/docs/resources/brand-kit"
+        },
+        {
+          "assetUrl": "https://mintcdn.com/jupiter/mrenEfoqnubhOTHf/favicon.png",
+          "checkedAt": "2026-10-05T00:09:10Z",
+          "independenceGroup": "jup-ag-official",
+          "kind": "official",
+          "observation": "Live docs site favicon is the same cat-disc mark as a PNG — display-context corroboration that the brand-kit mark is the current identity; the ZIP SVG remains the original vector source.",
+          "url": "https://docs.jup.ag/"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-05T00:26:07.267371Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a",
+        "xmlSha256": "d69bb1217db3876db46f9f126922e0a2ce09bcac645babfbe7914c6ad4caf48c"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
