@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-05T00:22:48.292957Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16200/assessed-cec06664a70e09c460d674bfdda4276764f0a2e3dab5498c22cd12bf51baa8b2.json",
+        "sha256": "cec06664a70e09c460d674bfdda4276764f0a2e3dab5498c22cd12bf51baa8b2"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The 2026-04-08 official rebrand press release plus the live official brand-guidelines page (2026-10-05) still serving the fluid-M mark as current establish its currency; the accepted icon's 2022 design is superseded.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record is MEXC global exchange (mexc.com); both the accepted 2022 symbol and the candidate fluid-M mark are MEXC brand marks per official press and brand-guidelines pages.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official press release and official brand-guidelines asset host agree; Wikimedia is an independent dated corroboration of the superseded 2022 design.",
+        "uncertainties": [
+          "A further brand visual refresh was announced 2026-09-29 ('we see you'); whether it changes the logo glyph is unverified. The official brand-guidelines page still serves the April 2026 fluid-M mark as current on 2026-10-05, which supports the candidate's currency."
+        ],
+        "variant": {
+          "basis": "logo-mark-blue.svg is the standalone mark-only variant in the current brand color #0057FF; mark-only (no text) suits the catalog square cell.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c11b9adbbc08da7adbec208903451cb730345b95278e535ac1d1fa61cc297b9a.json",
+        "sha256": "c11b9adbbc08da7adbec208903451cb730345b95278e535ac1d1fa61cc297b9a"
+      },
+      "baseIconHash": "748133cf021d2c8276c7a8d592f6a1294b810ef8469cd8b615cb54682c701f78",
+      "candidate": {
+        "detailsJudgement": "The single fluid path, rounded terminals and the transparent notch between the two legs survive SVGO and conversion unchanged; the mark is complete with no clipping on either theme.",
+        "faithful": true,
+        "iconHash": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b",
+        "path": "evidence/16200/candidate-81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b.svg",
+        "proportionsJudgement": "The upright 51x64 mark keeps its source aspect in the square cell with sensible margins from the source canvas; useful size at 24/32/48 px diagnostics and full 240 px frames is adequate; no stretching.",
+        "rationale": "Official standalone fluid-M mark (#0057FF) from the live brand-guidelines page replaces the superseded 2022 peaked-M symbol on the black tile; evidenced 2026-04-08 rebrand.",
+        "role": "Standalone brand mark (fluid 'M'), single blue path, transparent background.",
+        "sha256": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b",
+        "sourceAssetUrl": "https://static.mocortech.com/image-host/index/logo-mark-blue.be49f0ab479a.svg",
+        "sourceUrl": "https://www.mexc.com/en-GB/brand-guidelines",
+        "transforms": [
+          "No geometry transformation: the 51x64 source mark is used whole; no crop, recolor, or backing change; transparency preserved.",
+          "SVGO 3.x (installed /usr/local/bin/svgo), repository svgo.config.mjs (frozen, bound in evidence/16200/opt/svgo-receipt.json): 947 -> 891 bytes; optimized bytes selected after visual comparison (working vs optimized rendered identically on light and dark canvases)."
+        ],
+        "variant": "logo-mark-blue — mark-only variant in the current brand color from the official brand-guidelines page; horizontal lockup variant also exists but includes the wordmark.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Old accepted icon is the 2022 peaked 'M' in #3156AA on a black circular tile; the candidate is the 2026 fluid 'M' in #0057FF on transparent background. A complete, evidenced brand replacement, not a serialization change."
+      },
+      "candidateIconHash": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b",
+      "checkedAt": "2026-10-05T00:22:48.292957Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b9076621c0824ddff793cc8274cb4960000dd856a30a558b8f647d459e93495b",
+        "head": "bank-icon-maintenance/16200",
+        "headCommit": "1c07ff463351c8aa1e8642325d774f6b466c537d",
+        "number": 142,
+        "observedAt": "2026-10-05T00:43:12.273360Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: MEXC (Company.id 16200)",
+        "url": "https://github.com/zenmoney/banks/pull/142"
+      },
+      "reason": "The accepted icon is the 2022 brand-refresh MEXC symbol (peaked 'M' in #3156AA on a black circular tile), corroborated by the Wikimedia Commons 2022-12-23 vector of that era. MEXC announced a brand upgrade on 2026-04-08 with a redrawn fluid 'M' mark in #0057FF, and the official brand-guidelines page (live 2026-10-05) serves the new mark's original SVGs — logo-mark-blue.be49f0ab479a.svg is the standalone mark. This is an evidenced rebrand of the same exchange, so an update is supported; the accepted black-tile 2022 symbol is no longer the current mark.",
+      "reviewPackage": {
+        "path": "evidence/16200/candidate-e6e14a4a6d7b5e2d09490dbe929cf515335ee588d3625b68399804e500903ae6.json",
+        "sha256": "e6e14a4a6d7b5e2d09490dbe929cf515335ee588d3625b68399804e500903ae6"
+      },
+      "sourceCandidate": {
+        "iconHash": "f51a07834d8fc0cbc97203605f6ca610497a4bcdceffe99133e05f6f33b00183",
+        "path": "evidence/16200/research-f0cdc59db2d048d7a8c65dfd0bec0f3e/fetch-a8ded81ec0e44215a199fb7017b879a2/attempt-1/body.bin",
+        "rationale": "Official standalone fluid-M mark in the current brand color #0057FF replaces the superseded 2022 #3156AA symbol; evidenced 2026-04-08 rebrand of the same exchange.",
+        "retrieval": {
+          "path": "evidence/16200/research-f0cdc59db2d048d7a8c65dfd0bec0f3e/fetch-a8ded81ec0e44215a199fb7017b879a2/receipt.json",
+          "sha256": "2bf12e950c454dec073ea63ca8d2c45943c0222c0f623f88619bbb5fb1df351c"
+        },
+        "sourceAssetUrl": "https://static.mocortech.com/image-host/index/logo-mark-blue.be49f0ab479a.svg",
+        "sourceUrl": "https://www.mexc.com/en-GB/brand-guidelines"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://static.mocortech.com/image-host/index/logo-mark-blue.be49f0ab479a.svg",
+          "checkedAt": "2026-10-05T00:15:30Z",
+          "independenceGroup": "mexc-official",
+          "kind": "official",
+          "observation": "Official brand-guidelines page (retrieved via browser, live 2026-10-05) offers logo downloads; logo-mark-blue SVG (51x64 viewBox, single path, fill #0057FF, 947 B, sha256 f51a0783…) is the standalone current fluid-M mark. Captured by budgeted fetch with receipt.",
+          "url": "https://www.mexc.com/en-GB/brand-guidelines"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-05T00:15:30Z",
+          "independenceGroup": "mexc-official",
+          "kind": "official",
+          "observation": "Official press release dated 2026-04-08 announces the MEXC brand upgrade with the new, more fluid 'M' logo — establishes the rebrand period and that the new mark supersedes the 2022 symbol.",
+          "url": "https://blog.mexc.com/press-release/mexc-brand-upgrade-zero-fee-and-infinite-opportunities/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mexcglobal.svg",
+          "checkedAt": "2026-10-05T00:15:30Z",
+          "independenceGroup": "wikimedia-mexc",
+          "kind": "third-party",
+          "observation": "Wikimedia Commons Mexcglobal.svg (uploaded 2022-12-23, #3156AA lockup) matches the accepted icon's design era, confirming the accepted icon represents the pre-2026 brand, not the current one.",
+          "url": "https://commons.wikimedia.org/wiki/File:Mexcglobal.svg"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-10-05T00:26:17.550035Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b",
+        "xmlSha256": "ca2fbbf36163f3a5e6cb9711b1913f8cbcba55386e4e2d37de80dc52257fc81c"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
