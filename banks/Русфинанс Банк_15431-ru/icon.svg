@@ -1,10 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="54"
-     height="54">
-    <path
-            fill="#221f20"
-            d="M45.857 27v1.714H8.143V27H3v24h48V27z"/>
-    <path
-            fill="#de4149"
-            d="M3 3v24h5.143v-1.714h37.714V27H51V3z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="154.587 7.1812 26.933 26.9883">
+    <path fill="#e4032e" d="M181.52 7.1812h-26.933v13.4941h26.933z"/>
+    <path d="M181.52 20.6754h-26.933v13.4941h26.933z"/>
+    <path fill="#fff" d="M176.849 19.8h-17.517v1.6048h17.517z"/>
 </svg>
