@@ -1,15 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="54"
-     height="54">
-    <g clip-path="url(#a)">
-        <path
-                fill="#305da2"
-                fill-rule="evenodd"
-                d="M47.305 53.999 32.132 38.826V54h-9.818V38.682L7.14 54 0 46.859l15.318-15.173H0v-9.82h15.172L0 6.696 7.14 0l15.174 15.173V.001h9.818v15.03L47.305 0 54 6.695 38.972 21.867H54v9.82H38.827L54 46.858z"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="9.2 8.7 434.4 434.6">
     <defs>
-        <clipPath id="a">
-            <path d="M0 0h54v54H0z"/>
-        </clipPath>
+        <linearGradient id="a" x2="1" gradientTransform="matrix(180.8 0 0 281.7 9.2 226.1)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#003d74"/>
+            <stop offset=".35" stop-color="#003d74"/>
+            <stop offset=".73" stop-color="#006cbc"/>
+            <stop offset="1" stop-color="#006cbc"/>
+        </linearGradient>
+        <linearGradient id="b" x2="1" gradientTransform="matrix(281.5 0 0 180.9 85.7 99.1)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#b41d52"/>
+            <stop offset=".35" stop-color="#b41d52"/>
+            <stop offset=".61" stop-color="#710830"/>
+            <stop offset="1" stop-color="#2c2e35"/>
+        </linearGradient>
+        <linearGradient id="c" x2="1" gradientTransform="matrix(180.8 0 0 281.7 262.8 226.1)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#006cbc"/>
+            <stop offset=".27" stop-color="#006cbc"/>
+            <stop offset=".65" stop-color="#003d74"/>
+            <stop offset="1" stop-color="#003d74"/>
+        </linearGradient>
+        <linearGradient id="d" x2="1" gradientTransform="matrix(0 -180.8 281.483 0 226.4 443.3)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#003d74"/>
+            <stop offset=".35" stop-color="#003d74"/>
+            <stop offset=".73" stop-color="#006cbc"/>
+            <stop offset="1" stop-color="#006cbc"/>
+        </linearGradient>
     </defs>
+    <path fill="url(#a)" d="M9.2 226.1c0-7.3.6-14.5 1.9-22.1h103.1L35 124.7c6.4-13.2 15.4-26.3 26.2-39.5l120.4 120.4c5.6 5.6 8.4 13.1 8.4 20.5 0 7.3-2.8 14.7-8.4 20.3L61.2 366.9c-10.8-13.2-19.8-26.4-26.2-39.5l79.2-79.3H11.1c-1.3-7.6-1.9-14.9-1.9-22"/>
+    <path fill="url(#b)" d="M226.4 8.7c7.2 0 14.5.6 22 1.9v103.2l79.3-79.4c13.2 6.4 26.3 15.5 39.5 26.4L246.8 181.2c-5.6 5.6-13 8.4-20.4 8.4s-14.8-2.8-20.3-8.4L85.7 60.8c13.1-10.9 26.3-20 39.5-26.4l79.2 79.4V10.6c7.5-1.3 14.9-1.9 22-1.9"/>
+    <path fill="url(#c)" d="M443.6 226.1c0 7.1-.6 14.4-1.8 22H338.7l79.2 79.3c-6.4 13.1-15.5 26.3-26.3 39.5L271.2 246.4c-5.5-5.6-8.4-13-8.4-20.3 0-7.4 2.9-14.9 8.4-20.5L391.6 85.2c10.8 13.2 19.9 26.3 26.3 39.5L338.7 204h103.1c1.2 7.6 1.8 14.8 1.8 22.1"/>
+    <path fill="url(#d)" d="M226.4 443.3c-7.1.1-14.5-.5-22-1.8V338.3l-79.2 79.3c-13.2-6.4-26.4-15.4-39.5-26.3l120.4-120.4c5.5-5.7 12.9-8.4 20.3-8.4s14.8 2.7 20.4 8.4l120.4 120.4c-13.2 10.9-26.3 19.9-39.5 26.3l-79.3-79.3v103.2c-7.5 1.3-14.8 1.9-22 1.8"/>
 </svg>
