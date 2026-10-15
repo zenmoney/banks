@@ -1,10 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-     width="54"
-     height="54">
-    <path
-            fill="#fff"
-            d="M40.475 14H13.492L0 27.492l13.492 13.491h26.983L54 27.492z"/>
-    <path
-            fill="#ee3224"
-            d="M54 27.492 40.475 14v26.983zm-27.017 0L40.475 14H13.492zM0 27.492l13.492 13.491V14zm26.983 0L13.492 40.983h26.983z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="170.1" height="85.1" viewBox="0 0 170.1 85.1">
+    <path fill="#fff" d="M42.6 0h85v85h-85z"/>
+    <path fill="#db0011" d="M170.1 42.6 127.6 0v85.1zm-85 0L127.6 0h-85z"/>
+    <path fill="#db0011" d="m0 42.6 42.6 42.5V0zm85.1 0L42.6 85.1h85z"/>
 </svg>
