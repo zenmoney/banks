@@ -1,5 +1,114 @@
 {
-  "lastAttemptAt": "2026-10-03T15:13:16.274800Z",
-  "lastAttemptResult": "error",
+  "lastAttemptAt": "2026-10-16T20:17:17.230805Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15543/assessed-07b19512bbf117fc7253e2cc3a46e06516d125a91350823b59a359122b1f9056.json",
+        "sha256": "07b19512bbf117fc7253e2cc3a46e06516d125a91350823b59a359122b1f9056"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The logo directly served by the currently observed UAE homepage is blue Citi with a red arch. The currently downloaded group homepage presents the same blue #255BE3/red #FF3C28 original vector and current 2026 earnings materials. The Commons artwork date is provenance only, not the observation date or a claimed transition date.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Company.id 15543 is Citibank UAE, country AE, known host citibank.ae. Its own fetched UAE Organization metadata names this bank and identifies the directly retrieved logo. This local-use evidence establishes applicability of the matching group geometry; no inference from the group host alone or substitution of another country's Citi product is used. The evidence represents active UAE banking branding, not a historical/successor record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The UAE and group sites are one corporate primary-source family with different claim roles: UAE publication establishes record/country applicability and actual local use, group publication supplies original-vector geometry. Commons explicitly attributes its copy to Citi but has a DTD and is not the selected candidate. Zona Logo supplies a separate direct DTD-free reproduction of the same original geometry, not an independent current-use witness; no distributor is counted as another vote on currency.",
+        "uncertainties": [
+          "Accepted cyan-circle/white-letter SVG provenance and any precise transition date have not been established; do not describe this as a proven rebrand.",
+          "Final candidate preparation, exact source/final and base/final desktop comparisons, small-size/theme review and admission are not performed by this read-only source worker."
+        ],
+        "variant": {
+          "basis": "The fetched direct SVG matches the present official group vector and the UAE header raster in letter shapes, full arch and blue/red treatment. It is a compact pure Citi lettermark/wordmark with the integral arch; there is no accompanying bank name or slogan. It is a suitable standalone source emblem for initial icon screening, not a horizontal lockup with removable text. The SVG is about 1.7:1 and retains the entire emblem. Final square-cell fit, theme contrast, small-size readability and permitted background presentation still require coordinator candidate rendering/admission; none are claimed passed here.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": "a527303fcb4edb30ccda72104a9372d5f8c5bac044cc062119e9cd81ec5e629f",
+      "candidate": {
+        "detailsJudgement": "Full original raster and independent source/final pairs on both themes inspected. Complete arch, c aperture, sloped t ascender and curved terminal match; red/blue paints and internal transparency retained. No added backing or clipping.",
+        "faithful": true,
+        "iconHash": "071d84d9660765970558f433dc7cba7861ee1f7d1540e8cb2bab3f9a7a883eaf",
+        "path": "evidence/15543/candidate-071d84d9660765970558f433dc7cba7861ee1f7d1540e8cb2bab3f9a7a883eaf.svg",
+        "proportionsJudgement": "Original 1.72:1 aspect retained; exact Desktop frames centered with full emblem visible. Bound 24/32/48px resized Desktop diagnostics remain recognizable on white and #121212, including arch and all four letters; no excessive shrinking or distortion. These diagnostics are not mobile renders.",
+        "rationale": "Supported geometry/color replacement: current UAE header uses blue Citi lettering and red arch, corroborated by current official group vector. Accepted white-on-cyan-circle attribution is unknown; no dated rebrand claimed.",
+        "role": "Compact pure Citi wordmark with integral arch; the lettering itself is the complete bank mark, no accompanying name or slogan.",
+        "sha256": "071d84d9660765970558f433dc7cba7861ee1f7d1540e8cb2bab3f9a7a883eaf",
+        "sourceAssetUrl": "https://assets.zonalogo.com/finance/citi.com/logo-dark-1789096951434-25373.svg",
+        "sourceUrl": "https://zonalogo.com/citi-logo-png-svg",
+        "transforms": [
+          "Working SVG is byte-identical direct DTD-free source; original 172x100 viewport, complete letter/arch geometry, colors and alpha preserved without crop, scale or translation.",
+          "SVGO 4.1.0, frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2038 to1291 bytes. Optimized selected after independent working/trial inspection on both themes; no visible fidelity change."
+        ],
+        "variant": "Original #255BE3 blue Citi letters and #FF3C28 red arch on transparency; no backing added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Before has white narrow Citi letters/red arch on cyan circular field. After has source-supported blue letters, broader current contours and red arch on transparency, matching the locally published UAE logo. Meaningful geometry/color correction, not byte-only cleanup or a claimed dated rebrand."
+      },
+      "candidateIconHash": "071d84d9660765970558f433dc7cba7861ee1f7d1540e8cb2bab3f9a7a883eaf",
+      "checkedAt": "2026-10-16T20:17:17.230805Z",
+      "humanReview": "pending",
+      "reason": "A supported blue Citi/red-arch original-vector replacement was found for Citibank UAE. The UAE site's own Organization metadata identifies Citibank UAE and links its present header logo; the downloaded local logo visibly uses the blue letters and red arch. The current Citigroup header embeds the same original vector design. The first direct Commons vector has a DTD and is not eligible for candidate binding; a different, unmodified direct SVG distributed by Zona Logo has no DTD/entities and matches the original official geometry/colors. This is a supported geometry/color replacement, not a proven dated rebrand: the accepted SVG has a cyan circular field, white lettering and different letter/arch geometry whose attribution has not been established.",
+      "reviewPackage": {
+        "path": "evidence/15543/candidate-d86b36decbeef1e488367e936a67fdc22b0014e3a5749c1a52ca80e4e279b69e.json",
+        "sha256": "d86b36decbeef1e488367e936a67fdc22b0014e3a5749c1a52ca80e4e279b69e"
+      },
+      "sourceCandidate": {
+        "iconHash": "538a7776a28e21490122fef7e02bfd66cbd9f5cd4f3f62a608837b6b2c96d26d",
+        "path": "evidence/15543/research-9e31fe8c5a134ceda03ba2d83e4fed5d/fetch-a051578e807249c58b5d88c86d9d66c9/attempt-1/body.bin",
+        "rationale": "Supported replacement using the original blue #255BE3 Citi lettering and red #FF3C28 arch currently used by the UAE website, corroborated by the original vector embedded in the current group header. Correct the supported emblem geometry/color versus the unattributed accepted white-on-cyan-circle treatment, preserving all original vector details. Do not claim a dated rebrand; final backing/fit choices need policy-compliant preparation and actual visual checks.",
+        "retrieval": {
+          "path": "evidence/15543/research-9e31fe8c5a134ceda03ba2d83e4fed5d/fetch-a051578e807249c58b5d88c86d9d66c9/receipt.json",
+          "sha256": "406bf40460cd51ff064797c50ac47249e922387236437f993ce77bbf0e4ea4db"
+        },
+        "sourceAssetUrl": "https://assets.zonalogo.com/finance/citi.com/logo-dark-1789096951434-25373.svg",
+        "sourceUrl": "https://zonalogo.com/citi-logo-png-svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.citibank.ae/content/experience-fragments/cgcpc/ae/prelogin/www-citibank-ae/en/header/master/_jcr_content/root/container_1286371175/branding/container/container_1040625318/image.coreimg.85.1600.png/1741095086933/citi.png",
+          "checkedAt": "2026-10-16T20:12:59Z",
+          "independenceGroup": "Citi primary publications",
+          "kind": "official",
+          "observation": "The official UAE homepage timed out after receiving 15835 bytes (HTTP 200); the preserved partial HTML is readable and explicitly titles the page Citibank UAE, describes UAE banking products, identifies Organization name Citibank UAE, Dubai address and +971 customer support, and identifies this exact logo URL. The subsequently completed logo retrieval decodes as a 102x59 WebP despite the .png URL; actual model image inspection shows the blue Citi letters and red arch with no accompanying bank name, slogan, or enclosing cyan field. Partial HTML is not represented as a successful full-page transfer.",
+          "url": "https://www.citibank.ae/"
+        },
+        {
+          "assetUrl": "https://www.citigroup.com/global",
+          "checkedAt": "2026-10-16T20:12:59Z",
+          "independenceGroup": "Citi primary publications",
+          "kind": "official",
+          "observation": "The complete current group homepage was downloaded via the root redirect. Its header contains an img with an original base64 SVG data URI, width 204 height 118, five path elements, blue #255BE3 and red #FF3C28. The page also references Third Quarter 2026 Earnings Call materials. The decoded original vector was preserved separately for research and independently rasterized with rsvg-convert; actual image inspection shows the same complete blue Citi/red-arch geometry as the local UAE logo and the direct candidate. This is group geometry evidence, not UAE applicability by itself.",
+          "url": "https://www.citigroup.com/global"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Citi_logo_March_2023.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "checkedAt": "2026-10-16T20:12:59Z",
+          "independenceGroup": "Wikimedia copy of Citi original artwork",
+          "kind": "third-party",
+          "observation": "The fetched Commons file page dates the artwork 1 March 2023, credits Citigroup, and links citigroup.com/global as its source; upload history is 5 November 2023. The original file is a 2104-byte SVG with paths/rectangles and no raster payload. Its colors are rgb(37,91,227) and rgb(255,60,40), identical to the current official header. Its path geometry and actual independently rendered image agree with that primary original vector, supporting an original-vector reproduction rather than traced raster artwork. The complete emblem consists only of the Citi lettering and arch, with no accompanying title/tagline.",
+          "url": "https://commons.wikimedia.org/wiki/File:Citi_logo_March_2023.svg"
+        },
+        {
+          "assetUrl": "https://assets.zonalogo.com/finance/citi.com/logo-dark-1789096951434-25373.svg",
+          "checkedAt": "2026-10-16T20:15:54Z",
+          "independenceGroup": "Zona Logo distribution of Citi original artwork",
+          "kind": "third-party",
+          "observation": "The downloaded page lists two observed original SVG download URLs in its AssetItem publicUrl properties. The dark-named file is actually blue #255BE3 letters/red #FF3C28 arch; the light-named alternative has white lettering and is not the selected UAE color variant. The selected direct 2038-byte SVG has a normal XML declaration but no DTD/entity declarations or raster payload, five original path/rectangle elements, and a 0 0 172 100 viewBox. Its complete geometry and colors match the independently inspected original vector embedded in the current official Citigroup header; this direct source is not a manually stripped or rewritten Commons asset. Its independent rsvg-convert PNG was actually read and shows the matching whole emblem. Original-vector provenance is supported by this geometry lineage and primary-source corroboration, not by the distributor's filename alone.",
+          "url": "https://zonalogo.com/citi-logo-png-svg"
+        }
+      ],
+      "status": "pending",
+      "verification": {
+        "checkedAt": "2026-10-16T20:19:06.335455Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "071d84d9660765970558f433dc7cba7861ee1f7d1540e8cb2bab3f9a7a883eaf",
+        "xmlSha256": "599c6d9af74373f3dffc43ec4b20419c6ea2b19ee8b83e06980ef169e2a0dac4"
+      }
+    }
+  ],
   "schemaVersion": 1
 }
