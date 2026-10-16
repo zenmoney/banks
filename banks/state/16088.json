@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:38:58.683090Z",
+        "observedAt": "2026-10-16T19:59:39.027091Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,142 @@
           "url": "https://github.com/zenmoney/banks/pull/140"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:38:58.683090Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "0462ea9a8100a083393e4a12b692c5477b8db65069ca2444da3b0acaeb02a4c0",
+            "closedAt": "2026-10-14T17:07:05Z",
+            "head": "bank-icon-maintenance/16088",
+            "headCommit": "ee0f498df7b1b7e676d311831cee0b2d9aa50f8f",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 140,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Tesco Bank (Company.id 16088)",
+            "url": "https://github.com/zenmoney/banks/pull/140"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Current Tesco Bank app icon is a blue tile with white 'Bank' and the red TESCO wordmark with blue underlines; accepted red-T icon is an obsolete variant.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b",
+        "category": "technical",
+        "comment": {
+          "author": "b3er",
+          "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `ee0f498df7b1b7e676d311831cee0b2d9aa50f8f`\n\n**Reason:** The full horizontal TESCO Bank wordmark becomes too small in a 24/32 px square cell. Recognition at 54 px and an official source do not resolve the small-size usability defect documented in the October 6 audit.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original representation and verify it at 24 and 32 px on both light and dark backgrounds, or do not make this replacement. This rejection is about the chosen composition, not the Barclays transaction or a blanket ban on lettering.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+          "createdAt": "2026-10-14T17:07:04Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-14T17:07:04Z",
+          "url": "https://github.com/zenmoney/banks/pull/140#issuecomment-6173887885"
+        },
+        "explanation": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `ee0f498df7b1b7e676d311831cee0b2d9aa50f8f`\n\n**Reason:** The full horizontal TESCO Bank wordmark becomes too small in a 24/32 px square cell. Recognition at 54 px and an official source do not resolve the small-size usability defect documented in the October 6 audit.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original representation and verify it at 24 and 32 px on both light and dark backgrounds, or do not make this replacement. This rejection is about the chosen composition, not the Barclays transaction or a blanket ban on lettering.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+        "mr": {
+          "number": 140,
+          "url": "https://github.com/zenmoney/banks/pull/140"
+        },
+        "rationale": "Technical/presentation rejection: the horizontal wordmark is too small at 24/32 px; the proposal description's 54 px recognition and source claims do not resolve that defect. Any fresh proposal must use a supported compact original representation verified at both 24 and 32 px on both light and dark backgrounds; otherwise do not make the replacement. Preserve the reviewer's stated precedence of audit corrections over unsupported cross-review claims. This is candidate-specific, not a permanent bank rejection, an identity/lifecycle determination about Barclays, or a blanket prohibition on lettering. No repair or verification is asserted by this assessment.",
+        "requirements": [
+          {
+            "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `ee0f498df7b1b7e676d311831cee0b2d9aa50f8f`\n\n**Reason:** The full horizontal TESCO Bank wordmark becomes too small in a 24/32 px square cell. Recognition at 54 px and an official source do not resolve the small-size usability defect documented in the October 6 audit.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original representation and verify it at 24 and 32 px on both light and dark backgrounds, or do not make this replacement. This rejection is about the chosen composition, not the Barclays transaction or a blanket ban on lettering.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "url": "https://github.com/zenmoney/banks/pull/140#issuecomment-6173887885"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:59:39.027091Z",
+        "id": 16088,
+        "judgement": {
+          "action": "repair",
+          "key": "08cee9faa9a3d9a441ebb70b9cdeb7628b3eaa5d1fb20ffeaf8693cdd40cd84b",
+          "rationale": "Technical/presentation rejection: the horizontal wordmark is too small at 24/32 px; the proposal description's 54 px recognition and source claims do not resolve that defect. Any fresh proposal must use a supported compact original representation verified at both 24 and 32 px on both light and dark backgrounds; otherwise do not make the replacement. Preserve the reviewer's stated precedence of audit corrections over unsupported cross-review claims. This is candidate-specific, not a permanent bank rejection, an identity/lifecycle determination about Barclays, or a blanket prohibition on lettering. No repair or verification is asserted by this assessment.",
+          "sources": [
+            {
+              "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `ee0f498df7b1b7e676d311831cee0b2d9aa50f8f`\n\n**Reason:** The full horizontal TESCO Bank wordmark becomes too small in a 24/32 px square cell. Recognition at 54 px and an official source do not resolve the small-size usability defect documented in the October 6 audit.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original representation and verify it at 24 and 32 px on both light and dark backgrounds, or do not make this replacement. This rejection is about the chosen composition, not the Barclays transaction or a blanket ban on lettering.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "url": "https://github.com/zenmoney/banks/pull/140#issuecomment-6173887885"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T23:25:15.672496Z",
+          "candidateIconHash": "edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b",
+          "key": "08cee9faa9a3d9a441ebb70b9cdeb7628b3eaa5d1fb20ffeaf8693cdd40cd84b",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Tesco Bank — Company.id 16088\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"GB\",\n  \"fullTitle\": null,\n  \"id\": 16088,\n  \"title\": \"Tesco Bank\",\n  \"url\": \"tescobank.com\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T23:28:27.720271Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/base.svg) — SHA-256 `6246430dbce880b7b2e167a3299cbe51026614ddf3d2b9cd00bcb3e31c53b574`.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/source.svg) — SHA-256 `cc062fea3564464d0428f4b70f15ab752aa418bde933722245ad1ea23e7e0b61`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/final.svg) — SHA-256 `edabf85041ebc798f3cf426917212e0d2d9102445570f0ede482a6ec3621890b`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/final.xml) — SHA-256 `1865070285bb35c3587fab8890ad87d49f083b16628b43bc3e107afde3875dcf`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/candidate.diff).\n- Source page: [https://seekvectors.com/post/tesco-bank-logo-icon](https://seekvectors.com/post/tesco-bank-logo-icon).\n- Source asset: [https://seekvectors.com/storage/images/tesco-bank-logo-01.svg](https://seekvectors.com/storage/images/tesco-bank-logo-01.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://seekvectors.com/storage/images/tesco-bank-logo-01.svg](https://seekvectors.com/storage/images/tesco-bank-logo-01.svg); SHA-256 `cc062fea3564464d0428f4b70f15ab752aa418bde933722245ad1ea23e7e0b61`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-04T23:25:15Z: [https://apps.apple.com/gb/app/tesco-bank/id857834425](https://apps.apple.com/gb/app/tesco-bank/id857834425); asset [https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/e9/d1/b2e9d1a7-5e2c-16d2-8a37-2386590117a3/AppIcon-0-0-1x\\_U007emarketing-0-8-0-sRGB-85-220.png/1200x630wa.png](https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/e9/d1/b2e9d1a7-5e2c-16d2-8a37-2386590117a3/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/1200x630wa.png). Official Tesco Bank App Store listing \\(fetched 2026-10-04\\) shows the current app icon: blue tile, white 'Bank', red TESCO with blue underlines. Raster used as research evidence only. (independence group: Tesco Bank official app listing).\n- third-party checked 2026-10-04T23:25:15Z: [https://seekvectors.com/post/tesco-bank-logo-icon](https://seekvectors.com/post/tesco-bank-logo-icon); asset [https://seekvectors.com/storage/images/tesco-bank-logo-01.svg](https://seekvectors.com/storage/images/tesco-bank-logo-01.svg). Original vector TESCO Bank lockup \\(red TESCO, blue Bank, blue underlines; Adobe Illustrator export\\) matching the current app icon branding. Other variants on the page are the obsolete red T or Tesco PLC wordmark. (independence group: seekvectors).\n- third-party checked 2026-10-04T23:25:15Z: [https://www.tescoplc.com/media/759672/tesco-bank-everyones-welcome-report.pdf](https://www.tescoplc.com/media/759672/tesco-bank-everyones-welcome-report.pdf). Tesco PLC materials show the Tesco Bank logo as blue 'Bank' text and stripes with red TESCO. (independence group: Tesco PLC publications).\n- Independent evidence: Official app listing plus third-party vector source and Tesco PLC publication; no rebrand contradictions found..\n- Identity: confirmed — Vector shows TESCO Bank wordmark with red TESCO, blue Bank, blue underlines — same branding as the verified current app icon..\n- Currency: confirmed — App Store listing operated by Tesco Bank \\(fetched 2026-10-04\\) uses this branding; brand continues after retail sale to Barclays..\n- Variant: confirmed — Full-colour lockup variant; selected because the app-icon tile exists only as raster, which is not a permitted replacement source..\n\nRationale: Accepted icon is the obsolete standalone red Tesco T; the evidenced current Tesco Bank branding is the TESCO Bank lockup \\(red TESCO, blue Bank, blue underlines\\), verified against the official App Store listing. Original vector source recorded in the attempt..\nRole: Full-colour horizontal lockup of the bank's wordmark; standalone brand mark without slogans or extra text.; variant: Horizontal TESCO Bank lockup, full colour, transparent background..\nVisible difference: Accepted icon shows a red letter T with blue dashes; candidate shows the current full TESCO Bank lockup — an evidenced brand update, clearly visible in before/after pairs on both themes..\nDetails: All letters, underlines and colours reproduced from the original vector; no lost detail versus the source \\(source/final pairs match on both themes\\).. Proportions: Lockup proportions preserved exactly \\(uniform scale\\); centred with 2px clearances in the square cell; wide but complete..\n\nSource-to-final transformations:\n- Uniform scale 0.0556793 \\(whole emblem, no distortion\\) and translation to centre in a 54x54 viewBox with 2px side clearances; no other geometry or colour change.\n- SVGO 1.x with repository svgo.config.mjs run on a copy: output grew 4076 -\\> 4418 bytes \\(8.4%\\); optimization result rejected, working version retained as final bytes.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T23:27:29.928459115Z`. Source/final: Source \\(seekvectors tesco-bank-logo-01.svg\\) and final differ only by uniform scale/translation; colours and geometry identical.; base/final and rendering: Base/final pairs on both themes show the obsolete red T replaced by the full lockup; final frames render cleanly with no clipping, correct colours, on #FFFFFF and #121212. Legible at 240px; small but recognizable at 54px cell size.\n\n- android-compose: not-tested (available: false) — No Android system image or AVD installed \\(SDK has platform-tools/build-tools only\\); downloads outside this run. Risk: Compose Android rendering unverified for this candidate..\n- android-native: not-tested (available: false) — No device or AVD available. Risk: native Android rendering unverified..\n- ios-compose: not-tested (available: false) — No iOS toolchain on this Linux host. Risk: iOS Compose rendering unverified..\n- ios-native: not-tested (available: false) — No iOS toolchain on this Linux host. Risk: iOS native rendering unverified..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGm-XJw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/140",
+              "userType": "User"
+            },
+            {
+              "author": "b3er",
+              "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `ee0f498df7b1b7e676d311831cee0b2d9aa50f8f`\n\n**Reason:** The full horizontal TESCO Bank wordmark becomes too small in a 24/32 px square cell. Recognition at 54 px and an official source do not resolve the small-size usability defect documented in the October 6 audit.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original representation and verify it at 24 and 32 px on both light and dark backgrounds, or do not make this replacement. This rejection is about the chosen composition, not the Barclays transaction or a blanket ban on lettering.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABb_4NjQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/140#issuecomment-6173887885",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "0462ea9a8100a083393e4a12b692c5477b8db65069ca2444da3b0acaeb02a4c0",
+            "closedAt": "2026-10-14T17:07:05Z",
+            "head": "bank-icon-maintenance/16088",
+            "headCommit": "ee0f498df7b1b7e676d311831cee0b2d9aa50f8f",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 140,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Tesco Bank (Company.id 16088)",
+            "url": "https://github.com/zenmoney/banks/pull/140"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [
+              "https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true"
+            ],
+            "author": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `ee0f498df7b1b7e676d311831cee0b2d9aa50f8f`\n\n**Reason:** The full horizontal TESCO Bank wordmark becomes too small in a 24/32 px square cell. Recognition at 54 px and an official source do not resolve the small-size usability defect documented in the October 6 audit.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original representation and verify it at 24 and 32 px on both light and dark backgrounds, or do not make this replacement. This rejection is about the chosen composition, not the Barclays transaction or a blanket ban on lettering.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "bodySha256": "fbea327e2b1921e1d57e81be895db00e6e85d11959796af05177b8c757957c40",
+            "createdAt": "2026-10-14T17:07:04Z",
+            "editor": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABb_4NjQ",
+            "text": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `ee0f498df7b1b7e676d311831cee0b2d9aa50f8f`\n\n**Reason:** The full horizontal TESCO Bank wordmark becomes too small in a 24/32 px square cell. Recognition at 54 px and an official source do not resolve the small-size usability defect documented in the October 6 audit.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original representation and verify it at 24 and 32 px on both light and dark backgrounds, or do not make this replacement. This rejection is about the chosen composition, not the Barclays transaction or a blanket ban on lettering.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/8b325265b31531546db848b824cf19f5120bc8d9/review-materials/16088/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "textSha256": "fbea327e2b1921e1d57e81be895db00e6e85d11959796af05177b8c757957c40",
+            "trust": {
+              "login": "b3er",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/140#issuecomment-6173887885"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/16088/candidate-0e4ca20924accb66d7285e038fbdc8f9b240697111fa0c433afc9309e1a74e99.json",
         "sha256": "0e4ca20924accb66d7285e038fbdc8f9b240697111fa0c433afc9309e1a74e99"

@@ -95,7 +95,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:39:23.871251Z",
+        "observedAt": "2026-10-16T19:59:47.115998Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -113,10 +113,140 @@
           "url": "https://github.com/zenmoney/banks/pull/21"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:39:23.871251Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "cd21ff896b353b4d708c334a10fedbc3384f2872b222b0db760520bbef3afcc3",
+            "closedAt": "2026-10-15T13:46:14Z",
+            "head": "bank-icon-maintenance/4399",
+            "headCommit": "7aaff669be1c97603340ac363d3e891df9a5b612",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 21,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+            "url": "https://github.com/zenmoney/banks/pull/21"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "First addition for bank 4399: no icon.svg exists. Live official site uses a two-color vector mark; compact mark-only variant is a suitable standalone icon. Raster inspection and this judgment performed on 2026-10-02.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Адаптировать под светлую и темную тему ",
+          "createdAt": "2026-10-15T13:46:14Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:46:14Z",
+          "url": "https://github.com/zenmoney/banks/pull/21#issuecomment-6193598334"
+        },
+        "explanation": "Адаптировать под светлую и темную тему",
+        "mr": {
+          "number": 21,
+          "url": "https://github.com/zenmoney/banks/pull/21"
+        },
+        "rationale": "The reviewer requests adaptation for both light and dark themes, a technical/presentation correction. Retain both theme requirements despite the proposal description's claims of existing theme suitability. The comment does not specify particular colors, inversion, geometry, or implementation; this assessment grants no permission to invent them or bypass theme/render constraints and does not claim the correction is implemented.",
+        "requirements": [
+          {
+            "quote": "Адаптировать под светлую и темную тему",
+            "url": "https://github.com/zenmoney/banks/pull/21#issuecomment-6193598334"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:59:47.115998Z",
+        "id": 4399,
+        "judgement": {
+          "action": "repair",
+          "key": "419c670a5c71037c38367f6f9073182db05902919bf0caa3bc232733b13ea9b7",
+          "rationale": "The reviewer requests adaptation for both light and dark themes, a technical/presentation correction. Retain both theme requirements despite the proposal description's claims of existing theme suitability. The comment does not specify particular colors, inversion, geometry, or implementation; this assessment grants no permission to invent them or bypass theme/render constraints and does not claim the correction is implemented.",
+          "sources": [
+            {
+              "quote": "Адаптировать под светлую и темную тему",
+              "url": "https://github.com/zenmoney/banks/pull/21#issuecomment-6193598334"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T12:10:40.234238Z",
+          "candidateIconHash": "09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767",
+          "key": "419c670a5c71037c38367f6f9073182db05902919bf0caa3bc232733b13ea9b7",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Прио-Внешторгбанк — Company.id 4399\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4399,\n  \"title\": \"\\u041f\\u0440\\u0438\\u043e-\\u0412\\u043d\\u0435\\u0448\\u0442\\u043e\\u0440\\u0433\\u0431\\u0430\\u043d\\u043a\",\n  \"url\": \"priovtb.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T12:15:28.567859Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/0cf3afa9fad805da4103afe7a6ef9ab8190dab19/review-materials/4399/source.svg) — SHA-256 `9db693cd28da74a519fa455318fef470b127e0d67909549105f78d19103a581f`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/0cf3afa9fad805da4103afe7a6ef9ab8190dab19/review-materials/4399/final.svg) — SHA-256 `09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/0cf3afa9fad805da4103afe7a6ef9ab8190dab19/review-materials/4399/final.xml) — SHA-256 `65cdd58800f4c0b5c0d851eaa673fac15efa008cd34b9056deff0367387893a3`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/0cf3afa9fad805da4103afe7a6ef9ab8190dab19/review-materials/4399/candidate.diff).\n- Source page: [https://priovtb.com/](https://priovtb.com/).\n- Source asset: [https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg](https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-02T12:01:52Z: [https://priovtb.com/](https://priovtb.com/); asset [https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg](https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg). Direct fetch of the compact mark SVG: 1629 bytes, 28x28 viewBox, vector paths, fills #d9007e and #00b295, no embedded raster. Receipt \\[local artifact not published; reference omitted\\]. (independence group: official-site).\n- official checked 2026-10-02T12:01:52Z: [https://priovtb.com/](https://priovtb.com/); asset [https://priovtb.com/local/templates/project/dist/images/icons/logo.svg](https://priovtb.com/local/templates/project/dist/images/icons/logo.svg). Full horizontal lockup SVG \\(141x36, mark + ПРИО ВНЕШТОРГБАНК wordmark as vector paths\\) referenced and used site-wide; confirms the mark in logo-xs.svg is the bank emblem. Rejected as the catalog asset because it carries separate lettering. (independence group: official-site).\n- official checked 2026-10-02T12:00:00Z: [https://www.cbr.ru/finorg/foinfo/?ogrn=1026200000111](https://www.cbr.ru/finorg/foinfo/?ogrn=1026200000111). CBR financial-organization record for OGRN 1026200000111 \\(Прио-Внешторгбанк\\): license #212, operating license dated 2016-01-29, no revocation entry; supports currency of the current brand presentation. (independence group: cbr-registry).\n- Independent evidence: The official site is the primary source for the asset; the CBR registry independently confirms the legal entity, license number and operating status. These are different publications, not mirrors..\n- Identity: confirmed — Fetched homepage identifies the site as Прио-Внешторгбанк and the record title is Прио-Внешторгбанк \\(RU\\). The mark in logo-xs.svg is the same emblem used in the site-wide logo lockup \\(four rounded corner brackets around a ring-and-disc emblem\\), so the asset belongs to this bank record..\n- Currency: confirmed — Live official site https://priovtb.com/ fetched 2026-10-02 presents АО/ПАО «Прио-Внешторгбанк» and references local/templates/project/dist/images/icons/logo.svg and logo-xs.svg in its active Bitrix header/footer; homepage shows 2026 campaign content. CBR registry \\(cbr.ru/finorg/foinfo/?ogrn=1026200000111, license #212, OGRN 1026200000111\\) shows an operating license dated 2016-01-29 and no revocation record..\n- Variant: confirmed — logo-xs.svg \\(28x28 viewBox 0 0 28 28\\) is the compact mark-only variant that the official site itself uses site-wide; it contains no separate lettering. Verified fills in the fetched bytes: #d9007e and #00b295 \\(researcher note claiming teal-only was wrong; source inspected directly\\). Full horizontal lockup logo.svg \\(141x36\\) includes the wordmark and is unsuitable for a square cell; the mark-only variant is the official standalone form..\n\nRationale: First addition: the record has no icon.svg. The official compact mark variant of Прио-Внешторгбанк is an original two-color vector served by the bank's own live site; it is a standalone emblem without accompanying lettering and is therefore suitable for the catalog square cell..\nRole: Standalone bank mark \\(the emblem-only compact variant of the official logo lockup\\); the magenta rounded-square contour is the branded silhouette, not an empty canvas.; variant: Official compact icon-only variant \\(logo-xs.svg\\) of the current brand mark, used site-wide on priovtb.com; distinct from the 141x36 lockup which carries the wordmark..\nVisible difference: First addition: there is no base icon; the diff is absent-to-real-icon. No pre-existing design is modified or replaced..\nDetails: All source contours survive: the magenta rounded-square silhouette with its four notched corner cutouts, the transparent ring between square and disc \\(verified showing the dark background through on the dark-theme pair, i.e. true internal alpha, not white fill\\), and the teal disc. Fills remain exactly #d9007e and #00b295; SVGO floatPrecision 4 changed only 27 of 50176 preview pixels \\(sub-pixel antialiasing\\) in the working-vs-optimized raster comparison.. Proportions: Square 28x28 emblem fills the cell with the geometry the official site itself uses for its compact icon; no scaling, translation or backing transform was applied, so proportions are the source's own. The mark stays recognizable at 24/32/48 px diagnostics on both themes because it reduces to three high-contrast simple shapes..\n\nSource-to-final transformations:\n- None: final.svg is the original fetched vector after source-preserving optimization with SVGO 4.1.0 using the repository's committed SVGO configuration \\(multipass, floatPrecision 4\\); file size went from 1629 to 1051 bytes \\(-35.5%\\). The optimized version was selected after a raster comparison against the working copy showed no visible change \\(only 27 sub-pixel antialias pixels of 50176 in a 224 px preview\\). No backing change and no geometry transform were applied; internal transparency is preserved.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/0cf3afa9fad805da4103afe7a6ef9ab8190dab19/review-materials/4399/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/0cf3afa9fad805da4103afe7a6ef9ab8190dab19/review-materials/4399/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T12:14:36.784763299Z`. Source/final: Full original source \\(fetched logo-xs.svg bytes, librsvg source reference raster\\) versus final.svg on both themes: identical geometry, colors and internal transparency; the optimized bytes differ from the source only by SVGO reserialization verified pixel-near-identical \\(27 antialias pixels in a 224px preview\\). No invented colors or shapes.; base/final and rendering: First addition: baseline absent \\(iconHash null, confirmed pinned-path absence\\), no base/final pair exists and none was fabricated. Final-only frames on light and dark backgrounds \\(offscreen CPU Skia/painterResource, 240px canvas\\) were inspected: the emblem is complete, high-contrast and legible on both themes; the transparent ring correctly shows the theme background.\n\n- android-compose: not-tested (available: false) — Android SDK is installed \\(build-tools 36.0.0, platform android-37.0\\) but no emulator binary and no system images are present, so a headless AVD cannot be created without downloads, which are outside this run. Risk: the Compose Android rendering path was not directly observed..\n- android-native: not-tested (available: false) — The same missing emulator and system-image prerequisite applies; no Android device runtime is available. Risk: native Android view rendering was not observed..\n- ios-compose: not-tested (available: false) — This is a Linux host without an iOS SDK, toolchain or simulator. Risk: the iOS Compose rendering path was not observed..\n- ios-native: not-tested (available: false) — This is a Linux host without an iOS SDK, toolchain or simulator. Risk: native iOS rendering was not observed..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGR1Zzw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/21",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Адаптировать под светлую и темную тему ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSrPfg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/21#issuecomment-6193598334",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "cd21ff896b353b4d708c334a10fedbc3384f2872b222b0db760520bbef3afcc3",
+            "closedAt": "2026-10-15T13:46:14Z",
+            "head": "bank-icon-maintenance/4399",
+            "headCommit": "7aaff669be1c97603340ac363d3e891df9a5b612",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 21,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+            "url": "https://github.com/zenmoney/banks/pull/21"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Адаптировать под светлую и темную тему ",
+            "bodySha256": "e8e90f21b16b5261ce3a0f35e3a7544366ff78d0a5469acf9a33f3f19b63b24c",
+            "createdAt": "2026-10-15T13:46:14Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSrPfg",
+            "text": "Адаптировать под светлую и темную тему",
+            "textSha256": "21a793565451432726efb60695e8e97644c0d3e6253d9e91d8eb84f15b85ccc1",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/21#issuecomment-6193598334"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4399/candidate-7a1a7e029095d011e76e4f689b24439a4471148c5c52ea14b267f6dfb6a1e63f.json",
         "sha256": "7a1a7e029095d011e76e4f689b24439a4471148c5c52ea14b267f6dfb6a1e63f"
