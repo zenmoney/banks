@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T07:48:30.782354Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T07:56:28.679455Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "bcbceca28930f000047531a561f88c2862bcae9b",
+      "acceptedIconHash": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13",
       "agentAssessment": {
         "path": "evidence/15849/assessed-f3ad9423dd9556779885ce5d6ab0f9f189957c4dd33859269a21d1659e3e1e4d.json",
         "sha256": "f3ad9423dd9556779885ce5d6ab0f9f189957c4dd33859269a21d1659e3e1e4d"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/a3me6hif-15849",
         "headCommit": "bcbceca28930f000047531a561f88c2862bcae9b",
         "number": 107,
-        "observedAt": "2026-10-04T08:25:05.616103Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:12.296148Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Ziraat Bankasi (Company.id 15849)",
         "url": "https://github.com/zenmoney/banks/pull/107"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "452487f73f980e0f7a95f8d7925103cb4851da7f18b430445958a979212e9596",
+          "head": "bank-icon-maintenance/a3me6hif-15849",
+          "headCommit": "bcbceca28930f000047531a561f88c2862bcae9b",
+          "number": 107,
+          "observedAt": "2026-10-04T08:25:05.616103Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ziraat Bankasi (Company.id 15849)",
+          "url": "https://github.com/zenmoney/banks/pull/107"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "452487f73f980e0f7a95f8d7925103cb4851da7f18b430445958a979212e9596",
+        "closedAt": "2026-10-15T14:38:32Z",
+        "head": "bank-icon-maintenance/a3me6hif-15849",
+        "headCommit": "bcbceca28930f000047531a561f88c2862bcae9b",
+        "mergeCommit": "cff167d86edb0c48de5fc9126337db2539167e64",
+        "mergedAt": "2026-10-15T14:38:31Z",
+        "number": 107,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ziraat Bankasi (Company.id 15849)",
+        "url": "https://github.com/zenmoney/banks/pull/107"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:12.296148Z",
+        "proof": {
+          "accepted": {
+            "commit": "cff167d86edb0c48de5fc9126337db2539167e64",
+            "iconHash": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13",
+            "metadataHash": "8cc0675e4efe65da48c49a0a1c4fa40a9fd902aba964223b691e164de238358a"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13",
+            "metadataHash": "8cc0675e4efe65da48c49a0a1c4fa40a9fd902aba964223b691e164de238358a"
+          },
+          "path": "banks/Ziraat Bankasi_15849-tr/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "bcbceca28930f000047531a561f88c2862bcae9b",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "452487f73f980e0f7a95f8d7925103cb4851da7f18b430445958a979212e9596",
+          "closedAt": "2026-10-15T14:38:32Z",
+          "head": "bank-icon-maintenance/a3me6hif-15849",
+          "headCommit": "bcbceca28930f000047531a561f88c2862bcae9b",
+          "mergeCommit": "cff167d86edb0c48de5fc9126337db2539167e64",
+          "mergedAt": "2026-10-15T14:38:31Z",
+          "number": 107,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ziraat Bankasi (Company.id 15849)",
+          "url": "https://github.com/zenmoney/banks/pull/107"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The live official Internet Banking header supplies an original vector wheat emblem in #DF0E21; accepted icon uses #ED1C24 and simplified contours. Propose the exact currently deployed flat emblem, not a wordmark or an invented rebrand. Official 2025 alternative remains hosted with #ED1C24 and shaded detail; this proves coexistence, not that the baseline is obsolete. Final conversion/render review remains required.",
       "reviewPackage": {
@@ -114,7 +184,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:Ziraat_Bankas%C4%B1_2025_Logo.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T07:56:28.679455Z",
         "compose": "1.12.0",
@@ -124,5 +194,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "8c83ffd9855492def393df78b12dfca1ea97a746e92d2d884496b111b25eaf13"
 }

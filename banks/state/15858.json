@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T08:56:02.625847Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T08:59:35.554533Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "4dfb1581813ad4bc1c1ccc10cbc03ae1bc122c7c",
+      "acceptedIconHash": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85",
       "agentAssessment": {
         "path": "evidence/15858/assessed-386d64d6136691863575525241635c66a01ff55992e65482dde81b7040b68127.json",
         "sha256": "386d64d6136691863575525241635c66a01ff55992e65482dde81b7040b68127"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15858",
         "headCommit": "4dfb1581813ad4bc1c1ccc10cbc03ae1bc122c7c",
         "number": 109,
-        "observedAt": "2026-10-04T09:12:52.134018Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:18.816525Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: HSBC (Company.id 15858)",
         "url": "https://github.com/zenmoney/banks/pull/109"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b3fda4abd670c09abd00db6526ed2bba02db5b8e967dd16ac957287bda0fcf1b",
+          "head": "bank-icon-maintenance/15858",
+          "headCommit": "4dfb1581813ad4bc1c1ccc10cbc03ae1bc122c7c",
+          "number": 109,
+          "observedAt": "2026-10-04T09:12:52.134018Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: HSBC (Company.id 15858)",
+          "url": "https://github.com/zenmoney/banks/pull/109"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b3fda4abd670c09abd00db6526ed2bba02db5b8e967dd16ac957287bda0fcf1b",
+        "closedAt": "2026-10-15T14:38:53Z",
+        "head": "bank-icon-maintenance/15858",
+        "headCommit": "4dfb1581813ad4bc1c1ccc10cbc03ae1bc122c7c",
+        "mergeCommit": "d5e4b858bd82b160997d4491d197b241239084a2",
+        "mergedAt": "2026-10-15T14:38:53Z",
+        "number": 109,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: HSBC (Company.id 15858)",
+        "url": "https://github.com/zenmoney/banks/pull/109"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:18.816525Z",
+        "proof": {
+          "accepted": {
+            "commit": "d5e4b858bd82b160997d4491d197b241239084a2",
+            "iconHash": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85",
+            "metadataHash": "1dbf7a6912d9a916da754cd06f10976bfb7b4af77d07c8b011a2dd808f5e2dd8"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85",
+            "metadataHash": "1dbf7a6912d9a916da754cd06f10976bfb7b4af77d07c8b011a2dd808f5e2dd8"
+          },
+          "path": "banks/HSBC_15858-ca/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "4dfb1581813ad4bc1c1ccc10cbc03ae1bc122c7c",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b3fda4abd670c09abd00db6526ed2bba02db5b8e967dd16ac957287bda0fcf1b",
+          "closedAt": "2026-10-15T14:38:53Z",
+          "head": "bank-icon-maintenance/15858",
+          "headCommit": "4dfb1581813ad4bc1c1ccc10cbc03ae1bc122c7c",
+          "mergeCommit": "d5e4b858bd82b160997d4491d197b241239084a2",
+          "mergedAt": "2026-10-15T14:38:53Z",
+          "number": 109,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: HSBC (Company.id 15858)",
+          "url": "https://github.com/zenmoney/banks/pull/109"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Baseline hexagon geometry is current (construction numerically matches the official masterbrand SVG) but its red is #ee3224 instead of the official brand red #DB0011. Supported color-correction update; final candidate is the standalone hexagon brandmark derived from the official vector.",
       "reviewPackage": {
@@ -99,7 +169,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:HSBC_logo_(2018).svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T08:59:35.554533Z",
         "compose": "1.12.0",
@@ -109,5 +179,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "11ef0af83ba22ade3a2b4b649cec719ceb08f1a7a3313f4e4cbcac2ebac1db85"
 }

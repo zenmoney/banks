@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/15875",
         "headCommit": "8aac3ae58d79f7208090b7e60c4e736f4c78704d",
         "number": 116,
-        "observedAt": "2026-10-04T11:27:02.255486Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:32.275144Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Unicaja Banco (Company.id 15875)",
         "url": "https://github.com/zenmoney/banks/pull/116"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "d917a1b4158c4ccb3ed59831781901578b793ccaf8f82520b2673ae7db04ac95",
+          "head": "bank-icon-maintenance/15875",
+          "headCommit": "8aac3ae58d79f7208090b7e60c4e736f4c78704d",
+          "number": 116,
+          "observedAt": "2026-10-04T11:27:02.255486Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Unicaja Banco (Company.id 15875)",
+          "url": "https://github.com/zenmoney/banks/pull/116"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "d917a1b4158c4ccb3ed59831781901578b793ccaf8f82520b2673ae7db04ac95",
+        "closedAt": "2026-10-16T10:02:01Z",
+        "head": "bank-icon-maintenance/15875",
+        "headCommit": "8aac3ae58d79f7208090b7e60c4e736f4c78704d",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 116,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Unicaja Banco (Company.id 15875)",
+        "url": "https://github.com/zenmoney/banks/pull/116"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:35:32.275144Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "d917a1b4158c4ccb3ed59831781901578b793ccaf8f82520b2673ae7db04ac95",
+          "closedAt": "2026-10-16T10:02:01Z",
+          "head": "bank-icon-maintenance/15875",
+          "headCommit": "8aac3ae58d79f7208090b7e60c4e736f4c78704d",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 116,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Unicaja Banco (Company.id 15875)",
+          "url": "https://github.com/zenmoney/banks/pull/116"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Official original-vector Unicaja Banco 2022 lockup (Commons copy of the official logo, CC BY-SA 4.0, dated 2022-09-19) with the green abanico/fan mark (#278600) extracted losslessly as the standalone symbol. Supported rebrand: the accepted icon is the pre-2022 plain-green pinwheel (#66CF48); the current brand uses the 2022 fan mark with darker green #278600.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15875/candidate-2902c2ca829183d1455a0ac8a60b2aaa90314950ba11325ba3279cb867e479ee.json",
         "sha256": "2902c2ca829183d1455a0ac8a60b2aaa90314950ba11325ba3279cb867e479ee"
@@ -108,7 +161,7 @@
           "url": "https://www.unicajabanco.es/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T11:05:04.119033Z",
         "compose": "1.12.0",

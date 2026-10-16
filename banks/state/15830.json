@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T06:06:00.674132Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T06:13:08.804864Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "6838f8b6dde296a9c6cbd30f50076f40bb655e8a",
+      "acceptedIconHash": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9",
       "agentAssessment": {
         "path": "evidence/15830/assessed-afd68b5a05510fbf29c256686f6517fe8ccf162ee5990e30861da1cb243e804c.json",
         "sha256": "afd68b5a05510fbf29c256686f6517fe8ccf162ee5990e30861da1cb243e804c"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15830",
         "headCommit": "6838f8b6dde296a9c6cbd30f50076f40bb655e8a",
         "number": 101,
-        "observedAt": "2026-10-04T06:30:36.965449Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:34:56.609094Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Medicinos bankas (Company.id 15830)",
         "url": "https://github.com/zenmoney/banks/pull/101"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "2d781ed1d102025c090403c726d4cb42e81ab990f82d59ebed7750aafb45a407",
+          "head": "bank-icon-maintenance/15830",
+          "headCommit": "6838f8b6dde296a9c6cbd30f50076f40bb655e8a",
+          "number": 101,
+          "observedAt": "2026-10-04T06:30:36.965449Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Medicinos bankas (Company.id 15830)",
+          "url": "https://github.com/zenmoney/banks/pull/101"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "2d781ed1d102025c090403c726d4cb42e81ab990f82d59ebed7750aafb45a407",
+        "closedAt": "2026-10-15T14:37:42Z",
+        "head": "bank-icon-maintenance/15830",
+        "headCommit": "6838f8b6dde296a9c6cbd30f50076f40bb655e8a",
+        "mergeCommit": "81016a9c36b0d7e766a90b49715650ce6b9ba5f9",
+        "mergedAt": "2026-10-15T14:37:42Z",
+        "number": 101,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Medicinos bankas (Company.id 15830)",
+        "url": "https://github.com/zenmoney/banks/pull/101"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:34:56.609094Z",
+        "proof": {
+          "accepted": {
+            "commit": "81016a9c36b0d7e766a90b49715650ce6b9ba5f9",
+            "iconHash": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9",
+            "metadataHash": "94a6847334d7c3c3b1ddf11da13414394103646128d0cf365bb9b5f28f525c64"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9",
+            "metadataHash": "94a6847334d7c3c3b1ddf11da13414394103646128d0cf365bb9b5f28f525c64"
+          },
+          "path": "banks/Medicinos bankas_15830-lt/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "6838f8b6dde296a9c6cbd30f50076f40bb655e8a",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "2d781ed1d102025c090403c726d4cb42e81ab990f82d59ebed7750aafb45a407",
+          "closedAt": "2026-10-15T14:37:42Z",
+          "head": "bank-icon-maintenance/15830",
+          "headCommit": "6838f8b6dde296a9c6cbd30f50076f40bb655e8a",
+          "mergeCommit": "81016a9c36b0d7e766a90b49715650ce6b9ba5f9",
+          "mergedAt": "2026-10-15T14:37:42Z",
+          "number": 101,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Medicinos bankas (Company.id 15830)",
+          "url": "https://github.com/zenmoney/banks/pull/101"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "medbank.lt redirects to urbo.lt: Medicinos bankas rebranded to Urbo bankas; the accepted icon shows the legacy olive/brown wordmark badge while the bank's current standalone mark is the green stylized U, available as the bank's own original SVG.",
       "reviewPackage": {
@@ -100,7 +170,7 @@
           "url": "https://medbank.lt"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T06:13:08.804864Z",
         "compose": "1.12.0",
@@ -110,5 +180,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "de24a5366be18b7de3f8ae4a371a977cba77a6c353d341557e4fb717d59df6b9"
 }

@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/15831",
         "headCommit": "b251e9f3edd6bda416e69dab7975dc9c7a171c84",
         "number": 102,
-        "observedAt": "2026-10-04T06:34:09.586442Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:34:57.372423Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
         "url": "https://github.com/zenmoney/banks/pull/102"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "9ee9539f6aad7accc4f1ab38b73b20522a7447f2d118e59e72ce8c772839b469",
+          "head": "bank-icon-maintenance/15831",
+          "headCommit": "b251e9f3edd6bda416e69dab7975dc9c7a171c84",
+          "number": 102,
+          "observedAt": "2026-10-04T06:34:09.586442Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+          "url": "https://github.com/zenmoney/banks/pull/102"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "9ee9539f6aad7accc4f1ab38b73b20522a7447f2d118e59e72ce8c772839b469",
+        "closedAt": "2026-10-16T09:56:22Z",
+        "head": "bank-icon-maintenance/15831",
+        "headCommit": "b251e9f3edd6bda416e69dab7975dc9c7a171c84",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 102,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+        "url": "https://github.com/zenmoney/banks/pull/102"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:34:57.372423Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "9ee9539f6aad7accc4f1ab38b73b20522a7447f2d118e59e72ce8c772839b469",
+          "closedAt": "2026-10-16T09:56:22Z",
+          "head": "bank-icon-maintenance/15831",
+          "headCommit": "b251e9f3edd6bda416e69dab7975dc9c7a171c84",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 102,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+          "url": "https://github.com/zenmoney/banks/pull/102"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Šiaulių bankas renamed to Artea bankas effective 2025-05-05 (official FAQ, GlobeNewswire notice, Wikipedia); the accepted icon is the former lowercase 'šiaulių bankas' wordmark while the bank's current standalone mark is the Artea geometric mark, available as the bank's own favicon.svg original vector.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15831/candidate-b52afc18734aafc2c4a9a94c5c08e0a543812869a029bb423400e5fef69ceb20.json",
         "sha256": "b52afc18734aafc2c4a9a94c5c08e0a543812869a029bb423400e5fef69ceb20"
@@ -100,7 +153,7 @@
           "url": "https://www.globenewswire.com/news-release/2025/03/31/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T06:13:11.154447Z",
         "compose": "1.12.0",

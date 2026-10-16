@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/15862",
         "headCommit": "5316f8b9f71d480b891186db4730c32bcae86d03",
         "number": 110,
-        "observedAt": "2026-10-04T09:44:12.401455Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:19.640626Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Stripe (Company.id 15862)",
         "url": "https://github.com/zenmoney/banks/pull/110"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "7a68769ec7596765e100ead9a5e69e9cd44e4fd8b24388f45e21a13f1138fae3",
+          "head": "bank-icon-maintenance/15862",
+          "headCommit": "5316f8b9f71d480b891186db4730c32bcae86d03",
+          "number": 110,
+          "observedAt": "2026-10-04T09:44:12.401455Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Stripe (Company.id 15862)",
+          "url": "https://github.com/zenmoney/banks/pull/110"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "7a68769ec7596765e100ead9a5e69e9cd44e4fd8b24388f45e21a13f1138fae3",
+        "closedAt": "2026-10-16T09:59:04Z",
+        "head": "bank-icon-maintenance/15862",
+        "headCommit": "5316f8b9f71d480b891186db4730c32bcae86d03",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 110,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Stripe (Company.id 15862)",
+        "url": "https://github.com/zenmoney/banks/pull/110"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:35:19.640626Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "7a68769ec7596765e100ead9a5e69e9cd44e4fd8b24388f45e21a13f1138fae3",
+          "closedAt": "2026-10-16T09:59:04Z",
+          "head": "bank-icon-maintenance/15862",
+          "headCommit": "5316f8b9f71d480b891186db4730c32bcae86d03",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 110,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Stripe (Company.id 15862)",
+          "url": "https://github.com/zenmoney/banks/pull/110"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Stripe rebranded: the accepted icon uses the legacy blurple (#6772E5-style) circle with the older wordmark, while Stripe's official newsroom media kit (zip dated 2025-09-12) serves the current wordmark in the new brand purple #533AFD. The fetched member 'asset-wordmark/Stripe wordmark - Blurple.svg' is an original official vector (pure paths, viewBox 0 0 360 150). The official favicon.svg rounded-square variant contains only a bare white parallelogram and is not a recognizable standalone mark, so the official wordmark is the evidenced replacement. This is a documented rebrand of the same bank, not an identity dispute.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15862/candidate-b20479ae0191d5711077f89e909b0ee0d27bb17c99c116810748f723e39c66a8.json",
         "sha256": "b20479ae0191d5711077f89e909b0ee0d27bb17c99c116810748f723e39c66a8"
@@ -102,7 +155,7 @@
           "url": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T09:33:12.531634Z",
         "compose": "1.12.0",

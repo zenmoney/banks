@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/15871",
         "headCommit": "dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d",
         "number": 113,
-        "observedAt": "2026-10-04T10:58:15.879524Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:24.733271Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Porsche Bank (Company.id 15871)",
         "url": "https://github.com/zenmoney/banks/pull/113"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8f63e786623cd75b2495e86aa1d97ea4dd0164ba80077e28d96ab3a826d71d38",
+          "head": "bank-icon-maintenance/15871",
+          "headCommit": "dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d",
+          "number": 113,
+          "observedAt": "2026-10-04T10:58:15.879524Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Porsche Bank (Company.id 15871)",
+          "url": "https://github.com/zenmoney/banks/pull/113"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8f63e786623cd75b2495e86aa1d97ea4dd0164ba80077e28d96ab3a826d71d38",
+        "closedAt": "2026-10-14T17:06:58Z",
+        "head": "bank-icon-maintenance/15871",
+        "headCommit": "dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 113,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Porsche Bank (Company.id 15871)",
+        "url": "https://github.com/zenmoney/banks/pull/113"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:35:24.733271Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8f63e786623cd75b2495e86aa1d97ea4dd0164ba80077e28d96ab3a826d71d38",
+          "closedAt": "2026-10-14T17:06:58Z",
+          "head": "bank-icon-maintenance/15871",
+          "headCommit": "dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 113,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Porsche Bank (Company.id 15871)",
+          "url": "https://github.com/zenmoney/banks/pull/113"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Official original-vector Porsche Finance Group Romania signet (stylized road/P mark, #103344) self-published in the JSON-LD organization.logo of porschefinance.ro (porschebank.ro redirects there). Standalone Signet group extracted verbatim from the official lockup SVG; visually verified as a standalone mark suitable for a square cell. Identity of the record (Porsche Bank, RO) confirmed against porschefinance.ro 'despre noi' (local subsidiary of Porsche Bank AG); not a Porsche AG crest.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15871/candidate-b7ec6352064d3def3b94d180d941fc8273690c8431b9b9239d1ba3357a75f384.json",
         "sha256": "b7ec6352064d3def3b94d180d941fc8273690c8431b9b9239d1ba3357a75f384"
@@ -106,7 +159,7 @@
           "url": "https://www.porschebank.com"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T10:49:41.247676Z",
         "compose": "1.12.0",

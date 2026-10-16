@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T10:59:11.232412Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T11:04:59.261306Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "17025c52a2c27643dbc3a253af904d62aa6de03e",
+      "acceptedIconHash": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046",
       "agentAssessment": {
         "path": "evidence/15872/assessed-8a427c7b95ddd518ee6178261f6ab44509aab6ccf4143ec434e768b2a7a1fb59.json",
         "sha256": "8a427c7b95ddd518ee6178261f6ab44509aab6ccf4143ec434e768b2a7a1fb59"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15872",
         "headCommit": "17025c52a2c27643dbc3a253af904d62aa6de03e",
         "number": 114,
-        "observedAt": "2026-10-04T11:18:56.249927Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:28.134727Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: UniCredit Bank (Company.id 15872)",
         "url": "https://github.com/zenmoney/banks/pull/114"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "798dae23e9b99eb454efcefe846b113ad8ea78d8c7ee48cec447109e8d207658",
+          "head": "bank-icon-maintenance/15872",
+          "headCommit": "17025c52a2c27643dbc3a253af904d62aa6de03e",
+          "number": 114,
+          "observedAt": "2026-10-04T11:18:56.249927Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: UniCredit Bank (Company.id 15872)",
+          "url": "https://github.com/zenmoney/banks/pull/114"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "798dae23e9b99eb454efcefe846b113ad8ea78d8c7ee48cec447109e8d207658",
+        "closedAt": "2026-10-15T14:39:15Z",
+        "head": "bank-icon-maintenance/15872",
+        "headCommit": "17025c52a2c27643dbc3a253af904d62aa6de03e",
+        "mergeCommit": "e48e6c63d942f2cec8887acb8dab82a772b7a119",
+        "mergedAt": "2026-10-15T14:39:15Z",
+        "number": 114,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: UniCredit Bank (Company.id 15872)",
+        "url": "https://github.com/zenmoney/banks/pull/114"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:28.134727Z",
+        "proof": {
+          "accepted": {
+            "commit": "e48e6c63d942f2cec8887acb8dab82a772b7a119",
+            "iconHash": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046",
+            "metadataHash": "9c1591714c99be401f4e60163b78cf6651c40427f7b4bb2459eb3ee49b18cfac"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046",
+            "metadataHash": "9c1591714c99be401f4e60163b78cf6651c40427f7b4bb2459eb3ee49b18cfac"
+          },
+          "path": "banks/UniCredit Bank_15872-ro/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "17025c52a2c27643dbc3a253af904d62aa6de03e",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "798dae23e9b99eb454efcefe846b113ad8ea78d8c7ee48cec447109e8d207658",
+          "closedAt": "2026-10-15T14:39:15Z",
+          "head": "bank-icon-maintenance/15872",
+          "headCommit": "17025c52a2c27643dbc3a253af904d62aa6de03e",
+          "mergeCommit": "e48e6c63d942f2cec8887acb8dab82a772b7a119",
+          "mergedAt": "2026-10-15T14:39:15Z",
+          "number": 114,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: UniCredit Bank (Company.id 15872)",
+          "url": "https://github.com/zenmoney/banks/pull/114"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official original-vector UniCredit lockup from the group's own DAM (unicredit.pl media page): red sphere with white '1' (#E2001A) plus black UniCredit wordmark. Current group brand variant; no evidence of a 2025 redesign. Standalone sphere symbol extracted losslessly from the lockup as the working candidate for a square cell. Update basis: accepted icon uses muted #df493a with a white edge; the official symbol red is #E2001A — supported color correction.",
       "reviewPackage": {
@@ -108,7 +178,7 @@
           "url": "https://www.unicreditgroup.eu/our-brand (via search result, direct fetch blocked 403/timeout)"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T11:04:59.261306Z",
         "compose": "1.12.0",
@@ -118,5 +188,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "9658a08269fa28188ea185444e4448cb6c1416a0fc3e60b998bdfa24f836a046"
 }

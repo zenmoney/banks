@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T07:48:59.749084Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T07:56:27.181135Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "c533f0c5130342281c6a8673b2e96bf6abe9ffe3",
+      "acceptedIconHash": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b",
       "agentAssessment": {
         "path": "evidence/15846/assessed-dbc862c56f3581c96812a659e10000e918477a01b4a9c4f84bd7f3d874dc5325.json",
         "sha256": "dbc862c56f3581c96812a659e10000e918477a01b4a9c4f84bd7f3d874dc5325"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/a3me6hif-15846",
         "headCommit": "c533f0c5130342281c6a8673b2e96bf6abe9ffe3",
         "number": 105,
-        "observedAt": "2026-10-04T08:10:25.806392Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:07.643931Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Intesa Sanpaolo (Company.id 15846)",
         "url": "https://github.com/zenmoney/banks/pull/105"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e8e6ce2654f7f83f19617d4ed25c36efc4d9f50a9ad1f8a3db1344da2f4adb0a",
+          "head": "bank-icon-maintenance/a3me6hif-15846",
+          "headCommit": "c533f0c5130342281c6a8673b2e96bf6abe9ffe3",
+          "number": 105,
+          "observedAt": "2026-10-04T08:10:25.806392Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Intesa Sanpaolo (Company.id 15846)",
+          "url": "https://github.com/zenmoney/banks/pull/105"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e8e6ce2654f7f83f19617d4ed25c36efc4d9f50a9ad1f8a3db1344da2f4adb0a",
+        "closedAt": "2026-10-15T14:38:13Z",
+        "head": "bank-icon-maintenance/a3me6hif-15846",
+        "headCommit": "c533f0c5130342281c6a8673b2e96bf6abe9ffe3",
+        "mergeCommit": "7057217331c823cc5579c3f4574562ef9492ad9c",
+        "mergedAt": "2026-10-15T14:38:13Z",
+        "number": 105,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Intesa Sanpaolo (Company.id 15846)",
+        "url": "https://github.com/zenmoney/banks/pull/105"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:07.643931Z",
+        "proof": {
+          "accepted": {
+            "commit": "7057217331c823cc5579c3f4574562ef9492ad9c",
+            "iconHash": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b",
+            "metadataHash": "e7aa0e7e68f9491bdf3bc1fc4937792be5d4eef8d3aec8d3e2ce64aad644ff0c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b",
+            "metadataHash": "e7aa0e7e68f9491bdf3bc1fc4937792be5d4eef8d3aec8d3e2ce64aad644ff0c"
+          },
+          "path": "banks/Intesa Sanpaolo_15846-it/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "c533f0c5130342281c6a8673b2e96bf6abe9ffe3",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e8e6ce2654f7f83f19617d4ed25c36efc4d9f50a9ad1f8a3db1344da2f4adb0a",
+          "closedAt": "2026-10-15T14:38:13Z",
+          "head": "bank-icon-maintenance/a3me6hif-15846",
+          "headCommit": "c533f0c5130342281c6a8673b2e96bf6abe9ffe3",
+          "mergeCommit": "7057217331c823cc5579c3f4574562ef9492ad9c",
+          "mergedAt": "2026-10-15T14:38:13Z",
+          "number": 105,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Intesa Sanpaolo (Company.id 15846)",
+          "url": "https://github.com/zenmoney/banks/pull/105"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "A supported original-vector aqueduct symbol includes an explicit white inner square and orange meaningful frame. The accepted SVG drops the white field, visibly exposing dark theme behind the arches, and uses different colors. Propose source-supported restoration, not a rebrand or cosmetic circle normalization.",
       "reviewPackage": {
@@ -124,7 +194,7 @@
           "url": "https://companieslogo.com/intesa-sanpaolo/logo/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T07:56:27.181135Z",
         "compose": "1.12.0",
@@ -134,5 +204,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "f2c785771f157a114f4634c1cb41a314d1a77d8ceac90fe1870163d2abf5e45b"
 }

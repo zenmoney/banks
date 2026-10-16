@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T06:06:28.626393Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T06:13:05.011317Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "95f6daf800bc727c2806b7982bd0cbe7d4be60e6",
+      "acceptedIconHash": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621",
       "agentAssessment": {
         "path": "evidence/15822/assessed-8487b80bff607e95b06c40c7df42cb4ad5f5417538c0236365ea6d8de98ecaf0.json",
         "sha256": "8487b80bff607e95b06c40c7df42cb4ad5f5417538c0236365ea6d8de98ecaf0"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15822",
         "headCommit": "95f6daf800bc727c2806b7982bd0cbe7d4be60e6",
         "number": 99,
-        "observedAt": "2026-10-04T06:23:39.115400Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:34:50.035440Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ČSOB (Company.id 15822)",
         "url": "https://github.com/zenmoney/banks/pull/99"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ef4411062290dbf1b0cb2a748ec1f790853daa24a8a581adef8b318fe24cbb15",
+          "head": "bank-icon-maintenance/15822",
+          "headCommit": "95f6daf800bc727c2806b7982bd0cbe7d4be60e6",
+          "number": 99,
+          "observedAt": "2026-10-04T06:23:39.115400Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ČSOB (Company.id 15822)",
+          "url": "https://github.com/zenmoney/banks/pull/99"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ef4411062290dbf1b0cb2a748ec1f790853daa24a8a581adef8b318fe24cbb15",
+        "closedAt": "2026-10-15T14:37:23Z",
+        "head": "bank-icon-maintenance/15822",
+        "headCommit": "95f6daf800bc727c2806b7982bd0cbe7d4be60e6",
+        "mergeCommit": "02a039e6992effe9d67b4414336131f110667751",
+        "mergedAt": "2026-10-15T14:37:23Z",
+        "number": 99,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ČSOB (Company.id 15822)",
+        "url": "https://github.com/zenmoney/banks/pull/99"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:34:50.035440Z",
+        "proof": {
+          "accepted": {
+            "commit": "02a039e6992effe9d67b4414336131f110667751",
+            "iconHash": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621",
+            "metadataHash": "f535acf0939aab10840d04b5f1136cd4c8732ad5dcf6a59889018915410fca5c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621",
+            "metadataHash": "f535acf0939aab10840d04b5f1136cd4c8732ad5dcf6a59889018915410fca5c"
+          },
+          "path": "banks/ČSOB_15822-cz/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "95f6daf800bc727c2806b7982bd0cbe7d4be60e6",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ef4411062290dbf1b0cb2a748ec1f790853daa24a8a581adef8b318fe24cbb15",
+          "closedAt": "2026-10-15T14:37:23Z",
+          "head": "bank-icon-maintenance/15822",
+          "headCommit": "95f6daf800bc727c2806b7982bd0cbe7d4be60e6",
+          "mergeCommit": "02a039e6992effe9d67b4414336131f110667751",
+          "mergedAt": "2026-10-15T14:37:23Z",
+          "number": 99,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ČSOB (Company.id 15822)",
+          "url": "https://github.com/zenmoney/banks/pull/99"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official csob.cz document-library negative ČSOB mark (plavec figure with ČSOB lettering as vector paths, white fill) retrieved via Wayback capture (web.archive.org 2024-12-27 id_) of the bank's own URL; current accepted icon shares the same emblem but the negative original vector is a proper source; visual comparison in candidate stage decides update vs unchanged.",
       "reviewPackage": {
@@ -112,7 +182,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:%C4%8CSOB_logo.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T06:13:05.011317Z",
         "compose": "1.12.0",
@@ -122,5 +192,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "fffeaaf5f97fff599e6596b603e2fc85527dd0f56268956d59482408e331f621"
 }

@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T07:46:25.336479Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T07:51:43.524336Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "76ce6fd5febb890deca40e25e5ae038d6fc2e85f",
+      "acceptedIconHash": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4",
       "agentAssessment": {
         "path": "evidence/15842/assessed-bd6ee01d773125cd972ba8164c439d2263fe8ef4d6ee61712e59dedbeebf10ac.json",
         "sha256": "bd6ee01d773125cd972ba8164c439d2263fe8ef4d6ee61712e59dedbeebf10ac"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/a3me6hif-15842",
         "headCommit": "76ce6fd5febb890deca40e25e5ae038d6fc2e85f",
         "number": 104,
-        "observedAt": "2026-10-04T08:04:59.257815Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:04.214953Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Garanti BBVA (Company.id 15842)",
         "url": "https://github.com/zenmoney/banks/pull/104"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e5102ee29733c0ef2d70d6ebc403268ea9534f2d55163e45c576432af85df11a",
+          "head": "bank-icon-maintenance/a3me6hif-15842",
+          "headCommit": "76ce6fd5febb890deca40e25e5ae038d6fc2e85f",
+          "number": 104,
+          "observedAt": "2026-10-04T08:04:59.257815Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Garanti BBVA (Company.id 15842)",
+          "url": "https://github.com/zenmoney/banks/pull/104"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e5102ee29733c0ef2d70d6ebc403268ea9534f2d55163e45c576432af85df11a",
+        "closedAt": "2026-10-15T14:38:05Z",
+        "head": "bank-icon-maintenance/a3me6hif-15842",
+        "headCommit": "76ce6fd5febb890deca40e25e5ae038d6fc2e85f",
+        "mergeCommit": "342f5074ee0183917d93bd819b914a1eeed97989",
+        "mergedAt": "2026-10-15T14:38:04Z",
+        "number": 104,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Garanti BBVA (Company.id 15842)",
+        "url": "https://github.com/zenmoney/banks/pull/104"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:04.214953Z",
+        "proof": {
+          "accepted": {
+            "commit": "342f5074ee0183917d93bd819b914a1eeed97989",
+            "iconHash": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4",
+            "metadataHash": "1238ef244df593a9ca7b6c9b614c6e49dbd34fb939e094b2cd4db0ce8b01c794"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4",
+            "metadataHash": "1238ef244df593a9ca7b6c9b614c6e49dbd34fb939e094b2cd4db0ce8b01c794"
+          },
+          "path": "banks/Garanti BBVA_15842-tr/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "76ce6fd5febb890deca40e25e5ae038d6fc2e85f",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e5102ee29733c0ef2d70d6ebc403268ea9534f2d55163e45c576432af85df11a",
+          "closedAt": "2026-10-15T14:38:05Z",
+          "head": "bank-icon-maintenance/a3me6hif-15842",
+          "headCommit": "76ce6fd5febb890deca40e25e5ae038d6fc2e85f",
+          "mergeCommit": "342f5074ee0183917d93bd819b914a1eeed97989",
+          "mergedAt": "2026-10-15T14:38:04Z",
+          "number": 104,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Garanti BBVA (Company.id 15842)",
+          "url": "https://github.com/zenmoney/banks/pull/104"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official live Turkish Garanti BBVA website supplies an original gradient-green clover vector. Baseline shows the same general clover silhouette in flat #00673f; source-backed gradient/color correction is visible in independent rsvg reference renders. Propose only the standalone original emblem, not the wordmark. This is not a documented rebrand and does not declare the baseline obsolete.",
       "reviewPackage": {
@@ -92,7 +162,7 @@
           "url": "https://www.garantibbva.com.tr/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T07:51:43.524336Z",
         "compose": "1.12.0",
@@ -102,5 +172,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "49536db00e7044387dbe56e6a68cd19f45bb018e26b20f2ab5b99951c7a658c4"
 }

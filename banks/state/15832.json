@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T06:53:16.944037Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T06:56:16.663920Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "a34026f4f265639e5b4af3757e280f19dc8b86a8",
+      "acceptedIconHash": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104",
       "agentAssessment": {
         "path": "evidence/15832/assessed-c16b3c00c6e3f92051cd71c8a95bfd70394f1af4e5ec504a194f5af570b32822.json",
         "sha256": "c16b3c00c6e3f92051cd71c8a95bfd70394f1af4e5ec504a194f5af570b32822"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15832",
         "headCommit": "a34026f4f265639e5b4af3757e280f19dc8b86a8",
         "number": 103,
-        "observedAt": "2026-10-04T07:03:52.531131Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:00.745164Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Citadele (Company.id 15832)",
         "url": "https://github.com/zenmoney/banks/pull/103"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "4a238eb2bb2d708956e701b2f1ffaae273d289c4945d227d64f3ee78254c18b3",
+          "head": "bank-icon-maintenance/15832",
+          "headCommit": "a34026f4f265639e5b4af3757e280f19dc8b86a8",
+          "number": 103,
+          "observedAt": "2026-10-04T07:03:52.531131Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Citadele (Company.id 15832)",
+          "url": "https://github.com/zenmoney/banks/pull/103"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "4a238eb2bb2d708956e701b2f1ffaae273d289c4945d227d64f3ee78254c18b3",
+        "closedAt": "2026-10-15T14:37:53Z",
+        "head": "bank-icon-maintenance/15832",
+        "headCommit": "a34026f4f265639e5b4af3757e280f19dc8b86a8",
+        "mergeCommit": "907c12f9e01a5f1c4faf8cbccb528303e7fd41d5",
+        "mergedAt": "2026-10-15T14:37:53Z",
+        "number": 103,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Citadele (Company.id 15832)",
+        "url": "https://github.com/zenmoney/banks/pull/103"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:00.745164Z",
+        "proof": {
+          "accepted": {
+            "commit": "907c12f9e01a5f1c4faf8cbccb528303e7fd41d5",
+            "iconHash": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104",
+            "metadataHash": "563cbc8757e242043428d99b679835c2532ca8ffd7a2f66a97cf057f815bb2db"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104",
+            "metadataHash": "563cbc8757e242043428d99b679835c2532ca8ffd7a2f66a97cf057f815bb2db"
+          },
+          "path": "banks/Citadele_15832-ee/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "a34026f4f265639e5b4af3757e280f19dc8b86a8",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "4a238eb2bb2d708956e701b2f1ffaae273d289c4945d227d64f3ee78254c18b3",
+          "closedAt": "2026-10-15T14:37:53Z",
+          "head": "bank-icon-maintenance/15832",
+          "headCommit": "a34026f4f265639e5b4af3757e280f19dc8b86a8",
+          "mergeCommit": "907c12f9e01a5f1c4faf8cbccb528303e7fd41d5",
+          "mergedAt": "2026-10-15T14:37:53Z",
+          "number": 103,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Citadele (Company.id 15832)",
+          "url": "https://github.com/zenmoney/banks/pull/103"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current citadele.ee mobile header asset logo.svg (fetched live 2026-10-04) is the white C monogram on brand red; accepted icon.svg shows the older two-bar symbol, an evidenced rebrand, so an update is justified.",
       "reviewPackage": {
@@ -103,7 +173,7 @@
           "url": "https://www.citadele.ee/themes/citadele_lv/assets/images/icons/desktop-logo.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T06:56:16.663920Z",
         "compose": "1.12.0",
@@ -113,5 +183,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "63117fee01720f17db16735ce06f1871efa3624139a22af2d558f9149d375104"
 }

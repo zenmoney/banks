@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T11:46:27.131196Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T11:54:49Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "2ceaf6cbd862b71418284bba32f0daa29a3f0de6",
+      "acceptedIconHash": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c",
       "agentAssessment": {
         "path": "evidence/15877/assessed-c5ac3e2e6dba3512dca5532d9f01fbdf5d86ccfd710f7a0a2a3017f412d96169.json",
         "sha256": "c5ac3e2e6dba3512dca5532d9f01fbdf5d86ccfd710f7a0a2a3017f412d96169"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/ing-15877",
         "headCommit": "2ceaf6cbd862b71418284bba32f0daa29a3f0de6",
         "number": 117,
-        "observedAt": "2026-10-04T12:04:19.481616Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:35.545336Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ING (Company.id 15877)",
         "url": "https://github.com/zenmoney/banks/pull/117"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "50f51464c53a3fb246749d095caa7e01b56d5909e1cef77346048c98b3fe05ce",
+          "head": "bank-icon-maintenance/ing-15877",
+          "headCommit": "2ceaf6cbd862b71418284bba32f0daa29a3f0de6",
+          "number": 117,
+          "observedAt": "2026-10-04T12:04:19.481616Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ING (Company.id 15877)",
+          "url": "https://github.com/zenmoney/banks/pull/117"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "50f51464c53a3fb246749d095caa7e01b56d5909e1cef77346048c98b3fe05ce",
+        "closedAt": "2026-10-15T14:39:36Z",
+        "head": "bank-icon-maintenance/ing-15877",
+        "headCommit": "2ceaf6cbd862b71418284bba32f0daa29a3f0de6",
+        "mergeCommit": "cf0b99b0c1671184a925b9b8cbe6a0d4dd44d629",
+        "mergedAt": "2026-10-15T14:39:36Z",
+        "number": 117,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ING (Company.id 15877)",
+        "url": "https://github.com/zenmoney/banks/pull/117"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:35.545336Z",
+        "proof": {
+          "accepted": {
+            "commit": "cf0b99b0c1671184a925b9b8cbe6a0d4dd44d629",
+            "iconHash": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c",
+            "metadataHash": "eac6b4d1e1849220f769f578b081ca4538e6ba73dd76065aee6b364da3290110"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c",
+            "metadataHash": "eac6b4d1e1849220f769f578b081ca4538e6ba73dd76065aee6b364da3290110"
+          },
+          "path": "banks/ING_15877-es/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "2ceaf6cbd862b71418284bba32f0daa29a3f0de6",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "50f51464c53a3fb246749d095caa7e01b56d5909e1cef77346048c98b3fe05ce",
+          "closedAt": "2026-10-15T14:39:36Z",
+          "head": "bank-icon-maintenance/ing-15877",
+          "headCommit": "2ceaf6cbd862b71418284bba32f0daa29a3f0de6",
+          "mergeCommit": "cf0b99b0c1671184a925b9b8cbe6a0d4dd44d629",
+          "mergedAt": "2026-10-15T14:39:36Z",
+          "number": 117,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ING (Company.id 15877)",
+          "url": "https://github.com/zenmoney/banks/pull/117"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Accepted SVG inverts the current ING lion presentation: it renders a white lion on an orange disc, while the official current mark is an orange (#ff6800) lion on white. The official ing.es lockup vector (ing_leon-01.svg) confirms the orange-on-white presentation and provides an original lion path; a color-corrected candidate from that original vector is supported.",
       "reviewPackage": {
@@ -99,7 +169,7 @@
           "url": "https://www.ing.com/About-us/Our-history.htm"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T11:54:49Z",
         "compose": "1.12.0",
@@ -109,5 +179,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "7d1201b482b042cea59bcc56d575d0c3f8effbfab50865de1cdea69b2a392b8c"
 }

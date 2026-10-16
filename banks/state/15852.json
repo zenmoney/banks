@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T08:56:01.768847Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T08:59:33.939950Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "993b603fcd94ed169d4f6d25cc8b6bc7245a0bfd",
+      "acceptedIconHash": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0",
       "agentAssessment": {
         "path": "evidence/15852/assessed-1a9aea3cb1876d4bea15d7b53b1240c932f5b7ef64fc294f5887ba8697be0c8e.json",
         "sha256": "1a9aea3cb1876d4bea15d7b53b1240c932f5b7ef64fc294f5887ba8697be0c8e"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/15852",
         "headCommit": "993b603fcd94ed169d4f6d25cc8b6bc7245a0bfd",
         "number": 108,
-        "observedAt": "2026-10-04T09:08:59.651161Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:15.547130Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Monzo (Company.id 15852)",
         "url": "https://github.com/zenmoney/banks/pull/108"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "17a6b38866241e4303c0307241c03365a3169bce8c4ea401731541ee12100356",
+          "head": "bank-icon-maintenance/15852",
+          "headCommit": "993b603fcd94ed169d4f6d25cc8b6bc7245a0bfd",
+          "number": 108,
+          "observedAt": "2026-10-04T09:08:59.651161Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Monzo (Company.id 15852)",
+          "url": "https://github.com/zenmoney/banks/pull/108"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "17a6b38866241e4303c0307241c03365a3169bce8c4ea401731541ee12100356",
+        "closedAt": "2026-10-15T14:38:43Z",
+        "head": "bank-icon-maintenance/15852",
+        "headCommit": "993b603fcd94ed169d4f6d25cc8b6bc7245a0bfd",
+        "mergeCommit": "5e76a7e6ccc146131bc2969f4c88ebf8041cba03",
+        "mergedAt": "2026-10-15T14:38:43Z",
+        "number": 108,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Monzo (Company.id 15852)",
+        "url": "https://github.com/zenmoney/banks/pull/108"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:15.547130Z",
+        "proof": {
+          "accepted": {
+            "commit": "5e76a7e6ccc146131bc2969f4c88ebf8041cba03",
+            "iconHash": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0",
+            "metadataHash": "d16f175d4ce9e9a81e3938856497ab176f16f30003b8c9e2e93dd9a876458465"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0",
+            "metadataHash": "d16f175d4ce9e9a81e3938856497ab176f16f30003b8c9e2e93dd9a876458465"
+          },
+          "path": "banks/Monzo_15852-gb/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "993b603fcd94ed169d4f6d25cc8b6bc7245a0bfd",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "17a6b38866241e4303c0307241c03365a3169bce8c4ea401731541ee12100356",
+          "closedAt": "2026-10-15T14:38:43Z",
+          "head": "bank-icon-maintenance/15852",
+          "headCommit": "993b603fcd94ed169d4f6d25cc8b6bc7245a0bfd",
+          "mergeCommit": "5e76a7e6ccc146131bc2969f4c88ebf8041cba03",
+          "mergedAt": "2026-10-15T14:38:43Z",
+          "number": 108,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Monzo (Company.id 15852)",
+          "url": "https://github.com/zenmoney/banks/pull/108"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current Monzo \"M\" mark SVG served as the live monzo.com favicon; same M silhouette as the baseline but with the current gradient leg fills and without the baseline dark background circle. Supported replacement for the operating brand.",
       "reviewPackage": {
@@ -98,7 +168,7 @@
           "url": "https://monzo.com/press"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T08:59:33.939950Z",
         "compose": "1.12.0",
@@ -108,5 +178,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "e971f933b2d0acca61f8fe7553b98d63f9baa824402b810d62c43a7d9cedbfd0"
 }

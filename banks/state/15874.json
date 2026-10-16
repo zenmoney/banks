@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T11:01:20.256330Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T11:05:01.473961Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "4464a6d1f79e518d85ae73efe06210916d752f4c",
+      "acceptedIconHash": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3",
       "agentAssessment": {
         "path": "evidence/15874/assessed-f112de2214a00f26c2a42377c0d96d5aedaa2ee1ebc8441feb6fe5cced2613f7.json",
         "sha256": "f112de2214a00f26c2a42377c0d96d5aedaa2ee1ebc8441feb6fe5cced2613f7"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15874",
         "headCommit": "4464a6d1f79e518d85ae73efe06210916d752f4c",
         "number": 115,
-        "observedAt": "2026-10-04T11:22:56.811361Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:35:31.471244Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Bankinter (Company.id 15874)",
         "url": "https://github.com/zenmoney/banks/pull/115"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "a36ed455fd92732873e5e5c9e6fd4d6a806847b0a98d0cef7af8e800333cb13a",
+          "head": "bank-icon-maintenance/15874",
+          "headCommit": "4464a6d1f79e518d85ae73efe06210916d752f4c",
+          "number": 115,
+          "observedAt": "2026-10-04T11:22:56.811361Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Bankinter (Company.id 15874)",
+          "url": "https://github.com/zenmoney/banks/pull/115"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a36ed455fd92732873e5e5c9e6fd4d6a806847b0a98d0cef7af8e800333cb13a",
+        "closedAt": "2026-10-15T14:39:26Z",
+        "head": "bank-icon-maintenance/15874",
+        "headCommit": "4464a6d1f79e518d85ae73efe06210916d752f4c",
+        "mergeCommit": "6022c14a3d73c5915ecdc4a38dae225756be6343",
+        "mergedAt": "2026-10-15T14:39:26Z",
+        "number": 115,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Bankinter (Company.id 15874)",
+        "url": "https://github.com/zenmoney/banks/pull/115"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:35:31.471244Z",
+        "proof": {
+          "accepted": {
+            "commit": "6022c14a3d73c5915ecdc4a38dae225756be6343",
+            "iconHash": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3",
+            "metadataHash": "19344dc1a0793888fe138bdd091ab462d5fc24d24db7b0c0168ab3b8322873f1"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3",
+            "metadataHash": "19344dc1a0793888fe138bdd091ab462d5fc24d24db7b0c0168ab3b8322873f1"
+          },
+          "path": "banks/Bankinter_15874-es/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "4464a6d1f79e518d85ae73efe06210916d752f4c",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "a36ed455fd92732873e5e5c9e6fd4d6a806847b0a98d0cef7af8e800333cb13a",
+          "closedAt": "2026-10-15T14:39:26Z",
+          "head": "bank-icon-maintenance/15874",
+          "headCommit": "4464a6d1f79e518d85ae73efe06210916d752f4c",
+          "mergeCommit": "6022c14a3d73c5915ecdc4a38dae225756be6343",
+          "mergedAt": "2026-10-15T14:39:26Z",
+          "number": 115,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Bankinter (Company.id 15874)",
+          "url": "https://github.com/zenmoney/banks/pull/115"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official original-vector Bankinter compact mark 'bk.' (single fill #FF7300, viewBox 64.4x32) from the bank's own Brand Center asset referenced by the live brand stylesheet; retrieved via Wayback capture 2025-07-04 because live hosts 403 the fetcher. Current brand system has no stylized-'b' knot symbol; the accepted icon's rounded-square presentation is replaced by the official standalone mark on a transparent field, consistent with catalog convention.",
       "reviewPackage": {
@@ -108,7 +178,7 @@
           "url": "https://www.bankinter.com (www/webcorporativa/docs hosts)"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T11:05:01.473961Z",
         "compose": "1.12.0",
@@ -118,5 +188,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "81d930f8319bd81f3dbd28b4d3cb1e4db23774b48e0254b2ee143a34356f99c3"
 }
