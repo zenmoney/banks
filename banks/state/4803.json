@@ -95,7 +95,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:42:07.982571Z",
+        "observedAt": "2026-10-16T20:04:48.038111Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -113,10 +113,142 @@
           "url": "https://github.com/zenmoney/banks/pull/12"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:42:07.982571Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "67794ec8be17097f20d396d788e79111722e4ce2af229e634593dfc0073ebbdd",
+            "closedAt": "2026-10-14T17:06:37Z",
+            "head": "bank-icon-maintenance/bank-icon-4803",
+            "headCommit": "5b5b0957a476a8bddc119f582ad59691409cbad6",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 12,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Бланк (Company.id 4803)",
+            "url": "https://github.com/zenmoney/banks/pull/12"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Live official blanc.ru assets show the current brand mark as a black squircle with a white open-ring C cutout; the accepted baseline is a black circle with a white open-ring C. Same mark motif, current official container is a squircle — supported current design update. Vector official favicon (safari-pinned-tab.svg, single path) selected as source asset; visual comparison of renders is the next stage.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63",
+        "category": "technical",
+        "comment": {
+          "author": "b3er",
+          "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `5b5b0957a476a8bddc119f582ad59691409cbad6`\n\n**Reason:** The white open-ring mark has been replaced by a transparent cutout. As a result, the mark almost disappears on a dark background. The selected safari-pinned-tab.svg is a mask intended for a different rendering context, and the PR statement \"same white open-ring C\" does not match the final SVG.\n\n**Required follow-up for the maintenance agent:** Find a suitable original vector that preserves the intended white mark and works on both light and dark backgrounds. Do not repair the pinned-tab mask by arbitrarily filling its holes. If no suitable original vector can be established, do not propose this replacement.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+          "createdAt": "2026-10-14T17:06:36Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-14T17:06:36Z",
+          "url": "https://github.com/zenmoney/banks/pull/12#issuecomment-6173878490"
+        },
+        "explanation": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `5b5b0957a476a8bddc119f582ad59691409cbad6`\n\n**Reason:** The white open-ring mark has been replaced by a transparent cutout. As a result, the mark almost disappears on a dark background. The selected safari-pinned-tab.svg is a mask intended for a different rendering context, and the PR statement \"same white open-ring C\" does not match the final SVG.\n\n**Required follow-up for the maintenance agent:** Find a suitable original vector that preserves the intended white mark and works on both light and dark backgrounds. Do not repair the pinned-tab mask by arbitrarily filling its holes. If no suitable original vector can be established, do not propose this replacement.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+        "mr": {
+          "number": 12,
+          "url": "https://github.com/zenmoney/banks/pull/12"
+        },
+        "rationale": "The reviewer rejects this candidate for replacing the intended white open-ring mark with a transparent pinned-tab-mask cutout that almost disappears on dark backgrounds; the proposal's white-mark description is inaccurate. A fresh proposal must use an established suitable original vector preserving the intended white mark on both light and dark backgrounds, not arbitrarily fill the mask's holes. If no suitable original vector can be established, do not propose this replacement. The cited audit corrections take precedence over unsupported cross-review claims. This is a candidate-specific technical rejection, not a permanent rejection of the bank.",
+        "requirements": [
+          {
+            "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `5b5b0957a476a8bddc119f582ad59691409cbad6`\n\n**Reason:** The white open-ring mark has been replaced by a transparent cutout. As a result, the mark almost disappears on a dark background. The selected safari-pinned-tab.svg is a mask intended for a different rendering context, and the PR statement \"same white open-ring C\" does not match the final SVG.\n\n**Required follow-up for the maintenance agent:** Find a suitable original vector that preserves the intended white mark and works on both light and dark backgrounds. Do not repair the pinned-tab mask by arbitrarily filling its holes. If no suitable original vector can be established, do not propose this replacement.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "url": "https://github.com/zenmoney/banks/pull/12#issuecomment-6173878490"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:04:48.038111Z",
+        "id": 4803,
+        "judgement": {
+          "action": "repair",
+          "key": "8d6dd316c6e0fa816bf5844ec45e55746a95cb13c1ed5dad8a66b12e6c03f3d5",
+          "rationale": "The reviewer rejects this candidate for replacing the intended white open-ring mark with a transparent pinned-tab-mask cutout that almost disappears on dark backgrounds; the proposal's white-mark description is inaccurate. A fresh proposal must use an established suitable original vector preserving the intended white mark on both light and dark backgrounds, not arbitrarily fill the mask's holes. If no suitable original vector can be established, do not propose this replacement. The cited audit corrections take precedence over unsupported cross-review claims. This is a candidate-specific technical rejection, not a permanent rejection of the bank.",
+          "sources": [
+            {
+              "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `5b5b0957a476a8bddc119f582ad59691409cbad6`\n\n**Reason:** The white open-ring mark has been replaced by a transparent cutout. As a result, the mark almost disappears on a dark background. The selected safari-pinned-tab.svg is a mask intended for a different rendering context, and the PR statement \"same white open-ring C\" does not match the final SVG.\n\n**Required follow-up for the maintenance agent:** Find a suitable original vector that preserves the intended white mark and works on both light and dark backgrounds. Do not repair the pinned-tab mask by arbitrarily filling its holes. If no suitable original vector can be established, do not propose this replacement.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "url": "https://github.com/zenmoney/banks/pull/12#issuecomment-6173878490"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-01T21:33:31.442549Z",
+          "candidateIconHash": "9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63",
+          "key": "8d6dd316c6e0fa816bf5844ec45e55746a95cb13c1ed5dad8a66b12e6c03f3d5",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Бланк — Company.id 4803\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": \"Blanc\",\n  \"id\": 4803,\n  \"title\": \"\\u0411\\u043b\\u0430\\u043d\\u043a\",\n  \"url\": \"blanc.ru\"\n}\n```\n\nFrozen base commit: `a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca`. Checked: `2026-10-01T21:44:04.562651Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/base.svg) — SHA-256 `eb9391825659f7832b56af8c570a66a5bfcde4d14011a88c43403ac672d89888`.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/source.svg) — SHA-256 `5202f0f712210c7a773181a7e12598bc6f101eb9d47f9a6926aa9808da9f963b`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/final.svg) — SHA-256 `9a0b56f4385cc7a9f54b359b6a6b91bcdbf16732c869cc2e8369a7aae01f1d63`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/final.xml) — SHA-256 `e0c3f4fbae15842f1047e7f05767095c90608e35dc6affbbb5af512d6c109b14`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/candidate.diff).\n- Source page: [https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg](https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg).\n- Source asset: [https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg](https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg](https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg); SHA-256 `726a90066a2687a13b40299de71c4d663c412caf3805436c85e450170c2f1d10`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: decompress:gzip.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-01T12:00:00Z: [https://blanc.ru/assets/img/favicon/apple-touch-icon.png](https://blanc.ru/assets/img/favicon/apple-touch-icon.png); asset [https://blanc.ru/assets/img/favicon/apple-touch-icon.png](https://blanc.ru/assets/img/favicon/apple-touch-icon.png). Live fetch HTTP 200 image/png \\(gzip on wire\\), 1342 bytes. 180x180 black rounded-square with white open-ring 'C' mark, no text. Confirmed visually from decoded PNG. (independence group: blanc.ru-favicon).\n- official checked 2026-10-01T12:00:00Z: [https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg](https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg); asset [https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg](https://blanc.ru/assets/img/favicon/safari-pinned-tab.svg). Live fetch HTTP 200 image/svg+xml \\(gzip on wire\\), 583 bytes. Single-path monochrome SVG of squircle with open-ring 'C' cutout; rendered via rsvg-convert and visually confirmed. (independence group: blanc.ru-favicon).\n- third-party checked 2026-10-01T12:00:00Z: [http://web.archive.org/web/20260707205139/https://blanc.ru/](http://web.archive.org/web/20260707205139/https://blanc.ru/). Wayback snapshot of blanc.ru dated 2026-07-07 \\(HTTP 200\\) references apple-touch-icon.png, favicon-32x32.png, favicon-16x16.png and safari-pinned-tab.svg inside the site assets folder, plus an open-graph image; the same favicon names were used to locate the live origin assets. (independence group: wayback-blanc.ru).\n- third-party checked 2026-10-01T12:00:00Z: [https://web\\_search: 'Blanc банк blanc.ru логотип SVG'](https://web_search:%20'Blanc%20%D0%B1%D0%B0%D0%BD%D0%BA%20blanc.ru%20%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF%20SVG'). Search returned no direct SVG logo link; confirmed static.blanc.ru hosts only disclosure PDFs \\(nginx default page for unknown paths\\). No third-party SVG asset found; search-agents UI answer admitted no official SVG link. Banki.ru/cbr pages not further pursued once official favicon assets were secured. (independence group: websearch).\n- zenplugins-issue checked 2026-10-01T12:00:00Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%91%D0%BB%D0%B0%D0%BD%D0%BA%22+is%3Aissue](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%91%D0%BB%D0%B0%D0%BD%D0%BA%22+is%3Aissue). Query 'repo:zenmoney/ZenPlugins \"Бланк\" is:issue' returned total\\_count 0, no items \\(open and closed\\). (independence group: zenplugins-search).\n- zenplugins-pr checked 2026-10-01T12:00:00Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%91%D0%BB%D0%B0%D0%BD%D0%BA%22+is%3Apr](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%91%D0%BB%D0%B0%D0%BD%D0%BA%22+is%3Apr). Query 'repo:zenmoney/ZenPlugins \"Бланк\" is:pr' returned total\\_count 0, no items \\(open and closed\\). (independence group: zenplugins-search).\n- Independent evidence: Two official asset formats served from the bank origin plus an independent Wayback snapshot referencing them..\n- Identity: confirmed — Open-ring C mark on official blanc.ru favicon assets matches the record Blanc \\(blanc.ru\\); same motif as baseline..\n- Currency: confirmed — Live assets fetched from blanc.ru origin 2026-10-01 \\(HTTP 200\\); homepage references recovered from 2026-07-07 Wayback snapshot because the HTML is behind Yandex SmartCaptcha..\n- Variant: confirmed — Current variant is the squircle tile with the C cutout \\(apple-touch-icon.png 180x180 and safari-pinned-tab.svg\\). Baseline uses a circular container; container difference is the update reason..\n\nRationale: Current official blanc.ru mark is a black squircle with the white open-ring C cutout; the accepted icon uses the older circular container for the same mark. Supported container update to the current official design..\nRole: standalone brand mark \\(app/favicon tile\\); variant: black squircle tile, monochrome open-ring C cutout.\nVisible difference: Accepted circular container replaced by the current official squircle container for the same open-ring C mark..\nDetails: Single official path; C ring terminals and squircle corner radii preserved from the official vector; renders cleanly on both themes.. Proportions: Squircle fills the square cell edge-to-edge; C ring centered, matches source proportions..\n\nSource-to-final transformations:\n- Official monochrome vector used as the working SVG with no geometry changes; SVGO trial with repo svgo.config.mjs \\(sha256 f2a406e0…\\): 1035 -\\> 1019 bytes, optimized selected \\(visually identical on light/dark, smaller\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-01T21:38:40.943930571Z`. Source/final: Original downloaded vector and final SVG render identically on both themes \\(rsvg and offscreen Compose\\): same squircle, ring weight and terminals.; base/final and rendering: Base circle vs final squircle on both themes: same white open-ring C, correct centering, no clipping or distortion. Black tile is low-contrast on the dark canvas — same limitation as the accepted black circle.\n\n- android-compose: not-tested (available: false) — Android Compose not tested: the Android emulator binary is absent from the installed SDK, so no headless Android runtime was available for a render check this run..\n- android-native: not-tested (available: false) — Android native not tested: the Android emulator binary is absent from the installed SDK, so no device or emulator render was possible this run..\n- ios-compose: not-tested (available: false) — iOS Compose not tested: no iOS toolchain is installed on this Linux host..\n- ios-native: not-tested (available: false) — iOS native not tested: no iOS toolchain is installed on this Linux host..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGL10lg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/12",
+              "userType": "User"
+            },
+            {
+              "author": "b3er",
+              "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `5b5b0957a476a8bddc119f582ad59691409cbad6`\n\n**Reason:** The white open-ring mark has been replaced by a transparent cutout. As a result, the mark almost disappears on a dark background. The selected safari-pinned-tab.svg is a mask intended for a different rendering context, and the PR statement \"same white open-ring C\" does not match the final SVG.\n\n**Required follow-up for the maintenance agent:** Find a suitable original vector that preserves the intended white mark and works on both light and dark backgrounds. Do not repair the pinned-tab mask by arbitrarily filling its holes. If no suitable original vector can be established, do not propose this replacement.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABb_3o2g",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/12#issuecomment-6173878490",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "67794ec8be17097f20d396d788e79111722e4ce2af229e634593dfc0073ebbdd",
+            "closedAt": "2026-10-14T17:06:37Z",
+            "head": "bank-icon-maintenance/bank-icon-4803",
+            "headCommit": "5b5b0957a476a8bddc119f582ad59691409cbad6",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 12,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Бланк (Company.id 4803)",
+            "url": "https://github.com/zenmoney/banks/pull/12"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [
+              "https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true"
+            ],
+            "author": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `5b5b0957a476a8bddc119f582ad59691409cbad6`\n\n**Reason:** The white open-ring mark has been replaced by a transparent cutout. As a result, the mark almost disappears on a dark background. The selected safari-pinned-tab.svg is a mask intended for a different rendering context, and the PR statement \"same white open-ring C\" does not match the final SVG.\n\n**Required follow-up for the maintenance agent:** Find a suitable original vector that preserves the intended white mark and works on both light and dark backgrounds. Do not repair the pinned-tab mask by arbitrarily filling its holes. If no suitable original vector can be established, do not propose this replacement.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "bodySha256": "5c9facd8b61446a15a9008a0f7c49a017f74ecb426dec87c6d7bf05808d2ecd6",
+            "createdAt": "2026-10-14T17:06:36Z",
+            "editor": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABb_3o2g",
+            "text": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `5b5b0957a476a8bddc119f582ad59691409cbad6`\n\n**Reason:** The white open-ring mark has been replaced by a transparent cutout. As a result, the mark almost disappears on a dark background. The selected safari-pinned-tab.svg is a mask intended for a different rendering context, and the PR statement \"same white open-ring C\" does not match the final SVG.\n\n**Required follow-up for the maintenance agent:** Find a suitable original vector that preserves the intended white mark and works on both light and dark backgrounds. Do not repair the pinned-tab mask by arbitrarily filling its holes. If no suitable original vector can be established, do not propose this replacement.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/02795fe5d81a5bb066c2a8c398eb2bf03c14ffda/review-materials/4803/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "textSha256": "5c9facd8b61446a15a9008a0f7c49a017f74ecb426dec87c6d7bf05808d2ecd6",
+            "trust": {
+              "login": "b3er",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/12#issuecomment-6173878490"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4803/candidate-b14659bc2a5a460d107909314e4d1a183651bb35300f95b913d8b55df2b5c678.json",
         "sha256": "b14659bc2a5a460d107909314e4d1a183651bb35300f95b913d8b55df2b5c678"

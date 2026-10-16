@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:41:17.160306Z",
+        "observedAt": "2026-10-16T20:04:43.940887Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,140 @@
           "url": "https://github.com/zenmoney/banks/pull/11"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:41:17.160306Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "cd2c5b1d79499360562417ce535510831fb860cee54ed0d5cc69afce654b0977",
+            "closedAt": "2026-10-15T13:51:38Z",
+            "head": "bank-icon-maintenance/4783",
+            "headCommit": "a4fe0a5671c46fd8dfcbfd56a98ef8e6a867f6ad",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 11,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: УРАЛСИБ (Company.id 4783)",
+            "url": "https://github.com/zenmoney/banks/pull/11"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "The accepted icon is the pre-2019 УРАЛСИБ design (blue disc with the former building/wave emblem); the bank's current official standalone mark is the post-2019 white rounded-square app tile with the #3B175C 'U'-flow monogram, served live as uralsib.ru/favicon.svg. This is an evidenced rebrand update, not a byte-only change.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Сделать инверсию для темной и светлой темы",
+          "createdAt": "2026-10-15T13:51:38Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:51:38Z",
+          "url": "https://github.com/zenmoney/banks/pull/11#issuecomment-6193716918"
+        },
+        "explanation": "Сделать инверсию для темной и светлой темы",
+        "mr": {
+          "number": 11,
+          "url": "https://github.com/zenmoney/banks/pull/11"
+        },
+        "rationale": "The reviewer requests inversion for both dark and light themes, a technical/presentation repair. This does not specify replacement colors or authorize inventing colors or bypassing theme/render constraints.",
+        "requirements": [
+          {
+            "quote": "Сделать инверсию для темной и светлой темы",
+            "url": "https://github.com/zenmoney/banks/pull/11#issuecomment-6193716918"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:04:43.940887Z",
+        "id": 4783,
+        "judgement": {
+          "action": "repair",
+          "key": "af4a496adc5f95a226f9056c5a6c7cb71cdebdeaca23f07a2c6fd9bbca42595e",
+          "rationale": "The reviewer requests inversion for both dark and light themes, a technical/presentation repair. This does not specify replacement colors or authorize inventing colors or bypassing theme/render constraints.",
+          "sources": [
+            {
+              "quote": "Сделать инверсию для темной и светлой темы",
+              "url": "https://github.com/zenmoney/banks/pull/11#issuecomment-6193716918"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-01T21:08:05.012424Z",
+          "candidateIconHash": "26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c",
+          "key": "af4a496adc5f95a226f9056c5a6c7cb71cdebdeaca23f07a2c6fd9bbca42595e",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## УРАЛСИБ — Company.id 4783\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4783,\n  \"title\": \"\\u0423\\u0420\\u0410\\u041b\\u0421\\u0418\\u0411\",\n  \"url\": \"uralsib.ru\"\n}\n```\n\nFrozen base commit: `a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca`. Checked: `2026-10-01T21:10:02.186804Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/9b6b763080cc6a7183cce9879efbe0ce49c5c8ab/review-materials/4783/base.svg) — SHA-256 `461eba04225491cbee8fb92d20b4e49ed554e946b782d79600d277444aed7bc2`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/9b6b763080cc6a7183cce9879efbe0ce49c5c8ab/review-materials/4783/source.svg) — SHA-256 `70d578a3e519bd278908769c0348f3cbf6e7cbce46578bc2b2ce2b8013c8cb0f`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/9b6b763080cc6a7183cce9879efbe0ce49c5c8ab/review-materials/4783/final.svg) — SHA-256 `26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/9b6b763080cc6a7183cce9879efbe0ce49c5c8ab/review-materials/4783/final.xml) — SHA-256 `f97596a6ed1961bd6ce6307dfb166a507a43c748ff8c9ff53c726a9424e422ef`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/9b6b763080cc6a7183cce9879efbe0ce49c5c8ab/review-materials/4783/candidate.diff).\n- Source page: [https://uralsib.ru/favicon.svg](https://uralsib.ru/favicon.svg).\n- Source asset: [https://uralsib.ru/favicon.svg](https://uralsib.ru/favicon.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-01T20:58:00Z: [https://uralsib.ru/favicon.svg](https://uralsib.ru/favicon.svg); asset [https://uralsib.ru/favicon.svg](https://uralsib.ru/favicon.svg). Official standalone 16x16 SVG: white rounded square + purple monogram, no wordmark; byte-identical to an independent second fetch; sha256 70d578a3e519bd278908769c0348f3cbf6e7cbce46578bc2b2ce2b8013c8cb0f. Retrieved via the helper's packaged-CA retry \\(Russian Trusted Root CA from gu-st.ru, receipt \\[local artifact not published; reference omitted\\]\\); TLS verification never disabled. (independence group: uralsib.ru primary).\n- official checked 2026-10-01T20:57:00Z: [https://www.uralsib.ru/](https://www.uralsib.ru/). Homepage inline header/footer SVGs pair the same monogram with the УРАЛСИБ wordmark \\(not standalone, rejected\\); page head references matching app icons \\(apple-touch-icon PNGs, retail-icon.png at site.uralcdn.ru\\). (independence group: uralsib.ru primary).\n- official checked 2026-10-01T20:57:00Z: [https://uralsib.ru/blog?article\\_id=dcafd089-eb69-4122-8230-538a0b7cc651](https://uralsib.ru/blog?article_id=dcafd089-eb69-4122-8230-538a0b7cc651). Bank press/brand page lists the official logo pack \\(ZIP returns HTTP 403 from this environment — recorded access failure\\) and a Figma brandbook; confirms current brand mark. (independence group: uralsib.ru primary).\n- third-party checked 2026-10-01T20:59:00Z: [https://commons.wikimedia.org/wiki/File:Logo-bank.JPG](https://commons.wikimedia.org/wiki/File:Logo-bank.JPG). Only an outdated raster JPG of the previous logo; matches the accepted icon's superseded design, corroborating that the accepted icon is pre-rebrand. (independence group: Wikimedia Commons).\n- zenplugins-issue checked 2026-10-01T20:55:00Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A3%D0%A0%D0%90%D0%9B%D0%A1%D0%98%D0%91%22+is%3Aissue](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A3%D0%A0%D0%90%D0%9B%D0%A1%D0%98%D0%91%22+is%3Aissue). 0 results. (independence group: github search).\n- zenplugins-pr checked 2026-10-01T20:55:00Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A3%D0%A0%D0%90%D0%9B%D0%A1%D0%98%D0%91%22+is%3Apr](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A3%D0%A0%D0%90%D0%9B%D0%A1%D0%98%D0%91%22+is%3Apr). 0 results. (independence group: github search).\n- Independent evidence: Primary favicon asset plus homepage brand usage and the bank's own brandbook page; the Commons archive corroborates the accepted icon's obsolescence..\n- Identity: confirmed — Fetched favicon is УРАЛСИБ's own current U-monogram app tile from the bank's official domain..\n- Currency: confirmed — Served live on uralsib.ru today and byte-identical across independent fetches; matches the post-2019 rebrand brandbook reference..\n- Variant: confirmed — The served standalone variant is the white tile with the purple monogram; the accepted icon's blue-disc pre-2019 emblem is the superseded variant..\n- Uncertainty: Official logo ZIP \\(potential higher-fidelity source\\) was inaccessible \\(HTTP 403\\); the favicon is the accessible official vector..\n\nRationale: Official post-2019 standalone app tile of УРАЛСИБ \\(white rounded square with purple U-flow monogram\\) replaces the accepted pre-2019 blue-disc building emblem — an evidenced rebrand..\nRole: standalone app tile \\(rounded square with monogram\\); variant: current official post-2019 tile with #3B175C monogram; accepted baseline is the superseded pre-rebrand blue-disc emblem.\nVisible difference: Accepted icon is the pre-2019 blue disc with the former emblem; the current official mark is the purple monogram on a white rounded square. A supported rebrand, clearly visible on both themes..\nDetails: Monogram strokes and white tile identical between working, optimized and official source; no detail loss at 240px.. Proportions: Monogram centered in the tile; proportions preserved; renders show no stretching or clipping..\n\nSource-to-final transformations:\n- SVGO 4.1.0 with the repository svgo.config.mjs \\(config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\), multipass; 1588 -\\> 1197 bytes; optimized bytes selected as the final candidate \\(sha256 26e89f27fc8a4ac1e6d1601996e19d46ee538c23c05e7231f39e618f681e1f8c\\). No geometry transformation was needed.\n- No geometric transformation: the source 16x16 viewBox is preserved; the catalog renderer scales it.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/9b6b763080cc6a7183cce9879efbe0ce49c5c8ab/review-materials/4783/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/9b6b763080cc6a7183cce9879efbe0ce49c5c8ab/review-materials/4783/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-01T21:09:50.058475931Z`. Source/final: Official source reference and final SVG are visually identical \\(same monogram geometry and color\\) on light and dark reference canvases.; base/final and rendering: Offscreen CPU Skia/painterResource light and dark 240px frames: final renders the white tile with purple monogram cleanly on both backgrounds \\(tile transparent-fill edge shows only on dark\\); no clipping, distortion or color invention; base shows the superseded blue-disc emblem.\n\n- android-compose: not-tested (available: false) — The local Android SDK installation lacks the emulator component and system images, so a headless Android check is impossible this run. Risk: the Android Compose render path is unobserved..\n- android-native: not-tested (available: false) — Same missing emulator prerequisites; not run. Risk: native Android path unobserved..\n- ios-compose: not-tested (available: false) — No iOS runtime on this Linux host; not run. Risk: iOS Compose path unobserved..\n- ios-native: not-tested (available: false) — No iOS toolchain on this Linux host; not run. Risk: native iOS path unobserved..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGLg7oA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/11",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Сделать инверсию для темной и светлой темы",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSyetg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/11#issuecomment-6193716918",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "cd2c5b1d79499360562417ce535510831fb860cee54ed0d5cc69afce654b0977",
+            "closedAt": "2026-10-15T13:51:38Z",
+            "head": "bank-icon-maintenance/4783",
+            "headCommit": "a4fe0a5671c46fd8dfcbfd56a98ef8e6a867f6ad",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 11,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: УРАЛСИБ (Company.id 4783)",
+            "url": "https://github.com/zenmoney/banks/pull/11"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Сделать инверсию для темной и светлой темы",
+            "bodySha256": "25ebfa7c7427ac79547af18499d228119778d9c3141ee2440990a9f8def91053",
+            "createdAt": "2026-10-15T13:51:38Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSyetg",
+            "text": "Сделать инверсию для темной и светлой темы",
+            "textSha256": "25ebfa7c7427ac79547af18499d228119778d9c3141ee2440990a9f8def91053",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/11#issuecomment-6193716918"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4783/candidate-3d16b819da906d00364288f041ad311b294f7f7d80020808d5ce77b1797cd1ae.json",
         "sha256": "3d16b819da906d00364288f041ad311b294f7f7d80020808d5ce77b1797cd1ae"

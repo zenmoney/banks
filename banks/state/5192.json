@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:42:29.180402Z",
+        "observedAt": "2026-10-16T20:04:51.978424Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/42"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:42:29.180402Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "685b950ba5502969e942f282b7b5871286a0ad742c6556a0d77cf32df48aba7e",
+            "closedAt": "2026-10-15T13:18:17Z",
+            "head": "bank-icon-maintenance/o16z6s_l-5192",
+            "headCommit": "c8068b161da0a23d5c44b1ef5afbc97a2d2c66d1",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 42,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+            "url": "https://github.com/zenmoney/banks/pull/42"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "An original vector lockup sourced from the bank website is preserved on Commons, and its standalone magenta P emblem matches the currently served official programme header. The operating bank remains legally КБ Ренессанс Кредит (ООО), registration 3354, while its consumer brand is Ренессанс Банк. The accepted white emblem differs: its lower horizontal arm has a diagonal terminal, whereas the supported original has a vertical terminal; its backing is #EA3378 rather than source emblem #FF0078. Propose faithful isolation of the source magenta emblem, not recoloring it white or retaining an unsupported backing.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Поменять цвет подложки",
+          "createdAt": "2026-10-15T13:18:17Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:18:17Z",
+          "url": "https://github.com/zenmoney/banks/pull/42#issuecomment-6193016941"
+        },
+        "explanation": "Поменять цвет подложки",
+        "mr": {
+          "number": 42,
+          "url": "https://github.com/zenmoney/banks/pull/42"
+        },
+        "rationale": "The reviewer requests changing the backing/background color, a technical/presentation repair. No replacement color is specified; the assessment preserves that limitation rather than inventing one.",
+        "requirements": [
+          {
+            "quote": "Поменять цвет подложки",
+            "url": "https://github.com/zenmoney/banks/pull/42#issuecomment-6193016941"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:04:51.978424Z",
+        "id": 5192,
+        "judgement": {
+          "action": "repair",
+          "key": "b0c92da506a64dc82075004774ac512d0d57e1609bb7e87ad17b64761cba6ebe",
+          "rationale": "The reviewer requests changing the backing/background color, a technical/presentation repair. No replacement color is specified; the assessment preserves that limitation rather than inventing one.",
+          "sources": [
+            {
+              "quote": "Поменять цвет подложки",
+              "url": "https://github.com/zenmoney/banks/pull/42#issuecomment-6193016941"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T06:08:39.152613Z",
+          "candidateIconHash": "3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e",
+          "key": "b0c92da506a64dc82075004774ac512d0d57e1609bb7e87ad17b64761cba6ebe",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## КБ \"Ренессанс Кредит\" — Company.id 5192\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 5192,\n  \"title\": \"\\u041a\\u0411 \\\"\\u0420\\u0435\\u043d\\u0435\\u0441\\u0441\\u0430\\u043d\\u0441 \\u041a\\u0440\\u0435\\u0434\\u0438\\u0442\\\"\",\n  \"url\": \"rencredit.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T06:13:02.686655Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/064aaf330541f851429f7366a68e2234d4afc74d/review-materials/5192/base.svg) — SHA-256 `04d8e5c34eb72a38633c174615ff68f6b0bf122a627b553b2694fd189f763e60`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/064aaf330541f851429f7366a68e2234d4afc74d/review-materials/5192/source.svg) — SHA-256 `70de0ee01dde6104eae437e8882d85d0c8954597ecae1c1412c0a4df78a61de8`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/064aaf330541f851429f7366a68e2234d4afc74d/review-materials/5192/final.svg) — SHA-256 `3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/064aaf330541f851429f7366a68e2234d4afc74d/review-materials/5192/final.xml) — SHA-256 `7669f2ce2038e96e2936aa6f4d67e5147cb9011a4bbe161e80217ad07f878a67`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/064aaf330541f851429f7366a68e2234d4afc74d/review-materials/5192/candidate.diff).\n- Source page: [https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF\\_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81\\_%D0%91%D0%B0%D0%BD%D0%BA.svg](https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg).\n- Source asset: [https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF\\_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81\\_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm\\_source=commons.wikimedia.org&utm\\_campaign=index&utm\\_content=original](https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original).\n\n### Evidence and judgment\n\n- official checked 2026-10-03T05:58:16Z: [https://rencredit.ru/](https://rencredit.ru/). Main bank homepage returned HTTP 403; preserved failure receipt. This is not a successful logo observation. (independence group: bank official publications).\n- official checked 2026-10-03T05:58:16Z: [https://promo.rencredit.ru/](https://promo.rencredit.ru/); asset [https://static.tildacdn.com/tild6230-6336-4538-a666-353035386663/RB\\_LOGO\\_COL\\_RGB.png](https://static.tildacdn.com/tild6230-6336-4538-a666-353035386663/RB_LOGO_COL_RGB.png). Currently served bank-controlled loyalty page is titled Ренессанс Банк and footer identifies КБ Ренессанс Кредит \\(ООО\\), licence 3354. Downloaded header image was visually inspected: magenta open P mark with vertical lower-arm terminal, beside dark two-line Ренессанс Банк wordmark. Raster is visual corroboration only; footer copyright 2007–2024 is not a 2026 publication date. (independence group: bank official publications).\n- third-party checked 2026-10-03T05:58:16Z: [https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF\\_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81\\_%D0%91%D0%B0%D0%BD%D0%BA.svg](https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg); asset [https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF\\_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81\\_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm\\_source=commons.wikimedia.org&utm\\_campaign=index&utm\\_content=original](https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original). File page explicitly gives source https://rencredit.ru/, date 2022, author Ренессанс Банк and upload 12 May 2023. Original 3532-byte SVG consists of clean source paths and paint styles \\(#FF0078 emblem, #323E48 wordmark\\), with no raster embedding. Rendered full original was inspected and visually matches official programme header. Its complete first path is a separable standalone mark; accompanying lettering must not be included in catalog candidate. (independence group: bank original asset mirrored by Commons).\n- official checked 2026-10-03T05:58:16Z: [https://cbr.ru/finorg/foinfo/?id=1315037839440](https://cbr.ru/finorg/foinfo/?id=1315037839440). Bank of Russia current record identifies КБ Ренессанс Кредит \\(ООО\\), full legal name Коммерческий банк Ренессанс Кредит \\(Общество с ограниченной ответственностью\\), registration 3354, status Действует, bank with universal licence. Confirms operating entity rather than successor substitution. (independence group: Bank of Russia regulator).\n- Independent evidence: Commons is a mirror of bank-origin vector, not independent proof of currency. Bank-hosted programme supplies actual current-use context; regulator independently establishes legal identity and active status..\n- Identity: confirmed — Metadata official domain and legal name match programme footer and independent regulator registration 3354; consumer-brand name on original source is Ренессанс Банк, same entity..\n- Currency: confirmed — Operating bank is confirmed by regulator; bank-controlled currently served loyalty page uses the same magenta P and Ренессанс Банк lockup as preserved original vector. Original creation/upload dates are historical provenance, while current use is evidenced by the fetched official page and header..\n- Variant: confirmed — Complete magenta standalone P is the source's first explicit path, visually matched against official header. It fits a square without accompanying text; retain all original geometry and #FF0078. Full wide lockup itself is unsuitable; isolate the mark without tracing or recoloring..\n\nRationale: Correct lower-arm terminal and preserve current bank source magenta emblem instead of unsupported white-on-pink-circle interpretation..\nRole: Standalone P monogram; separate bank wordmark omitted.; variant: Original transparent #FF0078 P emblem from bank-origin vector corroborated by currently served official programme header. No added background..\nVisible difference: Before uses smaller white P with diagonal lower-arm terminal on #EA3378 circle. After uses full-size original magenta #FF0078 P with vertical terminal and transparency; source geometry and paint correction, not reserialization..\nDetails: Full source and both source/final views show same complete round upper shoulder, bowl, vertical stem and vertical lower-arm terminal. Working/trial independent theme images identical; working selected as smaller. No emblem redrawing or recoloring.. Proportions: Exact emblem viewport and complete original contour preserved, with internal transparency. Compose light/dark and bound 24/32/48px diagnostics show useful square-sized mark without clipping; no backing is required for contrast..\n\nSource-to-final transformations:\n- Isolated complete first source path; resolved its original .cls-1 paint to #ff0078; removed separate wordmark; adjusted viewport to exact emblem bounds \\[55.02,55.03,187.08,187.08\\], without altering path geometry.\n- SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e:369 -\\>374 bytes; retain faithful smaller working version.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/064aaf330541f851429f7366a68e2234d4afc74d/review-materials/5192/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/064aaf330541f851429f7366a68e2234d4afc74d/review-materials/5192/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T06:09:17.317096104Z`. Source/final: Full original lockup and source/final pairs on both themes inspected: complete original first-path magenta P retained, original class paint resolved unchanged, separate wordmark omitted. Transparent source remains transparent; no invented circular variant. Lower-arm vertical terminal and rounded bowl match source.; base/final and rendering: Both exact offscreen Compose before/after theme pairs inspected: corrected lower-arm terminal, magenta original color and enlarged complete mark visible. Light/dark frames and bound 24/32/48px resized diagnostics legible, no clipping or altered internal transparency.\n\n- android-compose: not-tested (available: false) — Coordinator readiness found installed SDK missing emulator and systemImage; no installation allowed..\n- android-native: not-tested (available: false) — Coordinator readiness found installed SDK missing emulator and systemImage; no installation allowed..\n- ios-compose: not-tested (available: false) — Linux host has no iOS runtime..\n- ios-native: not-tested (available: false) — Linux host has no iOS runtime..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGZtDbA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/42",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Поменять цвет подложки",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSHwbQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/42#issuecomment-6193016941",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "685b950ba5502969e942f282b7b5871286a0ad742c6556a0d77cf32df48aba7e",
+            "closedAt": "2026-10-15T13:18:17Z",
+            "head": "bank-icon-maintenance/o16z6s_l-5192",
+            "headCommit": "c8068b161da0a23d5c44b1ef5afbc97a2d2c66d1",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 42,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+            "url": "https://github.com/zenmoney/banks/pull/42"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Поменять цвет подложки",
+            "bodySha256": "74a14474d3aa950188e3b411a4faee44b0fa6cf90ac1a8a71dfc0e4fdb43082b",
+            "createdAt": "2026-10-15T13:18:17Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSHwbQ",
+            "text": "Поменять цвет подложки",
+            "textSha256": "74a14474d3aa950188e3b411a4faee44b0fa6cf90ac1a8a71dfc0e4fdb43082b",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/42#issuecomment-6193016941"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/5192/candidate-1eb522f313679f5c58971e9800ab4203b2961104199167a0d9a9ccd36ba67140.json",
         "sha256": "1eb522f313679f5c58971e9800ab4203b2961104199167a0d9a9ccd36ba67140"
