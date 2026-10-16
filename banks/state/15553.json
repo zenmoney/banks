@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T16:00:13.942857Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T16:05:22.576383Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "87fe25a0a2f5e89d0e11d4aba952e1c89cad14fd",
+      "acceptedIconHash": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a",
       "agentAssessment": {
         "path": "evidence/15553/assessed-259a1320934228f68d228b73e807ce247a855bd6b1693e4deb71219d62cb32fa.json",
         "sha256": "259a1320934228f68d228b73e807ce247a855bd6b1693e4deb71219d62cb32fa"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15553",
         "headCommit": "87fe25a0a2f5e89d0e11d4aba952e1c89cad14fd",
         "number": 64,
-        "observedAt": "2026-10-03T16:12:34.521112Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:01.601457Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Postbank (Company.id 15553)",
         "url": "https://github.com/zenmoney/banks/pull/64"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0c0a601bc7072b34bebe029ab84bfbbc178d0ff12361a20ae8b0c1c3fb8cd24e",
+          "head": "bank-icon-maintenance/15553",
+          "headCommit": "87fe25a0a2f5e89d0e11d4aba952e1c89cad14fd",
+          "number": 64,
+          "observedAt": "2026-10-03T16:12:34.521112Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Postbank (Company.id 15553)",
+          "url": "https://github.com/zenmoney/banks/pull/64"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0c0a601bc7072b34bebe029ab84bfbbc178d0ff12361a20ae8b0c1c3fb8cd24e",
+        "closedAt": "2026-10-15T14:34:01Z",
+        "head": "bank-icon-maintenance/15553",
+        "headCommit": "87fe25a0a2f5e89d0e11d4aba952e1c89cad14fd",
+        "mergeCommit": "578cc34ae2933be746ffbb71713dcf2b15ce779c",
+        "mergedAt": "2026-10-15T14:34:01Z",
+        "number": 64,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Postbank (Company.id 15553)",
+        "url": "https://github.com/zenmoney/banks/pull/64"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:31:01.601457Z",
+        "proof": {
+          "accepted": {
+            "commit": "578cc34ae2933be746ffbb71713dcf2b15ce779c",
+            "iconHash": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a",
+            "metadataHash": "a580423f950ce075ac985c0b4ab328af9892f235a37dd4c8f87f3755a9912cb2"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a",
+            "metadataHash": "a580423f950ce075ac985c0b4ab328af9892f235a37dd4c8f87f3755a9912cb2"
+          },
+          "path": "banks/Postbank_15553-de/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "87fe25a0a2f5e89d0e11d4aba952e1c89cad14fd",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0c0a601bc7072b34bebe029ab84bfbbc178d0ff12361a20ae8b0c1c3fb8cd24e",
+          "closedAt": "2026-10-15T14:34:01Z",
+          "head": "bank-icon-maintenance/15553",
+          "headCommit": "87fe25a0a2f5e89d0e11d4aba952e1c89cad14fd",
+          "mergeCommit": "578cc34ae2933be746ffbb71713dcf2b15ce779c",
+          "mergedAt": "2026-10-15T14:34:01Z",
+          "number": 64,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Postbank (Company.id 15553)",
+          "url": "https://github.com/zenmoney/banks/pull/64"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Current icon reproduces the Postbank three-wave mark with visibly off-brand colors (#f3c415/#201a51/#d33339) compared with the live official postbank.de favicon (#ffcc00/#0a3478/#e10014). The official favicon.svg (989 bytes, fetched live 2026-10-03) is an original vector of the same mark composition; a color-corrected replacement is warranted.",
       "reviewPackage": {
@@ -107,7 +177,7 @@
           "url": "https://brandportal.postbank.de/de/nutzungsbedingungen"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T16:05:22.576383Z",
         "compose": "1.12.0",
@@ -117,5 +187,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "a923885855f01b6ce37d7c661c82529082992fb1da18ea41e99f85273ba4bd8a"
 }

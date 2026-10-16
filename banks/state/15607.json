@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T18:25:29.960095Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T18:26:17Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1b9f309fcfa7070762ab7b10276e03341c3252af",
+      "acceptedIconHash": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8",
       "agentAssessment": {
         "path": "evidence/15607/assessed-73b1dcdaf21a15c854365ec06196d2a9948a101271fc408a2cacd571fed3a4b8.json",
         "sha256": "73b1dcdaf21a15c854365ec06196d2a9948a101271fc408a2cacd571fed3a4b8"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15607",
         "headCommit": "1b9f309fcfa7070762ab7b10276e03341c3252af",
         "number": 72,
-        "observedAt": "2026-10-03T18:35:46.565314Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:21.569541Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: PKO Bank Polski (Company.id 15607)",
         "url": "https://github.com/zenmoney/banks/pull/72"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ce2a087130097c65765daa1c4a641ba4830086edb775e7abeb07afb55eadbca1",
+          "head": "bank-icon-maintenance/15607",
+          "headCommit": "1b9f309fcfa7070762ab7b10276e03341c3252af",
+          "number": 72,
+          "observedAt": "2026-10-03T18:35:46.565314Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: PKO Bank Polski (Company.id 15607)",
+          "url": "https://github.com/zenmoney/banks/pull/72"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ce2a087130097c65765daa1c4a641ba4830086edb775e7abeb07afb55eadbca1",
+        "closedAt": "2026-10-15T14:34:51Z",
+        "head": "bank-icon-maintenance/15607",
+        "headCommit": "1b9f309fcfa7070762ab7b10276e03341c3252af",
+        "mergeCommit": "9aafea545e78b6fbdc9afa30126330a061ca5964",
+        "mergedAt": "2026-10-15T14:34:51Z",
+        "number": 72,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: PKO Bank Polski (Company.id 15607)",
+        "url": "https://github.com/zenmoney/banks/pull/72"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:31:21.569541Z",
+        "proof": {
+          "accepted": {
+            "commit": "9aafea545e78b6fbdc9afa30126330a061ca5964",
+            "iconHash": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8",
+            "metadataHash": "8c289b66783b2deea2cad17a4a2587859e5ad85cf8d38f759897a532d0879b5e"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8",
+            "metadataHash": "8c289b66783b2deea2cad17a4a2587859e5ad85cf8d38f759897a532d0879b5e"
+          },
+          "path": "banks/PKO Bank Polski_15607-pl/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1b9f309fcfa7070762ab7b10276e03341c3252af",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ce2a087130097c65765daa1c4a641ba4830086edb775e7abeb07afb55eadbca1",
+          "closedAt": "2026-10-15T14:34:51Z",
+          "head": "bank-icon-maintenance/15607",
+          "headCommit": "1b9f309fcfa7070762ab7b10276e03341c3252af",
+          "mergeCommit": "9aafea545e78b6fbdc9afa30126330a061ca5964",
+          "mergedAt": "2026-10-15T14:34:51Z",
+          "number": 72,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: PKO Bank Polski (Company.id 15607)",
+          "url": "https://github.com/zenmoney/banks/pull/72"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Existing icon is the pre-2011 PKO Bank Polski signet with an orange (#E0912F) dot. The official mark since 2011 uses a red dot, and on 2026-02-05 the bank announced an evolutionary refresh: simplified signet geometry, larger coin slot, black signet, red dot, new wordmark. The existing icon matches neither current variant, so a supported rebranding update is justified.",
       "reviewPackage": {
@@ -99,7 +169,7 @@
           "url": "https://press.pl/tresc/91495%2Cpko-bp-rozpoczyna-rebranding_-pierwsze-zmiany-dotycza-logotypu-banku"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T18:26:17Z",
         "compose": "1.12.0",
@@ -109,5 +179,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "c6777ea6c289dbcc9e93f2954811161967e6c64beb7ce23ecf3a98ff656d36d8"
 }

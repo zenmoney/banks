@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T16:26:03.214727Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T16:33:00.421565Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "6dcf68de5b1ba2a51308571546ee610c76ae9da2",
+      "acceptedIconHash": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3",
       "agentAssessment": {
         "path": "evidence/15570/assessed-90fcf85d5a79502c82a4350f662256c413bf88f2ea8c8ed3871bb99ae01eb390.json",
         "sha256": "90fcf85d5a79502c82a4350f662256c413bf88f2ea8c8ed3871bb99ae01eb390"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/msebyr0y-15570",
         "headCommit": "6dcf68de5b1ba2a51308571546ee610c76ae9da2",
         "number": 65,
-        "observedAt": "2026-10-03T16:37:34.100290Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:05.003549Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Komerční banka (Company.id 15570)",
         "url": "https://github.com/zenmoney/banks/pull/65"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "f08113749e486204c76c7eb166e0ccac2043c7b2c1700320546f15588c28df68",
+          "head": "bank-icon-maintenance/msebyr0y-15570",
+          "headCommit": "6dcf68de5b1ba2a51308571546ee610c76ae9da2",
+          "number": 65,
+          "observedAt": "2026-10-03T16:37:34.100290Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Komerční banka (Company.id 15570)",
+          "url": "https://github.com/zenmoney/banks/pull/65"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f08113749e486204c76c7eb166e0ccac2043c7b2c1700320546f15588c28df68",
+        "closedAt": "2026-10-15T14:34:12Z",
+        "head": "bank-icon-maintenance/msebyr0y-15570",
+        "headCommit": "6dcf68de5b1ba2a51308571546ee610c76ae9da2",
+        "mergeCommit": "dcfea6a8ccf8fff35d54d3322da084096e8b5465",
+        "mergedAt": "2026-10-15T14:34:12Z",
+        "number": 65,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Komerční banka (Company.id 15570)",
+        "url": "https://github.com/zenmoney/banks/pull/65"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:31:05.003549Z",
+        "proof": {
+          "accepted": {
+            "commit": "dcfea6a8ccf8fff35d54d3322da084096e8b5465",
+            "iconHash": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3",
+            "metadataHash": "0c0108c0f7a22f1ff566729d0189952c9ca53cb1f8a6a6eed309f92f1ae15d12"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3",
+            "metadataHash": "0c0108c0f7a22f1ff566729d0189952c9ca53cb1f8a6a6eed309f92f1ae15d12"
+          },
+          "path": "banks/Komerční banka_15570-cz/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "6dcf68de5b1ba2a51308571546ee610c76ae9da2",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "f08113749e486204c76c7eb166e0ccac2043c7b2c1700320546f15588c28df68",
+          "closedAt": "2026-10-15T14:34:12Z",
+          "head": "bank-icon-maintenance/msebyr0y-15570",
+          "headCommit": "6dcf68de5b1ba2a51308571546ee610c76ae9da2",
+          "mergeCommit": "dcfea6a8ccf8fff35d54d3322da084096e8b5465",
+          "mergedAt": "2026-10-15T14:34:12Z",
+          "number": 65,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Komerční banka (Company.id 15570)",
+          "url": "https://github.com/zenmoney/banks/pull/65"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The official current KB website supplies an original self-contained negative logo vector. Its standalone red/black square emblem has an explicitly painted #FFFFFE center bar and white perimeter, unlike the accepted icon's transparent center cutout and muted red/black colors. Propose a source-supported color and dark-theme legibility correction, not an inferred rebrand.",
       "reviewPackage": {
@@ -106,7 +176,7 @@
           "url": "https://www.kb.cz/cs/obcane"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T16:33:00.421565Z",
         "compose": "1.12.0",
@@ -116,5 +186,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "e66147a836ade116ab86d86d848e2c0ceb772113fcdc79860a7ffd28c51f0ab3"
 }

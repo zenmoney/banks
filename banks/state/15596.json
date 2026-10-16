@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/15596",
         "headCommit": "40591e485bbea94d4f035e395dfb2c61fa753712",
         "number": 69,
-        "observedAt": "2026-10-03T17:52:42.473434Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:16.589511Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Capital One Bank (Company.id 15596)",
         "url": "https://github.com/zenmoney/banks/pull/69"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "62950ea88e1cceb591d3278aea04ace1221ea67020f1ac2e2adf3a0fe88f443a",
+          "head": "bank-icon-maintenance/15596",
+          "headCommit": "40591e485bbea94d4f035e395dfb2c61fa753712",
+          "number": 69,
+          "observedAt": "2026-10-03T17:52:42.473434Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Capital One Bank (Company.id 15596)",
+          "url": "https://github.com/zenmoney/banks/pull/69"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "62950ea88e1cceb591d3278aea04ace1221ea67020f1ac2e2adf3a0fe88f443a",
+        "closedAt": "2026-10-14T17:06:45Z",
+        "head": "bank-icon-maintenance/15596",
+        "headCommit": "40591e485bbea94d4f035e395dfb2c61fa753712",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 69,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Capital One Bank (Company.id 15596)",
+        "url": "https://github.com/zenmoney/banks/pull/69"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:31:16.589511Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "62950ea88e1cceb591d3278aea04ace1221ea67020f1ac2e2adf3a0fe88f443a",
+          "closedAt": "2026-10-14T17:06:45Z",
+          "head": "bank-icon-maintenance/15596",
+          "headCommit": "40591e485bbea94d4f035e395dfb2c61fa753712",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 69,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Capital One Bank (Company.id 15596)",
+          "url": "https://github.com/zenmoney/banks/pull/69"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Current official Capital One logo (red swoosh #cc2427 over navy 'Capital One' wordmark #013d5b, viewBox 0 0 418 150) was observed live inline in the capitalone.com homepage header on the check date. The fetched vector is a Capital One-published asset (declared source capitalone.co.uk/images/c1/brand/logo.svg, Commons mirror) with path data matching that official inline artwork — not a traced copy. The accepted base icon is a red-disc/white-swoosh roundel variant not observed in current official use; the current variant is the swoosh+wordmark lockup. Square-cell suitability of the lockup will be judged with actual renders at candidate review.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15596/candidate-fb6b6d9a967ef3f37844a904eccbe0d72b693b8e8d4acad44969494e3d3f0499.json",
         "sha256": "fb6b6d9a967ef3f37844a904eccbe0d72b693b8e8d4acad44969494e3d3f0499"
@@ -100,7 +153,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:Capital_One_logo.svg"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T17:46:35.378185Z",
         "compose": "1.12.0",

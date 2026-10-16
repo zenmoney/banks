@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/vtb-kz-15486",
         "headCommit": "16ea0cd99a7d8aa5bfcb32381c6f6d5af0ebae12",
         "number": 57,
-        "observedAt": "2026-10-03T12:58:51.381639Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:49.949609Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: ВТБ (Казахстан) (Company.id 15486)",
         "url": "https://github.com/zenmoney/banks/pull/57"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "591edbe4398ec7f4a8a3fe795fe82d72bc9c3597efed339619f6364b14ab3998",
+          "head": "bank-icon-maintenance/vtb-kz-15486",
+          "headCommit": "16ea0cd99a7d8aa5bfcb32381c6f6d5af0ebae12",
+          "number": 57,
+          "observedAt": "2026-10-03T12:58:51.381639Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ВТБ (Казахстан) (Company.id 15486)",
+          "url": "https://github.com/zenmoney/banks/pull/57"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "591edbe4398ec7f4a8a3fe795fe82d72bc9c3597efed339619f6364b14ab3998",
+        "closedAt": "2026-10-15T12:03:03Z",
+        "head": "bank-icon-maintenance/vtb-kz-15486",
+        "headCommit": "16ea0cd99a7d8aa5bfcb32381c6f6d5af0ebae12",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 57,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ВТБ (Казахстан) (Company.id 15486)",
+        "url": "https://github.com/zenmoney/banks/pull/57"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:30:49.949609Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "591edbe4398ec7f4a8a3fe795fe82d72bc9c3597efed339619f6364b14ab3998",
+          "closedAt": "2026-10-15T12:03:03Z",
+          "head": "bank-icon-maintenance/vtb-kz-15486",
+          "headCommit": "16ea0cd99a7d8aa5bfcb32381c6f6d5af0ebae12",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 57,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ВТБ (Казахстан) (Company.id 15486)",
+          "url": "https://github.com/zenmoney/banks/pull/57"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "The base icon (blue circle #009FDF with white slanted bars, app-badge style) is an older variant. The bank's own live site uses the current VTB flag — three slanted bars in refreshed cyan #00AAFF on transparent, no enclosing circle — both as its favicon.svg and in its header logo.svg (flag + #002882 wordmark). Supported currency/color/presentation update; original vector available directly from the bank site.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15486/candidate-b861470efa84aa29285cd98433b23cd94e3ad514d4906dc0d3ed45dd1c13520a.json",
         "sha256": "b861470efa84aa29285cd98433b23cd94e3ad514d4906dc0d3ed45dd1c13520a"
@@ -99,7 +152,7 @@
           "url": "https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/logo.svg"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T12:48:20.724935Z",
         "compose": "1.12.0",

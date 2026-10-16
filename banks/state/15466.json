@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T12:11:48.763428Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T12:18:56.655652Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "28249831a8037e75b27ad8c54dc2315c4de145df",
+      "acceptedIconHash": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0",
       "agentAssessment": {
         "path": "evidence/15466/assessed-29be0fc93a78c1a2b3e4687df8dbfa6bd21ea8441492baf45337967cfc99289a.json",
         "sha256": "29be0fc93a78c1a2b3e4687df8dbfa6bd21ea8441492baf45337967cfc99289a"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/eurobank-cyprus-15466",
         "headCommit": "28249831a8037e75b27ad8c54dc2315c4de145df",
         "number": 56,
-        "observedAt": "2026-10-03T12:22:28.392901Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:45.810849Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Eurobank (Company.id 15466)",
         "url": "https://github.com/zenmoney/banks/pull/56"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "eb2db3b45d393dc8626a87b8f6a5b09f9b488698b790e5f61a5c53c815aa96e1",
+          "head": "bank-icon-maintenance/eurobank-cyprus-15466",
+          "headCommit": "28249831a8037e75b27ad8c54dc2315c4de145df",
+          "number": 56,
+          "observedAt": "2026-10-03T12:22:28.392901Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Eurobank (Company.id 15466)",
+          "url": "https://github.com/zenmoney/banks/pull/56"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "eb2db3b45d393dc8626a87b8f6a5b09f9b488698b790e5f61a5c53c815aa96e1",
+        "closedAt": "2026-10-15T14:33:42Z",
+        "head": "bank-icon-maintenance/eurobank-cyprus-15466",
+        "headCommit": "28249831a8037e75b27ad8c54dc2315c4de145df",
+        "mergeCommit": "0e39c4100fe37c9ec6be0c7bfa9dfa35d7f7e1d5",
+        "mergedAt": "2026-10-15T14:33:42Z",
+        "number": 56,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Eurobank (Company.id 15466)",
+        "url": "https://github.com/zenmoney/banks/pull/56"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:30:45.810849Z",
+        "proof": {
+          "accepted": {
+            "commit": "0e39c4100fe37c9ec6be0c7bfa9dfa35d7f7e1d5",
+            "iconHash": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0",
+            "metadataHash": "dc610b1dbf07f04e28bbcf1cc374e513eb2fbba5d4e412a45b5878e7c9897bfe"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0",
+            "metadataHash": "dc610b1dbf07f04e28bbcf1cc374e513eb2fbba5d4e412a45b5878e7c9897bfe"
+          },
+          "path": "banks/Eurobank_15466-cy/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "28249831a8037e75b27ad8c54dc2315c4de145df",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "eb2db3b45d393dc8626a87b8f6a5b09f9b488698b790e5f61a5c53c815aa96e1",
+          "closedAt": "2026-10-15T14:33:42Z",
+          "head": "bank-icon-maintenance/eurobank-cyprus-15466",
+          "headCommit": "28249831a8037e75b27ad8c54dc2315c4de145df",
+          "mergeCommit": "0e39c4100fe37c9ec6be0c7bfa9dfa35d7f7e1d5",
+          "mergedAt": "2026-10-15T14:33:42Z",
+          "number": 56,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Eurobank (Company.id 15466)",
+          "url": "https://github.com/zenmoney/banks/pull/56"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The record 'Eurobank' (CY, eurobank.cy, fullTitle 'Hellenic') today represents the Cyprus institution operating under the Eurobank brand after the Hellenic Bank / Eurobank Cyprus merger (announced 2025-03-28; eurobank.cy shows the combined bank as 'Eurobank' through at least the May 2026 snapshots). The accepted icon is the legacy Hellenic Bank mark (blue circle, white Ionic column capital, orange underline), which the bank no longer uses. The current brand mark is the Eurobank 2021 redesign: red (#ea002a) geometric 'e' symbol with navy (#021342) EUROBANK wordmark, in use as the official site header asset. An evidenced rebrand of the represented bank justifies an update.",
       "reviewPackage": {
@@ -117,7 +187,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:Eurobank.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T12:18:56.655652Z",
         "compose": "1.12.0",
@@ -127,5 +197,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "63e382977867effda68723d8eba19b6ebb65f7788f610e77c79c5996ab6f52b0"
 }

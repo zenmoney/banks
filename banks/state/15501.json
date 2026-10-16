@@ -62,13 +62,66 @@
         "head": "bank-icon-maintenance/15501",
         "headCommit": "78a77aa47d855466cd9c2d7af59349d2ab4a61ca",
         "number": 59,
-        "observedAt": "2026-10-03T13:39:43.887725Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:51.702031Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Alatau City Bank (Company.id 15501)",
         "url": "https://github.com/zenmoney/banks/pull/59"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "252f9b833e1082719e2e241018ae2b6328af899c9dd2545bddef0e26deb85e86",
+          "head": "bank-icon-maintenance/15501",
+          "headCommit": "78a77aa47d855466cd9c2d7af59349d2ab4a61ca",
+          "number": 59,
+          "observedAt": "2026-10-03T13:39:43.887725Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Alatau City Bank (Company.id 15501)",
+          "url": "https://github.com/zenmoney/banks/pull/59"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "252f9b833e1082719e2e241018ae2b6328af899c9dd2545bddef0e26deb85e86",
+        "closedAt": "2026-10-16T09:46:31Z",
+        "head": "bank-icon-maintenance/15501",
+        "headCommit": "78a77aa47d855466cd9c2d7af59349d2ab4a61ca",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 59,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Alatau City Bank (Company.id 15501)",
+        "url": "https://github.com/zenmoney/banks/pull/59"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:30:51.702031Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "252f9b833e1082719e2e241018ae2b6328af899c9dd2545bddef0e26deb85e86",
+          "closedAt": "2026-10-16T09:46:31Z",
+          "head": "bank-icon-maintenance/15501",
+          "headCommit": "78a77aa47d855466cd9c2d7af59349d2ab4a61ca",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 59,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Alatau City Bank (Company.id 15501)",
+          "url": "https://github.com/zenmoney/banks/pull/59"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Bank rebranded from Jusan Bank (First Heartland Jysan Jusan) to Alatau City Bank JSC in June 2025 (official announcement + KASE re-registration 2025-06-16). The official site alataucitybank.kz presents the current gold #EDB110 stacked-shape mark, secured as an original vector from https://alataucitybank.kz/favicon/favicon.svg (direct official .svg download). Comparison of renders (rsvg-convert references) shows the accepted baseline is a re-proportioned square squeeze of the official emblem: the bottom teardrop is drawn as an elongated crescent and the ribbons are horizontally stretched, so the baseline visibly deviates from the official geometry. The exact official vector is offered as the candidate; final visual gates happen at candidate preparation.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15501/candidate-373ffa32ac930818f2c2ec6e6c4aae756b0c44fb50d25ef98dd68fdde190d99a.json",
         "sha256": "373ffa32ac930818f2c2ec6e6c4aae756b0c44fb50d25ef98dd68fdde190d99a"
@@ -122,7 +175,7 @@
           "url": "https://kase.kz/en/information/news/show/1545591"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T13:31:21.685678Z",
         "compose": "1.12.0",

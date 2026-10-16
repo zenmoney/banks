@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T14:30:54.051684Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T14:34:26.538665Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "0e737feddd12069c402ac243ca2c4ffb6a8be150",
+      "acceptedIconHash": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605",
       "agentAssessment": {
         "path": "evidence/15524/assessed-15dda2f80b698b19b17a8e5705c014c1ee270b7e44f64a0ee3568688bb8d5982.json",
         "sha256": "15dda2f80b698b19b17a8e5705c014c1ee270b7e44f64a0ee3568688bb8d5982"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/15524",
         "headCommit": "0e737feddd12069c402ac243ca2c4ffb6a8be150",
         "number": 61,
-        "observedAt": "2026-10-03T14:43:32.038752Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:55.942338Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Wells Fargo (Company.id 15524)",
         "url": "https://github.com/zenmoney/banks/pull/61"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "d75462845d182f3ecb240e2020a42708887b3f591c4bbe38240a53aff5828f9e",
+          "head": "bank-icon-maintenance/15524",
+          "headCommit": "0e737feddd12069c402ac243ca2c4ffb6a8be150",
+          "number": 61,
+          "observedAt": "2026-10-03T14:43:32.038752Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Wells Fargo (Company.id 15524)",
+          "url": "https://github.com/zenmoney/banks/pull/61"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "d75462845d182f3ecb240e2020a42708887b3f591c4bbe38240a53aff5828f9e",
+        "closedAt": "2026-10-15T14:33:52Z",
+        "head": "bank-icon-maintenance/15524",
+        "headCommit": "0e737feddd12069c402ac243ca2c4ffb6a8be150",
+        "mergeCommit": "c8da7d6b57ee3897f02343be86d21f618d7c74f7",
+        "mergedAt": "2026-10-15T14:33:52Z",
+        "number": 61,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Wells Fargo (Company.id 15524)",
+        "url": "https://github.com/zenmoney/banks/pull/61"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:30:55.942338Z",
+        "proof": {
+          "accepted": {
+            "commit": "c8da7d6b57ee3897f02343be86d21f618d7c74f7",
+            "iconHash": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605",
+            "metadataHash": "f6ab0d5b3787b6dfaf374bb9c594432974fde979dbdcad65d1d539498b88b5c6"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605",
+            "metadataHash": "f6ab0d5b3787b6dfaf374bb9c594432974fde979dbdcad65d1d539498b88b5c6"
+          },
+          "path": "banks/Wells Fargo_15524-us/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "0e737feddd12069c402ac243ca2c4ffb6a8be150",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "d75462845d182f3ecb240e2020a42708887b3f591c4bbe38240a53aff5828f9e",
+          "closedAt": "2026-10-15T14:33:52Z",
+          "head": "bank-icon-maintenance/15524",
+          "headCommit": "0e737feddd12069c402ac243ca2c4ffb6a8be150",
+          "mergeCommit": "c8da7d6b57ee3897f02343be86d21f618d7c74f7",
+          "mergedAt": "2026-10-15T14:33:52Z",
+          "number": 61,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Wells Fargo (Company.id 15524)",
+          "url": "https://github.com/zenmoney/banks/pull/61"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Committed icon is the historical gold-on-dark-red wordmark variant (#B31E30/#FFCC02). The current operating brand icon (Google Play listing of com.wf.wellsfargomobile og:image, fetched 2026-10-03) is red with a WHITE 'WELLS FARGO' wordmark — a supported rebranding update.",
       "reviewPackage": {
@@ -98,7 +168,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:Wells_Fargo_Logo_(2020).svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T14:34:26.538665Z",
         "compose": "1.12.0",
@@ -108,5 +178,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "be1632f968d71d4c84054baa2529744e04ac013ef4228095977320147bdf3605"
 }

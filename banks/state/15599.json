@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/15599",
         "headCommit": "c2a9b99a90f8996eca0a48ee1cab7a0ed1753cda",
         "number": 70,
-        "observedAt": "2026-10-03T17:55:25.531787Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:17.394462Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Banco do Brasil (Company.id 15599)",
         "url": "https://github.com/zenmoney/banks/pull/70"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8c31d7da4b76b591d8fcf8c03d7744dca6709aa2dfa7ca4c1357b0302207d13f",
+          "head": "bank-icon-maintenance/15599",
+          "headCommit": "c2a9b99a90f8996eca0a48ee1cab7a0ed1753cda",
+          "number": 70,
+          "observedAt": "2026-10-03T17:55:25.531787Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Banco do Brasil (Company.id 15599)",
+          "url": "https://github.com/zenmoney/banks/pull/70"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8c31d7da4b76b591d8fcf8c03d7744dca6709aa2dfa7ca4c1357b0302207d13f",
+        "closedAt": "2026-10-15T11:18:17Z",
+        "head": "bank-icon-maintenance/15599",
+        "headCommit": "c2a9b99a90f8996eca0a48ee1cab7a0ed1753cda",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 70,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Banco do Brasil (Company.id 15599)",
+        "url": "https://github.com/zenmoney/banks/pull/70"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:31:17.394462Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8c31d7da4b76b591d8fcf8c03d7744dca6709aa2dfa7ca4c1357b0302207d13f",
+          "closedAt": "2026-10-15T11:18:17Z",
+          "head": "bank-icon-maintenance/15599",
+          "headCommit": "c2a9b99a90f8996eca0a48ee1cab7a0ed1753cda",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 70,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Banco do Brasil (Company.id 15599)",
+          "url": "https://github.com/zenmoney/banks/pull/70"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "The fetched Banco do Brasil symbol is a standalone original vector of the BB grafema whose file page on Wikimedia Commons cites the official origin asset (https://www2.bb.com.br/aapf/imagens/logo-login.svg; direct fetch is 403 bot-blocked, receipt kept). Its geometry is path-equivalent to the accepted icon's emblem, but colors and presentation differ: the candidate is the official blue #465eff on transparency, while the accepted icon uses a darker blue #2360a5 on a yellow #fff22d rounded-square field. Currency is supported by continuous use of the grafema since 1968 (independent press) and current official usage (gov.br displays the blue BB symbol). This is a supported color/presentation correction candidate, not serialization cleanup; the meaningful visible difference will be judged on actual renders at candidate review.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15599/candidate-49276091431c1b027ab50e9a1ba617ba0acfde8d5de81597445f061c4b6a4529.json",
         "sha256": "49276091431c1b027ab50e9a1ba617ba0acfde8d5de81597445f061c4b6a4529"
@@ -116,7 +169,7 @@
           "url": "https://www.bb.com.br/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T17:46:41.472737Z",
         "compose": "1.12.0",

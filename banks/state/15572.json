@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T16:50:55.638091Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T16:55:14.549962Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "38a98ddd2589bcfe1f3e866621cb8d14e243221b",
+      "acceptedIconHash": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78",
       "agentAssessment": {
         "path": "evidence/15572/assessed-e3b80e69eef12c494be44963791080c16333ce4e52799c7e4b54853260b267c9.json",
         "sha256": "e3b80e69eef12c494be44963791080c16333ce4e52799c7e4b54853260b267c9"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/dtma6l0b-15572",
         "headCommit": "38a98ddd2589bcfe1f3e866621cb8d14e243221b",
         "number": 66,
-        "observedAt": "2026-10-03T17:04:56.923154Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:08.758029Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Т-Банк Бизнес (Company.id 15572)",
         "url": "https://github.com/zenmoney/banks/pull/66"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "2a5261e3dd517d0d4aa80009a7335b61a2983c37b2587e2f1abba18ce4cdfa96",
+          "head": "bank-icon-maintenance/dtma6l0b-15572",
+          "headCommit": "38a98ddd2589bcfe1f3e866621cb8d14e243221b",
+          "number": 66,
+          "observedAt": "2026-10-03T17:04:56.923154Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Т-Банк Бизнес (Company.id 15572)",
+          "url": "https://github.com/zenmoney/banks/pull/66"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "2a5261e3dd517d0d4aa80009a7335b61a2983c37b2587e2f1abba18ce4cdfa96",
+        "closedAt": "2026-10-15T14:34:23Z",
+        "head": "bank-icon-maintenance/dtma6l0b-15572",
+        "headCommit": "38a98ddd2589bcfe1f3e866621cb8d14e243221b",
+        "mergeCommit": "55970688d69b284944027986ebeccfe70432c4cb",
+        "mergedAt": "2026-10-15T14:34:23Z",
+        "number": 66,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Т-Банк Бизнес (Company.id 15572)",
+        "url": "https://github.com/zenmoney/banks/pull/66"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:31:08.758029Z",
+        "proof": {
+          "accepted": {
+            "commit": "55970688d69b284944027986ebeccfe70432c4cb",
+            "iconHash": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78",
+            "metadataHash": "ef62de2622a366a314c369c695791c34b0dd27d24518744ffe1720ec0732135f"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78",
+            "metadataHash": "ef62de2622a366a314c369c695791c34b0dd27d24518744ffe1720ec0732135f"
+          },
+          "path": "banks/Т-Банк Бизнес_15572-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "38a98ddd2589bcfe1f3e866621cb8d14e243221b",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "2a5261e3dd517d0d4aa80009a7335b61a2983c37b2587e2f1abba18ce4cdfa96",
+          "closedAt": "2026-10-15T14:34:23Z",
+          "head": "bank-icon-maintenance/dtma6l0b-15572",
+          "headCommit": "38a98ddd2589bcfe1f3e866621cb8d14e243221b",
+          "mergeCommit": "55970688d69b284944027986ebeccfe70432c4cb",
+          "mergedAt": "2026-10-15T14:34:23Z",
+          "number": 66,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Т-Банк Бизнес (Company.id 15572)",
+          "url": "https://github.com/zenmoney/banks/pull/66"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The live official business homepage publishes an original standalone yellow shield and charcoal T vector. The accepted SVG instead has a beige #DBCDB7 shield and #343434 T. Independent rsvg references visibly show that backing-color difference. This is a supported color/geometry correction to a currently used business-site bank mark, not evidence that the T brand itself is obsolete. The official T-Бизнес app image is a different white-shield-on-beige-gradient presentation; the proposed yellow emblem is the business website mark, not a reproduction of that app icon.",
       "reviewPackage": {
@@ -106,7 +176,7 @@
           "url": "https://www.tbank.ru/about/brand/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T16:55:14.549962Z",
         "compose": "1.12.0",
@@ -116,5 +186,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "b96341ffad1845d8a4849a06b1014b23b9bab2f8562eebb23cd6f453942b2d78"
 }

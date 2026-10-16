@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/homecredit-kz-15500",
         "headCommit": "fd93e1d1eaecfeea3a79ae919437cf089222d5b4",
         "number": 58,
-        "observedAt": "2026-10-03T13:01:15.218574Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:50.866702Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк Хоум Кредит (Company.id 15500)",
         "url": "https://github.com/zenmoney/banks/pull/58"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8beb461053104387fc0f785d58fb3651c6cf8c909c29991263b04cd837c0e46a",
+          "head": "bank-icon-maintenance/homecredit-kz-15500",
+          "headCommit": "fd93e1d1eaecfeea3a79ae919437cf089222d5b4",
+          "number": 58,
+          "observedAt": "2026-10-03T13:01:15.218574Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк Хоум Кредит (Company.id 15500)",
+          "url": "https://github.com/zenmoney/banks/pull/58"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8beb461053104387fc0f785d58fb3651c6cf8c909c29991263b04cd837c0e46a",
+        "closedAt": "2026-10-15T12:02:36Z",
+        "head": "bank-icon-maintenance/homecredit-kz-15500",
+        "headCommit": "fd93e1d1eaecfeea3a79ae919437cf089222d5b4",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 58,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк Хоум Кредит (Company.id 15500)",
+        "url": "https://github.com/zenmoney/banks/pull/58"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:30:50.866702Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8beb461053104387fc0f785d58fb3651c6cf8c909c29991263b04cd837c0e46a",
+          "closedAt": "2026-10-15T12:02:36Z",
+          "head": "bank-icon-maintenance/homecredit-kz-15500",
+          "headCommit": "fd93e1d1eaecfeea3a79ae919437cf089222d5b4",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 58,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк Хоум Кредит (Company.id 15500)",
+          "url": "https://github.com/zenmoney/banks/pull/58"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "The current official mark of Home Credit Bank Kazakhstan (home.kz, legal brand unchanged after ForteBank's 2025 majority acquisition) is the red 'person under arch' figure used standalone — it is the 'O' of the HOME wordmark in the bank's official vector logo (Logotip_banka, #DB0124) and appears alone in the site favicon and app icons. The base icon shows the same figure in an older crimson #C8102E inside an inverted filled disc (white figure on red circle); the current standalone presentation is the red figure itself on transparent. Supported currency/presentation update from an original vector.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15500/candidate-ed02fb0dc37d9400f0a1791d0f0c386e97d4770e88b6a9db02538dfa0de36c43.json",
         "sha256": "ed02fb0dc37d9400f0a1791d0f0c386e97d4770e88b6a9db02538dfa0de36c43"
@@ -99,7 +152,7 @@
           "url": "https://home.kz"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T12:51:15.092350Z",
         "compose": "1.12.0",

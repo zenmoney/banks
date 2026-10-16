@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T12:10:59.741019Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T12:14:13.185614Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1ce469f777af34b71d3bbfb06f6c1b8c7cf06733",
+      "acceptedIconHash": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3",
       "agentAssessment": {
         "path": "evidence/15470/assessed-31cabf27a1535aa13a2fb05a138b36db17b75121e153ecd4a7309d81a64208fc.json",
         "sha256": "31cabf27a1535aa13a2fb05a138b36db17b75121e153ecd4a7309d81a64208fc"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/citibank-kazakhstan-15470",
         "headCommit": "1ce469f777af34b71d3bbfb06f6c1b8c7cf06733",
         "number": 55,
-        "observedAt": "2026-10-03T12:18:05.076329Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:49.065431Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Ситибанк Казахстан (Company.id 15470)",
         "url": "https://github.com/zenmoney/banks/pull/55"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0ca224288d6a8901b0f77c92243262a36ace94cf2f3831bf97ddb9f61f9d464e",
+          "head": "bank-icon-maintenance/citibank-kazakhstan-15470",
+          "headCommit": "1ce469f777af34b71d3bbfb06f6c1b8c7cf06733",
+          "number": 55,
+          "observedAt": "2026-10-03T12:18:05.076329Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ситибанк Казахстан (Company.id 15470)",
+          "url": "https://github.com/zenmoney/banks/pull/55"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0ca224288d6a8901b0f77c92243262a36ace94cf2f3831bf97ddb9f61f9d464e",
+        "closedAt": "2026-10-15T14:33:26Z",
+        "head": "bank-icon-maintenance/citibank-kazakhstan-15470",
+        "headCommit": "1ce469f777af34b71d3bbfb06f6c1b8c7cf06733",
+        "mergeCommit": "af983ffbe55256a8801b9de017d107bcddaee8be",
+        "mergedAt": "2026-10-15T14:33:26Z",
+        "number": 55,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ситибанк Казахстан (Company.id 15470)",
+        "url": "https://github.com/zenmoney/banks/pull/55"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:30:49.065431Z",
+        "proof": {
+          "accepted": {
+            "commit": "af983ffbe55256a8801b9de017d107bcddaee8be",
+            "iconHash": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3",
+            "metadataHash": "331905c6b1d6ebc4f415881a76a9ca65a4dc7d8f5c034a74fac01810d3948bdc"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3",
+            "metadataHash": "331905c6b1d6ebc4f415881a76a9ca65a4dc7d8f5c034a74fac01810d3948bdc"
+          },
+          "path": "banks/Ситибанк Казахстан_15470-kz/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1ce469f777af34b71d3bbfb06f6c1b8c7cf06733",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0ca224288d6a8901b0f77c92243262a36ace94cf2f3831bf97ddb9f61f9d464e",
+          "closedAt": "2026-10-15T14:33:26Z",
+          "head": "bank-icon-maintenance/citibank-kazakhstan-15470",
+          "headCommit": "1ce469f777af34b71d3bbfb06f6c1b8c7cf06733",
+          "mergeCommit": "af983ffbe55256a8801b9de017d107bcddaee8be",
+          "mergedAt": "2026-10-15T14:33:26Z",
+          "number": 55,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ситибанк Казахстан (Company.id 15470)",
+          "url": "https://github.com/zenmoney/banks/pull/55"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The accepted icon is the pre-2023 Citi badge variant (teal circle with white 'citi' and red arc). Citibank Kazakhstan JSC is operating (official page live 2026-10-03: 32 years in Kazakhstan, Euromoney 2024-2026 awards, 2024 audited statements) and Citi's current official brand mark, in use on the official Kazakhstan page header today, is the 2023-rebrand wordmark: 'citi' in Citi blue #255BE3 with red arc #FF3C28 on a transparent field. This is an evidenced rebrand of the same bank; the teal badge variant is retired from official use.",
       "reviewPackage": {
@@ -108,7 +178,7 @@
           "url": "https://www.citibank.com/icg/assets/img/branding/citi-logo-blue.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T12:14:13.185614Z",
         "compose": "1.12.0",
@@ -118,5 +188,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "5b3b174e94f4f6bd4b92258a33b88b6620012beb91417cd752d7cac129812db3"
 }

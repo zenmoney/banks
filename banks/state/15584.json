@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T16:53:31.791096Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T17:00:23.326601Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "f5f7b05955bc8db3833f8ccad9980f1a9a5f2836",
+      "acceptedIconHash": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb",
       "agentAssessment": {
         "path": "evidence/15584/assessed-e545bd88a6d11bcdb8ecb53e6beed862455f20b8537dc8c19760a3b4b75ce714.json",
         "sha256": "e545bd88a6d11bcdb8ecb53e6beed862455f20b8537dc8c19760a3b4b75ce714"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/dtma6l0b-15584",
         "headCommit": "f5f7b05955bc8db3833f8ccad9980f1a9a5f2836",
         "number": 67,
-        "observedAt": "2026-10-03T17:15:40.528964Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:15.651599Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ePayments (Company.id 15584)",
         "url": "https://github.com/zenmoney/banks/pull/67"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "113148eee58204a686eac1f86665316898018582960b951804520f92b3cbe71b",
+          "head": "bank-icon-maintenance/dtma6l0b-15584",
+          "headCommit": "f5f7b05955bc8db3833f8ccad9980f1a9a5f2836",
+          "number": 67,
+          "observedAt": "2026-10-03T17:15:40.528964Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ePayments (Company.id 15584)",
+          "url": "https://github.com/zenmoney/banks/pull/67"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "113148eee58204a686eac1f86665316898018582960b951804520f92b3cbe71b",
+        "closedAt": "2026-10-15T14:34:32Z",
+        "head": "bank-icon-maintenance/dtma6l0b-15584",
+        "headCommit": "f5f7b05955bc8db3833f8ccad9980f1a9a5f2836",
+        "mergeCommit": "26c583c09de94f98ab6e8e0fb949a168c9882cbf",
+        "mergedAt": "2026-10-15T14:34:32Z",
+        "number": 67,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ePayments (Company.id 15584)",
+        "url": "https://github.com/zenmoney/banks/pull/67"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:31:15.651599Z",
+        "proof": {
+          "accepted": {
+            "commit": "26c583c09de94f98ab6e8e0fb949a168c9882cbf",
+            "iconHash": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb",
+            "metadataHash": "246af0855391a2f1c0985c03d2915b2663577310396bb640f45cecfdf851573c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb",
+            "metadataHash": "246af0855391a2f1c0985c03d2915b2663577310396bb640f45cecfdf851573c"
+          },
+          "path": "banks/ePayments_15584-unknown/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "f5f7b05955bc8db3833f8ccad9980f1a9a5f2836",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "113148eee58204a686eac1f86665316898018582960b951804520f92b3cbe71b",
+          "closedAt": "2026-10-15T14:34:32Z",
+          "head": "bank-icon-maintenance/dtma6l0b-15584",
+          "headCommit": "f5f7b05955bc8db3833f8ccad9980f1a9a5f2836",
+          "mergeCommit": "26c583c09de94f98ab6e8e0fb949a168c9882cbf",
+          "mergedAt": "2026-10-15T14:34:32Z",
+          "number": 67,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ePayments (Company.id 15584)",
+          "url": "https://github.com/zenmoney/banks/pull/67"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Same historical ePayments brand, not a successor: official 12 September 2022 wind-down article carries an original red swirled e vector. Accepted icon uses #EB4846; official original uses #E5353E and subtly different contour detail. Source-backed color and geometry correction, not a rebrand or serialization change.",
       "reviewPackage": {
@@ -106,7 +176,7 @@
           "url": "https://www.financial-ombudsman.org.uk/decision/DRN-4090927.pdf"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T17:00:23.326601Z",
         "compose": "1.12.0",
@@ -116,5 +186,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "1ebfa7ba89c729ee799611028cc30967970017ff9d28ca0bcbfc88ce5cf3e6cb"
 }

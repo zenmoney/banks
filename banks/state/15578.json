@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T16:57:52.243651Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T17:01:53.857788Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "e79c55e36ed50bc3944a295fccfa5fadcd7e4ef9",
+      "acceptedIconHash": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b",
       "agentAssessment": {
         "path": "evidence/15578/assessed-d2e29b5f7aca4f30b44188e9b253a6e77b871ef20ec0229e46ce73c69d6e9c80.json",
         "sha256": "d2e29b5f7aca4f30b44188e9b253a6e77b871ef20ec0229e46ce73c69d6e9c80"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/dtma6l0b-15578",
         "headCommit": "e79c55e36ed50bc3944a295fccfa5fadcd7e4ef9",
         "number": 68,
-        "observedAt": "2026-10-03T17:19:34.151084Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:12.320180Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: OCBC Bank (Company.id 15578)",
         "url": "https://github.com/zenmoney/banks/pull/68"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "fb443c8e78d9608f328b5464840673dbed6369128009dd30dd1d05d12d7405ae",
+          "head": "bank-icon-maintenance/dtma6l0b-15578",
+          "headCommit": "e79c55e36ed50bc3944a295fccfa5fadcd7e4ef9",
+          "number": 68,
+          "observedAt": "2026-10-03T17:19:34.151084Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: OCBC Bank (Company.id 15578)",
+          "url": "https://github.com/zenmoney/banks/pull/68"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "fb443c8e78d9608f328b5464840673dbed6369128009dd30dd1d05d12d7405ae",
+        "closedAt": "2026-10-15T14:34:41Z",
+        "head": "bank-icon-maintenance/dtma6l0b-15578",
+        "headCommit": "e79c55e36ed50bc3944a295fccfa5fadcd7e4ef9",
+        "mergeCommit": "8f6638206b692f6217f9fc7b959194e604147c2f",
+        "mergedAt": "2026-10-15T14:34:41Z",
+        "number": 68,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: OCBC Bank (Company.id 15578)",
+        "url": "https://github.com/zenmoney/banks/pull/68"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:31:12.320180Z",
+        "proof": {
+          "accepted": {
+            "commit": "8f6638206b692f6217f9fc7b959194e604147c2f",
+            "iconHash": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b",
+            "metadataHash": "429d26139b3c9944cdc143bac84f55cb26a06356a17fd33513405b273d4e6245"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b",
+            "metadataHash": "429d26139b3c9944cdc143bac84f55cb26a06356a17fd33513405b273d4e6245"
+          },
+          "path": "banks/OCBC Bank_15578-sg/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "e79c55e36ed50bc3944a295fccfa5fadcd7e4ef9",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "fb443c8e78d9608f328b5464840673dbed6369128009dd30dd1d05d12d7405ae",
+          "closedAt": "2026-10-15T14:34:41Z",
+          "head": "bank-icon-maintenance/dtma6l0b-15578",
+          "headCommit": "e79c55e36ed50bc3944a295fccfa5fadcd7e4ef9",
+          "mergeCommit": "8f6638206b692f6217f9fc7b959194e604147c2f",
+          "mergedAt": "2026-10-15T14:34:41Z",
+          "number": 68,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: OCBC Bank (Company.id 15578)",
+          "url": "https://github.com/zenmoney/banks/pull/68"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official OCBC 2023 brand refresh replaces the accepted sail geometry and wave detail. Baseline contains thin horizontal water lines and #D02E26; official original vector has the simplified solid hull and #e30613. Current official brand illustration corroborates this newer geometry and red. This is a supported same-bank rebrand update, not a serialization-only or background-only change.",
       "reviewPackage": {
@@ -114,7 +184,7 @@
           "url": "https://companieslogo.com/ocbc-bank/logo/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T17:01:53.857788Z",
         "compose": "1.12.0",
@@ -124,5 +194,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "b7cb944094b33453d9ca0290e88c62c6a67e7313cf5a20c7ca1708f4c4df213b"
 }

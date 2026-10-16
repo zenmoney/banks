@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T11:37:10.521511Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T11:43:02.944335Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "0c0851b3b1479a7fc0cff39979e66797ea0ae189",
+      "acceptedIconHash": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4",
       "agentAssessment": {
         "path": "evidence/15459/assessed-11627baf114083fc26ebca38b7c1078920660c08090924f76dda8bf5d8c9dc02.json",
         "sha256": "11627baf114083fc26ebca38b7c1078920660c08090924f76dda8bf5d8c9dc02"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/h6s42qu0-15459",
         "headCommit": "0c0851b3b1479a7fc0cff39979e66797ea0ae189",
         "number": 54,
-        "observedAt": "2026-10-03T11:47:25.295233Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:39.208672Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Slovenská sporiteľňa (Company.id 15459)",
         "url": "https://github.com/zenmoney/banks/pull/54"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "7c22837f42d3b29915593758286ca47b36ff7e74d43d39944048932798b500bf",
+          "head": "bank-icon-maintenance/h6s42qu0-15459",
+          "headCommit": "0c0851b3b1479a7fc0cff39979e66797ea0ae189",
+          "number": 54,
+          "observedAt": "2026-10-03T11:47:25.295233Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Slovenská sporiteľňa (Company.id 15459)",
+          "url": "https://github.com/zenmoney/banks/pull/54"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "7c22837f42d3b29915593758286ca47b36ff7e74d43d39944048932798b500bf",
+        "closedAt": "2026-10-15T14:33:17Z",
+        "head": "bank-icon-maintenance/h6s42qu0-15459",
+        "headCommit": "0c0851b3b1479a7fc0cff39979e66797ea0ae189",
+        "mergeCommit": "450b925ba07ea8e0d9582f904088c8b4b6cb09d1",
+        "mergedAt": "2026-10-15T14:33:17Z",
+        "number": 54,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Slovenská sporiteľňa (Company.id 15459)",
+        "url": "https://github.com/zenmoney/banks/pull/54"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:30:39.208672Z",
+        "proof": {
+          "accepted": {
+            "commit": "450b925ba07ea8e0d9582f904088c8b4b6cb09d1",
+            "iconHash": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4",
+            "metadataHash": "9b6b2bc12ea246c94b699a1ed415048c73cb6d833d204c071e4534ce11847016"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4",
+            "metadataHash": "9b6b2bc12ea246c94b699a1ed415048c73cb6d833d204c071e4534ce11847016"
+          },
+          "path": "banks/Slovenská sporiteľňa_15459-sk/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "0c0851b3b1479a7fc0cff39979e66797ea0ae189",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "7c22837f42d3b29915593758286ca47b36ff7e74d43d39944048932798b500bf",
+          "closedAt": "2026-10-15T14:33:17Z",
+          "head": "bank-icon-maintenance/h6s42qu0-15459",
+          "headCommit": "0c0851b3b1479a7fc0cff39979e66797ea0ae189",
+          "mergeCommit": "450b925ba07ea8e0d9582f904088c8b4b6cb09d1",
+          "mergedAt": "2026-10-15T14:33:17Z",
+          "number": 54,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Slovenská sporiteľňa (Company.id 15459)",
+          "url": "https://github.com/zenmoney/banks/pull/54"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Operating Slovenská sporiteľňa has an evidenced 2023 rebrand to a thinner monochromatic white savings emblem. The current official homepage uses that white variant. An original electronic-use official SVG supplies the separable current white emblem and an explicit #2870ed uniform field; the accepted red emblem on pale-blue backing predates this supported design. Recommend source-preserving standalone extraction and same-color circle adaptation, not the accompanying wordmark.",
       "reviewPackage": {
@@ -120,7 +190,7 @@
           "url": "https://medialne.trend.sk/marketing/slovenska-sporitelna-predstavila-novu-vizualnu-identitu-dizajnom-stoji-jung-von-matt"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T11:43:02.944335Z",
         "compose": "1.12.0",
@@ -130,5 +200,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "5268448a06341bfdec4b9daea32897371d3d7c98af554bd2c4072688885613c4"
 }

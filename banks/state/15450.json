@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T11:08:23.122736Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T11:10:04.224925Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "63a3414e30c7df71b514b0e767a7d2be9d3fe45f",
+      "acceptedIconHash": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973",
       "agentAssessment": {
         "path": "evidence/15450/assessed-98dcbe1a73f65a950bc7c170a81034ed5050cdc7b3787a70dc0d8bf185f7dc23.json",
         "sha256": "98dcbe1a73f65a950bc7c170a81034ed5050cdc7b3787a70dc0d8bf185f7dc23"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15450",
         "headCommit": "63a3414e30c7df71b514b0e767a7d2be9d3fe45f",
         "number": 52,
-        "observedAt": "2026-10-03T11:14:26.984188Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:35.903978Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: КРЕДОБАНК (Company.id 15450)",
         "url": "https://github.com/zenmoney/banks/pull/52"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1748255fd3a873d608b3496401b1a446f5a787ea2352da87ebc4d2ad97a9a2c4",
+          "head": "bank-icon-maintenance/15450",
+          "headCommit": "63a3414e30c7df71b514b0e767a7d2be9d3fe45f",
+          "number": 52,
+          "observedAt": "2026-10-03T11:14:26.984188Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КРЕДОБАНК (Company.id 15450)",
+          "url": "https://github.com/zenmoney/banks/pull/52"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1748255fd3a873d608b3496401b1a446f5a787ea2352da87ebc4d2ad97a9a2c4",
+        "closedAt": "2026-10-15T14:33:00Z",
+        "head": "bank-icon-maintenance/15450",
+        "headCommit": "63a3414e30c7df71b514b0e767a7d2be9d3fe45f",
+        "mergeCommit": "d5b777830875d9dc8638be1d4d4d14f2d5c3ce64",
+        "mergedAt": "2026-10-15T14:32:59Z",
+        "number": 52,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КРЕДОБАНК (Company.id 15450)",
+        "url": "https://github.com/zenmoney/banks/pull/52"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:30:35.903978Z",
+        "proof": {
+          "accepted": {
+            "commit": "d5b777830875d9dc8638be1d4d4d14f2d5c3ce64",
+            "iconHash": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973",
+            "metadataHash": "0af285c13305f279888fa74f8518cfb19197fa9c081968eda79381b2f9e39b19"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973",
+            "metadataHash": "0af285c13305f279888fa74f8518cfb19197fa9c081968eda79381b2f9e39b19"
+          },
+          "path": "banks/КРЕДОБАНК_15450-ua/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "63a3414e30c7df71b514b0e767a7d2be9d3fe45f",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1748255fd3a873d608b3496401b1a446f5a787ea2352da87ebc4d2ad97a9a2c4",
+          "closedAt": "2026-10-15T14:33:00Z",
+          "head": "bank-icon-maintenance/15450",
+          "headCommit": "63a3414e30c7df71b514b0e767a7d2be9d3fe45f",
+          "mergeCommit": "d5b777830875d9dc8638be1d4d4d14f2d5c3ce64",
+          "mergedAt": "2026-10-15T14:32:59Z",
+          "number": 52,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КРЕДОБАНК (Company.id 15450)",
+          "url": "https://github.com/zenmoney/banks/pull/52"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current KREDOBANK header publishes a standalone original orange #f18b00 chevron, also visually corroborated by its official touch icon. The accepted file instead uses a white angular chevron on an #E49439 circle, with straight end corners. A supported replacement corrects the source color/presentation and rounded end geometry; no rebrand date is claimed.",
       "reviewPackage": {
@@ -107,7 +177,7 @@
           "url": "https://kredobank.com.ua/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T11:10:04.224925Z",
         "compose": "1.12.0",
@@ -117,5 +187,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "ea9c567b27841d83d58864bd14a5deff391eedbaeb52ac270ffc98f34cb3d973"
 }

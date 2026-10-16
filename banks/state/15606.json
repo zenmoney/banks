@@ -59,13 +59,66 @@
         "head": "bank-icon-maintenance/15606",
         "headCommit": "d6b1b166a447ac25f1651bb44c300a72e57ae74b",
         "number": 71,
-        "observedAt": "2026-10-03T18:32:59.549580Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:31:18.230760Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
         "url": "https://github.com/zenmoney/banks/pull/71"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "aba1a7f70f751ceebe2e1b2d8bb2673c242aa1e73c474127e1f4c1f689a0cb41",
+          "head": "bank-icon-maintenance/15606",
+          "headCommit": "d6b1b166a447ac25f1651bb44c300a72e57ae74b",
+          "number": 71,
+          "observedAt": "2026-10-03T18:32:59.549580Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+          "url": "https://github.com/zenmoney/banks/pull/71"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "aba1a7f70f751ceebe2e1b2d8bb2673c242aa1e73c474127e1f4c1f689a0cb41",
+        "closedAt": "2026-10-15T11:17:06Z",
+        "head": "bank-icon-maintenance/15606",
+        "headCommit": "d6b1b166a447ac25f1651bb44c300a72e57ae74b",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 71,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+        "url": "https://github.com/zenmoney/banks/pull/71"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:31:18.230760Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "aba1a7f70f751ceebe2e1b2d8bb2673c242aa1e73c474127e1f4c1f689a0cb41",
+          "closedAt": "2026-10-15T11:17:06Z",
+          "head": "bank-icon-maintenance/15606",
+          "headCommit": "d6b1b166a447ac25f1651bb44c300a72e57ae74b",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 71,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+          "url": "https://github.com/zenmoney/banks/pull/71"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Existing icon shows an outdated gable-cross presentation (yellow #fdeb3f circle, black square frame, outlined two-tone cross). The mark in use today by Raiffeisenbank (CZ) and the RBI group is the 'Gable Cross — squared colour' variant: solid #FEE600 square with solid #2B2D33 cross, no frame or outline. Supported rebranding/geometry correction justifies the update.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15606/candidate-71c1207b9615a200c0d109a9a8f300bff74eac49e890f7d4b27bd0d50f7aacc2.json",
         "sha256": "71c1207b9615a200c0d109a9a8f300bff74eac49e890f7d4b27bd0d50f7aacc2"
@@ -105,7 +158,7 @@
           "url": "https://brand.rbinternational.com/content/dam/rbi/brand/public/Gable%20Cross.zip.coredownload.zip"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T18:20:30Z",
         "compose": "1.12.0",

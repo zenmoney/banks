@@ -62,13 +62,66 @@
         "head": "bank-icon-maintenance/15542",
         "headCommit": "fb7589fbca130c04f001256f0d886a4cec3ff143",
         "number": 63,
-        "observedAt": "2026-10-03T15:32:22.483184Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:30:58.050972Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: N26 (Company.id 15542)",
         "url": "https://github.com/zenmoney/banks/pull/63"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ab3dc9bbc7dde97e0b0daa3bb045ab44d7035afd255696b90368dacfc933e336",
+          "head": "bank-icon-maintenance/15542",
+          "headCommit": "fb7589fbca130c04f001256f0d886a4cec3ff143",
+          "number": 63,
+          "observedAt": "2026-10-03T15:32:22.483184Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: N26 (Company.id 15542)",
+          "url": "https://github.com/zenmoney/banks/pull/63"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ab3dc9bbc7dde97e0b0daa3bb045ab44d7035afd255696b90368dacfc933e336",
+        "closedAt": "2026-10-15T11:32:33Z",
+        "head": "bank-icon-maintenance/15542",
+        "headCommit": "fb7589fbca130c04f001256f0d886a4cec3ff143",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 63,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: N26 (Company.id 15542)",
+        "url": "https://github.com/zenmoney/banks/pull/63"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:30:58.050972Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ab3dc9bbc7dde97e0b0daa3bb045ab44d7035afd255696b90368dacfc933e336",
+          "closedAt": "2026-10-15T11:32:33Z",
+          "head": "bank-icon-maintenance/15542",
+          "headCommit": "fb7589fbca130c04f001256f0d886a4cec3ff143",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 63,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: N26 (Company.id 15542)",
+          "url": "https://github.com/zenmoney/banks/pull/63"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Current N26 identity is the 2022+ flat monochrome #1B1B1B 'N26' wordmark (N with bar above and below, '26' to the right). An original vector was fetched from Wikimedia Commons (upload dated 2022-05-05, matching the rebrand) and bound via source-material from the fetch receipt. The base icon is an outdated teal-circle variant with distorted white N glyph; the supported rebrand justifies the update.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15542/candidate-b84717b34ce500a89848705d25467c85f72006b9424caa63c77a77b4ed98e700.json",
         "sha256": "b84717b34ce500a89848705d25467c85f72006b9424caa63c77a77b4ed98e700"
@@ -98,7 +151,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:N26_logo.svg"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T15:21:29.055692Z",
         "compose": "1.12.0",
