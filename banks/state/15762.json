@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:33:28.981126Z",
+        "observedAt": "2026-10-16T19:54:06.324871Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/95"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:33:28.981126Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "acab785e2eee7c82bd974cbfff19658da62926b346dd0631c0c7e43a95de57e8",
+            "closedAt": "2026-10-16T08:35:24Z",
+            "head": "bank-icon-maintenance/15762",
+            "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 95,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
+            "url": "https://github.com/zenmoney/banks/pull/95"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Bank operates as Банк ПСБ with the orange/indigo pinwheel mark since the 2019-2020 rebrand (Рromsvyazbank name retired 2025-04-01); business.psbank.ru serves only the new mark; catalog icon is the old blue ПСБ mark.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Заменить на универсальный под светлую и темную тему",
+          "createdAt": "2026-10-16T08:35:24Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T08:35:24Z",
+          "url": "https://github.com/zenmoney/banks/pull/95#issuecomment-6211509952"
+        },
+        "explanation": "Заменить на универсальный под светлую и темную тему",
+        "mr": {
+          "number": 95,
+          "url": "https://github.com/zenmoney/banks/pull/95"
+        },
+        "rationale": "The reviewer requests replacing the proposed icon with a universal variant suitable for both light and dark themes. This is a technical/presentation repair requirement covering both themes, not approval to invent colors or bypass theme/render constraints; no particular colors or implementation are specified.",
+        "requirements": [
+          {
+            "quote": "Заменить на универсальный под светлую и темную тему",
+            "url": "https://github.com/zenmoney/banks/pull/95#issuecomment-6211509952"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:54:06.324871Z",
+        "id": 15762,
+        "judgement": {
+          "action": "repair",
+          "key": "5ed93195207a17401fae46aa81fb8dc283649306524aa554c2b577f35fb3c4b1",
+          "rationale": "The reviewer requests replacing the proposed icon with a universal variant suitable for both light and dark themes. This is a technical/presentation repair requirement covering both themes, not approval to invent colors or bypass theme/render constraints; no particular colors or implementation are specified.",
+          "sources": [
+            {
+              "quote": "Заменить на универсальный под светлую и темную тему",
+              "url": "https://github.com/zenmoney/banks/pull/95#issuecomment-6211509952"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T03:38:32.604596Z",
+          "candidateIconHash": "b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6",
+          "key": "5ed93195207a17401fae46aa81fb8dc283649306524aa554c2b577f35fb3c4b1",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## ПСБ Бизнес — Company.id 15762\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": \"\\u041f\\u0440\\u043e\\u043c\\u0441\\u0432\\u044f\\u0437\\u044c\\u0431\\u0430\\u043d\\u043a\",\n  \"id\": 15762,\n  \"title\": \"\\u041f\\u0421\\u0411 \\u0411\\u0438\\u0437\\u043d\\u0435\\u0441\",\n  \"url\": \"business.psbank.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T03:39:53.978215Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/1fbaa031031b17e72a64bb20b1e2002844aad5ff/review-materials/15762/base.svg) — SHA-256 `96a4262c9fa51764d088712b0a06c4008b9911e524a38f32f32ba6618d385bc3`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/1fbaa031031b17e72a64bb20b1e2002844aad5ff/review-materials/15762/source.svg) — SHA-256 `a29e0e4d2c8e56ec752ff26ead87ef54f3db161bdca1513a8ad24ce988bcf854`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/1fbaa031031b17e72a64bb20b1e2002844aad5ff/review-materials/15762/final.svg) — SHA-256 `b5227af419151498ecd5488a031521737ef1b66916b9e41172491446ca13f7b6`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/1fbaa031031b17e72a64bb20b1e2002844aad5ff/review-materials/15762/final.xml) — SHA-256 `40783422b70b55a2f75076bf6f84ae1d335481a6323d7b607ed94b904ac5cdba`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/1fbaa031031b17e72a64bb20b1e2002844aad5ff/review-materials/15762/candidate.diff).\n- Source page: [https://business.psbank.ru/assets/LogoPSBbussines\\_f43f9bfa7097c3d3fc40.svg](https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg).\n- Source asset: [https://business.psbank.ru/assets/LogoPSBbussines\\_f43f9bfa7097c3d3fc40.svg](https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T03:24:00Z: [https://business.psbank.ru/](https://business.psbank.ru/). Business banking SPA references its logo assets including logo-on-white SVG; og:image points to the site logo. (independence group: official psbank.ru business site).\n- official checked 2026-10-04T03:24:00Z: [https://business.psbank.ru/assets/LogoPSBbussines\\_f43f9bfa7097c3d3fc40.svg](https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg); asset [https://business.psbank.ru/assets/LogoPSBbussines\\_f43f9bfa7097c3d3fc40.svg](https://business.psbank.ru/assets/LogoPSBbussines_f43f9bfa7097c3d3fc40.svg). Direct original-vector lockup 140x24: pinwheel glyph \\(orange #EA5616 + indigo #2C2D84, first two paths\\) plus ПСБ \\| Бизнес wordmark; no raster. (independence group: official psbank.ru business site).\n- official checked 2026-10-04T03:24:00Z: [https://business.psbank.ru/assets/logo-on-white\\_7203a90e8570648383de.svg](https://business.psbank.ru/assets/logo-on-white_7203a90e8570648383de.svg); asset [https://business.psbank.ru/assets/logo-on-white\\_7203a90e8570648383de.svg](https://business.psbank.ru/assets/logo-on-white_7203a90e8570648383de.svg). Direct SVG of the same mark + ПСБ wordmark \\(88x32\\), corroborating the current mark design and colors. (independence group: official psbank.ru business site).\n- Independent evidence: Two asset files from the same official host corroborate each other; main site brand page 403-blocked, disclosed..\n- Identity: confirmed — Assets from the bank's own business.psbank.ru host for the ПСБ Бизнес service; fullTitle Промсвязьбанк is the operating bank \\(renamed Банк ПСБ\\)..\n- Currency: confirmed — Live business.psbank.ru serves only the new orange/indigo mark on 2026-10-04; old blue mark absent from the site..\n- Variant: confirmed — Standalone pinwheel glyph is the icon mark used beside the wordmark; transparent standalone paths; no circular avatar observation; no backing added..\n\nRationale: Evidenced rebrand: the operating brand serves the orange/indigo pinwheel mark \\(business.psbank.ru\\) while the catalog icon is the retired pre-rebrand blue ПСБ mark..\nRole: standalone brand mark \\(pinwheel glyph from the official lockup, wordmark excluded per catalog suitability\\); variant: current flat two-color mark, transparent background preserved; no circular avatar observation, no backing added.\nVisible difference: Evidenced rebrand: retired blue ПСБ-era icon replaced by the current two-color pinwheel used across the bank's live business service..\nDetails: Both pinwheel halves, their notches and colors match the official lockup mark exactly; no raster or recoloring involved.. Proportions: Square emblem fills the cell evenly at 240px and stays recognizable at small sizes on both themes..\n\nSource-to-final transformations:\n- viewBox narrowed to the mark bounds \\(0 0 24 24\\); only the two mark paths carried over; no scale/rotation/path edits\n- SVGO 4.1.0 with the frozen repository svgo.config.mjs: 277→257 bytes; trial selected, renders verified identical to working on both themes\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/1fbaa031031b17e72a64bb20b1e2002844aad5ff/review-materials/15762/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/1fbaa031031b17e72a64bb20b1e2002844aad5ff/review-materials/15762/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T03:39:17.459429602Z`. Source/final: Full source raster \\(pinwheel + ПСБ \\| Бизнес lockup\\) matches the live site; final keeps the two mark paths byte-unchanged and drops the wordmark.; base/final and rendering: Source/final pairs and base/final pairs inspected on both themes: mark geometry identical to source; base shows the old blue mark; final renders cleanly at 240px on #FFFFFF and #121212.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator available in this environment; risk: Compose Android rendering path unverified..\n- android-native: not-tested (available: false) — No Android SDK/emulator available in this environment; risk: native display path unverified..\n- ios-compose: not-tested (available: false) — No iOS tooling on Linux..\n- ios-native: not-tested (available: false) — No iOS tooling on Linux..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGgeeKw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/95",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Заменить на универсальный под светлую и темную тему",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcjwewA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/95#issuecomment-6211509952",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "acab785e2eee7c82bd974cbfff19658da62926b346dd0631c0c7e43a95de57e8",
+            "closedAt": "2026-10-16T08:35:24Z",
+            "head": "bank-icon-maintenance/15762",
+            "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 95,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
+            "url": "https://github.com/zenmoney/banks/pull/95"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Заменить на универсальный под светлую и темную тему",
+            "bodySha256": "7484e7e8bb5ebe8938428ea2e2a0df3f303e398a790229a86ca6b65dd6bac6e6",
+            "createdAt": "2026-10-16T08:35:24Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcjwewA",
+            "text": "Заменить на универсальный под светлую и темную тему",
+            "textSha256": "7484e7e8bb5ebe8938428ea2e2a0df3f303e398a790229a86ca6b65dd6bac6e6",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/95#issuecomment-6211509952"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15762/candidate-181645d8fc4f2ba08ff254ef07f525ad48fd85c3975fe8eebc74c2278403d980.json",
         "sha256": "181645d8fc4f2ba08ff254ef07f525ad48fd85c3975fe8eebc74c2278403d980"

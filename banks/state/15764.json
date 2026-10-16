@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:33:29.779738Z",
+        "observedAt": "2026-10-16T19:54:10.571183Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,140 @@
           "url": "https://github.com/zenmoney/banks/pull/96"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:33:29.779738Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "3330787d39946eb819137fb6452ecabda72c3c8fbba740b4d423e1a89bbc6672",
+            "closedAt": "2026-10-16T08:31:20Z",
+            "head": "bank-icon-maintenance/15764",
+            "headCommit": "4e14c7d1a86dd5b6ac79fc6b1702fecd3eb32643",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 96,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк \"Открытие\" Бизнес (Company.id 15764)",
+            "url": "https://github.com/zenmoney/banks/pull/96"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Historical record: Банк ФК Открытие merged into БМ-банк (VTB) on 2025-01-01 and branches rebranded to ВТБ; the record is retained for the last independent brand period. The accepted icon deviates from that period's authentic mark (extra white inner plate, lighter #4ab9e4 instead of #02BAE8), so a period-mark correction candidate is prepared.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "verify-applicability",
+        "candidateIconHash": "d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994",
+        "category": "identity/logo",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Банк «Открытие» прекратил самостоятельную деятельность 1 января 2025",
+          "createdAt": "2026-10-16T08:31:20Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T08:31:20Z",
+          "url": "https://github.com/zenmoney/banks/pull/96#issuecomment-6211439817"
+        },
+        "explanation": "Банк «Открытие» прекратил самостоятельную деятельность 1 января 2025",
+        "mr": {
+          "number": 96,
+          "url": "https://github.com/zenmoney/banks/pull/96"
+        },
+        "rationale": "The reviewer raises a lifecycle and catalog-applicability concern by asserting that Otkritie ceased independent activity on 1 January 2025. Retain that exact asserted date and concern when determining whether the proposed icon is appropriate for this record. This is the reviewer's assertion, not independently verified bank metadata, and does not itself authorize deleting the record, changing its identity, or substituting a successor bank's logo.",
+        "requirements": [
+          {
+            "quote": "Банк «Открытие» прекратил самостоятельную деятельность 1 января 2025",
+            "url": "https://github.com/zenmoney/banks/pull/96#issuecomment-6211439817"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:54:10.571183Z",
+        "id": 15764,
+        "judgement": {
+          "action": "verify-applicability",
+          "key": "d102e0da5c1513346425c9163630c7351c1c2b51723765f9f13ddf58a9338080",
+          "rationale": "The reviewer raises a lifecycle and catalog-applicability concern by asserting that Otkritie ceased independent activity on 1 January 2025. Retain that exact asserted date and concern when determining whether the proposed icon is appropriate for this record. This is the reviewer's assertion, not independently verified bank metadata, and does not itself authorize deleting the record, changing its identity, or substituting a successor bank's logo.",
+          "sources": [
+            {
+              "quote": "Банк «Открытие» прекратил самостоятельную деятельность 1 января 2025",
+              "url": "https://github.com/zenmoney/banks/pull/96#issuecomment-6211439817"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T03:44:40.592147Z",
+          "candidateIconHash": "d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994",
+          "key": "d102e0da5c1513346425c9163630c7351c1c2b51723765f9f13ddf58a9338080",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Банк \"Открытие\" Бизнес — Company.id 15764\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 15764,\n  \"title\": \"\\u0411\\u0430\\u043d\\u043a \\\"\\u041e\\u0442\\u043a\\u0440\\u044b\\u0442\\u0438\\u0435\\\" \\u0411\\u0438\\u0437\\u043d\\u0435\\u0441\",\n  \"url\": \"open.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T03:45:40.163110Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/c786f512a6a40225f2c5e8e83a8e35f2b34f8462/review-materials/15764/base.svg) — SHA-256 `d5da05b0e5cd89c6e3fb2a6034ed5d12a3ab4e04d634e34198c326276afb1396`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/c786f512a6a40225f2c5e8e83a8e35f2b34f8462/review-materials/15764/source.svg) — SHA-256 `9bb92c2fbfd2188bbdec5d91886093f8ee5b593b77c82b69e0a3bcff7e19b459`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/c786f512a6a40225f2c5e8e83a8e35f2b34f8462/review-materials/15764/final.svg) — SHA-256 `d77630b5ce8d368350626284188af7e510e7dfc310b69afe42520365b2148994`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/c786f512a6a40225f2c5e8e83a8e35f2b34f8462/review-materials/15764/final.xml) — SHA-256 `482bd342c26c78e0e8795ef90511ff881aaf41ad5c222c0410ce798689109ac5`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/c786f512a6a40225f2c5e8e83a8e35f2b34f8462/review-materials/15764/candidate.diff).\n- Source page: [https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie\\_Bank\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg).\n- Source asset: [https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie\\_Bank\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg).\n\n### Evidence and judgment\n\n- third-party checked 2026-10-04T03:23:00Z: [https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie\\_Bank\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg); asset [https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie\\_Bank\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/2/2a/Otkritie_Bank_logo.svg). Original-vector 280x44 lockup of the last Otkritie brand: cyan #02BAE8 circular O emblem \\(single self-contained path\\) plus ОТКРЫТИЕ \\| Банк wordmark in #1F232B; matches the brand's last independent period. (independence group: Wikimedia Commons file \\(independent of the catalog\\)).\n- third-party checked 2026-10-04T03:23:00Z: [https://www.interfax.ru/business/1002133](https://www.interfax.ru/business/1002133). Interfax: merger into БМ-банк completed 2025-01-01, offices rebranded to ВТБ by 2025-01-09; establishes the historical-period context. (independence group: Interfax news).\n- official checked 2026-10-04T03:23:00Z: [https://open.ru](https://open.ru). HTTP 401 on fetch; former bank site no longer serves brand material. VTB serves former clients at vtb.ru/open \\(bot-protected, fetch 403\\). (independence group: official site access attempt).\n- Independent evidence: Wikimedia vector and Interfax news are mutually independent; open.ru access failure disclosed and does not override the period evidence..\n- Identity: confirmed — Circular O emblem is the documented last-period Otkritie Bank mark; record title/fullTitle and RU country match..\n- Currency: confirmed — For this historical record the relevant period is the last independent brand period \\(ended 2025-01\\); the candidate mark matches that period per the independent lockup source. Continued-use evidence is not required for a discontinued brand; merger facts recorded..\n- Variant: confirmed — Standalone circular emblem from the lockup, self-contained single path; wordmark excluded. Transparent outside the disc; no backing added..\n- Uncertainty: No live official source of the period mark remains \\(site closed, VTB bot-protected\\); provenance relies on the independent Wikimedia vector for the historical period..\n\nRationale: Historical-period correction: the last independent Otkritie brand mark \\(cyan #02BAE8 circular emblem\\) replaces an accepted variant that deviates with a lighter color and an extra white inner plate..\nRole: standalone circular brand emblem \\(single self-contained path from the independent last-period vector, wordmark excluded per catalog suitability\\); variant: authentic last-period mark, cyan disc with white glyph; transparency outside the disc preserved; no backing added.\nVisible difference: Correction to the authentic period mark: correct brand cyan #02BAE8 and the real glyph shape, replacing the accepted lighter variant with a spurious white inner plate; not a rebrand \\(the brand itself is unchanged for its historical period\\)..\nDetails: Disc geometry, glyph aperture angles and cut positions match the source path exactly; single fill #02BAE8 unchanged.. Proportions: Circular emblem fills the cell with even margins at 240px; glyph remains legible at small sizes on both themes..\n\nSource-to-final transformations:\n- viewBox narrowed to the emblem bounds \\(0 0 44 44\\); the single emblem path carried over unchanged\n- SVGO 4.1.0 with the frozen repository svgo.config.mjs: 758→687 bytes; trial selected, renders verified identical to working on both themes\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/c786f512a6a40225f2c5e8e83a8e35f2b34f8462/review-materials/15764/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/c786f512a6a40225f2c5e8e83a8e35f2b34f8462/review-materials/15764/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T03:45:10.803279818Z`. Source/final: Full source raster \\(emblem + ОТКРЫТИЕ \\| Банк wordmark\\) matches the last-period brand; final keeps the emblem path byte-unchanged and drops the wordmark.; base/final and rendering: Source/final pairs and base/final pairs inspected on both themes: emblem identical to source; base shows the lighter deviated variant; final renders cleanly at 240px on #FFFFFF and #121212.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator available in this environment; risk: Compose Android rendering path unverified..\n- android-native: not-tested (available: false) — No Android SDK/emulator available in this environment; risk: native display path unverified..\n- ios-compose: not-tested (available: false) — No iOS tooling on Linux..\n- ios-native: not-tested (available: false) — No iOS tooling on Linux..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGggdqQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/96",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Банк «Открытие» прекратил самостоятельную деятельность 1 января 2025",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcjsMyQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/96#issuecomment-6211439817",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "3330787d39946eb819137fb6452ecabda72c3c8fbba740b4d423e1a89bbc6672",
+            "closedAt": "2026-10-16T08:31:20Z",
+            "head": "bank-icon-maintenance/15764",
+            "headCommit": "4e14c7d1a86dd5b6ac79fc6b1702fecd3eb32643",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 96,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк \"Открытие\" Бизнес (Company.id 15764)",
+            "url": "https://github.com/zenmoney/banks/pull/96"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Банк «Открытие» прекратил самостоятельную деятельность 1 января 2025",
+            "bodySha256": "dfca9149cf0b1b4eb73554cdd4107a69096db3257ee6e9959b9bf0c8a2f22841",
+            "createdAt": "2026-10-16T08:31:20Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcjsMyQ",
+            "text": "Банк «Открытие» прекратил самостоятельную деятельность 1 января 2025",
+            "textSha256": "dfca9149cf0b1b4eb73554cdd4107a69096db3257ee6e9959b9bf0c8a2f22841",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/96#issuecomment-6211439817"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15764/candidate-a68b4eaec3e8a9cabcdcfc10c54aeb202652eb39091d2ac8ff7f1b79c79d3ef3.json",
         "sha256": "a68b4eaec3e8a9cabcdcfc10c54aeb202652eb39091d2ac8ff7f1b79c79d3ef3"
