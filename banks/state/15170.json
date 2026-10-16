@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:28:13.068561Z",
+        "observedAt": "2026-10-16T19:48:11.649762Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/43"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:28:13.068561Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "60c7952332cad3115762d437612473c6b755699d7260e4338baf177b7b448428",
+            "closedAt": "2026-10-15T13:17:30Z",
+            "head": "bank-icon-maintenance/o16z6s_l-15170",
+            "headCommit": "2eb2044b38e1f8d8f4ab71f634b9a5b7e0c482ee",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 43,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ПУМБ (Company.id 15170)",
+            "url": "https://github.com/zenmoney/banks/pull/43"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Official original vector and current bank app support the new bold ПУМБ abbreviation mark. The accepted white serif abbreviation on a red circle is the former identity; Banda’s Golden Drum rebrand case explicitly reports removal of the circular badge and old typeface. Propose the original transparent red variant without recoloring or inventing a backing.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Логотип сделать белым добавить красную подложку что бы во всех там было одинаково",
+          "createdAt": "2026-10-15T13:17:30Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:17:30Z",
+          "url": "https://github.com/zenmoney/banks/pull/43#issuecomment-6193000971"
+        },
+        "explanation": "Логотип сделать белым добавить красную подложку что бы во всех там было одинаково",
+        "mr": {
+          "number": 43,
+          "url": "https://github.com/zenmoney/banks/pull/43"
+        },
+        "rationale": "Reviewer requests a white logo with red backing for consistent presentation across themes. This is a presentation repair request, not approval to invent unsupported colors or reopen the closed proposal automatically.",
+        "requirements": [
+          {
+            "quote": "Логотип сделать белым добавить красную подложку что бы во всех там было одинаково",
+            "url": "https://github.com/zenmoney/banks/pull/43#issuecomment-6193000971"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:48:11.649762Z",
+        "id": 15170,
+        "judgement": {
+          "action": "repair",
+          "key": "35e04f5d3feade3e7b5995ca8a32f4e11553ca2f825b8e4074cdf828129b796b",
+          "rationale": "Reviewer requests a white logo with red backing for consistent presentation across themes. This is a presentation repair request, not approval to invent unsupported colors or reopen the closed proposal automatically.",
+          "sources": [
+            {
+              "quote": "Логотип сделать белым добавить красную подложку что бы во всех там было одинаково",
+              "url": "https://github.com/zenmoney/banks/pull/43#issuecomment-6193000971"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T06:08:41.024765Z",
+          "candidateIconHash": "43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249",
+          "key": "35e04f5d3feade3e7b5995ca8a32f4e11553ca2f825b8e4074cdf828129b796b",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## ПУМБ — Company.id 15170\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"UA\",\n  \"fullTitle\": \"\\u041f\\u0435\\u0440\\u0432\\u044b\\u0439 \\u0423\\u043a\\u0440\\u0430\\u0438\\u043d\\u0441\\u043a\\u0438\\u0439 \\u041c\\u0435\\u0436\\u0434\\u0443\\u043d\\u0430\\u0440\\u043e\\u0434\\u043d\\u044b\\u0439 \\u0411\\u0430\\u043d\\u043a\",\n  \"id\": 15170,\n  \"title\": \"\\u041f\\u0423\\u041c\\u0411\",\n  \"url\": \"pumb.ua\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T06:13:03.431969Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/6febb0fc7a8f3e48be997727c99198d927eb61ac/review-materials/15170/base.svg) — SHA-256 `5cd12e354e8a652e6771853f24bfbd31deee9f15d7109c2ba57e5963a406a7ae`.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/6febb0fc7a8f3e48be997727c99198d927eb61ac/review-materials/15170/source.svg) — SHA-256 `7da61a83ea4fe932ccc174ccdcc03e0248f775a6a7fd1793688a20a02a336bc0`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/6febb0fc7a8f3e48be997727c99198d927eb61ac/review-materials/15170/final.svg) — SHA-256 `43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/6febb0fc7a8f3e48be997727c99198d927eb61ac/review-materials/15170/final.xml) — SHA-256 `51502936d684b9324d46b6754d5efdd3a9bd0d9341c325bc2b257a774f3c4a4b`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/6febb0fc7a8f3e48be997727c99198d927eb61ac/review-materials/15170/candidate.diff).\n- Source page: [https://commons.wikimedia.org/wiki/File:Pumb\\_logo.svg](https://commons.wikimedia.org/wiki/File:Pumb_logo.svg).\n- Source asset: [https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37](https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37).\n\n\n### Source material origin\n\nDownloaded resource: [https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37](https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37); SHA-256 `7da61a83ea4fe932ccc174ccdcc03e0248f775a6a7fd1793688a20a02a336bc0`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-03T06:01:28Z: [https://www.pumb.ua/](https://www.pumb.ua/); asset [https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37](https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37). Official homepage and trademark routes returned HTTP403. Official apim source referenced by Wikimedia Commons was downloaded successfully: 1257-byte SVG containing original path-based red ПУМБ typographic mark, 117x46 viewport. Independent rsvg image read shows no separate explanatory text, slogan or secondary bank name. (independence group: PUMB official source and mirror).\n- third-party checked 2026-10-03T06:01:28Z: [https://commons.wikimedia.org/wiki/File:Pumb\\_logo.svg](https://commons.wikimedia.org/wiki/File:Pumb_logo.svg); asset [https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37](https://apim.pumb.ua/api/assets/pumb/e23ef7ad-f4c9-41bf-ab83-f6425a8bdf37). Commons labels date 23 September 2024 and explicitly cites official apim source; not independent artwork provenance, but source discovery context. (independence group: PUMB official source and mirror).\n- third-party checked 2026-10-03T06:01:28Z: [https://goldendrum.com/showcase/0601010GD25-pumb-rebranding-making-logo-bigger](https://goldendrum.com/showcase/0601010GD25-pumb-rebranding-making-logo-bigger). Read downloaded 2025 showcase entry: client Pumb, Banda agency Kyiv; describes removal of circular badge/old typeface, larger logo, and roll-out across app, branches, B2B. Links www.pumb.ua/en. (independence group: Banda design case published by Golden Drum).\n- official checked 2026-10-03T06:01:28Z: [https://play.google.com/store/apps/details/?hl=en-US&id=com.fuib.android.spot.online](https://play.google.com/store/apps/details/?hl=en-US&id=com.fuib.android.spot.online); asset [https://play-lh.googleusercontent.com/dJ8\\_TLCdSJ5zkpW0gR-qwVyioFGNTKZjX6LY-\\_MjqYeTv1ienYk9HyiIqSevUtDyIODdq45sTVtvksEROhXf=w240-h480](https://play-lh.googleusercontent.com/dJ8_TLCdSJ5zkpW0gR-qwVyioFGNTKZjX6LY-_MjqYeTv1ienYk9HyiIqSevUtDyIODdq45sTVtvksEROhXf=w240-h480). Downloaded official PUMB Mobile Banking App listing, developer ПУМБ, com.fuib.android.spot.online. Actual downloaded icon visually inspected: red square with centered cream bold ПУМБ abbreviation matching vector contours. This proves current identity and compact recognition; raster is contextual evidence only, not a geometry or color transformation source. (independence group: PUMB official app distribution).\n- Independent evidence: Original official vector/app establish primary bank use; Golden Drum publishes Banda’s attributable design case. Commons is a mirror/source pointer, not counted as independent confirmation..\n- Identity: confirmed — Metadata UA pumb.ua identifies PUMB/First Ukrainian International Bank; official domain original and official application share ПУМБ identity; no parent/successor substitution..\n- Currency: confirmed — Original source remains served by official domain; active official app uses matching new abbreviation contours; 2025 design case confirms new identity roll-out. Former serif circle is replaced design, not merely different serialization..\n- Variant: confirmed — Original transparent bright-red four-letter abbreviation itself forms complete mark; no accompanying separate bank name. App shows same geometry as compact icon. Preserve original red paint and transparency, not cream app recolor. Independently inspected 24/32/48/162px width source and SVGO trial on white and #202020 backgrounds: abbreviation remains identifiable though smallest width has necessarily small lettering; no detached details lost or clipping. Final Compose suitability still requires coordinator review..\n\nRationale: Replace former serif circular badge with evidenced new bold PUMB abbreviation identity using original transparent red vector..\nRole: Entire four-letter ПУМБ abbreviation forms the bank mark; no accompanying name or slogan.; variant: Original transparent red abbreviation, not the cream-on-red raster app colorway; no added backing..\nVisible difference: Former thin serif white abbreviation in red circle changes to the sourced bold red transparent mark. Attributable rebrand case explicitly removed circular badge and old typeface; new contours visibly match official current app mark..\nDetails: Independent original/trial theme diagnostics and full original/source-final images retain same red contours, four letters, internal counters and rising final б terminal. No raster tracing, recoloring or new geometry.. Proportions: Original 117x46 proportions and transparent placement preserved; whole mark fits square icon area at useful width, without stretching. Both Compose themes and bound 24/32/48px diagnostics recognize abbreviation; smallest text inherently compact but source details intact..\n\nSource-to-final transformations:\n- Working SVG exact official source copy; no geometry, paint, alpha or placement changes.\n- SVGO 4.1.0 frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1257 to 1071 bytes; selected SHA256 43cc4062a65a2d3e0a18710e6b5c006564b690ea88a170d10a4f0b70bb456249.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/6febb0fc7a8f3e48be997727c99198d927eb61ac/review-materials/15170/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/6febb0fc7a8f3e48be997727c99198d927eb61ac/review-materials/15170/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T06:09:45.490423059Z`. Source/final: Full original official SVG and source/final pairs on light/dark inspected: complete four-letter red typographic mark matches final, including rising б top, lower у extension and all cutouts. Entire abbreviation is mark rather than separate lettering. Original transparency/red preserved; app raster only contextual use, no cream recoloring.; base/final and rendering: Both exact offscreen Compose before/after theme pairs inspected: new bold red abbreviation replaces old white serif circular badge; no clipping, warped proportions or lost letter details. Source/final matches in both themes. Bound 24/32/48px resized diagnostics remain identifiable; mobile targets not-tested.\n\n- android-compose: not-tested (available: false) — Installed Android SDK lacks emulator and system image; no installation performed. Actual Android Compose rendering remains not-tested, with unverified mobile-render risk..\n- android-native: not-tested (available: false) — Installed Android SDK lacks emulator and system image; no installation performed. Actual Android native rendering remains not-tested, with unverified mobile-render risk..\n- ios-compose: not-tested (available: false) — Linux environment has no iOS runtime; actual iOS rendering remains untested..\n- ios-native: not-tested (available: false) — Linux environment has no iOS runtime; actual iOS rendering remains untested..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGZt6Ng",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/43",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Логотип сделать белым добавить красную подложку что бы во всех там было одинаково",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSGyCw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/43#issuecomment-6193000971",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "60c7952332cad3115762d437612473c6b755699d7260e4338baf177b7b448428",
+            "closedAt": "2026-10-15T13:17:30Z",
+            "head": "bank-icon-maintenance/o16z6s_l-15170",
+            "headCommit": "2eb2044b38e1f8d8f4ab71f634b9a5b7e0c482ee",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 43,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ПУМБ (Company.id 15170)",
+            "url": "https://github.com/zenmoney/banks/pull/43"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Логотип сделать белым добавить красную подложку что бы во всех там было одинаково",
+            "bodySha256": "04c60360d3352414a2c79665a1266dbf123293e2fa12d3a2c45ecbd12ee15480",
+            "createdAt": "2026-10-15T13:17:30Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSGyCw",
+            "text": "Логотип сделать белым добавить красную подложку что бы во всех там было одинаково",
+            "textSha256": "04c60360d3352414a2c79665a1266dbf123293e2fa12d3a2c45ecbd12ee15480",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/43#issuecomment-6193000971"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15170/candidate-46e3e7f1e6911aeecee00cbe5f5374bf2a3e968362f5f7a1bceaccb4c780f920.json",
         "sha256": "46e3e7f1e6911aeecee00cbe5f5374bf2a3e968362f5f7a1bceaccb4c780f920"
