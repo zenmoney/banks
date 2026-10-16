@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-02T18:03:36.493949Z",
+  "lastAttemptAt": "2026-10-16T21:12:29.963582Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -321,6 +321,148 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0",
         "xmlSha256": "c338b10a3b695bbcd0dcf4aa2ebee7eaa7074cc3bef89e5ec63b720116561ac4"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/4475/assessed-fa319c70046114b527aeac71a9fcede89835855ca7f16cc1a46e1c9103471e37.json",
+        "sha256": "fa319c70046114b527aeac71a9fcede89835855ca7f16cc1a46e1c9103471e37"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The original SVG is actively linked by the currently served official Databank homepage and matches current compact Databank branding; the legal-details page describes the current entity. Not inferred from an archive date.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Current title Датабанк and official legal history connect the renamed same bank (registration 646) to the old Ижкомбанк metadata. No parent/successor or metadata substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Homepage, original SVG and legal-details page are one official publisher, not three independent sources. Their claims are separate: present use/asset, original artwork, and identity continuity. No contradictory independent lifecycle claim is assumed.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Complete compact pure two-line wordmark, with no separate accompanying name or tagline. Original navy #1D478C and near-white #FEFEFE, all letter contours/counters, and original branded asymmetrical tile contour retained. No field/color invention, hole fill, crop, or palette editing. Full and actual 24/32 px independent raster references show recognizable readable lettering on both themes; Desktop verification remains parent-owned.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/078deaf7cedaaee6d5501b9745e45824971aeb42d7ed4a23165d4dc365cea9e8.json",
+        "sha256": "078deaf7cedaaee6d5501b9745e45824971aeb42d7ed4a23165d4dc365cea9e8"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The full original librsvg source reference and both source/final pairs show all eight letters intact: дата above банк. The д aperture and feet, all three а counters, the б bowl/counter and upper stroke, т crossbar, н bridge and к diagonals survive in the actual Desktop final. Generated XML retains the two original solid paints and counter subpaths; no missing stroke, filled counter, theme-colored hole or cropped letter is visible. The original asymmetric tile contour is preserved. Emblem fidelity and backing fidelity both pass; this is not merely a successful conversion claim.",
+        "faithful": true,
+        "iconHash": "1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b",
+        "path": "evidence/4475/candidate-1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b.svg",
+        "proportionsJudgement": "The 120x120 source proportions, line spacing, letter spacing and placement remain unchanged in the full final frames. The complete wordmark has clear space on all sides, with no stretching, clipping or extra shrink-to-circle margins. Keeping the source-authored shaped tile preserves its visible silhouette rather than changing it for catalog uniformity. Bound Desktop icon-canvas diagnostics at 24, 32 and 48px on both themes retain separate letters and open navy counters; at 24px the small text is antialiased but дата/банк remains readable, while 32px and 48px are clearer. Optical weight and internal contrast are consistent across themes.",
+        "rationale": "First icon addition for Company.id 4475 using the complete compact wordmark currently linked by the official Databank homepage. The official legal-details page connects current AO Databank, registration 646, to the same renamed Izhcombank entity; this is not a parent, successor or historical-purpose substitution. The fresh candidate gives the same navy-backed, near-white lettering on light and dark themes, addressing the saved consistency request without recoloring or repairing the rejected old emblem. No metadata change or precise logo-transition claim is made.",
+        "role": "Complete compact pure two-line Cyrillic wordmark, дата/банк, supplied as the official site's SVG favicon artwork. The lettering is the entire mark, not a separate accompanying bank-name label or tagline; this is not a claim that it is an official mobile app icon.",
+        "sha256": "1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b",
+        "sourceAssetUrl": "https://databank.ru/images/favicon.svg",
+        "sourceUrl": "https://databank.ru/",
+        "transforms": [
+          "No geometry, viewport, color, alpha, emblem-placement, or backing changes; complete original source kept.",
+          "Installed SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e produced 2561 bytes from 3197 bytes. Optimized hash 1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b selected after independent working/optimized raster inspection."
+        ],
+        "variant": "Current original #1D478C navy tile with #FEFEFE lettering. Its authored contour has rounded top-left, top-right and bottom-right corners and a sharp bottom-left corner. The complete source-authored backing and wordmark are retained, with transparency only outside the shaped tile; no circle, invented field or alpha-hole fill is introduced.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The frozen base has no icon.svg for this record, so this is an absence-to-real-current-icon first addition. Both exact final-only Desktop theme frames show the complete current wordmark. The rejected proposal is not an accepted baseline, and no blank before panel or invented baseline improvement is asserted."
+      },
+      "candidateIconHash": "1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b",
+      "checkedAt": "2026-10-16T21:12:29.963582Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "b02f519d9179e27667c2e78259c29d9c7cfe861a3bc7845cec4effcdbe98bf24",
+        "head": "bank-icon-maintenance/technical-20261016-4475",
+        "headCommit": "08f3e08e0d4a73ffa8b6d4f1979eeec3095afff7",
+        "number": 153,
+        "observedAt": "2026-10-16T21:28:46.987818Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Датабанк (Company.id 4475)",
+        "url": "https://github.com/zenmoney/banks/pull/153"
+      },
+      "reason": "Fresh current Databank original compact two-line wordmark replaces the rejected archived Izhcombank circular-emblem choice. The current official site serves a fixed navy tile with near-white lettering, making the complete lettering and interior colors identical on light and dark backgrounds. The bank is currently serving customers as AO Databank, registration 646; prior claims of a 2019–2020 closure are not supported and are not reused. Metadata is preserved.",
+      "reviewPackage": {
+        "path": "evidence/4475/candidate-cde24d1b7465a4093b4db5fb3a48f8c00b679e49edbca3c30108f9bc88e48c88.json",
+        "sha256": "cde24d1b7465a4093b4db5fb3a48f8c00b679e49edbca3c30108f9bc88e48c88"
+      },
+      "sourceCandidate": {
+        "iconHash": "f61974edb7e5655ffc07c2867081154dbf7e6000dd4d7ce9df4ae33b80b0dcfc",
+        "path": "evidence/4475/research-2cf3ded6fcff4aa7b85d7623bcf0cebc/fetch-65291f8a17fd44e0933e3161bf4cc165/attempt-1/body.bin",
+        "rationale": "Supported replacement for the current record: exact current official compact wordmark with fixed original backing and complete readable two-row letters. Unlike the rejected Izhcombank transparent counter, the original lettering/counters retain the same contrast on both backgrounds. Preserve the meaningful original tile silhouette rather than force a circle.",
+        "retrieval": {
+          "path": "evidence/4475/research-2cf3ded6fcff4aa7b85d7623bcf0cebc/fetch-65291f8a17fd44e0933e3161bf4cc165/receipt.json",
+          "sha256": "fadf11186ee58b79c6a5354f60a59c8065bfbd6fd481cd36969fe5e9cfdfc33f"
+        },
+        "sourceAssetUrl": "https://databank.ru/images/favicon.svg",
+        "sourceUrl": "https://databank.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T20:54:56.618798Z",
+          "independenceGroup": "Databank official website",
+          "kind": "official",
+          "observation": "Metadata domain retrieval failed with TLS unrecognized-name error. This is an access failure, not a lifecycle or closure finding.",
+          "url": "https://izhcombank.ru/"
+        },
+        {
+          "assetUrl": "https://databank.ru/images/favicon.svg",
+          "checkedAt": "2026-10-16T20:57:13.242110Z",
+          "independenceGroup": "Databank official website",
+          "kind": "official",
+          "observation": "Current homepage titled Датабанк для частных лиц, банковские услуги links /images/favicon.svg as SVG favicon. The downloaded original SVG is a complete compact two-line дата/банк white-on-navy wordmark tile with a deliberately sharp bottom-left corner, not the old blue Izhcombank emblem. Native favicon role does not by itself prove suitability; independent full and 24/32/48 px librsvg views were also inspected.",
+          "url": "https://databank.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T20:58:14.907157Z",
+          "independenceGroup": "Databank official website",
+          "kind": "official",
+          "observation": "The current official legal-details page identifies Акционерное общество «Датабанк», abbreviated АО «Датабанк», registration 646. Its history states that the 29.10.2019 shareholder decision renamed АКБ «Ижкомбанк» (ПАО) to АО «Датабанк» and removed public-company designation. It identifies databank.ru as its official registered site and describes present banking supervision. This establishes continuity to record 4475, whose title is Датабанк and fullTitle/domain retain the old Izhcombank references; it does not support the old attempt's closure story.",
+          "url": "https://databank.ru/about/rekvizity-i-obshchie-svedeniya/"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/4475/technical-retry-8a32b5e96fdbe3322c310550dcbe4b2f4402d5636331387c84ea153243cf5922.json",
+        "sha256": "8a32b5e96fdbe3322c310550dcbe4b2f4402d5636331387c84ea153243cf5922"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b",
+        "context": {
+          "path": "evidence/4475/technical-retry-8a32b5e96fdbe3322c310550dcbe4b2f4402d5636331387c84ea153243cf5922.json",
+          "sha256": "8a32b5e96fdbe3322c310550dcbe4b2f4402d5636331387c84ea153243cf5922"
+        },
+        "coverage": [
+          {
+            "basis": "For the saved request to make light and dark presentation consistent, the exact fresh Desktop frames show the same complete near-white дата/банк lettering on the same navy tile. All counters reveal the opaque original navy backing, not the surrounding theme, and no letter changes paint or disappears between themes. Only the transparent exterior around the authored rounded corners changes with the background.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "Inspected both source/final pairs and 24/32/48px diagnostics of the actual bound Desktop icon canvas on both themes. The two rows keep the same scale, spacing, solid foreground/backing and asymmetric silhouette; every letter and its counters remain present and readable. Theme consistency is achieved by retaining the current source's real backing, not by filling the old emblem's transparent counter or clipping the new wordmark.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "The saved rationale asks for consistency without prescribing a color or backing design. The newly retrieved, currently linked official original vector supplies the navy/near-white compact wordmark and its shaped backing together. Final SVG and generated XML preserve those paints and complete letter geometry, and the actual light/dark final frames show matching interior presentation. No arbitrary recoloring, circle normalization or historical-purpose change is used to satisfy the request.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "a7232497254a813f9ceb412683936fffc04561c56bcc2c13630771431f6b2ae9"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:25:15.680816Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b",
+        "xmlSha256": "a7232497254a813f9ceb412683936fffc04561c56bcc2c13630771431f6b2ae9"
       }
     }
   ],

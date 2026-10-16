@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-03T06:08:39.152613Z",
+  "lastAttemptAt": "2026-10-16T21:12:31.696540Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -304,6 +304,165 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "3c7487fe6fbd7b74a4d9d1c137486067edfc41c66836cc1410938d9a4b63e09e",
         "xmlSha256": "7669f2ce2038e96e2936aa6f4d67e5147cb9011a4bbe161e80217ad07f878a67"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/5192/assessed-84845e6777a826e1b9c452a443640a63aa2dadbf2efc5422f94323e59edfda98.json",
+        "sha256": "84845e6777a826e1b9c452a443640a63aa2dadbf2efc5422f94323e59edfda98"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current bank-controlled programme header uses the same magenta P as the fresh original SVG; current app listing uses the same complete open-P geometry and white-backed presentation. Source artwork date is historical provenance, not the current check date.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Bank-controlled rencredit.ru programme footer identifies the unchanged legal record (КБ Ренессанс Кредит ООО, license3354), while consumer mark is Ренессанс Банк. App listing links same domain. No metadata, entity, country, parent or successor substitution.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official bank programme and official app listing establish use/presentation; Commons supplies mirrored bank-origin geometry, not an independent current-use source. Logo-teka is a secondary alternative, not counted as independently confirming the bank artwork.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Retain complete first original-vector P path and original #FF0078; omit only separate wordmark. White is observed official app backing, not a reviewer-specified value. Standard circular catalog field is a disclosed presentation adaptation, not an official circular-app claim. Whole emblem is uniformly scaled/translated to60% of canvas width, matching approximate app-icon emblem size, with all source contours, internal alpha and vertical lower terminal intact. Independent full and24/32/48px working/optimized images were READ on both backgrounds; no clipping or fidelity loss observed. Desktop remains pending.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/41badf9d789a975c1f7337fc9a65b03f30fc250687f1a123914194da6ff53144.json",
+        "sha256": "41badf9d789a975c1f7337fc9a65b03f30fc250687f1a123914194da6ff53144"
+      },
+      "baseIconHash": "04d8e5c34eb72a38633c174615ff68f6b0bf122a627b553b2694fd189f763e60",
+      "candidate": {
+        "detailsJudgement": "The full original raster, official header, both source/final theme pairs, exact final SVG and generated XML show the complete rounded upper shoulder, horizontal top, bowl, long vertical stem, open lower-left gap and vertical lower-arm terminal. The source #FF0078 paint is retained. The final contains only the complete emblem plus a separate white backing: the counter and lower-left opening are not redrawn or individually painted, and the source's accompanying wordmark is absent. The white seen through those openings comes from the backing behind the still-open emblem. No emblem detail or satellite element is clipped or omitted.",
+        "faithful": true,
+        "iconHash": "01409f86ea5bf49c7a251399a1ecf6fa1f18061246c0e973a97a67367664f767",
+        "path": "evidence/5192/candidate-01409f86ea5bf49c7a251399a1ecf6fa1f18061246c0e973a97a67367664f767.svg",
+        "proportionsJudgement": "The whole emblem is uniformly placed with clear space inside the circle, rather than stretched or cropped. Both exact 240px Desktop frames and equal-size baseline/final diagnostics made from their complete 162px icon-canvas crops were inspected at 24, 32 and 48px. The final P remains recognizable at 24px; its narrow lower-left gap remains open, its stem and bowl remain distinct, and the vertical lower-arm terminal survives. At 32 and 48px those features are clearer. Optical weight is useful rather than excessively shrunken, and the final emblem is slightly larger than the accepted baseline's white emblem at equal canvas size. The white circle intentionally merges with the white light-theme cell; the magenta emblem remains visible. On dark, the complete white circular field is distinct, with no opaque square outside it. These are resized Desktop diagnostics, not mobile/native render passes.",
+        "rationale": "Correct the accepted baseline's altered lower-arm terminal and reversed emblem colors using the complete original magenta P, while materially repairing the rejected transparent presentation with a white backing supported by the observed official app icon. The reviewer requested a backing-color change without naming a replacement; white is selected from source evidence, not attributed to the reviewer. This is a geometry/color and presentation correction, not a claimed rebrand.",
+        "role": "Standalone P monogram extracted losslessly from the original lockup; no accompanying bank name or tagline.",
+        "sha256": "01409f86ea5bf49c7a251399a1ecf6fa1f18061246c0e973a97a67367664f767",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg",
+        "transforms": [
+          "Isolate the complete first path from the source lockup; remove only the independent accompanying wordmark and resolve the original .cls-1 paint to literal #ff0078. The working version retains the original d string unchanged.",
+          "Uniformly scale the complete emblem by 144/132.06 (1.090413448433) and translate source origin 55.02,55.03 to 48,48 on a 240px canvas. Nominal emblem width is 144px, or 60% of the canvas, approximately matching the observed official app composition. Add a separate white #FFFFFF circle cx=120 cy=120 r=120; transparency remains outside the circle. No clipping mask, per-part movement, recoloring, redraw, counter fill or raster embedding.",
+          "SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduces 497B working to 449B optimized. The optimized version flattens the uniform placement transform into path coordinates. Independent full-size working/optimized light and dark references were inspected without a visible contour, paint or backing change; the smaller optimized version is selected."
+        ],
+        "variant": "Original bank-origin #FF0078 P on a separate white #FFFFFF circular catalog backing. The official app image establishes the white-field presentation and approximate emblem scale; its rounded-square outer shape is not claimed to be an official circle. The original vector supplies all emblem contours and paint, not the app raster's differently encoded pink.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The actual accepted-base/final pairs show a smaller white P with a slanted lower-arm terminal on a pink circle becoming the complete original magenta P with a vertical terminal on a white circle. The saved rejected proposal instead had a transparent magenta P; the exact new SVG/XML now contain a real white backing, visibly evident in the dark-theme frame, rather than a renamed or reserialized transparent proposal. No exact historical transition or baseline provenance is inferred."
+      },
+      "candidateIconHash": "01409f86ea5bf49c7a251399a1ecf6fa1f18061246c0e973a97a67367664f767",
+      "checkedAt": "2026-10-16T21:12:31.696540Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "9e91925da20cbf426ea5caea3e62c3565e55fb60b9cd8a0a9989b148e61c2b6a",
+        "head": "bank-icon-maintenance/technical-20261016-5192",
+        "headCommit": "63e0df6c95e3bff24a3853c0ac7c061d9768d693",
+        "number": 154,
+        "observedAt": "2026-10-16T21:29:47.989193Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+        "url": "https://github.com/zenmoney/banks/pull/154"
+      },
+      "reason": "Reviewer requested changing the backing color but specified no exact replacement. Fresh official Renaissance app evidence supplies a white field; candidate keeps the complete bank-origin magenta P from the freshly fetched original vector and adds a white circular catalog backing. This is a supported presentation change from the rejected transparent candidate, not an invented palette or a claim that the reviewer selected white.",
+      "reviewPackage": {
+        "path": "evidence/5192/candidate-1031f00f61e4b348399b9635731574ed641a2d984994bf2f23cb89cf1af9d4e3.json",
+        "sha256": "1031f00f61e4b348399b9635731574ed641a2d984994bf2f23cb89cf1af9d4e3"
+      },
+      "sourceCandidate": {
+        "iconHash": "70de0ee01dde6104eae437e8882d85d0c8954597ecae1c1412c0a4df78a61de8",
+        "path": "evidence/5192/research-6522088dc0bb4c7a82125b5734b48c0d/fetch-d5bdaaee8027450897ad53976a480518/attempt-1/body.bin",
+        "rationale": "Meaningful reviewer-requested backing change from rejected transparent P to source-backed white circular catalog field. White is concretely observed in current official app icon; P geometry and magenta are kept from fresh original bank vector. No new palette, no tracing, no internal-hole fill or emblem recolor.",
+        "retrieval": {
+          "path": "evidence/5192/research-6522088dc0bb4c7a82125b5734b48c0d/fetch-d5bdaaee8027450897ad53976a480518/receipt.json",
+          "sha256": "bd300c1bcec376d0f316cc854e96d912f9fbac376809d13bd0e778c2cca08091"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T20:55:45.531969Z",
+          "independenceGroup": "Renaissance bank official publications",
+          "kind": "official",
+          "observation": "Main bank homepage returned HTTP403. Preserved failed receipt; this is an access limitation, not proof that the logo is absent.",
+          "url": "https://rencredit.ru/"
+        },
+        {
+          "assetUrl": "https://static.tildacdn.com/tild6230-6336-4538-a666-353035386663/RB_LOGO_COL_RGB.png",
+          "checkedAt": "2026-10-16T21:03:59.131075Z",
+          "independenceGroup": "Renaissance bank official publications",
+          "kind": "official",
+          "observation": "Freshly fetched bank-controlled programme page and header use the same complete magenta open P and Ренессанс Банк wordmark as the original vector. Footer identifies КБ «Ренессанс Кредит» (ООО), license3354, connecting consumer brand to unchanged record5192. The downloaded header was READ as image evidence; it is not vector source or a Desktop render.",
+          "url": "https://promo.rencredit.ru/"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/QTkNr6BThm0IQgMlRHDjDRBWqBjDBpE324-rqh7HzaiOUukF7bJOy6ze7hAIVMXwxB1CZ0flXcMt23eQUxXzehM=s0-br30",
+          "checkedAt": "2026-10-16T20:58:15.730076Z",
+          "independenceGroup": "Renaissance bank official app listing",
+          "kind": "official",
+          "observation": "Current official app listing for Ренессанс Банк links rencredit.ru and supplies an app icon with the complete pink open P on a uniform opaque white field. The actual returned PNG was READ; its dominant field pixels are exactly white. This supports choosing white rather than inventing an unspecified new backing color. It is raster research only, not geometry; the raster pink encoding differs from source #FF0078, so no exact app-pixel palette match or recoloring is claimed.",
+          "url": "https://play.google.com/store/apps/details?id=cz.bsc.rc"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "checkedAt": "2026-10-16T20:59:41.681900Z",
+          "independenceGroup": "Bank-origin vector mirrored by Wikimedia Commons",
+          "kind": "third-party",
+          "observation": "Freshly inspected Commons page gives bank website rencredit.ru as source, author Ренессанс Банк and 2022 source date. Actual downloaded SVG has a complete separable first path for P with .cls-1 fill #FF0078 and separate .cls-2 dark wordmark. Full original source was independently rendered and READ. Clean compact curves, explicit paint, no raster embedding; direct bank-origin vector is source geometry, not app raster tracing.",
+          "url": "https://commons.wikimedia.org/wiki/File%3A%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%B5%D0%BD%D0%B5%D1%81%D1%81%D0%B0%D0%BD%D1%81_%D0%91%D0%B0%D0%BD%D0%BA.svg"
+        },
+        {
+          "assetUrl": "https://logo-teka.com/wp-content/uploads/2025/07/renessans-bank-sign-logo.svg",
+          "checkedAt": "2026-10-16T21:00:54.259035Z",
+          "independenceGroup": "Logo-teka vector library",
+          "kind": "third-party",
+          "observation": "Standalone SVG sign was fetched as an alternative: same open-P contour, #FF0078, transparent field, Adobe Illustrator export. It does not supply a different backing; the bank-origin Commons source is selected instead. No independent currency vote is attributed to copied artwork.",
+          "url": "https://logo-teka.com/renessans-bank/"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/5192/technical-retry-a871fd27be8ae5cab6b7c44e989492090b4f90a366713b7a3915cc921bc8bbff.json",
+        "sha256": "a871fd27be8ae5cab6b7c44e989492090b4f90a366713b7a3915cc921bc8bbff"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "01409f86ea5bf49c7a251399a1ecf6fa1f18061246c0e973a97a67367664f767",
+        "context": {
+          "path": "evidence/5192/technical-retry-a871fd27be8ae5cab6b7c44e989492090b4f90a366713b7a3915cc921bc8bbff.json",
+          "sha256": "a871fd27be8ae5cab6b7c44e989492090b4f90a366713b7a3915cc921bc8bbff"
+        },
+        "coverage": [
+          {
+            "basis": "The request 'Поменять цвет подложки' is materially addressed: unlike the saved rejected transparent magenta P, the exact new final SVG and generated XML contain a separate opaque white circular backing. The actual dark Desktop frame visibly shows that field surrounding and behind the complete P; the light frame retains the same magenta mark while the white field merges with the light cell. This is a real presentation change, not serialization alone.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "Both actual source/final theme pairs and the 24/32/48px diagnostics were inspected after the backing change. The white field is supported by the retained official app image, leaves the complete source P, open lower-left gap and vertical terminal intact, and remains useful-sized in both themes. The accepted-base/final pairs separately show the pink-circle/white-P baseline becoming a white-circle/original-magenta-P candidate; that baseline is not confused with the rejected transparent proposal.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "The saved rationale correctly says no replacement color was specified. I did not infer white from that phrase: the actual retained official Renaissance Bank app image was read and shows the same complete P on an opaque white field. White therefore has independent presentation support. The original vector's #FF0078 is preserved rather than recolored to the raster's differently encoded pink, and the circle is disclosed as a catalog backing adaptation. No claim is made that the reviewer selected or approved white.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "f2bb05ad0cc1c215c5823cbf236c77b5c0551e7260e3536473756206d17aa5b4"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:25:22.139722Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "01409f86ea5bf49c7a251399a1ecf6fa1f18061246c0e973a97a67367664f767",
+        "xmlSha256": "f2bb05ad0cc1c215c5823cbf236c77b5c0551e7260e3536473756206d17aa5b4"
       }
     }
   ],

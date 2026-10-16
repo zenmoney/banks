@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-04T06:06:01.434370Z",
+  "lastAttemptAt": "2026-10-16T21:12:33.445676Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -331,6 +331,170 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248",
         "xmlSha256": "80f2fcdfe8dc1c1012078f4d37e8b9e0f81fba1cf81861fc4d9f37ac794b1345"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/15831/assessed-a1a98458c9a2005ba01ed03d263a93a41c4f2af7d7009cad618375a64ead65fb.json",
+        "sha256": "a1a98458c9a2005ba01ed03d263a93a41c4f2af7d7009cad618375a64ead65fb"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Live official bank homepage, rename page and public brandbook served after retry capture; bank-linked original symbol and current brandbook field are used, not prior attempt assertions.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "sb.lt redirects to Artea; current bank rename page explicitly continues Šiaulių bankas customer relationships under Artea. Same LT bank, original metadata preserved.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Primary bank website plus bank-linked Drive original provide authoritative provenance and role; they are one bank-controlled source family, not claimed independent corroboration.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original Artea_Symbol_White.svg is explicitly the standalone white symbol. Exact #071844 field and white-on-dark use are stated and illustrated by official brandbook. Complete emblem is uniformly placed on a same-color circle; no recoloring, tracing, hole filling or official-circle claim.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ab79e5705a55bcd3cb1108f0a140effba336534c7c33f8bede2b75556ebe3eb6.json",
+        "sha256": "ab79e5705a55bcd3cb1108f0a140effba336534c7c33f8bede2b75556ebe3eb6"
+      },
+      "baseIconHash": "6d9c3b17c69c782de5bd17a05a91c99c6e88b7a044b618f78c3ee58d29c6913a",
+      "candidate": {
+        "detailsJudgement": "Inspected the full original white-source raster, original SVG, actual official inverse-field artwork, source/final pairs on both themes, exact final SVG and generated VectorDrawable XML. The complete angular a-like silhouette survives: upper-left notch, oblique open counter, rounded contour transitions and lower-right descending terminal are all present. White remains the authored #fff; the counter is still a knockout in the symbol and reveals the navy backing rather than becoming white paint. The final XML has a separate #071844 backing path and #fff emblem path. Outer corners remain transparent. The circle changes presentation only; emblem fidelity is independently supported.",
+        "faithful": true,
+        "iconHash": "b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2",
+        "path": "evidence/15831/candidate-b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2.svg",
+        "proportionsJudgement": "The complete emblem retains the original 1000:785.484 aspect and relative geometry through whole-emblem translation only. Exact Compose Desktop light/dark frames show clear field between all emblem extremities and the circular edge, with no clipped terminal, notch or counter. The brandbook's safety-zone text specifies an X-height exclusion of competing visual elements; its actual artwork shows that rule and 120px/10mm minimum for the full lockup. The separately inspected standalone white-on-navy field illustration has canvas edges closer than X, and the text explicitly permits the symbol as app icon/favicon. Therefore the uniform field edge is not treated as a competing graphic or as a requirement for X-sized canvas padding; no claim is made that the bank approved this circle. At actual 24/32/48px diagnostics uniformly resized from the 162px icon crop of the bound 240px Desktop frames, the white mark remains useful and identifiable on both themes: the counter stays open, the top notch and descending right terminal remain distinguishable, and no detail reaches the backing edge. The navy circle is lower-contrast against dark theme, but the high-contrast white emblem does not merge into it.",
+        "rationale": "Supported replacement of the accepted SB-shaped mark with the currently published Artea standalone symbol for the same operating Lithuanian bank. The fresh technical repair uses the bank-authored white inverse on the documented corporate navy field instead of the rejected dark transparent presentation. The circle is a catalog backing adaptation, not a claimed official round avatar or an invented rebrand date.",
+        "role": "Standalone Artea geometric bank symbol, without accompanying bank name, slogan or explanatory text.",
+        "sha256": "b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2",
+        "sourceAssetUrl": "https://drive.usercontent.google.com/uc?id=1MloLsioMvb0-44XsHwtmFiuUdMGh2cFe&export=download",
+        "sourceUrl": "https://www.artea.lt/en/public-brandbook",
+        "transforms": [
+          "The working copy retains the original white symbol path and its authored white paint. Final optimization inlines the original style and folds the placement transform into path coordinates. No tracing, redrawing, recoloring, rotation, individual-part movement or counter filling was performed.",
+          "Uniform scale 1; complete 1000x785.484 source symbol translated by (300,407.258) onto a 1600x1600 canvas. A separate Artea Blue #071844 circle has center (800,800), radius 800; transparency remains outside the circle. Only the plain field is adapted, not the emblem. The emblem height is about half the backing height, consistent with the inspected standalone field illustration; no emblem detail is clipped.",
+          "SVGO 4.1.0 with frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced the 1171-byte working SVG to 958 bytes. The optimized result SHA256 b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2 was selected. The existing working/optimized independent librsvg diagnostic was also visually inspected: no visible contour, fill, counter or placement difference was observed. Those images are not Desktop or mobile render passes."
+        ],
+        "variant": "Original bank-authored Artea_Symbol_White.svg (#ffffff), on Artea Blue #071844 circular catalog backing. The official brandbook separately shows this white standalone variant on a uniform navy field; no official circular asset or avatar was observed or claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The exact accepted-base/final pairs show the accepted tall navy SB-shaped mark replaced by the compact white Artea symbol on navy. That is a visible supported replacement, not merely SVG reserialization or a claim about unknown baseline provenance. Relative to the saved rejected proposal, the correction is the source-authored white inverse on corporate navy rather than navy-transparent artwork; the saved reviewers' dark-merging finding is retained as ground truth, not recast as a previous pass. The historical rejected frames were not re-observed in this review. In the actual new Desktop dark and light frames the white silhouette and internal counter are clearly visible."
+      },
+      "candidateIconHash": "b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2",
+      "checkedAt": "2026-10-16T21:12:33.445676Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "480160f6512900bce718277d5b14e3a068b980535d654ce98b7a57de46318aac",
+        "head": "bank-icon-maintenance/technical-20261016-15831",
+        "headCommit": "0a12ffd46bfb2a19fa809aa5f7daf3121166f491",
+        "number": 155,
+        "observedAt": "2026-10-16T21:30:50.265859Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+        "url": "https://github.com/zenmoney/banks/pull/155"
+      },
+      "reason": "Found genuine original white standalone Artea symbol in the live bank-linked logopack and exact bank-authored #071844 corporate field example. Prepared a source-preserving white-on-navy circular catalog presentation to address both theme remarks; independent librsvg working/optimized images were inspected, but no Desktop/XML acceptance is claimed.",
+      "reviewPackage": {
+        "path": "evidence/15831/candidate-07fd7a0794cf231e3f97dcbb78df7f59e21a0dc10b2ddbd0950cb704f8c484d3.json",
+        "sha256": "07fd7a0794cf231e3f97dcbb78df7f59e21a0dc10b2ddbd0950cb704f8c484d3"
+      },
+      "sourceCandidate": {
+        "iconHash": "056725291ce7ae089563bd19904d5dc1f34acafa511fc8811c538c38a1a93c2e",
+        "path": "evidence/15831/research-c9d3bd48d1934dcbb34e8ab074019626/fetch-da313c791eb444aababe714e8364d5cb/attempt-2/body.bin",
+        "rationale": "Replace rejected dark transparent Artea mark with the bank-authored white inverse on the exact corporate navy field. Circle is only a catalog field adaptation; full original vector path, white paint and internal transparency remain intact.",
+        "retrieval": {
+          "path": "evidence/15831/research-c9d3bd48d1934dcbb34e8ab074019626/fetch-da313c791eb444aababe714e8364d5cb/receipt.json",
+          "sha256": "abeda82e8c7d926093cf34193443dc69dd19856b53fff9a6d007570a216f13f1"
+        },
+        "sourceAssetUrl": "https://drive.usercontent.google.com/uc?id=1MloLsioMvb0-44XsHwtmFiuUdMGh2cFe&export=download",
+        "sourceUrl": "https://www.artea.lt/en/public-brandbook"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T21:07:00Z",
+          "independenceGroup": "Artea official publications",
+          "kind": "official",
+          "observation": "Fresh HTTPS redirects sb.lt to https://www.artea.lt/lt, where Artea bank is actively presented. Redirect alone is not used as legal-entity proof.",
+          "url": "https://sb.lt/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T21:07:00Z",
+          "independenceGroup": "Artea official publications",
+          "kind": "official",
+          "observation": "Bank states Šiaulių bankas became Artea; customer contracts, services, account payment conditions and existing cards continue unchanged. This is the same renamed operating Lithuanian bank, not an inferred historical/successor substitution. Existing Company.id, LT country and metadata are unchanged.",
+          "url": "https://www.artea.lt/lt/apie/artea-naujas-siauliu-banko-vardas"
+        },
+        {
+          "assetUrl": "https://drive.usercontent.google.com/uc?id=1MloLsioMvb0-44XsHwtmFiuUdMGh2cFe&export=download",
+          "checkedAt": "2026-10-16T21:07:00Z",
+          "independenceGroup": "Artea official publications and bank-linked Drive logopack",
+          "kind": "official",
+          "observation": "Current public brandbook explicitly permits standalone symbol as app icon/social profile/favicon and specifies Artea Blue #071844 or White #ffffff according to background. Bank-linked logopack -> 1_Symbol -> 2_White -> Artea_Symbol_White.svg was retrieved through the viewer-provided download URL. Exact original is 1091 bytes, SHA256 056725291ce7ae089563bd19904d5dc1f34acafa511fc8811c538c38a1a93c2e; authored white path, not recolored navy favicon.",
+          "url": "https://www.artea.lt/en/public-brandbook"
+        },
+        {
+          "assetUrl": "https://cdn.artea.lt/mainweb/uploads/media/68ee232051f96/artea-bb-11-39.png",
+          "checkedAt": "2026-10-16T21:07:00Z",
+          "independenceGroup": "Artea official publications and bank-linked Drive logopack",
+          "kind": "official",
+          "observation": "Downloaded and READ original brandbook example: complete white standalone geometric mark on uniform Artea Blue #071844 field. Brandbook source field is rectangular with rounded canvas corners; no official circular avatar is claimed. Same-color circle is a disclosed catalog backing adaptation, not a new emblem. White original vector supplies all contours and alpha.",
+          "url": "https://www.artea.lt/en/public-brandbook"
+        },
+        {
+          "assetUrl": "https://cdn.artea.lt/mainweb/uploads/media/6a576d4180fb5/artea-bb-16-2048x1288.png",
+          "checkedAt": "2026-10-16T21:07:00Z",
+          "independenceGroup": "Artea official publications",
+          "kind": "official",
+          "observation": "READ current clearspace/minimum-size artwork: full lockup clearspace X is based on symbol height, full lockup minimum shown as 120px/10mm. Standalone symbol guidance separately authorizes app-icon/favicon use. Candidate includes no competing graphic or wordmark; original field illustration already places uniform field boundaries closer than full-height X, so X is treated as exclusion of competing elements, not mandatory field-edge padding. This interpretation is explicitly disclosed for parent review.",
+          "url": "https://www.artea.lt/en/public-brandbook"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/15831/technical-retry-2da5757b297c27cdfcdfb5193b1a1393f742180ba52203999ac8976b08156caf.json",
+        "sha256": "2da5757b297c27cdfcdfb5193b1a1393f742180ba52203999ac8976b08156caf"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2",
+        "context": {
+          "path": "evidence/15831/technical-retry-2da5757b297c27cdfcdfb5193b1a1393f742180ba52203999ac8976b08156caf.json",
+          "sha256": "2da5757b297c27cdfcdfb5193b1a1393f742180ba52203999ac8976b08156caf"
+        },
+        "coverage": [
+          {
+            "basis": "The requested white icon on corporate color is now source-backed, not a manual recoloring: the actual bank-linked Artea_Symbol_White.svg authors #fff and the official brandbook states and illustrates white on Artea Blue #071844. Both colors are present in the exact final SVG/XML. Inspected actual final Desktop light and dark frames show the complete white silhouette and open navy counter clearly, and actual 24/32/48px Desktop-frame diagnostics retain recognition on both themes.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "The saved request for light/dark adaptation and white-on-corporate-color presentation is met by the original authored white standalone emblem on the exact navy field. The exact light frame shows a distinct navy circle with white detail; the exact dark frame still shows a distinct white symbol rather than dark transparent artwork. Full source/final and base/final comparisons, including the 24px and 32px resized icon-canvas diagnostics, show intact notch, counter and lower-right terminal without clipping. The round backing is explicitly catalog-only.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "The second review's reported dark-theme disappearance is retained as a real failure of the rejected navy-transparent variant. A genuine authored inverse was found in the bank-linked white-symbol pack, so no improvised light backing or source recoloring is needed. In the actual new #121212 Desktop frame the entire white a-like emblem is high contrast; at actual 24px, 32px and 48px resized diagnostics its open counter and descending terminal remain visible. The navy circle boundary is lower-contrast on dark, but the emblem itself no longer blends into the theme. No historical rejected render or unavailable mobile target is falsely reported as rechecked.",
+            "pass": true,
+            "requirementId": "requirement-2"
+          },
+          {
+            "basis": "The complete combined constraint is addressed, not just a serialization change: fresh original white geometry and authored paint, documented corporate navy, source-supported standalone role and same-bank current applicability, complete emblem/alpha preservation, and both-theme useful-size observations all support this final. The full official field and full-lockup clearspace artwork were actually inspected; the disclosed circle changes only a uniform field and does not invent official round-avatar use. Exact final SVG/XML and Desktop source/base/final images were read. All four mobile targets remain concretely unavailable/not-tested with residual risks, not asserted passes or waived failures.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "ceafbeda55d43993de84ef101bcddca96eb567f29c8c2f7e84c1768c4a838544"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:25:29.086917Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2",
+        "xmlSha256": "ceafbeda55d43993de84ef101bcddca96eb567f29c8c2f7e84c1768c4a838544"
       }
     }
   ],
