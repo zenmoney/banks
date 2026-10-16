@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/13ly3qmb-15361",
         "headCommit": "e7ab0e98a0f233e5a1beff294dc516b73fcdc06e",
         "number": 46,
-        "observedAt": "2026-10-03T07:03:22.992095Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:28:30.577996Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк ЦентрКредит (Company.id 15361)",
         "url": "https://github.com/zenmoney/banks/pull/46"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "398b9361774cd3f3ef7603d57523a3ab7e68a292c2365db9b73b8ecbdce2ebfb",
+          "head": "bank-icon-maintenance/13ly3qmb-15361",
+          "headCommit": "e7ab0e98a0f233e5a1beff294dc516b73fcdc06e",
+          "number": 46,
+          "observedAt": "2026-10-03T07:03:22.992095Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк ЦентрКредит (Company.id 15361)",
+          "url": "https://github.com/zenmoney/banks/pull/46"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "398b9361774cd3f3ef7603d57523a3ab7e68a292c2365db9b73b8ecbdce2ebfb",
+        "closedAt": "2026-10-15T13:14:33Z",
+        "head": "bank-icon-maintenance/13ly3qmb-15361",
+        "headCommit": "e7ab0e98a0f233e5a1beff294dc516b73fcdc06e",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 46,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк ЦентрКредит (Company.id 15361)",
+        "url": "https://github.com/zenmoney/banks/pull/46"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:28:30.577996Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "398b9361774cd3f3ef7603d57523a3ab7e68a292c2365db9b73b8ecbdce2ebfb",
+          "closedAt": "2026-10-15T13:14:33Z",
+          "head": "bank-icon-maintenance/13ly3qmb-15361",
+          "headCommit": "e7ab0e98a0f233e5a1beff294dc516b73fcdc06e",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 46,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк ЦентрКредит (Company.id 15361)",
+          "url": "https://github.com/zenmoney/banks/pull/46"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "The currently operating bank's official homepage publishes an original standalone bcc.kz app emblem SVG: white nested rounded triangles on #00AB75 rounded-square backing. The accepted icon uses #26AE60 circular backing and differently serialized emblem paths. The official source supports a current color/geometry correction, subject to coordinator base/final renders; no claim that circular presentation itself is obsolete.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15361/candidate-5368940ad0ec37853473f44061f9f5539e11731648a822493b743b1d76142988.json",
         "sha256": "5368940ad0ec37853473f44061f9f5539e11731648a822493b743b1d76142988"
@@ -110,7 +163,7 @@
           "url": "https://www.bcc.kz/kz/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T06:40:48.533022Z",
         "compose": "1.12.0",

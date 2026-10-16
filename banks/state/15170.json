@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/o16z6s_l-15170",
         "headCommit": "2eb2044b38e1f8d8f4ab71f634b9a5b7e0c482ee",
         "number": 43,
-        "observedAt": "2026-10-03T06:22:33.283341Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:28:13.068561Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: ПУМБ (Company.id 15170)",
         "url": "https://github.com/zenmoney/banks/pull/43"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "60c7952332cad3115762d437612473c6b755699d7260e4338baf177b7b448428",
+          "head": "bank-icon-maintenance/o16z6s_l-15170",
+          "headCommit": "2eb2044b38e1f8d8f4ab71f634b9a5b7e0c482ee",
+          "number": 43,
+          "observedAt": "2026-10-03T06:22:33.283341Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ПУМБ (Company.id 15170)",
+          "url": "https://github.com/zenmoney/banks/pull/43"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "60c7952332cad3115762d437612473c6b755699d7260e4338baf177b7b448428",
+        "closedAt": "2026-10-15T13:17:30Z",
+        "head": "bank-icon-maintenance/o16z6s_l-15170",
+        "headCommit": "2eb2044b38e1f8d8f4ab71f634b9a5b7e0c482ee",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 43,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ПУМБ (Company.id 15170)",
+        "url": "https://github.com/zenmoney/banks/pull/43"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:28:13.068561Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "60c7952332cad3115762d437612473c6b755699d7260e4338baf177b7b448428",
+          "closedAt": "2026-10-15T13:17:30Z",
+          "head": "bank-icon-maintenance/o16z6s_l-15170",
+          "headCommit": "2eb2044b38e1f8d8f4ab71f634b9a5b7e0c482ee",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 43,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ПУМБ (Company.id 15170)",
+          "url": "https://github.com/zenmoney/banks/pull/43"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Official original vector and current bank app support the new bold ПУМБ abbreviation mark. The accepted white serif abbreviation on a red circle is the former identity; Banda’s Golden Drum rebrand case explicitly reports removal of the circular badge and old typeface. Propose the original transparent red variant without recoloring or inventing a backing.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15170/candidate-46e3e7f1e6911aeecee00cbe5f5374bf2a3e968362f5f7a1bceaccb4c780f920.json",
         "sha256": "46e3e7f1e6911aeecee00cbe5f5374bf2a3e968362f5f7a1bceaccb4c780f920"
@@ -118,7 +171,7 @@
           "url": "https://play.google.com/store/apps/details/?hl=en-US&id=com.fuib.android.spot.online"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T06:13:03.431969Z",
         "compose": "1.12.0",

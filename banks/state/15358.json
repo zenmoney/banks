@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T06:35:07.572998Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T06:40:47.665312Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "68be9c76b34684bb4c41da76842ab92483d55d28",
+      "acceptedIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
       "agentAssessment": {
         "path": "evidence/15358/assessed-efb2d8d9675af97a79aa71d4313cefa8808c135efbb48f16f9e31e33d486309c.json",
         "sha256": "efb2d8d9675af97a79aa71d4313cefa8808c135efbb48f16f9e31e33d486309c"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/13ly3qmb-15358",
         "headCommit": "68be9c76b34684bb4c41da76842ab92483d55d28",
         "number": 45,
-        "observedAt": "2026-10-03T06:59:49.974895Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:28:29.697994Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Swedbank (Company.id 15358)",
         "url": "https://github.com/zenmoney/banks/pull/45"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ca823bd3b1e65426a5d938511b608930c518d013930d97a1121552c7d8feb425",
+          "head": "bank-icon-maintenance/13ly3qmb-15358",
+          "headCommit": "68be9c76b34684bb4c41da76842ab92483d55d28",
+          "number": 45,
+          "observedAt": "2026-10-03T06:59:49.974895Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Swedbank (Company.id 15358)",
+          "url": "https://github.com/zenmoney/banks/pull/45"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ca823bd3b1e65426a5d938511b608930c518d013930d97a1121552c7d8feb425",
+        "closedAt": "2026-10-15T14:32:07Z",
+        "head": "bank-icon-maintenance/13ly3qmb-15358",
+        "headCommit": "68be9c76b34684bb4c41da76842ab92483d55d28",
+        "mergeCommit": "bf777c890cea815e85a1af04ddfbcb877b66fe39",
+        "mergedAt": "2026-10-15T14:32:06Z",
+        "number": 45,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Swedbank (Company.id 15358)",
+        "url": "https://github.com/zenmoney/banks/pull/45"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:28:29.697994Z",
+        "proof": {
+          "accepted": {
+            "commit": "bf777c890cea815e85a1af04ddfbcb877b66fe39",
+            "iconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+            "metadataHash": "5ea52a845c16e9ae0855a4cd3c4e5f3fea3889ad2bff52912f83328cb4054a2c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
+            "metadataHash": "5ea52a845c16e9ae0855a4cd3c4e5f3fea3889ad2bff52912f83328cb4054a2c"
+          },
+          "path": "banks/Swedbank_15358-lv/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "68be9c76b34684bb4c41da76842ab92483d55d28",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ca823bd3b1e65426a5d938511b608930c518d013930d97a1121552c7d8feb425",
+          "closedAt": "2026-10-15T14:32:07Z",
+          "head": "bank-icon-maintenance/13ly3qmb-15358",
+          "headCommit": "68be9c76b34684bb4c41da76842ab92483d55d28",
+          "mergeCommit": "bf777c890cea815e85a1af04ddfbcb877b66fe39",
+          "mergedAt": "2026-10-15T14:32:06Z",
+          "number": 45,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Swedbank (Company.id 15358)",
+          "url": "https://github.com/zenmoney/banks/pull/45"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current Latvian website displays the detailed golden oak coin in its header. Swedbank's official brand page separately distributes the standalone coin without SINCE 1820 as the Symbol. The accepted icon renders a flat brown, solid oak silhouette on an orange field, omitting the coin rim, golden shading and interior crown/trunk openings visible in the original official vector. Recommend original official standalone Symbol as an evidenced geometry/detail/color correction, not a claim of newly announced rebranding.",
       "reviewPackage": {
@@ -102,7 +172,7 @@
           "url": "https://www.swedbank.com/newsroom/logotype.html"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T06:40:47.665312Z",
         "compose": "1.12.0",
@@ -112,5 +182,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97"
 }

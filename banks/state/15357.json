@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T06:32:56.100570Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T06:36:49.253484Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "179b55d5e517a8125197c305dc8aa3ed73e091bf",
+      "acceptedIconHash": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa",
       "agentAssessment": {
         "path": "evidence/15357/assessed-74846e1890c86390b7721d28a7b4bb1149fcb9bffe2f28aae3d43199e0dcd67e.json",
         "sha256": "74846e1890c86390b7721d28a7b4bb1149fcb9bffe2f28aae3d43199e0dcd67e"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/13ly3qmb-15357",
         "headCommit": "179b55d5e517a8125197c305dc8aa3ed73e091bf",
         "number": 44,
-        "observedAt": "2026-10-03T06:57:41.759254Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:28:17.270297Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Citadele (Company.id 15357)",
         "url": "https://github.com/zenmoney/banks/pull/44"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b6858d487c8ba6a20e1ad78652d5f5cd4617e20ba16f2ea1055958eb5ecd7b18",
+          "head": "bank-icon-maintenance/13ly3qmb-15357",
+          "headCommit": "179b55d5e517a8125197c305dc8aa3ed73e091bf",
+          "number": 44,
+          "observedAt": "2026-10-03T06:57:41.759254Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Citadele (Company.id 15357)",
+          "url": "https://github.com/zenmoney/banks/pull/44"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b6858d487c8ba6a20e1ad78652d5f5cd4617e20ba16f2ea1055958eb5ecd7b18",
+        "closedAt": "2026-10-15T14:31:57Z",
+        "head": "bank-icon-maintenance/13ly3qmb-15357",
+        "headCommit": "179b55d5e517a8125197c305dc8aa3ed73e091bf",
+        "mergeCommit": "63eb43de206c7a77a42f91b0e1066e1e5a7ebeb8",
+        "mergedAt": "2026-10-15T14:31:57Z",
+        "number": 44,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Citadele (Company.id 15357)",
+        "url": "https://github.com/zenmoney/banks/pull/44"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:28:17.270297Z",
+        "proof": {
+          "accepted": {
+            "commit": "63eb43de206c7a77a42f91b0e1066e1e5a7ebeb8",
+            "iconHash": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa",
+            "metadataHash": "2b77f7e8ad8643a1448a22204544218bfef180200a8aff825dde7bbca758c00b"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa",
+            "metadataHash": "2b77f7e8ad8643a1448a22204544218bfef180200a8aff825dde7bbca758c00b"
+          },
+          "path": "banks/Citadele_15357-lv/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "179b55d5e517a8125197c305dc8aa3ed73e091bf",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b6858d487c8ba6a20e1ad78652d5f5cd4617e20ba16f2ea1055958eb5ecd7b18",
+          "closedAt": "2026-10-15T14:31:57Z",
+          "head": "bank-icon-maintenance/13ly3qmb-15357",
+          "headCommit": "179b55d5e517a8125197c305dc8aa3ed73e091bf",
+          "mergeCommit": "63eb43de206c7a77a42f91b0e1066e1e5a7ebeb8",
+          "mergedAt": "2026-10-15T14:31:57Z",
+          "number": 44,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Citadele (Company.id 15357)",
+          "url": "https://github.com/zenmoney/banks/pull/44"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official Latvian Citadele website currently serves a standalone white C on #D90730 red as its mobile header, chat logo and mobile-bank footer icon. The accepted SVG instead has two white horizontal bars on #D2333B red. This is a supported emblem/color update, not a serialization-only change; no claim of unchanged or completed catalog rendering is made.",
       "reviewPackage": {
@@ -91,7 +161,7 @@
           "url": "https://www.citadele.lv/lv/private/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T06:36:49.253484Z",
         "compose": "1.12.0",
@@ -101,5 +171,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "fd7f8fbb9cd81b0fda26357d571c91dd995b4391592b5fb640d2efe42ff8c9fa"
 }
