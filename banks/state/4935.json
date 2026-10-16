@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-01T23:37:22.031507Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-01T23:41:08.474827Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "020b6de60cc0a50ef848e41c9a658362c8fb1971",
+      "acceptedIconHash": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511",
       "agentAssessment": {
         "path": "evidence/4935/assessed-900fe1a2fea69dec872ea2b23d7b7de5206a0a51cd00ea884812b5c691aec7d1.json",
         "sha256": "900fe1a2fea69dec872ea2b23d7b7de5206a0a51cd00ea884812b5c691aec7d1"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance-4935",
         "headCommit": "020b6de60cc0a50ef848e41c9a658362c8fb1971",
         "number": 16,
-        "observedAt": "2026-10-01T23:47:19.597409Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:22.040188Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ОТП Банк (Company.id 4935)",
         "url": "https://github.com/zenmoney/banks/pull/16"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "a80eec6b3137b82e2d3bbb692dd2d9730abde38e9d8b4971465f35d4f56549e5",
+          "head": "bank-icon-maintenance-4935",
+          "headCommit": "020b6de60cc0a50ef848e41c9a658362c8fb1971",
+          "number": 16,
+          "observedAt": "2026-10-01T23:47:19.597409Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ОТП Банк (Company.id 4935)",
+          "url": "https://github.com/zenmoney/banks/pull/16"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "a80eec6b3137b82e2d3bbb692dd2d9730abde38e9d8b4971465f35d4f56549e5",
+        "closedAt": "2026-10-15T14:30:05Z",
+        "head": "bank-icon-maintenance-4935",
+        "headCommit": "020b6de60cc0a50ef848e41c9a658362c8fb1971",
+        "mergeCommit": "e99ced61b67cfa9ff5e75f0800ded462fb1a76ee",
+        "mergedAt": "2026-10-15T14:30:05Z",
+        "number": 16,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ОТП Банк (Company.id 4935)",
+        "url": "https://github.com/zenmoney/banks/pull/16"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:42:22.040188Z",
+        "proof": {
+          "accepted": {
+            "commit": "e99ced61b67cfa9ff5e75f0800ded462fb1a76ee",
+            "iconHash": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511",
+            "metadataHash": "372649777b2c2b252c859b5740312fd82d7a8dabcfd28ef77ac64c1059fdcd58"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511",
+            "metadataHash": "372649777b2c2b252c859b5740312fd82d7a8dabcfd28ef77ac64c1059fdcd58"
+          },
+          "path": "banks/ОТП Банк_4935-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "020b6de60cc0a50ef848e41c9a658362c8fb1971",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "a80eec6b3137b82e2d3bbb692dd2d9730abde38e9d8b4971465f35d4f56549e5",
+          "closedAt": "2026-10-15T14:30:05Z",
+          "head": "bank-icon-maintenance-4935",
+          "headCommit": "020b6de60cc0a50ef848e41c9a658362c8fb1971",
+          "mergeCommit": "e99ced61b67cfa9ff5e75f0800ded462fb1a76ee",
+          "mergedAt": "2026-10-15T14:30:05Z",
+          "number": 16,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ОТП Банк (Company.id 4935)",
+          "url": "https://github.com/zenmoney/banks/pull/16"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Accepted standalone mark uses dark-green outer ring and satellite dot, lime central disk. Current official Russian brand page instead shows all-black emblem on lime or white; independent Banki.ru vector matches this current variant. Propose source-preserving extraction of standalone black emblem from genuine vector, not the accompanying wordmark.",
       "reviewPackage": {
@@ -114,7 +184,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9E%D0%A2%D0%9F+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-01T23:41:08.474827Z",
         "compose": "1.12.0",
@@ -124,5 +194,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "26971facf8fe2fb551a382004e6f32dfa346a928a689369523abe840b05ff511"
 }

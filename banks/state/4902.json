@@ -1,6 +1,7 @@
 {
   "lastAttemptAt": "2026-10-05T08:37:30.416275Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-05T08:45:24.023619Z",
   "proposals": [
     {
       "agentAssessment": {
@@ -244,6 +245,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "94c13e054e2689fdca0fac5c6ba492c4d28a2bef",
+      "acceptedIconHash": "0d73862655078f9685acb0b8aad05b9b2703ae07cd64f7da181327362ef76bdc",
       "agentAssessment": {
         "path": "evidence/4902/assessed-76578d97b209fbc70958d3c004cdf258d250950cd30bd79e8c15883f3c279c55.json",
         "sha256": "76578d97b209fbc70958d3c004cdf258d250950cd30bd79e8c15883f3c279c55"
@@ -303,11 +306,78 @@
         "head": "bank-icon-maintenance/bank-icon-4902-v2",
         "headCommit": "94c13e054e2689fdca0fac5c6ba492c4d28a2bef",
         "number": 144,
-        "observedAt": "2026-10-05T08:55:32.354005Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:14.679023Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Т-Банк (Company.id 4902)",
         "url": "https://github.com/zenmoney/banks/pull/144"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1b9385d4e6cdd9fcfa95e6ac26f7bf7d4165810aeffe49b4d56c04eb5cc13b45",
+          "head": "bank-icon-maintenance/bank-icon-4902-v2",
+          "headCommit": "94c13e054e2689fdca0fac5c6ba492c4d28a2bef",
+          "number": 144,
+          "observedAt": "2026-10-05T08:55:32.354005Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Т-Банк (Company.id 4902)",
+          "url": "https://github.com/zenmoney/banks/pull/144"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1b9385d4e6cdd9fcfa95e6ac26f7bf7d4165810aeffe49b4d56c04eb5cc13b45",
+        "closedAt": "2026-10-15T14:42:57Z",
+        "head": "bank-icon-maintenance/bank-icon-4902-v2",
+        "headCommit": "94c13e054e2689fdca0fac5c6ba492c4d28a2bef",
+        "mergeCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "mergedAt": "2026-10-15T14:42:57Z",
+        "number": 144,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Т-Банк (Company.id 4902)",
+        "url": "https://github.com/zenmoney/banks/pull/144"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:42:14.679023Z",
+        "proof": {
+          "accepted": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "0d73862655078f9685acb0b8aad05b9b2703ae07cd64f7da181327362ef76bdc",
+            "metadataHash": "2bad49f327b3aa0abad31ea9a562fe9552c4fc91bee8bcbb49b624c35aa6867c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "0d73862655078f9685acb0b8aad05b9b2703ae07cd64f7da181327362ef76bdc",
+            "metadataHash": "2bad49f327b3aa0abad31ea9a562fe9552c4fc91bee8bcbb49b624c35aa6867c"
+          },
+          "path": "banks/Т-Банк_4902-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "94c13e054e2689fdca0fac5c6ba492c4d28a2bef",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1b9385d4e6cdd9fcfa95e6ac26f7bf7d4165810aeffe49b4d56c04eb5cc13b45",
+          "closedAt": "2026-10-15T14:42:57Z",
+          "head": "bank-icon-maintenance/bank-icon-4902-v2",
+          "headCommit": "94c13e054e2689fdca0fac5c6ba492c4d28a2bef",
+          "mergeCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "mergedAt": "2026-10-15T14:42:57Z",
+          "number": 144,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Т-Банк (Company.id 4902)",
+          "url": "https://github.com/zenmoney/banks/pull/144"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Found an original authored vector of the current Т-Банк mark: Wikimedia Commons 'T-Bank RU logo.svg' (yellow #FFDD2D shield with dark #333333 Т plus БАНК wordmark, source stated as the bank's site, file dated 2024-06-05). The official apple-touch-icon (refetched live this session) confirms the current app-icon presentation inverts colors: white shield with dark Т on a yellow #FFDD2D square field. The accepted baseline is the yellow-shield variant, which is the brand lockup form; the app icon is the square standalone brand mark with the shield inverted. A supported update is justified: adapt the authored vector's shield and Т geometry into the official app-icon presentation. No tracing involved, unlike the rejected PR #14 candidate.",
       "reviewPackage": {
@@ -354,7 +424,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:T-Bank_RU_logo.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-05T08:45:24.023619Z",
         "compose": "1.12.0",
@@ -364,5 +434,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "0d73862655078f9685acb0b8aad05b9b2703ae07cd64f7da181327362ef76bdc"
 }

@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-01T23:35:11.861339Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-01T23:37:55.871376Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1f9e80ac65e23c5aa9bcf6c95809bae9b1a302de",
+      "acceptedIconHash": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f",
       "agentAssessment": {
         "path": "evidence/4920/assessed-81bdfcce38cbba95c2a337e40b02338a322036b6ff1a8dc980454901ce47e3ad.json",
         "sha256": "81bdfcce38cbba95c2a337e40b02338a322036b6ff1a8dc980454901ce47e3ad"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance-4920",
         "headCommit": "1f9e80ac65e23c5aa9bcf6c95809bae9b1a302de",
         "number": 15,
-        "observedAt": "2026-10-01T23:43:51.923511Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:18.240678Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: СКБ Приморья \"Примсоцбанк\" (Company.id 4920)",
         "url": "https://github.com/zenmoney/banks/pull/15"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "1d18f1f68e7aaac27d7e7f4c6efacec03c69ad9bdb608ccd8189ef4123f8473a",
+          "head": "bank-icon-maintenance-4920",
+          "headCommit": "1f9e80ac65e23c5aa9bcf6c95809bae9b1a302de",
+          "number": 15,
+          "observedAt": "2026-10-01T23:43:51.923511Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: СКБ Приморья \"Примсоцбанк\" (Company.id 4920)",
+          "url": "https://github.com/zenmoney/banks/pull/15"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "1d18f1f68e7aaac27d7e7f4c6efacec03c69ad9bdb608ccd8189ef4123f8473a",
+        "closedAt": "2026-10-15T14:29:57Z",
+        "head": "bank-icon-maintenance-4920",
+        "headCommit": "1f9e80ac65e23c5aa9bcf6c95809bae9b1a302de",
+        "mergeCommit": "5689f6177c8ecac075292780803e506529f4ba66",
+        "mergedAt": "2026-10-15T14:29:57Z",
+        "number": 15,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: СКБ Приморья \"Примсоцбанк\" (Company.id 4920)",
+        "url": "https://github.com/zenmoney/banks/pull/15"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:42:18.240678Z",
+        "proof": {
+          "accepted": {
+            "commit": "5689f6177c8ecac075292780803e506529f4ba66",
+            "iconHash": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f",
+            "metadataHash": "27214d734b32d483cf67915e02e60a7f15d423f664d1d385c1d73f5029c17483"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f",
+            "metadataHash": "27214d734b32d483cf67915e02e60a7f15d423f664d1d385c1d73f5029c17483"
+          },
+          "path": "banks/СКБ Приморья _Примсоцбанк__4920-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1f9e80ac65e23c5aa9bcf6c95809bae9b1a302de",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "1d18f1f68e7aaac27d7e7f4c6efacec03c69ad9bdb608ccd8189ef4123f8473a",
+          "closedAt": "2026-10-15T14:29:57Z",
+          "head": "bank-icon-maintenance-4920",
+          "headCommit": "1f9e80ac65e23c5aa9bcf6c95809bae9b1a302de",
+          "mergeCommit": "5689f6177c8ecac075292780803e506529f4ba66",
+          "mergedAt": "2026-10-15T14:29:57Z",
+          "number": 15,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: СКБ Приморья \"Примсоцбанк\" (Company.id 4920)",
+          "url": "https://github.com/zenmoney/banks/pull/15"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Current official Примсоцбанк logo has a pale-gold rounded-square backing and eleven-white-dot hourglass. Accepted SVG has a darker #B49F65 circular backing. Finuslugi distributes an original standalone SVG with current rounded-square design, supporting a visible correction.",
       "reviewPackage": {
@@ -122,7 +192,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A1%D0%9A%D0%91+%D0%9F%D1%80%D0%B8%D0%BC%D0%BE%D1%80%D1%8C%D1%8F+%22%D0%9F%D1%80%D0%B8%D0%BC%D1%81%D0%BE%D1%86%D0%B1%D0%B0%D0%BD%D0%BA%22%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-01T23:37:55.871376Z",
         "compose": "1.12.0",
@@ -132,5 +202,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "5b68e565cd50b955df5ea21b4fc51c95da07d428c0743dc8dd5d8ef537b12c7f"
 }

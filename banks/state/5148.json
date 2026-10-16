@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T05:36:24.013851Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T05:39:42.297080Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "7dc86c89d576dc04b26fd6795f5dfc7db40893bb",
+      "acceptedIconHash": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450",
       "agentAssessment": {
         "path": "evidence/5148/assessed-de2741bc4fb45cd05233376ca2feb858add4096ff4fa84ecb54b7800ed8c076a.json",
         "sha256": "de2741bc4fb45cd05233376ca2feb858add4096ff4fa84ecb54b7800ed8c076a"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/t9at3xn0-5148",
         "headCommit": "7dc86c89d576dc04b26fd6795f5dfc7db40893bb",
         "number": 40,
-        "observedAt": "2026-10-03T05:44:58.406368Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:25.260781Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: НБ \"ТРАСТ\" (Company.id 5148)",
         "url": "https://github.com/zenmoney/banks/pull/40"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "94a6ecb48b36614d79da7f1605fd1b6e806a143360a774d8fb23874848bc5d21",
+          "head": "bank-icon-maintenance/t9at3xn0-5148",
+          "headCommit": "7dc86c89d576dc04b26fd6795f5dfc7db40893bb",
+          "number": 40,
+          "observedAt": "2026-10-03T05:44:58.406368Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: НБ \"ТРАСТ\" (Company.id 5148)",
+          "url": "https://github.com/zenmoney/banks/pull/40"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "94a6ecb48b36614d79da7f1605fd1b6e806a143360a774d8fb23874848bc5d21",
+        "closedAt": "2026-10-15T14:31:38Z",
+        "head": "bank-icon-maintenance/t9at3xn0-5148",
+        "headCommit": "7dc86c89d576dc04b26fd6795f5dfc7db40893bb",
+        "mergeCommit": "08f6f6f1af94b1e3b4f56a298006e34192ba4a8e",
+        "mergedAt": "2026-10-15T14:31:37Z",
+        "number": 40,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: НБ \"ТРАСТ\" (Company.id 5148)",
+        "url": "https://github.com/zenmoney/banks/pull/40"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:42:25.260781Z",
+        "proof": {
+          "accepted": {
+            "commit": "08f6f6f1af94b1e3b4f56a298006e34192ba4a8e",
+            "iconHash": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450",
+            "metadataHash": "a7065890ba9799f22ff7ed1fbc727f427018c2ab2ff6653766718c04e93fb7fc"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450",
+            "metadataHash": "a7065890ba9799f22ff7ed1fbc727f427018c2ab2ff6653766718c04e93fb7fc"
+          },
+          "path": "banks/НБ _ТРАСТ__5148-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "7dc86c89d576dc04b26fd6795f5dfc7db40893bb",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "94a6ecb48b36614d79da7f1605fd1b6e806a143360a774d8fb23874848bc5d21",
+          "closedAt": "2026-10-15T14:31:38Z",
+          "head": "bank-icon-maintenance/t9at3xn0-5148",
+          "headCommit": "7dc86c89d576dc04b26fd6795f5dfc7db40893bb",
+          "mergeCommit": "08f6f6f1af94b1e3b4f56a298006e34192ba4a8e",
+          "mergedAt": "2026-10-15T14:31:37Z",
+          "number": 40,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: НБ \"ТРАСТ\" (Company.id 5148)",
+          "url": "https://github.com/zenmoney/banks/pull/40"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official trust.ru homepage identifies National bank Trust in metadata and currently uses the tricolor angular square emblem. Vedomosti reports the same bank's February 2020 rebrand. This supports replacement of the accepted red circular T-like cutout, not a white-fill repair or unsupported successor substitution.",
       "reviewPackage": {
@@ -104,7 +174,7 @@
           "url": "https://www.vedomosti.ru/finance/articles/2020/02/12/822877-smenil-v-na-trikolor"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T05:39:42.297080Z",
         "compose": "1.12.0",
@@ -114,5 +184,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "8219da734117b2902616ff9db30df32158ca94fc0fda67cf9708adf4b4906450"
 }

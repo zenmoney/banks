@@ -57,13 +57,66 @@
         "head": "bank-icon-maintenance/bank-icon-4803",
         "headCommit": "5b5b0957a476a8bddc119f582ad59691409cbad6",
         "number": 12,
-        "observedAt": "2026-10-01T21:49:01.246986Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:07.982571Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Бланк (Company.id 4803)",
         "url": "https://github.com/zenmoney/banks/pull/12"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "67794ec8be17097f20d396d788e79111722e4ce2af229e634593dfc0073ebbdd",
+          "head": "bank-icon-maintenance/bank-icon-4803",
+          "headCommit": "5b5b0957a476a8bddc119f582ad59691409cbad6",
+          "number": 12,
+          "observedAt": "2026-10-01T21:49:01.246986Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Бланк (Company.id 4803)",
+          "url": "https://github.com/zenmoney/banks/pull/12"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "67794ec8be17097f20d396d788e79111722e4ce2af229e634593dfc0073ebbdd",
+        "closedAt": "2026-10-14T17:06:37Z",
+        "head": "bank-icon-maintenance/bank-icon-4803",
+        "headCommit": "5b5b0957a476a8bddc119f582ad59691409cbad6",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 12,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Бланк (Company.id 4803)",
+        "url": "https://github.com/zenmoney/banks/pull/12"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:42:07.982571Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "67794ec8be17097f20d396d788e79111722e4ce2af229e634593dfc0073ebbdd",
+          "closedAt": "2026-10-14T17:06:37Z",
+          "head": "bank-icon-maintenance/bank-icon-4803",
+          "headCommit": "5b5b0957a476a8bddc119f582ad59691409cbad6",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 12,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Бланк (Company.id 4803)",
+          "url": "https://github.com/zenmoney/banks/pull/12"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Live official blanc.ru assets show the current brand mark as a black squircle with a white open-ring C cutout; the accepted baseline is a black circle with a white open-ring C. Same mark motif, current official container is a squircle — supported current design update. Vector official favicon (safari-pinned-tab.svg, single path) selected as source asset; visual comparison of renders is the next stage.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4803/candidate-b14659bc2a5a460d107909314e4d1a183651bb35300f95b913d8b55df2b5c678.json",
         "sha256": "b14659bc2a5a460d107909314e4d1a183651bb35300f95b913d8b55df2b5c678"
@@ -129,7 +182,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%91%D0%BB%D0%B0%D0%BD%D0%BA%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-01T21:44:04.562651Z",
         "compose": "1.12.0",

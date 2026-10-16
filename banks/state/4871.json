@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-01T21:33:38.721706Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-01T21:44:12.355111Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "c4861ff28ef40aa17553b5b6a26a879bb0b77fbe",
+      "acceptedIconHash": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3",
       "agentAssessment": {
         "path": "evidence/4871/assessed-5d7cb578402ccab2eed2a61518725837d2c11d68a9bb8470f8fa1111ad793548.json",
         "sha256": "5d7cb578402ccab2eed2a61518725837d2c11d68a9bb8470f8fa1111ad793548"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/bank-icon-4871",
         "headCommit": "c4861ff28ef40aa17553b5b6a26a879bb0b77fbe",
         "number": 13,
-        "observedAt": "2026-10-01T21:50:23.081729Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:11.576853Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Ак Барс Банк (Company.id 4871)",
         "url": "https://github.com/zenmoney/banks/pull/13"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "83203d04dcd0fee029896dc071cb0f0e411b366b23a66996997250acf5ac76be",
+          "head": "bank-icon-maintenance/bank-icon-4871",
+          "headCommit": "c4861ff28ef40aa17553b5b6a26a879bb0b77fbe",
+          "number": 13,
+          "observedAt": "2026-10-01T21:50:23.081729Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ак Барс Банк (Company.id 4871)",
+          "url": "https://github.com/zenmoney/banks/pull/13"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "83203d04dcd0fee029896dc071cb0f0e411b366b23a66996997250acf5ac76be",
+        "closedAt": "2026-10-15T14:29:49Z",
+        "head": "bank-icon-maintenance/bank-icon-4871",
+        "headCommit": "c4861ff28ef40aa17553b5b6a26a879bb0b77fbe",
+        "mergeCommit": "11b88ac80aac8679ef9dd5473017c10ce971c693",
+        "mergedAt": "2026-10-15T14:29:49Z",
+        "number": 13,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ак Барс Банк (Company.id 4871)",
+        "url": "https://github.com/zenmoney/banks/pull/13"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:42:11.576853Z",
+        "proof": {
+          "accepted": {
+            "commit": "11b88ac80aac8679ef9dd5473017c10ce971c693",
+            "iconHash": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3",
+            "metadataHash": "d78c5ebaeb2ad7b02fb243af061bbca2d12a3981c5fc8551494d29ce9007b599"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3",
+            "metadataHash": "d78c5ebaeb2ad7b02fb243af061bbca2d12a3981c5fc8551494d29ce9007b599"
+          },
+          "path": "banks/Ак Барс Банк_4871-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "c4861ff28ef40aa17553b5b6a26a879bb0b77fbe",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "83203d04dcd0fee029896dc071cb0f0e411b366b23a66996997250acf5ac76be",
+          "closedAt": "2026-10-15T14:29:49Z",
+          "head": "bank-icon-maintenance/bank-icon-4871",
+          "headCommit": "c4861ff28ef40aa17553b5b6a26a879bb0b77fbe",
+          "mergeCommit": "11b88ac80aac8679ef9dd5473017c10ce971c693",
+          "mergedAt": "2026-10-15T14:29:49Z",
+          "number": 13,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ак Барс Банк (Company.id 4871)",
+          "url": "https://github.com/zenmoney/banks/pull/13"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Ak Bars Bank's current standalone mark (official Ак Барс Онлайн app icon on RuStore, v3.220.0 modified 2026-09-29) is a green rounded square with a white monoline АББ mark; the accepted baseline uses an older green square with a different leopard/paw-style emblem. Evidenced rebrand justifies the update.",
       "reviewPackage": {
@@ -118,7 +188,7 @@
           "url": "https://itunes.apple.com/search?term=akbars&entity=software&limit=10&country=ru"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-01T21:44:12.355111Z",
         "compose": "1.12.0",
@@ -128,5 +198,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "4bc27c6d33606f10228e52755cc3e166c3d69ffb43d93abda4d3b26993b225d3"
 }

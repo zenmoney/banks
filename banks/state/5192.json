@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/o16z6s_l-5192",
         "headCommit": "c8068b161da0a23d5c44b1ef5afbc97a2d2c66d1",
         "number": 42,
-        "observedAt": "2026-10-03T06:19:17.419515Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:29.180402Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
         "url": "https://github.com/zenmoney/banks/pull/42"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "685b950ba5502969e942f282b7b5871286a0ad742c6556a0d77cf32df48aba7e",
+          "head": "bank-icon-maintenance/o16z6s_l-5192",
+          "headCommit": "c8068b161da0a23d5c44b1ef5afbc97a2d2c66d1",
+          "number": 42,
+          "observedAt": "2026-10-03T06:19:17.419515Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+          "url": "https://github.com/zenmoney/banks/pull/42"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "685b950ba5502969e942f282b7b5871286a0ad742c6556a0d77cf32df48aba7e",
+        "closedAt": "2026-10-15T13:18:17Z",
+        "head": "bank-icon-maintenance/o16z6s_l-5192",
+        "headCommit": "c8068b161da0a23d5c44b1ef5afbc97a2d2c66d1",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 42,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+        "url": "https://github.com/zenmoney/banks/pull/42"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:42:29.180402Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "685b950ba5502969e942f282b7b5871286a0ad742c6556a0d77cf32df48aba7e",
+          "closedAt": "2026-10-15T13:18:17Z",
+          "head": "bank-icon-maintenance/o16z6s_l-5192",
+          "headCommit": "c8068b161da0a23d5c44b1ef5afbc97a2d2c66d1",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 42,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+          "url": "https://github.com/zenmoney/banks/pull/42"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "An original vector lockup sourced from the bank website is preserved on Commons, and its standalone magenta P emblem matches the currently served official programme header. The operating bank remains legally КБ Ренессанс Кредит (ООО), registration 3354, while its consumer brand is Ренессанс Банк. The accepted white emblem differs: its lower horizontal arm has a diagonal terminal, whereas the supported original has a vertical terminal; its backing is #EA3378 rather than source emblem #FF0078. Propose faithful isolation of the source magenta emblem, not recoloring it white or retaining an unsupported backing.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/5192/candidate-1eb522f313679f5c58971e9800ab4203b2961104199167a0d9a9ccd36ba67140.json",
         "sha256": "1eb522f313679f5c58971e9800ab4203b2961104199167a0d9a9ccd36ba67140"
@@ -114,7 +167,7 @@
           "url": "https://cbr.ru/finorg/foinfo/?id=1315037839440"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T06:13:02.686655Z",
         "compose": "1.12.0",

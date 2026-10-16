@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T05:37:11.529685Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T05:41:19.037184Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "560b1558470e68b58ce0a7196acb3e5d74380ccd",
+      "acceptedIconHash": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29",
       "agentAssessment": {
         "path": "evidence/5189/assessed-ff53861b994034ea572ff2c53226e378e54015364a1b9e9abb18781891470362.json",
         "sha256": "ff53861b994034ea572ff2c53226e378e54015364a1b9e9abb18781891470362"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/t9at3xn0-5189",
         "headCommit": "560b1558470e68b58ce0a7196acb3e5d74380ccd",
         "number": 41,
-        "observedAt": "2026-10-03T05:48:21.338431Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:42:28.297512Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Россельхозбанк (Company.id 5189)",
         "url": "https://github.com/zenmoney/banks/pull/41"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0de48f60d0c08d4edd02e2c9afee775221432686f9940d39b2d44b4ae223783e",
+          "head": "bank-icon-maintenance/t9at3xn0-5189",
+          "headCommit": "560b1558470e68b58ce0a7196acb3e5d74380ccd",
+          "number": 41,
+          "observedAt": "2026-10-03T05:48:21.338431Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Россельхозбанк (Company.id 5189)",
+          "url": "https://github.com/zenmoney/banks/pull/41"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0de48f60d0c08d4edd02e2c9afee775221432686f9940d39b2d44b4ae223783e",
+        "closedAt": "2026-10-15T14:31:47Z",
+        "head": "bank-icon-maintenance/t9at3xn0-5189",
+        "headCommit": "560b1558470e68b58ce0a7196acb3e5d74380ccd",
+        "mergeCommit": "97df40c612bc6cbf1f0860522943a715879f6b9f",
+        "mergedAt": "2026-10-15T14:31:47Z",
+        "number": 41,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Россельхозбанк (Company.id 5189)",
+        "url": "https://github.com/zenmoney/banks/pull/41"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:42:28.297512Z",
+        "proof": {
+          "accepted": {
+            "commit": "97df40c612bc6cbf1f0860522943a715879f6b9f",
+            "iconHash": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29",
+            "metadataHash": "1016ac99afcb792bcb616ce2b190737dc0409c077dc09d251bdcb8df29e6c7d7"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29",
+            "metadataHash": "1016ac99afcb792bcb616ce2b190737dc0409c077dc09d251bdcb8df29e6c7d7"
+          },
+          "path": "banks/Россельхозбанк_5189-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "560b1558470e68b58ce0a7196acb3e5d74380ccd",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0de48f60d0c08d4edd02e2c9afee775221432686f9940d39b2d44b4ae223783e",
+          "closedAt": "2026-10-15T14:31:47Z",
+          "head": "bank-icon-maintenance/t9at3xn0-5189",
+          "headCommit": "560b1558470e68b58ce0a7196acb3e5d74380ccd",
+          "mergeCommit": "97df40c612bc6cbf1f0860522943a715879f6b9f",
+          "mergedAt": "2026-10-15T14:31:47Z",
+          "number": 41,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Россельхозбанк (Company.id 5189)",
+          "url": "https://github.com/zenmoney/banks/pull/41"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The official operating bank homepage currently displays a three-bar yellow/lime/dark-green emblem with the РСХБ wordmark. Its official Android website icon separately displays the same three-bar composition without lettering. The official 20 October 2023 announcement explains adoption of abbreviated РСХБ logos for advertising and digital channels. This provides a source-supported replacement for the accepted detailed wheat/circular emblem, without asserting that every older bank logo is prohibited.",
       "reviewPackage": {
@@ -111,7 +181,7 @@
           "url": "https://www.rshb.ru/news/20102023-000001"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T05:41:19.037184Z",
         "compose": "1.12.0",
@@ -121,5 +191,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "df6c3e29889864cc9e801ae320148faf8c5bbda9e5829d65f14bd5800a0c1b29"
 }
