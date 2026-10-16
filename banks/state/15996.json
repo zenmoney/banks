@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T19:29:23.534408Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T19:31:28.203478Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "2ad3a8b395890124fc889385d18d31e96e7f31bd",
+      "acceptedIconHash": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e",
       "agentAssessment": {
         "path": "evidence/15996/assessed-113e3c837ec7ae77d8eec3ad8102473f6c333118192b5047835278583486a4cf.json",
         "sha256": "113e3c837ec7ae77d8eec3ad8102473f6c333118192b5047835278583486a4cf"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/millennium-bcp-15996",
         "headCommit": "2ad3a8b395890124fc889385d18d31e96e7f31bd",
         "number": 132,
-        "observedAt": "2026-10-04T19:40:35.183896Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:26.898860Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Millennium BCP (Company.id 15996)",
         "url": "https://github.com/zenmoney/banks/pull/132"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "72807fe5e6778e8bb3a7af47bd4483d8f78447736ff07e2a624068596071233e",
+          "head": "bank-icon-maintenance/millennium-bcp-15996",
+          "headCommit": "2ad3a8b395890124fc889385d18d31e96e7f31bd",
+          "number": 132,
+          "observedAt": "2026-10-04T19:40:35.183896Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Millennium BCP (Company.id 15996)",
+          "url": "https://github.com/zenmoney/banks/pull/132"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "72807fe5e6778e8bb3a7af47bd4483d8f78447736ff07e2a624068596071233e",
+        "closedAt": "2026-10-15T14:41:19Z",
+        "head": "bank-icon-maintenance/millennium-bcp-15996",
+        "headCommit": "2ad3a8b395890124fc889385d18d31e96e7f31bd",
+        "mergeCommit": "10f6e6fd327adf7c444193101ada80a888fd7575",
+        "mergedAt": "2026-10-15T14:41:19Z",
+        "number": 132,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Millennium BCP (Company.id 15996)",
+        "url": "https://github.com/zenmoney/banks/pull/132"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:26.898860Z",
+        "proof": {
+          "accepted": {
+            "commit": "10f6e6fd327adf7c444193101ada80a888fd7575",
+            "iconHash": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e",
+            "metadataHash": "41fc7d8bc8c7d0d0361615035e1204505a1c321587fb3af8167f4673877a96cf"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e",
+            "metadataHash": "41fc7d8bc8c7d0d0361615035e1204505a1c321587fb3af8167f4673877a96cf"
+          },
+          "path": "banks/Millennium BCP_15996-pt/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "2ad3a8b395890124fc889385d18d31e96e7f31bd",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "72807fe5e6778e8bb3a7af47bd4483d8f78447736ff07e2a624068596071233e",
+          "closedAt": "2026-10-15T14:41:19Z",
+          "head": "bank-icon-maintenance/millennium-bcp-15996",
+          "headCommit": "2ad3a8b395890124fc889385d18d31e96e7f31bd",
+          "mergeCommit": "10f6e6fd327adf7c444193101ada80a888fd7575",
+          "mergedAt": "2026-10-15T14:41:19Z",
+          "number": 132,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Millennium BCP (Company.id 15996)",
+          "url": "https://github.com/zenmoney/banks/pull/132"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "millenniumbcp.pt (fetched 2026-10-04) currently presents the Millennium 'M' as white glyph on a flat magenta #D1005D rounded square (official favicon.svg vector, apple-touch-icon raster). The accepted baseline shows the same M glyph on a circular crimson disc; the disc presentation is not what the bank currently uses as its standalone mark. The official favicon.svg is an original, untraced vector of the current mark.",
       "reviewPackage": {
@@ -98,7 +168,7 @@
           "url": "https://www.millenniumbcp.pt"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T19:31:28.203478Z",
         "compose": "1.12.0",
@@ -108,5 +178,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "3c6fc5473ea95161c19f5f251dadd4c0d71bf526a872c46afb56f605992e1e3e"
 }

@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/15903",
         "headCommit": "dc150d678a44277ed3673b78154ed5676a21d59a",
         "number": 124,
-        "observedAt": "2026-10-04T14:59:43.014947Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:03.660920Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: UniCredit (Company.id 15903)",
         "url": "https://github.com/zenmoney/banks/pull/124"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "4bd74e7660976b058e32f170af2cbc1d23db8f724e6b26c46cd10f5aee88bf26",
+          "head": "bank-icon-maintenance/15903",
+          "headCommit": "dc150d678a44277ed3673b78154ed5676a21d59a",
+          "number": 124,
+          "observedAt": "2026-10-04T14:59:43.014947Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: UniCredit (Company.id 15903)",
+          "url": "https://github.com/zenmoney/banks/pull/124"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "4bd74e7660976b058e32f170af2cbc1d23db8f724e6b26c46cd10f5aee88bf26",
+        "closedAt": "2026-10-14T17:07:01Z",
+        "head": "bank-icon-maintenance/15903",
+        "headCommit": "dc150d678a44277ed3673b78154ed5676a21d59a",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 124,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: UniCredit (Company.id 15903)",
+        "url": "https://github.com/zenmoney/banks/pull/124"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:37:03.660920Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "4bd74e7660976b058e32f170af2cbc1d23db8f724e6b26c46cd10f5aee88bf26",
+          "closedAt": "2026-10-14T17:07:01Z",
+          "head": "bank-icon-maintenance/15903",
+          "headCommit": "dc150d678a44277ed3673b78154ed5676a21d59a",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 124,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: UniCredit (Company.id 15903)",
+          "url": "https://github.com/zenmoney/banks/pull/124"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "The accepted icon is the pre-2023 UniCredit sphere/swoosh mark; UniCredit's current brand (in use since the 2023 rebrand) is the two-chevron red mark, observed as the live logo asset of the official UniCredit press site (unicredit.pl DAM, page content current to 2026). The fetched asset is a self-contained original vector SVG (525 bytes, two filled paths, #E2001A) with no external references; raster tracing was not involved.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15903/candidate-5cb7e5841f75dae4757f9bd4963694df31e4fd02b37daf6b678fd9537730fc94.json",
         "sha256": "5cb7e5841f75dae4757f9bd4963694df31e4fd02b37daf6b678fd9537730fc94"
@@ -106,7 +159,7 @@
           "url": "https://www.unicreditgroup.eu/en/unicredit-at-a-glance/our-brand.html"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T14:48:12.221938Z",
         "compose": "1.12.0",

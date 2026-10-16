@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T13:14:41.134006Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T13:18:11.406166Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1bdab52d55a3e74a68687290b490a8480013c34a",
+      "acceptedIconHash": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d",
       "agentAssessment": {
         "path": "evidence/15895/assessed-c453f68be84a7463fcf721d2812ce47d0c982c8bf72c68b84cdbe27a6ea82615.json",
         "sha256": "c453f68be84a7463fcf721d2812ce47d0c982c8bf72c68b84cdbe27a6ea82615"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/w8pdbui1-15895",
         "headCommit": "1bdab52d55a3e74a68687290b490a8480013c34a",
         "number": 120,
-        "observedAt": "2026-10-04T13:31:07.146156Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:36:55.574157Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: IDBank (Company.id 15895)",
         "url": "https://github.com/zenmoney/banks/pull/120"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "702c32c9f4291e546dbd2a10f3018fc2ed7eaa09645e348128486caf6031d1f2",
+          "head": "bank-icon-maintenance/w8pdbui1-15895",
+          "headCommit": "1bdab52d55a3e74a68687290b490a8480013c34a",
+          "number": 120,
+          "observedAt": "2026-10-04T13:31:07.146156Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: IDBank (Company.id 15895)",
+          "url": "https://github.com/zenmoney/banks/pull/120"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "702c32c9f4291e546dbd2a10f3018fc2ed7eaa09645e348128486caf6031d1f2",
+        "closedAt": "2026-10-15T14:39:54Z",
+        "head": "bank-icon-maintenance/w8pdbui1-15895",
+        "headCommit": "1bdab52d55a3e74a68687290b490a8480013c34a",
+        "mergeCommit": "d9edfadea2de8ee66a197326617496d759332822",
+        "mergedAt": "2026-10-15T14:39:54Z",
+        "number": 120,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: IDBank (Company.id 15895)",
+        "url": "https://github.com/zenmoney/banks/pull/120"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:36:55.574157Z",
+        "proof": {
+          "accepted": {
+            "commit": "d9edfadea2de8ee66a197326617496d759332822",
+            "iconHash": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d",
+            "metadataHash": "5884ee4fb5588d0b9595977e5e25f26c0b0268ad9f2478f3d6e66bf84a4c1900"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d",
+            "metadataHash": "5884ee4fb5588d0b9595977e5e25f26c0b0268ad9f2478f3d6e66bf84a4c1900"
+          },
+          "path": "banks/IDBank_15895-am/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1bdab52d55a3e74a68687290b490a8480013c34a",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "702c32c9f4291e546dbd2a10f3018fc2ed7eaa09645e348128486caf6031d1f2",
+          "closedAt": "2026-10-15T14:39:54Z",
+          "head": "bank-icon-maintenance/w8pdbui1-15895",
+          "headCommit": "1bdab52d55a3e74a68687290b490a8480013c34a",
+          "mergeCommit": "d9edfadea2de8ee66a197326617496d759332822",
+          "mergedAt": "2026-10-15T14:39:54Z",
+          "number": 120,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: IDBank (Company.id 15895)",
+          "url": "https://github.com/zenmoney/banks/pull/120"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current logo supplies an original orange standalone emblem; baseline uses visibly different reconstructed curves and #fd7e13 instead of source #F5821E. Propose geometry/color correction, not a rebrand.",
       "reviewPackage": {
@@ -98,7 +168,7 @@
           "url": "https://idbank.am/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T13:18:11.406166Z",
         "compose": "1.12.0",
@@ -108,5 +178,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "3d2c0f6ba5ea0a7d19ce26d26e8569c5987c32d62fddc16898d6a001ad238d4d"
 }

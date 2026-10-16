@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T16:00:22.891878Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T16:02:32Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "09903802a559e1ccc7b7648d8a6e22d60aed9a9a",
+      "acceptedIconHash": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023",
       "agentAssessment": {
         "path": "evidence/15925/assessed-c05fd33e0da0678026e0d51c7f710821776feb87a2ef7d01c8203bba885ae544.json",
         "sha256": "c05fd33e0da0678026e0d51c7f710821776feb87a2ef7d01c8203bba885ae544"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/original-15925",
         "headCommit": "09903802a559e1ccc7b7648d8a6e22d60aed9a9a",
         "number": 127,
-        "observedAt": "2026-10-04T16:11:05.487679Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:08.240898Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Original (Company.id 15925)",
         "url": "https://github.com/zenmoney/banks/pull/127"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "a7e15af273428de7ec9b5d0fb8fb7fb0dd01f5b70f397e64716a5e7791035eec",
+          "head": "bank-icon-maintenance/original-15925",
+          "headCommit": "09903802a559e1ccc7b7648d8a6e22d60aed9a9a",
+          "number": 127,
+          "observedAt": "2026-10-04T16:11:05.487679Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Original (Company.id 15925)",
+          "url": "https://github.com/zenmoney/banks/pull/127"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a7e15af273428de7ec9b5d0fb8fb7fb0dd01f5b70f397e64716a5e7791035eec",
+        "closedAt": "2026-10-15T14:40:40Z",
+        "head": "bank-icon-maintenance/original-15925",
+        "headCommit": "09903802a559e1ccc7b7648d8a6e22d60aed9a9a",
+        "mergeCommit": "27534c559a8e55acfe57f6f72cbfdec8ca71afed",
+        "mergedAt": "2026-10-15T14:40:40Z",
+        "number": 127,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Original (Company.id 15925)",
+        "url": "https://github.com/zenmoney/banks/pull/127"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:08.240898Z",
+        "proof": {
+          "accepted": {
+            "commit": "27534c559a8e55acfe57f6f72cbfdec8ca71afed",
+            "iconHash": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023",
+            "metadataHash": "24076e7f2e8d943ad2f68ba2588f3b643c843ac71de2d49a6dc1448832f7fce8"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023",
+            "metadataHash": "24076e7f2e8d943ad2f68ba2588f3b643c843ac71de2d49a6dc1448832f7fce8"
+          },
+          "path": "banks/Original_15925-br/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "09903802a559e1ccc7b7648d8a6e22d60aed9a9a",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "a7e15af273428de7ec9b5d0fb8fb7fb0dd01f5b70f397e64716a5e7791035eec",
+          "closedAt": "2026-10-15T14:40:40Z",
+          "head": "bank-icon-maintenance/original-15925",
+          "headCommit": "09903802a559e1ccc7b7648d8a6e22d60aed9a9a",
+          "mergeCommit": "27534c559a8e55acfe57f6f72cbfdec8ca71afed",
+          "mergedAt": "2026-10-15T14:40:40Z",
+          "number": 127,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Original (Company.id 15925)",
+          "url": "https://github.com/zenmoney/banks/pull/127"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Base icon is a heavier redraw of the Banco Original box symbol with the darker green #01874D; the official current logo (source original.com.br, in current use per pt.wikipedia 2026) uses the thin-stroke box in #00a857. Evidenced geometry/color correction.",
       "reviewPackage": {
@@ -99,7 +169,7 @@
           "url": "https://pt.wikipedia.org/wiki/Banco_Original"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T16:02:32Z",
         "compose": "1.12.0",
@@ -109,5 +179,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "4e0243986eab91eeabe9bdc113c352c2740ed4d9de138f9bf33db8ef0d7f2023"
 }

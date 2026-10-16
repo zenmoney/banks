@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T19:29:24.400473Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T19:32:23.740412Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "14b5556ab1eb303fd41b673dbece49022e38a1de",
+      "acceptedIconHash": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b",
       "agentAssessment": {
         "path": "evidence/15994/assessed-6347fdec113cd0e721a079d0c3d37a94c9a31eef075634a64887588d41b1454f.json",
         "sha256": "6347fdec113cd0e721a079d0c3d37a94c9a31eef075634a64887588d41b1454f"
@@ -62,11 +65,78 @@
         "head": "bank-icon-maintenance/kutxabank-15994",
         "headCommit": "14b5556ab1eb303fd41b673dbece49022e38a1de",
         "number": 133,
-        "observedAt": "2026-10-04T19:46:32.296469Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:23.546503Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Kutxabank (Company.id 15994)",
         "url": "https://github.com/zenmoney/banks/pull/133"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "9546c862b844be21844a1bd62bd4af5e26da94de6bd2e78ef5ccacf54dbd0e47",
+          "head": "bank-icon-maintenance/kutxabank-15994",
+          "headCommit": "14b5556ab1eb303fd41b673dbece49022e38a1de",
+          "number": 133,
+          "observedAt": "2026-10-04T19:46:32.296469Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Kutxabank (Company.id 15994)",
+          "url": "https://github.com/zenmoney/banks/pull/133"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "9546c862b844be21844a1bd62bd4af5e26da94de6bd2e78ef5ccacf54dbd0e47",
+        "closedAt": "2026-10-15T14:41:29Z",
+        "head": "bank-icon-maintenance/kutxabank-15994",
+        "headCommit": "14b5556ab1eb303fd41b673dbece49022e38a1de",
+        "mergeCommit": "d19c491d9be25133ce3edbad4df8ad50529b69e5",
+        "mergedAt": "2026-10-15T14:41:29Z",
+        "number": 133,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Kutxabank (Company.id 15994)",
+        "url": "https://github.com/zenmoney/banks/pull/133"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:23.546503Z",
+        "proof": {
+          "accepted": {
+            "commit": "d19c491d9be25133ce3edbad4df8ad50529b69e5",
+            "iconHash": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b",
+            "metadataHash": "752956128d7d9a69059e88ef2a0d48059d467ef3983ddf0e257d6a0edf25410f"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b",
+            "metadataHash": "752956128d7d9a69059e88ef2a0d48059d467ef3983ddf0e257d6a0edf25410f"
+          },
+          "path": "banks/Kutxabank_15994-es/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "14b5556ab1eb303fd41b673dbece49022e38a1de",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "9546c862b844be21844a1bd62bd4af5e26da94de6bd2e78ef5ccacf54dbd0e47",
+          "closedAt": "2026-10-15T14:41:29Z",
+          "head": "bank-icon-maintenance/kutxabank-15994",
+          "headCommit": "14b5556ab1eb303fd41b673dbece49022e38a1de",
+          "mergeCommit": "d19c491d9be25133ce3edbad4df8ad50529b69e5",
+          "mergedAt": "2026-10-15T14:41:29Z",
+          "number": 133,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Kutxabank (Company.id 15994)",
+          "url": "https://github.com/zenmoney/banks/pull/133"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Kutxabank's current standalone mark (official site logo and Google Play listing icon, fetched 2026-10-04) is the black lowercase rounded 'k' (#0d0d0d) with three white rivets and a red dot (#e1001b) at the stem foot, on a white rounded-square card. The accepted baseline instead puts the k on a solid red #e1001b circular disc, a treatment not evidenced in the bank's current standalone use. An original vector of the k artwork (Wikimedia Commons Kutxabank.svg, identical in structure to the mark displayed on kutxabank.es) is the replacement basis.",
       "reviewPackage": {
@@ -118,7 +188,7 @@
           "url": "https://dircomfidencial.com/marketing/kutxabank-presenta-su-nuevo-posicionamiento-de-marca-el-banco-que-va-en-serio-20241008-1616/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T19:32:23.740412Z",
         "compose": "1.12.0",
@@ -128,5 +198,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "85c4f13dbe4e4282541dbd96d6b7d81ec4b8eba2808e7d154ee4489e2e4a039b"
 }

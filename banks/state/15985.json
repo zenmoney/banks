@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T18:48:47.234474Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T18:53:26.501659Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "5e58f03bc6bc05f4990f88ab4b1078b2ee397ae8",
+      "acceptedIconHash": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47",
       "agentAssessment": {
         "path": "evidence/15985/assessed-27b82c3eb5d1d8e119b8b3938a3e80c69219d67e60ce72aa712655f62caae61d.json",
         "sha256": "27b82c3eb5d1d8e119b8b3938a3e80c69219d67e60ce72aa712655f62caae61d"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/kompanion-15985",
         "headCommit": "5e58f03bc6bc05f4990f88ab4b1078b2ee397ae8",
         "number": 131,
-        "observedAt": "2026-10-04T19:10:38.228151Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:20.069441Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Компаньон Банкы (Company.id 15985)",
         "url": "https://github.com/zenmoney/banks/pull/131"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0b7f11edded0256cb31bcca75ea6e9c4860664a23cd2552d541cf55bedca1a8a",
+          "head": "bank-icon-maintenance/kompanion-15985",
+          "headCommit": "5e58f03bc6bc05f4990f88ab4b1078b2ee397ae8",
+          "number": 131,
+          "observedAt": "2026-10-04T19:10:38.228151Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Компаньон Банкы (Company.id 15985)",
+          "url": "https://github.com/zenmoney/banks/pull/131"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0b7f11edded0256cb31bcca75ea6e9c4860664a23cd2552d541cf55bedca1a8a",
+        "closedAt": "2026-10-15T14:41:10Z",
+        "head": "bank-icon-maintenance/kompanion-15985",
+        "headCommit": "5e58f03bc6bc05f4990f88ab4b1078b2ee397ae8",
+        "mergeCommit": "b36fae725437301fdaaf13da9f351214f36cda98",
+        "mergedAt": "2026-10-15T14:41:10Z",
+        "number": 131,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Компаньон Банкы (Company.id 15985)",
+        "url": "https://github.com/zenmoney/banks/pull/131"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:20.069441Z",
+        "proof": {
+          "accepted": {
+            "commit": "b36fae725437301fdaaf13da9f351214f36cda98",
+            "iconHash": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47",
+            "metadataHash": "36a1b47132d897c61e4c22dcb0cf6c2a430038fd2fd3b70a9814e3d80fc97b39"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47",
+            "metadataHash": "36a1b47132d897c61e4c22dcb0cf6c2a430038fd2fd3b70a9814e3d80fc97b39"
+          },
+          "path": "banks/Компаньон Банкы_15985-kg/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "5e58f03bc6bc05f4990f88ab4b1078b2ee397ae8",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0b7f11edded0256cb31bcca75ea6e9c4860664a23cd2552d541cf55bedca1a8a",
+          "closedAt": "2026-10-15T14:41:10Z",
+          "head": "bank-icon-maintenance/kompanion-15985",
+          "headCommit": "5e58f03bc6bc05f4990f88ab4b1078b2ee397ae8",
+          "mergeCommit": "b36fae725437301fdaaf13da9f351214f36cda98",
+          "mergedAt": "2026-10-15T14:41:10Z",
+          "number": 131,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Компаньон Банкы (Company.id 15985)",
+          "url": "https://github.com/zenmoney/banks/pull/131"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The baseline pinwheel icon is the pre-2024 Kompanion Bank logo. The bank officially introduced an updated identity on 2024-05-09 (20th anniversary): a green leaf/«K» emblem with the KOMPANION BANK wordmark. The live official site serves this identity as an original Adobe Illustrator-exported SVG at https://www.kompanion.kg/logo/kompanion-logo.svg (receipt evidence/15985/research-1f971565cfd34471b29afde2cab58bdd/fetch-504fcacd66644635a95ae4cb65b16495/receipt.json, body sha256 c5dd5588...84e9fea). The lockup is not icon-suitable (accompanying wordmark), but the standalone green #7FC344 emblem exists as a single discrete path (.st1) inside the same original vector, extractable without tracing or redrawing.",
       "reviewPackage": {
@@ -109,7 +179,7 @@
           "url": "https://www.kompanion.kg/ru/ (search corroboration)"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T18:53:26.501659Z",
         "compose": "1.12.0",
@@ -119,5 +189,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "8d5d1d73507fa5c9a44bb00be52222e6d15fc2cad76df24b6a22a424dddc2a47"
 }

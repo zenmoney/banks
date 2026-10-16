@@ -59,13 +59,66 @@
         "head": "bank-icon-maintenance/cgd-15878",
         "headCommit": "f0e429bdfa828ab279fa08c71d75220b242054c9",
         "number": 118,
-        "observedAt": "2026-10-04T12:08:26.946294Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:36:45.194332Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Caixa Geral De Depositos (Company.id 15878)",
         "url": "https://github.com/zenmoney/banks/pull/118"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "77f2c57d06d62417105db5d56053d7f40f988bfc2052245c2ce30aebf401e503",
+          "head": "bank-icon-maintenance/cgd-15878",
+          "headCommit": "f0e429bdfa828ab279fa08c71d75220b242054c9",
+          "number": 118,
+          "observedAt": "2026-10-04T12:08:26.946294Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Caixa Geral De Depositos (Company.id 15878)",
+          "url": "https://github.com/zenmoney/banks/pull/118"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "77f2c57d06d62417105db5d56053d7f40f988bfc2052245c2ce30aebf401e503",
+        "closedAt": "2026-10-16T08:26:47Z",
+        "head": "bank-icon-maintenance/cgd-15878",
+        "headCommit": "f0e429bdfa828ab279fa08c71d75220b242054c9",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 118,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Caixa Geral De Depositos (Company.id 15878)",
+        "url": "https://github.com/zenmoney/banks/pull/118"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:36:45.194332Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "77f2c57d06d62417105db5d56053d7f40f988bfc2052245c2ce30aebf401e503",
+          "closedAt": "2026-10-16T08:26:47Z",
+          "head": "bank-icon-maintenance/cgd-15878",
+          "headCommit": "f0e429bdfa828ab279fa08c71d75220b242054c9",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 118,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Caixa Geral De Depositos (Company.id 15878)",
+          "url": "https://github.com/zenmoney/banks/pull/118"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Accepted SVG drops most of the green brush stroke of the current CGD 'Caixa' mark (offscreen render shows only a tiny green sliver beside the red stroke, while the original vector renders full green+red strokes), a visible render/geometry repair supported by the original vector. Proposal replaces it with the original SVG of the 2017-rebrand mark (blue #0071B9 symbol with green/red brush accents), credited to Caixa Geral de Depósitos.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15878/candidate-1a30d43932c628bdd789ed3d635df308f5d26d0390287344448e529338a49afd.json",
         "sha256": "1a30d43932c628bdd789ed3d635df308f5d26d0390287344448e529338a49afd"
@@ -99,7 +152,7 @@
           "url": "https://www.cgd.pt/Sala-de-Imprensa/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T11:52:16Z",
         "compose": "1.12.0",

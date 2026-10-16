@@ -61,13 +61,66 @@
         "head": "bank-icon-maintenance/bper-15908",
         "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
         "number": 126,
-        "observedAt": "2026-10-04T15:35:36.989719Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:04.579944Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: BPER Banca (Company.id 15908)",
         "url": "https://github.com/zenmoney/banks/pull/126"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "65726e8d60a60999d0415e5b61bec3ef3960eb12141b93539a2e79c07742bbaf",
+          "head": "bank-icon-maintenance/bper-15908",
+          "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
+          "number": 126,
+          "observedAt": "2026-10-04T15:35:36.989719Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BPER Banca (Company.id 15908)",
+          "url": "https://github.com/zenmoney/banks/pull/126"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "65726e8d60a60999d0415e5b61bec3ef3960eb12141b93539a2e79c07742bbaf",
+        "closedAt": "2026-10-16T08:02:59Z",
+        "head": "bank-icon-maintenance/bper-15908",
+        "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 126,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BPER Banca (Company.id 15908)",
+        "url": "https://github.com/zenmoney/banks/pull/126"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:37:04.579944Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "65726e8d60a60999d0415e5b61bec3ef3960eb12141b93539a2e79c07742bbaf",
+          "closedAt": "2026-10-16T08:02:59Z",
+          "head": "bank-icon-maintenance/bper-15908",
+          "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 126,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BPER Banca (Company.id 15908)",
+          "url": "https://github.com/zenmoney/banks/pull/126"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Existing icon.svg is the pre-2023 'BPER Banca' green wordmark with 'banca popolare dell'emilia romagna' lettering. BPER evolved its brand (2023 rebrand, April 2024 logo evolution): current mark is 'BPER' lettering plus two square dots, no 'Banca' line. Original vector of the current logo secured from Wikimedia Commons (uploaded 2024-04-04, credited to BPER Banca S.p.A. from group.bper.it) because all official BPER hosts refused TLS handshake from this network (curl exit 35, geo-block suspected; recorded in sources).",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15908/candidate-5e54c1e026e4869a8889e2b5c9298480cbe344403e1731591aa18f7a5462bfea.json",
         "sha256": "5e54c1e026e4869a8889e2b5c9298480cbe344403e1731591aa18f7a5462bfea"
@@ -113,7 +166,7 @@
           "url": "https://www.bper.it"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T15:28:40.193993Z",
         "compose": "1.12.0",

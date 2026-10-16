@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T12:34:47.103771Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T12:50:21.331901Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "c2acd01d0166078282238ac434ef40ac5b4237c2",
+      "acceptedIconHash": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d",
       "agentAssessment": {
         "path": "evidence/15882/assessed-9ce096da88046693287704b439e0d6e336ee6d353a5f3d4fbb84bd82f5400a9d.json",
         "sha256": "9ce096da88046693287704b439e0d6e336ee6d353a5f3d4fbb84bd82f5400a9d"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/15882",
         "headCommit": "c2acd01d0166078282238ac434ef40ac5b4237c2",
         "number": 119,
-        "observedAt": "2026-10-04T12:58:11.086372Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:36:48.553053Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Inter (Company.id 15882)",
         "url": "https://github.com/zenmoney/banks/pull/119"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "cf4b79c7f6a8e1efd14d1f09ce9b9b917820d4a8d24bf943a1b9a20b67dc75f4",
+          "head": "bank-icon-maintenance/15882",
+          "headCommit": "c2acd01d0166078282238ac434ef40ac5b4237c2",
+          "number": 119,
+          "observedAt": "2026-10-04T12:58:11.086372Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Inter (Company.id 15882)",
+          "url": "https://github.com/zenmoney/banks/pull/119"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "cf4b79c7f6a8e1efd14d1f09ce9b9b917820d4a8d24bf943a1b9a20b67dc75f4",
+        "closedAt": "2026-10-15T14:39:45Z",
+        "head": "bank-icon-maintenance/15882",
+        "headCommit": "c2acd01d0166078282238ac434ef40ac5b4237c2",
+        "mergeCommit": "026621137301ae58473687ada4b89e44e6bd023e",
+        "mergedAt": "2026-10-15T14:39:44Z",
+        "number": 119,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Inter (Company.id 15882)",
+        "url": "https://github.com/zenmoney/banks/pull/119"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:36:48.553053Z",
+        "proof": {
+          "accepted": {
+            "commit": "026621137301ae58473687ada4b89e44e6bd023e",
+            "iconHash": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d",
+            "metadataHash": "ef3e12b7ff63f35c365a94ce06e2cd02f58d8f49b22b37f5555a7add5ed82a84"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d",
+            "metadataHash": "ef3e12b7ff63f35c365a94ce06e2cd02f58d8f49b22b37f5555a7add5ed82a84"
+          },
+          "path": "banks/Inter_15882-br/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "c2acd01d0166078282238ac434ef40ac5b4237c2",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "cf4b79c7f6a8e1efd14d1f09ce9b9b917820d4a8d24bf943a1b9a20b67dc75f4",
+          "closedAt": "2026-10-15T14:39:45Z",
+          "head": "bank-icon-maintenance/15882",
+          "headCommit": "c2acd01d0166078282238ac434ef40ac5b4237c2",
+          "mergeCommit": "026621137301ae58473687ada4b89e44e6bd023e",
+          "mergedAt": "2026-10-15T14:39:44Z",
+          "number": 119,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Inter (Company.id 15882)",
+          "url": "https://github.com/zenmoney/banks/pull/119"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Current official presentation (Google Play listing of Banco Inter S.A., CNPJ confirmed on page) is an orange square with the white 7-bar fan symbol and no wordmark; the accepted base icon is an orange gradient circle with the white 'inter' wordmark, i.e. the older/wordmark avatar variant. A genuine original vector containing the current fan exists (Wikimedia Commons 'Logo do banco Inter (2023).svg', 2023-12 rebrand); the fan is formed by subpaths of the single path element, so a standalone-symbol candidate can be derived without tracing.",
       "reviewPackage": {
@@ -116,7 +186,7 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1864163/000207097926000185/intr-20251231.htm"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T12:50:21.331901Z",
         "compose": "1.12.0",
@@ -126,5 +196,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "b9ba518e1692c3a896411d61a76fd5d9937dee02adbac4a427072160db91931d"
 }

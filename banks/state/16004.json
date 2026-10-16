@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T20:04:54.284531Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T20:10:40.115250Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "6705af739bfba85f7e68f4a3a77bde011a196789",
+      "acceptedIconHash": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac",
       "agentAssessment": {
         "path": "evidence/16004/assessed-512d0811232d016dc9c30c0afcb290daa07a4ebb035830a0f5ae953217819506.json",
         "sha256": "512d0811232d016dc9c30c0afcb290daa07a4ebb035830a0f5ae953217819506"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/16004",
         "headCommit": "6705af739bfba85f7e68f4a3a77bde011a196789",
         "number": 135,
-        "observedAt": "2026-10-04T20:23:43.942058Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:34.034695Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ininal (Company.id 16004)",
         "url": "https://github.com/zenmoney/banks/pull/135"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "f7bbcef80f694955ee36f8432cf2df15686e1120808e415033d279fdff8594dc",
+          "head": "bank-icon-maintenance/16004",
+          "headCommit": "6705af739bfba85f7e68f4a3a77bde011a196789",
+          "number": 135,
+          "observedAt": "2026-10-04T20:23:43.942058Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ininal (Company.id 16004)",
+          "url": "https://github.com/zenmoney/banks/pull/135"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f7bbcef80f694955ee36f8432cf2df15686e1120808e415033d279fdff8594dc",
+        "closedAt": "2026-10-15T14:41:48Z",
+        "head": "bank-icon-maintenance/16004",
+        "headCommit": "6705af739bfba85f7e68f4a3a77bde011a196789",
+        "mergeCommit": "d2a7068bf833e95c20f9ff363da0d0adc51f8313",
+        "mergedAt": "2026-10-15T14:41:47Z",
+        "number": 135,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ininal (Company.id 16004)",
+        "url": "https://github.com/zenmoney/banks/pull/135"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:34.034695Z",
+        "proof": {
+          "accepted": {
+            "commit": "d2a7068bf833e95c20f9ff363da0d0adc51f8313",
+            "iconHash": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac",
+            "metadataHash": "a15cfe06dd3b0ef4c3ace0fbc148291fc9c14ee50374dbdd787951dd8972ceb5"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac",
+            "metadataHash": "a15cfe06dd3b0ef4c3ace0fbc148291fc9c14ee50374dbdd787951dd8972ceb5"
+          },
+          "path": "banks/ininal_16004-tr/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "6705af739bfba85f7e68f4a3a77bde011a196789",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "f7bbcef80f694955ee36f8432cf2df15686e1120808e415033d279fdff8594dc",
+          "closedAt": "2026-10-15T14:41:48Z",
+          "head": "bank-icon-maintenance/16004",
+          "headCommit": "6705af739bfba85f7e68f4a3a77bde011a196789",
+          "mergeCommit": "d2a7068bf833e95c20f9ff363da0d0adc51f8313",
+          "mergedAt": "2026-10-15T14:41:47Z",
+          "number": 135,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ininal (Company.id 16004)",
+          "url": "https://github.com/zenmoney/banks/pull/135"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Supported rebrand: the current official ininal identity is the 'ininal' wordmark lockup (dark wordmark plus cyan/yellow/red underline bars), used as the official logo.svg on ininal.com (declared by the site's schema.org logo field and rendered in the header/footer), as the official favicon, and as the official Google Play app icon (512px raster). The accepted icon's standalone 'in' mark is the previous-generation app icon and no current standalone mark exists publicly. The wordmark is the brand's entire mark (letters form the mark; no accompanying name, slogan or explanatory text beyond the mark itself), so it is catalog-eligible. Original vector available (official SVG, no raster).",
       "reviewPackage": {
@@ -108,7 +178,7 @@
           "url": "https://www.ininal.com/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T20:10:40.115250Z",
         "compose": "1.12.0",
@@ -118,5 +188,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "47f15a354296f5b3cfe68d61fc0ff4535661edef261f975e3acff4e6afa2b5ac"
 }

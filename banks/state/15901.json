@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T13:53:20Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T13:56:40Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "6615ce8a94aabd93dc0636155a7a06a0fd87f0c1",
+      "acceptedIconHash": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a",
       "agentAssessment": {
         "path": "evidence/15901/assessed-b25ddb11f73c0b673d986b3168b3bb430e2693d53c0e237ae243439f8be320de.json",
         "sha256": "b25ddb11f73c0b673d986b3168b3bb430e2693d53c0e237ae243439f8be320de"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15901",
         "headCommit": "6615ce8a94aabd93dc0636155a7a06a0fd87f0c1",
         "number": 123,
-        "observedAt": "2026-10-04T14:17:12.480614Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:02.836167Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: VakıfBank (Company.id 15901)",
         "url": "https://github.com/zenmoney/banks/pull/123"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "341e2b52211adc8c037207499d2dfb620d9ddb7898ce1c7ea9d3b16492876f48",
+          "head": "bank-icon-maintenance/15901",
+          "headCommit": "6615ce8a94aabd93dc0636155a7a06a0fd87f0c1",
+          "number": 123,
+          "observedAt": "2026-10-04T14:17:12.480614Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: VakıfBank (Company.id 15901)",
+          "url": "https://github.com/zenmoney/banks/pull/123"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "341e2b52211adc8c037207499d2dfb620d9ddb7898ce1c7ea9d3b16492876f48",
+        "closedAt": "2026-10-15T14:40:22Z",
+        "head": "bank-icon-maintenance/15901",
+        "headCommit": "6615ce8a94aabd93dc0636155a7a06a0fd87f0c1",
+        "mergeCommit": "99a0ff5e40b9efd3698e5dae84b751c797887283",
+        "mergedAt": "2026-10-15T14:40:22Z",
+        "number": 123,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: VakıfBank (Company.id 15901)",
+        "url": "https://github.com/zenmoney/banks/pull/123"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:02.836167Z",
+        "proof": {
+          "accepted": {
+            "commit": "99a0ff5e40b9efd3698e5dae84b751c797887283",
+            "iconHash": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a",
+            "metadataHash": "7ea9212a716753bafbab72dbd81c5edd16069af092703645059292fa21f7606c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a",
+            "metadataHash": "7ea9212a716753bafbab72dbd81c5edd16069af092703645059292fa21f7606c"
+          },
+          "path": "banks/VakıfBank_15901-tr/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "6615ce8a94aabd93dc0636155a7a06a0fd87f0c1",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "341e2b52211adc8c037207499d2dfb620d9ddb7898ce1c7ea9d3b16492876f48",
+          "closedAt": "2026-10-15T14:40:22Z",
+          "head": "bank-icon-maintenance/15901",
+          "headCommit": "6615ce8a94aabd93dc0636155a7a06a0fd87f0c1",
+          "mergeCommit": "99a0ff5e40b9efd3698e5dae84b751c797887283",
+          "mergedAt": "2026-10-15T14:40:22Z",
+          "number": 123,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: VakıfBank (Company.id 15901)",
+          "url": "https://github.com/zenmoney/banks/pull/123"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The current icon reproduces the current VakıfBank rounded VB tile mark but in an off-brand pale yellow (#FBC34E, measured RGB 251,195,78); the mark the bank serves today from its own production open-banking login is the same geometry in brand yellow #FCB000 (measured RGB 252,176,0, corroborated by the apiportal spinner color). A corrected-colors replacement using the official original single-path vector meets the update bar; serialization alone would not.",
       "reviewPackage": {
@@ -104,7 +174,7 @@
           "url": "https://vinovkampus.vakifbank.com.tr/assets/images/logo.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T13:56:40Z",
         "compose": "1.12.0",
@@ -114,5 +184,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "d1406df2555c343f5d9fc4656d72f1951c73f1c17c78597bf9d02f6bd24d0d7a"
 }

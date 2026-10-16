@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T13:50:49Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T13:56:30Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "d860aa07eb31f65e54051fcc74b0371e03cae534",
+      "acceptedIconHash": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc",
       "agentAssessment": {
         "path": "evidence/15900/assessed-ca03ca421e6cbefb55ba50b0f71f6a18eefe998681b178c23ca0172315099e86.json",
         "sha256": "ca03ca421e6cbefb55ba50b0f71f6a18eefe998681b178c23ca0172315099e86"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15900",
         "headCommit": "d860aa07eb31f65e54051fcc74b0371e03cae534",
         "number": 122,
-        "observedAt": "2026-10-04T14:12:56.560681Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:36:59.462962Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: QNB (Company.id 15900)",
         "url": "https://github.com/zenmoney/banks/pull/122"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "dd1b9d06f19a86598e375bb0f8621a02e77f3bc65589e262c85fe3c5d8e066e1",
+          "head": "bank-icon-maintenance/15900",
+          "headCommit": "d860aa07eb31f65e54051fcc74b0371e03cae534",
+          "number": 122,
+          "observedAt": "2026-10-04T14:12:56.560681Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: QNB (Company.id 15900)",
+          "url": "https://github.com/zenmoney/banks/pull/122"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "dd1b9d06f19a86598e375bb0f8621a02e77f3bc65589e262c85fe3c5d8e066e1",
+        "closedAt": "2026-10-15T14:40:13Z",
+        "head": "bank-icon-maintenance/15900",
+        "headCommit": "d860aa07eb31f65e54051fcc74b0371e03cae534",
+        "mergeCommit": "a384dd604a2943f5cb384f51b60187c822d0aa4d",
+        "mergedAt": "2026-10-15T14:40:13Z",
+        "number": 122,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: QNB (Company.id 15900)",
+        "url": "https://github.com/zenmoney/banks/pull/122"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:36:59.462962Z",
+        "proof": {
+          "accepted": {
+            "commit": "a384dd604a2943f5cb384f51b60187c822d0aa4d",
+            "iconHash": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc",
+            "metadataHash": "3758c260578686d2626c6f8ed264d23e4f48e2fd33aecdf74ef715f43f620c87"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc",
+            "metadataHash": "3758c260578686d2626c6f8ed264d23e4f48e2fd33aecdf74ef715f43f620c87"
+          },
+          "path": "banks/QNB_15900-tr/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "d860aa07eb31f65e54051fcc74b0371e03cae534",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "dd1b9d06f19a86598e375bb0f8621a02e77f3bc65589e262c85fe3c5d8e066e1",
+          "closedAt": "2026-10-15T14:40:13Z",
+          "head": "bank-icon-maintenance/15900",
+          "headCommit": "d860aa07eb31f65e54051fcc74b0371e03cae534",
+          "mergeCommit": "a384dd604a2943f5cb384f51b60187c822d0aa4d",
+          "mergedAt": "2026-10-15T14:40:13Z",
+          "number": 122,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: QNB (Company.id 15900)",
+          "url": "https://github.com/zenmoney/banks/pull/122"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The stored icon is an older flat #305da2 eight-point star-cross; the live QNB brand mark is a four-arrow compass emblem with blue/magenta gradients, shown as the logo on the official qnb.com.tr homepage and available as a genuine original vector on Wikimedia Commons (attributed to QNB Group). Evidenced rebrand plus corrected geometry/colors meet the update bar. The candidate is the emblem-only extraction of the Commons lockup (wordmark and gray outline dropped, viewBox cropped to the emblem), not a redraw.",
       "reviewPackage": {
@@ -103,7 +173,7 @@
           "url": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=QNB%20logo&srnamespace=6"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T13:56:30Z",
         "compose": "1.12.0",
@@ -113,5 +183,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "abef348cac8ed36e9c530f4d746e1271865c5ca938093785273914589ddc67cc"
 }

@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T16:33:51.627595Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T16:35:50.465540Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "10761d09f2c38c68abde31157353cc4ea08d48f8",
+      "acceptedIconHash": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2",
       "agentAssessment": {
         "path": "evidence/15926/assessed-5789e224263e13d32c999b4fb550b438e6bd2e268e3f68fa3b4081dc7d2dad8c.json",
         "sha256": "5789e224263e13d32c999b4fb550b438e6bd2e268e3f68fa3b4081dc7d2dad8c"
@@ -62,11 +65,78 @@
         "head": "bank-icon-maintenance/agibank-15926",
         "headCommit": "10761d09f2c38c68abde31157353cc4ea08d48f8",
         "number": 128,
-        "observedAt": "2026-10-04T16:44:42.748766Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:12.380958Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Agibank (Company.id 15926)",
         "url": "https://github.com/zenmoney/banks/pull/128"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1806bbf3ca5a64abc73def6bafcb1b7feeac6a9b050910ca6de82121dc1e5ab7",
+          "head": "bank-icon-maintenance/agibank-15926",
+          "headCommit": "10761d09f2c38c68abde31157353cc4ea08d48f8",
+          "number": 128,
+          "observedAt": "2026-10-04T16:44:42.748766Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Agibank (Company.id 15926)",
+          "url": "https://github.com/zenmoney/banks/pull/128"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1806bbf3ca5a64abc73def6bafcb1b7feeac6a9b050910ca6de82121dc1e5ab7",
+        "closedAt": "2026-10-15T14:40:49Z",
+        "head": "bank-icon-maintenance/agibank-15926",
+        "headCommit": "10761d09f2c38c68abde31157353cc4ea08d48f8",
+        "mergeCommit": "21b7dc6668622f62bb0dc0a101b62a390c3a0040",
+        "mergedAt": "2026-10-15T14:40:49Z",
+        "number": 128,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Agibank (Company.id 15926)",
+        "url": "https://github.com/zenmoney/banks/pull/128"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:12.380958Z",
+        "proof": {
+          "accepted": {
+            "commit": "21b7dc6668622f62bb0dc0a101b62a390c3a0040",
+            "iconHash": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2",
+            "metadataHash": "eb8fb311738e625aa38dfa53a5e2e82a61805541051d022194fa5500deb78a89"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2",
+            "metadataHash": "eb8fb311738e625aa38dfa53a5e2e82a61805541051d022194fa5500deb78a89"
+          },
+          "path": "banks/Agibank_15926-br/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "10761d09f2c38c68abde31157353cc4ea08d48f8",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1806bbf3ca5a64abc73def6bafcb1b7feeac6a9b050910ca6de82121dc1e5ab7",
+          "closedAt": "2026-10-15T14:40:49Z",
+          "head": "bank-icon-maintenance/agibank-15926",
+          "headCommit": "10761d09f2c38c68abde31157353cc4ea08d48f8",
+          "mergeCommit": "21b7dc6668622f62bb0dc0a101b62a390c3a0040",
+          "mergedAt": "2026-10-15T14:40:49Z",
+          "number": 128,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Agibank (Company.id 15926)",
+          "url": "https://github.com/zenmoney/banks/pull/128"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Base icon is a blue/green interlaced diamond knot that shares no identity, geometry, variant or color with the current Agibank brand — appears misattributed or long-obsolete. Current official mark is the lowercase 'agi' wordmark with green dot (#2FC750) over the i, served first-hand from the bank's own CDN.",
       "reviewPackage": {
@@ -109,7 +179,7 @@
           "url": "https://www.agibank.com.br/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T16:35:50.465540Z",
         "compose": "1.12.0",
@@ -119,5 +189,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "ab4af970d7b06009d6210040697f80f1356e1c295a4d9f18512003982c7aedf2"
 }

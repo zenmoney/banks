@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T13:16:11.536280Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T13:21:16.663293Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1b142e547ec4d4f4388ac09206c876c86cbd5c1c",
+      "acceptedIconHash": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7",
       "agentAssessment": {
         "path": "evidence/15889/assessed-430bf617f1d3b76f3e3f1b0b112a838cb50118d84a40467ec746da7967d52397.json",
         "sha256": "430bf617f1d3b76f3e3f1b0b112a838cb50118d84a40467ec746da7967d52397"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/w8pdbui1-15889",
         "headCommit": "1b142e547ec4d4f4388ac09206c876c86cbd5c1c",
         "number": 121,
-        "observedAt": "2026-10-04T13:38:54.860133Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:36:51.815188Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Ardshinbank (Company.id 15889)",
         "url": "https://github.com/zenmoney/banks/pull/121"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8228520449f5e487e9cfa63e4e0a75a543f1897c9d0b5680f2a3ff32d2368c11",
+          "head": "bank-icon-maintenance/w8pdbui1-15889",
+          "headCommit": "1b142e547ec4d4f4388ac09206c876c86cbd5c1c",
+          "number": 121,
+          "observedAt": "2026-10-04T13:38:54.860133Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ardshinbank (Company.id 15889)",
+          "url": "https://github.com/zenmoney/banks/pull/121"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8228520449f5e487e9cfa63e4e0a75a543f1897c9d0b5680f2a3ff32d2368c11",
+        "closedAt": "2026-10-15T14:40:03Z",
+        "head": "bank-icon-maintenance/w8pdbui1-15889",
+        "headCommit": "1b142e547ec4d4f4388ac09206c876c86cbd5c1c",
+        "mergeCommit": "2fc881bd5f10167eddd9af4ea62c83824341a2cc",
+        "mergedAt": "2026-10-15T14:40:03Z",
+        "number": 121,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ardshinbank (Company.id 15889)",
+        "url": "https://github.com/zenmoney/banks/pull/121"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:36:51.815188Z",
+        "proof": {
+          "accepted": {
+            "commit": "2fc881bd5f10167eddd9af4ea62c83824341a2cc",
+            "iconHash": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7",
+            "metadataHash": "e6f5345c0d1eed94292079665472086560794a7897767c972e639402f8dafaf1"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7",
+            "metadataHash": "e6f5345c0d1eed94292079665472086560794a7897767c972e639402f8dafaf1"
+          },
+          "path": "banks/Ardshinbank_15889-am/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1b142e547ec4d4f4388ac09206c876c86cbd5c1c",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8228520449f5e487e9cfa63e4e0a75a543f1897c9d0b5680f2a3ff32d2368c11",
+          "closedAt": "2026-10-15T14:40:03Z",
+          "head": "bank-icon-maintenance/w8pdbui1-15889",
+          "headCommit": "1b142e547ec4d4f4388ac09206c876c86cbd5c1c",
+          "mergeCommit": "2fc881bd5f10167eddd9af4ea62c83824341a2cc",
+          "mergedAt": "2026-10-15T14:40:03Z",
+          "number": 121,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ardshinbank (Company.id 15889)",
+          "url": "https://github.com/zenmoney/banks/pull/121"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current favicon supplies the original blue #0A64C8 transparent standalone framed emblem; the live header uses the same blue symbol. Baseline is a different white emblem on #183794 solid square with visibly different frame/emblem proportions. Update is a source-supported color/geometry/variant correction, not a claimed dated rebrand or serialization cleanup.",
       "reviewPackage": {
@@ -102,7 +172,7 @@
           "url": "https://ardshinbank.am/?lang=hy"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T13:21:16.663293Z",
         "compose": "1.12.0",
@@ -112,5 +182,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "0fa0de1131088f700d29b4d8e01b8607ce36c1143179386a604f6926df7bf9e7"
 }

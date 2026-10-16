@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/15971",
         "headCommit": "144555cc62aa9882b645716f6e0b68daed856b2d",
         "number": 130,
-        "observedAt": "2026-10-04T18:27:36.514853Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:16.625046Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: BAKAI BANK (Company.id 15971)",
         "url": "https://github.com/zenmoney/banks/pull/130"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3030aef283c59e6f7e69d6ee482cd55b8ef70b03f6814d99ecd8eb1c2b0d5ad3",
+          "head": "bank-icon-maintenance/15971",
+          "headCommit": "144555cc62aa9882b645716f6e0b68daed856b2d",
+          "number": 130,
+          "observedAt": "2026-10-04T18:27:36.514853Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BAKAI BANK (Company.id 15971)",
+          "url": "https://github.com/zenmoney/banks/pull/130"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3030aef283c59e6f7e69d6ee482cd55b8ef70b03f6814d99ecd8eb1c2b0d5ad3",
+        "closedAt": "2026-10-15T11:35:57Z",
+        "head": "bank-icon-maintenance/15971",
+        "headCommit": "144555cc62aa9882b645716f6e0b68daed856b2d",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 130,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BAKAI BANK (Company.id 15971)",
+        "url": "https://github.com/zenmoney/banks/pull/130"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:37:16.625046Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3030aef283c59e6f7e69d6ee482cd55b8ef70b03f6814d99ecd8eb1c2b0d5ad3",
+          "closedAt": "2026-10-15T11:35:57Z",
+          "head": "bank-icon-maintenance/15971",
+          "headCommit": "144555cc62aa9882b645716f6e0b68daed856b2d",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 130,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BAKAI BANK (Company.id 15971)",
+          "url": "https://github.com/zenmoney/banks/pull/130"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Accepted blue/grey 'BB in double ring' icon is an older Bakai variant; the bank's current official mark (navy #001F47 / dark-red #811E3B split-B pattern) is served as an original vector from bakai.kg's own CMS and shown in the site header and org logo. Supported rebrand update for the same operating bank.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15971/candidate-1c88e6f13a071b32b74781ff01c172f0d81b61cf84cc3292f60f790f0dfcb3c6.json",
         "sha256": "1c88e6f13a071b32b74781ff01c172f0d81b61cf84cc3292f60f790f0dfcb3c6"
@@ -98,7 +151,7 @@
           "url": "https://bakai.kg/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T18:15:05.031365Z",
         "compose": "1.12.0",

@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T20:42:44.800667Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T20:47:58.784606Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "5a52c1813f1298df2e8cfb87a7f8922baf9eb479",
+      "acceptedIconHash": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8",
       "agentAssessment": {
         "path": "evidence/16014/assessed-9d720bc2753655a18e4a4b4c797f1a1b68276267bef8e4aeb7b0024ba55e25fd.json",
         "sha256": "9d720bc2753655a18e4a4b4c797f1a1b68276267bef8e4aeb7b0024ba55e25fd"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/16014",
         "headCommit": "5a52c1813f1298df2e8cfb87a7f8922baf9eb479",
         "number": 136,
-        "observedAt": "2026-10-04T20:56:43.802711Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:37.512587Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банка ДСК (Company.id 16014)",
         "url": "https://github.com/zenmoney/banks/pull/136"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0ae3d77d54b2d3dad8d286e06092bc60015fd2f158c43c2da0ae2c9be271e16f",
+          "head": "bank-icon-maintenance/16014",
+          "headCommit": "5a52c1813f1298df2e8cfb87a7f8922baf9eb479",
+          "number": 136,
+          "observedAt": "2026-10-04T20:56:43.802711Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банка ДСК (Company.id 16014)",
+          "url": "https://github.com/zenmoney/banks/pull/136"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0ae3d77d54b2d3dad8d286e06092bc60015fd2f158c43c2da0ae2c9be271e16f",
+        "closedAt": "2026-10-15T14:41:59Z",
+        "head": "bank-icon-maintenance/16014",
+        "headCommit": "5a52c1813f1298df2e8cfb87a7f8922baf9eb479",
+        "mergeCommit": "e7b71b0a199f0f3aad601524d433833ba5f6d520",
+        "mergedAt": "2026-10-15T14:41:59Z",
+        "number": 136,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банка ДСК (Company.id 16014)",
+        "url": "https://github.com/zenmoney/banks/pull/136"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:37.512587Z",
+        "proof": {
+          "accepted": {
+            "commit": "e7b71b0a199f0f3aad601524d433833ba5f6d520",
+            "iconHash": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8",
+            "metadataHash": "2aa12f4050e138a886cc21de41966d725753821389dd187aa929187755feb8e3"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8",
+            "metadataHash": "2aa12f4050e138a886cc21de41966d725753821389dd187aa929187755feb8e3"
+          },
+          "path": "banks/Банка ДСК_16014-bg/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "5a52c1813f1298df2e8cfb87a7f8922baf9eb479",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0ae3d77d54b2d3dad8d286e06092bc60015fd2f158c43c2da0ae2c9be271e16f",
+          "closedAt": "2026-10-15T14:41:59Z",
+          "head": "bank-icon-maintenance/16014",
+          "headCommit": "5a52c1813f1298df2e8cfb87a7f8922baf9eb479",
+          "mergeCommit": "e7b71b0a199f0f3aad601524d433833ba5f6d520",
+          "mergedAt": "2026-10-15T14:41:59Z",
+          "number": 136,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банка ДСК (Company.id 16014)",
+          "url": "https://github.com/zenmoney/banks/pull/136"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The accepted SVG reproduces the current DSK Bank (OTP Group) standalone symbol with correct geometry, but its fill colors drift from the official source: inner disc #4fae2e vs official #50B848, ring #016438 vs official #0F744A; independent rendering shows ~59% of sampled pixels differing by >20 total RGB, a visible color shift. The official site serves the original vector favicon.svg, proposed as the color-corrected candidate.",
       "reviewPackage": {
@@ -99,7 +169,7 @@
           "url": "https://dskbank.bg/новини-и-промоции/детайли/2017/05/17/банка-дск-с-нова-визия"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T20:47:58.784606Z",
         "compose": "1.12.0",
@@ -109,5 +179,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "f32382835a5d368f55fb674d338d64cf1d190c609bcb0fa165b8e54ea4da7ba8"
 }

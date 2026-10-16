@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T20:04:25.169333Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T20:10:35.096601Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "2006ad598377042fef7cbbca51b0a5481c0dd2e4",
+      "acceptedIconHash": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf",
       "agentAssessment": {
         "path": "evidence/15998/assessed-2262f75f4073adbd69115c6754c287766e4af57ff9b06ae1570d9a03a478bff5.json",
         "sha256": "2262f75f4073adbd69115c6754c287766e4af57ff9b06ae1570d9a03a478bff5"
@@ -62,11 +65,78 @@
         "head": "bank-icon-maintenance/15998",
         "headCommit": "2006ad598377042fef7cbbca51b0a5481c0dd2e4",
         "number": 134,
-        "observedAt": "2026-10-04T20:19:08.766063Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:30.216694Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: BBVA (Company.id 15998)",
         "url": "https://github.com/zenmoney/banks/pull/134"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e18d012d21cc9286d426fe86dbc76cfa755c0faae1e77efc1af3c72081b9c276",
+          "head": "bank-icon-maintenance/15998",
+          "headCommit": "2006ad598377042fef7cbbca51b0a5481c0dd2e4",
+          "number": 134,
+          "observedAt": "2026-10-04T20:19:08.766063Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BBVA (Company.id 15998)",
+          "url": "https://github.com/zenmoney/banks/pull/134"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e18d012d21cc9286d426fe86dbc76cfa755c0faae1e77efc1af3c72081b9c276",
+        "closedAt": "2026-10-15T14:41:38Z",
+        "head": "bank-icon-maintenance/15998",
+        "headCommit": "2006ad598377042fef7cbbca51b0a5481c0dd2e4",
+        "mergeCommit": "98e2be77fdfecd97f9d6b2de295220ca4f8b9fe5",
+        "mergedAt": "2026-10-15T14:41:38Z",
+        "number": 134,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BBVA (Company.id 15998)",
+        "url": "https://github.com/zenmoney/banks/pull/134"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:30.216694Z",
+        "proof": {
+          "accepted": {
+            "commit": "98e2be77fdfecd97f9d6b2de295220ca4f8b9fe5",
+            "iconHash": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf",
+            "metadataHash": "44d48753753e8a9caf27f289652ec70d280e599651897debf53b8e286a3edf9b"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf",
+            "metadataHash": "44d48753753e8a9caf27f289652ec70d280e599651897debf53b8e286a3edf9b"
+          },
+          "path": "banks/BBVA_15998-pt/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "2006ad598377042fef7cbbca51b0a5481c0dd2e4",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e18d012d21cc9286d426fe86dbc76cfa755c0faae1e77efc1af3c72081b9c276",
+          "closedAt": "2026-10-15T14:41:38Z",
+          "head": "bank-icon-maintenance/15998",
+          "headCommit": "2006ad598377042fef7cbbca51b0a5481c0dd2e4",
+          "mergeCommit": "98e2be77fdfecd97f9d6b2de295220ca4f8b9fe5",
+          "mergedAt": "2026-10-15T14:41:38Z",
+          "number": 134,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BBVA (Company.id 15998)",
+          "url": "https://github.com/zenmoney/banks/pull/134"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Found a current original-vector replacement: the 2019 BBVA wordmark. The accepted icon reproduces the pre-2019 circular lockup with rounded letterforms; BBVA rebranded in April 2019 to the angular stroke-built wordmark, corroborated by the Commons file page (captioned 'BBVA wordmark (2019)', inception 2019-04-25) and bbva.com brand pages found in search. The primary Commons original (Adobe Illustrator export) contains DOCTYPE ENTITY declarations that the pipeline rejects, so the candidate binds a byte-clean single-group copy from worldvectorlogo (plain fill=#004580, no DOCTYPE/entities/raster/text) whose rsvg render was visually compared against the Commons original: identical geometry and color. Supported rebranding justifies the update.",
       "reviewPackage": {
@@ -110,7 +180,7 @@
           "url": "https://www.bbva.pt/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T20:10:35.096601Z",
         "compose": "1.12.0",
@@ -120,5 +190,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "4f9940bceddb85130662f80cf7b3f916ef248061c2302f98beb95cc1dd25bcbf"
 }

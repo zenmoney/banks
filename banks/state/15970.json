@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T18:11:27.597637Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T18:13:02.962531Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "12773436cb936b7b9bb20e6046731eb262a4e38a",
+      "acceptedIconHash": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880",
       "agentAssessment": {
         "path": "evidence/15970/assessed-9dd8e091ddaad14f9c38a05717f5abceb0c36a9adee2745ad2cfec0505c38745.json",
         "sha256": "9dd8e091ddaad14f9c38a05717f5abceb0c36a9adee2745ad2cfec0505c38745"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/15970",
         "headCommit": "12773436cb936b7b9bb20e6046731eb262a4e38a",
         "number": 129,
-        "observedAt": "2026-10-04T18:23:16.965694Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:37:15.795731Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Monese (Company.id 15970)",
         "url": "https://github.com/zenmoney/banks/pull/129"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "38838b70b8304ac8f1cb9f03c6dc7c755c87968b0d26efe1166f647461e2ab22",
+          "head": "bank-icon-maintenance/15970",
+          "headCommit": "12773436cb936b7b9bb20e6046731eb262a4e38a",
+          "number": 129,
+          "observedAt": "2026-10-04T18:23:16.965694Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Monese (Company.id 15970)",
+          "url": "https://github.com/zenmoney/banks/pull/129"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "38838b70b8304ac8f1cb9f03c6dc7c755c87968b0d26efe1166f647461e2ab22",
+        "closedAt": "2026-10-15T14:40:59Z",
+        "head": "bank-icon-maintenance/15970",
+        "headCommit": "12773436cb936b7b9bb20e6046731eb262a4e38a",
+        "mergeCommit": "34cf166748f33714c2c15466270ae1f85d1ea1e2",
+        "mergedAt": "2026-10-15T14:40:59Z",
+        "number": 129,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Monese (Company.id 15970)",
+        "url": "https://github.com/zenmoney/banks/pull/129"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:37:15.795731Z",
+        "proof": {
+          "accepted": {
+            "commit": "34cf166748f33714c2c15466270ae1f85d1ea1e2",
+            "iconHash": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880",
+            "metadataHash": "ad8b609b262a7403885c4a487ca7f2ac56b41275f7650d9823c4efb02b045bea"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880",
+            "metadataHash": "ad8b609b262a7403885c4a487ca7f2ac56b41275f7650d9823c4efb02b045bea"
+          },
+          "path": "banks/Monese_15970-unknown/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "12773436cb936b7b9bb20e6046731eb262a4e38a",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "38838b70b8304ac8f1cb9f03c6dc7c755c87968b0d26efe1166f647461e2ab22",
+          "closedAt": "2026-10-15T14:40:59Z",
+          "head": "bank-icon-maintenance/15970",
+          "headCommit": "12773436cb936b7b9bb20e6046731eb262a4e38a",
+          "mergeCommit": "34cf166748f33714c2c15466270ae1f85d1ea1e2",
+          "mergedAt": "2026-10-15T14:40:59Z",
+          "number": 129,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Monese (Company.id 15970)",
+          "url": "https://github.com/zenmoney/banks/pull/129"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Accepted green rounded-M circle does not match the current official Monese mark: monese.com serves a blue #0B72FD circle with the interlaced-M glyph as its favicon (original vector). Supported brand-mark/colour correction for the same operating brand; Monese continues to operate (site live 2026-10-04).",
       "reviewPackage": {
@@ -98,7 +168,7 @@
           "url": "https://monese.com/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T18:13:02.962531Z",
         "compose": "1.12.0",
@@ -108,5 +178,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "d14660d45a3bcfab7c74e80e271055384af55b0b1d7055de24c30091d39b7880"
 }
