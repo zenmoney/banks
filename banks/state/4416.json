@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:39:31.681293Z",
+        "observedAt": "2026-10-16T20:01:32.800333Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/24"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:39:31.681293Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "72393382031da591820df92bf6320ed8931be83f43d3409ee521019179fdfc3e",
+            "closedAt": "2026-10-16T09:42:26Z",
+            "head": "bank-icon-maintenance/4416",
+            "headCommit": "9a2a4ee18e40ef6916684aabfd0c36e8717fdae4",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 24,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк \"Саратов\" (Company.id 4416)",
+            "url": "https://github.com/zenmoney/banks/pull/24"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "No existing icon at frozen base; official original vector has separable standalone emblem suitable for first addition. Full horizontal lockup itself is not the proposed icon.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "нужно адаптировать для светлой и темной темы",
+          "createdAt": "2026-10-16T09:42:26Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T09:42:26Z",
+          "url": "https://github.com/zenmoney/banks/pull/24#issuecomment-6212702253"
+        },
+        "explanation": "нужно адаптировать для светлой и темной темы",
+        "mr": {
+          "number": 24,
+          "url": "https://github.com/zenmoney/banks/pull/24"
+        },
+        "rationale": "The reviewer requests adapting the proposed icon for both light and dark themes; this is a presentation repair, not approval or permission to invent colors.",
+        "requirements": [
+          {
+            "quote": "нужно адаптировать для светлой и темной темы",
+            "url": "https://github.com/zenmoney/banks/pull/24#issuecomment-6212702253"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:01:32.800333Z",
+        "id": 4416,
+        "judgement": {
+          "action": "repair",
+          "key": "9ec055d4fc102db50c7a1c93aff1a2123731fa11087828c5857b40e5c4ddc14f",
+          "rationale": "The reviewer requests adapting the proposed icon for both light and dark themes; this is a presentation repair, not approval or permission to invent colors.",
+          "sources": [
+            {
+              "quote": "нужно адаптировать для светлой и темной темы",
+              "url": "https://github.com/zenmoney/banks/pull/24#issuecomment-6212702253"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T13:55:28.947112Z",
+          "candidateIconHash": "9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7",
+          "key": "9ec055d4fc102db50c7a1c93aff1a2123731fa11087828c5857b40e5c4ddc14f",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Банк \"Саратов\" — Company.id 4416\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4416,\n  \"title\": \"\\u0411\\u0430\\u043d\\u043a \\\"\\u0421\\u0430\\u0440\\u0430\\u0442\\u043e\\u0432\\\"\",\n  \"url\": \"banksaratov.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T14:00:45.255941Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/68d7ab3592facee6590c18420ceae992dce3b312/review-materials/4416/source.svg) — SHA-256 `b27fdb9c954a20e7c03d28dfe0d0d04c75b8aee7e04a26b4b39b329d1423f825`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/68d7ab3592facee6590c18420ceae992dce3b312/review-materials/4416/final.svg) — SHA-256 `9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/68d7ab3592facee6590c18420ceae992dce3b312/review-materials/4416/final.xml) — SHA-256 `97f73f395050bd17a96a92180bdce96e0f2823ab82a9ebe07230ccbb7bf3f148`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/68d7ab3592facee6590c18420ceae992dce3b312/review-materials/4416/candidate.diff).\n- Source page: [https://banksaratov.ru](https://banksaratov.ru).\n- Source asset: [https://banksaratov.ru/tpl/assets/img/logo.svg](https://banksaratov.ru/tpl/assets/img/logo.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://banksaratov.ru/tpl/assets/img/logo.svg](https://banksaratov.ru/tpl/assets/img/logo.svg); SHA-256 `b27fdb9c954a20e7c03d28dfe0d0d04c75b8aee7e04a26b4b39b329d1423f825`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-02T13:54:18.398851Z: [https://banksaratov.ru](https://banksaratov.ru); asset [https://banksaratov.ru/tpl/assets/img/logo.svg](https://banksaratov.ru/tpl/assets/img/logo.svg). Official header references full logo.svg containing separate red gradient emblem and separate black bank lettering. Original asset fetched with receipt; extracted emblem keeps source paths/gradients unchanged. (independence group: bank-saratov).\n- third-party checked 2026-10-02T13:54:18.398851Z: [https://www.cbr.ru/finorg/foinfo/?ogrn=1026400002089](https://www.cbr.ru/finorg/foinfo/?ogrn=1026400002089). Bank of Russia record: ООО Банк Саратов, status Действует, registration 330, OGRN 1026400002089. (independence group: bank-of-russia).\n- Independent evidence: Bank website supplies current brand and original geometry; independent Bank of Russia registry corroborates legal identity and active lifecycle. Neither record is an image-aggregator copy..\n- Identity: confirmed — Official banksaratov.ru identifies ООО Банк Саратов; CBR independent record identifies same entity, OGRN 1026400002089 and registration 330..\n- Currency: confirmed — Current official homepage uses retrieved logo.svg; CBR status Действует confirms operating bank, universal license..\n- Variant: confirmed — Red gradient standalone emblem is separate four-path geometry in official header lockup; retained all four emblem paths and original gradients unchanged, removed only separate bank-name paths. Transparent mark requires no backing..\n\nRationale: First addition: source-backed standalone bank emblem replaces pinned absence, not a full wordmark..\nRole: standalone bank emblem; variant: Official red gradient emblem on transparent canvas, separately extracted from header lockup; no backing added..\nVisible difference: First addition: frozen base has no icon.svg; final supplies the bank’s actual original standalone emblem. No fabricated blank comparison..\nDetails: Four red emblem pieces, central dot, crescent tips, gradient paints and internal transparency remain intact. No separate lettering or added contour; inspected source and standalone renders.. Proportions: Original wider-than-tall proportions retained. Actual Desktop frames show full emblem centered, no clipping and ample theme contrast. Supplemental 24/32/48 px librsvg diagnostics preserve recognizable crescent, dot and upper/lower strokes on both themes. No circle backing or arbitrary extra margin..\n\nSource-to-final transformations:\n- Retained original root children 5–9 \\(four emblem paths and defs\\), removed five separate lettering paths. Width/viewBox changed from 235×59 to 80×59; no emblem coordinate, paint, alpha or relative geometry changes.\n- SVGO 4.1.0 frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2089 bytes working, 2142 bytes trial. Trial pixel-identical in independent librsvg render but larger; selected unchanged smaller working SVG sha256 9874b45467ae4c820594ef48e200177564bbef705eaf3180db31a313d4b96cb7.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/68d7ab3592facee6590c18420ceae992dce3b312/review-materials/4416/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/68d7ab3592facee6590c18420ceae992dce3b312/review-materials/4416/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T14:00:00.395695667Z`. Source/final: Inspected full official lockup reference and extracted original emblem: final omits only separate bank-name lettering, preserves all emblem contours/colors/transparency/relative geometry. Source-material binds original full SVG, not a fabricated standalone URL.; base/final and rendering: Exact offscreen CPU Skia/painterResource Desktop final 240×240 frames on white and #121212: full red emblem clear and unclipped, dot and negative space correct. First addition has no base observation. Working vs optimized independent light/dark librsvg renders visually identical; working selected because trial grew. 24/32/48 px supplemental diagnostics recognizable on both themes, not mobile-native proof.\n\n- android-compose: not-tested (available: false) — Android SDK emulator binary and system image unavailable according to \\[local artifact not published; reference omitted\\]; no native/Compose Android render observed; platform rendering remains unverified..\n- android-native: not-tested (available: false) — Android SDK emulator binary and system image unavailable according to \\[local artifact not published; reference omitted\\]; no native/Compose Android render observed; platform rendering remains unverified..\n- ios-compose: not-tested (available: false) — Linux host has no iOS runtime/Xcode; native/Compose iOS rendering remains unverified..\n- ios-native: not-tested (available: false) — Linux host has no iOS runtime/Xcode; native/Compose iOS rendering remains unverified..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGS2PmQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/24",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "нужно адаптировать для светлой и темной темы",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABck5QLQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/24#issuecomment-6212702253",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "72393382031da591820df92bf6320ed8931be83f43d3409ee521019179fdfc3e",
+            "closedAt": "2026-10-16T09:42:26Z",
+            "head": "bank-icon-maintenance/4416",
+            "headCommit": "9a2a4ee18e40ef6916684aabfd0c36e8717fdae4",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 24,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк \"Саратов\" (Company.id 4416)",
+            "url": "https://github.com/zenmoney/banks/pull/24"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "нужно адаптировать для светлой и темной темы",
+            "bodySha256": "af235c132b8d198ee8f3a4bc79b8aa24ae5658043f50713419b1091d3164d63c",
+            "createdAt": "2026-10-16T09:42:26Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABck5QLQ",
+            "text": "нужно адаптировать для светлой и темной темы",
+            "textSha256": "af235c132b8d198ee8f3a4bc79b8aa24ae5658043f50713419b1091d3164d63c",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/24#issuecomment-6212702253"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4416/candidate-e7de7c56ecf7dbe6186d3296f7aede2d3549a43e889ad5b54e190b65fcf93fb8.json",
         "sha256": "e7de7c56ecf7dbe6186d3296f7aede2d3549a43e889ad5b54e190b65fcf93fb8"

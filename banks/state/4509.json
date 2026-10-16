@@ -99,7 +99,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:40:58.382373Z",
+        "observedAt": "2026-10-16T20:02:01.021561Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -117,10 +117,140 @@
           "url": "https://github.com/zenmoney/banks/pull/4"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:40:58.382373Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "bb54e6bf970f66f5ab75c902924d9fb1ed187e5bab822349dee6c08f4c444293",
+            "closedAt": "2026-10-15T13:59:10Z",
+            "head": "bank-icon-maintenance/4509",
+            "headCommit": "4830da18f1dd665b775e1b08e8516c589e17cffd",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 4,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Вайлдберриз Банк (Company.id 4509)",
+            "url": "https://github.com/zenmoney/banks/pull/4"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Accepted baseline (purple-to-magenta gradient circle with white uppercase 'WB') does not match the bank's current standalone mark: the solid magenta (#FF00C7) pill with white lowercase 'wb', confirmed by the wb-bank.ru-sourced logo uploaded to Wikimedia Commons in 2026 and by the WB Bank app icon published on RuStore (2026-07-28 upload). Fetched the standalone vector mark as a candidate; identity, currency, and suitability are supported by independent sources.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "лого обрезан и есть еще вариант со словом банк ",
+          "createdAt": "2026-10-15T13:59:11Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:59:11Z",
+          "url": "https://github.com/zenmoney/banks/pull/4#issuecomment-6193875265"
+        },
+        "explanation": "лого обрезан и есть еще вариант со словом банк ",
+        "mr": {
+          "number": 4,
+          "url": "https://github.com/zenmoney/banks/pull/4"
+        },
+        "rationale": "The reviewer identifies clipping and additionally points to a variant containing the word банк. Preserve both the clipping correction and the additional variant requirement; the comment does not approve the current cropped proposal.",
+        "requirements": [
+          {
+            "quote": "лого обрезан и есть еще вариант со словом банк ",
+            "url": "https://github.com/zenmoney/banks/pull/4#issuecomment-6193875265"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:02:01.021561Z",
+        "id": 4509,
+        "judgement": {
+          "action": "repair",
+          "key": "1826f44fb53e2934ab07ff9cc13d73b9f0eb0122528a7f890ec3f82618371b05",
+          "rationale": "The reviewer identifies clipping and additionally points to a variant containing the word банк. Preserve both the clipping correction and the additional variant requirement; the comment does not approve the current cropped proposal.",
+          "sources": [
+            {
+              "quote": "лого обрезан и есть еще вариант со словом банк ",
+              "url": "https://github.com/zenmoney/banks/pull/4#issuecomment-6193875265"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-01T18:53:05.022998Z",
+          "candidateIconHash": "dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e",
+          "key": "1826f44fb53e2934ab07ff9cc13d73b9f0eb0122528a7f890ec3f82618371b05",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Вайлдберриз Банк — Company.id 4509\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": \"Wildberries \\u0421\\u0442\\u0430\\u043d\\u0434\\u0430\\u0440\\u0442 \\u041a\\u0440\\u0435\\u0434\\u0438\\u0442\",\n  \"id\": 4509,\n  \"title\": \"\\u0412\\u0430\\u0439\\u043b\\u0434\\u0431\\u0435\\u0440\\u0440\\u0438\\u0437 \\u0411\\u0430\\u043d\\u043a\",\n  \"url\": \"wb-bank.ru\"\n}\n```\n\nFrozen base commit: `a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca`. Checked: `2026-10-01T18:58:21.960207Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/2560bba08e1585c1334d9f82a7fea45dc6fcc2d2/review-materials/4509/base.svg) — SHA-256 `e74de1b057596b4bdc307b1a8bf4e1acddb6f61081ef5828070f93e6ca4c6076`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/2560bba08e1585c1334d9f82a7fea45dc6fcc2d2/review-materials/4509/source.svg) — SHA-256 `32d53269cd806141798742e77a235cffade373563418d4cb55093a8c2596612e`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/2560bba08e1585c1334d9f82a7fea45dc6fcc2d2/review-materials/4509/final.svg) — SHA-256 `dc16de19256c6249873bfabe46c1cf8e226081c33b23500da2dd710002803d7e`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/2560bba08e1585c1334d9f82a7fea45dc6fcc2d2/review-materials/4509/final.xml) — SHA-256 `cf127ebeead007a16d62b6d3d1f87862b3b4996f76d92145f05c2a3c06372d28`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/2560bba08e1585c1334d9f82a7fea45dc6fcc2d2/review-materials/4509/candidate.diff).\n- Source page: [https://wb-bank.ru/](https://wb-bank.ru/).\n- Source asset: [https://upload.wikimedia.org/wikipedia/commons/a/a3/WB\\_Bank\\_Logo.svg](https://upload.wikimedia.org/wikipedia/commons/a/a3/WB_Bank_Logo.svg).\n\n### Evidence and judgment\n\n- third-party checked 2026-10-01T18:48:33Z: [https://commons.wikimedia.org/wiki/File:WB\\_Bank\\_logo\\_2026.webp](https://commons.wikimedia.org/wiki/File:WB_Bank_logo_2026.webp); asset [https://upload.wikimedia.org/wikipedia/commons/3/3f/WB\\_Bank\\_logo\\_2026.webp](https://upload.wikimedia.org/wikipedia/commons/3/3f/WB_Bank_logo_2026.webp). The Wikimedia Commons page 'WB Bank logo 2026.webp' \\(uploaded 2026-05-09\\) carries the «Вайлдберриз Банк» logo raster copied from the bank's own site and links the vector asset WB\\_Bank\\_Logo.svg; the raster shows the solid magenta pill with white lowercase 'wb'. (independence group: wb-bank.ru logo as archived on Wikimedia Commons).\n- official checked 2026-10-01T18:48:33Z: [https://wb-bank.ru/](https://wb-bank.ru/); asset [https://upload.wikimedia.org/wikipedia/commons/a/a3/WB\\_Bank\\_Logo.svg](https://upload.wikimedia.org/wikipedia/commons/a/a3/WB_Bank_Logo.svg). A direct request to the bank's site returned a small JavaScript antibot challenge page, so the live site could not be inspected; the vector asset used is the Commons copy attributed to the bank's site \\(SVG viewBox 1000x250.09, fills #FF00C7 and #FFFFFF, standalone mark, no accompanying text\\). (independence group: wb-bank.ru logo \\(Commons archival copy of official asset\\)).\n- third-party checked 2026-10-01T18:48:33Z: [https://www.rustore.ru/catalog/app/ru.wildberries.bank](https://www.rustore.ru/catalog/app/ru.wildberries.bank); asset [https://static.rustore.ru/2026/7/28/18/apk/2063738313/content/ICON/3308ae2b-91e2-49e2-99b0-da45e99d21ed.png](https://static.rustore.ru/2026/7/28/18/apk/2063738313/content/ICON/3308ae2b-91e2-49e2-99b0-da45e99d21ed.png). RuStore listing for 'ru.wildberries.bank' \\(WB Bank app, APK uploaded 2026-07-28\\): app icon is a solid magenta square with white 'wb' pill and 'банк' lettering below — confirms current brand colors and the lowercase-'wb' pill mark, but the app icon itself carries separate lettering so it is not suitable as a standalone cell mark. (independence group: RuStore app-store listing \\(independent distribution channel\\)).\n- zenplugins-issue checked 2026-10-01T18:48:33Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%92%D0%B0%D0%B9%D0%BB%D0%B4%D0%B1%D0%B5%D1%80%D0%B8%D0%B7+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%92%D0%B0%D0%B9%D0%BB%D0%B4%D0%B1%D0%B5%D1%80%D0%B8%D0%B7+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue). GitHub issue search returned total\\_count: 0 \\(no issues, open or closed, mention 'Вайлдберриз Банк'\\). (independence group: zenmoney/ZenPlugins).\n- zenplugins-pr checked 2026-10-01T18:48:33Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%92%D0%B0%D0%B9%D0%BB%D0%B4%D0%B1%D0%B5%D1%80%D0%B8%D0%B7+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%92%D0%B0%D0%B9%D0%BB%D0%B4%D0%B1%D0%B5%D1%80%D0%B8%D0%B7+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr). GitHub PR search returned total\\_count: 0 \\(no PRs, open or closed, mention 'Вайлдберриз Банк'\\). (independence group: zenmoney/ZenPlugins).\n- Independent evidence: Two independent observation channels agree: \\(1\\) the wb-bank.ru-attributed logo raster and its vector copy archived on Wikimedia Commons, and \\(2\\) the WB Bank app icon distributed through RuStore's own CDN. Colors \\(#FF00C7 magenta, white mark\\) and lowercase-'wb' lettering match across both; neither derives from the accepted repository SVG..\n- Identity: confirmed — The candidate is the standalone 'Вайлдберриз Банк' logo: Wikimedia Commons file attributed to https://wb-bank.ru/ and described as the bank's logo, corroborated by the RuStore WB Bank app icon using the same magenta 'wb' pill mark. Same bank record \\(ООО ВБ Банк, RU\\)..\n- Currency: confirmed — Commons copy sourced from wb-bank.ru was uploaded in May 2026; RuStore APK icon dated 2026-07-28 uses the same design; both postdate the accepted baseline's gradient-circle variant and show the brand currently in use..\n- Variant: confirmed — Candidate is the standalone mark variant: solid #FF00C7 pill with white lowercase 'wb' letters forming the mark, no accompanying bank name/slogan. Matches the isolated left part of the 2026 wb-bank.ru logo raster and the pill element inside the app icon; square-cell appropriate..\n- Uncertainty: Direct inspection of wb-bank.ru was blocked by an antibot JavaScript challenge, so the live site's exact usage was not observed first-hand; reliance is on the Commons copy explicitly sourced to wb-bank.ru plus the RuStore app icon..\n- Uncertainty: Whether the purple-gradient-circle 'WB' baseline was ever an official bank variant is unresolved; it is recorded here as superseded by the evidenced current design, not as an identity dispute..\n\nRationale: Accepted icon is the retired purple-magenta gradient circle with uppercase 'WB'; the bank's current standalone mark is the solid #FF00C7 pill with white lowercase 'wb', confirmed by the 2026 wb-bank.ru logo \\(Commons copy\\) and the 2026-07-28 RuStore app icon. Supported rebrand replacement for the same bank..\nRole: standalone app-style mark: rounded pill containing the lowercase 'wb' lettering, no wordmark; variant: mark-only variant isolated from the official lockup; transparent background, square-cell appropriate.\nVisible difference: Evidenced rebrand: gradient purple 'WB' circle replaced by the current solid magenta 'wb' pill; visibly different design confirmed by two independent current sources..\nDetails: Pill fill #FF00C7 and white 'wb' counters preserved exactly; no invented colors; dark-theme render identical to light.. Proportions: Pill is a wide rounded rectangle \\(about 424x250\\); centered in the square cell with balanced margins, appropriate as an application icon on both backgrounds..\n\nSource-to-final transformations:\n- Optimized with the installed SVGO 4.1.0 command-line tool using the repository's frozen svgo.config.mjs \\(sha256 prefix f2a406e05dd8\\) \\(coordinate precision 4, transform precision 5, multipass\\); 3302 -\\> 2017 bytes trial run.\n- From the official 1000x250.09 lockup SVG, the standalone pill group \\(pill path plus white 'wb' path\\) was isolated and the viewBox tightened to 0 0 424.36 250.09; the separate black «банк» wordmark path was excluded; no path geometry, colors, or fills were edited. The pill-only variant is source-supported by the RuStore app icon and the standalone-mark Commons raster.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/2560bba08e1585c1334d9f82a7fea45dc6fcc2d2/review-materials/4509/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/2560bba08e1585c1334d9f82a7fea45dc6fcc2d2/review-materials/4509/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-01T18:57:30.287998157Z`. Source/final: Independent librsvg reference of the downloaded source shows the full lockup \\(pill + black «банк» wordmark\\); the final isolates the source-supported standalone pill variant with untouched paths; colors and shapes match the source exactly on both themes.; base/final and rendering: Offscreen CPU Skia/painterResource pairs \\(light #FFFFFF, dark #121212\\): base gradient 'WB' circle vs final magenta 'wb' pill; final is crisp, centered, unclipped on both themes; no render defects.\n\n- android-compose: not-tested (available: false) — Android SDK tools exist on the build host, but no compatible system image, no AVD and no connected device are installed; Android downloads and installations are outside this run, so the candidate was not rendered on Android..\n- android-native: not-tested (available: false) — Android SDK present but no installed system image, no AVD, no connected device; Android downloads/installations are outside this run..\n- ios-compose: not-tested (available: false) — Linux host: no iOS toolchain or simulator available..\n- ios-native: not-tested (available: false) — Linux host: no iOS toolchain or simulator available..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGKLw5g",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/4",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "лого обрезан и есть еще вариант со словом банк ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcS8JQQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/4#issuecomment-6193875265",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "bb54e6bf970f66f5ab75c902924d9fb1ed187e5bab822349dee6c08f4c444293",
+            "closedAt": "2026-10-15T13:59:10Z",
+            "head": "bank-icon-maintenance/4509",
+            "headCommit": "4830da18f1dd665b775e1b08e8516c589e17cffd",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 4,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Вайлдберриз Банк (Company.id 4509)",
+            "url": "https://github.com/zenmoney/banks/pull/4"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "лого обрезан и есть еще вариант со словом банк ",
+            "bodySha256": "990064496dc00b10ad0d06ccb5319f342824620ef94ef6051cab9b0c7d9fbff6",
+            "createdAt": "2026-10-15T13:59:11Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcS8JQQ",
+            "text": "лого обрезан и есть еще вариант со словом банк",
+            "textSha256": "cc8a71528ae028e09bb263e6efcabca2f4c4cccc1c80e7595efd5e222d3879a6",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/4#issuecomment-6193875265"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4509/candidate-a324ddd7b04060bfd3b1d044ba188ebb3db2d0f0e6ab12603094ccda8b163fd0.json",
         "sha256": "a324ddd7b04060bfd3b1d044ba188ebb3db2d0f0e6ab12603094ccda8b163fd0"

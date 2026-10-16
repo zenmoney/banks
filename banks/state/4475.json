@@ -97,7 +97,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:40:49.576402Z",
+        "observedAt": "2026-10-16T20:01:52.867904Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -115,10 +115,140 @@
           "url": "https://github.com/zenmoney/banks/pull/31"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:40:49.576402Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "2069df502cce1ec7594055227a37d2cb03caea123292d941ea2d9df8549e4dc8",
+            "closedAt": "2026-10-15T13:38:47Z",
+            "head": "bank-icon-maintenance/4475",
+            "headCommit": "3db51b848b5316d800a2e77d9f84d3ee6128ac5e",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 31,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Датабанк (Company.id 4475)",
+            "url": "https://github.com/zenmoney/banks/pull/31"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Found an original-vector standalone bank mark from the bank's own site (archived): izhcombank.ru/images/logo-general.svg, a self-contained SVG (blue #4A90E2 circular mark with the И-swoosh emblem, viewBox 0 0 20 21). Captured by the Wayback Machine on 2020-06-14, within the final brand period of the bank. The bank is defunct (license revoked 2019; site offline today), so archived official assets are the correct dated source. The full wordmark logo also exists as an official vector (images/popup/data_logo.svg, grey #CCCCCC monochrome) but carries accompanying lettering and is not the standalone-mark candidate.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Сделать однотипно для светлой и темной темы ",
+          "createdAt": "2026-10-15T13:38:47Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:38:47Z",
+          "url": "https://github.com/zenmoney/banks/pull/31#issuecomment-6193438746"
+        },
+        "explanation": "Сделать однотипно для светлой и темной темы ",
+        "mr": {
+          "number": 31,
+          "url": "https://github.com/zenmoney/banks/pull/31"
+        },
+        "rationale": "The reviewer requests consistent presentation across light and dark themes; the comment does not prescribe a particular color or backing implementation.",
+        "requirements": [
+          {
+            "quote": "Сделать однотипно для светлой и темной темы ",
+            "url": "https://github.com/zenmoney/banks/pull/31#issuecomment-6193438746"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:01:52.867904Z",
+        "id": 4475,
+        "judgement": {
+          "action": "repair",
+          "key": "2b0543b0aad52727556ab2c40a90bc726b09d88cb18b9f4da30d0d3821446fb8",
+          "rationale": "The reviewer requests consistent presentation across light and dark themes; the comment does not prescribe a particular color or backing implementation.",
+          "sources": [
+            {
+              "quote": "Сделать однотипно для светлой и темной темы ",
+              "url": "https://github.com/zenmoney/banks/pull/31#issuecomment-6193438746"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T18:03:36.493949Z",
+          "candidateIconHash": "479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0",
+          "key": "2b0543b0aad52727556ab2c40a90bc726b09d88cb18b9f4da30d0d3821446fb8",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Датабанк — Company.id 4475\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": \"\\u0418\\u0436\\u043a\\u043e\\u043c\\u0431\\u0430\\u043d\\u043a\",\n  \"id\": 4475,\n  \"title\": \"\\u0414\\u0430\\u0442\\u0430\\u0431\\u0430\\u043d\\u043a\",\n  \"url\": \"izhcombank.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T18:06:28.211910Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/1dc8665bd3ad900f439d23e2cac61610fc36318b/review-materials/4475/source.svg) — SHA-256 `79b98e962fc41940567500bfea8a0fa4e1494b73b415f7437c0e38331b2df68d`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/1dc8665bd3ad900f439d23e2cac61610fc36318b/review-materials/4475/final.svg) — SHA-256 `479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/1dc8665bd3ad900f439d23e2cac61610fc36318b/review-materials/4475/final.xml) — SHA-256 `c338b10a3b695bbcd0dcf4aa2ebee7eaa7074cc3bef89e5ec63b720116561ac4`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/1dc8665bd3ad900f439d23e2cac61610fc36318b/review-materials/4475/candidate.diff).\n- Source page: [https://izhcombank.ru/images/logo-general.svg](https://izhcombank.ru/images/logo-general.svg).\n- Source asset: [https://web.archive.org/web/2020id\\_/https://izhcombank.ru/images/logo-general.svg](https://web.archive.org/web/2020id_/https://izhcombank.ru/images/logo-general.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-02T17:50:04Z: [https://izhcombank.ru/](https://izhcombank.ru/). Official site unreachable: HTTPS transfer failed \\(connection error\\), consistent with the bank's closure \\(license revoked 2019\\). (independence group: official-site).\n- official checked 2026-10-02T17:50:14Z: [https://web.archive.org/web/20200101185509id\\_/https://www.izhcombank.ru/](https://web.archive.org/web/20200101185509id_/https://www.izhcombank.ru/). Archived homepage \\(2020-01-01\\): header logo is an inline SVG \\(viewBox 0 0 207.98 48, colors #004790/#7c7d7d/#9e9fa0\\) combining the mark with the wordmark; no standalone \\<img\\> logo file referenced. source-material extraction blocked: external SVG style context / duplicate vector IDs. (independence group: official-site-archived).\n- official checked 2026-10-02T17:51:46Z: [https://web.archive.org/web/20200806122122id\\_/https://izhcombank.ru/about/rebrending/](https://web.archive.org/web/20200806122122id_/https://izhcombank.ru/about/rebrending/). Official rebranding page \\(archived 2020-08-06\\): announces ПАО «Ижкомбанк» rebranding to «Датабанк», confirming the record's title/brand period. (independence group: official-site-archived).\n- official checked 2026-10-02T17:52:25Z: [https://web.archive.org/cdx/search/cdx?url=izhcombank.ru/images/\\*](https://web.archive.org/cdx/search/cdx?url=izhcombank.ru/images/*). Wayback CDX index of site assets; located original SVG assets: images/logo-general.svg \\(20200614232237\\), images/popup/data\\_logo.svg \\(20200306073005\\), images/popup/izhkom\\_logo.svg \\(20200306073013, replay 404\\), images/logo.svg \\(20180214113639, pre-rebrand full logo\\). (independence group: wayback-index).\n- official checked 2026-10-02T17:54:43Z: [https://web.archive.org/web/20200306073005im\\_/https://www.izhcombank.ru/images/popup/data\\_logo.svg](https://web.archive.org/web/20200306073005im_/https://www.izhcombank.ru/images/popup/data_logo.svg); asset [https://www.izhcombank.ru/images/popup/data\\_logo.svg](https://www.izhcombank.ru/images/popup/data_logo.svg). Official full logo SVG \\(250x55, grey #CCCCCC monochrome variant\\): circular И-swoosh mark + «ижкомбанк» wordmark. Original vector, but contains accompanying lettering; not suitable as a standalone catalog mark. (independence group: official-site-archived).\n- official checked 2026-10-02T17:52:46Z: [https://izhcombank.ru/images/logo-general.svg](https://izhcombank.ru/images/logo-general.svg); asset [https://web.archive.org/web/2020id\\_/https://izhcombank.ru/images/logo-general.svg](https://web.archive.org/web/2020id_/https://izhcombank.ru/images/logo-general.svg). Standalone bank mark as an original self-contained SVG \\(20x21, single path, fill #4A90E2\\): blue circle with the И-swoosh emblem, no lettering. Official site asset from the final brand period \\(capture 2020-06-14\\). Rendered locally via rsvg-convert and visually confirmed as the standalone emblem. (independence group: official-site-archived).\n- Independent evidence: All primary observations derive from one publication domain \\(the bank's official site, archived\\); the rebranding page, homepage header and asset files are distinct official pages of that one source, and the Wayback Machine provides the dated capture. No independent third-party source was additionally consulted for the mark's design..\n- Identity: confirmed — Asset comes from the bank's own domain \\(izhcombank.ru\\) as archived by the Wayback Machine; the same И-swoosh mark appears in the site header inline logo and in the full wordmark logo data\\_logo.svg from the same domain..\n- Currency: confirmed — Capture dates \\(2020-06-14 asset; 2020 homepage; 2020-08-06 rebranding page\\) fall within the bank's last brand period \\(Ижкомбанк rebranded to «Датабанк» in 2019, bank closed 2019-2020\\); the record title «Датабанк» matches this period. No later official presentation exists..\n- Variant: confirmed — Standalone mark variant \\(blue circle + emblem, no lettering\\) is the site's own icon-size asset \\(logo-general.svg, 'logo-general@1x'\\); the blue #4A90E2 differs from the header wordmark blue #004790 — both are official same-period variants; suitability decision belongs to candidate preparation..\n\nRationale: First addition of the bank's own standalone mark: the official logo-general.svg from izhcombank.ru \\(Wayback capture 2020-06-14\\), the final brand period of the record \\(Ижкомбанк rebranded to «Датабанк» in 2019; bank closed 2019-2020\\). The mark is a self-contained original-vector emblem — blue #4A90E2 circle with a transparent swoosh-shaped counter — with no accompanying lettering, matching the record title «Датабанк» period. It fits a square cell and remains legible on both themes..\nRole: Standalone bank emblem \\(site icon-size asset 'logo-general@1x'\\); the mark itself, not a full lockup.; variant: Blue standalone circle variant from the bank's own site; the header wordmark used #004790 and the popup lockup a grey #CCCCCC monochrome — this blue circle asset is the site's own standalone variant from the same period..\nVisible difference: First addition: the frozen base has no icon.svg for this record \\(confirmed absent\\), so the visible difference is absence to a real, legible official mark..\nDetails: All source contours survive: circle boundary, the two swoosh strokes, the small detached tail detail at right, and the transparent counter. The transparent hole correctly shows white/#121212 through the final render. No clipping, no lost details.. Proportions: The near-square 20x21 emblem fills the catalog 162px icon area with comfortable margins on the 240px canvas; it is recognizable at 24/32/48 px diagnostics on both themes, with adequate stroke weight and contrast. No stretching; no circle mask needed since the emblem is already circular..\n\nSource-to-final transformations:\n- No geometric transformation: the emblem is used as-is in its 20x21 viewBox; only uniform authoring serialization changed.\n- SVGO 4.1.0 with the repository svgo.config.mjs \\(config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\): 1953 bytes working -\\> 1014 bytes optimized \\(sha256 479705866ab361c9b017a01b2b1e95066e12acac662e01563cae9ee082ae68d0\\); selected because it is smaller, visually faithful \\(rsvg-convert comparison max channel difference \\<= 8/255 on both themes, antialiasing only\\), and converter-compatible in the pinned Desktop export.\n- No backing added: the source is a suitable transparent standalone mark \\(transparent corners only; the swoosh counter is an intentional transparent hole showing the theme background\\), so transparency is preserved per the background/fit policy.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/1dc8665bd3ad900f439d23e2cac61610fc36318b/review-materials/4475/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/1dc8665bd3ad900f439d23e2cac61610fc36318b/review-materials/4475/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T18:05:05.743942791Z`. First addition: the bank has no icon.svg at the frozen base commit \\(confirmed pinned-path absence\\), so there is no base icon and no base/final pair by contract; the difference is absence to a real, legible official mark. Final render quality: the exact offscreen Desktop frames on both themes \\(240x240 px on #FFFFFF and #121212\\) show a complete, centered, recognizable blue circular mark; the transparent counter picks up the theme background as designed and legibility is good on both.\n\n- android-compose: not-tested (available: false) — No Android emulator binary or system image is installed in the local Android SDK \\(only build tools, cmdline tools, platforms and platform tools\\); no AVD can be created from installed images. Skipped with disclosed risk: the Desktop VectorDrawable conversion succeeded, but real Android rendering was not observed..\n- android-native: not-tested (available: false) — Same missing emulator/system-image prerequisite as android-compose; the headless Android check is not possible in this environment..\n- ios-compose: not-tested (available: false) — No iOS toolchain/runtime exists on this Linux host; unavailable target..\n- ios-native: not-tested (available: false) — No iOS toolchain/runtime exists on this Linux host; unavailable target..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGVMVIA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/31",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Сделать однотипно для светлой и темной темы ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcShgGg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/31#issuecomment-6193438746",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "2069df502cce1ec7594055227a37d2cb03caea123292d941ea2d9df8549e4dc8",
+            "closedAt": "2026-10-15T13:38:47Z",
+            "head": "bank-icon-maintenance/4475",
+            "headCommit": "3db51b848b5316d800a2e77d9f84d3ee6128ac5e",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 31,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Датабанк (Company.id 4475)",
+            "url": "https://github.com/zenmoney/banks/pull/31"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Сделать однотипно для светлой и темной темы ",
+            "bodySha256": "a0a49ceeaacaf0f4199ee345f1d5e9b8893dba41ce88e0f09e5e7768d2386ae6",
+            "createdAt": "2026-10-15T13:38:47Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcShgGg",
+            "text": "Сделать однотипно для светлой и темной темы",
+            "textSha256": "c22551bd25f299b10c4fe68bfd90856c4095916a27c5e05558babde2f4c7847d",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/31#issuecomment-6193438746"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4475/candidate-564078943a97d8d7ed1ba3e740982914dc0d00755678942bb20bdbae14ecd161.json",
         "sha256": "564078943a97d8d7ed1ba3e740982914dc0d00755678942bb20bdbae14ecd161"

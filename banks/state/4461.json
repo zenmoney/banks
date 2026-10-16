@@ -99,7 +99,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:39:39.828744Z",
+        "observedAt": "2026-10-16T20:01:44.691420Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -117,10 +117,140 @@
           "url": "https://github.com/zenmoney/banks/pull/28"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:39:39.828744Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "fc710d70e99a59b2a8379a5660584aaf0415f8e0f3edf29c96ea5f038d21cc44",
+            "closedAt": "2026-10-15T13:45:47Z",
+            "head": "bank-icon-maintenance/4461",
+            "headCommit": "ba73753e216f71175dfaf13a600576265d2116b0",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 28,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: СНГБ (Company.id 4461)",
+            "url": "https://github.com/zenmoney/banks/pull/28"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Original vector found on the operating bank's official site: https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg, an Illustrator-exported header lockup (blue rhombus emblem with yellow lens + СНГБ wordmark + slogan). The standalone emblem is losslessly separable (2 of 6 top-level paths). The bank is active (CBR registry reg. 588, ACRA Feb-2026), so the current site asset is the relevant current presentation.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Адаптировать под светлую и темную тему ",
+          "createdAt": "2026-10-15T13:45:47Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:45:47Z",
+          "url": "https://github.com/zenmoney/banks/pull/28#issuecomment-6193589249"
+        },
+        "explanation": "Адаптировать под светлую и темную тему ",
+        "mr": {
+          "number": 28,
+          "url": "https://github.com/zenmoney/banks/pull/28"
+        },
+        "rationale": "The reviewer requests adapting the icon to light and dark themes, a presentation repair rather than an identity concern or deferral.",
+        "requirements": [
+          {
+            "quote": "Адаптировать под светлую и темную тему ",
+            "url": "https://github.com/zenmoney/banks/pull/28#issuecomment-6193589249"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:01:44.691420Z",
+        "id": 4461,
+        "judgement": {
+          "action": "repair",
+          "key": "724c29a5c58c43d6ac5201e0628ca6828c531651335a5d239aec76479982b2d3",
+          "rationale": "The reviewer requests adapting the icon to light and dark themes, a presentation repair rather than an identity concern or deferral.",
+          "sources": [
+            {
+              "quote": "Адаптировать под светлую и темную тему ",
+              "url": "https://github.com/zenmoney/banks/pull/28#issuecomment-6193589249"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T16:37:21.624184Z",
+          "candidateIconHash": "2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e",
+          "key": "724c29a5c58c43d6ac5201e0628ca6828c531651335a5d239aec76479982b2d3",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## СНГБ — Company.id 4461\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": \"\\u0421\\u0443\\u0440\\u0433\\u0443\\u0442\\u043d\\u0435\\u0444\\u0442\\u0435\\u0433\\u0430\\u0437\\u0431\\u0430\\u043d\\u043a\",\n  \"id\": 4461,\n  \"title\": \"\\u0421\\u041d\\u0413\\u0411\",\n  \"url\": \"sngb.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T16:38:54.095759Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/a24917bee8f43c4b691bdb17bed0c2301ecafccf/review-materials/4461/source.svg) — SHA-256 `aaeed03c1e4516fb51ca3d5d89ce3a82f7187e2bcc4e4eb79f6aaa7f6ce6d35d`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/a24917bee8f43c4b691bdb17bed0c2301ecafccf/review-materials/4461/final.svg) — SHA-256 `2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/a24917bee8f43c4b691bdb17bed0c2301ecafccf/review-materials/4461/final.xml) — SHA-256 `a5920a5b156c322bbea4df5a6cf7490b811e731176addb3eba201534b7ba73d6`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/a24917bee8f43c4b691bdb17bed0c2301ecafccf/review-materials/4461/candidate.diff).\n- Source page: [https://www.sngb.ru/](https://www.sngb.ru/).\n- Source asset: [https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg](https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg](https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg); SHA-256 `aaeed03c1e4516fb51ca3d5d89ce3a82f7187e2bcc4e4eb79f6aaa7f6ce6d35d`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-02T16:14:00Z: [https://www.sngb.ru/](https://www.sngb.ru/); asset [https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg](https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg). Official site header binds the logo.svg asset via production widgets CSS \\(.wp-widget-header .logo\\); the SVG \\(107568 bytes, Illustrator-exported\\) contains the rhombus emblem \\(fill #004282, lens #FDB913\\), the СНГБ lettering and the slogan line as separate top-level paths. (independence group: official-site).\n- official checked 2026-10-02T16:14:00Z: [https://cbr.ru/finorg/foinfo/?ogrn=1027800000040](https://cbr.ru/finorg/foinfo/?ogrn=1027800000040). Bank of Russia registry and credit-organization list \\(checked 2026-10-01 by the research pass, reg. 588, general license 05.09.2016\\) confirm Сургутнефтегазбанк \\(СНГБ\\) is operating; current site branding is the relevant period. (independence group: regulator).\n- third-party checked 2026-10-02T16:14:00Z: [https://www.acra-ratings.ru/](https://www.acra-ratings.ru/). ACRA February 2026 press release confirms ongoing operations of СНГБ, corroborating currency of the current logo. (independence group: rating-agency).\n- Independent evidence: Official site asset, CBR registry and an independent rating-agency publication are separate sources; the CSS binding of the asset to the header was verified in the site's own stylesheet..\n- Identity: confirmed — The official sngb.ru site \\(Сургутнефтегазбанк, fullTitle in metadata\\) serves logo.svg as its header brand asset; the emblem is the bank's rhombus mark used with the СНГБ wordmark..\n- Currency: confirmed — Operating bank per CBR registry and ACRA 2026; the live site asset is the current presentation..\n- Variant: confirmed — The primary site-wide header variant: blue rhombus with yellow lens beside the СНГБ wordmark; emblem colors #004282/#FDB913 as drawn in the official asset..\n- Uncertainty: Catalog suitability of the full lockup requires dropping the СНГБ wordmark and slogan; only the standalone rhombus emblem is proposed..\n\nRationale: First addition for an existing record without an icon. The operating bank's official header SVG is a genuine original vector; the standalone rhombus emblem was selected losslessly \\(two verbatim original paths, wordmark and slogan removed for catalog suitability\\) and optimized with SVGO..\nRole: Standalone brand emblem \\(blue rhombus with yellow lens\\) extracted from the official header lockup; the СНГБ wordmark and the slogan line are excluded per catalog suitability.; variant: Original vector emblem on a transparent field; no circular catalog backing applied because the mark is a suitable transparent standalone symbol whose rhombus contour and internal transparent lens gap are preserved..\nVisible difference: First addition: the frozen base has no icon.svg for this bank \\(iconHash null\\); the visible difference is absent-to-real-icon..\nDetails: Rhombus geometry, yellow lens shape and the transparent gap between lens and rhombus survive optimization and rendering on both themes; no lost detail or color shift. The transparent gap shows the theme background exactly as the source structure defines.. Proportions: The emblem is a wide \\(about 2:1\\) mark; it fills its viewBox with balanced margins, stays complete and legible at 24/32/48 px diagnostics on both themes, with the lens clearly visible..\n\nSource-to-final transformations:\n- Lossless selection of the first two original paths \\(#FDB913 lens, #004282 rhombus\\) from the fetched lockup; wordmark/slogan paths dropped; no geometry, color or alpha edits \\(working.svg, 863 bytes\\).\n- SVGO 4.1.0 with repository config svgo.config.mjs \\(sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\), multipass: 863 -\\> 750 bytes; selected \\(optimized.svg sha256 2939240f5e37f365097063c0cc4679c14bd6e70ce102c2a1fc4de7b85ccd730e\\); pixel comparison of working versus optimized renders showed no difference \\(max-diff bbox none\\); viewport preserved.\n- No placement transform needed: the emblem fills its 36.01x18.1 viewBox; whole-emblem geometry untouched.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/a24917bee8f43c4b691bdb17bed0c2301ecafccf/review-materials/4461/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/a24917bee8f43c4b691bdb17bed0c2301ecafccf/review-materials/4461/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T16:37:52.506371739Z`. Source/final: Full original lockup versus final standalone emblem: emblem geometry, colors \\(#004282, #FDB913\\) and internal transparency preserved verbatim; only the separate СНГБ wordmark and slogan paths excluded and the viewport tightened to the emblem bounds. Source/final pairs inspected on both themes.; base/final and rendering: No base icon exists at the frozen base commit \\(first addition; explicit absence, no baseline claimed\\). Final render quality: offscreen CPU Skia/painterResource 240x240 frames on #FFFFFF and #121212 show a centered, complete, unclipped rhombus emblem with correct colors and clearances; both actual final frames were inspected.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator verified available in this environment; Android render evidence not produced. Risk: Android-specific rendering path unverified for this candidate..\n- android-native: not-tested (available: false) — No Android native tooling available in this environment..\n- ios-compose: not-tested (available: false) — No iOS tooling exists on this Linux host..\n- ios-native: not-tested (available: false) — No iOS tooling exists on this Linux host..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGUYmqw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/28",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Адаптировать под светлую и темную тему ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSqsAQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/28#issuecomment-6193589249",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "fc710d70e99a59b2a8379a5660584aaf0415f8e0f3edf29c96ea5f038d21cc44",
+            "closedAt": "2026-10-15T13:45:47Z",
+            "head": "bank-icon-maintenance/4461",
+            "headCommit": "ba73753e216f71175dfaf13a600576265d2116b0",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 28,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: СНГБ (Company.id 4461)",
+            "url": "https://github.com/zenmoney/banks/pull/28"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Адаптировать под светлую и темную тему ",
+            "bodySha256": "e8e90f21b16b5261ce3a0f35e3a7544366ff78d0a5469acf9a33f3f19b63b24c",
+            "createdAt": "2026-10-15T13:45:47Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSqsAQ",
+            "text": "Адаптировать под светлую и темную тему",
+            "textSha256": "21a793565451432726efb60695e8e97644c0d3e6253d9e91d8eb84f15b85ccc1",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/28#issuecomment-6193589249"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4461/candidate-f06f078a96025f286be4919540a2a305b27da002096db399be864260d6e8b011.json",
         "sha256": "f06f078a96025f286be4919540a2a305b27da002096db399be864260d6e8b011"

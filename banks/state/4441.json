@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:39:33.843690Z",
+        "observedAt": "2026-10-16T20:01:36.897008Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/26"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:39:33.843690Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "698583f73a1492d210a91b5429ca3619bb0b9ec1c46d6169f70c54fc8e7399eb",
+            "closedAt": "2026-10-16T09:43:22Z",
+            "head": "bank-icon-maintenance/vbq3cbi1-4441",
+            "headCommit": "25039abadcfb8c9e94cf16f4836a3000e4015c9b",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 26,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+            "url": "https://github.com/zenmoney/banks/pull/26"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "A current official business-account site publishes an original standalone SVG favicon matching its full ЧЕЛИНДБАНК logo. The selected bank has no baseline icon; recommend first addition, subject to coordinator candidate rendering and review.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "нужно адаптировать для светлой и темной темы",
+          "createdAt": "2026-10-16T09:43:22Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T09:43:22Z",
+          "url": "https://github.com/zenmoney/banks/pull/26#issuecomment-6212719181"
+        },
+        "explanation": "нужно адаптировать для светлой и темной темы",
+        "mr": {
+          "number": 26,
+          "url": "https://github.com/zenmoney/banks/pull/26"
+        },
+        "rationale": "The reviewer requests adapting the proposed icon for both light and dark themes; this is a presentation repair without specifying replacement colors.",
+        "requirements": [
+          {
+            "quote": "нужно адаптировать для светлой и темной темы",
+            "url": "https://github.com/zenmoney/banks/pull/26#issuecomment-6212719181"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:01:36.897008Z",
+        "id": 4441,
+        "judgement": {
+          "action": "repair",
+          "key": "51a3024f09094e891bdaa19803cf83bfe90ad5246b6180e9700f6d3818be87e2",
+          "rationale": "The reviewer requests adapting the proposed icon for both light and dark themes; this is a presentation repair without specifying replacement colors.",
+          "sources": [
+            {
+              "quote": "нужно адаптировать для светлой и темной темы",
+              "url": "https://github.com/zenmoney/banks/pull/26#issuecomment-6212719181"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T15:24:21.072363Z",
+          "candidateIconHash": "388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a",
+          "key": "51a3024f09094e891bdaa19803cf83bfe90ad5246b6180e9700f6d3818be87e2",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## ЧЕЛИНДБАНК — Company.id 4441\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4441,\n  \"title\": \"\\u0427\\u0415\\u041b\\u0418\\u041d\\u0414\\u0411\\u0410\\u041d\\u041a\",\n  \"url\": \"chelindbank.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T15:27:54.024399Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/188824ede3a9d9191f17a296175a3be5e0eabf5a/review-materials/4441/source.svg) — SHA-256 `24f28596427b825fc6bf46b4b908777a8cf38779683243193003984d8aa76436`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/188824ede3a9d9191f17a296175a3be5e0eabf5a/review-materials/4441/final.svg) — SHA-256 `388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/188824ede3a9d9191f17a296175a3be5e0eabf5a/review-materials/4441/final.xml) — SHA-256 `96847a2393334c190a190077cec4eefca4babb02594c4eab614ddfc705c29e3b`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/188824ede3a9d9191f17a296175a3be5e0eabf5a/review-materials/4441/candidate.diff).\n- Source page: [https://rko.chelind.ru/](https://rko.chelind.ru/).\n- Source asset: [https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg](https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg).\n\n### Evidence and judgment\n\n- third-party checked 2026-10-02T15:21:19Z: [https://cbr.ru/finorg/foinfo/?ogrn=1027400000110](https://cbr.ru/finorg/foinfo/?ogrn=1027400000110). Downloaded regulator HTML identifies ПАО ЧЕЛИНДБАНК, status Действует, universal-license bank, OGRN 1027400000110 and official rko.chelind.ru / chelindbank.ru / chelind.ru domains. (independence group: Bank of Russia registry).\n- official checked 2026-10-02T15:21:19.772727Z: [https://rko.chelind.ru/](https://rko.chelind.ru/); asset [https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg](https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg). Downloaded official page declares this exact SVG as shortcut icon. Actual 1255-byte SVG is one path, explicit fill #0630B8 and viewBox 0 0 40 40, no raster, external dependency or text. Independently rendered and visually read: blue circular standalone bank emblem with transparent internal cutouts. (independence group: Chelindbank official rko publication and CDN).\n- official checked 2026-10-02T15:21:19Z: [https://rko.chelind.ru/](https://rko.chelind.ru/); asset [https://static.tildacdn.com/tild3966-3363-4764-a265-323463623662/logo\\_2.svg](https://static.tildacdn.com/tild3966-3363-4764-a265-323463623662/logo_2.svg). Downloaded official page-linked full SVG logo renders the same circular emblem beside ЧЕЛИНДБАНК lettering in the same blue. Full wordmark itself is unsuitable for square catalog use; its separately published favicon is suitable. (independence group: Chelindbank official rko publication and CDN).\n- third-party checked 2026-10-02T15:21:19Z: [https://cyclowiki.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB%3A%D0%9B%D0%BE%D0%B3%D0%BE\\_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg](https://cyclowiki.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB%3A%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg); asset [https://data.cyclowiki.org/images/b/b2/%D0%9B%D0%BE%D0%B3%D0%BE\\_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg](https://data.cyclowiki.org/images/b/b2/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg). Search reports a 2014 upload attributed to the bank brandbook; the provenance page transfer failed. The downloaded historical SVG was created with sK1/UniConvertor and titled Chelindbank logo. Its inspected render shows the same emblem with full bank lettering in an older blue. It is corroboration only; the current official standalone vector is the selected source. One earlier search-returned asset URL returned HTTP 404. (independence group: Cyclowiki historical upload).\n- official checked 2026-10-02T15:21:19Z: [https://chelindbank.ru](https://chelindbank.ru). Official main-site HTTPS transfer failed, packaged-CA retry retained. ibank application returned HTTP 403 or empty response. www.chelind.ru and chelind.ru transfers also failed; these are retrieval limitations, resolved for source selection by the independently attributed working rko site. (independence group: Chelindbank official sites).\n- Independent evidence: Bank of Russia independently establishes legal identity, operating lifecycle and official domains. The official rko page and its Tilda CDN assets are one primary publication group, not independent confirmations. Cyclowiki is a separate historical upload attributed by search to the bank brandbook; it is corroboration only, not the selected source or current color authority..\n- Identity: confirmed — Bank of Russia identifies operating ПАО ЧЕЛИНДБАНК, OGRN 1027400000110, universal-license bank, and lists chelindbank.ru, chelind.ru and rko.chelind.ru as its websites. The rko.chelind.ru page identifies ПАО ЧЕЛИНДБАНК and its downloaded logo spells ЧЕЛИНДБАНК. No parent or successor substitution..\n- Currency: confirmed — Bank of Russia status is Действует. The live official business-account site currently links the selected SVG as its shortcut icon and the matching blue logo as an image; its product copy includes an account-opening offer through 31.12.2026. These current official source bytes support the operating brand, not merely the independent 2014 upload..\n- Variant: confirmed — The official 40×40 SVG consists of one original vector path filled #0630B8, forming a blue circular emblem with internal transparent lightning/monogram cutouts. Independent source render shows the same emblem geometry beside the bank name, but a different older blue. The official favicon and current official full logo visually agree in geometry and blue. Standalone favicon has no accompanying lettering and fits a square cell without shrinking a wordmark..\n\nRationale: First addition of the current official standalone Chelindbank vector favicon; frozen baseline has no icon..\nRole: standalone bank emblem; variant: Official #0630B8 circular emblem with transparent internal lightning/monogram cutouts; meaningful contour, not an added backing..\nVisible difference: First addition: no existing icon.svg at frozen base; real standalone bank emblem appears. No dummy baseline or rebrand claim..\nDetails: Full original raster and both source/final pairs inspected. Circle, sharp lightning tips, rounded internal ends and narrow central gap match; transparent holes show the actual theme, not white paint. No lettering or clipped details.. Proportions: Exact 240px Compose frames center complete 162px emblem with intact circular boundary. Resized 24/32/48px diagnostics preserve recognizable monogram; blue has lower contrast on dark but remains legible. No arbitrary padding or masking..\n\nSource-to-final transformations:\n- No emblem, color, backing or placement transformation; preserve source viewBox 0 0 40 40 and internal alpha.\n- SVGO 4.1.0, frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1255 to 997 bytes; selected optimized SHA256 388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a. Independent working/optimized light and dark comparisons show no visible geometry, color or transparency loss.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/188824ede3a9d9191f17a296175a3be5e0eabf5a/review-materials/4441/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/188824ede3a9d9191f17a296175a3be5e0eabf5a/review-materials/4441/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T15:25:44.156364162Z`. Source/final: Inspected full original librsvg raster and source/final pairs on white and #121212. Offscreen CPU Skia/painterResource preserves original blue silhouette, complete cutouts, proportions and alpha; no source composition change apart from faithful optimization.; base/final and rendering: First addition, baseline explicitly absent. Inspected exact final-only light/dark frames: intact centered circular emblem, no distortion or clipping, clean internal negative space and recognizable geometry. Resized diagnostics are not native mobile evidence.\n\n- android-compose: not-tested (available: false) — Installed readiness check found emulator and systemImage missing; Android render not observed..\n- android-native: not-tested (available: false) — Installed readiness check found emulator and systemImage missing; Android render not observed..\n- ios-compose: not-tested (available: false) — Linux host has no iOS runtime; iOS rendering unverified..\n- ios-native: not-tested (available: false) — Linux host has no iOS runtime; iOS rendering unverified..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGTuY0w",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/26",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "нужно адаптировать для светлой и темной темы",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABck6STQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/26#issuecomment-6212719181",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "698583f73a1492d210a91b5429ca3619bb0b9ec1c46d6169f70c54fc8e7399eb",
+            "closedAt": "2026-10-16T09:43:22Z",
+            "head": "bank-icon-maintenance/vbq3cbi1-4441",
+            "headCommit": "25039abadcfb8c9e94cf16f4836a3000e4015c9b",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 26,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+            "url": "https://github.com/zenmoney/banks/pull/26"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "нужно адаптировать для светлой и темной темы",
+            "bodySha256": "af235c132b8d198ee8f3a4bc79b8aa24ae5658043f50713419b1091d3164d63c",
+            "createdAt": "2026-10-16T09:43:22Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABck6STQ",
+            "text": "нужно адаптировать для светлой и темной темы",
+            "textSha256": "af235c132b8d198ee8f3a4bc79b8aa24ae5658043f50713419b1091d3164d63c",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/26#issuecomment-6212719181"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4441/candidate-6adf40d3c1b1d3b09d66f38747ced166545f82046d0ba58a753d0fd8e4741755.json",
         "sha256": "6adf40d3c1b1d3b09d66f38747ced166545f82046d0ba58a753d0fd8e4741755"

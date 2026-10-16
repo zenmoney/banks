@@ -101,7 +101,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:41:07.691373Z",
+        "observedAt": "2026-10-16T20:02:09.620561Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -119,10 +119,140 @@
           "url": "https://github.com/zenmoney/banks/pull/38"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:41:07.691373Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "648c3024ff6cf845fdcf6dddcb259a9b1daee385ed8152d177233f4d8b7fc75c",
+            "closedAt": "2026-10-15T13:34:17Z",
+            "head": "bank-icon-maintenance/4613",
+            "headCommit": "165b67b8c2a08b3699801beea7aea0d2bf6710d1",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 38,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: АРКБ \"Росбизнесбанк\" (Company.id 4613)",
+            "url": "https://github.com/zenmoney/banks/pull/38"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Original vector found for the historical Росбизнесбанк mark: https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg — pure-path SVG (5 paths, no embedded raster/text), trademark-style 192.756 viewBox consistent with EPS-origin vector conversions. Full logo contains the РБ monogram emblem plus mandatory bank-name wordmark (РОССИЙСКИЙ АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК РОСБИЗНЕСБАНК) — direct identity evidence; namesakes Rosbank/RBC excluded. The standalone РБ emblem (first path) renders cleanly and is the catalog-suitable standalone mark; extraction is deferred to candidate preparation, this attempt binds the fetched original. Live www.rbb.ru is unreachable (expired TLS certificate); Wayback captures of the operating-period site are raster-only and the color capture is corrupted, so the official color variant remains unverified — the source vector is monochrome.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "defer",
+        "candidateIconHash": "9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c",
+        "category": "not-now",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "На самом сайте не лого, почти все ссылки не рабочие, пока на паузе этот лого",
+          "createdAt": "2026-10-15T13:34:17Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:34:17Z",
+          "url": "https://github.com/zenmoney/banks/pull/38#issuecomment-6193345620"
+        },
+        "explanation": "На самом сайте не лого, почти все ссылки не рабочие, пока на паузе этот лого",
+        "mr": {
+          "number": 38,
+          "url": "https://github.com/zenmoney/banks/pull/38"
+        },
+        "rationale": "The reviewer explicitly pauses this logo, citing the site's lack of a logo and mostly nonworking links. Record a deferral with these stated concerns, not verified bank metadata; no release date or resumption condition is supplied.",
+        "requirements": [
+          {
+            "quote": "На самом сайте не лого, почти все ссылки не рабочие, пока на паузе этот лого",
+            "url": "https://github.com/zenmoney/banks/pull/38#issuecomment-6193345620"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:02:09.620561Z",
+        "id": 4613,
+        "judgement": {
+          "action": "defer",
+          "key": "27273a958a8c58ee49baf2826720c56e413078eeba6ac0a273a793162f73fe49",
+          "rationale": "The reviewer explicitly pauses this logo, citing the site's lack of a logo and mostly nonworking links. Record a deferral with these stated concerns, not verified bank metadata; no release date or resumption condition is supplied.",
+          "sources": [
+            {
+              "quote": "На самом сайте не лого, почти все ссылки не рабочие, пока на паузе этот лого",
+              "url": "https://github.com/zenmoney/banks/pull/38#issuecomment-6193345620"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T02:47:26.680565Z",
+          "candidateIconHash": "9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c",
+          "key": "27273a958a8c58ee49baf2826720c56e413078eeba6ac0a273a793162f73fe49",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## АРКБ \"Росбизнесбанк\" — Company.id 4613\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4613,\n  \"title\": \"\\u0410\\u0420\\u041a\\u0411 \\\"\\u0420\\u043e\\u0441\\u0431\\u0438\\u0437\\u043d\\u0435\\u0441\\u0431\\u0430\\u043d\\u043a\\\"\",\n  \"url\": \"rbb.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T02:53:11.695047Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/65447eedd867f49b868996659b360ccac325c195/review-materials/4613/source.svg) — SHA-256 `3cbe725a94ec78fdaa6f188ec6e7cfa37ae4bfd311dba2d0fac8e2a9ac1b27e6`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/65447eedd867f49b868996659b360ccac325c195/review-materials/4613/final.svg) — SHA-256 `9ccfcee987c8aa809f738cec0d935ad9580639253ebde62d137a86ea57e8a18c`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/65447eedd867f49b868996659b360ccac325c195/review-materials/4613/final.xml) — SHA-256 `2ba493d2b3c9ec023a0e8dad6c9720de90a6fc0299d634ce3c8105bf8abc1efb`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/65447eedd867f49b868996659b360ccac325c195/review-materials/4613/candidate.diff).\n- Source page: [https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg](https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg).\n- Source asset: [https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg](https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg](https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg); SHA-256 `3cbe725a94ec78fdaa6f188ec6e7cfa37ae4bfd311dba2d0fac8e2a9ac1b27e6`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- third-party checked 2026-10-03T02:36:00Z: [https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg](https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg); asset [https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg](https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg). Vector aggregator asset: 5 pure paths, no raster embeds, fills #fff background + black emblem/wordmark; wordmark spells the exact full bank name of this record, confirming identity; professional path geometry \\(single-layer, trademark canvas\\) consistent with an original vector conversion, not an obvious trace. (independence group: worldvectorlogo asset \\(primary candidate source\\)).\n- official checked 2026-10-03T02:36:30Z: [https://web.archive.org/web/2020/https://www.rbb.ru/](https://web.archive.org/web/2020/https://www.rbb.ru/). 2020 and 2024 Wayback captures of the official site: header logo is raster-only PNG; the archived big-logo.png capture is corrupted \\(no usable color reference\\). Live rbb.ru fails TLS \\(expired certificate\\). (independence group: rbb.ru official site \\(Wayback\\)).\n- Independent evidence: The aggregator vector's embedded wordmark is self-identifying; the archived official site independently confirms the mark's raster existence and the site's unavailability for color verification..\n- Identity: confirmed — Fetched vector's own wordmark names the exact full legal-style name of this record \\(АРКБ «Росбизнесбанк»\\); РБ monogram matches the known mark of this bank..\n- Currency: confirmed — Historical record: the mark represents the bank's operating period; the source is the mark used for that brand, and no later rebrand of this record exists to prefer..\n- Variant: confirmed — The proposed candidate is exactly the design carried by the fetched original vector: monochrome black emblem/wordmark on a white field. That variant of the proposed asset is confirmed directly from the source bytes; no alternative variant is being asserted..\n- Uncertainty: Official color variant unverified; monochrome candidate proposed..\n- Uncertainty: Aggregator provenance cannot be certified as authoritative; visual quality and identity verified directly from paths..\n\nRationale: First icon addition for the historical Росбизнесбанк record. The fetched original vector is the bank's full logo; its РБ monogram emblem is the standalone mark, while the accompanying full bank-name wordmark makes the whole lockup unsuitable for a square catalog cell. The emblem geometry is carried over unchanged from the original vector; no tracing or redrawing involved..\nRole: Standalone РБ monogram emblem selected from the original full-lockup vector \\(emblem path reused verbatim\\); the wordmark is accompanying lettering and is intentionally not part of the catalog mark.; variant: Monochrome black emblem, as carried by the source vector, placed on a white circular catalog backing that reproduces the source's uniform white field; transparency preserved outside the circle..\nVisible difference: First addition: the frozen base has no icon.svg for this bank, so the visible difference is absence to a real icon; no baseline comparison exists or is claimed..\nDetails: All emblem contours, internal gaps and stroke terminals from the source path survive verbatim; the render matches the independent librsvg source reference in shape and color on both themes.. Proportions: Whole emblem fits the circle with even margins on a 48x48 cell; recognizable and legible at 24/32/48 px on both #FFFFFF and #121212 backgrounds; no clipping of strokes or satellite details..\n\nSource-to-final transformations:\n- Selected the emblem path from the original vector unchanged \\(viewBox 3.8551 82.8851 30.8410 26.9859\\); no geometry edits.\n- Uniform scale 0.91710 and translation to center the whole emblem inside a 48x48 canvas \\(no stretch, rotation or cropping\\).\n- Added a white circular field \\(#ffffff, r=23\\) per the plain-field circle policy: the source canvas is a uniform white field; transparency outside the circle preserved; no emblem pixel removed.\n- SVGO 4.1.0 trial on a copy with the repository svgo.config.mjs: 2216 -\\> 2441 bytes \\(+10.2%\\), renders pixel-identical; skipped as a size regression, working bytes kept as final.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/65447eedd867f49b868996659b360ccac325c195/review-materials/4613/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/65447eedd867f49b868996659b360ccac325c195/review-materials/4613/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T02:50:31.018852446Z`. Source/final: The final reproduces the source emblem's exact path geometry and monochrome color; only the mandated whole-emblem uniform placement and the white circular presentation of the source's own uniform white field differ; the wordmark visible in the full source is intentionally absent from the catalog mark.; base/final and rendering: First addition: baseline.present is false, no base/final pair exists. Both 240x240 final frames \\(light #FFFFFF, dark #121212\\) show a complete, undistorted, legible mark; no invented baseline was used.\n\n- android-compose: not-tested (available: false) — No Android emulator binary or system images installed in this environment; Desktop/Skia offscreen render passed and substitutes no Android claim..\n- android-native: not-tested (available: false) — No Android emulator binary or system images installed in this environment..\n- ios-compose: not-tested (available: false) — No iOS toolchain available in this environment..\n- ios-native: not-tested (available: false) — No iOS toolchain available in this environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGYyubA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/38",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "На самом сайте не лого, почти все ссылки не рабочие, пока на паузе этот лого",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSb0VA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/38#issuecomment-6193345620",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "648c3024ff6cf845fdcf6dddcb259a9b1daee385ed8152d177233f4d8b7fc75c",
+            "closedAt": "2026-10-15T13:34:17Z",
+            "head": "bank-icon-maintenance/4613",
+            "headCommit": "165b67b8c2a08b3699801beea7aea0d2bf6710d1",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 38,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: АРКБ \"Росбизнесбанк\" (Company.id 4613)",
+            "url": "https://github.com/zenmoney/banks/pull/38"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "На самом сайте не лого, почти все ссылки не рабочие, пока на паузе этот лого",
+            "bodySha256": "181887dcbf9d10d3c6222c7489df67ab0f9fa2e4c2aece85e574aa4b26bccbdc",
+            "createdAt": "2026-10-15T13:34:17Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSb0VA",
+            "text": "На самом сайте не лого, почти все ссылки не рабочие, пока на паузе этот лого",
+            "textSha256": "181887dcbf9d10d3c6222c7489df67ab0f9fa2e4c2aece85e574aa4b26bccbdc",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/38#issuecomment-6193345620"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4613/candidate-22cab2751ddbccbf7d6634bb62d377f543dc9700131c041454f4312e1551cf9a.json",
         "sha256": "22cab2751ddbccbf7d6634bb62d377f543dc9700131c041454f4312e1551cf9a"

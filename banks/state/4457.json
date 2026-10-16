@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:39:38.179948Z",
+        "observedAt": "2026-10-16T20:01:40.645780Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/29"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:39:38.179948Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "655cb2497774d9c1334fdce95b0c64b16f43c42b2dd5eb0b27d33631c87920f2",
+            "closedAt": "2026-10-15T13:44:37Z",
+            "head": "bank-icon-maintenance/4457",
+            "headCommit": "9f7812d68a8df3bf5b695149b2e204be6d0444d5",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 29,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: КБ \"Солидарность\" (Company.id 4457)",
+            "url": "https://github.com/zenmoney/banks/pull/29"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Original vector found on the operating bank's official site: https://solid.ru/favicon.svg, the standalone circular 'sign' emblem of КБ «Солидарность» in brand color #DB0334, a 120x120 square vector served sitewide as the favicon and matching the 'sign' group of the official header lockup (i_logo_full inline SVG on the homepage, where the same mark precedes the СОЛИДАРНОСТЬ wordmark). The bank is active (Bank of Russia reg. 554); the 2023 revocation rumor refers to the unrelated Moscow namesake bank revoked 2017-12-15.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Нужно сделать инверсию цвета, для светлой и темной темы",
+          "createdAt": "2026-10-15T13:44:37Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:44:37Z",
+          "url": "https://github.com/zenmoney/banks/pull/29#issuecomment-6193564398"
+        },
+        "explanation": "Нужно сделать инверсию цвета, для светлой и темной темы",
+        "mr": {
+          "number": 29,
+          "url": "https://github.com/zenmoney/banks/pull/29"
+        },
+        "rationale": "The reviewer explicitly requests color inversion for light and dark themes. Preserve this technical presentation requirement without treating it as permission to invent colors or bypass source and rendering constraints.",
+        "requirements": [
+          {
+            "quote": "Нужно сделать инверсию цвета, для светлой и темной темы",
+            "url": "https://github.com/zenmoney/banks/pull/29#issuecomment-6193564398"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:01:40.645780Z",
+        "id": 4457,
+        "judgement": {
+          "action": "repair",
+          "key": "1d0a82f76eb4ddf0774eb0e4366ebfd9ef7fe03edb4934790ad281598ba914b9",
+          "rationale": "The reviewer explicitly requests color inversion for light and dark themes. Preserve this technical presentation requirement without treating it as permission to invent colors or bypass source and rendering constraints.",
+          "sources": [
+            {
+              "quote": "Нужно сделать инверсию цвета, для светлой и темной темы",
+              "url": "https://github.com/zenmoney/banks/pull/29#issuecomment-6193564398"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T16:45:17.789478Z",
+          "candidateIconHash": "13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e",
+          "key": "1d0a82f76eb4ddf0774eb0e4366ebfd9ef7fe03edb4934790ad281598ba914b9",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## КБ \"Солидарность\" — Company.id 4457\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4457,\n  \"title\": \"\\u041a\\u0411 \\\"\\u0421\\u043e\\u043b\\u0438\\u0434\\u0430\\u0440\\u043d\\u043e\\u0441\\u0442\\u044c\\\"\",\n  \"url\": \"solid.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T16:47:15.883129Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/19537e6813c7a6db445ef083ad74897dbb35d9ce/review-materials/4457/source.svg) — SHA-256 `e0d75513e80933c1f27d49c2fd73d11e910409c1078221dee76b446f57ed481c`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/19537e6813c7a6db445ef083ad74897dbb35d9ce/review-materials/4457/final.svg) — SHA-256 `13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/19537e6813c7a6db445ef083ad74897dbb35d9ce/review-materials/4457/final.xml) — SHA-256 `9ef8d85b00425dad6a9c8deba6ded26acdae4676b813a67f2a3b3d0df927bae9`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/19537e6813c7a6db445ef083ad74897dbb35d9ce/review-materials/4457/candidate.diff).\n- Source page: [https://solid.ru/](https://solid.ru/).\n- Source asset: [https://solid.ru/favicon.svg](https://solid.ru/favicon.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://solid.ru/favicon.svg](https://solid.ru/favicon.svg); SHA-256 `e0d75513e80933c1f27d49c2fd73d11e910409c1078221dee76b446f57ed481c`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-02T16:44:00Z: [https://solid.ru/](https://solid.ru/); asset [https://solid.ru/favicon.svg](https://solid.ru/favicon.svg). Official homepage declares \\<link rel=icon type=image/svg+xml href=/favicon.svg\\> and carries the header lockup \\(inline SVG i\\_logo\\_full\\) whose 'sign' group is the same circular mark; the standalone favicon.svg \\(2601 bytes\\) draws the mark in brand red #DB0334 on a transparent field. (independence group: official-site).\n- official checked 2026-10-02T16:44:00Z: [https://cbr.ru/finorg/foinfo/](https://cbr.ru/finorg/foinfo/). Bank of Russia registry: АО КБ «Солидарность» \\(Samara, reg. 554, OGRN 1026300001848\\) is operating; the Moscow namesake 'Солидарность' whose license was revoked 2017-12-15 is a different entity. (independence group: regulator).\n- Independent evidence: The official site asset and the CBR registry are independent; the header-lockup comparison was made on the same official homepage asset..\n- Identity: confirmed — solid.ru is the official site of the Samara bank КБ «Солидарность» \\(reg. 554\\); the favicon and the header 'sign' group on the same page are the bank's own circular emblem..\n- Currency: confirmed — Operating bank per Bank of Russia registry; the live site asset is the current presentation..\n- Variant: confirmed — The standalone favicon variant of the circular mark, brand color #DB0334, matches the sign group of the official header lockup currently on the site..\n\nRationale: First addition for an existing record without an icon. The operating bank's official favicon is a genuine original vector and already the standalone circular emblem in brand color #DB0334, matching the 'sign' group of the official header lockup; no wordmark removal or backing change was needed..\nRole: Standalone circular bank emblem \\(circular field cut by a white slash and lens\\), served by the bank itself as its sitewide vector favicon.; variant: Original vector emblem on a transparent field; no circular catalog backing applied because the mark is itself circular and a suitable transparent standalone symbol; the white slash gaps are transparent, showing the theme background exactly as in the source..\nVisible difference: First addition: the frozen base has no icon.svg for this bank \\(iconHash null\\); the visible difference is absent-to-real-icon..\nDetails: The circular field, the diagonal slash and the lens-shaped counter survive optimization and rendering on both themes with the brand color #DB0334 unchanged; no lost detail or artifacts.. Proportions: The mark fills its square viewBox with even margins and stays recognizable at 24/32/48 px diagnostics on both themes; complete fit including the slash reaching the rim verified..\n\nSource-to-final transformations:\n- No geometry, color or alpha edits: the working SVG is the byte-identical fetched favicon; no placement transform needed as the mark fills its 120x120 viewBox.\n- SVGO 4.1.0 with repository config svgo.config.mjs \\(sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\), multipass: 2601 -\\> 1518 bytes; selected \\(optimized.svg sha256 13b4a4e761c4779351b84d2ecbededaf86301dc4a1df86b371f2c0b89b6f1b7e\\) after working-versus-optimized render comparison showed only antialiasing rounding \\(5 pixels above diff threshold 8, max channel delta 64 on antialiased edges\\); viewport preserved.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/19537e6813c7a6db445ef083ad74897dbb35d9ce/review-materials/4457/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/19537e6813c7a6db445ef083ad74897dbb35d9ce/review-materials/4457/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T16:46:15.379054047Z`. Source/final: Fetched official favicon versus final: only SVGO serialization cleanup; geometry, colors and internal transparency identical. Source/final pairs inspected on both themes; the header lockup on the same official page confirms the same emblem design.; base/final and rendering: No base icon exists at the frozen base commit \\(first addition; explicit absence, no baseline claimed\\). Final render quality: offscreen CPU Skia/painterResource 240x240 frames on #FFFFFF and #121212 show a centered, complete circular emblem with correct brand color and clearances; both actual final frames were inspected.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator verified available in this environment; Android render evidence not produced. Risk: Android-specific rendering path unverified for this candidate..\n- android-native: not-tested (available: false) — No Android native tooling available in this environment..\n- ios-compose: not-tested (available: false) — No iOS tooling exists on this Linux host..\n- ios-native: not-tested (available: false) — No iOS tooling exists on this Linux host..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGUdj9w",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/29",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Нужно сделать инверсию цвета, для светлой и темной темы",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSpK7g",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/29#issuecomment-6193564398",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "655cb2497774d9c1334fdce95b0c64b16f43c42b2dd5eb0b27d33631c87920f2",
+            "closedAt": "2026-10-15T13:44:37Z",
+            "head": "bank-icon-maintenance/4457",
+            "headCommit": "9f7812d68a8df3bf5b695149b2e204be6d0444d5",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 29,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: КБ \"Солидарность\" (Company.id 4457)",
+            "url": "https://github.com/zenmoney/banks/pull/29"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Нужно сделать инверсию цвета, для светлой и темной темы",
+            "bodySha256": "14a9e8f728a7d785eeeee60bf8f273694c9b3b7da2b9e2267e9035eecbd7fa74",
+            "createdAt": "2026-10-15T13:44:37Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSpK7g",
+            "text": "Нужно сделать инверсию цвета, для светлой и темной темы",
+            "textSha256": "14a9e8f728a7d785eeeee60bf8f273694c9b3b7da2b9e2267e9035eecbd7fa74",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/29#issuecomment-6193564398"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4457/candidate-7ebb25137066ecdc7de3ccd50c3205f7fad8229a4218a3739d9a5ce9f70a21a4.json",
         "sha256": "7ebb25137066ecdc7de3ccd50c3205f7fad8229a4218a3739d9a5ce9f70a21a4"

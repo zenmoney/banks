@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:40:59.159283Z",
+        "observedAt": "2026-10-16T20:02:05.523434Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/35"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:40:59.159283Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "53b0b6859744101d6eae3be089cf1a4b68fd694a07b330bbaa48674e2349ea41",
+            "closedAt": "2026-10-15T13:37:33Z",
+            "head": "bank-icon-maintenance/4517",
+            "headCommit": "cda5dbc62b54974c4197ea3573c6c6d9bf15354f",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 35,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+            "url": "https://github.com/zenmoney/banks/pull/35"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Original vector found: the bank's current official site header logo BankPerm-Logo.svg is a clean original SVG (pure <path> geometry, single fill #0D47A1, no raster). It is a horizontal lockup: standalone stacked-ellipse БП emblem (x≈0–78 of 252) plus БАНК ПЕРМЬ wordmark. The emblem alone is a suitable standalone mark (monogram forms the mark itself; no accompanying name needed) and is obtainable by a lossless viewBox crop of the original bytes; preview rendered and verified complete and text-free. Identity and currency confirmed for the operating bank АКБ «Пермь» (АО), reg. no. 875, status «Действует» in the Bank of Russia registry as of 2026-10-02, with bankperm.ru listed as its official site.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "e38b7242cf6c52285f74d24681c2f3fadad3ecb4d53da985b3d59371700e78d5",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "В самом файле есть пустое пространство, может не пропорционально скейлиться ",
+          "createdAt": "2026-10-15T13:37:33Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:37:33Z",
+          "url": "https://github.com/zenmoney/banks/pull/35#issuecomment-6193413794"
+        },
+        "explanation": "В самом файле есть пустое пространство, может не пропорционально скейлиться ",
+        "mr": {
+          "number": 35,
+          "url": "https://github.com/zenmoney/banks/pull/35"
+        },
+        "rationale": "The reviewer flags empty space within the file and possible disproportionate scaling. This is a technical file-bounds and proportional-scaling repair concern, not a verified observation of distortion or an identity decision.",
+        "requirements": [
+          {
+            "quote": "В самом файле есть пустое пространство, может не пропорционально скейлиться ",
+            "url": "https://github.com/zenmoney/banks/pull/35#issuecomment-6193413794"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:02:05.523434Z",
+        "id": 4517,
+        "judgement": {
+          "action": "repair",
+          "key": "e93725815aca96140c963b95e99840ede6790b3b78f6edcbebe116f44f806cb5",
+          "rationale": "The reviewer flags empty space within the file and possible disproportionate scaling. This is a technical file-bounds and proportional-scaling repair concern, not a verified observation of distortion or an identity decision.",
+          "sources": [
+            {
+              "quote": "В самом файле есть пустое пространство, может не пропорционально скейлиться ",
+              "url": "https://github.com/zenmoney/banks/pull/35#issuecomment-6193413794"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T21:12:48.510094Z",
+          "candidateIconHash": "e38b7242cf6c52285f74d24681c2f3fadad3ecb4d53da985b3d59371700e78d5",
+          "key": "e93725815aca96140c963b95e99840ede6790b3b78f6edcbebe116f44f806cb5",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## АКБ \"Пермь\" — Company.id 4517\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4517,\n  \"title\": \"\\u0410\\u041a\\u0411 \\\"\\u041f\\u0435\\u0440\\u043c\\u044c\\\"\",\n  \"url\": \"bankperm.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T21:17:57.620477Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/e262cfa6b2df9e0928e74bb11f1a6d97008497ae/review-materials/4517/source.svg) — SHA-256 `047eb84637e413541f4030c4f4b437437776ab1e186db352389ae2b9487be4e0`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/e262cfa6b2df9e0928e74bb11f1a6d97008497ae/review-materials/4517/final.svg) — SHA-256 `e38b7242cf6c52285f74d24681c2f3fadad3ecb4d53da985b3d59371700e78d5`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/e262cfa6b2df9e0928e74bb11f1a6d97008497ae/review-materials/4517/final.xml) — SHA-256 `c81382389a44636e483a64c03a2c07be64acc6d62e68973912c3f741f492a818`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/e262cfa6b2df9e0928e74bb11f1a6d97008497ae/review-materials/4517/candidate.diff).\n- Source page: [https://bankperm.ru/](https://bankperm.ru/).\n- Source asset: [https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c](https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c).\n\n### Evidence and judgment\n\n- official checked 2026-10-02T21:07:00Z: [https://bankperm.ru/](https://bankperm.ru/); asset [https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c](https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c). Live official site \\(title «Бизнесу — Банк Пермь \\(АО\\)»\\); header logo is BankPerm-Logo.svg \\(sha256 047eb84637e413541f4030c4f4b437437776ab1e186db352389ae2b9487be4e0, 4297 bytes, viewBox 0 0 252 39, fill #0D47A1, pure paths\\). Site also loads Golova\\_logo.svg / Golova\\_logo\\_color.svg — GOLOVA MEDIA partner logos, unrelated and rejected. Lockup rendered via rsvg-convert and inspected: stacked-ellipse БП monogram emblem left \\(x≈0–78\\), БАНК ПЕРМЬ wordmark right. (independence group: bankperm.ru official site).\n- third-party checked 2026-10-02T21:09:00Z: [https://cbr.ru/ bank registry entry for OGRN 1025900000510](https://cbr.ru/%20bank%20registry%20entry%20for%20OGRN%201025900000510). Bank of Russia registry \\(fetched via ticketed search, result search-cbr-status.json\\) confirms АКБ «Пермь» reg. no. 875, base license issued 2018-11-08, status «Действует», and lists bankperm.ru as the bank's official site. Operating bank; current-design period applies. (independence group: cbr.ru registry).\n- Independent evidence: Two independent groups: the bank's own official site \\(asset origin\\) and the Bank of Russia registry \\(identity/status\\); the registry is not a mirror of the site asset..\n- Identity: confirmed — CBR registry \\(OGRN 1025900000510\\) and the live official site both identify АКБ «Пермь» \\(АО\\), brand «Банк Пермь \\(АО\\)», reg. no. 875; bankperm.ru is the bank's own domain per CBR, so the record represents this operating entity with no successor substitution..\n- Currency: confirmed — The logo is the header asset of the bank's live official site fetched 2026-10-02, corroborated by the CBR registry active status on the same date; current design in current use..\n- Variant: confirmed — Standalone БП stacked-ellipse monogram emblem from the official header lockup, single color #0D47A1; monogram letters form the mark itself, which catalog suitability allows; the wordmark is excluded by the lossless crop. Rendered preview of the emblem region is complete and unclipped..\n\nRationale: First addition for АКБ «Пермь»: the official site header logo is an original SVG; its standalone БП stacked-ellipse monogram emblem \\(pure paths, #0D47A1\\) is a suitable catalog mark — monogram letters form the mark itself, no accompanying name or slogan. Official provenance, current use confirmed 2026-10-02 via the live site and CBR registry..\nRole: standalone emblem from the official horizontal lockup; emblem part of BankPerm-Logo.svg; variant: current official variant, single color #0D47A1 on transparent background; transparent standalone mark kept transparent, no backing added.\nVisible difference: First addition: the frozen base has no icon.svg for this record, so the change is absence to a real icon — the standalone official emblem..\nDetails: All path details preserved: stacked arc strokes, ellipse rings and their negative spaces identical to the source render; optimization changed no visible detail.. Proportions: Emblem proportions match the source region exactly \\(uniform crop, no scaling distortion\\); fits the square cell with clear margins, complete at 24/32/48 px on both themes in the Desktop renders..\n\nSource-to-final transformations:\n- Lossless viewBox crop of the original download to the emblem region \\(viewBox 0 0 252 39 -\\> 0 0 78 39\\): selects the standalone emblem, discards the separate BANK PERM wordmark; no path data or fill changed.\n- SVGO 4.1.0 with the frozen repository configuration, multipass: 4295 -\\> 4251 bytes; trial-produced, selected — smaller and visually faithful \\(independent rasterizer comparison of working vs optimized at equal scale\\).\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/e262cfa6b2df9e0928e74bb11f1a6d97008497ae/review-materials/4517/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/e262cfa6b2df9e0928e74bb11f1a6d97008497ae/review-materials/4517/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T21:16:29.852724761Z`. Source/final: Full original lockup \\(rsvg-convert reference, 756x117\\) and the standalone emblem render compared side by side on both themes: final emblem geometry, fill color #0D47A1 and internal negative spaces match the source emblem exactly; only the wordmark is excluded.; base/final and rendering: First addition — no base icon exists at the frozen base commit \\(baseline.present false\\), so no base/final comparison is possible. Final renders \\(offscreen CPU Skia/painterResource, 240x240, both themes inspected\\) show the complete unclipped emblem, good contrast on #FFFFFF and #121212, no text.\n\n- android-compose: not-tested (available: false) — Android SDK is installed \\(build-tools 36.0.0, platform android-37.0\\) but no system image, no AVD and no connected device are present; creating an AVD would require downloading a system image, which is outside this run. Risk: Compose Android rendering of the vector XML unverified..\n- android-native: not-tested (available: false) — Same limitation as android-compose: no emulator or device available without downloading a system image. Risk: native Android display path unverified..\n- ios-compose: not-tested (available: false) — No iOS toolchain in this Linux environment..\n- ios-native: not-tested (available: false) — No iOS toolchain in this Linux environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGW4nvA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/35",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "В самом файле есть пустое пространство, может не пропорционально скейлиться ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSf-og",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/35#issuecomment-6193413794",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "53b0b6859744101d6eae3be089cf1a4b68fd694a07b330bbaa48674e2349ea41",
+            "closedAt": "2026-10-15T13:37:33Z",
+            "head": "bank-icon-maintenance/4517",
+            "headCommit": "cda5dbc62b54974c4197ea3573c6c6d9bf15354f",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 35,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+            "url": "https://github.com/zenmoney/banks/pull/35"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "В самом файле есть пустое пространство, может не пропорционально скейлиться ",
+            "bodySha256": "6de0058a7e38af0223fbd572d99d32618ee11dc33147901e3787c6995faa6e40",
+            "createdAt": "2026-10-15T13:37:33Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSf-og",
+            "text": "В самом файле есть пустое пространство, может не пропорционально скейлиться",
+            "textSha256": "e780ab8732b920adce4dbd81c29122796d70214ec7c07fb8e050c23c72efeb84",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/35#issuecomment-6193413794"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4517/candidate-32dd2aafdea37f3c93dbb6b386b0545fd98b775f03d6c4accab958ba98c8f4f8.json",
         "sha256": "32dd2aafdea37f3c93dbb6b386b0545fd98b775f03d6c4accab958ba98c8f4f8"

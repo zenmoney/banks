@@ -100,7 +100,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:40:48.731583Z",
+        "observedAt": "2026-10-16T20:01:48.535470Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -118,10 +118,140 @@
           "url": "https://github.com/zenmoney/banks/pull/30"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:40:48.731583Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "c5593aa1bf22a7c36c5cab11707eb155b5034f6f681366e83fe030779e570812",
+            "closedAt": "2026-10-15T13:43:12Z",
+            "head": "bank-icon-maintenance/kuznetsky-4469",
+            "headCommit": "9ed926c63b82499d13071cc3cd4db3a6435c6185",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 30,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк \"Кузнецкий\" (Company.id 4469)",
+            "url": "https://github.com/zenmoney/banks/pull/30"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "official current logo available as original vector from the bank's own site",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Сделать инверсию по цветам, что бы одинаково смотрелся в темной и светлой теме",
+          "createdAt": "2026-10-15T13:43:12Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:43:12Z",
+          "url": "https://github.com/zenmoney/banks/pull/30#issuecomment-6193534451"
+        },
+        "explanation": "Сделать инверсию по цветам, что бы одинаково смотрелся в темной и светлой теме",
+        "mr": {
+          "number": 30,
+          "url": "https://github.com/zenmoney/banks/pull/30"
+        },
+        "rationale": "The reviewer requests color inversion so the icon appears consistently in dark and light themes. This is a technical presentation repair, not authorization for unsupported recoloring.",
+        "requirements": [
+          {
+            "quote": "Сделать инверсию по цветам, что бы одинаково смотрелся в темной и светлой теме",
+            "url": "https://github.com/zenmoney/banks/pull/30#issuecomment-6193534451"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:01:48.535470Z",
+        "id": 4469,
+        "judgement": {
+          "action": "repair",
+          "key": "875406392652b3abbf39baea41e019d06e199229bec16e6a5186d42dd3ad49c2",
+          "rationale": "The reviewer requests color inversion so the icon appears consistently in dark and light themes. This is a technical presentation repair, not authorization for unsupported recoloring.",
+          "sources": [
+            {
+              "quote": "Сделать инверсию по цветам, что бы одинаково смотрелся в темной и светлой теме",
+              "url": "https://github.com/zenmoney/banks/pull/30#issuecomment-6193534451"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T17:40:34.211090Z",
+          "candidateIconHash": "e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b",
+          "key": "875406392652b3abbf39baea41e019d06e199229bec16e6a5186d42dd3ad49c2",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Банк \"Кузнецкий\" — Company.id 4469\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4469,\n  \"title\": \"\\u0411\\u0430\\u043d\\u043a \\\"\\u041a\\u0443\\u0437\\u043d\\u0435\\u0446\\u043a\\u0438\\u0439\\\"\",\n  \"url\": \"kuzbank.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T17:41:31.995464Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/bcbbe6d9ba46dc297a11fef8900bfa743c0be941/review-materials/4469/source.svg) — SHA-256 `d7ae3c88a17305c387404446fd41657eb954618c92e3f30f63034de29736a705`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/bcbbe6d9ba46dc297a11fef8900bfa743c0be941/review-materials/4469/final.svg) — SHA-256 `e13a4e0cca1f9c4f5e47456dfa2455a5066b92ea701274fe4ad0ec4084a02c3b`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/bcbbe6d9ba46dc297a11fef8900bfa743c0be941/review-materials/4469/final.xml) — SHA-256 `1c74b6cd95dc8b013b661470ceeaca8b06d9abd37cc11c97f4ec66be921a2649`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/bcbbe6d9ba46dc297a11fef8900bfa743c0be941/review-materials/4469/candidate.diff).\n- Source page: [https://kuzbank.ru/local/templates/waydev\\_kuzbank/img/logo\\_kuzbank\\_without\\_35.svg](https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg).\n- Source asset: [https://kuzbank.ru/local/templates/waydev\\_kuzbank/img/logo\\_kuzbank\\_without\\_35.svg](https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-02T17:21:30Z: [https://kuzbank.ru/local/templates/waydev\\_kuzbank/img/logo\\_kuzbank\\_without\\_35.svg](https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg); asset [https://kuzbank.ru/local/templates/waydev\\_kuzbank/img/logo\\_kuzbank\\_without\\_35.svg](https://kuzbank.ru/local/templates/waydev_kuzbank/img/logo_kuzbank_without_35.svg). Original vector served from the bank's own site template; pure vector paths with no text or embedded images. (independence group: official).\n- third-party checked 2026-10-02T17:19:00Z: [https://www.cbr.ru/finorg/foinfo/?ogrn=1125800000094](https://www.cbr.ru/finorg/foinfo/?ogrn=1125800000094). registry card lists bank as active with base license 609 (independence group: cbr-registry).\n- Independent evidence: primary official source; cbr.ru registry used as independent confirmation of identity/currency.\n- Identity: confirmed — The selected SVG is served from the official site's own template assets and is referenced as the only logo image on the official pages..\n- Currency: confirmed — The Bank of Russia registry card for the bank \\(license 609\\) lists it as active, and the bank's own contacts and details pages were live on the check date..\n- Variant: confirmed — Template asset is named as the standard mark without the 35th-anniversary lockup; an alternate lockup is also live. The standard everyday variant was selected..\n- Uncertainty: The site root rejects a plain command-line user agent, while the template asset endpoint itself answered normally over HTTPS..\n\nRationale: The official current logo exists only as a wordmark lockup; the catalog excludes accompanying bank-name text, so the standalone emblem from the same official vector is used as the application mark..\nRole: Standalone emblem selected from the official wordmark lockup; bank-name text excluded per catalog suitability rules.; variant: standard everyday emblem from the live site template \\(logo\\_kuzbank\\_without\\_35.svg\\); no anniversary lockup, no circular avatar observation — circle is a catalog plain-field adaptation, not an official circular asset.\nVisible difference: First addition: no icon.svg existed at the frozen base commit; the change is absence -\\> real catalog icon derived from the official vector..\nDetails: All four emblem paths \\(fan mark, middle blade, right blade, pedestal bar\\) are verbatim source geometry; color #069347 unchanged; internal white gaps and pedestal separation preserved; no strokes dropped.. Proportions: Whole emblem \\(26.07x29.86 source units incl. pedestal\\) uniformly scaled 0.75 and centered on a 34-unit white catalog circle; maximum emblem corner radius ~14.9 of 17, no clipping; recognizable at 48/96 px on both themes, solid shapes survive small sizes..\n\nSource-to-final transformations:\n- select the four emblem paths \\(x\\<=26.07\\) from the official 210x34 lockup vector; wordmark text paths excluded\n- remove the plain white full-canvas rect; add same-color \\(#ffffff\\) circular backing r=17 on a 34x34 canvas with transparency outside \\(catalog plain-field adaptation\\)\n- uniform scale 0.75 and translate of the whole emblem: translate\\(7.224,4.535\\) scale\\(0.75\\), centered, no rotation/crop/recolor\n- SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 638 -\\> 397 bytes; selected optimized \\(trial-produced, visually identical under rsvg at 48/96/272 px\\)\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/bcbbe6d9ba46dc297a11fef8900bfa743c0be941/review-materials/4469/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/bcbbe6d9ba46dc297a11fef8900bfa743c0be941/review-materials/4469/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T17:40:58.064353846Z`. Source/final: Original 210x34 lockup vector verified: wordmark 'БАНК КУЗНЕЦКИЙ' plus fan emblem, all fills #069347, plain white canvas rect. Final contains only the emblem subset; emblem geometry verbatim \\(uniform 0.75 scale + translation\\), color and gaps preserved. Independent librsvg source reference \\(240px canvas convention\\) compared against final: identical emblem shapes; text correctly excluded.; base/final and rendering: First addition: no base icon exists at the frozen base commit \\(baseline.present=false, baseIconHash null\\), so base/final comparison is explicitly absent. Final render quality inspected in actual offscreen Compose Desktop frames on light and dark themes plus rsvg diagnostics at 48/96/272 px: whole emblem visible, no clipping, emblem reads clearly on both themes.\n\n- android-compose: not-tested (available: false) — Android emulator runtime is unavailable in this environment \\(no emulator binary, no installed system images, no AVDs\\); creating images is outside this run..\n- android-native: not-tested (available: false) — Android emulator runtime is unavailable in this environment \\(only platform tools and SDK manager are installed\\); the target remains untested..\n- ios-compose: not-tested (available: false) — No iOS toolchain exists on this Linux host; the target remains untested..\n- ios-native: not-tested (available: false) — No iOS toolchain exists on this Linux host; the target remains untested..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGU7isg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/30",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Сделать инверсию по цветам, что бы одинаково смотрелся в темной и светлой теме",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSnV8w",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/30#issuecomment-6193534451",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "c5593aa1bf22a7c36c5cab11707eb155b5034f6f681366e83fe030779e570812",
+            "closedAt": "2026-10-15T13:43:12Z",
+            "head": "bank-icon-maintenance/kuznetsky-4469",
+            "headCommit": "9ed926c63b82499d13071cc3cd4db3a6435c6185",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 30,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк \"Кузнецкий\" (Company.id 4469)",
+            "url": "https://github.com/zenmoney/banks/pull/30"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Сделать инверсию по цветам, что бы одинаково смотрелся в темной и светлой теме",
+            "bodySha256": "afae86f49cc7928dd36e64cbac6a99e9b21cacc5c7e9aa14d0a9d0277a14e532",
+            "createdAt": "2026-10-15T13:43:12Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSnV8w",
+            "text": "Сделать инверсию по цветам, что бы одинаково смотрелся в темной и светлой теме",
+            "textSha256": "afae86f49cc7928dd36e64cbac6a99e9b21cacc5c7e9aa14d0a9d0277a14e532",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/30#issuecomment-6193534451"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4469/candidate-8088fb6337b093f0c7ad587c0af7cc6fc0b138a499672a395d0eec8f861a52ea.json",
         "sha256": "8088fb6337b093f0c7ad587c0af7cc6fc0b138a499672a395d0eec8f861a52ea"

@@ -100,7 +100,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:40:57.552160Z",
+        "observedAt": "2026-10-16T20:01:57.145709Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -118,10 +118,140 @@
           "url": "https://github.com/zenmoney/banks/pull/34"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:40:57.552160Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "5e9b5785b5dc6f01ec09f42c467ca9e4b60da9747824ddc44716022b09358918",
+            "closedAt": "2026-10-14T17:06:41Z",
+            "head": "bank-icon-maintenance/4502",
+            "headCommit": "a7971a23647d478ad3dc24924d96037b282104b3",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 34,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Уралтрансбанк (Company.id 4502)",
+            "url": "https://github.com/zenmoney/banks/pull/34"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Original vector of Уралтрансбанк's final-period logo (black steam-locomotive emblem above «УралТрансБанк» wordmark with «1947») obtained from CDNLogo (viewBox 0 0 192.756 192.756, 22166 bytes). Bank closed: license revoked 2018-10-25 (OGRN 1026600001779), so the relevant brand period is the pre-2018 operating era. The asset is a full lockup with a white canvas rect; a standalone emblem-only working variant will be prepared at candidate review by selecting the emblem region and dropping the background rect (no tracing). Third-party provenance: no official vector exists in the archived utb.ru domain.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108",
+        "category": "technical",
+        "comment": {
+          "author": "b3er",
+          "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `a7971a23647d478ad3dc24924d96037b282104b3`\n\n**Reason:** Removing the source white field leaves a black locomotive on transparency that is almost invisible in the dark theme. This is the first icon addition, not a regression from an existing icon, but the proposed representation is still unsuitable. Disclosing the low contrast does not make the candidate suitable.\n\n**Required follow-up for the maintenance agent:** Check whether the original white field may be retained under the source and background rules, or find another supported original representation. Verify visibility at 24 and 32 px in both themes. If no suitable representation is available, do not publish this candidate as suitable.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+          "createdAt": "2026-10-14T17:06:40Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-14T17:06:40Z",
+          "url": "https://github.com/zenmoney/banks/pull/34#issuecomment-6173879800"
+        },
+        "explanation": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `a7971a23647d478ad3dc24924d96037b282104b3`\n\n**Reason:** Removing the source white field leaves a black locomotive on transparency that is almost invisible in the dark theme. This is the first icon addition, not a regression from an existing icon, but the proposed representation is still unsuitable. Disclosing the low contrast does not make the candidate suitable.\n\n**Required follow-up for the maintenance agent:** Check whether the original white field may be retained under the source and background rules, or find another supported original representation. Verify visibility at 24 and 32 px in both themes. If no suitable representation is available, do not publish this candidate as suitable.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+        "mr": {
+          "number": 34,
+          "url": "https://github.com/zenmoney/banks/pull/34"
+        },
+        "rationale": "The reviewer explicitly rejects this candidate for near-invisibility on the dark theme after removal of the source white field. The requested repair is to determine whether retaining that original field is allowed or find another supported original representation, verify visibility at both 24 and 32 px on both themes, and not publish an unsuitable candidate. The rejection is candidate-specific, not a permanent bank prohibition; recording it does not implement or authorize new research.",
+        "requirements": [
+          {
+            "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `a7971a23647d478ad3dc24924d96037b282104b3`\n\n**Reason:** Removing the source white field leaves a black locomotive on transparency that is almost invisible in the dark theme. This is the first icon addition, not a regression from an existing icon, but the proposed representation is still unsuitable. Disclosing the low contrast does not make the candidate suitable.\n\n**Required follow-up for the maintenance agent:** Check whether the original white field may be retained under the source and background rules, or find another supported original representation. Verify visibility at 24 and 32 px in both themes. If no suitable representation is available, do not publish this candidate as suitable.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "url": "https://github.com/zenmoney/banks/pull/34#issuecomment-6173879800"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:01:57.145709Z",
+        "id": 4502,
+        "judgement": {
+          "action": "repair",
+          "key": "b4de9debff45d4b483a9fca94043dbb22eb9ce7e4ca8bd25bb4ebb4f379ef0af",
+          "rationale": "The reviewer explicitly rejects this candidate for near-invisibility on the dark theme after removal of the source white field. The requested repair is to determine whether retaining that original field is allowed or find another supported original representation, verify visibility at both 24 and 32 px on both themes, and not publish an unsuitable candidate. The rejection is candidate-specific, not a permanent bank prohibition; recording it does not implement or authorize new research.",
+          "sources": [
+            {
+              "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `a7971a23647d478ad3dc24924d96037b282104b3`\n\n**Reason:** Removing the source white field leaves a black locomotive on transparency that is almost invisible in the dark theme. This is the first icon addition, not a regression from an existing icon, but the proposed representation is still unsuitable. Disclosing the low contrast does not make the candidate suitable.\n\n**Required follow-up for the maintenance agent:** Check whether the original white field may be retained under the source and background rules, or find another supported original representation. Verify visibility at 24 and 32 px in both themes. If no suitable representation is available, do not publish this candidate as suitable.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "url": "https://github.com/zenmoney/banks/pull/34#issuecomment-6173879800"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-02T20:18:30.194764Z",
+          "candidateIconHash": "d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108",
+          "key": "b4de9debff45d4b483a9fca94043dbb22eb9ce7e4ca8bd25bb4ebb4f379ef0af",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Уралтрансбанк — Company.id 4502\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4502,\n  \"title\": \"\\u0423\\u0440\\u0430\\u043b\\u0442\\u0440\\u0430\\u043d\\u0441\\u0431\\u0430\\u043d\\u043a\",\n  \"url\": \"utb.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-02T20:23:35.171732Z`.\n\n### Exact versions and source\n\n- No existing icon.svg at frozen base commit; this is the first icon addition.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/884cba3a7a71a16a072a555cf7eba7036f0e5796/review-materials/4502/source.svg) — SHA-256 `0f6b4836aff35f45b5a283603ef7cda679fa4719cd80f9db202b043d03c74c27`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/884cba3a7a71a16a072a555cf7eba7036f0e5796/review-materials/4502/final.svg) — SHA-256 `d3cf27d361065d38774ede00afea72e36aec29dae5a94affeafc27db8d9e3108`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/884cba3a7a71a16a072a555cf7eba7036f0e5796/review-materials/4502/final.xml) — SHA-256 `836bd4f4b990527349dd6b44066230d0b3b6db4279d3abaca4be70ca4ac228b4`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/884cba3a7a71a16a072a555cf7eba7036f0e5796/review-materials/4502/candidate.diff).\n- Source page: [https://cdnlogo.com/logo/uraltransbank\\_122342.html](https://cdnlogo.com/logo/uraltransbank_122342.html).\n- Source asset: [https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en](https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en).\n\n### Evidence and judgment\n\n- third-party checked 2026-10-02T20:17:02Z: [https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en](https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en); asset [https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en](https://translate.google.com/translate?u=https://static.cdnlogo.com/logos/u/59/uraltransbank.svg&sl=auto&tl=en). Retrieval row: after repeated direct 30s timeouts on static.cdnlogo.com, the identical asset was retrieved through the translate.goog fetch of the same URL \\(sha256 0f6b4836aff35f45b5a283603ef7cda679fa4719cd80f9db202b043d03c74c27, 22166 bytes\\); bytes validated as well-formed SVG. (independence group: CDNLogo vector retrieval channel).\n- third-party checked 2026-10-02T20:17:02Z: [https://cdnlogo.com/logo/uraltransbank\\_122342.html](https://cdnlogo.com/logo/uraltransbank_122342.html); asset [https://static.cdnlogo.com/logos/u/59/uraltransbank.svg](https://static.cdnlogo.com/logos/u/59/uraltransbank.svg). CDNLogo listing page for Uraltransbank; its asset uraltransbank.svg is a clean vector \\(glyph-level letter outlines and smooth locomotive paths, not an autotrace of the raster aid\\). Direct static.cdnlogo.com transfer repeatedly timed out at 30s; full bytes \\(sha256 0f6b4836aff35f45b5a283603ef7cda679fa4719cd80f9db202b043d03c74c27\\) retrieved via the translate.goog proxy of the same asset and validated as well-formed SVG. Rendered and visually matched against the independent bootflare PNG raster aid. (independence group: CDNLogo vector \\(primary asset\\) with independent bootflare raster cross-check).\n- official checked 2026-10-02T20:17:02Z: [https://web.archive.org/cdx/search/cdx?url=utb.ru&matchType=domain&filter=mimetype:image/svgxml&collapse=urlkey](https://web.archive.org/cdx/search/cdx?url=utb.ru&matchType=domain&filter=mimetype:image/svgxml&collapse=urlkey). Wayback CDX scan of utb.ru for image/svg+xml: zero results; no official vector was ever archived on the bank's domain. (independence group: Wayback CDX index).\n- official checked 2026-10-02T20:17:02Z: [https://www.cbr.ru/press/pr/?file=25102018\\_133000pr.htm](https://www.cbr.ru/press/pr/?file=25102018_133000pr.htm). Bank of Russia press release: Уралтрансбанк license revoked 2018-10-25 \\(OGRN 1026600001779\\); final brand period is pre-2018-10. Candidate matches independently confirmed brand imagery of that period \\(locomotive emblem + wordmark, monochrome black\\). (independence group: Bank of Russia press release).\n- Independent evidence: Third-party vector cross-checked against an independent raster aid \\(bootflare PNG, separate source\\) and against CBR closure facts; identity confirmed by emblem content, not by counting mirrors..\n- Identity: confirmed — Catalog record 4502 Уралтрансбанк, RU, utb.ru matches АБ «Уралтрансбанк» \\(Yekaterinburg, OGRN 1026600001779\\). CDNLogo's Uraltransbank entry depicts the bank's locomotive emblem; the similarly named «УралТранс» publishing-house entries on worldvectorlogo/seeklogo were inspected and rejected as a different entity..\n- Currency: confirmed — Historical closed bank \\(license revoked 2018-10-25\\). The candidate represents the final pre-2018 brand, the relevant period for this catalog entry..\n- Variant: confirmed — Monochrome black lockup with white canvas; emblem-only isolation planned. Colored historical vector variants were not found anywhere; the monochrome form matches the brand's print-era representation..\n- Uncertainty: Third-party \\(CDNLogo\\) provenance rather than official bank source; the official domain never served SVG per CDX..\n- Uncertainty: No emblem-only or colored official vector variant exists in any reachable source; the lockup will be reduced to its emblem region during preparation..\n- Uncertainty: Post-2014 discovery of the actual origin file \\(print EPS\\) is not traceable further within budget..\n\nRationale: First addition for a closed bank \\(license revoked 2018-10-25\\) with no icon. The CDNLogo original vector of the final-period logo is a full lockup; the standalone steam-locomotive emblem is selected unchanged. Emblem geometry is preserved byte-for-byte; only the white canvas rect \\(background\\) is removed and the viewport is restricted to the emblem region. No colored or emblem-only official vector exists anywhere reachable..\nRole: Standalone locomotive emblem portion of the final-period logo lockup; «УралТрансБанк» wordmark, the «1947» date and the full-width rule are separate lockup elements, not part of the mark.; variant: Monochrome black print-era variant on a transparent field after background removal; no circular official avatar observed and no colored vector variant exists, so transparency is kept without an added backing..\nVisible difference: First addition: the frozen base has no icon.svg for this bank, so the visible difference is absence to a rendered standalone emblem; no baseline comparison exists or is invented..\nDetails: Boiler bands, wheels, coupling rods, cowcatcher, bell and smokestack of the source locomotive are all present in the final render; internal cutouts remain transparent; no clipping or artifacts at 240/48/32/24 px diagnostics.. Proportions: Locomotive aspect \\(~1.8:1\\) preserved without stretching; fits the square cell with margins and reads clearly at 32-48 px on light background. Known limitation: the authentic monochrome black mark has low contrast on the dark theme \\(#121212\\); recoloring is not permitted, and no white/light official vector variant was found in any reachable source, so the source-backed monochrome form is kept and this is disclosed for reviewer judgment..\n\nSource-to-final transformations:\n- Source selection: white background rect \\(M0 0h192.756v192.756H0V0z\\) removed — background-only change, no emblem pixel touched; viewport restricted to viewBox 7.6 38.8 104.9 57.7 covering the complete locomotive including cowcatcher, bell and stack. No emblem geometry, scale or translation change; wordmark/1947/rule paths remain in the file but render outside the viewport.\n- SVGO 4.1.0, repository svgo.config.mjs \\(config sha256 bound to baseCommit\\): 22118 -\\> 20702 bytes; optimized trial compared visually against the working version with rsvg-convert on both theme canvases, faithful, selected as final bytes.\n\n### Light and dark first icon addition\n\n![First icon addition — light background](https://github.com/zenmoney/banks/blob/884cba3a7a71a16a072a555cf7eba7036f0e5796/review-materials/4502/comparison-light.png?raw=true)\n\n![First icon addition — dark background](https://github.com/zenmoney/banks/blob/884cba3a7a71a16a072a555cf7eba7036f0e5796/review-materials/4502/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-02T20:21:35.659795953Z`. Source/final: Full downloaded source \\(lockup on white canvas\\) versus final emblem-only render compared on both themes via the generated source/final pairs and the full 960px source raster: locomotive contours, internal detail and monochrome color match; white canvas rect intentionally removed, wordmark/date/rule outside the final viewport.; base/final and rendering: First addition: no base icon exists at the frozen base commit \\(baseline.present=false\\), so only final frames are compared. Offscreen CPU Skia/painterResource 240x240 frames on #FFFFFF and #121212 show the complete locomotive correctly scaled in the 162px icon area; excellent on light, low-contrast but structurally intact on dark \\(disclosed monochrome limitation\\); independent librsvg source reference agrees.\n\n- android-compose: not-tested (available: false) — Android SDK has build-tools/platforms but no system image is installed and downloads are outside this run; no AVD can be created, so Compose Android render is untested. Risk: Android-specific rendering differences unobserved..\n- android-native: not-tested (available: false) — No system image for an AVD; native Android path untested..\n- ios-compose: not-tested (available: false) — iOS toolchain is unavailable on this Linux host; Compose iOS render untested..\n- ios-native: not-tested (available: false) — iOS toolchain is unavailable on this Linux host; native iOS render untested..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGWebtA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/34",
+              "userType": "User"
+            },
+            {
+              "author": "b3er",
+              "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `a7971a23647d478ad3dc24924d96037b282104b3`\n\n**Reason:** Removing the source white field leaves a black locomotive on transparency that is almost invisible in the dark theme. This is the first icon addition, not a regression from an existing icon, but the proposed representation is still unsuitable. Disclosing the low contrast does not make the candidate suitable.\n\n**Required follow-up for the maintenance agent:** Check whether the original white field may be retained under the source and background rules, or find another supported original representation. Verify visibility at 24 and 32 px in both themes. If no suitable representation is available, do not publish this candidate as suitable.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABb_3t-A",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/34#issuecomment-6173879800",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "5e9b5785b5dc6f01ec09f42c467ca9e4b60da9747824ddc44716022b09358918",
+            "closedAt": "2026-10-14T17:06:41Z",
+            "head": "bank-icon-maintenance/4502",
+            "headCommit": "a7971a23647d478ad3dc24924d96037b282104b3",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 34,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Уралтрансбанк (Company.id 4502)",
+            "url": "https://github.com/zenmoney/banks/pull/34"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `a7971a23647d478ad3dc24924d96037b282104b3`\n\n**Reason:** Removing the source white field leaves a black locomotive on transparency that is almost invisible in the dark theme. This is the first icon addition, not a regression from an existing icon, but the proposed representation is still unsuitable. Disclosing the low contrast does not make the candidate suitable.\n\n**Required follow-up for the maintenance agent:** Check whether the original white field may be retained under the source and background rules, or find another supported original representation. Verify visibility at 24 and 32 px in both themes. If no suitable representation is available, do not publish this candidate as suitable.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "bodySha256": "9ae4233336674864745ff96511348cd9fa3543b87a96b8133b63c8cfe7bd6a07",
+            "createdAt": "2026-10-14T17:06:40Z",
+            "editor": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABb_3t-A",
+            "text": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `a7971a23647d478ad3dc24924d96037b282104b3`\n\n**Reason:** Removing the source white field leaves a black locomotive on transparency that is almost invisible in the dark theme. This is the first icon addition, not a regression from an existing icon, but the proposed representation is still unsuitable. Disclosing the low contrast does not make the candidate suitable.\n\n**Required follow-up for the maintenance agent:** Check whether the original white field may be retained under the source and background rules, or find another supported original representation. Verify visibility at 24 and 32 px in both themes. If no suitable representation is available, do not publish this candidate as suitable.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "textSha256": "9ae4233336674864745ff96511348cd9fa3543b87a96b8133b63c8cfe7bd6a07",
+            "trust": {
+              "login": "b3er",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/34#issuecomment-6173879800"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4502/candidate-40c69518df6cfbee5497a5646803ca4511ef86c1bc45662bf0bedad5cde13b43.json",
         "sha256": "40c69518df6cfbee5497a5646803ca4511ef86c1bc45662bf0bedad5cde13b43"
