@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-02T15:24:21.072363Z",
+  "lastAttemptAt": "2026-10-16T21:21:48.327255Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -312,6 +312,162 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "388f5015deb11ec6b7dcdac0fae986e1ad220056ad3fc1760e0e86056414a01a",
         "xmlSha256": "96847a2393334c190a190077cec4eefca4babb02594c4eab614ddfc705c29e3b"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/4441/assessed-d7035fb64f9a99ed2a5b4c8b697b0f69186ccb382fba592ff66adf9c60d7cb85.json",
+        "sha256": "d7035fb64f9a99ed2a5b4c8b697b0f69186ccb382fba592ff66adf9c60d7cb85"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The original upload is dated 2014, but currency is supported by actual current use of that blue emblem in the verified regulator-listed bank avatar, freshly captured and read, plus the active regulator record. This is not a historical-record or successor substitution.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Regulator independently attributes current RKO and verified VK account to ПАО ЧЕЛИНДБАНК. The brandbook-attributed original is explicitly Челиндбанк and matches the current official avatar emblem. Existing RU bank metadata is unchanged.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Regulator confirms legal entity and official account/site attribution. The independently published file page attributes its SVG to the company brandbook. Actual current bank-avatar evidence establishes continued use; RKO and VK are one primary brand group, not two independent design confirmations.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Select the original #00609d blue circular emblem with the white circular field actually displayed in the current official avatar. The #0630B8 transparent RKO favicon remains a distinct current alternative and is not recolored. Original source subpaths 13 and 14 (zero-based among 15) supply the complete emblem/counters; no raster-derived geometry or painted monogram is created.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/63be4bbfa5a126812ed06512f3e7eef57a06ee4f6abcb253c0cef88d9bcccc83.json",
+        "sha256": "63be4bbfa5a126812ed06512f3e7eef57a06ee4f6abcb253c0cef88d9bcccc83"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The full original horizontal lockup raster and actual compound path, verified account context, exact current avatar raster, selected-source theme reference, working/optimized diagnostics, final SVG/XML and exact source/final pairs were inspected. Complete blue circumference, upper-left and lower-right lightning extremities, rounded diagonal monogram ends and the narrow blue channel between white negative-space strokes survive. Original foreground/counter tokens are preserved in the working copy; optimized and generated-XML renders show the same geometry without visible loss. The field is one whole circle behind the original cutouts, not white paths drawn into the emblem. No bank-name contours remain in the final.",
+        "faithful": true,
+        "iconHash": "014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2",
+        "path": "evidence/4441/candidate-014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2.svg",
+        "proportionsJudgement": "Source proportions are retained without distortion, including the original very small width/height difference. Whole placement preserves the observed 230/240 = 95.83% blue-emblem/white-field ratio: approximately 155px blue diameter inside the actual 162px Desktop iconCanvas, with a narrow white rim that remains useful on dark. Resized 24/32/48px bound iconCanvas diagnostics leave approximately 23/31/46px blue diameter. At 24px fine edges and the narrow central channel soften, but the two lightning extremities and diagonal monogram remain distinguishable against stable white negative space; 32/48px clarify the channels. All contours fit, with no clipped tip or arbitrary extra margin. These are resized Desktop diagnostics, NOT native mobile rendering.",
+        "rationale": "First addition for the existing RU ЧЕЛИНДБАНК record with no pinned baseline icon. Use the genuine brandbook-attributed #00609d original emblem whose continued use is independently established by the current verified, regulator-listed official VK avatar. Reproduce that avatar’s white circular field to stabilize the lightning-monogram contrast on both themes. Do not recolor or combine the distinct current #0630B8 RKO variant.",
+        "role": "Complete standalone source-derived bank symbol/monogram, losslessly selected from an original vector lockup, on an observed official-avatar-supported circular white field; no accompanying name or slogan.",
+        "sha256": "014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2",
+        "sourceAssetUrl": "https://data.cyclowiki.org/images/b/b2/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg",
+        "sourceUrl": "https://cyclowiki.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB%3A%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg",
+        "transforms": [
+          "Retain the full downloaded original lockup as source evidence. Select only its final two complete closed subpaths, zero-based 13 and 14, for the blue circular emblem and monogram counters; omit the separate bank-name contours. Their command/number tokens in the working foreground equal the original suffix beginning at the already-absolute source moveto M112.288 470.997. No contour reconstruction or raster tracing occurs.",
+          "Preserve the original #00609d fill and nested original translations (-56.999268,-466.69619) and (-3.2256325,-4.3008433). The complete emblem remains approximately 104.1201×104.152 original units; no independent part or counter is moved or directly painted.",
+          "Add a separate #ffffff circle of diameter 108.680347826087, center/radius 54.340173913043, and translate the complete emblem by (2.264173913043,2.264173913043). The emblem/field ratio is 104.152/108.680347826087 = 230/240, matching the current avatar raster composition. No clip, stretch, rotation, recolor, hole fill or newly drawn white monogram; original counters reveal the separate backing and alpha remains outside the field.",
+          "Select the source-preserving SVGO 4.1.0 result using frozen configuration SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1471 working bytes → 1064 optimized bytes. Independent working/optimized theme and 24/32/48px diagnostics show no visible loss. Separately inspect the exact selected SVG, generated XML, source/final pairs and bound Desktop frames."
+        ],
+        "variant": "The original #00609d blue circular emblem currently displayed in the verified official VK avatar, with its observed white field and narrow outer rim. The 2014 brandbook-attributed upload supplies original vector geometry and exact color, NOT proof of currentness. The separate #0630B8 RKO/favicon variant remains a distinct current alternative and is neither silently recolored nor mixed into this candidate.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen baseline has no icon, so the catalog diff is absent-to-real-icon, not an update to a fabricated before image. Separately from that baseline, this technical retry replaces the rejected unbacked #0630B8 proposal presentation with a different genuinely original #00609d variant currently observed in the official avatar and its supported white field. The lightning negative space stays white on both themes and a white outer rim separates the blue emblem on dark. This is a visible supported variant/presentation change, not recoloring the RKO original, a claimed rebrand or serialization alone."
+      },
+      "candidateIconHash": "014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2",
+      "checkedAt": "2026-10-16T21:21:48.327255Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "9e9c3d3f133bb79dfd0da4fd2c2d99b20ee82ceabbdfc5c964b140dace75ab05",
+        "head": "bank-icon-maintenance/technical-20261016-4441",
+        "headCommit": "89e75dd7bec010309bca2958a030bf7e65d695a3",
+        "number": 157,
+        "observedAt": "2026-10-16T21:38:32.023741Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+        "url": "https://github.com/zenmoney/banks/pull/157"
+      },
+      "reason": "Fresh source-backed theme correction prepared for «нужно адаптировать для светлой и темной темы»: use the genuine bank-brandbook #00609d emblem still shown in the current regulator-listed verified official avatar, with its observed circular white field. Original emblem contours/color are preserved; only separate bank-name subpaths are removed and a standard backing circle is added. Independent source and working/optimized 24/32/48px theme references were read. Coordinator must still inspect exact generated XML and real Compose Desktop frames; no Desktop or mobile pass is claimed.",
+      "reviewPackage": {
+        "path": "evidence/4441/candidate-1d00fddb912a48272866813ce0596410e9b92fb83be0cb209f8fa148c6db2c57.json",
+        "sha256": "1d00fddb912a48272866813ce0596410e9b92fb83be0cb209f8fa148c6db2c57"
+      },
+      "sourceCandidate": {
+        "iconHash": "6b3c862f5e1f77066c67569a92aad074651deabb86cba6a8d740325cdc30bba7",
+        "path": "evidence/4441/research-40c6bd2824164c0da0fdc23011811459/fetch-629714d757614639b41d5254348d01da/attempt-1/body.bin",
+        "rationale": "A current official-avatar-supported blue/white circular presentation provides stable light/dark monogram contrast and visibly differs from the rejected #0630B8 transparent-cutout mark without inventing a white vector or recoloring an original.",
+        "retrieval": {
+          "path": "evidence/4441/research-40c6bd2824164c0da0fdc23011811459/fetch-629714d757614639b41d5254348d01da/receipt.json",
+          "sha256": "9d70ed3111be9ef65260ac977a316e457a93eccd35d9a607ac2c6576437b708f"
+        },
+        "sourceAssetUrl": "https://data.cyclowiki.org/images/b/b2/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg",
+        "sourceMaterial": {
+          "path": "evidence/4441/source-material-b3ab7eb88d9d4e0a9f18d7df3b2c7d31/material.json",
+          "sha256": "9d410780863b6a4101becc64307ed3d207c3d171810656dafcbbaa2bfd323f7a"
+        },
+        "sourceUrl": "https://cyclowiki.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB%3A%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T21:15:55.850395Z",
+          "independenceGroup": "bank-of-russia",
+          "kind": "third-party",
+          "observation": "Fresh regulator page identifies ПАО ЧЕЛИНДБАНК, status Действует, OGRN 1027400000110, and lists both rko.chelind.ru and vk.com/chelindbank as official sites.",
+          "url": "https://cbr.ru/finorg/foinfo/?ogrn=1027400000110"
+        },
+        {
+          "assetUrl": "https://static.tildacdn.com/tild6461-6162-4235-b339-616535346137/Vector.svg",
+          "checkedAt": "2026-10-16T21:15:55.850395Z",
+          "independenceGroup": "chelindbank-primary",
+          "kind": "official",
+          "observation": "Fresh official page identifies the bank, links the original #0630B8 transparent favicon and uses matching header/footer originals. They remain genuine current alternatives but reproduce the rejected transparent-cutout presentation; none were recolored. Main chelindbank.ru redirect chain failed TLS; the regulator-attributed RKO site worked.",
+          "url": "https://rko.chelind.ru/"
+        },
+        {
+          "assetUrl": "https://data.cyclowiki.org/images/b/b2/%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg",
+          "checkedAt": "2026-10-16T21:15:55.850395Z",
+          "independenceGroup": "cyclowiki-brandbook-upload",
+          "kind": "third-party",
+          "observation": "Fresh page and original SVG retrieved. File page attributes the original to «Брендбук компании», describes Челиндбанк, and records upload 14 April 2014. The actual 9247-byte original is a single #00609d compound vector path with no raster; sK1/UniConvert/Inkscape metadata is retained. Its age is not used as currency proof. The final two original closed subpaths are the complete circular emblem and monogram counters; separate wordmark contours are excluded without tracing.",
+          "url": "https://cyclowiki.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB%3A%D0%9B%D0%BE%D0%B3%D0%BE_%D0%A7%D0%B5%D0%BB%D0%B8%D0%BD%D0%B4%D0%B1%D0%B0%D0%BD%D0%BA.svg"
+        },
+        {
+          "assetUrl": "https://sun1-27.vkuserphoto.ru/s/v1/ig2/PiJ9HWOOuTMLyYYmRg6Fq0yivH5w6r4GnHpJj-ycKaLsp-sQhSSUOLByJ6ufX5Uux3Li5ZRgMmCq7lTA5qvOuhi3.jpg?quality=95&crop=13,14,459,459&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=1QaIsh3m7Eqn50_RQRSIyv6KOO6Mplc5e7BUPBR0Sjo&cs=200x200",
+          "checkedAt": "2026-10-16T21:15:55.850395Z",
+          "independenceGroup": "chelindbank-primary",
+          "kind": "official",
+          "observation": "Actual current headless screenshot of the regulator-listed verified bank account shows the original blue emblem on a white circular avatar field. Exact current 240x240 raster was fetched and read: complete blue circle and white-field-backed lightning monogram, blue near #00609d (dominant JPEG RGB 0,93,155). This currently observed official use supports the selected brandbook-original blue variant; the different #0630B8 RKO variant is not silently recolored. Raster supplies presentation context only, not contour geometry.",
+          "url": "https://vk.com/chelindbank"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/4441/technical-retry-0088138c736c9ebc240bf1302625e6a8686c5533efdb23bc899031688e1db5f5.json",
+        "sha256": "0088138c736c9ebc240bf1302625e6a8686c5533efdb23bc899031688e1db5f5"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2",
+        "context": {
+          "path": "evidence/4441/technical-retry-0088138c736c9ebc240bf1302625e6a8686c5533efdb23bc899031688e1db5f5.json",
+          "sha256": "0088138c736c9ebc240bf1302625e6a8686c5533efdb23bc899031688e1db5f5"
+        },
+        "coverage": [
+          {
+            "basis": "The exact new XML-driven Desktop light and dark frames show the complete current-avatar-backed #00609d emblem with white lightning negative space in both themes; on dark a narrow white outer rim is also visible. This directly addresses the saved both-theme request instead of accepting the rejected transparent-hole presentation.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "Both actual final-only theme frames, both full-source/final theme pairs and bound 162px iconCanvas diagnostics resized to 24/32/48px were inspected. Complete lightning extremities, rounded ends and distinguishable central channel remain; the observed 230/240 emblem/field ratio preserves useful size without clipping. No unavailable mobile path is counted as passed.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "No replacement colors were inferred from the reviewer request. The unmodified #00609d original is selected through its bank-brandbook-attributed vector and separately matched to the current regulator-listed verified official avatar; the #0630B8 RKO variant is not recolored or mixed. The white circle is observed presentation, not traced monogram geometry or painted holes. Exact final SVG/XML and actual pixels show a meaningful backing/variant correction and differ from the rejected hashes, while currentness is not inferred from the old upload.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "68d9bee7c04d868a44a37b0c39383264cd33dd77345bc8fe7f6a101d21ddd298"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:34:24.288520Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2",
+        "xmlSha256": "68d9bee7c04d868a44a37b0c39383264cd33dd77345bc8fe7f6a101d21ddd298"
       }
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-02T12:10:40.234238Z",
+  "lastAttemptAt": "2026-10-16T21:21:45.437272Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -295,6 +295,153 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "09b65edcbafa6d55f0a0fbbf528ef2fa52233a9da9656c75d058499ddec5f767",
         "xmlSha256": "65cdd58800f4c0b5c0d851eaa673fac15efa008cd34b9056deff0367387893a3"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/4399/assessed-a42acf29b817bf26a7cd7ca1c53937c489cac4545f9e4217c23ce9d37de7e625.json",
+        "sha256": "a42acf29b817bf26a7cd7ca1c53937c489cac4545f9e4217c23ce9d37de7e625"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Fresh live official homepage references the exact compact original; fresh regulator record is active and its listed VK account currently displays the same two-color emblem.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Current official header original and regulator-listed official social account represent the existing RU Прио-Внешторгбанк record; no entity/country/metadata change.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank site and bank account are one primary brand-publication group. Bank of Russia independently confirms operating entity and official website/account links; it is not counted as separate design evidence. Native searches discovered no better original; results are retained without treating their recoloring suggestions as authority.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original compact two-color emblem, with #d9007e/#00b295 preserved exactly, presented on the observed white circular official-avatar field. Complete 28x28 emblem translated (6,6) into a 40x40 white circle; corners fit inside the field without masking. This is presentation normalization, not a rebrand or an invented inverse palette.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6b22d5934e0a67a1ce91e0e3ad2ffc0c296ac2b715d8b3d550edeee9dd398229.json",
+        "sha256": "6b22d5934e0a67a1ce91e0e3ad2ffc0c296ac2b715d8b3d550edeee9dd398229"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The full original raster, original vector, contextual official avatar, independent working/optimized diagnostics, generated XML and exact source/final pairs were inspected. All four rounded magenta corner pieces, their inward arcs and the slightly vertically offset teal disc are intact. The original foreground path transparency is not rewritten into white detail: a separate whole white field is visible behind it. XML contains only the circle and the two correctly colored source-derived foreground paths. Exact Desktop light/dark frames show no clipped corner, lost satellite detail or visible optimization/converter damage.",
+        "faithful": true,
+        "iconHash": "26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f",
+        "path": "evidence/4399/candidate-26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f.svg",
+        "proportionsJudgement": "The complete emblem is uniformly placed without changing relative geometry; the 70% emblem/field ratio follows the observed official avatar rather than a generic margin. Even the extreme original square corners fit within the radius-20 circle. In the actual 162px Desktop iconCanvas the magenta extent is approximately 113px, so the emblem is visibly smaller than the 162px unbacked source, a disclosed consequence rather than concealed normalization. Resized 24/32/48px iconCanvas diagnostics retain an approximately 17/22/34px colored emblem: all four corner pieces and the central disc remain individually recognizable on both themes, with useful white separation and no clipping. These are resized Desktop diagnostics, NOT native mobile rendering.",
+        "rationale": "First addition for the existing RU Прио-Внешторгбанк record, whose pinned baseline has no icon. Preserve the complete current official compact magenta/teal original and reproduce the white circular presentation actually visible in its regulator-listed official VK avatar. The observed field corrects the theme-dependent dark ring of the rejected transparent presentation without inventing emblem geometry or an inverse palette.",
+        "role": "Complete standalone original bank symbol on a disclosed official-avatar-supported circular catalog backing; no accompanying name or slogan.",
+        "sha256": "26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f",
+        "sourceAssetUrl": "https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg",
+        "sourceUrl": "https://priovtb.com/",
+        "transforms": [
+          "Retain both complete original foreground paths with their original fills and even-odd attributes. The working foreground path attributes are identical to the downloaded compact SVG; no foreground component is removed or replaced.",
+          "Translate the entire 28×28 original by (6,6) into a 40×40 canvas and add a separate opaque #ffffff circle centered at (20,20), radius 20, behind it. Foreground width is 28/40 = 70% of the field diameter, consistent with the approximately 70–72% official-avatar composition. No clipping, stretch, rotation, redraw, recolor, per-part movement or direct painting of the original transparent separation; transparency remains outside the circle.",
+          "Select the source-preserving SVGO 4.1.0 result using frozen configuration SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1712 working bytes → 1103 optimized bytes. Independent working/optimized light/dark and 24/32/48px diagnostics show no visible foreground or backing loss. The exact optimized SVG and its generated XML were separately inspected with the bound Desktop frames."
+        ],
+        "variant": "Current official compact original with exact #d9007e magenta and #00b295 teal. Same emblem/color composition as the observed circular official avatar; the white circle is presentation backing, not a separately published round SVG or a rebrand.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no existing icon at the frozen base, so the catalog change is absence to this real supported symbol; no before image is fabricated. Separately, the rejected proposal used the transparent compact presentation: the newly observed white circular field visibly keeps the inter-piece field white on dark as well as light and introduces the official-avatar-relative scale. This is a real presentation correction, not a serialization-only retry and not a claim that an accepted icon was replaced."
+      },
+      "candidateIconHash": "26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f",
+      "checkedAt": "2026-10-16T21:21:45.437272Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "4549610816be312a9726ad63d2799234d369f5e1dbe1a345d9e8a5d2fcae3d56",
+        "head": "bank-icon-maintenance/technical-20261016-4399",
+        "headCommit": "07d8a8fb388e12727537a2de76b23cdd1605b141",
+        "number": 156,
+        "observedAt": "2026-10-16T21:37:29.168491Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+        "url": "https://github.com/zenmoney/banks/pull/156"
+      },
+      "reason": "Fresh source-backed theme correction prepared: keep the current original magenta/teal emblem and place the complete mark on the white circular field actually observed in the regulator-listed official avatar. This addresses «Адаптировать под светлую и темную тему» without recoloring, tracing, clipping or painting individual holes. Independent librsvg working/optimized and 24/32/48px images were inspected; exact generated XML/Compose Desktop review is still required by the coordinator.",
+      "reviewPackage": {
+        "path": "evidence/4399/candidate-b5a24ffbb7e132fa6c9847660bd98fa30e82699152e0b9a887c51db8bc4eead9.json",
+        "sha256": "b5a24ffbb7e132fa6c9847660bd98fa30e82699152e0b9a887c51db8bc4eead9"
+      },
+      "sourceCandidate": {
+        "iconHash": "9db693cd28da74a519fa455318fef470b127e0d67909549105f78d19103a581f",
+        "path": "evidence/4399/research-9703398b32d54d47a913151d50fac56d/fetch-f73cae34a3ec46b98c583dfb5f84bcaa/attempt-2/body.bin",
+        "rationale": "A new supported circular white-field presentation fixes theme-dependent negative space while preserving every current original contour, fill and relative position; final differs visibly from the rejected unbacked square emblem, not only by serialization.",
+        "retrieval": {
+          "path": "evidence/4399/research-9703398b32d54d47a913151d50fac56d/fetch-f73cae34a3ec46b98c583dfb5f84bcaa/receipt.json",
+          "sha256": "11cd2d7055d4e4058bf93995f7710d16e9fe0147b6495940979315193f4960d4"
+        },
+        "sourceAssetUrl": "https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg",
+        "sourceMaterial": {
+          "path": "evidence/4399/source-material-627be75fe4654de98a9d48f974a35f24/material.json",
+          "sha256": "122a99d25b906e2c64ff395d1e5b7cd9b4c4a194ffaec497725bd80fe97dbffa"
+        },
+        "sourceUrl": "https://priovtb.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://priovtb.com/local/templates/project/dist/images/icons/logo-xs.svg",
+          "checkedAt": "2026-10-16T21:15:55.846269Z",
+          "independenceGroup": "prio-official",
+          "kind": "official",
+          "observation": "Fresh homepage uses logo-xs.svg as compact header source and identifies Прио-Внешторгбанк. Exact fetched 28x28 original has #d9007e and #00b295 paths, no raster. Separate original download is a full lockup and not selected. Ordinary bare-host redirect hit a TLS trust failure at its destination; direct evidenced priovtb.com retrieval succeeded through the packaged-CA helper.",
+          "url": "https://priovtb.com/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T21:15:55.846269Z",
+          "independenceGroup": "bank-of-russia",
+          "kind": "third-party",
+          "observation": "Fresh regulator page identifies the operating bank (Действует) and lists https://priovtb.com plus https://vk.com/priobank; provides independent entity and official-account attribution, not independent logo design approval.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1026200000111"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T21:15:55.846269Z",
+          "independenceGroup": "prio-official",
+          "kind": "official",
+          "observation": "Actual headless current account screenshot (official-avatar-context.png) shows the complete magenta/teal emblem centered on a white circular avatar field. Account is independently listed by the regulator. The same two-color emblem composition is the presentation basis; raster RGB is not used to recolor the exact current official SVG palette. A circle is a disclosed catalog backing adaptation, not a claimed separately published round SVG.",
+          "url": "https://vk.com/priobank"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/4399/technical-retry-0f9302ae58f5302c69c5c2aa3663838e9013c3ccce24669610dad209bfa4a64e.json",
+        "sha256": "0f9302ae58f5302c69c5c2aa3663838e9013c3ccce24669610dad209bfa4a64e"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f",
+        "context": {
+          "path": "evidence/4399/technical-retry-0f9302ae58f5302c69c5c2aa3663838e9013c3ccce24669610dad209bfa4a64e.json",
+          "sha256": "0f9302ae58f5302c69c5c2aa3663838e9013c3ccce24669610dad209bfa4a64e"
+        },
+        "coverage": [
+          {
+            "basis": "The requested light/dark adaptation was observed in the exact new generated-XML Desktop frames, not inferred from conversion. A white circle behind the unchanged magenta/teal paths keeps the inter-piece field white on both themes; the dark pair visibly differs from the transparent source and the saved rejected presentation. Complete corner pieces and central disc remain legible.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "Both exact light and dark final-only frames and both original-source/final pairs were inspected. The official-avatar-relative 70% emblem scale fits completely; bound 162px iconCanvas crops resized to 24/32/48px retain all four corners and the disc on both themes. These observations address both themes without misreporting unavailable mobile targets.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "The saved review does not authorize invented colors or geometry. The downloaded original retains #d9007e/#00b295 and both complete foreground paths; only a separate white circle and whole translation reproduce actual regulator-attributed official-avatar presentation. Working/optimized, exact SVG/XML and actual theme pixels were inspected. Both final SVG and XML differ from the saved rejected hashes through a visible backing/placement correction, not reserialization alone.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "bb8de0bd3542e804eadbd6519e4a6053681ea9c49ed9c4d9dd55be86a4b523a7"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:34:15.276566Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f",
+        "xmlSha256": "bb8de0bd3542e804eadbd6519e4a6053681ea9c49ed9c4d9dd55be86a4b523a7"
       }
     }
   ],
