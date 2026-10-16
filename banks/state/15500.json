@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:30:50.866702Z",
+        "observedAt": "2026-10-16T19:51:29.858743Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,140 @@
           "url": "https://github.com/zenmoney/banks/pull/58"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:30:50.866702Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "8beb461053104387fc0f785d58fb3651c6cf8c909c29991263b04cd837c0e46a",
+            "closedAt": "2026-10-15T12:02:36Z",
+            "head": "bank-icon-maintenance/homecredit-kz-15500",
+            "headCommit": "fd93e1d1eaecfeea3a79ae919437cf089222d5b4",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 58,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк Хоум Кредит (Company.id 15500)",
+            "url": "https://github.com/zenmoney/banks/pull/58"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "The current official mark of Home Credit Bank Kazakhstan (home.kz, legal brand unchanged after ForteBank's 2025 majority acquisition) is the red 'person under arch' figure used standalone — it is the 'O' of the HOME wordmark in the bank's official vector logo (Logotip_banka, #DB0124) and appears alone in the site favicon and app icons. The base icon shows the same figure in an older crimson #C8102E inside an inverted filled disc (white figure on red circle); the current standalone presentation is the red figure itself on transparent. Supported currency/presentation update from an original vector.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "keep-current",
+        "candidateIconHash": "0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b",
+        "category": "not-now",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Оставляем как есть по центру ",
+          "createdAt": "2026-10-15T12:02:37Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T12:02:37Z",
+          "url": "https://github.com/zenmoney/banks/pull/58#issuecomment-6191576722"
+        },
+        "explanation": "Оставляем как есть по центру ",
+        "mr": {
+          "number": 58,
+          "url": "https://github.com/zenmoney/banks/pull/58"
+        },
+        "rationale": "The reviewer says to leave the icon as it is and centered (\"по центру\"). Retain the accepted centered presentation; this is not approval of the proposed transparent replacement or a request to invent a new variant.",
+        "requirements": [
+          {
+            "quote": "Оставляем как есть по центру ",
+            "url": "https://github.com/zenmoney/banks/pull/58#issuecomment-6191576722"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:51:29.858743Z",
+        "id": 15500,
+        "judgement": {
+          "action": "keep-current",
+          "key": "a1c265e4d39ac0a0c5db56f416002cc887bfc6ce202583f634ef06e17355c510",
+          "rationale": "The reviewer says to leave the icon as it is and centered (\"по центру\"). Retain the accepted centered presentation; this is not approval of the proposed transparent replacement or a request to invent a new variant.",
+          "sources": [
+            {
+              "quote": "Оставляем как есть по центру ",
+              "url": "https://github.com/zenmoney/banks/pull/58#issuecomment-6191576722"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T12:50:11.424719Z",
+          "candidateIconHash": "0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b",
+          "key": "a1c265e4d39ac0a0c5db56f416002cc887bfc6ce202583f634ef06e17355c510",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Банк Хоум Кредит — Company.id 15500\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"KZ\",\n  \"fullTitle\": null,\n  \"id\": 15500,\n  \"title\": \"\\u0411\\u0430\\u043d\\u043a \\u0425\\u043e\\u0443\\u043c \\u041a\\u0440\\u0435\\u0434\\u0438\\u0442\",\n  \"url\": \"homecredit.kz\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T12:51:15.092350Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/f6a19bde8cb4f2f10881814862f3bd408b0d531a/review-materials/15500/base.svg) — SHA-256 `14a523bdb86f9b6ab3ef078ad0c4831e4e49bc3aab9d8a4160cb77badae0a849`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/f6a19bde8cb4f2f10881814862f3bd408b0d531a/review-materials/15500/source.svg) — SHA-256 `738e34aa24a424f3568e55300a64d587e3b311593a37db1bcc98bc35060c5747`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/f6a19bde8cb4f2f10881814862f3bd408b0d531a/review-materials/15500/final.svg) — SHA-256 `0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/f6a19bde8cb4f2f10881814862f3bd408b0d531a/review-materials/15500/final.xml) — SHA-256 `cb3e5ea04551d39ffb9a7c35980f3ef053c190ef6145c47e27d844e67fb1a8ac`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/f6a19bde8cb4f2f10881814862f3bd408b0d531a/review-materials/15500/candidate.diff).\n- Source page: [https://home.kz](https://home.kz).\n- Source asset: [https://home.kz/strapi/uploads/Logotip\\_banka\\_36d8b1bd8d.svg](https://home.kz/strapi/uploads/Logotip_banka_36d8b1bd8d.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-03T12:39:55Z: [https://home.kz](https://home.kz); asset [https://home.kz/strapi/uploads/Logotip\\_banka\\_36d8b1bd8d.svg](https://home.kz/strapi/uploads/Logotip_banka_36d8b1bd8d.svg). homecredit.kz now serves https://home.kz; header logo raster \\(research-only\\) and the official SVG logo use the red arch figure + HOME CREDIT BANK wordmark in #DB0124. (independence group: homekz-site).\n- official checked 2026-10-03T12:39:55Z: [https://home.kz](https://home.kz). Site favicon/apple-icon PNGs \\(research-only, 96/180px\\) show the red arch figure standalone on transparent, matching the proposed standalone presentation. (independence group: homekz-site).\n- Independent evidence: Both observations come from the bank's own live site \\(logo SVG and favicon set, same fetch context\\); identity anchored by record metadata and the domain redirect..\n- Identity: confirmed — homecredit.kz redirects to home.kz, the official site of the bank recorded as Банк Хоум Кредит \\(KZ\\); the SVG is the bank's own published logo asset..\n- Currency: confirmed — Live site fetched 2026-10-03; the red #DB0124 figure and wordmark are the current branding, continuing after the 2025 ownership change..\n- Variant: confirmed — Current variant is the standalone red figure on transparent; the base icon is the older presentation \\(crimson disc, white figure\\). Same underlying symbol, presentation/color update..\n- Uncertainty: Standalone-figure presentation is confirmed by raster favicon/app icons \\(research-only\\); the vector for the standalone figure is the 'O' sub-shape of the official combined-logo vector, presented via a viewport crop that changes no path geometry..\n\nRationale: The bank's own live site \\(home.kz, reached from homecredit.kz\\) publishes this vector logo and uses the arch figure standalone in its favicon/app icons; the base icon is the older presentation of the same symbol \\(crimson #C8102E disc with inverted white figure\\). Supported currency/presentation update from an original, receipt-bound vector..\nRole: standalone-symbol: the current brand presents the figure alone on transparent \\(site favicon/apple-touch icons\\); no branded circular backing is used in the current variant, so none was invented.; variant: red #DB0124 arch figure on transparent; replaces the older white-figure-on-#C8102E-disc badge.\nVisible difference: Deliberate presentation update: the enclosed-disc badge is replaced by the bank's current standalone open figure in the current red. Source-versus-final shows no unintended difference — the final is literally the same vector sub-shape..\nDetails: Ring, inner opening and the head/smile shape render crisply at 240px on both themes; uniform #DB0124; no clipped strokes after the crop \\(bounds verified against the source raster\\).. Proportions: The figure's own aspect \\(~126x92\\) is preserved by the crop viewBox; in the square catalog cell it letterboxes centered without stretching, matching the standalone favicon presentation..\n\nSource-to-final transformations:\n- Working SVG derived from the original downloaded vector by viewport crop only: the original single path is byte-unchanged; viewBox set to the figure's bounding region \\(110.86 11.61 126.28 92.05\\) so only the 'O' figure of HOME shows, matching the bank's standalone-figure usage; the paint attribute serialization was normalized to fill=\"#DB0124\" with the identical color taken from the original .st0 CSS class.\n- SVGO 4.1.0 with the frozen worktree svgo.config.mjs \\(sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\): working 2463 bytes -\\> trial 2214 bytes; selected the optimized trial as final \\(sha256 0e534158b23de8a650ee534c804737532c44f07f0de327b72e36155f5c2d736b\\) after working-versus-optimized comparison with rsvg at 240px on white and #121212: visually identical; no path geometry or color change.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/f6a19bde8cb4f2f10881814862f3bd408b0d531a/review-materials/15500/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/f6a19bde8cb4f2f10881814862f3bd408b0d531a/review-materials/15500/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T12:50:42.741741104Z`. Source/final: The full original SVG renders as the stacked HOME CREDIT BANK wordmark with the figure as the O; the final renders exactly that O figure. Side-by-side light/dark pairs confirm identical geometry and color; the only difference is the crop to the standalone figure, which is the bank's own standalone usage.; base/final and rendering: Base versus final \\(offscreen Compose Desktop, 240x240 frames, #FFFFFF and #121212\\): old icon is a filled crimson #C8102E disc with the figure knocked out in white; the candidate is the same figure in current red #DB0124 on transparent, open \\(no disc\\). The change is the intended current-brand presentation update; the candidate is crisp and complete on both themes.\n\n- android-compose: not-tested (available: false) — Android build tooling is present on this host, but no emulator system image or virtual device is installed; downloading images was outside this run, so this target was not tested..\n- android-native: not-tested (available: false) — Same missing emulator prerequisites and no connected devices; this target was not tested..\n- ios-compose: not-tested (available: false) — No iOS tooling available in this environment; not tested..\n- ios-native: not-tested (available: false) — No iOS tooling available in this environment; not tested..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGbxIMw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/58",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Оставляем как есть по центру ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcQv2kg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/58#issuecomment-6191576722",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "8beb461053104387fc0f785d58fb3651c6cf8c909c29991263b04cd837c0e46a",
+            "closedAt": "2026-10-15T12:02:36Z",
+            "head": "bank-icon-maintenance/homecredit-kz-15500",
+            "headCommit": "fd93e1d1eaecfeea3a79ae919437cf089222d5b4",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 58,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Банк Хоум Кредит (Company.id 15500)",
+            "url": "https://github.com/zenmoney/banks/pull/58"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Оставляем как есть по центру ",
+            "bodySha256": "1703fd27329df14c491d2bdc4030dbc6f4fe416dbf3121417b31f6fa783d9998",
+            "createdAt": "2026-10-15T12:02:37Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcQv2kg",
+            "text": "Оставляем как есть по центру",
+            "textSha256": "c08d3fea69092c9e8e302448c1d5546dc5036ca370cacb3be133b03067944c68",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/58#issuecomment-6191576722"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15500/candidate-ed02fb0dc37d9400f0a1791d0f0c386e97d4770e88b6a9db02538dfa0de36c43.json",
         "sha256": "ed02fb0dc37d9400f0a1791d0f0c386e97d4770e88b6a9db02538dfa0de36c43"

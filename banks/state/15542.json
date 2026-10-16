@@ -100,7 +100,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:30:58.050972Z",
+        "observedAt": "2026-10-16T19:51:37.561448Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -118,10 +118,140 @@
           "url": "https://github.com/zenmoney/banks/pull/63"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:30:58.050972Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "ab3dc9bbc7dde97e0b0daa3bb045ab44d7035afd255696b90368dacfc933e336",
+            "closedAt": "2026-10-15T11:32:33Z",
+            "head": "bank-icon-maintenance/15542",
+            "headCommit": "fb7589fbca130c04f001256f0d886a4cec3ff143",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 63,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: N26 (Company.id 15542)",
+            "url": "https://github.com/zenmoney/banks/pull/63"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Current N26 identity is the 2022+ flat monochrome #1B1B1B 'N26' wordmark (N with bar above and below, '26' to the right). An original vector was fetched from Wikimedia Commons (upload dated 2022-05-05, matching the rebrand) and bound via source-material from the fetch receipt. The base icon is an outdated teal-circle variant with distorted white N glyph; the supported rebrand justifies the update.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "нужно адаптировать для светлой и темной темы",
+          "createdAt": "2026-10-16T09:41:07Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T09:41:07Z",
+          "url": "https://github.com/zenmoney/banks/pull/63#issuecomment-6212678648"
+        },
+        "explanation": "нужно адаптировать для светлой и темной темы",
+        "mr": {
+          "number": 63,
+          "url": "https://github.com/zenmoney/banks/pull/63"
+        },
+        "rationale": "The reviewer requests adaptation for both light and dark themes. This is a presentation/technical correction, not acceptance of the proposal body's claim that the existing adaptation already passes, and it does not specify an inversion, new colors, or a particular backing.",
+        "requirements": [
+          {
+            "quote": "нужно адаптировать для светлой и темной темы",
+            "url": "https://github.com/zenmoney/banks/pull/63#issuecomment-6212678648"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:51:37.561448Z",
+        "id": 15542,
+        "judgement": {
+          "action": "repair",
+          "key": "1df4b43b69f05556fea9980d6c9e23507a53732b09c33b35ecc4f052fce84bee",
+          "rationale": "The reviewer requests adaptation for both light and dark themes. This is a presentation/technical correction, not acceptance of the proposal body's claim that the existing adaptation already passes, and it does not specify an inversion, new colors, or a particular backing.",
+          "sources": [
+            {
+              "quote": "нужно адаптировать для светлой и темной темы",
+              "url": "https://github.com/zenmoney/banks/pull/63#issuecomment-6212678648"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T15:06:42.555330Z",
+          "candidateIconHash": "249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776",
+          "key": "1df4b43b69f05556fea9980d6c9e23507a53732b09c33b35ecc4f052fce84bee",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## N26 — Company.id 15542\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"DE\",\n  \"fullTitle\": null,\n  \"id\": 15542,\n  \"title\": \"N26\",\n  \"url\": \"number26.de\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T15:21:29.055692Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/a9d6323ac4f9117b2830adff3a32a9ce3fbaefc5/review-materials/15542/base.svg) — SHA-256 `1761f2c6c6a4e1a78857af058c8dac82b927dbd684cdb54f0c5b712d64219e71`.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/a9d6323ac4f9117b2830adff3a32a9ce3fbaefc5/review-materials/15542/source.svg) — SHA-256 `d8e0ca75165efaec2d7dbff74ecd23b2ee3525478f5c1302c1b390a3328e7b8c`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/a9d6323ac4f9117b2830adff3a32a9ce3fbaefc5/review-materials/15542/final.svg) — SHA-256 `249cbeedc0de1c2aad7440542044750d7dfe93e693d63e545fe249857d56d776`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/a9d6323ac4f9117b2830adff3a32a9ce3fbaefc5/review-materials/15542/final.xml) — SHA-256 `49a7474b34d9efc6a64310ce60933518113703495bf29b0e043d0aeeef3f9f63`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/a9d6323ac4f9117b2830adff3a32a9ce3fbaefc5/review-materials/15542/candidate.diff).\n- Source page: [https://commons.wikimedia.org/wiki/File:N26\\_logo.svg](https://commons.wikimedia.org/wiki/File:N26_logo.svg).\n- Source asset: [https://upload.wikimedia.org/wikipedia/commons/5/5a/N26\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://upload.wikimedia.org/wikipedia/commons/5/5a/N26\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg); SHA-256 `d8e0ca75165efaec2d7dbff74ecd23b2ee3525478f5c1302c1b390a3328e7b8c`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- third-party checked 2026-10-03T15:01:59Z: [https://commons.wikimedia.org/wiki/File:N26\\_logo.svg](https://commons.wikimedia.org/wiki/File:N26_logo.svg); asset [https://upload.wikimedia.org/wikipedia/commons/5/5a/N26\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/5/5a/N26_logo.svg). Fetched asset sha256 d8e0ca75165efaec2d7dbff74ecd23b2ee3525478f5c1302c1b390a3328e7b8c, 1956 bytes, viewBox 0 0 454 373, single path, #1B1B1B; Commons upload 2022-05-05. Independent render via rsvg-convert 2.58.0 \\(\\[local artifact not published; reference omitted\\]\\) shows the current wordmark. (independence group: Wikimedia Commons file page and its upload mirror).\n- Independent evidence: One third-party source; official-domain confirmation failed and is disclosed rather than implied..\n- Identity: confirmed — Source is the N26 wordmark of the 2022 identity; the base glyph represents the same mark in an outdated encircled variant..\n- Currency: confirmed — Commons upload dated 2022-05-05 matches the documented 2022 N26 rebrand; official n26.com was unreachable from this network \\(timeouts\\), so the official media-kit asset is unconfirmed and disclosed..\n- Variant: confirmed — Flat uncircled monochrome wordmark; letters form the mark itself, permitted for standalone icon cells..\n- Uncertainty: Commons mirror provenance not independently verified; n26.com unreachable from this network..\n\nRationale: Rebrand update: the accepted icon is the outdated encircled teal variant with a distorted N glyph; the current N26 identity \\(2022 refresh\\) is the flat monochrome #1B1B1B wordmark. The working version places the byte-preserved source wordmark on a plain white circular catalog backing for cross-theme legibility..\nRole: Standalone wordmark mark \\(letters form the mark itself\\) on a catalog-added plain white circular field; no official circular avatar of this exact variant was observed, so the circle is a catalog adaptation, not an official app icon.; variant: Current uncircled monochrome wordmark variant from the 2022 rebrand; source file is the flat mark on a transparent canvas..\nVisible difference: Accepted icon \\(teal circle, white distorted N glyph\\) versus current monochrome N26 wordmark on a white circular catalog backing: evidenced rebrand of the same bank, plus legibility repair. The difference is the entire point of the update, not a cosmetic serialization change..\nDetails: The N with its over- and underbars, the 2 and 6 counters and all letterform details survive exactly; single flat fill, no gradients; fill value unchanged \\(#1B1B1B\\).. Proportions: Complete wordmark fits inside the circle with clearance at both themes; letterforms read clearly at 24/32/48 px diagnostics and in the 240px frames; the source aspect ratio is preserved \\(no distortion\\); alpha outside the circle and inside letter counters preserved..\n\nSource-to-final transformations:\n- Wordmark path copied byte-identically from the fetched source \\(single evenodd path, fill #1B1B1B\\).\n- Whole-emblem uniform scale 0.09 and centered translation place the complete wordmark inside a white circular catalog backing \\(circle r=27 at 54x54 cell center\\); no stretching, rotation or recoloring.\n- White backing added per plain-field circle policy: the source is a dark transparent mark that would be illegible on the #121212 dark theme; the white field preserves internal transparency of the mark itself.\n- SVGO 4.1.0 with frozen repo config: 1917 -\\> 1445 bytes; trial render pixel-identical to the working version on #FFFFFF and #121212 at 240px; optimized bytes selected.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/a9d6323ac4f9117b2830adff3a32a9ce3fbaefc5/review-materials/15542/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/a9d6323ac4f9117b2830adff3a32a9ce3fbaefc5/review-materials/15542/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T15:18:28.114362440Z`. Source/final: Full source raster versus final: the wordmark is byte-identical geometry, only uniformly scaled and centered on the added white circular field; source-final pairs on both themes show no distortion or detail loss. The dark-theme source-final pair also demonstrates why the backing is needed: the raw dark mark is invisible on #121212.; base/final and rendering: Base \\(outdated teal circle with distorted white N\\) versus final \\(white circle, current #1B1B1B N26 wordmark\\) differ as a supported rebrand; exact 480x240 before/after pairs on both themes confirm complete fit, legibility and preserved transparency in the offscreen Skia frames.\n\n- android-compose: not-tested (available: false) — No Android emulator or system image is installed in this environment \\(only SDK platform-tools, build-tools and command-line tools are present\\); installing prerequisites is outside this run. Known risk: Compose Android rendering of the candidate is unverified..\n- android-native: not-tested (available: false) — Same missing emulator/system-image prerequisite; no emulator image is available to create an AVD from installed components..\n- ios-compose: not-tested (available: false) — No iOS runtime or toolchain exists in this Linux environment..\n- ios-native: not-tested (available: false) — No iOS runtime or toolchain exists in this Linux environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGcpocQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/63",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "нужно адаптировать для светлой и темной темы",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABck3z-A",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/63#issuecomment-6212678648",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "ab3dc9bbc7dde97e0b0daa3bb045ab44d7035afd255696b90368dacfc933e336",
+            "closedAt": "2026-10-15T11:32:33Z",
+            "head": "bank-icon-maintenance/15542",
+            "headCommit": "fb7589fbca130c04f001256f0d886a4cec3ff143",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 63,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: N26 (Company.id 15542)",
+            "url": "https://github.com/zenmoney/banks/pull/63"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "нужно адаптировать для светлой и темной темы",
+            "bodySha256": "af235c132b8d198ee8f3a4bc79b8aa24ae5658043f50713419b1091d3164d63c",
+            "createdAt": "2026-10-16T09:41:07Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABck3z-A",
+            "text": "нужно адаптировать для светлой и темной темы",
+            "textSha256": "af235c132b8d198ee8f3a4bc79b8aa24ae5658043f50713419b1091d3164d63c",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/63#issuecomment-6212678648"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15542/candidate-b84717b34ce500a89848705d25467c85f72006b9424caa63c77a77b4ed98e700.json",
         "sha256": "b84717b34ce500a89848705d25467c85f72006b9424caa63c77a77b4ed98e700"

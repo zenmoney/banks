@@ -100,7 +100,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:30:51.702031Z",
+        "observedAt": "2026-10-16T19:51:33.677288Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -118,10 +118,140 @@
           "url": "https://github.com/zenmoney/banks/pull/59"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:30:51.702031Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "252f9b833e1082719e2e241018ae2b6328af899c9dd2545bddef0e26deb85e86",
+            "closedAt": "2026-10-16T09:46:31Z",
+            "head": "bank-icon-maintenance/15501",
+            "headCommit": "78a77aa47d855466cd9c2d7af59349d2ab4a61ca",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 59,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Alatau City Bank (Company.id 15501)",
+            "url": "https://github.com/zenmoney/banks/pull/59"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Bank rebranded from Jusan Bank (First Heartland Jysan Jusan) to Alatau City Bank JSC in June 2025 (official announcement + KASE re-registration 2025-06-16). The official site alataucitybank.kz presents the current gold #EDB110 stacked-shape mark, secured as an original vector from https://alataucitybank.kz/favicon/favicon.svg (direct official .svg download). Comparison of renders (rsvg-convert references) shows the accepted baseline is a re-proportioned square squeeze of the official emblem: the bottom teardrop is drawn as an elongated crescent and the ribbons are horizontally stretched, so the baseline visibly deviates from the official geometry. The exact official vector is offered as the candidate; final visual gates happen at candidate preparation.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+          "createdAt": "2026-10-16T09:46:31Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T09:46:31Z",
+          "url": "https://github.com/zenmoney/banks/pull/59#issuecomment-6212772991"
+        },
+        "explanation": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+        "mr": {
+          "number": 59,
+          "url": "https://github.com/zenmoney/banks/pull/59"
+        },
+        "rationale": "The reviewer requires adaptation for BOTH light and dark themes, specifically a white icon on the corporate-color background. Preserve both the theme requirement and the requested white-on-corporate-color presentation. The comment does not specify an exact color value or grant permission to invent one or bypass source/theme/render constraints.",
+        "requirements": [
+          {
+            "quote": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+            "url": "https://github.com/zenmoney/banks/pull/59#issuecomment-6212772991"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:51:33.677288Z",
+        "id": 15501,
+        "judgement": {
+          "action": "repair",
+          "key": "256a112bb762e48358055d761d43f41d0b62caff08fce44727333670b0a39eea",
+          "rationale": "The reviewer requires adaptation for BOTH light and dark themes, specifically a white icon on the corporate-color background. Preserve both the theme requirement and the requested white-on-corporate-color presentation. The comment does not specify an exact color value or grant permission to invent one or bypass source/theme/render constraints.",
+          "sources": [
+            {
+              "quote": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+              "url": "https://github.com/zenmoney/banks/pull/59#issuecomment-6212772991"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T13:29:14.168021Z",
+          "candidateIconHash": "7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911",
+          "key": "256a112bb762e48358055d761d43f41d0b62caff08fce44727333670b0a39eea",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Alatau City Bank — Company.id 15501\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"KZ\",\n  \"fullTitle\": \"First Heartland Jysan Jusan\",\n  \"id\": 15501,\n  \"title\": \"Alatau City Bank\",\n  \"url\": \"alataucitybank.kz\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T13:31:21.685678Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/b6b14f9b187aa8e4a4e23f0641a81dbd4905372d/review-materials/15501/base.svg) — SHA-256 `13c2e76f9baf5d99a788afdd76a6b88d2eb2e578294641312c8717e8c4f41657`.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/b6b14f9b187aa8e4a4e23f0641a81dbd4905372d/review-materials/15501/source.svg) — SHA-256 `3d2d256bb1939046a1d81de4790d8ce0baba764beb3c3995f49e9d720b3d8f01`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/b6b14f9b187aa8e4a4e23f0641a81dbd4905372d/review-materials/15501/final.svg) — SHA-256 `7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/b6b14f9b187aa8e4a4e23f0641a81dbd4905372d/review-materials/15501/final.xml) — SHA-256 `5e39208eb957387dbe0b289e002637aa6ad11d8f9f77e0117583ea5f84fcf234`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/b6b14f9b187aa8e4a4e23f0641a81dbd4905372d/review-materials/15501/candidate.diff).\n- Source page: [https://alataucitybank.kz/favicon/favicon.svg](https://alataucitybank.kz/favicon/favicon.svg).\n- Source asset: [https://alataucitybank.kz/favicon/favicon.svg](https://alataucitybank.kz/favicon/favicon.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://alataucitybank.kz/favicon/favicon.svg](https://alataucitybank.kz/favicon/favicon.svg); SHA-256 `3d2d256bb1939046a1d81de4790d8ce0baba764beb3c3995f49e9d720b3d8f01`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-03T13:08:00Z: [https://alataucitybank.kz/](https://alataucitybank.kz/); asset [https://alataucitybank.kz/\\_next/static/media/logo.cecdb635.png](https://alataucitybank.kz/_next/static/media/logo.cecdb635.png). Homepage loads and serves the current brand: 180x180 raster logo \\(webp bytes\\) showing the gold stacked-shape mark beside dark 'Alatau City Bank' text. Raster used as visual evidence only. (independence group: official-site).\n- official checked 2026-10-03T13:08:48Z: [https://alataucitybank.kz/favicon/favicon.svg](https://alataucitybank.kz/favicon/favicon.svg); asset [https://alataucitybank.kz/favicon/favicon.svg](https://alataucitybank.kz/favicon/favicon.svg). Original vector SVG \\(124x181 viewBox, four paths, fill #EDB110\\) of the standalone mark, identical design to the site logo raster. Direct .svg download; no tracing involved. File is an outer svg wrapper containing a nested inner svg plus a prefers-color-scheme style block; inner svg is self-contained. Outer wrapper contains a nested self-contained inner svg and an inert prefers-color-scheme style block \\(filter:none\\); material binding: \\[local artifact not published; reference omitted\\] (independence group: official-site).\n- official checked 2026-10-03T13:08:12Z: [https://jusan.kz/en/articles/news/jusan-bank-menyaet-naimenovanie-na-alatau-city-bank](https://jusan.kz/en/articles/news/jusan-bank-menyaet-naimenovanie-na-alatau-city-bank). Official news: shareholders approved rename 2025-05-15; legal name change to Alatau City Bank after re-registration; visual identity to be updated gradually. (independence group: official-news).\n- third-party checked 2026-10-03T13:08:12Z: [https://kase.kz/en/information/news/show/1545591](https://kase.kz/en/information/news/show/1545591). Kazakhstan Stock Exchange confirms re-registration as Alatau City Bank JSC on 2025-06-16 — independent confirmation that Alatau City Bank is the current legal name/brand of the former Jusan Bank. (independence group: kase).\n- Independent evidence: Currency rests on the live official domain \\(direct observation\\) plus KASE \\(regulator/exchange\\) as an independent legal confirmation of the rename; official news and KASE are distinct organizations..\n- Identity: confirmed — Official site alataucitybank.kz is the current site of the bank formerly branded Jusan Bank \\(First Heartland Jysan Jusan\\); rename confirmed by official news and independent KASE registration notice. Mark observed matches the new 'Alatau City Bank' branding..\n- Currency: confirmed — Live official homepage and favicon retrieved 2026-10-03 carry the new Alatau City Bank mark; rebrand effective June 2025..\n- Variant: confirmed — Standalone symbol variant \\(no accompanying lettering\\) secured from official favicon.svg; matches the emblem in the official logo raster. Square-cell suitability \\(tall 124x181 natural aspect\\) to be evaluated at candidate preparation against catalog background/fit policy; baseline already uses a square adaptation of the same design..\n- Uncertainty: Whether the accepted baseline SVG is considered an exact equivalent of the official vector \\(byte/geometry comparison and render gates happen at candidate preparation\\); if equivalent, result may become unchanged..\n- Uncertainty: favicon.svg is a wrapper \\(nested svg + style element\\); the self-contained inner SVG must be extracted via source-material if the wrapper is rejected..\n\nRationale: Replace the accepted re-proportioned square squeeze with the official current Alatau City Bank emblem from the bank's own favicon.svg, preserving the exact official geometry on a square catalog canvas..\nRole: Standalone bank mark \\(no accompanying lettering\\), as published by the bank itself as its favicon and shown beside the wordmark in the site logo.; variant: Official current variant: four gold #EDB110 stacked shapes on a transparent field; the official favicon is the standalone presentation, so no circular backing or masking was applied — a suitable transparent standalone mark keeps transparency..\nVisible difference: The accepted baseline squeezes the same four-shape mark into 54x54 by redrawing the shapes: the bottom teardrop becomes an elongated crescent and the ribbons are horizontally stretched, visibly deviating from the official geometry. The final restores the exact official proportions on the square canvas — a geometry correction of the same current design, not a rebrand..\nDetails: All four shapes retain the official contours: two full-width ribbons with the swallowtail notch, the third ribbon with angled right edge, and the comma/teardrop accent; corner radii, notches and internal gaps survive; the converter renders them identically to the source at 240px and in the 24/32/48px previews of the final frames.. Proportions: Whole emblem occupies the full 181px height and 124px width of the square cell \\(about 69% width\\), centered horizontally; at 24px the mark remains recognizable with clear gaps; no clipping, no excessive shrinking; alpha preserved on both themes..\n\nSource-to-final transformations:\n- Lossless wrapper cleanup: dropped the outer svg wrapper and the inert prefers-color-scheme style block \\(filter:none\\) of the official favicon.svg; all four path 'd' attributes and fills byte-identical.\n- Square-cell placement: uniform scale 1.0 of the whole 124x181 emblem on a 181x181 transparent canvas, translated by \\(28.5, 0\\); no stretching, rotation, recoloring or clipping.\n- SVGO 4.1.0 with frozen worktree svgo.config.mjs \\(config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\), multipass: 1307 -\\> 884 bytes; trial visually identical to the working version on both themes \\(rsvg-convert comparison\\), selected optimized bytes sha256 7ba0765bc94a4dbcb0c37f5c82e23d6b4a25f8dbbcb2e44717d352abfbe5a911.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/b6b14f9b187aa8e4a4e23f0641a81dbd4905372d/review-materials/15501/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/b6b14f9b187aa8e4a4e23f0641a81dbd4905372d/review-materials/15501/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T13:30:31.196706313Z`. Exact Desktop base/final pairs on both themes: the accepted baseline shows the horizontally stretched variant with an elongated bottom crescent; the final shows the official proportions with the compact teardrop. Source/final pairs on both themes are visually identical in shape and color. Final frames render complete and centered on white and dark backgrounds with preserved transparency.\n\n- android-compose: not-tested (available: false) — No Android system images are installed in this environment and image downloads or installation approvals are outside this run, so no emulator render could be executed. Risk: unverified Android Compose scaling and clipping of the final bytes..\n- android-native: not-tested (available: false) — No Android system images or emulator are available in this environment; downloads and installation approvals are outside this run..\n- ios-compose: not-tested (available: false) — No iOS toolchain/runtime available in this environment..\n- ios-native: not-tested (available: false) — No iOS toolchain/runtime available in this environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGb_kyA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/59",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABck9kfw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/59#issuecomment-6212772991",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "252f9b833e1082719e2e241018ae2b6328af899c9dd2545bddef0e26deb85e86",
+            "closedAt": "2026-10-16T09:46:31Z",
+            "head": "bank-icon-maintenance/15501",
+            "headCommit": "78a77aa47d855466cd9c2d7af59349d2ab4a61ca",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 59,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Alatau City Bank (Company.id 15501)",
+            "url": "https://github.com/zenmoney/banks/pull/59"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+            "bodySha256": "cdd9e9e25f5d53a6854a54ebf4bec37bd9024cc3d34da62a00ca6e7466f2baf7",
+            "createdAt": "2026-10-16T09:46:31Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABck9kfw",
+            "text": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+            "textSha256": "cdd9e9e25f5d53a6854a54ebf4bec37bd9024cc3d34da62a00ca6e7466f2baf7",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/59#issuecomment-6212772991"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15501/candidate-373ffa32ac930818f2c2ec6e6c4aae756b0c44fb50d25ef98dd68fdde190d99a.json",
         "sha256": "373ffa32ac930818f2c2ec6e6c4aae756b0c44fb50d25ef98dd68fdde190d99a"

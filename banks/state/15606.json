@@ -97,7 +97,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:31:18.230760Z",
+        "observedAt": "2026-10-16T19:51:48.971096Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -115,10 +115,140 @@
           "url": "https://github.com/zenmoney/banks/pull/71"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:31:18.230760Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "aba1a7f70f751ceebe2e1b2d8bb2673c242aa1e73c474127e1f4c1f689a0cb41",
+            "closedAt": "2026-10-15T11:17:06Z",
+            "head": "bank-icon-maintenance/15606",
+            "headCommit": "d6b1b166a447ac25f1651bb44c300a72e57ae74b",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 71,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+            "url": "https://github.com/zenmoney/banks/pull/71"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Existing icon shows an outdated gable-cross presentation (yellow #fdeb3f circle, black square frame, outlined two-tone cross). The mark in use today by Raiffeisenbank (CZ) and the RBI group is the 'Gable Cross — squared colour' variant: solid #FEE600 square with solid #2B2D33 cross, no frame or outline. Supported rebranding/geometry correction justifies the update.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Не по центру",
+          "createdAt": "2026-10-15T11:17:06Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T11:17:06Z",
+          "url": "https://github.com/zenmoney/banks/pull/71#issuecomment-6190781328"
+        },
+        "explanation": "Не по центру",
+        "mr": {
+          "number": 71,
+          "url": "https://github.com/zenmoney/banks/pull/71"
+        },
+        "rationale": "The reviewer identifies an off-center presentation (\"Не по центру\"); the substantive correction is to center the emblem. The proposal body's centered-placement claim is context, not evidence overriding the reviewer's correction.",
+        "requirements": [
+          {
+            "quote": "Не по центру",
+            "url": "https://github.com/zenmoney/banks/pull/71#issuecomment-6190781328"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:51:48.971096Z",
+        "id": 15606,
+        "judgement": {
+          "action": "repair",
+          "key": "a751814865f115eab3d633726aac31408002b8b4a13edc46a87e0ebbb1a74b71",
+          "rationale": "The reviewer identifies an off-center presentation (\"Не по центру\"); the substantive correction is to center the emblem. The proposal body's centered-placement claim is context, not evidence overriding the reviewer's correction.",
+          "sources": [
+            {
+              "quote": "Не по центру",
+              "url": "https://github.com/zenmoney/banks/pull/71#issuecomment-6190781328"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T18:17:17.180834Z",
+          "candidateIconHash": "7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591",
+          "key": "a751814865f115eab3d633726aac31408002b8b4a13edc46a87e0ebbb1a74b71",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Raiffeisenbank — Company.id 15606\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"CZ\",\n  \"fullTitle\": null,\n  \"id\": 15606,\n  \"title\": \"Raiffeisenbank\",\n  \"url\": \"rb.cz\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T18:20:30Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/61454ab11ccd6d0ba38f53be336b5282e9d2e9e6/review-materials/15606/base.svg) — SHA-256 `05c49c92166d232efbdd669d17c87853534a5d44c5ae755ffa15c7f35a288959`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/61454ab11ccd6d0ba38f53be336b5282e9d2e9e6/review-materials/15606/source.svg) — SHA-256 `3e923ee4de8646dde7c6e5fa7747cd101ee98d3862680b1d06961d80f11976ac`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/61454ab11ccd6d0ba38f53be336b5282e9d2e9e6/review-materials/15606/final.svg) — SHA-256 `7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/61454ab11ccd6d0ba38f53be336b5282e9d2e9e6/review-materials/15606/final.xml) — SHA-256 `beacdd838f1891673b5f3164c047769f51c8b7a5fb576598bf9de320b60e6e79`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/61454ab11ccd6d0ba38f53be336b5282e9d2e9e6/review-materials/15606/candidate.diff).\n- Source page: [https://brand.rbinternational.com/favicon.svg](https://brand.rbinternational.com/favicon.svg).\n- Source asset: [https://brand.rbinternational.com/favicon.svg](https://brand.rbinternational.com/favicon.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-03T00:00:00Z: [https://brand.rbinternational.com/favicon.svg](https://brand.rbinternational.com/favicon.svg); asset [https://brand.rbinternational.com/favicon.svg](https://brand.rbinternational.com/favicon.svg). Official RBI brand portal favicon: self-contained original-vector squared-colour Gable Cross \\(sha256 3e923ee4de86...976ac\\). (independence group: rbi-brand-portal).\n- official checked 2026-10-03T00:00:00Z: [https://www.rb.cz/](https://www.rb.cz/). rb.cz homepage inline SVG emblem uses #fee600/#2b2d33 with the same squared gable cross geometry, corroborating currency of the squared-colour variant. (independence group: rbi-brand-portal).\n- official checked 2026-10-03T00:00:00Z: [https://brand.rbinternational.com/content/dam/rbi/brand/public/Gable%20Cross.zip.coredownload.zip](https://brand.rbinternational.com/content/dam/rbi/brand/public/Gable%20Cross.zip.coredownload.zip). Official Gable Cross brand bundle; Squared-Col variant verified \\(#FEE600 square, #2B2D33 cross\\) matching the fetched favicon. (independence group: rbi-brand-portal).\n- Independent evidence: Identity and currency established by the official RBI brand portal and the bank's own rb.cz homepage; both are first-party sources under one group, treated as one independence group..\n- Identity: confirmed — Official brand.rbinternational.com favicon.svg and Gable Cross.zip brand bundle; emblem construction matches rb.cz homepage emblem.\n- Currency: confirmed — rb.cz homepage inline SVG emblem \\(fetched 2026-10-03\\) and official RBI brand portal 'Logo 2016' asset.\n- Variant: confirmed — Official Gable Cross.zip variant set compared with the fetched favicon.svg and rb.cz homepage emblem.\n\nRationale: Existing icon is the outdated gable-cross presentation \\(pale yellow circle, black square frame, outlined two-tone cross\\). The current official mark is the squared-colour variant: solid #FEE600 field with solid #2B2D33 cross, served by the official RBI brand portal and corroborated by rb.cz..\nRole: standalone bank brand mark \\(gable cross emblem\\), no wordmark; variant: Gable Cross 'squared colour' variant \\(solid #FEE600 field, solid #2B2D33 cross\\), matching rb.cz homepage emblem and the official Gable Cross.zip Squared-Col variant.\nVisible difference: Base shows the obsolete framed, outlined two-tone cross; final shows the current solid squared-colour cross without the frame — a clearly visible supported rebranding/presentation correction..\nDetails: Cross contours, chimney notch, arm widths and both colors reproduce the source vector exactly under the uniform transform; no lost strokes or satellite details at 240px and at 24/32/48px diagnostics.. Proportions: Emblem occupies a centered box similar to the accepted icon's placement; complete emblem survives inside the circle with clear margins on both themes; legible at small sizes..\n\nSource-to-final transformations:\n- Uniform scale 0.1074 and translation of the whole emblem to center it on the catalog circle; no rotation, stretch or path edits\n- Backing: the uniform #FEE600 source field fills the catalog circle with transparency outside \\(plain-field circle rule\\); no emblem pixels masked\n- Optimization: SVGO 4.1.0 with repo svgo.config.mjs \\(sha256 f2a406e0...\\) trial produced 658 B vs 518 B working bytes with pixel-identical render \\(Pillow diff bbox None\\); working version retained\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/61454ab11ccd6d0ba38f53be336b5282e9d2e9e6/review-materials/15606/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/61454ab11ccd6d0ba38f53be336b5282e9d2e9e6/review-materials/15606/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T18:19:29.558715679Z`. Offscreen Desktop light/dark frames: final renders the solid #2B2D33 squared-colour cross centered on the #FEE600 circle, faithful to the official source vector; base shows the old framed outlined variant. Emblem complete, no clipping, legible on both themes.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator provisioned in this run; risk: small-size rendering not independently verified on Android..\n- android-native: not-tested (available: false) — No Android SDK/emulator provisioned in this run; risk: native rendering not verified..\n- ios-compose: not-tested (available: false) — No iOS runtime available in this environment; risk: Compose iOS rendering not verified..\n- ios-native: not-tested (available: false) — No iOS runtime available in this environment; risk: native iOS rendering not verified..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGdtk-w",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/71",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Не по центру",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcP_TkA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/71#issuecomment-6190781328",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "aba1a7f70f751ceebe2e1b2d8bb2673c242aa1e73c474127e1f4c1f689a0cb41",
+            "closedAt": "2026-10-15T11:17:06Z",
+            "head": "bank-icon-maintenance/15606",
+            "headCommit": "d6b1b166a447ac25f1651bb44c300a72e57ae74b",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 71,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+            "url": "https://github.com/zenmoney/banks/pull/71"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Не по центру",
+            "bodySha256": "5ae17213f16da42c294d766a65123dd742f4ce296cb678fd76d38a36c87b40cc",
+            "createdAt": "2026-10-15T11:17:06Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcP_TkA",
+            "text": "Не по центру",
+            "textSha256": "5ae17213f16da42c294d766a65123dd742f4ce296cb678fd76d38a36c87b40cc",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/71#issuecomment-6190781328"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15606/candidate-71c1207b9615a200c0d109a9a8f300bff74eac49e890f7d4b27bd0d50f7aacc2.json",
         "sha256": "71c1207b9615a200c0d109a9a8f300bff74eac49e890f7d4b27bd0d50f7aacc2"

@@ -99,7 +99,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:33:20.206125Z",
+        "observedAt": "2026-10-16T19:52:07.730187Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -117,10 +117,171 @@
           "url": "https://github.com/zenmoney/banks/pull/90"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:33:20.206125Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "84f1dc0d63064aa5d31248d45600f77f4c345cce3da3fbd5e417e362510b290f",
+            "closedAt": "2026-10-16T09:53:05Z",
+            "head": "bank-icon-maintenance/alfa-bank-business-15725",
+            "headCommit": "25fc768a583e4e20f0f78510984d34ad9588aeaa",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 90,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Альфа-Банк Бизнес (Company.id 15725)",
+            "url": "https://github.com/zenmoney/banks/pull/90"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Post-2022 official 'Á' glyph with underline, standalone compact SVG from Alfa-Bank's own design system (core-ds/ui-primitives master); base is an older stylized white-on-gradient-disc presentation of the same glyph.",
       "rejectionReason": null,
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:52:07.730187Z",
+        "id": 15725,
+        "judgement": {
+          "action": "unclear",
+          "key": "79a1052721e52ac415c52438c4484b651c1cc77aaf74bbc484db3db708361ae8",
+          "rationale": "The discussion contains a concrete request for the standard red circle and white letter, plus a submitted CHANGES_REQUESTED instruction to retain the logo from PR #1. Both requirements are retained. The saved discussion does not contain PR #1's logo or establish whether that referenced logo is the accepted gradient-disc baseline, the requested standard red-circle/white-letter variant, or another variant; therefore the two instructions cannot be safely treated as equivalent or one discarded solely because the other occurs later. Two APPROVED reviews have empty bodies and do not resolve the intended presentation. With research and owner questions prohibited, the exact retained/replacement target remains unresolved.",
+          "sources": [
+            {
+              "quote": "Нужно заменить на стандартный красный круг и белую букву",
+              "url": "https://github.com/zenmoney/banks/pull/90#issuecomment-6212885732"
+            },
+            {
+              "quote": "Оставить лого из https://github.com/zenmoney/banks/pull/1",
+              "url": "https://github.com/zenmoney/banks/pull/90#pullrequestreview-5534435891"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T01:18:54.462483Z",
+          "candidateIconHash": "d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e",
+          "key": "79a1052721e52ac415c52438c4484b651c1cc77aaf74bbc484db3db708361ae8",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Альфа-Банк Бизнес — Company.id 15725\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 15725,\n  \"title\": \"\\u0410\\u043b\\u044c\\u0444\\u0430-\\u0411\\u0430\\u043d\\u043a \\u0411\\u0438\\u0437\\u043d\\u0435\\u0441\",\n  \"url\": \"alfabank.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T01:22:12.343614Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/01ead520b09a6481a99d8fbdff6f3d1f08019308/review-materials/15725/base.svg) — SHA-256 `921c1e0cb1b3eb6f25212a14c5a9bdb65f385398b4ffa9115c923b3f5224361a`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/01ead520b09a6481a99d8fbdff6f3d1f08019308/review-materials/15725/source.svg) — SHA-256 `dadb1b913e475973415a99c2ccbf1aa567aec3f4ecdb5a633df6bf50498e02b0`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/01ead520b09a6481a99d8fbdff6f3d1f08019308/review-materials/15725/final.svg) — SHA-256 `d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/01ead520b09a6481a99d8fbdff6f3d1f08019308/review-materials/15725/final.xml) — SHA-256 `b97640d064fb19df98d61e34291c0db831927a4f9e133801882557164cb4a007`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/01ead520b09a6481a99d8fbdff6f3d1f08019308/review-materials/15725/candidate.diff).\n- Source page: [https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype\\_alfa-bank-logo-compact\\_s.svg](https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg).\n- Source asset: [https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype\\_alfa-bank-logo-compact\\_s.svg](https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T01:08:34Z: [https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype\\_alfa-bank-logo-compact\\_s.svg](https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg); asset [https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype\\_alfa-bank-logo-compact\\_s.svg](https://raw.githubusercontent.com/core-ds/ui-primitives/master/icons/logotype/logotype_alfa-bank-logo-compact_s.svg). Official compact standalone mark, single path, rendered correctly with rsvg-convert. (independence group: alfa-laboratory official design system).\n- third-party checked 2026-10-04T01:05:51Z: [https://upload.wikimedia.org/wikipedia/commons/9/98/Alfa\\_Bank\\_RU\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/9/98/Alfa_Bank_RU_logo.svg); asset [https://upload.wikimedia.org/wikipedia/commons/9/98/Alfa\\_Bank\\_RU\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/9/98/Alfa_Bank_RU_logo.svg). Pre-2022 Cyrillic wordmark; rejected as outdated. (independence group: wikimedia commons \\(independent\\)).\n- Independent evidence: Official design-system repository is the primary source; Wikimedia/vectorseek checked as independent third parties and rejected..\n- Identity: confirmed — Asset ships in Alfa-Bank's own public design-system monorepo \\(core-ds/ui-primitives, published as @alfalab/icons-logotype\\), matching the post-2022 'Á'+underline symbol; record title is the business sub-brand of Alfa-Bank..\n- Currency: confirmed — Assets live on the design system's master branch and npm package in active use at fetch date 2026-10-04..\n- Variant: confirmed — Compact standalone symbol variant \\(18x18, single path\\), no wordmark; same glyph geometry as base but flat single-color instead of white-on-gradient disc..\n- Uncertainty: alfabank.ru and biz.alfabank.ru were bot-blocked \\(403\\), so on-site presentation and any distinct business-sub-brand mark were not directly observed..\n\nRationale: Post-2022 official Alfa-Bank standalone 'A'+underline symbol from Alfa's own design system, replacing the base's older white-glyph-on-gradient-disc presentation. Brand-red fill chosen from official colored contexts for legibility on both themes..\nRole: Standalone brand symbol \\(no wordmark\\); original vector source bound to the design-system fetch receipt.; variant: Official compact standalone mark variant; official brand-red #EF3124 color context selected over default black for dark-theme legibility. No official circular avatar of this variant was observed \\(official site bot-blocked\\), so no circular-presentation claim is made..\nVisible difference: Presentation difference versus base: gradient disc with white glyph replaced by the current official flat red symbol on transparent background; this is the supported rebrand presentation, not a serialization change..\nDetails: All emblem contours survive: apex, crossbar counter, and full-width underline with internal transparency preserved; rsvg-convert source/final pairs show identical shapes.. Proportions: Whole emblem fits the square cell with even margins; recognizable and legible at 24/32/48 px diagnostics on both themes; no shrinking beyond useful size; transparent backing kept per policy for a suitable transparent standalone mark..\n\nSource-to-final transformations:\n- Uniform scale 2.5x with translation \\(4.5,4.5\\) placing the complete 18x18 emblem on the 54x54 canvas with even margins; no rotation, stretch, recolor of paths, or part moves.\n- Fill changed from default #000000 to official brand-red #EF3124 \\(official colored variant context\\).\n- SVGO 4.1.0 trial with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 492 -\\> 393 bytes; rsvg-convert renders working vs optimized pixel-identical on #FFFFFF and #121212 \\(diff bbox None both\\). Optimized bytes selected as final.svg \\(sha256 d26cd905a6494e98e81fc31430ce7934499060d20f53943de6eb31158644111e\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/01ead520b09a6481a99d8fbdff6f3d1f08019308/review-materials/15725/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/01ead520b09a6481a99d8fbdff6f3d1f08019308/review-materials/15725/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T01:21:18.690958088Z`. Source/final: Original 18x18 design-system SVG versus final: same single-path geometry, identical proportions; only the fill color differs \\(official red variant chosen\\); no traced or invented geometry.; base/final and rendering: Base \\(white glyph on red-to-navy gradient disc\\) versus final \\(flat red glyph on transparent\\): same underlying 'A'+underline symbol, different official presentation. Final renders cleanly on both themes in Desktop 240x240 frames.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator prerequisites verified in this run; Android checks skipped as not-tested..\n- android-native: not-tested (available: false) — No Android SDK/emulator prerequisites verified in this run; Android checks skipped as not-tested..\n- ios-compose: not-tested (available: false) — No iOS toolchain available on this Linux host; skipped as not-tested..\n- ios-native: not-tested (available: false) — No iOS toolchain available on this Linux host; skipped as not-tested..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGf66WQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/90",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Нужно заменить на стандартный красный круг и белую букву",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABclEc5A",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/90#issuecomment-6212885732",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSaAUzA",
+              "reviewState": "APPROVED",
+              "url": "https://github.com/zenmoney/banks/pull/90#pullrequestreview-5530195148",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSbiCAg",
+              "reviewState": "APPROVED",
+              "url": "https://github.com/zenmoney/banks/pull/90#pullrequestreview-5531795970",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Оставить лого из https://github.com/zenmoney/banks/pull/1",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSeDKMw",
+              "reviewState": "CHANGES_REQUESTED",
+              "url": "https://github.com/zenmoney/banks/pull/90#pullrequestreview-5534435891",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "84f1dc0d63064aa5d31248d45600f77f4c345cce3da3fbd5e417e362510b290f",
+            "closedAt": "2026-10-16T09:53:05Z",
+            "head": "bank-icon-maintenance/alfa-bank-business-15725",
+            "headCommit": "25fc768a583e4e20f0f78510984d34ad9588aeaa",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 90,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Альфа-Банк Бизнес (Company.id 15725)",
+            "url": "https://github.com/zenmoney/banks/pull/90"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Нужно заменить на стандартный красный круг и белую букву",
+            "bodySha256": "d80c0d8a30918df9db35903a5bf82e3e98c75ac97452422404676c1349b63cdc",
+            "createdAt": "2026-10-16T09:53:05Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABclEc5A",
+            "text": "Нужно заменить на стандартный красный круг и белую букву",
+            "textSha256": "d80c0d8a30918df9db35903a5bf82e3e98c75ac97452422404676c1349b63cdc",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/90#issuecomment-6212885732"
+          },
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Оставить лого из https://github.com/zenmoney/banks/pull/1",
+            "bodySha256": "31b49157cd9c1d8563952d5d4714c2cd6835f752dfbc06acedfc7c39dff8f0c4",
+            "createdAt": "2026-10-15T14:05:36Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSeDKMw",
+            "text": "Оставить лого из https://github.com/zenmoney/banks/pull/1",
+            "textSha256": "31b49157cd9c1d8563952d5d4714c2cd6835f752dfbc06acedfc7c39dff8f0c4",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/90#pullrequestreview-5534435891"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15725/candidate-28b200892cfae1708ebc68f4b71e349153dbd8665e7c97b7cfd1e4f17df4964b.json",
         "sha256": "28b200892cfae1708ebc68f4b71e349153dbd8665e7c97b7cfd1e4f17df4964b"

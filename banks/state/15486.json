@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:30:49.949609Z",
+        "observedAt": "2026-10-16T19:51:25.725027Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,140 @@
           "url": "https://github.com/zenmoney/banks/pull/57"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:30:49.949609Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "591edbe4398ec7f4a8a3fe795fe82d72bc9c3597efed339619f6364b14ab3998",
+            "closedAt": "2026-10-15T12:03:03Z",
+            "head": "bank-icon-maintenance/vtb-kz-15486",
+            "headCommit": "16ea0cd99a7d8aa5bfcb32381c6f6d5af0ebae12",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 57,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ВТБ (Казахстан) (Company.id 15486)",
+            "url": "https://github.com/zenmoney/banks/pull/57"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "The base icon (blue circle #009FDF with white slanted bars, app-badge style) is an older variant. The bank's own live site uses the current VTB flag — three slanted bars in refreshed cyan #00AAFF on transparent, no enclosing circle — both as its favicon.svg and in its header logo.svg (flag + #002882 wordmark). Supported currency/color/presentation update; original vector available directly from the bank site.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "keep-current",
+        "candidateIconHash": "f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4",
+        "category": "not-now",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Оставляем как есть",
+          "createdAt": "2026-10-15T12:03:03Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T12:03:03Z",
+          "url": "https://github.com/zenmoney/banks/pull/57#issuecomment-6191584542"
+        },
+        "explanation": "Оставляем как есть",
+        "mr": {
+          "number": 57,
+          "url": "https://github.com/zenmoney/banks/pull/57"
+        },
+        "rationale": "The reviewer explicitly says to leave the accepted icon as it is; this rejects this replacement without requesting another design explanation or reconsideration.",
+        "requirements": [
+          {
+            "quote": "Оставляем как есть",
+            "url": "https://github.com/zenmoney/banks/pull/57#issuecomment-6191584542"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:51:25.725027Z",
+        "id": 15486,
+        "judgement": {
+          "action": "keep-current",
+          "key": "7fad09a7baff1b2f6cff09f303f48b7575bf62df15de127e27cfd34a6aba9bac",
+          "rationale": "The reviewer explicitly says to leave the accepted icon as it is; this rejects this replacement without requesting another design explanation or reconsideration.",
+          "sources": [
+            {
+              "quote": "Оставляем как есть",
+              "url": "https://github.com/zenmoney/banks/pull/57#issuecomment-6191584542"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T12:46:30.298863Z",
+          "candidateIconHash": "f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4",
+          "key": "7fad09a7baff1b2f6cff09f303f48b7575bf62df15de127e27cfd34a6aba9bac",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## ВТБ \\(Казахстан\\) — Company.id 15486\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"KZ\",\n  \"fullTitle\": null,\n  \"id\": 15486,\n  \"title\": \"\\u0412\\u0422\\u0411 (\\u041a\\u0430\\u0437\\u0430\\u0445\\u0441\\u0442\\u0430\\u043d)\",\n  \"url\": \"vtb-bank.kz\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T12:48:20.724935Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/f27bccf13dfa4950b1b2f2063a5db93c2c6549fc/review-materials/15486/base.svg) — SHA-256 `5c96668e7bbc621cad4840cebc706467fda2a69b0aecd33b475a2136fe3e2a67`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/f27bccf13dfa4950b1b2f2063a5db93c2c6549fc/review-materials/15486/source.svg) — SHA-256 `7e4bd5ee3bf81542c75cf0eb300e9d14f657474aaac1ccb77b487fd3a89e40f8`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/f27bccf13dfa4950b1b2f2063a5db93c2c6549fc/review-materials/15486/final.svg) — SHA-256 `f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/f27bccf13dfa4950b1b2f2063a5db93c2c6549fc/review-materials/15486/final.xml) — SHA-256 `857ab87e9061c56408bc5c6cd2300e16cb7c7c5b7d2c32fd87c3bb690253cf86`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/f27bccf13dfa4950b1b2f2063a5db93c2c6549fc/review-materials/15486/candidate.diff).\n- Source page: [https://vtb-bank.kz](https://vtb-bank.kz).\n- Source asset: [https://vtb-bank.kz/local/templates/vtb\\_main/assets/images/icons/favicon.svg](https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/favicon.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-03T12:41:00Z: [https://vtb-bank.kz](https://vtb-bank.kz); asset [https://vtb-bank.kz/local/templates/vtb\\_main/assets/images/icons/favicon.svg](https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/favicon.svg). Live homepage references favicon.svg and logo.svg; head shows the current slanted-bars flag as the site icon. (independence group: vtbkz-site).\n- official checked 2026-10-03T12:41:00Z: [https://vtb-bank.kz/local/templates/vtb\\_main/assets/images/icons/logo.svg](https://vtb-bank.kz/local/templates/vtb_main/assets/images/icons/logo.svg). Header logo is the same cyan flag plus #002882 ВТБ wordmark — same symbol variant as the favicon. (independence group: vtbkz-site).\n- Independent evidence: Both observations come from the bank's own live site \\(favicon and header logo, same fetch context\\); identity anchored by record metadata..\n- Identity: confirmed — vtb-bank.kz is the official site of АО «Банк ВТБ \\(Казахстан\\)» per record metadata \\(ID/country/url\\)..\n- Currency: confirmed — Live site fetched 2026-10-03 serves the cyan flag as favicon and header logo..\n- Variant: confirmed — Current variant is the bare flag of three slanted bars in #00AAFF; the base icon is the older circled badge with white bars on #009FDF — a supported presentation/color update, same underlying symbol..\n- Uncertainty: Platform rendering beyond Desktop Compose was not exercised; Android/iOS checks are not-tested because no emulator/iOS tooling is available..\n\nRationale: The bank's own live site serves this exact flag \\(favicon.svg\\) and the same flag in its header logo.svg as the current brand symbol of VTB Kazakhstan; the base icon is the older circled badge variant with a superseded blue. Supported currency/presentation update from an original vector with receipt-bound provenance..\nRole: standalone-symbol: the mark is used bare \\(transparent background\\) on the bank site; no enclosing circle in the current variant. Kept as the transparent mark without inventing a backing.; variant: bare three-slanted-bar flag in #00AAFF on transparent; replaces the older white-bars-on-#009FDF-circle badge.\nVisible difference: Deliberate: the update replaces the older circled white-bars badge with the current bare cyan flag, exactly as the bank presents its symbol today. Within the source-versus-final comparison there is no unintended difference..\nDetails: Edges crisp at 240px; the three bars render with sharp corners, uniform #00AAFF fill, no artifacts from optimization on either theme.. Proportions: The flag's 20x13 aspect is preserved \\(viewBox unchanged\\); in the square catalog cell it letterboxes centered, which matches the source proportions without stretching..\n\nSource-to-final transformations:\n- SVGO 4.1.0 with the frozen repository svgo configuration: input 321 bytes -\\> trial 270 bytes; path data unchanged at precision 4, fill #00AAFF serialized as #0af \\(same color\\), wrapper group and redundant attributes removed.\n- Selected the optimized trial as final bytes \\(sha256 f00d596d3f43f5b3011b14362be07be52d07f8ab4be37ba1d82a403012fc15e4\\) after working-versus-optimized comparison with an independent rasterizer at 240px on white: visually identical; no other geometry, color or transparency change was made.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/f27bccf13dfa4950b1b2f2063a5db93c2c6549fc/review-materials/15486/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/f27bccf13dfa4950b1b2f2063a5db93c2c6549fc/review-materials/15486/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T12:47:03.095513017Z`. Source/final: The original downloaded favicon.svg and the final SVGO-optimized bytes render identically \\(same three slanted bars, same #00AAFF, same proportions; side-by-side pairs on light and dark show no visual difference beyond canvas centering\\).; base/final and rendering: Base versus final \\(offscreen Compose Desktop, 240x240 frames, #FFFFFF and #121212\\): the old icon is a blue #009FDF circle containing three white slanted bars; the candidate is the same slanted-bar flag in cyan #00AAFF without the circle. The change is the intended current-brand presentation update; the candidate is crisp and complete on both themes.\n\n- android-compose: not-tested (available: false) — Android build tooling is present on this host, but no emulator system image or virtual device is installed; downloading images was outside this run, so this target was not tested..\n- android-native: not-tested (available: false) — Same missing emulator prerequisites and no connected devices; this target was not tested..\n- ios-compose: not-tested (available: false) — No iOS tooling available in this environment; not tested..\n- ios-native: not-tested (available: false) — No iOS tooling available in this environment; not tested..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGbwVUg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/57",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Оставляем как есть",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcQwVHg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/57#issuecomment-6191584542",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "591edbe4398ec7f4a8a3fe795fe82d72bc9c3597efed339619f6364b14ab3998",
+            "closedAt": "2026-10-15T12:03:03Z",
+            "head": "bank-icon-maintenance/vtb-kz-15486",
+            "headCommit": "16ea0cd99a7d8aa5bfcb32381c6f6d5af0ebae12",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 57,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ВТБ (Казахстан) (Company.id 15486)",
+            "url": "https://github.com/zenmoney/banks/pull/57"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Оставляем как есть",
+            "bodySha256": "0478ff91c76b5c8ce32e6000cfd39eab5a18026473400ff3051becb0a938eda3",
+            "createdAt": "2026-10-15T12:03:03Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcQwVHg",
+            "text": "Оставляем как есть",
+            "textSha256": "0478ff91c76b5c8ce32e6000cfd39eab5a18026473400ff3051becb0a938eda3",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/57#issuecomment-6191584542"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15486/candidate-b861470efa84aa29285cd98433b23cd94e3ad514d4906dc0d3ed45dd1c13520a.json",
         "sha256": "b861470efa84aa29285cd98433b23cd94e3ad514d4906dc0d3ed45dd1c13520a"

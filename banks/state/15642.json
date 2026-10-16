@@ -97,7 +97,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:32:28.816522Z",
+        "observedAt": "2026-10-16T19:51:56.375205Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -115,10 +115,140 @@
           "url": "https://github.com/zenmoney/banks/pull/76"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:32:28.816522Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "069b41cbff6dfe1733e2d9cf290bdb6163bcd45a305d5581a54255aa511634a3",
+            "closedAt": "2026-10-16T09:52:12Z",
+            "head": "bank-icon-maintenance/15642",
+            "headCommit": "14dd61d743afca41b869a25b093e0f2476ccd176",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 76,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Kapital Bank (Company.id 15642)",
+            "url": "https://github.com/zenmoney/banks/pull/76"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Current catalog icon is the legacy Kapital Bank red pinwheel/rhombus. The bank's retail identity has been rebranded to Birbank: the official birbank.az homepage titles itself 'Birbank - Ilk reqemsal bank | Kapital Bank' and serves the red #FF0039 'birbank' wordmark (with its leading parallelogram glyph) as the current logo, in two byte-identical official SVGs. The catalog mark is the superseded pre-rebrand design; candidate is the current official brand mark (the wordmark itself is the whole mark, so letters forming the mark are allowed).",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "keep-current",
+        "candidateIconHash": "eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89",
+        "category": "not-now",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Оставляем как было, на сайте первый вариант логотипа используется ",
+          "createdAt": "2026-10-16T09:52:12Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T09:52:12Z",
+          "url": "https://github.com/zenmoney/banks/pull/76#issuecomment-6212870390"
+        },
+        "explanation": "Оставляем как было, на сайте первый вариант логотипа используется ",
+        "mr": {
+          "number": 76,
+          "url": "https://github.com/zenmoney/banks/pull/76"
+        },
+        "rationale": "The reviewer explicitly retains the previous/first logo and states that it is used on the site. Keep the accepted icon for this proposal, rather than the Birbank replacement. The site-use assertion is retained as the reviewer's stated reason, not promoted to independently verified bank metadata.",
+        "requirements": [
+          {
+            "quote": "Оставляем как было, на сайте первый вариант логотипа используется ",
+            "url": "https://github.com/zenmoney/banks/pull/76#issuecomment-6212870390"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:51:56.375205Z",
+        "id": 15642,
+        "judgement": {
+          "action": "keep-current",
+          "key": "b0bb273b1f7745fb4db4220e827c792d2985290fa5a37fb693b6746bbaf1feed",
+          "rationale": "The reviewer explicitly retains the previous/first logo and states that it is used on the site. Keep the accepted icon for this proposal, rather than the Birbank replacement. The site-use assertion is retained as the reviewer's stated reason, not promoted to independently verified bank metadata.",
+          "sources": [
+            {
+              "quote": "Оставляем как было, на сайте первый вариант логотипа используется ",
+              "url": "https://github.com/zenmoney/banks/pull/76#issuecomment-6212870390"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T19:58:49.030489Z",
+          "candidateIconHash": "eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89",
+          "key": "b0bb273b1f7745fb4db4220e827c792d2985290fa5a37fb693b6746bbaf1feed",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Kapital Bank — Company.id 15642\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"AZ\",\n  \"fullTitle\": \"\\u041a\\u0430\\u043f\\u0438\\u0442\\u0430\\u043b\\u0431\\u0430\\u043d\\u043a\",\n  \"id\": 15642,\n  \"title\": \"Kapital Bank\",\n  \"url\": \"kapitalbank.az\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T20:04:49.307112Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/af804a68293c020fe9c7cdb0a78d5fc597529845/review-materials/15642/base.svg) — SHA-256 `25f376d0f3945a8297e1b12761b773dc4fe837701405e8c06150bd7957b43e65`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/af804a68293c020fe9c7cdb0a78d5fc597529845/review-materials/15642/source.svg) — SHA-256 `c6d9f85539bca18f39e69212a983d537eced7a7b4d7d37d511088664a9366d3c`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/af804a68293c020fe9c7cdb0a78d5fc597529845/review-materials/15642/final.svg) — SHA-256 `eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/af804a68293c020fe9c7cdb0a78d5fc597529845/review-materials/15642/final.xml) — SHA-256 `e51ef084f0e960c22565e45aee3af9f7e10efb08e2f6e41879b9d7fc4c1c7297`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/af804a68293c020fe9c7cdb0a78d5fc597529845/review-materials/15642/candidate.diff).\n- Source page: [https://birbank.az/](https://birbank.az/).\n- Source asset: [https://birbank.az/file/new\\_logo\\_5fe2b40e30.svg](https://birbank.az/file/new_logo_5fe2b40e30.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-03T19:48:00Z: [https://birbank.az/](https://birbank.az/); asset [https://birbank.az/file/new\\_logo\\_5fe2b40e30.svg](https://birbank.az/file/new_logo_5fe2b40e30.svg). The official Birbank homepage titles itself with both brand names and serves the red birbank wordmark as its logo. Two byte-identical copies of the SVG are served from the same site \\(Adobe Illustrator export, 685 by 248.2 viewBox, single fill FF0039\\). The site was reached through the bank's apex domain redirect after the apex itself blocked the fetch helper. (independence group: birbank.az official site \\(homepage and both logo file copies are one publication\\)).\n- official checked 2026-10-03T19:48:00Z: [https://kapitalbank.az/](https://kapitalbank.az/). The bank's apex domain returned an access-denied page to the fetch helper, and its favicon document redirects to the Birbank brand site, showing the official apex site forwards to the Birbank brand presence. (independence group: kapitalbank.az official site \\(apex redirect observation\\)).\n- Independent evidence: Both observations come from the bank's own properties \\(birbank.az and the kapitalbank.az apex redirect\\); direct official confirmation, not mirror-based..\n- Identity: confirmed — birbank.az is the official site of Kapital Bank's retail brand \\(homepage title carries both names; kapitalbank.az apex redirects to it\\); the candidate mark is that bank's current brand logo..\n- Currency: confirmed — Live official birbank.az site currently serves the red wordmark as its logo; the catalog's pinwheel/rhombus is the legacy pre-rebrand Kapital Bank symbol, no longer the served brand mark..\n- Variant: confirmed — The candidate is the complete current logo \\(wordmark plus leading glyph\\); the letters form the mark itself, so the no-separate-lettering rule does not disqualify it. No standalone non-text Birbank symbol was found served officially..\n\nRationale: Evidenced rebrand of the operating retail brand: Kapital Bank's catalog pinwheel/rhombus is superseded by the current Birbank wordmark served on the bank's own site \\(birbank.az, title 'Birbank - Ilk reqemsal bank \\| Kapital Bank'; kapitalbank.az apex redirects there\\). Update replaces the obsolete design with the current official brand mark..\nRole: Complete current brand mark: the red 'birbank' wordmark with its leading parallelogram glyph; the letters form the mark itself, so the no-separate-lettering rule does not disqualify it. No backing field, transparent mark.; variant: Full official wordmark logo, official red #FF0039, exactly as served by birbank.az..\nVisible difference: Before/after desktop pairs show the legacy red pinwheel/rhombus replaced by the current Birbank wordmark; the visible diff is exactly the evidenced rebrand..\nDetails: Wordmark glyph outlines and the leading parallelogram preserved exactly; source/final pairs on both themes show no lost or invented details.. Proportions: Wordmark aspect preserved by uniform scale; placed with even vertical clearances in the 54x54 cell; at catalog icon size the lettering remains readable on both themes \\(verified in the exact 240x240 desktop frames\\)..\n\nSource-to-final transformations:\n- Carried the official wordmark SVG paths verbatim \\(class st0 mapped to explicit fill #FF0039, same color value\\); no geometry change.\n- Uniform scale 0.07591 and translation to fit the 685x248.2 lockup into a 54x54 canvas \\(catalog convention\\), horizontally near-full-width and vertically centered; no other change.\n- SVGO 4.1.0 trial with frozen config \\(configSha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\): 1992 -\\> 2019 bytes, pixel-identical renders; optimization REJECTED \\(larger\\), working bytes retained as final \\(eae6016227be7bc8865393ea77ce86d155bc67de7cbc548a0b4d2b23337ddc89, 1992 bytes\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/af804a68293c020fe9c7cdb0a78d5fc597529845/review-materials/15642/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/af804a68293c020fe9c7cdb0a78d5fc597529845/review-materials/15642/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T20:03:02.421156Z`. Source/final: Original official birbank.az SVG versus final: paths byte-identical \\(fill notation normalized to the same #FF0039 value\\); only uniform scale/translate applied. Source/final pairs on both themes show the identical wordmark.; base/final and rendering: Base/final desktop pairs \\(240x240, #FFFFFF and #121212\\): legacy Kapital Bank pinwheel replaced by the current Birbank wordmark; final renders complete and legible on both themes with no clipping or distortion.\n\n- android-compose: not-tested (available: false) — No Android emulator or system image is installed in this environment; creating an Android virtual device was impossible in this run. Risk: the Android rendering path is unverified for this candidate..\n- android-native: not-tested (available: false) — No Android emulator or system image is installed; the debugger tool is present but no runnable target exists. Risk: native Android display is unverified..\n- ios-compose: not-tested (available: false) — No iOS runtime or tooling exists on this Linux host. Risk: the iOS rendering path is unverified for this candidate..\n- ios-native: not-tested (available: false) — No iOS runtime or tooling exists on this Linux host. Risk: native iOS display is unverified..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGeV4LA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/76",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Оставляем как было, на сайте первый вариант логотипа используется ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABclDg9g",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/76#issuecomment-6212870390",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "069b41cbff6dfe1733e2d9cf290bdb6163bcd45a305d5581a54255aa511634a3",
+            "closedAt": "2026-10-16T09:52:12Z",
+            "head": "bank-icon-maintenance/15642",
+            "headCommit": "14dd61d743afca41b869a25b093e0f2476ccd176",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 76,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Kapital Bank (Company.id 15642)",
+            "url": "https://github.com/zenmoney/banks/pull/76"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Оставляем как было, на сайте первый вариант логотипа используется ",
+            "bodySha256": "ce2dcbd260a7ce2eb396d772a166fe6b95667a4ffa94539ba322f08a0050fb0c",
+            "createdAt": "2026-10-16T09:52:12Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABclDg9g",
+            "text": "Оставляем как было, на сайте первый вариант логотипа используется",
+            "textSha256": "2c3297dbce26a12114ed31d031c45d495fe5c1cfe898ef3f1526d2b2063ea22c",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/76#issuecomment-6212870390"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15642/candidate-8a8b07818627d15b5c4e74fdfc17ae29061b143de74d71b822be167222bc0895.json",
         "sha256": "8a8b07818627d15b5c4e74fdfc17ae29061b143de74d71b822be167222bc0895"

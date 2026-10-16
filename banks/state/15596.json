@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:31:16.589511Z",
+        "observedAt": "2026-10-16T19:51:41.359064Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,142 @@
           "url": "https://github.com/zenmoney/banks/pull/69"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:31:16.589511Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "62950ea88e1cceb591d3278aea04ace1221ea67020f1ac2e2adf3a0fe88f443a",
+            "closedAt": "2026-10-14T17:06:45Z",
+            "head": "bank-icon-maintenance/15596",
+            "headCommit": "40591e485bbea94d4f035e395dfb2c61fa753712",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 69,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Capital One Bank (Company.id 15596)",
+            "url": "https://github.com/zenmoney/banks/pull/69"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Current official Capital One logo (red swoosh #cc2427 over navy 'Capital One' wordmark #013d5b, viewBox 0 0 418 150) was observed live inline in the capitalone.com homepage header on the check date. The fetched vector is a Capital One-published asset (declared source capitalone.co.uk/images/c1/brand/logo.svg, Commons mirror) with path data matching that official inline artwork — not a traced copy. The accepted base icon is a red-disc/white-swoosh roundel variant not observed in current official use; the current variant is the swoosh+wordmark lockup. Square-cell suitability of the lockup will be judged with actual renders at candidate review.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a",
+        "category": "technical",
+        "comment": {
+          "author": "b3er",
+          "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `40591e485bbea94d4f035e395dfb2c61fa753712`\n\n**Reason:** The full horizontal Capital One composition is unsuitable at the small display sizes: the PR itself states that \"at 24-32 px the wordmark is illegible and at 48 px marginal\". The October 6 audit confirmed the 24/32 px problem. A failed usability check cannot be treated as a neutral caveat while the candidate is marked suitable.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original vector and verify the complete mark at 24 and 32 px on both backgrounds. If no suitable original variant is available, do not make this replacement. The rejection concerns this composition, not a blanket ban on wordmarks.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+          "createdAt": "2026-10-14T17:06:44Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-14T17:06:44Z",
+          "url": "https://github.com/zenmoney/banks/pull/69#issuecomment-6173881037"
+        },
+        "explanation": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `40591e485bbea94d4f035e395dfb2c61fa753712`\n\n**Reason:** The full horizontal Capital One composition is unsuitable at the small display sizes: the PR itself states that \"at 24-32 px the wordmark is illegible and at 48 px marginal\". The October 6 audit confirmed the 24/32 px problem. A failed usability check cannot be treated as a neutral caveat while the candidate is marked suitable.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original vector and verify the complete mark at 24 and 32 px on both backgrounds. If no suitable original variant is available, do not make this replacement. The rejection concerns this composition, not a blanket ban on wordmarks.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+        "mr": {
+          "number": 69,
+          "url": "https://github.com/zenmoney/banks/pull/69"
+        },
+        "rationale": "The closing human decision identifies unusable small-size lettering in this full horizontal composition: illegible at 24–32 px and marginal at 48 px. A supported compact ORIGINAL vector is required, with the COMPLETE mark verified at 24 and 32 px on BOTH backgrounds. If no suitable original variant is available, do not make this replacement. This is a candidate-specific usability rejection, not a blanket ban on wordmarks or a permanent ban on the bank. The saved decision attributes its basis to the three named audit/review documents, giving audit corrections precedence over unsupported cross-review claims; this assessment does not independently inspect those documents or claim that the repair is implemented.",
+        "requirements": [
+          {
+            "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `40591e485bbea94d4f035e395dfb2c61fa753712`\n\n**Reason:** The full horizontal Capital One composition is unsuitable at the small display sizes: the PR itself states that \"at 24-32 px the wordmark is illegible and at 48 px marginal\". The October 6 audit confirmed the 24/32 px problem. A failed usability check cannot be treated as a neutral caveat while the candidate is marked suitable.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original vector and verify the complete mark at 24 and 32 px on both backgrounds. If no suitable original variant is available, do not make this replacement. The rejection concerns this composition, not a blanket ban on wordmarks.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "url": "https://github.com/zenmoney/banks/pull/69#issuecomment-6173881037"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:51:41.359064Z",
+        "id": 15596,
+        "judgement": {
+          "action": "repair",
+          "key": "f2177f440163be379519cf439e40442da1f6c830bb0c6601e67fac4b9edfe025",
+          "rationale": "The closing human decision identifies unusable small-size lettering in this full horizontal composition: illegible at 24–32 px and marginal at 48 px. A supported compact ORIGINAL vector is required, with the COMPLETE mark verified at 24 and 32 px on BOTH backgrounds. If no suitable original variant is available, do not make this replacement. This is a candidate-specific usability rejection, not a blanket ban on wordmarks or a permanent ban on the bank. The saved decision attributes its basis to the three named audit/review documents, giving audit corrections precedence over unsupported cross-review claims; this assessment does not independently inspect those documents or claim that the repair is implemented.",
+          "sources": [
+            {
+              "quote": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `40591e485bbea94d4f035e395dfb2c61fa753712`\n\n**Reason:** The full horizontal Capital One composition is unsuitable at the small display sizes: the PR itself states that \"at 24-32 px the wordmark is illegible and at 48 px marginal\". The October 6 audit confirmed the 24/32 px problem. A failed usability check cannot be treated as a neutral caveat while the candidate is marked suitable.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original vector and verify the complete mark at 24 and 32 px on both backgrounds. If no suitable original variant is available, do not make this replacement. The rejection concerns this composition, not a blanket ban on wordmarks.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "url": "https://github.com/zenmoney/banks/pull/69#issuecomment-6173881037"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T17:41:23.072561Z",
+          "candidateIconHash": "65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a",
+          "key": "f2177f440163be379519cf439e40442da1f6c830bb0c6601e67fac4b9edfe025",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Capital One Bank — Company.id 15596\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"US\",\n  \"fullTitle\": null,\n  \"id\": 15596,\n  \"title\": \"Capital One Bank\",\n  \"url\": \"capitalone.com\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T17:46:35.378185Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/base.svg) — SHA-256 `96ba3d8425330d73cfe6163945ef628e635ff4563a5a615040be56318fbbc66e`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/source.svg) — SHA-256 `69d918170633be70ec4c0fd57f421ad7b70c59641580a0ee77e929964a157c96`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/final.svg) — SHA-256 `65ce555d031c5e8c939a26175852ce0fd18a5ae84ab7cb299b3d4bb6f70e678a`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/final.xml) — SHA-256 `eac6edeadc07e201eda9c996654ecde0fac0adb9c59d526e792ec5c5d87ce225`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/candidate.diff).\n- Source page: [https://commons.wikimedia.org/wiki/File:Capital\\_One\\_logo.svg](https://commons.wikimedia.org/wiki/File:Capital_One_logo.svg).\n- Source asset: [https://upload.wikimedia.org/wikipedia/commons/9/98/Capital\\_One\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-03T17:36:00Z: [https://www.capitalone.com/](https://www.capitalone.com/). Official homepage header logo labelled 'Capital One Home' observed live as inline SVG: red swoosh over navy 'Capital One' wordmark; same entity as the catalog record \\(US, capitalone.com\\). Receipt fetch-410a8de133e04eaebf3bc7d6bdbaa8e5. source-material extraction of the inline SVG was refused due to external style context. (independence group: official site live observation).\n- third-party checked 2026-10-03T17:36:00Z: [https://commons.wikimedia.org/wiki/File:Capital\\_One\\_logo.svg](https://commons.wikimedia.org/wiki/File:Capital_One_logo.svg); asset [https://upload.wikimedia.org/wikipedia/commons/9/98/Capital\\_One\\_logo.svg](https://upload.wikimedia.org/wikipedia/commons/9/98/Capital_One_logo.svg). Original vector fetched \\(3746 B, sha256 69d918170633be70ec4c0fd57f421ad7b70c59641580a0ee77e929964a157c96\\); file page declares source capitalone.co.uk/images/c1/brand/logo.svg \\(Capital One official\\). Geometry matches the official inline homepage artwork; independent of the live page fetch only as a mirror of the same publisher's asset. (independence group: Commons mirror of Capital One published asset).\n- Independent evidence: The live official-page observation and the Capital One-published asset \\(Commons mirror of capitalone.co.uk brand asset\\) independently support identity and currency of the same lockup design..\n- Identity: confirmed — Official homepage header logo on capitalone.com identifies the same entity as record 15596 \\(US, capitalone.com\\)..\n- Currency: confirmed — The lockup was observed live on the official site on the check date; the mirror asset is geometry-identical to the observed inline artwork..\n- Variant: confirmed — Current variant is the red swoosh + navy wordmark lockup; the accepted red-disc/white-swoosh roundel is a different, unsupported variant. Candidate is the fetched original vector of the current lockup..\n- Uncertainty: No official standalone swoosh-only vector was found; the candidate is the full 418x150 lockup whose square-cell fit and wordmark legibility must be judged on actual renders at candidate review..\n\nRationale: Variant replacement: the accepted red-disc/white-swoosh roundel is not the mark in current official use; capitalone.com serves the red swoosh + navy wordmark lockup live, and the final bytes derive from a Capital One-published original vector \\(Commons mirror of capitalone.co.uk/images/c1/brand/logo.svg\\) whose geometry matches the official inline homepage artwork..\nRole: Full official brand lockup \\(swoosh over wordmark\\) as the standalone mark; no separate bank-name text is added — the wordmark is part of the official mark itself.; variant: Current official Capital One lockup \\(red #cc2427 swoosh, navy #013d5b wordmark\\) replacing an unsupported red-disc roundel variant..\nVisible difference: Base and final are different variants: base is a red disc with a white swoosh roundel; final is the current official swoosh-over-wordmark lockup. The change replaces an unsupported roundel with the evidenced current brand mark, not a cosmetic reserialization..\nDetails: All swoosh strokes and wordmark letterforms from the source vector survive the placement transform; source-final pairs on both themes are visually identical in shape, colors and relative geometry.. Proportions: Whole-emblem fit complete on the square canvas with equal margins; no clipping. Small-size limitation: at 24-32 px the wordmark is illegible and at 48 px marginal \\(thin letterforms\\); the red swoosh remains recognizable on both themes. Disclosed as a limitation for human MR review; no official standalone swoosh-only vector exists..\n\nSource-to-final transformations:\n- Placement only: the whole 418x150 lockup uniformly scaled by 216/418 and centered on a 240x240 transparent canvas \\(translate\\(12 81.2459\\) scale\\(0.516746\\)\\); no crop, stretch, recolor or emblem edit.\n- SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: trial produced 5243 B from 3742 B working \\(expansion\\); skipped, working bytes selected — no visual decision involved.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T17:43:24.382736882Z`. Source/final: Original source vector \\(3746 B lockup\\) versus final: identical artwork after disclosed uniform scale/translate placement on the square canvas; colors, letterforms, internal transparency preserved; source raster and source-final pairs on both themes show no detail loss.; base/final and rendering: Base/final pairs: left red-disc roundel versus right official lockup on light and dark frames; candidate renders complete and undistorted on both themes, standalone mark fits the square cell; wordmark small-size legibility disclosed in proportionsJudgement.\n\n- android-compose: not-tested (available: false) — Android SDK is installed on this host, but no emulator binary and no system images are present; creating an AVD requires installation, which is outside this run..\n- android-native: not-tested (available: false) — Same missing emulator/system-image prerequisites; the platform-tools bridge is present but no device or AVD exists..\n- ios-compose: not-tested (available: false) — No iOS toolchain is available on this Linux host..\n- ios-native: not-tested (available: false) — No iOS toolchain is available on this Linux host..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGdd4sg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/69",
+              "userType": "User"
+            },
+            {
+              "author": "b3er",
+              "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `40591e485bbea94d4f035e395dfb2c61fa753712`\n\n**Reason:** The full horizontal Capital One composition is unsuitable at the small display sizes: the PR itself states that \"at 24-32 px the wordmark is illegible and at 48 px marginal\". The October 6 audit confirmed the 24/32 px problem. A failed usability check cannot be treated as a neutral caveat while the candidate is marked suitable.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original vector and verify the complete mark at 24 and 32 px on both backgrounds. If no suitable original variant is available, do not make this replacement. The rejection concerns this composition, not a blanket ban on wordmarks.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABb_3yzQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/69#issuecomment-6173881037",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "62950ea88e1cceb591d3278aea04ace1221ea67020f1ac2e2adf3a0fe88f443a",
+            "closedAt": "2026-10-14T17:06:45Z",
+            "head": "bank-icon-maintenance/15596",
+            "headCommit": "40591e485bbea94d4f035e395dfb2c61fa753712",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 69,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Capital One Bank (Company.id 15596)",
+            "url": "https://github.com/zenmoney/banks/pull/69"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [
+              "https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true"
+            ],
+            "author": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `40591e485bbea94d4f035e395dfb2c61fa753712`\n\n**Reason:** The full horizontal Capital One composition is unsuitable at the small display sizes: the PR itself states that \"at 24-32 px the wordmark is illegible and at 48 px marginal\". The October 6 audit confirmed the 24/32 px problem. A failed usability check cannot be treated as a neutral caveat while the candidate is marked suitable.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original vector and verify the complete mark at 24 and 32 px on both backgrounds. If no suitable original variant is available, do not make this replacement. The rejection concerns this composition, not a blanket ban on wordmarks.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "bodySha256": "eacb26cf187efff1c9a2c0b920b7c0520fdbcf1a0fc269f9d8caa30fc52a8217",
+            "createdAt": "2026-10-14T17:06:44Z",
+            "editor": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABb_3yzQ",
+            "text": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `40591e485bbea94d4f035e395dfb2c61fa753712`\n\n**Reason:** The full horizontal Capital One composition is unsuitable at the small display sizes: the PR itself states that \"at 24-32 px the wordmark is illegible and at 48 px marginal\". The October 6 audit confirmed the 24/32 px problem. A failed usability check cannot be treated as a neutral caveat while the candidate is marked suitable.\n\n**Required follow-up for the maintenance agent:** Find a supported compact original vector and verify the complete mark at 24 and 32 px on both backgrounds. If no suitable original variant is available, do not make this replacement. The rejection concerns this composition, not a blanket ban on wordmarks.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/58a0f09e122e84fd27e7673947c8668f7708127c/review-materials/15596/comparison-light.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "textSha256": "eacb26cf187efff1c9a2c0b920b7c0520fdbcf1a0fc269f9d8caa30fc52a8217",
+            "trust": {
+              "login": "b3er",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/69#issuecomment-6173881037"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15596/candidate-fb6b6d9a967ef3f37844a904eccbe0d72b693b8e8d4acad44969494e3d3f0499.json",
         "sha256": "fb6b6d9a967ef3f37844a904eccbe0d72b693b8e8d4acad44969494e3d3f0499"

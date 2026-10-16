@@ -97,7 +97,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:32:30.231560Z",
+        "observedAt": "2026-10-16T19:52:00.210220Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -115,10 +115,140 @@
           "url": "https://github.com/zenmoney/banks/pull/77"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:32:30.231560Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "fe2f01258acc19dc4dee592ce786b611f769eae921d78a0c06f739597cca1e0c",
+            "closedAt": "2026-10-15T11:06:36Z",
+            "head": "bank-icon-maintenance/15648",
+            "headCommit": "42b8fedc9e4751d91cdf9d040e15df64c7d964ba",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 77,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: МегаФон Банк (Company.id 15648)",
+            "url": "https://github.com/zenmoney/banks/pull/77"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "The bank behind record 15648 (fullTitle 'Раунд') was divested from MegaFon in December 2022 and now operates as банк «Раунд» (Round Bank) at round.ru; bank.megafon.ru no longer resolves (DNS NXDOMAIN). The existing icon is the legacy MegaFon-era round-account emblem (green circle with crescent split and dots), which no longer matches the bank's current official mark: a green circle-'r' letterform favicon SVG served by round.ru itself. Supported same-bank rebrand, not a successor substitution.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "keep-current",
+        "candidateIconHash": "5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30",
+        "category": "not-now",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "На сайте используется первый логотип его и оставляем ",
+          "createdAt": "2026-10-16T10:12:37Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T10:12:37Z",
+          "url": "https://github.com/zenmoney/banks/pull/77#issuecomment-6213215670"
+        },
+        "explanation": "На сайте используется первый логотип его и оставляем ",
+        "mr": {
+          "number": 77,
+          "url": "https://github.com/zenmoney/banks/pull/77"
+        },
+        "rationale": "The reviewer explicitly retains the first/current logo and states that it is used on the site. Do not replace it with the proposed Round Bank mark under this proposal. The reviewer's site-use assertion is not independently verified identity, lifecycle, or catalog-purpose metadata.",
+        "requirements": [
+          {
+            "quote": "На сайте используется первый логотип его и оставляем ",
+            "url": "https://github.com/zenmoney/banks/pull/77#issuecomment-6213215670"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:52:00.210220Z",
+        "id": 15648,
+        "judgement": {
+          "action": "keep-current",
+          "key": "b54fd0565cf93e07861439e33b35c91e7bd816d023230b803a030cdf7201049b",
+          "rationale": "The reviewer explicitly retains the first/current logo and states that it is used on the site. Do not replace it with the proposed Round Bank mark under this proposal. The reviewer's site-use assertion is not independently verified identity, lifecycle, or catalog-purpose metadata.",
+          "sources": [
+            {
+              "quote": "На сайте используется первый логотип его и оставляем ",
+              "url": "https://github.com/zenmoney/banks/pull/77#issuecomment-6213215670"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-03T20:36:51.224905Z",
+          "candidateIconHash": "5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30",
+          "key": "b54fd0565cf93e07861439e33b35c91e7bd816d023230b803a030cdf7201049b",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## МегаФон Банк — Company.id 15648\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": \"\\u0420\\u0430\\u0443\\u043d\\u0434\",\n  \"id\": 15648,\n  \"title\": \"\\u041c\\u0435\\u0433\\u0430\\u0424\\u043e\\u043d \\u0411\\u0430\\u043d\\u043a\",\n  \"url\": \"bank.megafon.ru\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-03T20:49:38.773741Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/b134d741ec75461cc15769eca971f2dfe099f530/review-materials/15648/base.svg) — SHA-256 `f91c935d09dfa3adb9fc8f53c8f5ec875ff8961460bcc19cd6ba83871c3ffe8a`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/b134d741ec75461cc15769eca971f2dfe099f530/review-materials/15648/source.svg) — SHA-256 `239ce38ee3c06851359c342a069ac62f8ac3fc968ed8282ce624c9792f48b9d9`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/b134d741ec75461cc15769eca971f2dfe099f530/review-materials/15648/final.svg) — SHA-256 `5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/b134d741ec75461cc15769eca971f2dfe099f530/review-materials/15648/final.xml) — SHA-256 `71fa966ce35863f4fca762a82bde3022ac618cc604d9438030d1cff659c805ae`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/b134d741ec75461cc15769eca971f2dfe099f530/review-materials/15648/candidate.diff).\n- Source page: [https://www.round.ru/](https://www.round.ru/).\n- Source asset: [https://www.round.ru/favicon.svg](https://www.round.ru/favicon.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-03T20:32:20Z: [https://www.round.ru/](https://www.round.ru/); asset [https://www.round.ru/favicon.svg](https://www.round.ru/favicon.svg). Round Bank official homepage \\(fetched 2026-10-03T20:32Z, title 'Round Bank - универсальный коммерческий банк \\| банк Раунд'\\). Its favicon.svg \\(fetched 2026-10-03T20:32Z\\) is a self-contained original vector: green \\(#22DF6B-family\\) circle with a crescent cutout and white 'r' letterform — the standalone Round Bank mark. The site header logo SVG carries the same mark plus a ROUND wordmark \\(wordmark variant not used; accompanying lettering is not catalog-suitable\\). (independence group: round.ru official site and its own assets).\n- third-party checked 2026-10-03T20:32:22Z: [https://bosfera.ru/press-release/megafon-zakryl-finteh-proekt](https://bosfera.ru/press-release/megafon-zakryl-finteh-proekt). Press report dated 2022-12-29 documents the divestiture of the bank from the MegaFon group and its renaming to банк «Раунд», corroborating the lifecycle. \\(Exact article URL recorded in the research findings JSON.\\) (independence group: bosfera.ru independent press).\n- official checked 2026-10-03T20:30:42Z: [http://bank.megafon.ru/](http://bank.megafon.ru/). bank.megafon.ru \\(the record's metadata URL\\) did not resolve when fetched 2026-10-03T20:30Z \\(DNS NXDOMAIN\\); diagnostic fetch receipt retained. The metadata URL is stale for the operating brand. (independence group: diagnostic retrieval).\n- Independent evidence: Official round.ru assets corroborated by independent December 2022 press coverage of the divestiture/renaming and by the dead MegaFon domain..\n- Identity: confirmed — Record 15648 'МегаФон Банк' with fullTitle 'Раунд' represents the bank that was renamed банк «Раунд» \\(Round Bank\\) after its December 2022 divestiture from MegaFon; round.ru is that same bank's current official site, and the fetched mark is published there..\n- Currency: confirmed — round.ru live homepage and favicon \\(fetched 2026-10-03\\) present the circle-'r' mark as the bank's current identity; the MegaFon brand period ended with the 2022 divestiture and the old domain is dead..\n- Variant: confirmed — Standalone mark variant: green circle with crescent cutout and white 'r' letterform, published as the site favicon; transparent outside the circle, no backing field to adapt..\n- Uncertainty: Exact current legal full title wording \\(ООО/АО form\\) not independently confirmed; immaterial to the mark itself..\n\nRationale: Supported same-bank rebrand: the bank behind record 15648 \\(fullTitle 'Раунд'\\) was divested from MegaFon in December 2022 and now operates as банк «Раунд» \\(Round Bank, round.ru\\); the accepted icon still shows the legacy MegaFon-era round-account emblem, which no longer matches the bank's current official mark..\nRole: Standalone bank mark: the site favicon of round.ru, the official icon-only presentation of the current Round Bank identity.; variant: Green circle with a crescent cutout and white 'r' letterform; transparent outside the circle; no backing field to adapt. Same variant as observed on the official site header lockup, used here without the accompanying wordmark..\nVisible difference: Base and final are different designs: the base is the legacy MegaFon-era emblem \\(green circle with crescent split and dot rows\\); the final is the current Round Bank circle-'r' mark. The difference is the evidenced December 2022 divestiture/rebrand, not cosmetic normalization..\nDetails: All source details preserved: circle outline, crescent cutout, white 'r' stroke with rounded terminals; colors match the source greens; internal transparency intact.. Proportions: Mark fills the square cell with even margins at 240px; recognizable and legible at 24/32/48 px diagnostics on both themes; no clipping or distortion..\n\nSource-to-final transformations:\n- No geometry transformation: the final bytes are the SVGO 4.1.0 \\(config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\) optimization of the downloaded source, 882 -\\> 658 bytes, selected trial output 5e7b6bd427dff5a22e1a899e4bbbdd403e8d309cd65fc5db9fcd177215452d30; visually identical \\(difference extrema \\<= 10/255, anti-aliasing only\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/b134d741ec75461cc15769eca971f2dfe099f530/review-materials/15648/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/b134d741ec75461cc15769eca971f2dfe099f530/review-materials/15648/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-03T20:45:10.032595216Z`. Source/final: The original favicon.svg source and the final render \\(rsvg reference and offscreen Desktop pair\\) show the same emblem: identical geometry, proportions, green fills and white letterform; the SVGO pass changed only serialization. No detail lost, no invented colors or geometry.; base/final and rendering: Base \\(legacy MegaFon-era emblem\\) versus final \\(Round Bank circle-'r'\\) on both themes: the designs are visibly different, the final is a clean standalone mark on light and dark backgrounds, centered and unclipped in the icon area; the base is the accepted obsolete design, so the difference reflects the supported rebrand.\n\n- android-compose: not-tested (available: false) — No Android emulator runtime or system images are installed in the workstation SDK; downloading or installing them is outside this run. Risk: the Android Compose render path was not observed; the offscreen Desktop render of the exact final bytes passed on both themes..\n- android-native: not-tested (available: false) — Same missing Android emulator and system-image prerequisites; the native Android render path was not observed..\n- ios-compose: not-tested (available: false) — No iOS toolchain exists on this Linux workstation; the iOS Compose render path was not observed..\n- ios-native: not-tested (available: false) — No iOS toolchain exists on this Linux workstation; the native iOS render path was not observed..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGeiknA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/77",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "На сайте используется первый логотип его и оставляем ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABclYltg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/77#issuecomment-6213215670",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "fe2f01258acc19dc4dee592ce786b611f769eae921d78a0c06f739597cca1e0c",
+            "closedAt": "2026-10-15T11:06:36Z",
+            "head": "bank-icon-maintenance/15648",
+            "headCommit": "42b8fedc9e4751d91cdf9d040e15df64c7d964ba",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 77,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: МегаФон Банк (Company.id 15648)",
+            "url": "https://github.com/zenmoney/banks/pull/77"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "На сайте используется первый логотип его и оставляем ",
+            "bodySha256": "fd5c7968a571650c8533b9de16d5e0b013774a8c5e4d7e42334c6f35589745c4",
+            "createdAt": "2026-10-16T10:12:37Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABclYltg",
+            "text": "На сайте используется первый логотип его и оставляем",
+            "textSha256": "6bbd343605bbbabec5f2470c635e8cc971bb8e51eee59f34e2986798022cabb0",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/77#issuecomment-6213215670"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15648/candidate-4a62fb4958f0957a74e5aae7f502335e881fa4c4602f9c3ee3d49cf14ed3a86c.json",
         "sha256": "4a62fb4958f0957a74e5aae7f502335e881fa4c4602f9c3ee3d49cf14ed3a86c"
