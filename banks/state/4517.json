@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-02T21:12:48.510094Z",
+  "lastAttemptAt": "2026-10-16T21:04:33.704469Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -288,6 +288,133 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "e38b7242cf6c52285f74d24681c2f3fadad3ecb4d53da985b3d59371700e78d5",
         "xmlSha256": "c81382389a44636e483a64c03a2c07be64acc6d62e68973912c3f741f492a818"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/4517/assessed-9a099b80e2b744437abcf8f9ff4ba683b6f3887a2eccbe4fd57a777fb089cbfa.json",
+        "sha256": "9a099b80e2b744437abcf8f9ff4ba683b6f3887a2eccbe4fd57a777fb089cbfa"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The freshly fetched live operating bank homepage directly references this exact original header SVG; this is current use, without claiming a dated rebrand.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The metadata domain bankperm.ru serves a live page titled «Бизнесу — Банк Пермь (АО)» and header img alt «Банк Пермь (АО)». The downloaded header vector is applicable to Company.id 4517, RU, not GOLOVA MEDIA partner logos.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official source origin and live record-specific usage establish these findings; same-bank/group first-party pages count as one publication family, not invented independent corroboration.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Complete standalone stacked-ellipse monogram from the original two compound path strings; separate «БАНК ПЕРМЬ» letter subpaths are omitted. Source #0D47A1 and internal transparency preserved; no background added.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/954af7d9755f50170dc960c3c4d329317cd0e98916a5b6c9d57c6fa22bbd86f6.json",
+        "sha256": "954af7d9755f50170dc960c3c4d329317cd0e98916a5b6c9d57c6fa22bbd86f6"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The full original librsvg source raster shows the emblem and separate bank-name lettering. Fresh source/final comparisons retain the complete upper and lower oval rings, layered arc bands, ends and negative spaces of the emblem while omitting only the separate name. Final SVG contains two emblem-only paths, and generated XML contains two evenOdd #0D47A1 paths. Theme backgrounds remain visible through the original holes; no painted white repair or backing was introduced.",
+        "faithful": true,
+        "iconHash": "2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11",
+        "path": "evidence/4517/candidate-2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11.svg",
+        "proportionsJudgement": "The original approximately 1.714:1 wide emblem is not stretched to become square. The exact final Desktop mark fills the 162-pixel icon-canvas width and occupies approximately 94 pixels vertically with balanced top/bottom space; its near-solid-color bounds center is (120,120) in the 240-pixel frame on both themes. The rejected render was approximately 137 by 80 pixels centered at (107.5,121), leaving surplus space on the right. The fresh final is visibly larger and centered. At actual 24/32/48-pixel resized diagnostics both ovals and the layered silhouette remain recognizable; thin gaps soften at 24 pixels but do not become a cropped or stretched mark. Original blue is subdued on the dark theme, yet the complete mark remains distinguishable.",
+        "rationale": "First icon addition for Company.id 4517 from the currently used official Bank Perm header vector. The retry repairs the actual emblem bounds and removes the separate bank-name geometry rather than merely changing serialization. No claim of a rebrand or an accepted baseline is made.",
+        "role": "Complete standalone stacked-ellipse monogram extracted from the official horizontal lockup; no accompanying bank name or slogan.",
+        "sha256": "2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11",
+        "sourceAssetUrl": "https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c",
+        "sourceUrl": "https://bankperm.ru/",
+        "transforms": [
+          "Losslessly selected the first compound path from M8.435 through its terminal closure and the second from M57.975 through the closure before M155.363. The working paths exactly match those source substrings. All accompanying БАНК ПЕРМЬ subpaths are removed, not hidden outside a cropped viewport.",
+          "Measured complete emblem bounds are x approximately 0, y 0.218862, width 66.409, height 38.7453. A 64-by-64 intrinsic canvas uses working viewBox -0.000001 -13.612989 66.409002 66.409002, optimized to 0 -13.613 66.409 66.409. This centers the naturally wide emblem within a square viewport; no nonuniform scale, rotation, redraw, recolor, emblem clipping or hole fill is applied.",
+          "SVGO 4.1.0 with frozen configuration SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 2105 to 2076 bytes. The optimized trial was selected. The supplied independent working/optimized comparison was inspected on both themes and at 24/32/48 px with no visible change; the exact selected final was then inspected in fresh offscreen Compose Desktop frames."
+        ],
+        "variant": "Original #0D47A1 transparent monogram. Both complete source emblem path ranges and their internal negative spaces are retained. A suitable transparent mark stays transparent; no circle or other backing is added.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Pinned baseline absence makes this an absent-to-real-icon first addition, not an improvement over a fabricated blank panel. Relative to the rejected proposal, removal of hidden wordmark paths and the obsolete 78-unit viewport width produces a visibly larger, horizontally centered complete emblem. This is a substantive bounds/presentation correction, not a new hash alone; the old review raised possible scaling risk, not a verified historical distortion."
+      },
+      "candidateIconHash": "2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11",
+      "checkedAt": "2026-10-16T21:04:33.704469Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "e831e80919f24d274723194d5b39c9f3bb0ab4a5598353d9a450dd4fa1241172",
+        "head": "bank-icon-maintenance/technical-20261016-4517",
+        "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
+        "number": 151,
+        "observedAt": "2026-10-16T21:20:10.587951Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+        "url": "https://github.com/zenmoney/banks/pull/151"
+      },
+      "reason": "First icon addition from the current official Bank Perm header SVG. Measured complete emblem bounds replace the rejected 78-unit-wide off-center crop; a square viewport uses the actual 66.409-unit width and uniform aspect-preserving placement. No metadata or country changes.",
+      "reviewPackage": {
+        "path": "evidence/4517/candidate-fe8fd8c25fb523bf977a3c6c5aed5b13ab2fb67644603a36a7373944af736db9.json",
+        "sha256": "fe8fd8c25fb523bf977a3c6c5aed5b13ab2fb67644603a36a7373944af736db9"
+      },
+      "sourceCandidate": {
+        "iconHash": "047eb84637e413541f4030c4f4b437437776ab1e186db352389ae2b9487be4e0",
+        "path": "evidence/4517/research-ac3d3bdf21cb4c51833bacc9a1484b35/fetch-90c4afeaf36640dca138bf65170d0c21/attempt-1/body.bin",
+        "rationale": "First icon addition from the current official Bank Perm header SVG. Measured complete emblem bounds replace the rejected 78-unit-wide off-center crop; a square viewport uses the actual 66.409-unit width and uniform aspect-preserving placement. No metadata or country changes.",
+        "retrieval": {
+          "path": "evidence/4517/research-ac3d3bdf21cb4c51833bacc9a1484b35/fetch-90c4afeaf36640dca138bf65170d0c21/receipt.json",
+          "sha256": "5374c69036b47c207ba19705a3af428af53bbad7c41bcc10a92bc44dc5fbfc8f"
+        },
+        "sourceAssetUrl": "https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c",
+        "sourceUrl": "https://bankperm.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c",
+          "checkedAt": "2026-10-16T21:02:08.593105Z",
+          "independenceGroup": "Bank Perm official site",
+          "kind": "official",
+          "observation": "The metadata domain bankperm.ru serves a live page titled «Бизнесу — Банк Пермь (АО)» and header img alt «Банк Пермь (АО)». The downloaded header vector is applicable to Company.id 4517, RU, not GOLOVA MEDIA partner logos. The freshly fetched live operating bank homepage directly references this exact original header SVG; this is current use, without claiming a dated rebrand.",
+          "url": "https://bankperm.ru/"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/4517/technical-retry-69566b63c7e02736f54bbec55c67f53a7bd80357da98aea16457181e710df858.json",
+        "sha256": "69566b63c7e02736f54bbec55c67f53a7bd80357da98aea16457181e710df858"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11",
+        "context": {
+          "path": "evidence/4517/technical-retry-69566b63c7e02736f54bbec55c67f53a7bd80357da98aea16457181e710df858.json",
+          "sha256": "69566b63c7e02736f54bbec55c67f53a7bd80357da98aea16457181e710df858"
+        },
+        "coverage": [
+          {
+            "basis": "The fresh SVG has equal 64-by-64 intrinsic dimensions and square viewBox 0 -13.613 66.409 66.409 based on the complete emblem bounds, replacing the rejected 78-by-39 viewport with 11.591 surplus horizontal units. The separate name paths are actually removed rather than merely hidden. Generated XML likewise has square 66.409-by-66.409 viewport and only the two complete emblem paths; source/final images show no missing emblem contours or stretching.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "Actual committed rejected and exact fresh final Desktop frames were read on both themes. Near-solid-color raster bounds change from 137-by-80 pixels centered at (107.5,121) to 162-by-94 centered at (120,120), within the same 162-pixel icon canvas. The wide original proportions, full oval holes and all layered ends survive. Actual 24/32/48-pixel resized Desktop diagnostics show a useful complete mark, not arbitrary extra empty space or clipped geometry.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "The observed repair is a geometry-centered square file with emblem-only source paths and visibly corrected size/placement, not a claim that the old render was proven distorted. Full original source, source/final theme pairs, exact final SVG/XML, rejected/fresh theme pairs and bound small-size diagnostics were inspected separately. The new SVG/XML bindings differ from the saved rejection, but passing coverage is based on the substantive bounds correction and actual images, not on changed hashes.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "b0234bc3bafa4df1cde1ff352e45d3a6bb4ca1fcafbc148b41e78cd901804b61"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:17:14.497181Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11",
+        "xmlSha256": "b0234bc3bafa4df1cde1ff352e45d3a6bb4ca1fcafbc148b41e78cd901804b61"
       }
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-03T18:17:17.180834Z",
+  "lastAttemptAt": "2026-10-16T21:04:35.439404Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -295,6 +295,141 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "7e0fc1fe5b3b59a6ea20a4e5cc9b28b6045d8cf61d2c0c9df1acd9d6bf31f591",
         "xmlSha256": "beacdd838f1891673b5f3164c047769f51c8b7a5fb576598bf9de320b60e6e79"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/15606/assessed-8c455e7d76faea24633ac322930f8de11a518a2dd4de8bdbc3c75c41a00b0c85.json",
+        "sha256": "8c455e7d76faea24633ac322930f8de11a518a2dd4de8bdbc3c75c41a00b0c85"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The live Czech homepage currently serves the same solid-color Gable Cross family; the downloaded official brand-portal vector supplies original standalone geometry. No assertion that the data-name Logo 2016 proves a transition date or that the baseline was obsolete in a particular year.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Fresh rb.cz homepage redirects to www.rb.cz, title «Je normální chtít víc | Raiffeisenbank», and its Raiffeisenbank-labelled header inline SVG shows the solid Gable Cross on #FEE600 with #2B2D33 foreground. The standalone original vector is freshly served by the official RBI brand portal. Country-specific Czech usage, not portal hostname alone, establishes applicability to Company.id 15606 CZ.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official source origin and live record-specific usage establish these findings; same-bank/group first-party pages count as one publication family, not invented independent corroboration.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Original portal standalone Gable Cross: #2B2D33 complete cross on separable uniform #FEE600 field. Source square canvas is not treated as a meaningful branded contour. Standard same-color circular catalog backing preserves the emblem and alpha outside the circle.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6f69fffba05d31d284e3d36597bbb527de1f994c09e3ec4a67140149bc030ff5.json",
+        "sha256": "6f69fffba05d31d284e3d36597bbb527de1f994c09e3ec4a67140149bc030ff5"
+      },
+      "baseIconHash": "05c49c92166d232efbdd669d17c87853534a5d44c5ae755ffa15c7f35a288959",
+      "candidate": {
+        "detailsJudgement": "Read the full original square source raster and both source/final pairs. Both roof/animal-head ends, chimney notches, crossed lower arms and all source cut-ins remain complete with the same two colors. The square-to-circle adaptation removes only background corners; no emblem detail reaches or is cut by the new circumference. Generated XML has the same-color circular backing and one complete solid cross path. Internal field-colored negative spaces remain as in the source; no alpha hole is painted to repair a mask.",
+        "faithful": true,
+        "iconHash": "5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121",
+        "path": "evidence/15606/candidate-5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121.svg",
+        "proportionsJudgement": "The cross retains its original source-field-relative width of approximately 62.6225%, with clear radial room and useful optical weight. The rejected vector placed the complete-bounds center at (23.107315,27.4095704) in a 54-unit circle centered at (27,27), approximately 11.68 Desktop pixels left and 1.23 pixels low. Its cross width was only 49.8197% of the field. Actual rejected/fresh frames visibly confirm a larger cross moved into the center: near-solid-color raster bounds center changes from (108.5,121) to (120,120) on both themes, and width from 79 to 100 pixels. This approximately 25.7% scale increase is restoration of source weight, not stretching. Actual 24/32/48-pixel resized diagnostics remain recognizable with complete lower arms, separated roof ends and strong foreground/field contrast.",
+        "rationale": "Supported replacement for Company.id 15606 using the complete current solid Gable Cross original vector, with actual source-relative weight and centering. The retry removes the rejected proposal's materially left-offset, undersized placement. The final circle is a catalog adaptation of a separable plain field, not evidence of a rebrand, an official circular asset or a newly repaired background shape.",
+        "role": "Standalone Gable Cross symbol. The original favicon is a genuine full-color brand emblem, corroborated by the current Czech bank header; it is not a Safari mask or interface control.",
+        "sha256": "5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121",
+        "sourceAssetUrl": "https://brand.rbinternational.com/favicon.svg",
+        "sourceUrl": "https://www.rb.cz/",
+        "transforms": [
+          "Replaced only the original 400-by-400 uniform #FEE600 canvas-filling background path with a radius-200 circle centered at (200,200). The foreground is separate and is not clipped by a mask.",
+          "Retained original 1:1 emblem geometry and source-field-relative scale. Measured complete source bounds are (74.73,82.762), width 250.49, height 234.468, centered at (199.975,199.996); translated the entire emblem by (0.025,0.004), without changing relative parts, colors or negative spaces. This tiny translation alone is incidental, approximately (0.0101,0.0016) Desktop pixels; the substantive repair is removal of the old translate(1.63 5.93) scale(0.1074) placement in a 54-unit field.",
+          "SVGO 4.1.0 with frozen configuration SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 504 to 482 bytes. Selected the optimized trial after the supplied independent working/optimized both-theme and 24/32/48-pixel comparison showed no visible change. The exact selected final and generated XML were separately inspected with fresh offscreen Compose Desktop frames."
+        ],
+        "variant": "Complete original #2B2D33 Gable Cross on #FEE600. The source has a separable uniform square background; a same-color circular catalog backing replaces only that field, with transparency outside. No official circular-avatar observation is claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Exact accepted-base/final theme pairs show the pale-yellow field and small black-framed cross replaced by the source-supported unframed solid cross on vivid #FEE600 at useful source-relative weight. Baseline provenance and any transition date were not established; this is supported replacement, not a dated rebrand or proof the accepted design is obsolete. Relative to the rejected proposal, both backing shapes are already circles, so the circle is not the repair. The meaningful correction is the visibly right-shifted, slightly raised and larger complete cross; the 0.025/0.004 source-unit translation and new hashes alone would not establish it."
+      },
+      "candidateIconHash": "5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121",
+      "checkedAt": "2026-10-16T21:04:35.439404Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "1de32ffbd82b7643b27ed912d54a1303e226f961a369a5670202ef083e92baf1",
+        "head": "bank-icon-maintenance/technical-20261016-15606",
+        "headCommit": "260b8d12646ec5536ca617012a0027bb8f4ea403",
+        "number": 152,
+        "observedAt": "2026-10-16T21:21:07.968769Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+        "url": "https://github.com/zenmoney/banks/pull/152"
+      },
+      "reason": "Supported original solid Gable Cross replacement with measured centering. The source 400×400 yellow field becomes a same-color standard catalog circle; the complete original cross remains at source scale, translated by only (0.025,0.004) to center its actual bounds. No arbitrary shrinking. This is a technical centering/presentation repair, not a proven dated rebrand.",
+      "reviewPackage": {
+        "path": "evidence/15606/candidate-ef158b74299b6ba39f845b4bcf7a4cc6813aee605dfb86547a61e3b4fb47c2b2.json",
+        "sha256": "ef158b74299b6ba39f845b4bcf7a4cc6813aee605dfb86547a61e3b4fb47c2b2"
+      },
+      "sourceCandidate": {
+        "iconHash": "3e923ee4de8646dde7c6e5fa7747cd101ee98d3862680b1d06961d80f11976ac",
+        "path": "evidence/15606/research-7bb5261371fd41aeb938c2f6da6887e9/fetch-dd98f4f21c694f21aea5a814a8115b10/attempt-1/body.bin",
+        "rationale": "Supported original solid Gable Cross replacement with measured centering. The source 400×400 yellow field becomes a same-color standard catalog circle; the complete original cross remains at source scale, translated by only (0.025,0.004) to center its actual bounds. No arbitrary shrinking. This is a technical centering/presentation repair, not a proven dated rebrand.",
+        "retrieval": {
+          "path": "evidence/15606/research-7bb5261371fd41aeb938c2f6da6887e9/fetch-dd98f4f21c694f21aea5a814a8115b10/receipt.json",
+          "sha256": "c1861722c4f3582109e2824ee7b1146c35e2b1658490e43a27c7bc18744fa8f1"
+        },
+        "sourceAssetUrl": "https://brand.rbinternational.com/favicon.svg",
+        "sourceUrl": "https://www.rb.cz/"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-16T21:02:08.593105Z",
+          "independenceGroup": "Raiffeisen first-party regional/group publications",
+          "kind": "official",
+          "observation": "Fresh rb.cz homepage redirects to www.rb.cz, title «Je normální chtít víc | Raiffeisenbank», and its Raiffeisenbank-labelled header inline SVG shows the solid Gable Cross on #FEE600 with #2B2D33 foreground. The standalone original vector is freshly served by the official RBI brand portal. Country-specific Czech usage, not portal hostname alone, establishes applicability to Company.id 15606 CZ. The live Czech homepage currently serves the same solid-color Gable Cross family; the downloaded official brand-portal vector supplies original standalone geometry. No assertion that the data-name Logo 2016 proves a transition date or that the baseline was obsolete in a particular year.",
+          "url": "https://www.rb.cz/"
+        },
+        {
+          "assetUrl": "https://brand.rbinternational.com/favicon.svg",
+          "checkedAt": "2026-10-16T21:02:08.593105Z",
+          "independenceGroup": "Raiffeisen first-party regional/group publications",
+          "kind": "official",
+          "observation": "Fresh original SVG, data-name Logo 2016, 400×400 source viewBox, exact #FEE600 and #2B2D33. Full source raster read; complete original path supplies final geometry. Inline extraction of Czech homepage was blocked by source-material due external SVG style context; no bypassed candidate extraction or false material manifest.",
+          "url": "https://brand.rbinternational.com/favicon.svg"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/15606/technical-retry-32a6f1534713aed35be4765d382bfdb1b5024911ce660d26c7a69f9b3eda5fbb.json",
+        "sha256": "32a6f1534713aed35be4765d382bfdb1b5024911ce660d26c7a69f9b3eda5fbb"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121",
+        "context": {
+          "path": "evidence/15606/technical-retry-32a6f1534713aed35be4765d382bfdb1b5024911ce660d26c7a69f9b3eda5fbb.json",
+          "sha256": "32a6f1534713aed35be4765d382bfdb1b5024911ce660d26c7a69f9b3eda5fbb"
+        },
+        "coverage": [
+          {
+            "basis": "Read the real rejected and exact fresh final light/dark frames: rejected cross is visibly left-offset; fresh full cross is centered on its backing. The rejected transform maps measured complete-source bounds center to (23.107315,27.4095704) in a 54-unit circle centered at (27,27), approximately 11.68 Desktop pixels left and 1.23 low. Fresh bounds center is (200,200) in the 400-unit field. Near-solid-color raster bounds independently change from center (108.5,121) to (120,120) in the 240-pixel frame on both themes.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "The substantive repair is replacement of the rejected translate(1.63 5.93) scale(0.1074) placement with source-relative geometry, restoring cross width from 49.8197% to 62.6225% of the field and removing its approximately 11.7-pixel left offset. The new 0.025/0.004 source-unit adjustment alone is only approximately 0.0101/0.0016 Desktop pixels and is explicitly not counted as the repair. Source/final and rejected/fresh images show complete, undistorted and usefully weighted centered geometry.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "Actual original source, final SVG/XML, exact Desktop both-theme source/base/final images, committed rejected comparisons and bound 24/32/48-pixel diagnostics were read. Their visible centering/weight correction supports the reviewer's off-center requirement independently of earlier centered-placement prose or changed hashes. Both rejected and fresh backings are circles; source square-to-circle is separately justified by the separable uniform-field policy and complete-emblem fit, not misrepresented as the centering repair. No unresolved applicability, fidelity or small-size defect was observed.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "aac23c8ec896d60bef232f277a428a7442df4a58e9144e34b5b3340cafc8505c"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:17:19.885589Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121",
+        "xmlSha256": "aac23c8ec896d60bef232f277a428a7442df4a58e9144e34b5b3340cafc8505c"
       }
     }
   ],
