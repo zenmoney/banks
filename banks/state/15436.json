@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T09:54:53.408074Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T09:56:33.361244Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "ff71d3a83ccb8e4e9c08d5b30afbd04751484d2e",
+      "acceptedIconHash": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d",
       "agentAssessment": {
         "path": "evidence/15436/assessed-ac9ba4f589951dcf278442dd665d53c8ca71153746634000f796261e9ab32e42.json",
         "sha256": "ac9ba4f589951dcf278442dd665d53c8ca71153746634000f796261e9ab32e42"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15436",
         "headCommit": "ff71d3a83ccb8e4e9c08d5b30afbd04751484d2e",
         "number": 51,
-        "observedAt": "2026-10-03T10:04:10.865254Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:29:58.896060Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк Дабрабыт (Company.id 15436)",
         "url": "https://github.com/zenmoney/banks/pull/51"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0f393408585fedb450d8ea4f5c6bd9e8209db204655d6a03e73a4b676d2bdb17",
+          "head": "bank-icon-maintenance/15436",
+          "headCommit": "ff71d3a83ccb8e4e9c08d5b30afbd04751484d2e",
+          "number": 51,
+          "observedAt": "2026-10-03T10:04:10.865254Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк Дабрабыт (Company.id 15436)",
+          "url": "https://github.com/zenmoney/banks/pull/51"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0f393408585fedb450d8ea4f5c6bd9e8209db204655d6a03e73a4b676d2bdb17",
+        "closedAt": "2026-10-15T14:32:50Z",
+        "head": "bank-icon-maintenance/15436",
+        "headCommit": "ff71d3a83ccb8e4e9c08d5b30afbd04751484d2e",
+        "mergeCommit": "bc957176ebad34921e787626f8910b5205304b7c",
+        "mergedAt": "2026-10-15T14:32:50Z",
+        "number": 51,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк Дабрабыт (Company.id 15436)",
+        "url": "https://github.com/zenmoney/banks/pull/51"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:29:58.896060Z",
+        "proof": {
+          "accepted": {
+            "commit": "bc957176ebad34921e787626f8910b5205304b7c",
+            "iconHash": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d",
+            "metadataHash": "68144577d37d1dec0a935e14955b713fc56347f2d7e76a0d58c5963f4fb895d7"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d",
+            "metadataHash": "68144577d37d1dec0a935e14955b713fc56347f2d7e76a0d58c5963f4fb895d7"
+          },
+          "path": "banks/Банк Дабрабыт_15436-by/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "ff71d3a83ccb8e4e9c08d5b30afbd04751484d2e",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0f393408585fedb450d8ea4f5c6bd9e8209db204655d6a03e73a4b676d2bdb17",
+          "closedAt": "2026-10-15T14:32:50Z",
+          "head": "bank-icon-maintenance/15436",
+          "headCommit": "ff71d3a83ccb8e4e9c08d5b30afbd04751484d2e",
+          "mergeCommit": "bc957176ebad34921e787626f8910b5205304b7c",
+          "mergedAt": "2026-10-15T14:32:50Z",
+          "number": 51,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк Дабрабыт (Company.id 15436)",
+          "url": "https://github.com/zenmoney/banks/pull/51"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The accepted icon depicts the current Дабрабыт mark with off-brand colors: baseline #ED1C24/#B2212E/#D21924 versus the official 2021-rebrand palette #ee3338/#d23238/#b4363f found in the bank's own logo SVG (retrieved via the Internet Archive from bankdabrabyt.by; direct fetch is geo-blocked). The official original vector's standalone mark (red pinwheel D with white star, no lettering) is square-cell suitable and matches the bank's current official Telegram avatar (observed through 2026-09), confirming currency of the same variant. Extracting the mark corrects the palette while preserving the emblem geometry.",
       "reviewPackage": {
@@ -108,7 +178,7 @@
           "url": "https://dab.by/en/works/bank-identity-system-dabrabyt/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T09:56:33.361244Z",
         "compose": "1.12.0",
@@ -118,5 +188,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "754cf407fd46a9ebef9ed5d5d075212dcab360ededfd304b54c1729d2c754a0d"
 }

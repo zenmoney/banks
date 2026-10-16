@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T09:38:45.581806Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T09:41:13.187541Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1b3800f065f6e843432b24fabb3ea6d8840f4131",
+      "acceptedIconHash": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77",
       "agentAssessment": {
         "path": "evidence/15435/assessed-02d618c08d660cf587953dc4ed459e135c9b7eb3cc3fb9bfb6e236e59a941fa0.json",
         "sha256": "02d618c08d660cf587953dc4ed459e135c9b7eb3cc3fb9bfb6e236e59a941fa0"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/15435",
         "headCommit": "1b3800f065f6e843432b24fabb3ea6d8840f4131",
         "number": 49,
-        "observedAt": "2026-10-03T09:47:48.194420Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:29:55.581837Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: БНБ-Банк (Company.id 15435)",
         "url": "https://github.com/zenmoney/banks/pull/49"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3df6717b38b25d90bf4f2addc6df746bdb279175ae07c73209e2cca8d2a35ce9",
+          "head": "bank-icon-maintenance/15435",
+          "headCommit": "1b3800f065f6e843432b24fabb3ea6d8840f4131",
+          "number": 49,
+          "observedAt": "2026-10-03T09:47:48.194420Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: БНБ-Банк (Company.id 15435)",
+          "url": "https://github.com/zenmoney/banks/pull/49"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3df6717b38b25d90bf4f2addc6df746bdb279175ae07c73209e2cca8d2a35ce9",
+        "closedAt": "2026-10-15T14:32:33Z",
+        "head": "bank-icon-maintenance/15435",
+        "headCommit": "1b3800f065f6e843432b24fabb3ea6d8840f4131",
+        "mergeCommit": "ddf06e67297c50451af593f865acf2f5b451ef77",
+        "mergedAt": "2026-10-15T14:32:33Z",
+        "number": 49,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: БНБ-Банк (Company.id 15435)",
+        "url": "https://github.com/zenmoney/banks/pull/49"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:29:55.581837Z",
+        "proof": {
+          "accepted": {
+            "commit": "ddf06e67297c50451af593f865acf2f5b451ef77",
+            "iconHash": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77",
+            "metadataHash": "066a10fd4189f69f783ed7af1cd6ef7f0f57f285c695f9dcc83ab03a61e890cc"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77",
+            "metadataHash": "066a10fd4189f69f783ed7af1cd6ef7f0f57f285c695f9dcc83ab03a61e890cc"
+          },
+          "path": "banks/БНБ-Банк_15435-by/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1b3800f065f6e843432b24fabb3ea6d8840f4131",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3df6717b38b25d90bf4f2addc6df746bdb279175ae07c73209e2cca8d2a35ce9",
+          "closedAt": "2026-10-15T14:32:33Z",
+          "head": "bank-icon-maintenance/15435",
+          "headCommit": "1b3800f065f6e843432b24fabb3ea6d8840f4131",
+          "mergeCommit": "ddf06e67297c50451af593f865acf2f5b451ef77",
+          "mergedAt": "2026-10-15T14:32:33Z",
+          "number": 49,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: БНБ-Банк (Company.id 15435)",
+          "url": "https://github.com/zenmoney/banks/pull/49"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The accepted icon uses off-brand colors: material orange #ff9800 and gray #bebebe frame, while the bank's current official standalone mark (favicon.svg served by bnb.by, fetched 2026-10-03) uses #F96302 orange and #ECEDEE frame with the same lion emblem composition. The official first-party favicon.svg is a genuine original vector (48 authored paths, no embedded raster, served at the root of the bank's own domain), standalone (no lettering), square, and current on the live homepage header/footer/favicon set. A color-faithful replacement is warranted; the emblem geometry matches the accepted design.",
       "reviewPackage": {
@@ -98,7 +168,7 @@
           "url": "https://bnb.by/favicon.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T09:41:13.187541Z",
         "compose": "1.12.0",
@@ -108,5 +178,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "a18de4c35ef6cd9b7288d8dbd0633fb31e295921debf61dcd9a0128ca715ac77"
 }
