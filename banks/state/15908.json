@@ -99,7 +99,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:37:04.579944Z",
+        "observedAt": "2026-10-16T19:56:33.226533Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -117,10 +117,181 @@
           "url": "https://github.com/zenmoney/banks/pull/126"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:37:04.579944Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "65726e8d60a60999d0415e5b61bec3ef3960eb12141b93539a2e79c07742bbaf",
+            "closedAt": "2026-10-16T08:02:59Z",
+            "head": "bank-icon-maintenance/bper-15908",
+            "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 126,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: BPER Banca (Company.id 15908)",
+            "url": "https://github.com/zenmoney/banks/pull/126"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Existing icon.svg is the pre-2023 'BPER Banca' green wordmark with 'banca popolare dell'emilia romagna' lettering. BPER evolved its brand (2023 rebrand, April 2024 logo evolution): current mark is 'BPER' lettering plus two square dots, no 'Banca' line. Original vector of the current logo secured from Wikimedia Commons (uploaded 2024-04-04, credited to BPER Banca S.p.A. from group.bper.it) because all official BPER hosts refused TLS handshake from this network (curl exit 35, geo-block suspected; recorded in sources).",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Сделать лого одинаковым для светлой и темной темы",
+          "createdAt": "2026-10-16T08:02:59Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T08:02:59Z",
+          "url": "https://github.com/zenmoney/banks/pull/126#issuecomment-6210949527"
+        },
+        "explanation": "Сделать лого одинаковым для светлой и темной темы",
+        "mr": {
+          "number": 126,
+          "url": "https://github.com/zenmoney/banks/pull/126"
+        },
+        "rationale": "Repair dark-theme contrast while keeping the logo identical across light and dark themes. Retain the proposed inverse presentation: white BPER: on the corporate green fill, with app-store screenshots as the cited representation. Preserve the conditional additional variant: if the lettering is unreadable at the catalog size, a short sign with two dots may be used, but its background must be examined. This is not permission to invent colors or waive source/theme/render constraints.",
+        "requirements": [
+          {
+            "quote": "Сделать лого одинаковым для светлой и темной темы",
+            "url": "https://github.com/zenmoney/banks/pull/126#issuecomment-6210949527"
+          },
+          {
+            "quote": "@VictoryKod Тёмная тема: надпись сливается с фоном. Предлагаю инверсию: белая надпись BPER: на фирменной зелёной заливке, как на скринах приложения в сторе. Читается в обеих темах. Если не читается в нашем размере, то можно взять короткий знак с двумя точками, но надо фон посмотреть. ",
+            "url": "https://github.com/zenmoney/banks/pull/126#pullrequestreview-5526529560"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:33.226533Z",
+        "id": 15908,
+        "judgement": {
+          "action": "repair",
+          "key": "b8fd33e0470a87132af92f4c0150f81b76e0c3e3746a66324efedbb577a926ea",
+          "rationale": "Repair dark-theme contrast while keeping the logo identical across light and dark themes. Retain the proposed inverse presentation: white BPER: on the corporate green fill, with app-store screenshots as the cited representation. Preserve the conditional additional variant: if the lettering is unreadable at the catalog size, a short sign with two dots may be used, but its background must be examined. This is not permission to invent colors or waive source/theme/render constraints.",
+          "sources": [
+            {
+              "quote": "Сделать лого одинаковым для светлой и темной темы",
+              "url": "https://github.com/zenmoney/banks/pull/126#issuecomment-6210949527"
+            },
+            {
+              "quote": "@VictoryKod Тёмная тема: надпись сливается с фоном. Предлагаю инверсию: белая надпись BPER: на фирменной зелёной заливке, как на скринах приложения в сторе. Читается в обеих темах. Если не читается в нашем размере, то можно взять короткий знак с двумя точками, но надо фон посмотреть. ",
+              "url": "https://github.com/zenmoney/banks/pull/126#pullrequestreview-5526529560"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T15:21:16.058733Z",
+          "candidateIconHash": "58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8",
+          "key": "b8fd33e0470a87132af92f4c0150f81b76e0c3e3746a66324efedbb577a926ea",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## BPER Banca — Company.id 15908\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"IT\",\n  \"fullTitle\": \"Banca Popolare dell'Emilia Romagna\",\n  \"id\": 15908,\n  \"title\": \"BPER Banca\",\n  \"url\": \"bper.it\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T15:28:40.193993Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/e545824c187ab898930354416d154e20c980e744/review-materials/15908/base.svg) — SHA-256 `b29bbba72da79e6d7ff450fbeee319db2fa9ab8c54cd9920dce09769c4f572e7`.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/e545824c187ab898930354416d154e20c980e744/review-materials/15908/source.svg) — SHA-256 `a94c631d3de91cbe831c0bfb1a2b61b6bdca99c385fd4204eca43df696e97797`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/e545824c187ab898930354416d154e20c980e744/review-materials/15908/final.svg) — SHA-256 `58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/e545824c187ab898930354416d154e20c980e744/review-materials/15908/final.xml) — SHA-256 `1ac813b04137acb3afe33770181adb2932317bf0c944e205ee2fb3f4b6d7c231`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/e545824c187ab898930354416d154e20c980e744/review-materials/15908/candidate.diff).\n- Source page: [https://commons.wikimedia.org/wiki/File:BPER\\_Banca\\_Logo.svg](https://commons.wikimedia.org/wiki/File:BPER_Banca_Logo.svg).\n- Source asset: [https://commons.wikimedia.org/wiki/Special:FilePath/BPER\\_Banca\\_Logo.svg](https://commons.wikimedia.org/wiki/Special:FilePath/BPER_Banca_Logo.svg).\n\n\n### Source material origin\n\nDownloaded resource: [https://commons.wikimedia.org/wiki/Special:FilePath/BPER\\_Banca\\_Logo.svg](https://commons.wikimedia.org/wiki/Special:FilePath/BPER_Banca_Logo.svg); SHA-256 `a94c631d3de91cbe831c0bfb1a2b61b6bdca99c385fd4204eca43df696e97797`.\nMember selection (URI-encoded identifiers): direct resource.\nReplayed operations: none.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- third-party checked 2026-10-04T15:15:01Z: [https://commons.wikimedia.org/wiki/File:BPER\\_Banca\\_Logo.svg](https://commons.wikimedia.org/wiki/File:BPER_Banca_Logo.svg); asset [https://commons.wikimedia.org/wiki/Special:FilePath/BPER\\_Banca\\_Logo.svg](https://commons.wikimedia.org/wiki/Special:FilePath/BPER_Banca_Logo.svg). Original SVG of the current BPER logo \\(BPER + two square dots\\), 4868 bytes, uploaded 4 Apr 2024, source credited to BPER group site, author BPER Banca S.p.A. Rendered and visually matches the 2024 mark: letters form the mark, no separate slogan text. (independence group: commons-copy-of-official-asset).\n- third-party checked 2026-10-04T15:16:20Z: [https://commons.wikimedia.org/wiki/File:BPER\\_Banca\\_logo\\_\\(2023\\).svg](https://commons.wikimedia.org/wiki/File:BPER_Banca_logo_%282023%29.svg). 2023 interim stacked 'BPER Banca' SVG inspected and rejected as superseded by the 2024 evolution. (independence group: commons-copy-of-official-asset).\n- official checked 2026-10-04T15:14:30Z: [https://www.bper.it](https://www.bper.it). TLS handshake refused from this network \\(curl exit 35, SSL\\_ERROR\\_SYSCALL; also bpergroup.it, group.bper.it\\). No official asset reachable directly; retrieval failure recorded, not treated as absence. (independence group: official-site-attempt).\n- Independent evidence: Commons copy is a verbatim redistribution of the official asset \\(author/source fields name BPER\\); group history page corroborates the rebrand timeline independently of the file host..\n- Identity: confirmed — Candidate is the BPER Banca wordmark \\(letters forming the mark\\) per Commons file credited to BPER Banca S.p.A.; matches record 15908 BPER Banca / Banca Popolare dell'Emilia Romagna, IT..\n- Currency: confirmed — 2024 logo evolution documented on BPER group history pages reached via research; Commons file dated 2024-04-04 sourced from group.bper.it. Existing icon is the superseded pre-2023 full-name wordmark..\n- Variant: confirmed — Standalone lettermark variant, no accompanying name/slogan text; square-cell suitable with whole-emblem fit..\n- Uncertainty: Official BPER hosts refused TLS from this network, so the exact official asset URL could not be observed directly; Commons provenance fields are the source of the official-asset attribution..\n\nRationale: Evidenced brand evolution: the accepted icon is the 2023 interim 'BPER: / Banca' stacked lockup; the current mark \\(since April 2024\\) is 'BPER' plus the two square dots with the 'Banca' line dropped. Replacement uses the original vector of the current logo \\(Commons copy credited to BPER Banca S.p.A., uploaded 2024-04-04 from group.bper.it\\)..\nRole: Standalone lettermark: the BPER letters and the two square dots form the mark itself; no accompanying name, slogan or explanatory text in the final SVG.; variant: Current 2024 lettermark variant, transparent standalone mark on a 240x240 canvas \\(no backing field; the source has no background field to adapt, so no circle or mask was added\\)..\nVisible difference: Before/after: the accepted icon shows the interim 'BPER:' with the green 'Banca' line below; the candidate is the current 2024 'BPER:' lettermark with the 'Banca' line removed, matching the documented April 2024 brand evolution. A real design update of the same bank, not a serialization or background change..\nDetails: All letterform contours and the two square dots survive exactly \\(same path data\\); color #005157 preserved; internal transparency preserved \\(no backing added\\).. Proportions: Wide lettermark centered with uniform margins; complete emblem fits the square cell including the dots; recognizable at 24/32/48 px diagnostics on both themes, though small like any wide lettermark; no clipping or distortion..\n\nSource-to-final transformations:\n- Dropped the source's non-rendering display:none duplicate group \\(class st0\\) and its CSS/defs; the three visible #005157 paths are byte-identical path data.\n- Whole-emblem placement only: uniform scale 1.221 with translate\\(40 100.95\\) around the source's own translate\\(0 -13.4\\), centering the lettermark on a 240x240 canvas; no rotation, stretch, crop or recolor.\n- SVGO 4.1.0 trial with frozen config \\(sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\): input 1260 B, trial 1454 B; trial visually identical but larger, so the working version was selected \\(final sha256 58ddadefaf32f7b0fb2b981d1088eb61b514221f8f8e0c642cc91381f04476b8\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/e545824c187ab898930354416d154e20c980e744/review-materials/15908/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/e545824c187ab898930354416d154e20c980e744/review-materials/15908/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T15:27:56.988507033Z`. Source/final: Source raster \\(240px canvas, preserved aspect\\) and final renders compared on both themes: identical letterform geometry, identical #005157 fill, dot positions unchanged; final is the whole source emblem uniformly scaled and centered. No lost details, no invented colors, no raster tracing.; base/final and rendering: Base/final offscreen CPU Skia pairs inspected on #FFFFFF and #121212. Base: interim 'BPER:' plus green 'Banca' subline. Final: current 'BPER:' lettermark only. Difference is the evidenced 2024 design change; final is crisp, complete and legible on both themes at target sizes.\n\n- android-compose: not-tested (available: false) — No Android emulator/AVD tooling verified available in this run; conversion and Desktop render passed. Risk: platform-specific scaling behavior unverified..\n- android-native: not-tested (available: false) — Android SDK/emulator availability not verified in this environment..\n- ios-compose: not-tested (available: false) — iOS toolchain unavailable in this environment..\n- ios-native: not-tested (available: false) — iOS toolchain unavailable in this environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGkJFMQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/126",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Сделать лого одинаковым для светлой и темной темы",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcjORlw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/126#issuecomment-6210949527",
+              "userType": "User"
+            },
+            {
+              "author": "pereperchili",
+              "body": "@VictoryKod Тёмная тема: надпись сливается с фоном. Предлагаю инверсию: белая надпись BPER: на фирменной зелёной заливке, как на скринах приложения в сторе. Читается в обеих темах. Если не читается в нашем размере, то можно взять короткий знак с двумя точками, но надо фон посмотреть. ",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSWgmGA",
+              "reviewState": "CHANGES_REQUESTED",
+              "url": "https://github.com/zenmoney/banks/pull/126#pullrequestreview-5526529560",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "65726e8d60a60999d0415e5b61bec3ef3960eb12141b93539a2e79c07742bbaf",
+            "closedAt": "2026-10-16T08:02:59Z",
+            "head": "bank-icon-maintenance/bper-15908",
+            "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 126,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: BPER Banca (Company.id 15908)",
+            "url": "https://github.com/zenmoney/banks/pull/126"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Сделать лого одинаковым для светлой и темной темы",
+            "bodySha256": "383935ffa076e0410db23c68110c284157d9072795e91a46b9fdcde6493bc3b0",
+            "createdAt": "2026-10-16T08:02:59Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcjORlw",
+            "text": "Сделать лого одинаковым для светлой и темной темы",
+            "textSha256": "383935ffa076e0410db23c68110c284157d9072795e91a46b9fdcde6493bc3b0",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/126#issuecomment-6210949527"
+          },
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "@VictoryKod Тёмная тема: надпись сливается с фоном. Предлагаю инверсию: белая надпись BPER: на фирменной зелёной заливке, как на скринах приложения в сторе. Читается в обеих темах. Если не читается в нашем размере, то можно взять короткий знак с двумя точками, но надо фон посмотреть. ",
+            "bodySha256": "561beb566b34494a1f80fc0b52c8ef6b4d66ebbc1b3f4251b47a22b91cfa1d44",
+            "createdAt": "2026-10-15T00:38:58Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSWgmGA",
+            "text": "@VictoryKod Тёмная тема: надпись сливается с фоном. Предлагаю инверсию: белая надпись BPER: на фирменной зелёной заливке, как на скринах приложения в сторе. Читается в обеих темах. Если не читается в нашем размере, то можно взять короткий знак с двумя точками, но надо фон посмотреть.",
+            "textSha256": "98698ccc3571721c6131fd9968396c1335ad76471d03867d67d8d5165cd77d8c",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/126#pullrequestreview-5526529560"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15908/candidate-5e54c1e026e4869a8889e2b5c9298480cbe344403e1731591aa18f7a5462bfea.json",
         "sha256": "5e54c1e026e4869a8889e2b5c9298480cbe344403e1731591aa18f7a5462bfea"

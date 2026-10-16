@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:35:24.733271Z",
+        "observedAt": "2026-10-16T19:56:16.523216Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,142 @@
           "url": "https://github.com/zenmoney/banks/pull/113"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:35:24.733271Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "8f63e786623cd75b2495e86aa1d97ea4dd0164ba80077e28d96ab3a826d71d38",
+            "closedAt": "2026-10-14T17:06:58Z",
+            "head": "bank-icon-maintenance/15871",
+            "headCommit": "dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 113,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Porsche Bank (Company.id 15871)",
+            "url": "https://github.com/zenmoney/banks/pull/113"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Official original-vector Porsche Finance Group Romania signet (stylized road/P mark, #103344) self-published in the JSON-LD organization.logo of porschefinance.ro (porschebank.ro redirects there). Standalone Signet group extracted verbatim from the official lockup SVG; visually verified as a standalone mark suitable for a square cell. Identity of the record (Porsche Bank, RO) confirmed against porschefinance.ro 'despre noi' (local subsidiary of Porsche Bank AG); not a Porsche AG crest.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d",
+        "category": "technical",
+        "comment": {
+          "author": "b3er",
+          "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d`\n\n**Reason:** Changing the already small, elongated mark to #103344 reduces its visibility on the dark background, particularly at 24 and 32 px. The October 6 audit confirmed this contrast regression. The statement that it \"remains recognizable\" is not sufficient justification for accepting the degraded presentation.\n\n**Required follow-up for the maintenance agent:** Find a supported original representation suitable for both light and dark backgrounds and verify its small-size visibility, or do not make the replacement. Do not treat the known visibility defect as an acceptable warning attached to a suitable result.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+          "createdAt": "2026-10-14T17:06:57Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-14T17:06:57Z",
+          "url": "https://github.com/zenmoney/banks/pull/113#issuecomment-6173885611"
+        },
+        "explanation": "**Reason:** Changing the already small, elongated mark to #103344 reduces its visibility on the dark background, particularly at 24 and 32 px. The October 6 audit confirmed this contrast regression. The statement that it \"remains recognizable\" is not sufficient justification for accepting the degraded presentation.\n\n**Required follow-up for the maintenance agent:** Find a supported original representation suitable for both light and dark backgrounds and verify its small-size visibility, or do not make the replacement. Do not treat the known visibility defect as an acceptable warning attached to a suitable result.",
+        "mr": {
+          "number": 113,
+          "url": "https://github.com/zenmoney/banks/pull/113"
+        },
+        "rationale": "The explicit technical rejection concerns reduced dark-background visibility of the small elongated #103344 mark, especially at 24 and 32 px. Any fresh replacement must use a supported original representation suitable for both backgrounds and verify small-size visibility; otherwise make no replacement. Recognizability claims or a warning do not resolve the defect. The comment gives the October 6 audit precedence over unsupported cross-review claims and rejects this candidate, not the bank permanently.",
+        "requirements": [
+          {
+            "quote": "**Reason:** Changing the already small, elongated mark to #103344 reduces its visibility on the dark background, particularly at 24 and 32 px. The October 6 audit confirmed this contrast regression. The statement that it \"remains recognizable\" is not sufficient justification for accepting the degraded presentation.\n\n**Required follow-up for the maintenance agent:** Find a supported original representation suitable for both light and dark backgrounds and verify its small-size visibility, or do not make the replacement. Do not treat the known visibility defect as an acceptable warning attached to a suitable result.",
+            "url": "https://github.com/zenmoney/banks/pull/113#issuecomment-6173885611"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:16.523216Z",
+        "id": 15871,
+        "judgement": {
+          "action": "repair",
+          "key": "49f22f496a873dfe90820e4db06e5b17832cd05d3c288e0eb178dfd81d8b9a77",
+          "rationale": "The explicit technical rejection concerns reduced dark-background visibility of the small elongated #103344 mark, especially at 24 and 32 px. Any fresh replacement must use a supported original representation suitable for both backgrounds and verify small-size visibility; otherwise make no replacement. Recognizability claims or a warning do not resolve the defect. The comment gives the October 6 audit precedence over unsupported cross-review claims and rejects this candidate, not the bank permanently.",
+          "sources": [
+            {
+              "quote": "**Reason:** Changing the already small, elongated mark to #103344 reduces its visibility on the dark background, particularly at 24 and 32 px. The October 6 audit confirmed this contrast regression. The statement that it \"remains recognizable\" is not sufficient justification for accepting the degraded presentation.\n\n**Required follow-up for the maintenance agent:** Find a supported original representation suitable for both light and dark backgrounds and verify its small-size visibility, or do not make the replacement. Do not treat the known visibility defect as an acceptable warning attached to a suitable result.",
+              "url": "https://github.com/zenmoney/banks/pull/113#issuecomment-6173885611"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T10:47:30.668360Z",
+          "candidateIconHash": "fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d",
+          "key": "49f22f496a873dfe90820e4db06e5b17832cd05d3c288e0eb178dfd81d8b9a77",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Porsche Bank — Company.id 15871\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RO\",\n  \"fullTitle\": null,\n  \"id\": 15871,\n  \"title\": \"Porsche Bank\",\n  \"url\": \"porschebank.com\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T10:49:41.247676Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/base.svg) — SHA-256 `97988b9b27b33daed8d59d7939fbcd81d4d0ced51f600a7f2e045c29de590f62`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/source.svg) — SHA-256 `ddd179f91df1278b64606f0799357913e7ea20055c07bd792f9823808ed01efa`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/final.svg) — SHA-256 `fff004999c9fd5c35fd349688f8ce47a0a0f4afa6331aa6702facda9212b775d`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/final.xml) — SHA-256 `8787ffa608a845d306fb1727b6a2174781e9942cf2777f2074c20fde670b5fa4`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/candidate.diff).\n- Source page: [https://www.porschefinance.ro/](https://www.porschefinance.ro/).\n- Source asset: [https://www.porschefinance.ro/files/at/Archiv/Porsche-Romania-Logo-RGB.svg](https://www.porschefinance.ro/files/at/Archiv/Porsche-Romania-Logo-RGB.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T10:40:57Z: [https://www.porschefinance.ro/](https://www.porschefinance.ro/); asset [https://www.porschefinance.ro/files/at/Archiv/Porsche-Romania-Logo-RGB.svg](https://www.porschefinance.ro/files/at/Archiv/Porsche-Romania-Logo-RGB.svg). Homepage JSON-LD organization.logo points to Porsche-Romania-Logo-RGB.svg; site self-identifies as Porsche Finance Group Romania \\(Porsche Bank AG local subsidiary\\). Fetched 17782 B, original vector lockup \\(Signet group + wordmark paths\\). (independence group: porschefinance.ro official self-publication).\n- official checked 2026-10-04T10:44:00Z: [https://www.porschefinance.ro/despre-noi/](https://www.porschefinance.ro/despre-noi/). About page states Porsche Finance Group Romania is the Romanian subsidiary of Porsche Bank AG; confirms record identity mapping. Site still uses 'Contact Porsche Bank' wording. (independence group: porschefinance.ro official self-publication).\n- official checked 2026-10-04T10:46:00Z: [https://www.porschebank.com](https://www.porschebank.com). porschebank.com resolves to porschebank.at/international/ \\(Austrian parent group site\\), corroborating that the RO record is the Porsche Bank group brand, not Porsche AG. (independence group: porschebank.at official parent-group site).\n- Independent evidence: Primary official self-publication \\(porschefinance.ro logo asset\\) corroborated by the same site's about page and the parent group site; these are one brand's own publications plus identity context, with no third-party copying involved..\n- Identity: confirmed — Official porschefinance.ro identity chain: porschebank.ro redirect, JSON-LD organization.logo, and about-page statement tying the brand to Porsche Bank AG Romania. Mark is the brand signet, not Porsche AG's crest..\n- Currency: confirmed — Served live on porschefinance.ro on 2026-10-04 as the organization logo; the redirect from porschebank.ro shows the current operating brand presentation of this record..\n- Variant: confirmed — Standalone Signet path group \\(viewBox 56.4 24.8 60.9 29.3, fill #103344\\) extracted verbatim from the official lockup; official favicons are raster and were not used. The signet alone is the brand's standalone mark..\n\nRationale: Current official brand signet from porschefinance.ro \\(porschebank.ro redirects there\\), replacing the accepted brighter-blue variant; supported rebranding/color correction for the same bank identity..\nRole: Standalone brand signet \\(stylized road/P monogram\\), no accompanying wordmark or text.; variant: Current flat #103344 standalone signet as self-published by the brand; transparent standalone mark, no backing added, no circular avatar observation involved..\nVisible difference: Accepted icon uses a brighter blue gradient-toned variant; the current official mark is the flat #103344 signet. Supported brand-currentness correction, not a serialization or cosmetic change..\nDetails: All strokes, gaps and the two road lanes survive extraction and optimization identically on both themes; internal transparency preserved; no invented colors \\(single official fill #103344\\).. Proportions: Complete emblem preserved at ~2:1; uniform placement only, no stretching or clipping; recognizable at 24/32/48 px previews on light, adequate on dark; no backing or mask applied..\n\nSource-to-final transformations:\n- Lossless extraction of the Signet group from the official lockup SVG: paths and fill unchanged, viewBox cropped to group bounds \\(56.4 24.8 60.9 29.3\\); no scale/translation beyond canvas crop.\n- SVGO 4.1.0 with frozen repo config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1345 -\\> 879 bytes, selected \\(smaller, visually identical in rsvg and Compose renders, converter-compatible\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T10:48:49.600197905Z`. Source/final: Full official lockup \\(Porsche-Romania-Logo-RGB.svg, only fill #103344, no gradients\\) versus final: the standalone Signet group is byte-preserved \\(paths unchanged, viewBox cropped to the group\\), SVGO 4.1.0 with repo config f2a406e0 only reserialized it \\(1345 -\\> 879 B, 60e9b928... -\\> fff00499...\\). Independent rsvg source reference and source/final pairs on both themes show identical contours, color and transparency; no detail lost.; base/final and rendering: Update: base is a brighter blue gradient-toned road/P mark; final is the current official flat #103344 signet. Both render cleanly in Compose Desktop on #FFFFFF and #121212; final shape, proportions and alpha match the source; wide ~2:1 mark centers in the square cell at useful size on both themes; dark-theme contrast is reduced but the mark remains recognizable, matching the official brand color rather than an invented recolor.\n\n- android-compose: not-tested (available: false) — No Android emulator or system image is installed in this environment; AVD creation is unavailable in this run. Risk: the Android rendering path is unverified for this candidate..\n- android-native: not-tested (available: false) — No emulator or system image is installed; the platform debugger is present but no runnable device target exists. Risk: native Android display is unverified..\n- ios-compose: not-tested (available: false) — No iOS toolchain exists on this Linux host..\n- ios-native: not-tested (available: false) — No iOS toolchain exists on this Linux host..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGigRUQ",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/113",
+              "userType": "User"
+            },
+            {
+              "author": "b3er",
+              "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d`\n\n**Reason:** Changing the already small, elongated mark to #103344 reduces its visibility on the dark background, particularly at 24 and 32 px. The October 6 audit confirmed this contrast regression. The statement that it \"remains recognizable\" is not sufficient justification for accepting the degraded presentation.\n\n**Required follow-up for the maintenance agent:** Find a supported original representation suitable for both light and dark backgrounds and verify its small-size visibility, or do not make the replacement. Do not treat the known visibility defect as an acceptable warning attached to a suitable result.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABb_4Eqw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/113#issuecomment-6173885611",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "8f63e786623cd75b2495e86aa1d97ea4dd0164ba80077e28d96ab3a826d71d38",
+            "closedAt": "2026-10-14T17:06:58Z",
+            "head": "bank-icon-maintenance/15871",
+            "headCommit": "dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 113,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Porsche Bank (Company.id 15871)",
+            "url": "https://github.com/zenmoney/banks/pull/113"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [
+              "https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/comparison-dark.png?raw=true"
+            ],
+            "author": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "body": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d`\n\n**Reason:** Changing the already small, elongated mark to #103344 reduces its visibility on the dark background, particularly at 24 and 32 px. The October 6 audit confirmed this contrast regression. The statement that it \"remains recognizable\" is not sufficient justification for accepting the degraded presentation.\n\n**Required follow-up for the maintenance agent:** Find a supported original representation suitable for both light and dark backgrounds and verify its small-size visibility, or do not make the replacement. Do not treat the known visibility defect as an acceptable warning attached to a suitable result.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "bodySha256": "351a3c767b113563706f0c5a719a6498f416d306f31b6e9dd899ee103b9f19c5",
+            "createdAt": "2026-10-14T17:06:57Z",
+            "editor": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABb_4Eqw",
+            "text": "Closing without merging following review.\n\n**Rejection category:** `technical`\n**Reviewed head:** `dc65a166a8ea5dae5bf2e7b5653305c16cf2b26d`\n\n**Reason:** Changing the already small, elongated mark to #103344 reduces its visibility on the dark background, particularly at 24 and 32 px. The October 6 audit confirmed this contrast regression. The statement that it \"remains recognizable\" is not sufficient justification for accepting the degraded presentation.\n\n**Required follow-up for the maintenance agent:** Find a supported original representation suitable for both light and dark backgrounds and verify its small-size visibility, or do not make the replacement. Do not treat the known visibility defect as an acceptable warning attached to a suitable result.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://github.com/zenmoney/banks/blob/ce215954e66125d9fb0d70872a326dac2666889f/review-materials/15871/comparison-dark.png?raw=true)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "textSha256": "351a3c767b113563706f0c5a719a6498f416d306f31b6e9dd899ee103b9f19c5",
+            "trust": {
+              "login": "b3er",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/113#issuecomment-6173885611"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15871/candidate-b7ec6352064d3def3b94d180d941fc8273690c8431b9b9239d1ba3357a75f384.json",
         "sha256": "b7ec6352064d3def3b94d180d941fc8273690c8431b9b9239d1ba3357a75f384"

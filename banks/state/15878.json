@@ -97,7 +97,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:36:45.194332Z",
+        "observedAt": "2026-10-16T19:56:25.404731Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -115,10 +115,149 @@
           "url": "https://github.com/zenmoney/banks/pull/118"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:36:45.194332Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "77f2c57d06d62417105db5d56053d7f40f988bfc2052245c2ce30aebf401e503",
+            "closedAt": "2026-10-16T08:26:47Z",
+            "head": "bank-icon-maintenance/cgd-15878",
+            "headCommit": "f0e429bdfa828ab279fa08c71d75220b242054c9",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 118,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Caixa Geral De Depositos (Company.id 15878)",
+            "url": "https://github.com/zenmoney/banks/pull/118"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Accepted SVG drops most of the green brush stroke of the current CGD 'Caixa' mark (offscreen render shows only a tiny green sliver beside the red stroke, while the original vector renders full green+red strokes), a visible render/geometry repair supported by the original vector. Proposal replaces it with the original SVG of the 2017-rebrand mark (blue #0071B9 symbol with green/red brush accents), credited to Caixa Geral de Depósitos.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "verify-applicability",
+        "candidateIconHash": "4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1",
+        "category": "identity/logo",
+        "comment": {
+          "author": "pereperchili",
+          "body": "А всё же не актуальный знак — вспомнила, что не видела этих цветных мазков, проверила: на сайте https://www.cgd.pt/ их нет. \n\n@VictoryKod Сюда нужен знак без цветных полосок, посмотри на сайте актуальный.",
+          "createdAt": "2026-10-15T01:03:07Z",
+          "kind": "review",
+          "updatedAt": "2026-10-15T01:03:07Z",
+          "url": "https://github.com/zenmoney/banks/pull/118#pullrequestreview-5526728199"
+        },
+        "explanation": "А всё же не актуальный знак — вспомнила, что не видела этих цветных мазков, проверила: на сайте https://www.cgd.pt/ их нет. \n\n@VictoryKod Сюда нужен знак без цветных полосок, посмотри на сайте актуальный.",
+        "mr": {
+          "number": 118,
+          "url": "https://github.com/zenmoney/banks/pull/118"
+        },
+        "rationale": "The substantive review explicitly revises the earlier empty approval: the reviewer now says the colored-stroke mark is not current and asks for the current site mark without colored stripes. Preserve the cgd.pt source and the requirement to establish the applicable current variant rather than merely editing away strokes. This is an identity/logo-currentness assertion, not verified bank metadata; the empty approval adds no conflicting substantive requirement.",
+        "requirements": [
+          {
+            "quote": "А всё же не актуальный знак — вспомнила, что не видела этих цветных мазков, проверила: на сайте https://www.cgd.pt/ их нет. \n\n@VictoryKod Сюда нужен знак без цветных полосок, посмотри на сайте актуальный.",
+            "url": "https://github.com/zenmoney/banks/pull/118#pullrequestreview-5526728199"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:25.404731Z",
+        "id": 15878,
+        "judgement": {
+          "action": "verify-applicability",
+          "key": "8324e3f3d08e683924a8c1d5ccb2019694bd83a626ed9086ce976924ad690e1b",
+          "rationale": "The substantive review explicitly revises the earlier empty approval: the reviewer now says the colored-stroke mark is not current and asks for the current site mark without colored stripes. Preserve the cgd.pt source and the requirement to establish the applicable current variant rather than merely editing away strokes. This is an identity/logo-currentness assertion, not verified bank metadata; the empty approval adds no conflicting substantive requirement.",
+          "sources": [
+            {
+              "quote": "А всё же не актуальный знак — вспомнила, что не видела этих цветных мазков, проверила: на сайте https://www.cgd.pt/ их нет. \n\n@VictoryKod Сюда нужен знак без цветных полосок, посмотри на сайте актуальный.",
+              "url": "https://github.com/zenmoney/banks/pull/118#pullrequestreview-5526728199"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T11:43:20.414942Z",
+          "candidateIconHash": "4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1",
+          "key": "8324e3f3d08e683924a8c1d5ccb2019694bd83a626ed9086ce976924ad690e1b",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Caixa Geral De Depositos — Company.id 15878\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"PT\",\n  \"fullTitle\": null,\n  \"id\": 15878,\n  \"title\": \"Caixa Geral De Depositos\",\n  \"url\": \"cgd.pt\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T11:52:16Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/42a6523a3e7e8e9cf41fcde66b1be5632984af8b/review-materials/15878/base.svg) — SHA-256 `00ef67e1b85bdd889347bd4cb2e785377d67f1faad3545d360240b814b045d7c`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/42a6523a3e7e8e9cf41fcde66b1be5632984af8b/review-materials/15878/source.svg) — SHA-256 `f0e6e0f46225429f8f13cfd1e770d9200722636d2febc8456de8db5b69ff3efd`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/42a6523a3e7e8e9cf41fcde66b1be5632984af8b/review-materials/15878/final.svg) — SHA-256 `4ca5e42ba5629705c1cbd726687ffbceb1cc793b8105d78196901b6de43b5ee1`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/42a6523a3e7e8e9cf41fcde66b1be5632984af8b/review-materials/15878/final.xml) — SHA-256 `f9cb744649c62fd4de38a451f5150cb92db42acde1b6a03187bca0a38fb506c4`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/42a6523a3e7e8e9cf41fcde66b1be5632984af8b/review-materials/15878/candidate.diff).\n- Source page: [https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo\\_of\\_Caixa\\_Geral\\_de\\_Dep%C3%B3sitos.svg](https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg).\n- Source asset: [https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo\\_of\\_Caixa\\_Geral\\_de\\_Dep%C3%B3sitos.svg](https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg).\n\n### Evidence and judgment\n\n- third-party checked 2026-10-04T11:38:27Z: [https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo\\_of\\_Caixa\\_Geral\\_de\\_Dep%C3%B3sitos.svg](https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg); asset [https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo\\_of\\_Caixa\\_Geral\\_de\\_Dep%C3%B3sitos.svg](https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_of_Caixa_Geral_de_Dep%C3%B3sitos.svg). Wikimedia Commons file https://commons.wikimedia.org/wiki/File:Logo\\_of\\_Caixa\\_Geral\\_de\\_Dep%C3%B3sitos.svg \\(receipt fetch-da9833993e7445d09ee6bc140e279995\\) dates the file to 2017 and credits Caixa Geral de Depósitos. Original SVG \\(54556 bytes, 5 paths, viewBox 1.5 27.2 163.25 130.6\\). Rendered independently with rsvg-convert: complete 'Caixa' symbol in CGD blue #0071B9 with full green and red brush strokes. Retrieved via workflow.py fetch receipt fetch-06aba7a0667d4813a237ce44a86b1825. (independence group: Wikimedia Commons \\(CGD-attributed vector\\)).\n- official checked 2026-10-04T11:37:15Z: [https://www.cgd.pt/Sala-de-Imprensa/](https://www.cgd.pt/Sala-de-Imprensa/). CGD 2017 press announcement of the new 'Caixa' brand concept \\(search-result evidence\\); cgd.pt direct fetches returned HTTP 403 on all attempts \\(receipts fetch-\\* recorded\\), so official bytes could not be retrieved. (independence group: cgd.pt primary publication).\n- Independent evidence: Commons vector credited to CGD \\(one attribution chain\\), CGD press-office rebrand announcement \\(official\\), and direct offscreen/raster comparison of the accepted SVG; not copies of one source..\n- Identity: confirmed — The vector is the CGD 'Caixa' symbol \\(hexagonal interlocking mark with green/red Portuguese-flag brush accents\\); file attributed to Caixa Geral de Depósitos and matches the design depicted \\(defectively\\) by the accepted SVG..\n- Currency: confirmed — 2017 rebrand announced by CGD press office and documented by dated independent sources; no later redesign observed as of 2026-10-04. Live cgd.pt verification blocked by 403 \\(technical, disclosed\\)..\n- Variant: confirmed — Standalone symbol without wordmark in official colors; same variant as the accepted baseline but with complete brush strokes and original geometry..\n\nRationale: Repairs the accepted icon's lost green brush stroke and restores the original geometry of the current CGD 'Caixa' mark from the original 2017-rebrand vector credited to CGD..\nRole: standalone bank symbol without wordmark on transparent background; variant: current 2017-rebrand 'Caixa' emblem, official blue #0071B9 with green/red gradient brush strokes.\nVisible difference: Base/final offscreen pairs show the accepted icon lost nearly all of the green brush stroke \\(only a sliver beside the red stroke\\) and rendered the emblem white on a blue rounded square; the final renders the complete original blue emblem with both green and red strokes on a transparent field..\nDetails: All original details preserved: hexagonal interlocking symbol geometry, blue fill, and both green and red gradient brush strokes including their texture edges; internal transparency unchanged.. Proportions: Emblem proportions match the source exactly \\(uniform scale only\\); it fits the 54 dp cell with margins on both themes and remains recognizable at small sizes..\n\nSource-to-final transformations:\n- Original SVG used as source; CSS class fills inlined as presentation attributes \\(no geometry change\\); source viewBox already crops the 212.6 canvas to the emblem\n- Set width/height proportional to the source viewBox \\(54 x 43.23\\); uniform scale only, no crop or distortion of the emblem\n- SVGO 4.1.0 with frozen svgo.config.mjs \\(sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\): 54010 -\\> 17544 bytes, optimized selected \\(240 px render pixel-identical to working\\)\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/42a6523a3e7e8e9cf41fcde66b1be5632984af8b/review-materials/15878/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/42a6523a3e7e8e9cf41fcde66b1be5632984af8b/review-materials/15878/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T11:50:29.105635324Z`. Final renders are visually identical to the librsvg source reference on both themes: same blue symbol, gradient strokes, proportions and details; no clipping or distortion. The base differs: lost green stroke and inverted presentation.\n\n- android-compose: not-tested (available: false) — No Android emulator or system image is installed in this environment and downloads are outside this run; Android-specific rendering path unverified..\n- android-native: not-tested (available: false) — No Android emulator or system image is installed; adb exists but there is no runnable target; native Android display path unverified..\n- ios-compose: not-tested (available: false) — No Xcode or iOS toolchain exists on this Linux host; iOS rendering path unverified..\n- ios-native: not-tested (available: false) — No Xcode or iOS toolchain exists on this Linux host; native iOS display path unverified..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGi6eBw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/118",
+              "userType": "User"
+            },
+            {
+              "author": "pereperchili",
+              "body": "",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSWobqw",
+              "reviewState": "APPROVED",
+              "url": "https://github.com/zenmoney/banks/pull/118#pullrequestreview-5526657963",
+              "userType": "User"
+            },
+            {
+              "author": "pereperchili",
+              "body": "А всё же не актуальный знак — вспомнила, что не видела этих цветных мазков, проверила: на сайте https://www.cgd.pt/ их нет. \n\n@VictoryKod Сюда нужен знак без цветных полосок, посмотри на сайте актуальный.",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSWsuBw",
+              "reviewState": "CHANGES_REQUESTED",
+              "url": "https://github.com/zenmoney/banks/pull/118#pullrequestreview-5526728199",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "77f2c57d06d62417105db5d56053d7f40f988bfc2052245c2ce30aebf401e503",
+            "closedAt": "2026-10-16T08:26:47Z",
+            "head": "bank-icon-maintenance/cgd-15878",
+            "headCommit": "f0e429bdfa828ab279fa08c71d75220b242054c9",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 118,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Caixa Geral De Depositos (Company.id 15878)",
+            "url": "https://github.com/zenmoney/banks/pull/118"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "А всё же не актуальный знак — вспомнила, что не видела этих цветных мазков, проверила: на сайте https://www.cgd.pt/ их нет. \n\n@VictoryKod Сюда нужен знак без цветных полосок, посмотри на сайте актуальный.",
+            "bodySha256": "a640fc9e7ff8d093a132022bac2034c6672e2d8bf726f5d1c0bb0de9b7181cab",
+            "createdAt": "2026-10-15T01:03:07Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSWsuBw",
+            "text": "А всё же не актуальный знак — вспомнила, что не видела этих цветных мазков, проверила: на сайте https://www.cgd.pt/ их нет. \n\n@VictoryKod Сюда нужен знак без цветных полосок, посмотри на сайте актуальный.",
+            "textSha256": "a640fc9e7ff8d093a132022bac2034c6672e2d8bf726f5d1c0bb0de9b7181cab",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/118#pullrequestreview-5526728199"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15878/candidate-1a30d43932c628bdd789ed3d635df308f5d26d0390287344448e529338a49afd.json",
         "sha256": "1a30d43932c628bdd789ed3d635df308f5d26d0390287344448e529338a49afd"

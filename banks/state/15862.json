@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:35:19.640626Z",
+        "observedAt": "2026-10-16T19:56:11.287825Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,183 @@
           "url": "https://github.com/zenmoney/banks/pull/110"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:35:19.640626Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "7a68769ec7596765e100ead9a5e69e9cd44e4fd8b24388f45e21a13f1138fae3",
+            "closedAt": "2026-10-16T09:59:04Z",
+            "head": "bank-icon-maintenance/15862",
+            "headCommit": "5316f8b9f71d480b891186db4730c32bcae86d03",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 110,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Stripe (Company.id 15862)",
+            "url": "https://github.com/zenmoney/banks/pull/110"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Stripe rebranded: the accepted icon uses the legacy blurple (#6772E5-style) circle with the older wordmark, while Stripe's official newsroom media kit (zip dated 2025-09-12) serves the current wordmark in the new brand purple #533AFD. The fetched member 'asset-wordmark/Stripe wordmark - Blurple.svg' is an original official vector (pure paths, viewBox 0 0 360 150). The official favicon.svg rounded-square variant contains only a bare white parallelogram and is not a recognizable standalone mark, so the official wordmark is the evidenced replacement. This is a documented rebrand of the same bank, not an identity dispute.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "verify-applicability",
+        "candidateIconHash": "6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444",
+        "category": "identity/logo",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Используют новую \r\n<img width=\"741\" height=\"427\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e\" />\r\n ",
+          "createdAt": "2026-10-16T09:59:05Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T09:59:05Z",
+          "url": "https://github.com/zenmoney/banks/pull/110#issuecomment-6212988347"
+        },
+        "explanation": "Используют новую \r\n<img width=\"741\" height=\"427\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e\" />\r\n ",
+        "mr": {
+          "number": 110,
+          "url": "https://github.com/zenmoney/banks/pull/110"
+        },
+        "rationale": "The reviewers dispute the proposed wordmark's suitability as the current choice: Stripe has a new symbol that was missed. Retain both the supplied attachment and the linked post, and the request to supply that symbol. This is a logo-currentness/applicability concern requiring verification, not independently verified brand metadata or approval of a particular replacement.",
+        "requirements": [
+          {
+            "quote": "Используют новую \r\n<img width=\"741\" height=\"427\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e\" />\r\n ",
+            "url": "https://github.com/zenmoney/banks/pull/110#issuecomment-6212988347"
+          },
+          {
+            "quote": "У Stripe есть новый знак https://www.instagram.com/p/DO_2QqzCOIw/\n\n@VictoryKod Отдай ребятам знак для Stripe, плиз, AI пропустил.",
+            "url": "https://github.com/zenmoney/banks/pull/110#pullrequestreview-5526821528"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:11.287825Z",
+        "id": 15862,
+        "judgement": {
+          "action": "verify-applicability",
+          "key": "b22bfdd43bd8b3b4f35c81010c1ba27118c9ab2d21d41f12dcd59f2cc92e29f8",
+          "rationale": "The reviewers dispute the proposed wordmark's suitability as the current choice: Stripe has a new symbol that was missed. Retain both the supplied attachment and the linked post, and the request to supply that symbol. This is a logo-currentness/applicability concern requiring verification, not independently verified brand metadata or approval of a particular replacement.",
+          "sources": [
+            {
+              "quote": "Используют новую \r\n<img width=\"741\" height=\"427\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e\" />\r\n ",
+              "url": "https://github.com/zenmoney/banks/pull/110#issuecomment-6212988347"
+            },
+            {
+              "quote": "У Stripe есть новый знак https://www.instagram.com/p/DO_2QqzCOIw/\n\n@VictoryKod Отдай ребятам знак для Stripe, плиз, AI пропустил.",
+              "url": "https://github.com/zenmoney/banks/pull/110#pullrequestreview-5526821528"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T09:31:06.785103Z",
+          "candidateIconHash": "6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444",
+          "key": "b22bfdd43bd8b3b4f35c81010c1ba27118c9ab2d21d41f12dcd59f2cc92e29f8",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Stripe — Company.id 15862\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": null,\n  \"fullTitle\": null,\n  \"id\": 15862,\n  \"title\": \"Stripe\",\n  \"url\": \"stripe.com\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T09:33:12.531634Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/f05658a50c880713e5202c89f47b81c4b995162b/review-materials/15862/base.svg) — SHA-256 `22a41d6cba169a674518bbfb566c12fb8adbf40444330ddf287c04408a5baf85`.\n- Selected source material SVG: [source.svg](https://github.com/zenmoney/banks/blob/f05658a50c880713e5202c89f47b81c4b995162b/review-materials/15862/source.svg) — SHA-256 `4448c4b4f954285d2b2aeb6d92391c85fdc290e008c2679d2c006d6d72ae1ae9`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/f05658a50c880713e5202c89f47b81c4b995162b/review-materials/15862/final.svg) — SHA-256 `6ad9cf4a08f50f9c6ceb2034534a5034121c29f774911e8dcfc085eafd877444`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/f05658a50c880713e5202c89f47b81c4b995162b/review-materials/15862/final.xml) — SHA-256 `8bbdeba58515eabcdfb9aa897ec6eaff9ed19c4ac0ddc8c791fbb231254fd858`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/f05658a50c880713e5202c89f47b81c4b995162b/review-materials/15862/candidate.diff).\n- Source page: [https://stripe.com/newsroom/information](https://stripe.com/newsroom/information).\n- Source asset: [https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe\\_logo\\_kit.zip](https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip).\n\n\n### Source material origin\n\nDownloaded resource: [https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe\\_logo\\_kit.zip](https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip); SHA-256 `30f4308c21a8f6c3fe603354ce69222fd498afeb80f54fda193fb7291208906f`.\nMember selection (URI-encoded identifiers): member:asset-wordmark%2FStripe%20wordmark%20-%20Blurple.svg.\nReplayed operations: extract-member:zip.\nThe source file is the exact selected material, not the whole container or an adapted SVG.\n\n### Evidence and judgment\n\n- official checked 2026-10-04T09:24:00Z: [https://stripe.com/newsroom/information](https://stripe.com/newsroom/information); asset [https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe\\_logo\\_kit.zip](https://assets.stripeassets.com/fzn2n1nzq965/7q0dJGs6fRS1LRmMpChoAF/87def4edfbb7fd5aef4ab9baf904b2db/Stripe_logo_kit.zip). Official Stripe newsroom media-assets page offers 'Download logo kit' with blurple/slate/white wordmark variants and a Marks Usage Agreement; the zip \\(sha256 30f4308c21a8f6c3fe603354ce69222fd498afeb80f54fda193fb7291208906f\\) contains the blurple wordmark SVG \\(#533AFD\\) with current letterforms. (independence group: stripe-official-newsroom-kit).\n- official checked 2026-10-04T09:24:00Z: [https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg](https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg); asset [https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg](https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg). Official favicon.svg is a #533AFD rounded square whose only foreground element is a white parallelogram; inspected as a rendered image it is not a recognizable standalone Stripe mark, so it was rejected as candidate material. (independence group: stripe-official-newsroom-kit).\n- Independent evidence: Single official source \\(newsroom kit\\); the favicon from the same official asset domain corroborates the #533AFD brand color..\n- Identity: confirmed — The wordmark 'stripe' in the official logo kit is Stripe's own brand asset served from stripeassets.com via the official newsroom page; lowercase stripe letterforms are unmistakable..\n- Currency: confirmed — The kit zip is dated 2025-09-12 and uses the current brand purple #533AFD of Stripe's recent rebrand; it is the media kit the official newsroom page currently offers for download..\n- Variant: confirmed — Blurple wordmark variant selected from the official kit \\(slate/white variants also present\\); wordmark is the variant the accepted icon also presents, and letters forming the mark are allowed for catalog suitability..\n\nRationale: Stripe's official newsroom logo kit \\(2025-09-12\\) serves the current wordmark in the new brand purple #533AFD; the accepted icon uses the legacy blurple circle with the older wordmark letterforms. This is a documented rebrand of the same bank, so the update replaces obsolete branding rather than normalizing bytes..\nRole: Standalone wordmark: lowercase 'stripe' letterforms are the mark itself, without any accompanying slogan or explanatory text.; variant: Blurple \\(#533AFD\\) wordmark variant selected from the official kit; the slate and white variants were not used. The wordmark is presented transparent on the catalog cell, matching the same transparent presentation of the downloaded official SVG..\nVisible difference: Base is a legacy blurple circle containing the older white wordmark; the candidate is the current official wordmark in brand purple #533AFD without the circle backing. The difference is the evidenced Stripe rebrand plus presentation without the circular backing of the old asset..\nDetails: All letter strokes, counters and the t-crossbar survive conversion and optimization; the rsvg source reference and the offscreen final renders show identical shapes with no lost detail or artifacts.. Proportions: The 360x150 wordmark is uniformly scaled into the square cell; at 240x240 the mark spans the icon area with comfortable margins and stays legible at 24/32/48 px diagnostics; no stretching or cropping..\n\nSource-to-final transformations:\n- No geometry transformation was needed: the whole wordmark viewBox 0 0 360 150 is kept unchanged with only whole-emblem uniform scaling/centering by the catalog renderer.\n- SVGO 4.1.0 with the repository frozen svgo.config.mjs \\(config bound to baseCommit\\) reduced the working copy from 2139 to 1459 bytes; the optimized trial was pixel-identical \\(PIL ImageChops difference bbox None\\) and was selected as final.svg.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/f05658a50c880713e5202c89f47b81c4b995162b/review-materials/15862/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/f05658a50c880713e5202c89f47b81c4b995162b/review-materials/15862/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T09:32:08.295129995Z`. Source/final: The selected original vector \\(kit member 'Stripe wordmark - Blurple.svg', material sha256 4448c4b4f954285d2b2aeb6d92391c85fdc290e008c2679d2c006d6d72ae1ae9\\) and the final SVG are visually identical in the source/final pairs on both themes; only source-preserving SVGO serialization changed.; base/final and rendering: Base/final pairs: the old circular legacy-color wordmark icon versus the new #533AFD wordmark; both are legible on #FFFFFF and #121212, and the change is clearly visible as the rebrand. Final frames show complete, undistorted letterforms with no clipping on either theme.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator prerequisites installed in this environment; risk: renderer-specific behavior unverified..\n- android-native: not-tested (available: false) — No Android SDK/emulator prerequisites installed in this environment..\n- ios-compose: not-tested (available: false) — No iOS runtime available on this Linux host..\n- ios-native: not-tested (available: false) — No iOS runtime available on this Linux host..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGiGvDA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/110",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Используют новую \r\n<img width=\"741\" height=\"427\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e\" />\r\n ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABclKtuw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/110#issuecomment-6212988347",
+              "userType": "User"
+            },
+            {
+              "author": "pereperchili",
+              "body": "У Stripe есть новый знак https://www.instagram.com/p/DO_2QqzCOIw/\n\n@VictoryKod Отдай ребятам знак для Stripe, плиз, AI пропустил.",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSWyamA",
+              "reviewState": "CHANGES_REQUESTED",
+              "url": "https://github.com/zenmoney/banks/pull/110#pullrequestreview-5526821528",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "7a68769ec7596765e100ead9a5e69e9cd44e4fd8b24388f45e21a13f1138fae3",
+            "closedAt": "2026-10-16T09:59:04Z",
+            "head": "bank-icon-maintenance/15862",
+            "headCommit": "5316f8b9f71d480b891186db4730c32bcae86d03",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 110,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Stripe (Company.id 15862)",
+            "url": "https://github.com/zenmoney/banks/pull/110"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [
+              "https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e"
+            ],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Используют новую \r\n<img width=\"741\" height=\"427\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e\" />\r\n ",
+            "bodySha256": "ff7c4ea6a0b7996d5a40ec325706d7993885d6719fb0a3b04827108e52a0a0a1",
+            "createdAt": "2026-10-16T09:59:05Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABclKtuw",
+            "text": "Используют новую \r\n<img width=\"741\" height=\"427\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ff97691e-1248-4dc8-aeac-4c3c2934211e\" />",
+            "textSha256": "56ab9cbb9259128e684d4a5e683166f4d9d316f7382a980e318593a70eacd462",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/110#issuecomment-6212988347"
+          },
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "У Stripe есть новый знак https://www.instagram.com/p/DO_2QqzCOIw/\n\n@VictoryKod Отдай ребятам знак для Stripe, плиз, AI пропустил.",
+            "bodySha256": "34e4ebd9b45b22c7efddc4990b071c08e509c45e96c12a20ca83570945f5f781",
+            "createdAt": "2026-10-15T01:15:18Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSWyamA",
+            "text": "У Stripe есть новый знак https://www.instagram.com/p/DO_2QqzCOIw/\n\n@VictoryKod Отдай ребятам знак для Stripe, плиз, AI пропустил.",
+            "textSha256": "34e4ebd9b45b22c7efddc4990b071c08e509c45e96c12a20ca83570945f5f781",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/110#pullrequestreview-5526821528"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15862/candidate-b20479ae0191d5711077f89e909b0ee0d27bb17c99c116810748f723e39c66a8.json",
         "sha256": "b20479ae0191d5711077f89e909b0ee0d27bb17c99c116810748f723e39c66a8"

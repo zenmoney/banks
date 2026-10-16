@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:35:32.275144Z",
+        "observedAt": "2026-10-16T19:56:20.385582Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,181 @@
           "url": "https://github.com/zenmoney/banks/pull/116"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:35:32.275144Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "d917a1b4158c4ccb3ed59831781901578b793ccaf8f82520b2673ae7db04ac95",
+            "closedAt": "2026-10-16T10:02:01Z",
+            "head": "bank-icon-maintenance/15875",
+            "headCommit": "8aac3ae58d79f7208090b7e60c4e736f4c78704d",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 116,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Unicaja Banco (Company.id 15875)",
+            "url": "https://github.com/zenmoney/banks/pull/116"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Official original-vector Unicaja Banco 2022 lockup (Commons copy of the official logo, CC BY-SA 4.0, dated 2022-09-19) with the green abanico/fan mark (#278600) extracted losslessly as the standalone symbol. Supported rebrand: the accepted icon is the pre-2022 plain-green pinwheel (#66CF48); the current brand uses the 2022 fan mark with darker green #278600.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "keep-current",
+        "candidateIconHash": "6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c",
+        "category": "not-now",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "На сайте используют первый вариант, его и оставляем ",
+          "createdAt": "2026-10-16T10:02:01Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T10:02:01Z",
+          "url": "https://github.com/zenmoney/banks/pull/116#issuecomment-6213039815"
+        },
+        "explanation": "На сайте используют первый вариант, его и оставляем ",
+        "mr": {
+          "number": 116,
+          "url": "https://github.com/zenmoney/banks/pull/116"
+        },
+        "rationale": "Both reviewers explicitly retain the accepted icon rather than the proposed replacement. Retain the explanation that the three-segment, brighter-green icon is asserted to reflect the February 2024 identity, while the proposal uses an older sign. Also retain the assertion that the bank is now called Unicaja without Banco; this assessment does not verify or mutate catalog metadata. No second acceptance question is needed.",
+        "requirements": [
+          {
+            "quote": "На сайте используют первый вариант, его и оставляем ",
+            "url": "https://github.com/zenmoney/banks/pull/116#issuecomment-6213039815"
+          },
+          {
+            "quote": "В MR в замене старый знак. В феврале 2024 Unicaja обновила айдентику: веер упростили до трёх сегментов и сделали зелёный ярче. \nБывшая иконка с тремя сегментами актуальна, её оставляем. \n\np.s.: банк теперь называется «Unicaja», без «Banco».",
+            "url": "https://github.com/zenmoney/banks/pull/116#pullrequestreview-5526761194"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:20.385582Z",
+        "id": 15875,
+        "judgement": {
+          "action": "keep-current",
+          "key": "af8e6de159162323cd7e37bb63b4a6eb0d615117236e296f238d8f2a86d8c33b",
+          "rationale": "Both reviewers explicitly retain the accepted icon rather than the proposed replacement. Retain the explanation that the three-segment, brighter-green icon is asserted to reflect the February 2024 identity, while the proposal uses an older sign. Also retain the assertion that the bank is now called Unicaja without Banco; this assessment does not verify or mutate catalog metadata. No second acceptance question is needed.",
+          "sources": [
+            {
+              "quote": "На сайте используют первый вариант, его и оставляем ",
+              "url": "https://github.com/zenmoney/banks/pull/116#issuecomment-6213039815"
+            },
+            {
+              "quote": "В MR в замене старый знак. В феврале 2024 Unicaja обновила айдентику: веер упростили до трёх сегментов и сделали зелёный ярче. \nБывшая иконка с тремя сегментами актуальна, её оставляем. \n\np.s.: банк теперь называется «Unicaja», без «Banco».",
+              "url": "https://github.com/zenmoney/banks/pull/116#pullrequestreview-5526761194"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T11:00:56.353296Z",
+          "candidateIconHash": "6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c",
+          "key": "af8e6de159162323cd7e37bb63b4a6eb0d615117236e296f238d8f2a86d8c33b",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Unicaja Banco — Company.id 15875\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"ES\",\n  \"fullTitle\": null,\n  \"id\": 15875,\n  \"title\": \"Unicaja Banco\",\n  \"url\": \"unicajabanco.es\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T11:05:04.119033Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/07b8fe326c0eed18692244f58ae5abe1b437ba8d/review-materials/15875/base.svg) — SHA-256 `f739df857af5cf24fa47d8d1af073d145933a22c0916bd5734306dd38ee6f018`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/07b8fe326c0eed18692244f58ae5abe1b437ba8d/review-materials/15875/source.svg) — SHA-256 `9a7e22c6c82f0eb29a6b939a4951ec5780535d720c98e50f7911c942db46874b`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/07b8fe326c0eed18692244f58ae5abe1b437ba8d/review-materials/15875/final.svg) — SHA-256 `6c294df776213107c7d90c8ef4a44e152a5ecb7fdbe0627a8fabaec18cab739c`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/07b8fe326c0eed18692244f58ae5abe1b437ba8d/review-materials/15875/final.xml) — SHA-256 `b9366d76e94035ebca8de874eba089ad2dd8816415234edff3f122b2eb711429`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/07b8fe326c0eed18692244f58ae5abe1b437ba8d/review-materials/15875/candidate.diff).\n- Source page: [https://commons.wikimedia.org/wiki/File:Logotipo\\_Unicaja\\_Banco.svg](https://commons.wikimedia.org/wiki/File:Logotipo_Unicaja_Banco.svg).\n- Source asset: [https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo\\_Unicaja\\_Banco.svg](https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo_Unicaja_Banco.svg).\n\n### Evidence and judgment\n\n- third-party checked 2026-10-04T10:57:00Z: [https://commons.wikimedia.org/wiki/File:Logotipo\\_Unicaja\\_Banco.svg](https://commons.wikimedia.org/wiki/File:Logotipo_Unicaja_Banco.svg); asset [https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo\\_Unicaja\\_Banco.svg](https://commons.wikimedia.org/wiki/Special:FilePath/Logotipo_Unicaja_Banco.svg). Commons file 'Logotipo Unicaja Banco' \\(CC BY-SA 4.0, DateTimeOriginal 2022-09-19\\) holds the official 2022 horizontal lockup \\(1240x310\\): green fan mark #278600, dark wordmark #103829, red underline/accent #E1251B. Fetched via Special:FilePath; mark path extracted losslessly. (independence group: Commons copy of the official asset \\(freely licensed\\)).\n- third-party checked 2026-10-04T10:55:00Z: [https://logotyp.us/get/unicaja-banco/](https://logotyp.us/get/unicaja-banco/); asset [https://logotyp.us/file/unicaja-banco.svg](https://logotyp.us/file/unicaja-banco.svg). Third-party aggregator lockup matches the same 2022 design and colors \\(#278600/#E1251B/#103829\\); corroborates variant, not used as the source. (independence group: Independent third-party corroboration).\n- official checked 2026-10-04T10:54:00Z: [https://www.unicajabanco.es/](https://www.unicajabanco.es/). The official unicajabanco.es domain responds live with a redirect to its retail section; the full retail page timed out twice on retrieval, so no direct official asset observation was possible. (independence group: Access-failure observation \\(official site unreachable\\)).\n- Independent evidence: Commons copy of the official asset corroborated by an independent aggregator lockup; both show the same 2022 design; official-site retrieval failed and is disclosed..\n- Identity: confirmed — Commons file is titled and described as the Logotipo Unicaja Banco; lockup text reads 'Unicaja Banco'; matches the record identity \\(ES, unicajabanco.es\\)..\n- Currency: confirmed — 2022 redesign: Commons DateTimeOriginal 2022-09-19; logotyp.us and search results show the same design in current use; live official domain confirms operating brand; no newer redesign evidence..\n- Variant: confirmed — Standalone green fan mark \\(#278600\\) extracted losslessly from the official lockup \\(single path, viewBox cropped to mark bounds\\); wordmark and red underline excluded; not the pre-2022 pinwheel variant of the accepted icon..\n- Uncertainty: No direct official-site asset observation due to unicajabanco.es timeouts; variant corroborated by two independent sources of the official design..\n\nRationale: 2022 official Unicaja Banco rebrand mark extracted losslessly from the official lockup copy; replaces the pre-2022 pinwheel accepted icon for the same bank identity..\nRole: Standalone brand symbol: green abanico/fan mark; no wordmark or text.; variant: Current 2022 variant, single fill #278600 on a transparent field; wordmark and #E1251B underline elements of the lockup excluded..\nVisible difference: Accepted icon is the pre-2022 light-green pinwheel; the current official design is the detailed 2022 fan in #278600. Supported rebranding update..\nDetails: All eleven blades, their separations and the folded fan contour survive extraction and optimization on both themes; internal transparency preserved; single official fill #278600.. Proportions: Complete emblem preserved \\(~1.4:1\\); uniform placement only; blade gaps remain distinguishable at target sizes on both themes; no backing or mask applied..\n\nSource-to-final transformations:\n- Lossless extraction of the fan path from the official lockup SVG: path and fill unchanged, viewBox cropped to mark bounds; no scale/translation beyond canvas crop.\n- SVGO 4.1.0 with frozen repo config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1209 -\\> 903 bytes, selected \\(smaller, zero-pixel-difference renders, converter-compatible\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/07b8fe326c0eed18692244f58ae5abe1b437ba8d/review-materials/15875/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/07b8fe326c0eed18692244f58ae5abe1b437ba8d/review-materials/15875/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T11:03:39.767699539Z`. Source/final: Commons copy of the official 2022 lockup \\(1240x310\\) versus final: the green fan path \\(#278600\\) is extracted verbatim with its fill unchanged and viewBox cropped to mark bounds \\(-0.3 -0.3 402.3 291.9\\); SVGO 4.1.0 \\(config f2a406e0\\) reserialized 1209 -\\> 903 B with zero pixel difference in rsvg renders. Source/final pairs on both themes match the lockup's fan exactly; wordmark and red underline excluded.; base/final and rendering: Update: base is the pre-2022 light-green \\(#66CF48\\) three-blade pinwheel; final is the 2022 official fan \\(#278600\\) with eleven radiating blades. Compose Desktop frames on #FFFFFF and #121212: complete emblem, distinct blades, dark green reads well on both themes; blade separations remain visible at 24/32/48 px previews. Supported rebrand benefit: current design and current brand green.\n\n- android-compose: not-tested (available: false) — No Android emulator or system image installed in this environment; AVD creation is unavailable in this run. Risk: the Android rendering path is unverified for this candidate..\n- android-native: not-tested (available: false) — No emulator or system image is installed; the platform debugger is present but no runnable device target exists. Risk: native Android display is unverified..\n- ios-compose: not-tested (available: false) — No iOS toolchain exists on this Linux host..\n- ios-native: not-tested (available: false) — No iOS toolchain exists on this Linux host..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGip45g",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/116",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "На сайте используют первый вариант, его и оставляем ",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABclN2xw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/116#issuecomment-6213039815",
+              "userType": "User"
+            },
+            {
+              "author": "pereperchili",
+              "body": "В MR в замене старый знак. В феврале 2024 Unicaja обновила айдентику: веер упростили до трёх сегментов и сделали зелёный ярче. \nБывшая иконка с тремя сегментами актуальна, её оставляем. \n\np.s.: банк теперь называется «Unicaja», без «Banco».",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSWuu6g",
+              "reviewState": "CHANGES_REQUESTED",
+              "url": "https://github.com/zenmoney/banks/pull/116#pullrequestreview-5526761194",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "d917a1b4158c4ccb3ed59831781901578b793ccaf8f82520b2673ae7db04ac95",
+            "closedAt": "2026-10-16T10:02:01Z",
+            "head": "bank-icon-maintenance/15875",
+            "headCommit": "8aac3ae58d79f7208090b7e60c4e736f4c78704d",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 116,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Unicaja Banco (Company.id 15875)",
+            "url": "https://github.com/zenmoney/banks/pull/116"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "На сайте используют первый вариант, его и оставляем ",
+            "bodySha256": "351043c99f83e97945eed1d06b89b65d446f050a1afa349629b94a3de5a9e2eb",
+            "createdAt": "2026-10-16T10:02:01Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABclN2xw",
+            "text": "На сайте используют первый вариант, его и оставляем",
+            "textSha256": "7ccec3c26847ec19f4304260e8adee6f54063cefa0adeb82b33e4c2846c9af89",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/116#issuecomment-6213039815"
+          },
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "В MR в замене старый знак. В феврале 2024 Unicaja обновила айдентику: веер упростили до трёх сегментов и сделали зелёный ярче. \nБывшая иконка с тремя сегментами актуальна, её оставляем. \n\np.s.: банк теперь называется «Unicaja», без «Banco».",
+            "bodySha256": "664dad24ed5421b13d4d859ce62a436fb5dd039f616499d6a52ea53fae55aeea",
+            "createdAt": "2026-10-15T01:06:50Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSWuu6g",
+            "text": "В MR в замене старый знак. В феврале 2024 Unicaja обновила айдентику: веер упростили до трёх сегментов и сделали зелёный ярче. \nБывшая иконка с тремя сегментами актуальна, её оставляем. \n\np.s.: банк теперь называется «Unicaja», без «Banco».",
+            "textSha256": "664dad24ed5421b13d4d859ce62a436fb5dd039f616499d6a52ea53fae55aeea",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/116#pullrequestreview-5526761194"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15875/candidate-2902c2ca829183d1455a0ac8a60b2aaa90314950ba11325ba3279cb867e479ee.json",
         "sha256": "2902c2ca829183d1455a0ac8a60b2aaa90314950ba11325ba3279cb867e479ee"

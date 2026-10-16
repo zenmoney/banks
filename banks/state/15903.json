@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:37:03.660920Z",
+        "observedAt": "2026-10-16T19:56:29.420531Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/124"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:37:03.660920Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "4bd74e7660976b058e32f170af2cbc1d23db8f724e6b26c46cd10f5aee88bf26",
+            "closedAt": "2026-10-14T17:07:01Z",
+            "head": "bank-icon-maintenance/15903",
+            "headCommit": "dc150d678a44277ed3673b78154ed5676a21d59a",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 124,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: UniCredit (Company.id 15903)",
+            "url": "https://github.com/zenmoney/banks/pull/124"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "The accepted icon is the pre-2023 UniCredit sphere/swoosh mark; UniCredit's current brand (in use since the 2023 rebrand) is the two-chevron red mark, observed as the live logo asset of the official UniCredit press site (unicredit.pl DAM, page content current to 2026). The fetched asset is a self-contained original vector SVG (525 bytes, two filled paths, #E2001A) with no external references; raster tracing was not involved.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "verify-applicability",
+        "candidateIconHash": "05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd",
+        "category": "identity/logo",
+        "comment": {
+          "author": "b3er",
+          "body": "Closing without merging following review.\n\n**Rejection category:** `identity/logo`\n**Reviewed head:** `dc150d678a44277ed3673b78154ed5676a21d59a`\n\n**Reason:** The proposed chevrons are a decorative asset, not the bank logo. Last_K10.svg is used as class=\"box-icon\" in contact blocks on the Polish UniCredit media page, which separately provides the actual UniCredit logo. Its presence on an official site does not establish either the claimed rebranding or applicability to the Italian record.\n\n**Required follow-up for the maintenance agent:** Find an original vector of the actual emblem and establish its applicability to the Italian bank record. Remove the incorrect claim that these chevrons represent a post-2023 logo change. Verify the role of the source asset in its page or brand-kit context, not only its official URL.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://unicredit.pl/media)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+          "createdAt": "2026-10-14T17:07:00Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-14T17:07:00Z",
+          "url": "https://github.com/zenmoney/banks/pull/124#issuecomment-6173886636"
+        },
+        "explanation": "**Reason:** The proposed chevrons are a decorative asset, not the bank logo. Last_K10.svg is used as class=\"box-icon\" in contact blocks on the Polish UniCredit media page, which separately provides the actual UniCredit logo. Its presence on an official site does not establish either the claimed rebranding or applicability to the Italian record.\n\n**Required follow-up for the maintenance agent:** Find an original vector of the actual emblem and establish its applicability to the Italian bank record. Remove the incorrect claim that these chevrons represent a post-2023 logo change. Verify the role of the source asset in its page or brand-kit context, not only its official URL.",
+        "mr": {
+          "number": 124,
+          "url": "https://github.com/zenmoney/banks/pull/124"
+        },
+        "rationale": "The explicit identity/logo rejection says Last_K10.svg is a decorative contact-block box-icon rather than the bank emblem; official hosting alone does not establish a rebrand or applicability to Italy. Retain all required follow-up: find an original vector of the actual emblem, establish its applicability to the Italian record, remove the incorrect post-2023-chevron rebrand claim, and verify asset role in page or brand-kit context. These are the reviewer's findings, not newly verified metadata. The comment gives the October 6 audit precedence over unsupported cross-review claims and rejects this candidate, not the bank permanently.",
+        "requirements": [
+          {
+            "quote": "**Reason:** The proposed chevrons are a decorative asset, not the bank logo. Last_K10.svg is used as class=\"box-icon\" in contact blocks on the Polish UniCredit media page, which separately provides the actual UniCredit logo. Its presence on an official site does not establish either the claimed rebranding or applicability to the Italian record.\n\n**Required follow-up for the maintenance agent:** Find an original vector of the actual emblem and establish its applicability to the Italian bank record. Remove the incorrect claim that these chevrons represent a post-2023 logo change. Verify the role of the source asset in its page or brand-kit context, not only its official URL.",
+            "url": "https://github.com/zenmoney/banks/pull/124#issuecomment-6173886636"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:29.420531Z",
+        "id": 15903,
+        "judgement": {
+          "action": "verify-applicability",
+          "key": "d50ecc933049702da07486bdcc04fbb9c7363b71adeaaf06809de779d9c16f1e",
+          "rationale": "The explicit identity/logo rejection says Last_K10.svg is a decorative contact-block box-icon rather than the bank emblem; official hosting alone does not establish a rebrand or applicability to Italy. Retain all required follow-up: find an original vector of the actual emblem, establish its applicability to the Italian record, remove the incorrect post-2023-chevron rebrand claim, and verify asset role in page or brand-kit context. These are the reviewer's findings, not newly verified metadata. The comment gives the October 6 audit precedence over unsupported cross-review claims and rejects this candidate, not the bank permanently.",
+          "sources": [
+            {
+              "quote": "**Reason:** The proposed chevrons are a decorative asset, not the bank logo. Last_K10.svg is used as class=\"box-icon\" in contact blocks on the Polish UniCredit media page, which separately provides the actual UniCredit logo. Its presence on an official site does not establish either the claimed rebranding or applicability to the Italian record.\n\n**Required follow-up for the maintenance agent:** Find an original vector of the actual emblem and establish its applicability to the Italian bank record. Remove the incorrect claim that these chevrons represent a post-2023 logo change. Verify the role of the source asset in its page or brand-kit context, not only its official URL.",
+              "url": "https://github.com/zenmoney/banks/pull/124#issuecomment-6173886636"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T14:45:19.095438Z",
+          "candidateIconHash": "05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd",
+          "key": "d50ecc933049702da07486bdcc04fbb9c7363b71adeaaf06809de779d9c16f1e",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## UniCredit — Company.id 15903\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"IT\",\n  \"fullTitle\": null,\n  \"id\": 15903,\n  \"title\": \"UniCredit\",\n  \"url\": \"unicredit.it\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T14:48:12.221938Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/b73c31f85d4eff85c3720fb17dc54170fc1b75e9/review-materials/15903/base.svg) — SHA-256 `165651a1dd923f20e4fa3eddd8938617013517d59898c4fcc7b17300f92841f0`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/b73c31f85d4eff85c3720fb17dc54170fc1b75e9/review-materials/15903/source.svg) — SHA-256 `f0e46a4dd1e21d0856c4ed0cf9962c23347b27f43fa6fddd2f657d0851de903e`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/b73c31f85d4eff85c3720fb17dc54170fc1b75e9/review-materials/15903/final.svg) — SHA-256 `05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/b73c31f85d4eff85c3720fb17dc54170fc1b75e9/review-materials/15903/final.xml) — SHA-256 `932c1858dd92d9ae4ba9463db4b9fd462e0e8afd6d4899f4b44bacae593d978c`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/b73c31f85d4eff85c3720fb17dc54170fc1b75e9/review-materials/15903/candidate.diff).\n- Source page: [https://unicredit.pl/media](https://unicredit.pl/media).\n- Source asset: [https://unicredit.pl/dam/jcr:4f91e433-a0eb-4d1a-959f-84737db89c4f/Last\\_K10.svg](https://unicredit.pl/dam/jcr:4f91e433-a0eb-4d1a-959f-84737db89c4f/Last_K10.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T14:26:44Z: [https://unicredit.pl/media](https://unicredit.pl/media); asset [https://unicredit.pl/dam/jcr:4f91e433-a0eb-4d1a-959f-84737db89c4f/Last\\_K10.svg](https://unicredit.pl/dam/jcr:4f91e433-a0eb-4d1a-959f-84737db89c4f/Last_K10.svg). Official UniCredit Poland press page renders its logo from this DAM asset in three places; the asset is the current two-chevron UniCredit mark in #E2001A. (independence group: unicredit.pl press site \\(official UniCredit domain\\)).\n- third-party checked 2026-10-04T14:40:00Z: [https://commons.wikimedia.org/wiki/Category:SVG\\_logos\\_of\\_UniCredit](https://commons.wikimedia.org/wiki/Category:SVG_logos_of_UniCredit). All 8 Wikimedia SVGs in the UniCredit category are subsidiary or legacy \\(1998/2017\\) marks; none depicts the current chevron, so no better independent vector source exists there. (independence group: Wikimedia Commons).\n- official checked 2026-10-04T14:40:00Z: [https://www.unicreditgroup.eu/en/unicredit-at-a-glance/our-brand.html](https://www.unicreditgroup.eu/en/unicredit-at-a-glance/our-brand.html). Official group brand page \\(search-result observation; direct fetch HTTP 403\\) confirming the current group brand identity; unicredit.it and unicreditgroup.eu direct fetches returned 403, so the accessible unicredit.pl DAM asset was used. (independence group: UniCredit group brand pages).\n- Independent evidence: The primary observation is the official UniCredit press site serving the asset; Wikimedia and group brand page checks independently rule out better vector sources and corroborate the rebrand timeline..\n- Identity: confirmed — The fetched SVG is served from unicredit.pl \\(official UniCredit domain\\) as the live press-site logo and depicts the UniCredit chevron mark; no third-party copy is involved..\n- Currency: confirmed — The press page using this asset has content dated through 2026; the chevron mark is UniCredit's post-2023 rebrand, and the accepted sphere/swoosh icon is the superseded pre-2023 design..\n- Variant: confirmed — Standalone symbol variant \\(two right-pointing chevrons, #E2001A, transparent background, 48x48 canvas\\) with no accompanying wordmark, matching catalog standalone-mark suitability..\n\nRationale: Replace the superseded pre-2023 UniCredit sphere/swoosh icon with the current two-chevron mark \\(#E2001A\\), taken from an original self-contained SVG served by UniCredit's own press-site DAM. This is an evidenced brand update, not a serialization change..\nRole: Standalone bank symbol: the two-chevron mark is the entire current UniCredit symbol, with no accompanying wordmark or explanatory text.; variant: Current post-2023 full-color chevron variant on transparent background, square 48x48 canvas; the same variant used as the live logo on the official unicredit.pl press page..\nVisible difference: Before/after shows a real design change: the old red sphere with white swoosh is replaced by the current double-chevron mark. This is UniCredit's post-2023 rebrand, not a cosmetic or byte-level change..\nDetails: Both chevron outlines, their rounded ends and the even gap between them are preserved; no stroke or contour loss against the working version or the original source.. Proportions: Symbol fills the square cell usefully with the canvas's own small margins; renders cleanly at 24/32/48 px on white and #121212; chevrons remain distinct and recognizable at small sizes on both themes..\n\nSource-to-final transformations:\n- No geometric transformation: the original vector paths were used unchanged \\(no scaling, translation or path edits needed; the 48x48 viewBox already fits the square catalog cell\\).\n- SVGO 4.1.0 \\(config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\): 525 -\\> 483 bytes, output sha256 05e94ce604c83d56894da511296bc6c0333832ac27c31e0e071406833916adfd; optimized result selected after working-vs-optimized comparison on white canvas showed identical geometry and color; no detail lost.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/b73c31f85d4eff85c3720fb17dc54170fc1b75e9/review-materials/15903/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/b73c31f85d4eff85c3720fb17dc54170fc1b75e9/review-materials/15903/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T14:47:52.199218757Z`. Source/final: The full original source \\(48x48, two #E2001A paths, transparent background\\) and the final SVG render identically: same chevron geometry, gap, proportions and color; no invented colors or geometry. Verified on the helper source raster and source/final pairs on white and #121212.; base/final and rendering: Base \\(sphere/swoosh\\) versus final \\(double chevron\\) Desktop frames on #FFFFFF and #121212: distinct, complete symbols, centered, correct color, no clipping or distortion on either theme; the update visibly brings the icon to the current brand design.\n\n- android-compose: not-tested (available: false) — Android targets were unavailable in this environment: the installed SDK has no system images or emulator and no hardware virtualization is present; both Android targets are recorded as not-tested, with the disclosed risk of unobserved platform-specific rendering divergence..\n- android-native: not-tested (available: false) — Android native target unavailable for the same reason; recorded as not-tested..\n- ios-compose: not-tested (available: false) — No iOS toolchain \\(xcrun/simulator\\) in this environment; unavailable..\n- ios-native: not-tested (available: false) — No iOS toolchain in this environment; unavailable..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGj7N6g",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/124",
+              "userType": "User"
+            },
+            {
+              "author": "b3er",
+              "body": "Closing without merging following review.\n\n**Rejection category:** `identity/logo`\n**Reviewed head:** `dc150d678a44277ed3673b78154ed5676a21d59a`\n\n**Reason:** The proposed chevrons are a decorative asset, not the bank logo. Last_K10.svg is used as class=\"box-icon\" in contact blocks on the Polish UniCredit media page, which separately provides the actual UniCredit logo. Its presence on an official site does not establish either the claimed rebranding or applicability to the Italian record.\n\n**Required follow-up for the maintenance agent:** Find an original vector of the actual emblem and establish its applicability to the Italian bank record. Remove the incorrect claim that these chevrons represent a post-2023 logo change. Verify the role of the source asset in its page or brand-kit context, not only its official URL.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://unicredit.pl/media)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABb_4IrA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/124#issuecomment-6173886636",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "4bd74e7660976b058e32f170af2cbc1d23db8f724e6b26c46cd10f5aee88bf26",
+            "closedAt": "2026-10-14T17:07:01Z",
+            "head": "bank-icon-maintenance/15903",
+            "headCommit": "dc150d678a44277ed3673b78154ed5676a21d59a",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 124,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: UniCredit (Company.id 15903)",
+            "url": "https://github.com/zenmoney/banks/pull/124"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "body": "Closing without merging following review.\n\n**Rejection category:** `identity/logo`\n**Reviewed head:** `dc150d678a44277ed3673b78154ed5676a21d59a`\n\n**Reason:** The proposed chevrons are a decorative asset, not the bank logo. Last_K10.svg is used as class=\"box-icon\" in contact blocks on the Polish UniCredit media page, which separately provides the actual UniCredit logo. Its presence on an official site does not establish either the claimed rebranding or applicability to the Italian record.\n\n**Required follow-up for the maintenance agent:** Find an original vector of the actual emblem and establish its applicability to the Italian bank record. Remove the incorrect claim that these chevrons represent a post-2023 logo change. Verify the role of the source asset in its page or brand-kit context, not only its official URL.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://unicredit.pl/media)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "bodySha256": "6ad23d9ed90eed8e0db611b5770d434174f0785a04c94e504b8cb547f32b2b29",
+            "createdAt": "2026-10-14T17:07:00Z",
+            "editor": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABb_4IrA",
+            "text": "Closing without merging following review.\n\n**Rejection category:** `identity/logo`\n**Reviewed head:** `dc150d678a44277ed3673b78154ed5676a21d59a`\n\n**Reason:** The proposed chevrons are a decorative asset, not the bank logo. Last_K10.svg is used as class=\"box-icon\" in contact blocks on the Polish UniCredit media page, which separately provides the actual UniCredit logo. Its presence on an official site does not establish either the claimed rebranding or applicability to the Italian record.\n\n**Required follow-up for the maintenance agent:** Find an original vector of the actual emblem and establish its applicability to the Italian bank record. Remove the incorrect claim that these chevrons represent a post-2023 logo change. Verify the role of the source asset in its page or brand-kit context, not only its official URL.\n\nThis decision is based on `bank-icons-audit-2026-10-06.md`, `bank-icons-review-2026-10-05.pdf`, and `bank-icons-crosscheck-2026-10-05.pdf`, with the audit corrections taking precedence over unsupported cross-review claims.\n\n[Supporting evidence](https://unicredit.pl/media)\n\nThis rejection applies to this candidate, not permanently to the bank. A fresh proposal must resolve the specific defect above.",
+            "textSha256": "6ad23d9ed90eed8e0db611b5770d434174f0785a04c94e504b8cb547f32b2b29",
+            "trust": {
+              "login": "b3er",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/124#issuecomment-6173886636"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15903/candidate-5cb7e5841f75dae4757f9bd4963694df31e4fd02b37daf6b678fd9537730fc94.json",
         "sha256": "5cb7e5841f75dae4757f9bd4963694df31e4fd02b37daf6b678fd9537730fc94"

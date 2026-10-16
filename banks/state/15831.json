@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:34:57.372423Z",
+        "observedAt": "2026-10-16T19:56:05.919043Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,181 @@
           "url": "https://github.com/zenmoney/banks/pull/102"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:34:57.372423Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "9ee9539f6aad7accc4f1ab38b73b20522a7447f2d118e59e72ce8c772839b469",
+            "closedAt": "2026-10-16T09:56:22Z",
+            "head": "bank-icon-maintenance/15831",
+            "headCommit": "b251e9f3edd6bda416e69dab7975dc9c7a171c84",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 102,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+            "url": "https://github.com/zenmoney/banks/pull/102"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Šiaulių bankas renamed to Artea bankas effective 2025-05-05 (official FAQ, GlobeNewswire notice, Wikipedia); the accepted icon is the former lowercase 'šiaulių bankas' wordmark while the bank's current standalone mark is the Artea geometric mark, available as the bank's own favicon.svg original vector.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+          "createdAt": "2026-10-16T09:56:22Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-16T09:56:22Z",
+          "url": "https://github.com/zenmoney/banks/pull/102#issuecomment-6212943651"
+        },
+        "explanation": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+        "mr": {
+          "number": 102,
+          "url": "https://github.com/zenmoney/banks/pull/102"
+        },
+        "rationale": "Both reviewers request a presentation repair for light and dark themes: the dark mark merges into the dark background. Retain the requested white icon on the corporate color and the additional instruction to seek an inverse variant or use a light backing. These requests do not establish source-supported colors or waive theme/render constraints.",
+        "requirements": [
+          {
+            "quote": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+            "url": "https://github.com/zenmoney/banks/pull/102#issuecomment-6212943651"
+          },
+          {
+            "quote": "@VictoryKod Тёмная тема совсем сливается, надо поискать инверсию или делать светлую подложку.",
+            "url": "https://github.com/zenmoney/banks/pull/102#pullrequestreview-5526915671"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:05.919043Z",
+        "id": 15831,
+        "judgement": {
+          "action": "repair",
+          "key": "3d1ebf65ff05367cb7f6f7409d48c448cbe070d345c1d9ef7b46dd8d031262f1",
+          "rationale": "Both reviewers request a presentation repair for light and dark themes: the dark mark merges into the dark background. Retain the requested white icon on the corporate color and the additional instruction to seek an inverse variant or use a light backing. These requests do not establish source-supported colors or waive theme/render constraints.",
+          "sources": [
+            {
+              "quote": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+              "url": "https://github.com/zenmoney/banks/pull/102#issuecomment-6212943651"
+            },
+            {
+              "quote": "@VictoryKod Тёмная тема совсем сливается, надо поискать инверсию или делать светлую подложку.",
+              "url": "https://github.com/zenmoney/banks/pull/102#pullrequestreview-5526915671"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T06:06:01.434370Z",
+          "candidateIconHash": "fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248",
+          "key": "3d1ebf65ff05367cb7f6f7409d48c448cbe070d345c1d9ef7b46dd8d031262f1",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## Šiaulių bankas — Company.id 15831\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"LT\",\n  \"fullTitle\": \"Siauliu bankas\",\n  \"id\": 15831,\n  \"title\": \"\\u0160iauli\\u0173 bankas\",\n  \"url\": \"sb.lt\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T06:13:11.154447Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/e89ce2b8933708dbbe9c0448ce6f11dddfa52af9/review-materials/15831/base.svg) — SHA-256 `6d9c3b17c69c782de5bd17a05a91c99c6e88b7a044b618f78c3ee58d29c6913a`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/e89ce2b8933708dbbe9c0448ce6f11dddfa52af9/review-materials/15831/source.svg) — SHA-256 `fd05ff8208ae8a235148babf9f6bcf119a6952bf1f5d7fa827beb07563b3a911`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/e89ce2b8933708dbbe9c0448ce6f11dddfa52af9/review-materials/15831/final.svg) — SHA-256 `fe60b14504a4ba5d4d6fe8f0d97d831ab43dbacd1dc473c84d346d3992850248`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/e89ce2b8933708dbbe9c0448ce6f11dddfa52af9/review-materials/15831/final.xml) — SHA-256 `80f2fcdfe8dc1c1012078f4d37e8b9e0f81fba1cf81861fc4d9f37ac794b1345`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/e89ce2b8933708dbbe9c0448ce6f11dddfa52af9/review-materials/15831/candidate.diff).\n- Source page: [https://www.artea.lt/favicon.svg](https://www.artea.lt/favicon.svg).\n- Source asset: [https://www.artea.lt/favicon.svg](https://www.artea.lt/favicon.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T05:51:33Z: [https://www.artea.lt/favicon.svg](https://www.artea.lt/favicon.svg); asset [https://www.artea.lt/favicon.svg](https://www.artea.lt/favicon.svg). Official artea.lt \\(renamed bank\\) serves favicon.svg: 600x600 viewBox, single navy #071844 path forming the standalone Artea geometric mark without lettering; geometry matches the mark inside official lockups \\(cdn.artea.lt/mainweb/logo.svg, uploads/media/67d827529218b/artea-logo-dark.svg — both lockups rejected for lettering\\). favicon.svg resolves at site root; homepage HTML has no \\<link rel=icon\\> \\(labeled probe\\). (independence group: artea.lt official assets).\n- third-party checked 2026-10-04T05:49:58Z: [https://www.globenewswire.com/news-release/2025/03/31/](https://www.globenewswire.com/news-release/2025/03/31/). GlobeNewswire notice \\(2025-03-31\\) and artea.lt rebrand FAQ confirm Šiaulių bankas renamed to Artea bankas effective 2025-05-05; same legal entity continuing. (independence group: GlobeNewswire release and artea.lt FAQ).\n- Independent evidence: Primary: bank's own artea.lt assets; rename corroborated by independent GlobeNewswire release; rejected lockups are distinct official files, not evidence copies..\n- Identity: confirmed — Mark served by the renamed bank's own domain \\(sb.lt/Šiaulių bankas → artea.lt\\); rename of the same legal entity confirmed by official FAQ and press release..\n- Currency: confirmed — Observed live 2026-10-04 on the bank's official properties; former wordmark no longer used by the bank..\n- Variant: confirmed — Standalone geometric mark without lettering \\(favicon.svg\\), matching the mark component of the official lockups..\n- Uncertainty: Catalog record title remains 'Šiaulių bankas' while the current brand is Artea bankas; icon update reflects the evidenced rename of the same bank, metadata titles are out of scope for the icon change..\n\nRationale: Šiaulių bankas renamed to Artea bankas effective 2025-05-05 \\(official FAQ, GlobeNewswire\\); the accepted icon is the former lowercase wordmark while the bank's current standalone mark is the Artea geometric mark served as the official favicon.svg — evidenced rename update of the same bank..\nRole: Standalone current bank mark \\(Artea geometric mark, navy #071844\\), transparent background.; variant: Current official standalone mark \\(favicon.svg at artea.lt site root\\); matches the mark component of the official lockups, which are rejected for lettering..\nVisible difference: Base is the former 'šiaulių bankas' SB monogram; final is the current Artea geometric mark — evidenced rename of the same legal entity, not a successor substitution..\nDetails: Single navy path renders cleanly: angular 'a'-like mark with counter hole preserved as true transparency; no fill-in, no distortion in 240px renders.. Proportions: Source used as-is: 600x600 standalone mark, no transforms, no backing added \\(suitable transparent standalone mark\\); centered by the source viewBox with even margins..\n\nSource-to-final transformations:\n- No geometric transformation; source mark used unchanged.\n- SVGO 4.1.0 with frozen config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 989 -\\> 829 bytes; optimized output selected after working-vs-optimized comparison showed identical rendering.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/e89ce2b8933708dbbe9c0448ce6f11dddfa52af9/review-materials/15831/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/e89ce2b8933708dbbe9c0448ce6f11dddfa52af9/review-materials/15831/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T06:11:21.208013216Z`. Source/final: Original 600x600 SVG inspected and independently rasterized: single authored navy path; internal transparency of the counter preserved in the final; source color unchanged.; base/final and rendering: Exact base/final pairs on both themes: base former SB monogram; final Artea mark. On dark theme the navy mark is lower-contrast but its silhouette and counter remain clearly readable; official current color retained rather than recolored.\n\n- android-compose: not-tested (available: false) — No Android system images installed; AVD creation requires downloads outside this run..\n- android-native: not-tested (available: false) — No Android system images installed; AVD creation requires downloads outside this run..\n- ios-compose: not-tested (available: false) — No iOS tooling in this environment..\n- ios-native: not-tested (available: false) — No iOS tooling in this environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGhLbtw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/102",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABclH_Iw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/102#issuecomment-6212943651",
+              "userType": "User"
+            },
+            {
+              "author": "pereperchili",
+              "body": "@VictoryKod Тёмная тема совсем сливается, надо поискать инверсию или делать светлую подложку.",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSW4KVw",
+              "reviewState": "CHANGES_REQUESTED",
+              "url": "https://github.com/zenmoney/banks/pull/102#pullrequestreview-5526915671",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "9ee9539f6aad7accc4f1ab38b73b20522a7447f2d118e59e72ce8c772839b469",
+            "closedAt": "2026-10-16T09:56:22Z",
+            "head": "bank-icon-maintenance/15831",
+            "headCommit": "b251e9f3edd6bda416e69dab7975dc9c7a171c84",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 102,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+            "url": "https://github.com/zenmoney/banks/pull/102"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+            "bodySha256": "cdd9e9e25f5d53a6854a54ebf4bec37bd9024cc3d34da62a00ca6e7466f2baf7",
+            "createdAt": "2026-10-16T09:56:22Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABclH_Iw",
+            "text": "Адаптировать под светлую и темную тему, сделать иконку белой на корпоративном цвете",
+            "textSha256": "cdd9e9e25f5d53a6854a54ebf4bec37bd9024cc3d34da62a00ca6e7466f2baf7",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/102#issuecomment-6212943651"
+          },
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "@VictoryKod Тёмная тема совсем сливается, надо поискать инверсию или делать светлую подложку.",
+            "bodySha256": "00329e8ac0c6b37f29d246412bfca05df9ad5e471d866cdca792fa97691af250",
+            "createdAt": "2026-10-15T01:27:19Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSW4KVw",
+            "text": "@VictoryKod Тёмная тема совсем сливается, надо поискать инверсию или делать светлую подложку.",
+            "textSha256": "00329e8ac0c6b37f29d246412bfca05df9ad5e471d866cdca792fa97691af250",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/102#pullrequestreview-5526915671"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15831/candidate-b52afc18734aafc2c4a9a94c5c08e0a543812869a029bb423400e5fef69ceb20.json",
         "sha256": "b52afc18734aafc2c4a9a94c5c08e0a543812869a029bb423400e5fef69ceb20"

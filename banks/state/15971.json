@@ -96,7 +96,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:37:16.625046Z",
+        "observedAt": "2026-10-16T19:56:38.246990Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -114,10 +114,140 @@
           "url": "https://github.com/zenmoney/banks/pull/130"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:37:16.625046Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "3030aef283c59e6f7e69d6ee482cd55b8ef70b03f6814d99ecd8eb1c2b0d5ad3",
+            "closedAt": "2026-10-15T11:35:57Z",
+            "head": "bank-icon-maintenance/15971",
+            "headCommit": "144555cc62aa9882b645716f6e0b68daed856b2d",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 130,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: BAKAI BANK (Company.id 15971)",
+            "url": "https://github.com/zenmoney/banks/pull/130"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Accepted blue/grey 'BB in double ring' icon is an older Bakai variant; the bank's current official mark (navy #001F47 / dark-red #811E3B split-B pattern) is served as an original vector from bakai.kg's own CMS and shown in the site header and org logo. Supported rebrand update for the same operating bank.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4",
+        "category": "technical",
+        "comment": {
+          "author": "pereperchili",
+          "body": "@VictoryKod Тёмная тема: тёмно-синяя часть знака сливается с фоном. Нужна светлая подложка под знак (или версия для тёмной темы из брендбука Bakai, если есть). По смыслу знак актуальный.",
+          "createdAt": "2026-10-15T00:26:14Z",
+          "kind": "review",
+          "updatedAt": "2026-10-15T00:26:14Z",
+          "url": "https://github.com/zenmoney/banks/pull/130#pullrequestreview-5526446985"
+        },
+        "explanation": "@VictoryKod Тёмная тема: тёмно-синяя часть знака сливается с фоном. Нужна светлая подложка под знак (или версия для тёмной темы из брендбука Bakai, если есть). По смыслу знак актуальный.",
+        "mr": {
+          "number": 130,
+          "url": "https://github.com/zenmoney/banks/pull/130"
+        },
+        "rationale": "The reviewer regards the sign itself as current but requests a presentation repair because its navy portion disappears into the dark background. Retain both the light-backing requirement and the alternative of a dark-theme version from Bakai's brand book if one exists. Currentness is the reviewer's assertion, and neither an unsupported variant nor invented colors are authorized.",
+        "requirements": [
+          {
+            "quote": "@VictoryKod Тёмная тема: тёмно-синяя часть знака сливается с фоном. Нужна светлая подложка под знак (или версия для тёмной темы из брендбука Bakai, если есть). По смыслу знак актуальный.",
+            "url": "https://github.com/zenmoney/banks/pull/130#pullrequestreview-5526446985"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T19:56:38.246990Z",
+        "id": 15971,
+        "judgement": {
+          "action": "repair",
+          "key": "c83452a0308320eadb1145918ef592eeabfd77a5c1b11a5612fb3290fe1e9266",
+          "rationale": "The reviewer regards the sign itself as current but requests a presentation repair because its navy portion disappears into the dark background. Retain both the light-backing requirement and the alternative of a dark-theme version from Bakai's brand book if one exists. Currentness is the reviewer's assertion, and neither an unsupported variant nor invented colors are authorized.",
+          "sources": [
+            {
+              "quote": "@VictoryKod Тёмная тема: тёмно-синяя часть знака сливается с фоном. Нужна светлая подложка под знак (или версия для тёмной темы из брендбука Bakai, если есть). По смыслу знак актуальный.",
+              "url": "https://github.com/zenmoney/banks/pull/130#pullrequestreview-5526446985"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-04T18:13:51.522740Z",
+          "candidateIconHash": "ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4",
+          "key": "c83452a0308320eadb1145918ef592eeabfd77a5c1b11a5612fb3290fe1e9266",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## BAKAI BANK — Company.id 15971\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"KG\",\n  \"fullTitle\": \"\\u0411\\u0430\\u043a\\u0430\\u0439 \\u0411\\u0430\\u043d\\u043a\",\n  \"id\": 15971,\n  \"title\": \"BAKAI BANK\",\n  \"url\": \"bakai.kg\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T18:15:05.031365Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/base.svg) — SHA-256 `adf5619a56161b961b98c1ef15869fa73e4006b5bdb229cfb55a6e16e424eb2c`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/source.svg) — SHA-256 `772c4306c8e14431a5d165f7a601f21feee1d0532eba5a61448ce4c6f7bf3565`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/final.svg) — SHA-256 `ffb8e2625b19f43f265a9061930dcf713c200509aa34a192d13ba749b45791c4`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/final.xml) — SHA-256 `82dfb24852de507e938553d208e68c72df1c8bc7b9b6c0152fd7e338cbdaeb2e`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/candidate.diff).\n- Source page: [https://bakai.kg/](https://bakai.kg/).\n- Source asset: [https://bakai.kg/bbank/assets/marketing\\_configs/2026/8/10/marketing\\_config\\_z9Qlv0iJMWcKBodw9hsv.svg](https://bakai.kg/bbank/assets/marketing_configs/2026/8/10/marketing_config_z9Qlv0iJMWcKBodw9hsv.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T17:59:51Z: [https://bakai.kg/](https://bakai.kg/); asset [https://bakai.kg/bbank/assets/marketing\\_configs/2026/8/10/marketing\\_config\\_z9Qlv0iJMWcKBodw9hsv.svg](https://bakai.kg/bbank/assets/marketing_configs/2026/8/10/marketing_config_z9Qlv0iJMWcKBodw9hsv.svg). Official Bakai Bank site \\(observed 2026-10-04\\): first-party CMS SVG \\(Illustrator export, viewBox 0 0 925.7 925.7, four half-capsule paths, fills #001F47 navy and #811E3B dark red\\) used as the BakAi product/QR logo; bytes bound by receipt fetch-8e0c7ac27b1b46429b5b3ba5c386afad \\(\\[local artifact not published; reference omitted\\]\\). The site header/org logo PNG shows the same navy/red split-B mark; navbar evidence \\[local artifact not published; reference omitted\\] and org logo bakai-org-logo.png. (independence group: bakai-official-site).\n- official checked 2026-10-04T17:59:52Z: [https://bakai.kg/](https://bakai.kg/); asset [https://bakai.kg/bbank/resize/400/1000000/assets/general\\_menu\\_metas/2026/8/4/general\\_menu\\_meta\\_wtH4Ehq1LEO2wio3Lx3mNXfso08m0Mt3.png](https://bakai.kg/bbank/resize/400/1000000/assets/general_menu_metas/2026/8/4/general_menu_meta_wtH4Ehq1LEO2wio3Lx3mNXfso08m0Mt3.png). Site org/meta logo \\(raster, 48x48\\): navy/red split-B mark matching the vector; corroborates current official variant \\(receipt fetch-6bc40f6525fd47c3bdecb1890d4baf17\\). Raster used as context evidence only. (independence group: bakai-official-site).\n- Independent evidence: Single first-party source group \\(bank's own site: vector asset plus matching header/org raster context\\); visual judgment made from the fetched vector rendered independently \\(librsvg\\)..\n- Identity: confirmed — The replacement is the current official Bakai Bank mark served by the bank's own site \\(bakai.kg\\) and shown in its header/org logo for Company 15971 'BAKAI BANK'..\n- Currency: confirmed — Asset uploaded 2026-08-10 on the bank's own CMS and displayed live on 2026-10-04; org logo dated 2026-08-04 shows the same mark..\n- Variant: confirmed — Current official variant: navy/red split-B pattern. The accepted blue/grey double-ring 'BB' is an older variant; the replacement is the standalone current mark without wordmark..\n\nRationale: Replace the accepted older blue/grey double-ring 'BB' variant with Bakai Bank's current official standalone mark: navy #001F47 and dark-red #811E3B split-B pattern, taken from the bank's own CMS vector \\(bakai.kg, uploaded 2026-08-10\\) and corroborated by the site header/org logo. Supported rebrand update for the same operating bank..\nRole: Standalone current brand mark of Bakai Bank \\(no wordmark\\).; variant: Current official variant: four half-capsule 'B' forms, two navy #001F47 and two dark-red #811E3B, transparent background, viewBox 0 0 925.7 925.7..\nVisible difference: Base icon is the older blue/grey 'BB' monogram inside a double ring; final is the current official navy/red split-B mark without a ring. A supported rebrand of the same bank, evidenced by the bank's own site..\nDetails: All four half-capsule contours and the two colours are preserved; SVGO only inlined the stylesheet fills; no lost detail or colour drift in the final Desktop renders.. Proportions: Uniform scale only; the square 925.7 viewBox mark fills the 54-unit cell as in the source and stays recognizable at 24/32/48 px on both themes; transparent background keeps contrast on light and dark..\n\nSource-to-final transformations:\n- No geometric transformation; the source emblem is used unchanged \\(uniform display scaling only\\). No backing added: the source is a transparent standalone mark.\n- SVGO 4.1.0 with repository svgo.config.mjs \\(config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\): 1017 -\\> 745 bytes; internal \\<style\\> classes inlined to fill attributes; optimized selected after visual comparison showed identical geometry/colours \\(receipt \\[local artifact not published; reference omitted\\]\\).\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T18:14:39.450741570Z`. Source/final: Full original source \\(fetched bakai.kg CMS SVG\\) versus final: identical geometry after SVGO style inlining; navy/red colours unchanged \\(independent pairs \\[local artifact not published; reference omitted\\] and -dark.png\\).; base/final and rendering: Base versus final \\(exact Desktop 240x240 frames, #FFFFFF and #121212\\): old blue/grey double-ring 'BB' replaced by the current navy/red split-B mark; final is legible on both themes and matches the official source \\([comparison-light.png](https://github.com/zenmoney/banks/blob/feec76f15bd6ceb30293406ed493e2ee1f003cec/review-materials/15971/comparison-light.png), before-after-dark.png\\).\n\n- android-compose: not-tested (available: false) — No Android emulator binary or system image installed \\(readiness check 2026-10-04\\); iOS tooling absent. Offscreen Compose Desktop candidate export verified; mobile not exercised..\n- android-native: not-tested (available: false) — No Android emulator binary or system image installed \\(readiness check 2026-10-04\\); iOS tooling absent. Offscreen Compose Desktop candidate export verified; mobile not exercised..\n- ios-compose: not-tested (available: false) — No Android emulator binary or system image installed \\(readiness check 2026-10-04\\); iOS tooling absent. Offscreen Compose Desktop candidate export verified; mobile not exercised..\n- ios-native: not-tested (available: false) — No Android emulator binary or system image installed \\(readiness check 2026-10-04\\); iOS tooling absent. Offscreen Compose Desktop candidate export verified; mobile not exercised..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGlLGaw",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/130",
+              "userType": "User"
+            },
+            {
+              "author": "pereperchili",
+              "body": "@VictoryKod Тёмная тема: тёмно-синяя часть знака сливается с фоном. Нужна светлая подложка под знак (или версия для тёмной темы из брендбука Bakai, если есть). По смыслу знак актуальный.",
+              "kind": "review",
+              "nodeId": "PRR_kwDOU2-MbM8AAAABSWbjiQ",
+              "reviewState": "CHANGES_REQUESTED",
+              "url": "https://github.com/zenmoney/banks/pull/130#pullrequestreview-5526446985",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "3030aef283c59e6f7e69d6ee482cd55b8ef70b03f6814d99ecd8eb1c2b0d5ad3",
+            "closedAt": "2026-10-15T11:35:57Z",
+            "head": "bank-icon-maintenance/15971",
+            "headCommit": "144555cc62aa9882b645716f6e0b68daed856b2d",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 130,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: BAKAI BANK (Company.id 15971)",
+            "url": "https://github.com/zenmoney/banks/pull/130"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "@VictoryKod Тёмная тема: тёмно-синяя часть знака сливается с фоном. Нужна светлая подложка под знак (или версия для тёмной темы из брендбука Bakai, если есть). По смыслу знак актуальный.",
+            "bodySha256": "39a4068b699cfe2cfe9ee7d1eb393d3ad2b1df15412c8e0209afe4fe719fc6fb",
+            "createdAt": "2026-10-15T00:26:14Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSWbjiQ",
+            "text": "@VictoryKod Тёмная тема: тёмно-синяя часть знака сливается с фоном. Нужна светлая подложка под знак (или версия для тёмной темы из брендбука Bakai, если есть). По смыслу знак актуальный.",
+            "textSha256": "39a4068b699cfe2cfe9ee7d1eb393d3ad2b1df15412c8e0209afe4fe719fc6fb",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/130#pullrequestreview-5526446985"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15971/candidate-1c88e6f13a071b32b74781ff01c172f0d81b61cf84cc3292f60f790f0dfcb3c6.json",
         "sha256": "1c88e6f13a071b32b74781ff01c172f0d81b61cf84cc3292f60f790f0dfcb3c6"
