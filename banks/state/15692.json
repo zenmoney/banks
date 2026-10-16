@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-03T22:40:42.273163Z",
+  "lastAttemptAt": "2026-10-16T21:01:14.662472Z",
   "lastAttemptResult": "candidate",
   "proposals": [
     {
@@ -293,6 +293,142 @@
         "converter": "com.android.tools:sdk-common:32.4.0",
         "sourceSha256": "86d7926a93f041fe68e0ca1130f7cb3319ef500691cb405029aa524857c02e1f",
         "xmlSha256": "2b96ff343a97a4d988cdbfca6f3e18a83ca7afb1b4686f77a6a8e4f01ab0e88c"
+      }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/15692/assessed-e9dffc6ba56825954d2fc4209904f3cc0de2904a4b47cd412ac6880e2f55b3fe.json",
+        "sha256": "e9dffc6ba56825954d2fc4209904f3cc0de2904a4b47cd412ac6880e2f55b3fe"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Exact asset referenced by the currently fetched operating paypal.com homepage, post-request capture; no unsupported refresh date or old-icon obsolescence inferred.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The actual live PayPal homepage designates this exact official-CDN SVG as its header-logo; double-P belongs to the PayPal record 15692. Null country metadata remains unchanged; this is brand-level representation, not a country reassignment.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "One official first-party publication group supplies current use, exact asset and identity. There is no claim of two independent publishers. Further independent search is unnecessary for the resolved source-use gap.",
+        "uncertainties": [
+          "Accepted baseline provenance/transition date was not re-established; therefore no precise rebrand/obsolescence claim."
+        ],
+        "variant": {
+          "basis": "Current supported filled multicolor standalone monogram on original transparency. Compared with rejected outline, it has substantial filled geometry and bright blue/cyan areas; independent 24/32px both-theme references remain visible. No recolor, added backing, thickened strokes or emblem edits; final exact Compose Desktop gates still required.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d41ceb71f204b14d70e5d4cda92f016b59529894a3f75def693c0c00e86dc40e.json",
+        "sha256": "d41ceb71f204b14d70e5d4cda92f016b59529894a3f75def693c0c00e86dc40e"
+      },
+      "baseIconHash": "dc7a58d5a61511bdbe17e4b2f30c4b14e4eb841c1a03b965a9ba16a7feaeea96",
+      "candidate": {
+        "detailsJudgement": "Full original paths, three source fills and clipPath survive generated XML/offscreen Compose. Both source/final pairs agree visually; internal alpha is preserved, no missing strokes or recoloring.",
+        "faithful": true,
+        "iconHash": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
+        "path": "evidence/15692/candidate-8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027.svg",
+        "proportionsJudgement": "Original 48x48 viewport retained; complete symbol centered in the catalog icon canvas without stretch or clipping. Bound 24/32/48px diagnostics are recognizable on white and #121212; no backing or arbitrary padding added.",
+        "rationale": "Replace the rejected dark-blue thin outline with the actually used original filled three-blue double-P; preserve all source colors/geometry/transparency. This visibly changes the representation, not merely serialization, and independent source screening shows useful bright filled mass on dark.",
+        "role": "Standalone original brand monogram",
+        "sha256": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
+        "sourceAssetUrl": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg",
+        "sourceUrl": "https://www.paypal.com/de/home",
+        "transforms": [
+          "No emblem or presentation change: working/final bytes equal the 709-byte original SVG.",
+          "SVGO 4.1.0 with frozen config SHA256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e produced 784 bytes from 709; inspected faithful independent renders, but retained smaller working/source bytes."
+        ],
+        "variant": "Filled three-blue double-P on original transparency; current homepage header variant",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Accepted icon is a pale double-P inside a blue disc; final is the currently homepage-used filled three-blue monogram on transparency. Both exact theme pairs show the composition/color difference. Unlike the rejected thin outline, the source-backed filled variant has substantial bright blue/cyan areas visible at24/32px on dark."
+      },
+      "candidateIconHash": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
+      "checkedAt": "2026-10-16T21:01:14.662472Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "ca53896d09d3b9a4da9f57310c87e0879d8edabd8140b2f1e10b5eef8d8944ef",
+        "head": "bank-icon-maintenance/technical-20261016-15692",
+        "headCommit": "89f5218297d762e72cd78bc77f0c65bc93520270",
+        "number": 150,
+        "observedAt": "2026-10-16T21:10:26.809018Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: PayPal (Company.id 15692)",
+        "url": "https://github.com/zenmoney/banks/pull/150"
+      },
+      "reason": "Fresh official PayPal homepage header uses a filled three-blue double-P SVG, not the rejected thin #003087 outline. The actual original preserves #002991/#008CFF/#60CDFF and alpha without recoloring or stroke changes. Independent librsvg references show a substantially visible filled monogram on white and #121212, including 24/32 px; exact generated-XML Compose Desktop comparisons remain coordinator work. This is a supported render-repair representation, not a claim that the baseline became obsolete at an inferred rebrand date.",
+      "reviewPackage": {
+        "path": "evidence/15692/candidate-f633d8f0a76df06eba7cd5d5884d2683476464f52a8d7447bdbbc1a80ddb26d6.json",
+        "sha256": "f633d8f0a76df06eba7cd5d5884d2683476464f52a8d7447bdbbc1a80ddb26d6"
+      },
+      "sourceCandidate": {
+        "iconHash": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
+        "path": "evidence/15692/research-f3137bc8543e4e02b63dc62aa977adcf/fetch-791923d650aa455d84e6e3d744999ee9/attempt-1/body.bin",
+        "rationale": "Replace the rejected dark-blue thin outline with the actually used original filled three-blue double-P; preserve all source colors/geometry/transparency. This visibly changes the representation, not merely serialization, and independent source screening shows useful bright filled mass on dark.",
+        "retrieval": {
+          "path": "evidence/15692/research-f3137bc8543e4e02b63dc62aa977adcf/fetch-791923d650aa455d84e6e3d744999ee9/receipt.json",
+          "sha256": "e63bccbeb6d2b8ed458ccf956dbc0abc3d563d8cdbdb314f73a4ea2b2784ecf7"
+        },
+        "sourceAssetUrl": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg",
+        "sourceUrl": "https://www.paypal.com/de/home"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg",
+          "checkedAt": "2026-10-16T20:59:45.253303Z",
+          "independenceGroup": "PayPal official properties",
+          "kind": "official",
+          "observation": "Fresh HTTPS request to https://paypal.com/ redirected to the actually returned context URL https://www.paypal.com/de/home. Its data-testid=header-logo link explicitly uses paypal-mark-color_new.svg as background-image, while footer uses a separate PayPal wordmark. Thus the standalone double-P is designated as current site branding, not guessed from an unused CDN filename. Homepage receipt fetch-4c9dda8748ac4209978cf66255172207; source body retained.",
+          "url": "https://www.paypal.com/de/home"
+        },
+        {
+          "assetUrl": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg",
+          "checkedAt": "2026-10-16T20:59:45.253303Z",
+          "independenceGroup": "PayPal official properties",
+          "kind": "official",
+          "observation": "Fresh HTTPS 200 original SVG, 709 bytes, viewBox 0 0 48 48, filled three-path standalone double-P with original #002991/#60CDFF/#008CFF and source clipPath. No text, raster, script, external link or mask-hole repair. Independent librsvg source/working/optimized references and actual PNG sheet inspected at 162px and native 24/32/48px on both backgrounds. All three colors/contours/alpha agree; the bright lower-P and overlap remain distinct on dark. This does not establish Compose/XML/mobile rendering.",
+          "url": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg"
+        }
+      ],
+      "status": "open",
+      "technicalRetry": {
+        "path": "evidence/15692/technical-retry-26a422605fd142029a58ac9072fb49c3548bd5f99c8eb1fb083d146da4ff2c9f.json",
+        "sha256": "26a422605fd142029a58ac9072fb49c3548bd5f99c8eb1fb083d146da4ff2c9f"
+      },
+      "technicalRetryCoverage": {
+        "candidateIconHash": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
+        "context": {
+          "path": "evidence/15692/technical-retry-26a422605fd142029a58ac9072fb49c3548bd5f99c8eb1fb083d146da4ff2c9f.json",
+          "sha256": "26a422605fd142029a58ac9072fb49c3548bd5f99c8eb1fb083d146da4ff2c9f"
+        },
+        "coverage": [
+          {
+            "basis": "The replacement is the original filled three-blue monogram directly referenced by the current PayPal header, not the rejected thin outline. Exact source/final and Compose pairs plus bound24/32px both-theme diagnostics were inspected: complete P geometry and bright blue/cyan fills remain visible. No recoloring or stroke thickening; retained exact source bytes. Mobile unavailable is separate from these observed Desktop checks; historical audit claims are not adopted as new observations.",
+            "pass": true,
+            "requirementId": "explanation"
+          },
+          {
+            "basis": "Chose another supported ORIGINAL representation from the live official header. Source/final comparison preserves its complete original contours/colors/alpha; actual XML/Compose output and resized24/32px diagnostics on BOTH backgrounds are legible. No arbitrary paint/stroke change, tracing or mask repair. Thus the specified contrast and representation defect is addressed, not excused as a warning.",
+            "pass": true,
+            "requirementId": "requirement-1"
+          },
+          {
+            "basis": "Official URL alone was not used as suitability proof: confirmed actual header-logo role, then inspected original-vs-final and accepted-base-vs-final on both themes and actual-frame24/32px diagnostics. Filled cyan/bright-blue areas preserve recognition on dark; final is different in geometry/paint from the rejected outline. No permanent bank rejection or blanket lettering rule inferred.",
+            "pass": true,
+            "requirementId": "rationale"
+          }
+        ],
+        "xmlSha256": "5b3e2f612f058c7f774594adae68de31e0ef28cc380a051645b359425f9e61bc"
+      },
+      "verification": {
+        "checkedAt": "2026-10-16T21:03:21.952919Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
+        "xmlSha256": "5b3e2f612f058c7f774594adae68de31e0ef28cc380a051645b359425f9e61bc"
       }
     }
   ],
