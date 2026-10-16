@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T06:35:26.027830Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T06:40:49.387891Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "338f73e487450cdf196331517e6a985e2d39338c",
+      "acceptedIconHash": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a",
       "agentAssessment": {
         "path": "evidence/15362/assessed-e8980435a556068bfc20e97e1c980ea5157c18f4514bed7cc89f41a415cae597.json",
         "sha256": "e8980435a556068bfc20e97e1c980ea5157c18f4514bed7cc89f41a415cae597"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/13ly3qmb-15362",
         "headCommit": "338f73e487450cdf196331517e6a985e2d39338c",
         "number": 47,
-        "observedAt": "2026-10-03T07:05:44.108737Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:29:10.214132Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: МТБанк (Company.id 15362)",
         "url": "https://github.com/zenmoney/banks/pull/47"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8e835451360a08dc870847d05dca4fcecce9662c2a9581f0b650ceca07462391",
+          "head": "bank-icon-maintenance/13ly3qmb-15362",
+          "headCommit": "338f73e487450cdf196331517e6a985e2d39338c",
+          "number": 47,
+          "observedAt": "2026-10-03T07:05:44.108737Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МТБанк (Company.id 15362)",
+          "url": "https://github.com/zenmoney/banks/pull/47"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8e835451360a08dc870847d05dca4fcecce9662c2a9581f0b650ceca07462391",
+        "closedAt": "2026-10-15T14:32:16Z",
+        "head": "bank-icon-maintenance/13ly3qmb-15362",
+        "headCommit": "338f73e487450cdf196331517e6a985e2d39338c",
+        "mergeCommit": "8468bfbb01b1ccc2b2cd2851c458531cf7242c76",
+        "mergedAt": "2026-10-15T14:32:16Z",
+        "number": 47,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МТБанк (Company.id 15362)",
+        "url": "https://github.com/zenmoney/banks/pull/47"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:29:10.214132Z",
+        "proof": {
+          "accepted": {
+            "commit": "8468bfbb01b1ccc2b2cd2851c458531cf7242c76",
+            "iconHash": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a",
+            "metadataHash": "cd1dbe829a500508144476d006d2a3ef083e9602653c66f7e3fcee59a9a2a6b6"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a",
+            "metadataHash": "cd1dbe829a500508144476d006d2a3ef083e9602653c66f7e3fcee59a9a2a6b6"
+          },
+          "path": "banks/МТБанк_15362-by/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "338f73e487450cdf196331517e6a985e2d39338c",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8e835451360a08dc870847d05dca4fcecce9662c2a9581f0b650ceca07462391",
+          "closedAt": "2026-10-15T14:32:16Z",
+          "head": "bank-icon-maintenance/13ly3qmb-15362",
+          "headCommit": "338f73e487450cdf196331517e6a985e2d39338c",
+          "mergeCommit": "8468bfbb01b1ccc2b2cd2851c458531cf7242c76",
+          "mergedAt": "2026-10-15T14:32:16Z",
+          "number": 47,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МТБанк (Company.id 15362)",
+          "url": "https://github.com/zenmoney/banks/pull/47"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official bank announced a logo rebrand on 9 July 2026 and currently uses the new blue/red/orange emblem in its website header. The accepted SVG instead contains the earlier blue/red multi-ray geometry. Original source vector is retained; isolate the standalone emblem without altering its geometry before candidate rendering.",
       "reviewPackage": {
@@ -103,7 +173,7 @@
           "url": "https://www.mtbank.by/about/news/ot-smeny-logotipa-do-obnovlennoy-filosofii-mtbank-obyavil-o-rebrendinge-1183678-p/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T06:40:49.387891Z",
         "compose": "1.12.0",
@@ -113,5 +183,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "cc8ae38d8724d614efe5ad93a6b1225833ed199cc587207bd83ac19d87aab41a"
 }

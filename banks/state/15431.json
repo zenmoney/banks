@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T09:49:19.790588Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T09:50:52.883214Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "c2cf405a5eb64b0106c2550fe6625e8c33a9c593",
+      "acceptedIconHash": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b",
       "agentAssessment": {
         "path": "evidence/15431/assessed-2126faaaaa6de2bb387f01eb3753d3cd7bf416fefba7f667636dda188bb529ad.json",
         "sha256": "2126faaaaa6de2bb387f01eb3753d3cd7bf416fefba7f667636dda188bb529ad"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15431",
         "headCommit": "c2cf405a5eb64b0106c2550fe6625e8c33a9c593",
         "number": 50,
-        "observedAt": "2026-10-03T10:01:52.646207Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:29:17.156479Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Русфинанс Банк (Company.id 15431)",
         "url": "https://github.com/zenmoney/banks/pull/50"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "57bcd538c8d257d543b3fec5c980aa121bfe6ad158e132ea88c44750ce173b5e",
+          "head": "bank-icon-maintenance/15431",
+          "headCommit": "c2cf405a5eb64b0106c2550fe6625e8c33a9c593",
+          "number": 50,
+          "observedAt": "2026-10-03T10:01:52.646207Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Русфинанс Банк (Company.id 15431)",
+          "url": "https://github.com/zenmoney/banks/pull/50"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "57bcd538c8d257d543b3fec5c980aa121bfe6ad158e132ea88c44750ce173b5e",
+        "closedAt": "2026-10-15T14:32:42Z",
+        "head": "bank-icon-maintenance/15431",
+        "headCommit": "c2cf405a5eb64b0106c2550fe6625e8c33a9c593",
+        "mergeCommit": "7399fdd2e4a0433b674064a84dbe03d9257feed0",
+        "mergedAt": "2026-10-15T14:32:42Z",
+        "number": 50,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Русфинанс Банк (Company.id 15431)",
+        "url": "https://github.com/zenmoney/banks/pull/50"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:29:17.156479Z",
+        "proof": {
+          "accepted": {
+            "commit": "7399fdd2e4a0433b674064a84dbe03d9257feed0",
+            "iconHash": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b",
+            "metadataHash": "ee26834c62955002f8e2c184c23819a047f4c8e1ff7e354a847da6229177c993"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b",
+            "metadataHash": "ee26834c62955002f8e2c184c23819a047f4c8e1ff7e354a847da6229177c993"
+          },
+          "path": "banks/Русфинанс Банк_15431-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "c2cf405a5eb64b0106c2550fe6625e8c33a9c593",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "57bcd538c8d257d543b3fec5c980aa121bfe6ad158e132ea88c44750ce173b5e",
+          "closedAt": "2026-10-15T14:32:42Z",
+          "head": "bank-icon-maintenance/15431",
+          "headCommit": "c2cf405a5eb64b0106c2550fe6625e8c33a9c593",
+          "mergeCommit": "7399fdd2e4a0433b674064a84dbe03d9257feed0",
+          "mergedAt": "2026-10-15T14:32:42Z",
+          "number": 50,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Русфинанс Банк (Company.id 15431)",
+          "url": "https://github.com/zenmoney/banks/pull/50"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The accepted icon approximates the bank's final-period official mark with off-brand colors: baseline #de4149/#221f20 versus the official #E4032E red and black. The official desktop header logo SVG (served by the bank's own API api.rusfinancebank.ru, archived by the Internet Archive on 2020-12-25) is a genuine original vector whose standalone symbol (red block over black block with white slot) is square-cell suitable; extracting it corrects the palette while preserving the emblem geometry. Historical record: the bank merged into ПАО Росбанк (CBR decision 17.12.2020, ceased 01.03.2021), so the 2020 branding is the relevant period; the current РФК-банк is a different entity.",
       "reviewPackage": {
@@ -100,7 +170,7 @@
           "url": "https://cbr.ru/finorg/foinfo/?ogrn=1026300001991"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T09:50:52.883214Z",
         "compose": "1.12.0",
@@ -110,5 +180,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "e82403742524479162c9cdfb7188b2c3ff93670e1e8076e5db7d22f2af99758b"
 }
