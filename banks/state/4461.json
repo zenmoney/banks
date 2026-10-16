@@ -61,13 +61,66 @@
         "head": "bank-icon-maintenance/4461",
         "headCommit": "ba73753e216f71175dfaf13a600576265d2116b0",
         "number": 28,
-        "observedAt": "2026-10-02T16:42:52.415277Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:39.828744Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: СНГБ (Company.id 4461)",
         "url": "https://github.com/zenmoney/banks/pull/28"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "fc710d70e99a59b2a8379a5660584aaf0415f8e0f3edf29c96ea5f038d21cc44",
+          "head": "bank-icon-maintenance/4461",
+          "headCommit": "ba73753e216f71175dfaf13a600576265d2116b0",
+          "number": 28,
+          "observedAt": "2026-10-02T16:42:52.415277Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: СНГБ (Company.id 4461)",
+          "url": "https://github.com/zenmoney/banks/pull/28"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "fc710d70e99a59b2a8379a5660584aaf0415f8e0f3edf29c96ea5f038d21cc44",
+        "closedAt": "2026-10-15T13:45:47Z",
+        "head": "bank-icon-maintenance/4461",
+        "headCommit": "ba73753e216f71175dfaf13a600576265d2116b0",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 28,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: СНГБ (Company.id 4461)",
+        "url": "https://github.com/zenmoney/banks/pull/28"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:39:39.828744Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "fc710d70e99a59b2a8379a5660584aaf0415f8e0f3edf29c96ea5f038d21cc44",
+          "closedAt": "2026-10-15T13:45:47Z",
+          "head": "bank-icon-maintenance/4461",
+          "headCommit": "ba73753e216f71175dfaf13a600576265d2116b0",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 28,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: СНГБ (Company.id 4461)",
+          "url": "https://github.com/zenmoney/banks/pull/28"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Original vector found on the operating bank's official site: https://www.sngb.ru/local/templates/sngb/assets/cd91b177/img/logo.svg, an Illustrator-exported header lockup (blue rhombus emblem with yellow lens + СНГБ wordmark + slogan). The standalone emblem is losslessly separable (2 of 6 top-level paths). The bank is active (CBR registry reg. 588, ACRA Feb-2026), so the current site asset is the relevant current presentation.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4461/candidate-f06f078a96025f286be4919540a2a305b27da002096db399be864260d6e8b011.json",
         "sha256": "f06f078a96025f286be4919540a2a305b27da002096db399be864260d6e8b011"
@@ -113,7 +166,7 @@
           "url": "https://www.acra-ratings.ru/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T16:38:54.095759Z",
         "compose": "1.12.0",

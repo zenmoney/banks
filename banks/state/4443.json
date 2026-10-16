@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-01T18:53:14.815721Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-01T18:58:20.428568Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "286fe1d5f21f9ef8bafa85e96a397df58a10bab0",
+      "acceptedIconHash": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647",
       "agentAssessment": {
         "path": "evidence/4443/assessed-729485256c35b400ac0a2a2dc0dde7b1d170dfce939e1243e56da4fc18ea61a5.json",
         "sha256": "729485256c35b400ac0a2a2dc0dde7b1d170dfce939e1243e56da4fc18ea61a5"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/4443",
         "headCommit": "286fe1d5f21f9ef8bafa85e96a397df58a10bab0",
         "number": 3,
-        "observedAt": "2026-10-01T19:04:57.849502Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:37.350260Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Челябинвестбанк (Company.id 4443)",
         "url": "https://github.com/zenmoney/banks/pull/3"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "3a58b7c484e49703cc99e340f8850911d484849cd43dbea89e548ccbc0fb5653",
+          "head": "bank-icon-maintenance/4443",
+          "headCommit": "286fe1d5f21f9ef8bafa85e96a397df58a10bab0",
+          "number": 3,
+          "observedAt": "2026-10-01T19:04:57.849502Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Челябинвестбанк (Company.id 4443)",
+          "url": "https://github.com/zenmoney/banks/pull/3"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "3a58b7c484e49703cc99e340f8850911d484849cd43dbea89e548ccbc0fb5653",
+        "closedAt": "2026-10-15T14:29:22Z",
+        "head": "bank-icon-maintenance/4443",
+        "headCommit": "286fe1d5f21f9ef8bafa85e96a397df58a10bab0",
+        "mergeCommit": "0ff7b673c9da3a43d7e2d206542671c6b9a03d38",
+        "mergedAt": "2026-10-15T14:29:22Z",
+        "number": 3,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Челябинвестбанк (Company.id 4443)",
+        "url": "https://github.com/zenmoney/banks/pull/3"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:37.350260Z",
+        "proof": {
+          "accepted": {
+            "commit": "0ff7b673c9da3a43d7e2d206542671c6b9a03d38",
+            "iconHash": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647",
+            "metadataHash": "8d3414f08f7894dc423a1b5d675da49fd842cd1c0cf8c20bad3de8a1cb6ad965"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647",
+            "metadataHash": "8d3414f08f7894dc423a1b5d675da49fd842cd1c0cf8c20bad3de8a1cb6ad965"
+          },
+          "path": "banks/Челябинвестбанк_4443-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "286fe1d5f21f9ef8bafa85e96a397df58a10bab0",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "3a58b7c484e49703cc99e340f8850911d484849cd43dbea89e548ccbc0fb5653",
+          "closedAt": "2026-10-15T14:29:22Z",
+          "head": "bank-icon-maintenance/4443",
+          "headCommit": "286fe1d5f21f9ef8bafa85e96a397df58a10bab0",
+          "mergeCommit": "0ff7b673c9da3a43d7e2d206542671c6b9a03d38",
+          "mergedAt": "2026-10-15T14:29:22Z",
+          "number": 3,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Челябинвестбанк (Company.id 4443)",
+          "url": "https://github.com/zenmoney/banks/pull/3"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current standalone mark (chelinvest.ru logo-short.svg) has identical geometry to the catalog icon but the correct brand gold #C8AF64, while the catalog icon uses off-brand olive #A99B69. Supported color correction.",
       "reviewPackage": {
@@ -125,7 +195,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B1%D0%B0%D0%BD%D0%BA%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-01T18:58:20.428568Z",
         "compose": "1.12.0",
@@ -135,5 +205,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "73c614bb0fcf95da60e134fa2ba4374f36c37fb3026d7bc9299cc1cab8339647"
 }

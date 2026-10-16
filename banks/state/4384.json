@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-02T11:20:32.159985Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-02T11:24:03.853458Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1f8292d47817332b61858b4fb9df461e139dffaa",
+      "acceptedIconHash": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae",
       "agentAssessment": {
         "path": "evidence/4384/assessed-0c55c0d44221cbee9f6643ac726c157baa6c91b2e9fef1d38551b03473064e7e.json",
         "sha256": "0c55c0d44221cbee9f6643ac726c157baa6c91b2e9fef1d38551b03473064e7e"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/4384",
         "headCommit": "1f8292d47817332b61858b4fb9df461e139dffaa",
         "number": 20,
-        "observedAt": "2026-10-02T11:28:21.062642Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:22.891182Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: МОРСКОЙ БАНК (Company.id 4384)",
         "url": "https://github.com/zenmoney/banks/pull/20"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ccf6fc908c42cec79bb98be2a4b6cdc122b873f4a43a0dad55b8c08a68965e53",
+          "head": "bank-icon-maintenance/4384",
+          "headCommit": "1f8292d47817332b61858b4fb9df461e139dffaa",
+          "number": 20,
+          "observedAt": "2026-10-02T11:28:21.062642Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МОРСКОЙ БАНК (Company.id 4384)",
+          "url": "https://github.com/zenmoney/banks/pull/20"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ccf6fc908c42cec79bb98be2a4b6cdc122b873f4a43a0dad55b8c08a68965e53",
+        "closedAt": "2026-10-15T14:30:43Z",
+        "head": "bank-icon-maintenance/4384",
+        "headCommit": "1f8292d47817332b61858b4fb9df461e139dffaa",
+        "mergeCommit": "54748f61858e918dc14723d4d7586c591b564121",
+        "mergedAt": "2026-10-15T14:30:43Z",
+        "number": 20,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МОРСКОЙ БАНК (Company.id 4384)",
+        "url": "https://github.com/zenmoney/banks/pull/20"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:22.891182Z",
+        "proof": {
+          "accepted": {
+            "commit": "54748f61858e918dc14723d4d7586c591b564121",
+            "iconHash": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae",
+            "metadataHash": "4e9c5a7f0ad3c83ea40a60f82d0a729d5309d063e2896db79915c5a73181ce15"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae",
+            "metadataHash": "4e9c5a7f0ad3c83ea40a60f82d0a729d5309d063e2896db79915c5a73181ce15"
+          },
+          "path": "banks/МОРСКОЙ БАНК_4384-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1f8292d47817332b61858b4fb9df461e139dffaa",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ccf6fc908c42cec79bb98be2a4b6cdc122b873f4a43a0dad55b8c08a68965e53",
+          "closedAt": "2026-10-15T14:30:43Z",
+          "head": "bank-icon-maintenance/4384",
+          "headCommit": "1f8292d47817332b61858b4fb9df461e139dffaa",
+          "mergeCommit": "54748f61858e918dc14723d4d7586c591b564121",
+          "mergedAt": "2026-10-15T14:30:43Z",
+          "number": 20,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МОРСКОЙ БАНК (Company.id 4384)",
+          "url": "https://github.com/zenmoney/banks/pull/20"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official standalone vector mark found on the operating bank's site: https://maritimebank.com/favicon.svg (200x200 globe-with-sail emblem, blues #04396B/#053A6B/#083C6D on a #FAFBFC rounded-square field). Same emblem appears at the left of the header lockup logo.svg, confirming it as the bank mark rather than a generic favicon.",
       "reviewPackage": {
@@ -98,7 +168,7 @@
           "url": "https://maritimebank.com/local/templates/main/images/logo.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T11:24:03.853458Z",
         "compose": "1.12.0",
@@ -108,5 +178,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "bbc52c51f792f47a14f07c8cc1d97b0de6efa89c821d7fb22fa676c8e53685ae"
 }

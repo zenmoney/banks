@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/4416",
         "headCommit": "9a2a4ee18e40ef6916684aabfd0c36e8717fdae4",
         "number": 24,
-        "observedAt": "2026-10-02T14:04:12.040304Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:31.681293Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк \"Саратов\" (Company.id 4416)",
         "url": "https://github.com/zenmoney/banks/pull/24"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "72393382031da591820df92bf6320ed8931be83f43d3409ee521019179fdfc3e",
+          "head": "bank-icon-maintenance/4416",
+          "headCommit": "9a2a4ee18e40ef6916684aabfd0c36e8717fdae4",
+          "number": 24,
+          "observedAt": "2026-10-02T14:04:12.040304Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Саратов\" (Company.id 4416)",
+          "url": "https://github.com/zenmoney/banks/pull/24"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "72393382031da591820df92bf6320ed8931be83f43d3409ee521019179fdfc3e",
+        "closedAt": "2026-10-16T09:42:26Z",
+        "head": "bank-icon-maintenance/4416",
+        "headCommit": "9a2a4ee18e40ef6916684aabfd0c36e8717fdae4",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 24,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Саратов\" (Company.id 4416)",
+        "url": "https://github.com/zenmoney/banks/pull/24"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:39:31.681293Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "72393382031da591820df92bf6320ed8931be83f43d3409ee521019179fdfc3e",
+          "closedAt": "2026-10-16T09:42:26Z",
+          "head": "bank-icon-maintenance/4416",
+          "headCommit": "9a2a4ee18e40ef6916684aabfd0c36e8717fdae4",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 24,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Саратов\" (Company.id 4416)",
+          "url": "https://github.com/zenmoney/banks/pull/24"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "No existing icon at frozen base; official original vector has separable standalone emblem suitable for first addition. Full horizontal lockup itself is not the proposed icon.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4416/candidate-e7de7c56ecf7dbe6186d3296f7aede2d3549a43e889ad5b54e190b65fcf93fb8.json",
         "sha256": "e7de7c56ecf7dbe6186d3296f7aede2d3549a43e889ad5b54e190b65fcf93fb8"
@@ -101,7 +154,7 @@
           "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1026400002089"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T14:00:45.255941Z",
         "compose": "1.12.0",

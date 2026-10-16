@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-05T00:56:37.628646Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-05T00:59:16.281177Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "b643852bce960572bd076fcbdbbe2cb0ec544d32",
+      "acceptedIconHash": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317",
       "agentAssessment": {
         "path": "evidence/16201/assessed-ecad360664c0ef1f9866c56d5b2475aabd553cca806824985fe7440e667ae352.json",
         "sha256": "ecad360664c0ef1f9866c56d5b2475aabd553cca806824985fe7440e667ae352"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/bank-icon-16201",
         "headCommit": "b643852bce960572bd076fcbdbbe2cb0ec544d32",
         "number": 143,
-        "observedAt": "2026-10-05T01:10:48.747929Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:08.681725Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: BingX (Company.id 16201)",
         "url": "https://github.com/zenmoney/banks/pull/143"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "bd42be57ad4feae3a16412a3d2fdda612653c12300ea371c38fa942f62ad64fe",
+          "head": "bank-icon-maintenance/bank-icon-16201",
+          "headCommit": "b643852bce960572bd076fcbdbbe2cb0ec544d32",
+          "number": 143,
+          "observedAt": "2026-10-05T01:10:48.747929Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BingX (Company.id 16201)",
+          "url": "https://github.com/zenmoney/banks/pull/143"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "bd42be57ad4feae3a16412a3d2fdda612653c12300ea371c38fa942f62ad64fe",
+        "closedAt": "2026-10-15T14:42:48Z",
+        "head": "bank-icon-maintenance/bank-icon-16201",
+        "headCommit": "b643852bce960572bd076fcbdbbe2cb0ec544d32",
+        "mergeCommit": "b7c2acc09454488f7d60a797aa5a982c41f391ef",
+        "mergedAt": "2026-10-15T14:42:48Z",
+        "number": 143,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BingX (Company.id 16201)",
+        "url": "https://github.com/zenmoney/banks/pull/143"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:08.681725Z",
+        "proof": {
+          "accepted": {
+            "commit": "b7c2acc09454488f7d60a797aa5a982c41f391ef",
+            "iconHash": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317",
+            "metadataHash": "c05b7010f75641c21f19febfd7eade7350419b95985cbcd5334b3bb300c8a7f4"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317",
+            "metadataHash": "c05b7010f75641c21f19febfd7eade7350419b95985cbcd5334b3bb300c8a7f4"
+          },
+          "path": "banks/BingX_16201-unknown/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "b643852bce960572bd076fcbdbbe2cb0ec544d32",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "bd42be57ad4feae3a16412a3d2fdda612653c12300ea371c38fa942f62ad64fe",
+          "closedAt": "2026-10-15T14:42:48Z",
+          "head": "bank-icon-maintenance/bank-icon-16201",
+          "headCommit": "b643852bce960572bd076fcbdbbe2cb0ec544d32",
+          "mergeCommit": "b7c2acc09454488f7d60a797aa5a982c41f391ef",
+          "mergedAt": "2026-10-15T14:42:48Z",
+          "number": 143,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BingX (Company.id 16201)",
+          "url": "https://github.com/zenmoney/banks/pull/143"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official BingX standalone mark is the blue X glyph (two interlocking curved strokes, #2A54FF with a subtle radial-gradient overlay), published as original vector in BingX's own GitHub docs repo (BingX-API/docs-v3 static/logo.svg lockup, mark subset) and confirmed as the current variant by bingx.com favicon.ico (blue X on transparent, #0047FF-rendered) and apple-touch-icon.png (white X on blue field). The accepted SVG presents the same X motif cut out of a solid blue circle — a presentation variant that does not match any observed current official standalone presentation. Supported current-design update to the official standalone mark.",
       "reviewPackage": {
@@ -122,7 +192,7 @@
           "url": "https://agent.bingx.com/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-05T00:59:16.281177Z",
         "compose": "1.12.0",
@@ -132,5 +202,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "8db1acf5a2de39d7482880a1fc4d388146a0cfed2b5089652287aac80b229317"
 }

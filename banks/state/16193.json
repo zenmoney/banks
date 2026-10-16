@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-05T00:22:25.986547Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-05T00:26:07.267371Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "6781a958847c672b6013902108fb2c681d4abc18",
+      "acceptedIconHash": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a",
       "agentAssessment": {
         "path": "evidence/16193/assessed-55e50f8636d81cfdaf5d6d58436a4c57c268a9bdcda8e0a6e3c24f364b629808.json",
         "sha256": "55e50f8636d81cfdaf5d6d58436a4c57c268a9bdcda8e0a6e3c24f364b629808"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/16193",
         "headCommit": "6781a958847c672b6013902108fb2c681d4abc18",
         "number": 141,
-        "observedAt": "2026-10-05T00:38:31.020601Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:01.884182Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Jupiter Card (Company.id 16193)",
         "url": "https://github.com/zenmoney/banks/pull/141"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "6ba13bc815736f04b05feaa31cdeadb1476e1b617d3b68fef1df372a54ccab73",
+          "head": "bank-icon-maintenance/16193",
+          "headCommit": "6781a958847c672b6013902108fb2c681d4abc18",
+          "number": 141,
+          "observedAt": "2026-10-05T00:38:31.020601Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Jupiter Card (Company.id 16193)",
+          "url": "https://github.com/zenmoney/banks/pull/141"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "6ba13bc815736f04b05feaa31cdeadb1476e1b617d3b68fef1df372a54ccab73",
+        "closedAt": "2026-10-15T14:42:27Z",
+        "head": "bank-icon-maintenance/16193",
+        "headCommit": "6781a958847c672b6013902108fb2c681d4abc18",
+        "mergeCommit": "15f4d4a726c6a52bc48293f340af6bedccecfa4a",
+        "mergedAt": "2026-10-15T14:42:27Z",
+        "number": 141,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Jupiter Card (Company.id 16193)",
+        "url": "https://github.com/zenmoney/banks/pull/141"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:01.884182Z",
+        "proof": {
+          "accepted": {
+            "commit": "15f4d4a726c6a52bc48293f340af6bedccecfa4a",
+            "iconHash": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a",
+            "metadataHash": "076d3c0c9e8263fad0f2b9508b32766a9c4af5ee8e49ed991d9d3c8df8994e1e"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a",
+            "metadataHash": "076d3c0c9e8263fad0f2b9508b32766a9c4af5ee8e49ed991d9d3c8df8994e1e"
+          },
+          "path": "banks/Jupiter Card_16193-unknown/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "6781a958847c672b6013902108fb2c681d4abc18",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "6ba13bc815736f04b05feaa31cdeadb1476e1b617d3b68fef1df372a54ccab73",
+          "closedAt": "2026-10-15T14:42:27Z",
+          "head": "bank-icon-maintenance/16193",
+          "headCommit": "6781a958847c672b6013902108fb2c681d4abc18",
+          "mergeCommit": "15f4d4a726c6a52bc48293f340af6bedccecfa4a",
+          "mergedAt": "2026-10-15T14:42:27Z",
+          "number": 141,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Jupiter Card (Company.id 16193)",
+          "url": "https://github.com/zenmoney/banks/pull/141"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Jupiter Card is the active Visa debit card product of Jupiter (jup.ag); the card is presented under the main Jupiter brand (official docs confirm the product and its placement under Jupiter Spend; no Card-specific logo exists — card pages use the Jupiter brand). The accepted icon is the retired 2021-era Jupiter Exchange 'J' monogram on a coral disc, which no longer matches the current Jupiter identity: the striped cat-planet disc mark, published as original SVGs in the official brand kit (JupiterLogo/logo-bright.svg) and used as the current jup.ag favicon/site mark. Evidenced rebrand of the same brand supports an update; the coral 'J' is not the current mark.",
       "reviewPackage": {
@@ -112,7 +182,7 @@
           "url": "https://docs.jup.ag/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-05T00:26:07.267371Z",
         "compose": "1.12.0",
@@ -122,5 +192,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "80a1649b4ea962297570a6d875916afefa8acfa6a57ab4313176752774ffd83a"
 }

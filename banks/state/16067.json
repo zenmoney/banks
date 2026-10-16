@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T22:16:33.224763Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T22:17:55.226Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "f081bea07349c2307aff1fed079ff4bd15954f76",
+      "acceptedIconHash": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0",
       "agentAssessment": {
         "path": "evidence/16067/assessed-bfa19189f34e8c37e06cb13c1c284a883b0d703bf82e6dda735dd309dd7b447d.json",
         "sha256": "bfa19189f34e8c37e06cb13c1c284a883b0d703bf82e6dda735dd309dd7b447d"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/16067",
         "headCommit": "f081bea07349c2307aff1fed079ff4bd15954f76",
         "number": 139,
-        "observedAt": "2026-10-04T22:28:39.592057Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:38:57.784079Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Solana (Company.id 16067)",
         "url": "https://github.com/zenmoney/banks/pull/139"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "44136c9e10de69b26e8ece4048fc3b3d17749d9ff5538cc6598a65e503552c42",
+          "head": "bank-icon-maintenance/16067",
+          "headCommit": "f081bea07349c2307aff1fed079ff4bd15954f76",
+          "number": 139,
+          "observedAt": "2026-10-04T22:28:39.592057Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Solana (Company.id 16067)",
+          "url": "https://github.com/zenmoney/banks/pull/139"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "44136c9e10de69b26e8ece4048fc3b3d17749d9ff5538cc6598a65e503552c42",
+        "closedAt": "2026-10-15T14:42:19Z",
+        "head": "bank-icon-maintenance/16067",
+        "headCommit": "f081bea07349c2307aff1fed079ff4bd15954f76",
+        "mergeCommit": "cbbdddd97217d71d91bd4c83d708ece71f95699a",
+        "mergedAt": "2026-10-15T14:42:19Z",
+        "number": 139,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Solana (Company.id 16067)",
+        "url": "https://github.com/zenmoney/banks/pull/139"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:38:57.784079Z",
+        "proof": {
+          "accepted": {
+            "commit": "cbbdddd97217d71d91bd4c83d708ece71f95699a",
+            "iconHash": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0",
+            "metadataHash": "63bd33c20cd37656ea7331c0900dfadc904dddb5c740be40891985a646a40011"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0",
+            "metadataHash": "63bd33c20cd37656ea7331c0900dfadc904dddb5c740be40891985a646a40011"
+          },
+          "path": "banks/Solana_16067-unknown/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "f081bea07349c2307aff1fed079ff4bd15954f76",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "44136c9e10de69b26e8ece4048fc3b3d17749d9ff5538cc6598a65e503552c42",
+          "closedAt": "2026-10-15T14:42:19Z",
+          "head": "bank-icon-maintenance/16067",
+          "headCommit": "f081bea07349c2307aff1fed079ff4bd15954f76",
+          "mergeCommit": "cbbdddd97217d71d91bd4c83d708ece71f95699a",
+          "mergedAt": "2026-10-15T14:42:19Z",
+          "number": 139,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Solana (Company.id 16067)",
+          "url": "https://github.com/zenmoney/banks/pull/139"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The official Solana brand page (solana.com/branding) publishes the gradient three-bar logomark on transparent as the standalone mark, and every current official surface (apple-touch-icon, favicon, explorer favicon) uses gradient bars on dark/transparent. The accepted icon.svg is a white-bars-on-gradient-circle avatar presentation for which no first-party official evidence exists (no official Solana app on Play; branding page lists no such variant). Replacing the undocumented ecosystem avatar with the official current logomark is a source-supported correction.",
       "reviewPackage": {
@@ -102,7 +172,7 @@
           "url": "https://solana.com/branding"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T22:17:55.226Z",
         "compose": "1.12.0",
@@ -112,5 +182,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "b6a28727950cf2e338cd535285f232138d80717b57114623a8a5c013cc3968e0"
 }

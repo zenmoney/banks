@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-02T10:23:10.009119Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-02T10:29:01.595545Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1528894325a3375d9b1fbfe995e5312436851471",
+      "acceptedIconHash": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512",
       "agentAssessment": {
         "path": "evidence/4374/assessed-0df633b68d8ff5d14c4f245c6bdf16f05e1b1f821e049c2091401bffb1a80e45.json",
         "sha256": "0df633b68d8ff5d14c4f245c6bdf16f05e1b1f821e049c2091401bffb1a80e45"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/4374",
         "headCommit": "1528894325a3375d9b1fbfe995e5312436851471",
         "number": 17,
-        "observedAt": "2026-10-02T10:34:43.676167Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:12.617268Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: КАБ \"Викинг\" (Company.id 4374)",
         "url": "https://github.com/zenmoney/banks/pull/17"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "aa89cc04252d8d34b7d0371bdb4b49dbde0c21e0568949ceebd0773ae9d3fba5",
+          "head": "bank-icon-maintenance/4374",
+          "headCommit": "1528894325a3375d9b1fbfe995e5312436851471",
+          "number": 17,
+          "observedAt": "2026-10-02T10:34:43.676167Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КАБ \"Викинг\" (Company.id 4374)",
+          "url": "https://github.com/zenmoney/banks/pull/17"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "aa89cc04252d8d34b7d0371bdb4b49dbde0c21e0568949ceebd0773ae9d3fba5",
+        "closedAt": "2026-10-15T14:30:15Z",
+        "head": "bank-icon-maintenance/4374",
+        "headCommit": "1528894325a3375d9b1fbfe995e5312436851471",
+        "mergeCommit": "e7b41e1d70b564b7e4d9992ccb1f2772864dbda8",
+        "mergedAt": "2026-10-15T14:30:15Z",
+        "number": 17,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КАБ \"Викинг\" (Company.id 4374)",
+        "url": "https://github.com/zenmoney/banks/pull/17"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:12.617268Z",
+        "proof": {
+          "accepted": {
+            "commit": "e7b41e1d70b564b7e4d9992ccb1f2772864dbda8",
+            "iconHash": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512",
+            "metadataHash": "981a98c3f5659c66d7b81d2cffa5b9e1ccb05f856edcdb641c5c45f1fcd6e632"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512",
+            "metadataHash": "981a98c3f5659c66d7b81d2cffa5b9e1ccb05f856edcdb641c5c45f1fcd6e632"
+          },
+          "path": "banks/КАБ _Викинг__4374-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1528894325a3375d9b1fbfe995e5312436851471",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "aa89cc04252d8d34b7d0371bdb4b49dbde0c21e0568949ceebd0773ae9d3fba5",
+          "closedAt": "2026-10-15T14:30:15Z",
+          "head": "bank-icon-maintenance/4374",
+          "headCommit": "1528894325a3375d9b1fbfe995e5312436851471",
+          "mergeCommit": "e7b41e1d70b564b7e4d9992ccb1f2772864dbda8",
+          "mergedAt": "2026-10-15T14:30:15Z",
+          "number": 17,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КАБ \"Викинг\" (Company.id 4374)",
+          "url": "https://github.com/zenmoney/banks/pull/17"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official original SVG mark from the bank's own current site: three chevron paths forming an abstract 'V', viewBox 0 0 104 40, fill #1D448E, no lettering. Wide lockup variants rejected for standalone suitability; Wikimedia Commons traced copy rejected for provenance.",
       "reviewPackage": {
@@ -106,7 +176,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:IBK_Viking.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T10:29:01.595545Z",
         "compose": "1.12.0",
@@ -116,5 +186,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "b975476578686059eeb2870ffffc14bf7ef9124242e8bb273f73c5405e171512"
 }

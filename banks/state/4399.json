@@ -57,13 +57,66 @@
         "head": "bank-icon-maintenance/4399",
         "headCommit": "7aaff669be1c97603340ac363d3e891df9a5b612",
         "number": 21,
-        "observedAt": "2026-10-02T12:19:44.806797Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:23.871251Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
         "url": "https://github.com/zenmoney/banks/pull/21"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "cd21ff896b353b4d708c334a10fedbc3384f2872b222b0db760520bbef3afcc3",
+          "head": "bank-icon-maintenance/4399",
+          "headCommit": "7aaff669be1c97603340ac363d3e891df9a5b612",
+          "number": 21,
+          "observedAt": "2026-10-02T12:19:44.806797Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+          "url": "https://github.com/zenmoney/banks/pull/21"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "cd21ff896b353b4d708c334a10fedbc3384f2872b222b0db760520bbef3afcc3",
+        "closedAt": "2026-10-15T13:46:14Z",
+        "head": "bank-icon-maintenance/4399",
+        "headCommit": "7aaff669be1c97603340ac363d3e891df9a5b612",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 21,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+        "url": "https://github.com/zenmoney/banks/pull/21"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:39:23.871251Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "cd21ff896b353b4d708c334a10fedbc3384f2872b222b0db760520bbef3afcc3",
+          "closedAt": "2026-10-15T13:46:14Z",
+          "head": "bank-icon-maintenance/4399",
+          "headCommit": "7aaff669be1c97603340ac363d3e891df9a5b612",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 21,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+          "url": "https://github.com/zenmoney/banks/pull/21"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "First addition for bank 4399: no icon.svg exists. Live official site uses a two-color vector mark; compact mark-only variant is a suitable standalone icon. Raster inspection and this judgment performed on 2026-10-02.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4399/candidate-7a1a7e029095d011e76e4f689b24439a4471148c5c52ea14b267f6dfb6a1e63f.json",
         "sha256": "7a1a7e029095d011e76e4f689b24439a4471148c5c52ea14b267f6dfb6a1e63f"
@@ -105,7 +158,7 @@
           "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1026200000111"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T12:15:28.567859Z",
         "compose": "1.12.0",

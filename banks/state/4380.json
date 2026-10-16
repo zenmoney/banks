@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-02T10:47:24.350782Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-02T10:51:00Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "b855b30dc86b0cee6ecbb9dc5945a15414a46cc1",
+      "acceptedIconHash": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd",
       "agentAssessment": {
         "path": "evidence/4380/assessed-3b41dc6fd2edeb645159cb67499d98d08a47dd87274ee8efd885aec3a1d6571b.json",
         "sha256": "3b41dc6fd2edeb645159cb67499d98d08a47dd87274ee8efd885aec3a1d6571b"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/4380",
         "headCommit": "b855b30dc86b0cee6ecbb9dc5945a15414a46cc1",
         "number": 18,
-        "observedAt": "2026-10-02T10:58:30.316065Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:16.429520Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк \"АЛЕКСАНДРОВСКИЙ\" (Company.id 4380)",
         "url": "https://github.com/zenmoney/banks/pull/18"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "367c017c502ee0c8122b116eacc5fe37890987423e55840dcf0681d308638f10",
+          "head": "bank-icon-maintenance/4380",
+          "headCommit": "b855b30dc86b0cee6ecbb9dc5945a15414a46cc1",
+          "number": 18,
+          "observedAt": "2026-10-02T10:58:30.316065Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"АЛЕКСАНДРОВСКИЙ\" (Company.id 4380)",
+          "url": "https://github.com/zenmoney/banks/pull/18"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "367c017c502ee0c8122b116eacc5fe37890987423e55840dcf0681d308638f10",
+        "closedAt": "2026-10-15T14:30:24Z",
+        "head": "bank-icon-maintenance/4380",
+        "headCommit": "b855b30dc86b0cee6ecbb9dc5945a15414a46cc1",
+        "mergeCommit": "09b275abbbcc469a62ba6888dd0e4c5f0af300a9",
+        "mergedAt": "2026-10-15T14:30:24Z",
+        "number": 18,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"АЛЕКСАНДРОВСКИЙ\" (Company.id 4380)",
+        "url": "https://github.com/zenmoney/banks/pull/18"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:16.429520Z",
+        "proof": {
+          "accepted": {
+            "commit": "09b275abbbcc469a62ba6888dd0e4c5f0af300a9",
+            "iconHash": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd",
+            "metadataHash": "462b9bba347cb109b15b97fef90229585e8549a62b648f86b931befb86101201"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd",
+            "metadataHash": "462b9bba347cb109b15b97fef90229585e8549a62b648f86b931befb86101201"
+          },
+          "path": "banks/Банк _АЛЕКСАНДРОВСКИЙ__4380-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "b855b30dc86b0cee6ecbb9dc5945a15414a46cc1",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "367c017c502ee0c8122b116eacc5fe37890987423e55840dcf0681d308638f10",
+          "closedAt": "2026-10-15T14:30:24Z",
+          "head": "bank-icon-maintenance/4380",
+          "headCommit": "b855b30dc86b0cee6ecbb9dc5945a15414a46cc1",
+          "mergeCommit": "09b275abbbcc469a62ba6888dd0e4c5f0af300a9",
+          "mergedAt": "2026-10-15T14:30:24Z",
+          "number": 18,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"АЛЕКСАНДРОВСКИЙ\" (Company.id 4380)",
+          "url": "https://github.com/zenmoney/banks/pull/18"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "First addition: bank record has no icon.svg. Found an original official vector (bank's own favicon.svg) whose standalone symbol is suitable for the catalog square cell.",
       "reviewPackage": {
@@ -108,7 +178,7 @@
           "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1027800000194"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T10:51:00Z",
         "compose": "1.12.0",
@@ -118,5 +188,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "8fe4ca348e35a2951fba4e01fd994bc12fa492da1f54a3605112709f581166bd"
 }

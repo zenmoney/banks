@@ -59,13 +59,66 @@
         "head": "bank-icons-3",
         "headCommit": "de214223b067a15f3674c038ff266537dc3551ae",
         "number": 1,
-        "observedAt": "2026-10-01T16:42:22.820468Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:09.492104Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Альфа-Банк (Company.id 3)",
         "url": "https://github.com/zenmoney/banks/pull/1"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "495b2f092365ec63023a87fcb42c175e9d03f6376f171a0056ba15be22a163e1",
+          "head": "bank-icons-3",
+          "headCommit": "de214223b067a15f3674c038ff266537dc3551ae",
+          "number": 1,
+          "observedAt": "2026-10-01T16:42:22.820468Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Альфа-Банк (Company.id 3)",
+          "url": "https://github.com/zenmoney/banks/pull/1"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "495b2f092365ec63023a87fcb42c175e9d03f6376f171a0056ba15be22a163e1",
+        "closedAt": "2026-10-15T14:01:14Z",
+        "head": "bank-icons-3",
+        "headCommit": "de214223b067a15f3674c038ff266537dc3551ae",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 1,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Альфа-Банк (Company.id 3)",
+        "url": "https://github.com/zenmoney/banks/pull/1"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:39:09.492104Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "495b2f092365ec63023a87fcb42c175e9d03f6376f171a0056ba15be22a163e1",
+          "closedAt": "2026-10-15T14:01:14Z",
+          "head": "bank-icons-3",
+          "headCommit": "de214223b067a15f3674c038ff266537dc3551ae",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 1,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Альфа-Банк (Company.id 3)",
+          "url": "https://github.com/zenmoney/banks/pull/1"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Found the current official standalone app icon of Альфа-Банк: full-bleed red square (#EF3124) with white 'А' + underscore, from the bank's own RuStore listing of ru.alfabank.mobile.android, verified visually 2026-10-01. The accepted SVG shows the same А+underscore mark on a red circle — an outdated composition vs the documented red-square brand mark. Candidate asset is raster only (368x368 PNG); no official vector was retrievable (brandbook PDF exceeds the 16 MiB helper cap; alfabank.ru asset pages HTTP 403).",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/3/candidate-fef1cc8e68fc33cdfd7bd0c04c9bc6f8831e3607a4516c1ef24443af5cf4a5ff.json",
         "sha256": "fef1cc8e68fc33cdfd7bd0c04c9bc6f8831e3607a4516c1ef24443af5cf4a5ff"
@@ -123,7 +176,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-01T16:34:12.099170Z",
         "compose": "1.12.0",

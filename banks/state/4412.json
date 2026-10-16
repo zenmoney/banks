@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-01T18:23:27.878117Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-01T18:29:07.956404Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "38537f74136878d3de3250ceb7ee6e9cf39a8e31",
+      "acceptedIconHash": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81",
       "agentAssessment": {
         "path": "evidence/4412/assessed-ca20ac0bd6d0709319b8d0da71b65941044d56057f0c6453aa6d1e2bab02299d.json",
         "sha256": "ca20ac0bd6d0709319b8d0da71b65941044d56057f0c6453aa6d1e2bab02299d"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/4412",
         "headCommit": "38537f74136878d3de3250ceb7ee6e9cf39a8e31",
         "number": 2,
-        "observedAt": "2026-10-01T18:34:20.527193Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:30.876282Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ХОУМ БАНК (Company.id 4412)",
         "url": "https://github.com/zenmoney/banks/pull/2"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "3a640613eecb6538a9c3967679c7d295e1a7e2aaca9bf72b8567a9547da50a80",
+          "head": "bank-icon-maintenance/4412",
+          "headCommit": "38537f74136878d3de3250ceb7ee6e9cf39a8e31",
+          "number": 2,
+          "observedAt": "2026-10-01T18:34:20.527193Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ХОУМ БАНК (Company.id 4412)",
+          "url": "https://github.com/zenmoney/banks/pull/2"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "3a640613eecb6538a9c3967679c7d295e1a7e2aaca9bf72b8567a9547da50a80",
+        "closedAt": "2026-10-15T14:27:18Z",
+        "head": "bank-icon-maintenance/4412",
+        "headCommit": "38537f74136878d3de3250ceb7ee6e9cf39a8e31",
+        "mergeCommit": "7eb9a72209e9488e739ada9898ca459048ab050e",
+        "mergedAt": "2026-10-15T14:27:18Z",
+        "number": 2,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ХОУМ БАНК (Company.id 4412)",
+        "url": "https://github.com/zenmoney/banks/pull/2"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:30.876282Z",
+        "proof": {
+          "accepted": {
+            "commit": "7eb9a72209e9488e739ada9898ca459048ab050e",
+            "iconHash": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81",
+            "metadataHash": "49cfd5e5fd19c2d7ab0ea556f1e924e8a90b7d634ea71a6519793eca6ad6bcc7"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81",
+            "metadataHash": "49cfd5e5fd19c2d7ab0ea556f1e924e8a90b7d634ea71a6519793eca6ad6bcc7"
+          },
+          "path": "banks/ХОУМ БАНК_4412-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "38537f74136878d3de3250ceb7ee6e9cf39a8e31",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "3a640613eecb6538a9c3967679c7d295e1a7e2aaca9bf72b8567a9547da50a80",
+          "closedAt": "2026-10-15T14:27:18Z",
+          "head": "bank-icon-maintenance/4412",
+          "headCommit": "38537f74136878d3de3250ceb7ee6e9cf39a8e31",
+          "mergeCommit": "7eb9a72209e9488e739ada9898ca459048ab050e",
+          "mergedAt": "2026-10-15T14:27:18Z",
+          "number": 2,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ХОУМ БАНК (Company.id 4412)",
+          "url": "https://github.com/zenmoney/banks/pull/2"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Historical record (Хоум банк, last independent period 2023-07-01..2025-04-07). Fetched official period favicon.svg (archived home.bank asset, capture 2024-06-06) shows the period mark: white circle with red #C8102E arc. The accepted SVG is an unobserved color-inverse variant (red #cd1232 circle, white arc) — supported variant/color correction candidate.",
       "reviewPackage": {
@@ -139,7 +209,7 @@
           "url": "https://web.archive.org/web/20240606014034im_/https://home.bank/upload/favicons/favicon.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-01T18:29:07.956404Z",
         "compose": "1.12.0",
@@ -149,5 +219,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "022f1a47a0bc58d09bbee2fe33fca13374d9c696a3481e82bac0be89ec2bcf81"
 }

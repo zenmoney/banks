@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-05T00:22:48.292957Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-05T00:26:17.550035Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1c07ff463351c8aa1e8642325d774f6b466c537d",
+      "acceptedIconHash": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b",
       "agentAssessment": {
         "path": "evidence/16200/assessed-cec06664a70e09c460d674bfdda4276764f0a2e3dab5498c22cd12bf51baa8b2.json",
         "sha256": "cec06664a70e09c460d674bfdda4276764f0a2e3dab5498c22cd12bf51baa8b2"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/16200",
         "headCommit": "1c07ff463351c8aa1e8642325d774f6b466c537d",
         "number": 142,
-        "observedAt": "2026-10-05T00:43:12.273360Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:05.055200Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: MEXC (Company.id 16200)",
         "url": "https://github.com/zenmoney/banks/pull/142"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b9076621c0824ddff793cc8274cb4960000dd856a30a558b8f647d459e93495b",
+          "head": "bank-icon-maintenance/16200",
+          "headCommit": "1c07ff463351c8aa1e8642325d774f6b466c537d",
+          "number": 142,
+          "observedAt": "2026-10-05T00:43:12.273360Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: MEXC (Company.id 16200)",
+          "url": "https://github.com/zenmoney/banks/pull/142"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b9076621c0824ddff793cc8274cb4960000dd856a30a558b8f647d459e93495b",
+        "closedAt": "2026-10-15T14:42:37Z",
+        "head": "bank-icon-maintenance/16200",
+        "headCommit": "1c07ff463351c8aa1e8642325d774f6b466c537d",
+        "mergeCommit": "6f671793de12533135ca2f07cf50de2a58384f4e",
+        "mergedAt": "2026-10-15T14:42:37Z",
+        "number": 142,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: MEXC (Company.id 16200)",
+        "url": "https://github.com/zenmoney/banks/pull/142"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:05.055200Z",
+        "proof": {
+          "accepted": {
+            "commit": "6f671793de12533135ca2f07cf50de2a58384f4e",
+            "iconHash": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b",
+            "metadataHash": "be99a050e945e6b9dacf3d1ccc8bdb403d48cf6313b19a71aaeda7f400c523d5"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b",
+            "metadataHash": "be99a050e945e6b9dacf3d1ccc8bdb403d48cf6313b19a71aaeda7f400c523d5"
+          },
+          "path": "banks/MEXC_16200-unknown/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1c07ff463351c8aa1e8642325d774f6b466c537d",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b9076621c0824ddff793cc8274cb4960000dd856a30a558b8f647d459e93495b",
+          "closedAt": "2026-10-15T14:42:37Z",
+          "head": "bank-icon-maintenance/16200",
+          "headCommit": "1c07ff463351c8aa1e8642325d774f6b466c537d",
+          "mergeCommit": "6f671793de12533135ca2f07cf50de2a58384f4e",
+          "mergedAt": "2026-10-15T14:42:37Z",
+          "number": 142,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: MEXC (Company.id 16200)",
+          "url": "https://github.com/zenmoney/banks/pull/142"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The accepted icon is the 2022 brand-refresh MEXC symbol (peaked 'M' in #3156AA on a black circular tile), corroborated by the Wikimedia Commons 2022-12-23 vector of that era. MEXC announced a brand upgrade on 2026-04-08 with a redrawn fluid 'M' mark in #0057FF, and the official brand-guidelines page (live 2026-10-05) serves the new mark's original SVGs — logo-mark-blue.be49f0ab479a.svg is the standalone mark. This is an evidenced rebrand of the same exchange, so an update is supported; the accepted black-tile 2022 symbol is no longer the current mark.",
       "reviewPackage": {
@@ -108,7 +178,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:Mexcglobal.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-05T00:26:17.550035Z",
         "compose": "1.12.0",
@@ -118,5 +188,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "81c82ed8b9e4c3cc59973203a5d94f02ad98fc353da458b59059fa29effc3d7b"
 }

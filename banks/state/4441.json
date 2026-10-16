@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/vbq3cbi1-4441",
         "headCommit": "25039abadcfb8c9e94cf16f4836a3000e4015c9b",
         "number": 26,
-        "observedAt": "2026-10-02T15:32:21.153010Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:33.843690Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
         "url": "https://github.com/zenmoney/banks/pull/26"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "698583f73a1492d210a91b5429ca3619bb0b9ec1c46d6169f70c54fc8e7399eb",
+          "head": "bank-icon-maintenance/vbq3cbi1-4441",
+          "headCommit": "25039abadcfb8c9e94cf16f4836a3000e4015c9b",
+          "number": 26,
+          "observedAt": "2026-10-02T15:32:21.153010Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+          "url": "https://github.com/zenmoney/banks/pull/26"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "698583f73a1492d210a91b5429ca3619bb0b9ec1c46d6169f70c54fc8e7399eb",
+        "closedAt": "2026-10-16T09:43:22Z",
+        "head": "bank-icon-maintenance/vbq3cbi1-4441",
+        "headCommit": "25039abadcfb8c9e94cf16f4836a3000e4015c9b",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 26,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+        "url": "https://github.com/zenmoney/banks/pull/26"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:39:33.843690Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "698583f73a1492d210a91b5429ca3619bb0b9ec1c46d6169f70c54fc8e7399eb",
+          "closedAt": "2026-10-16T09:43:22Z",
+          "head": "bank-icon-maintenance/vbq3cbi1-4441",
+          "headCommit": "25039abadcfb8c9e94cf16f4836a3000e4015c9b",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 26,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+          "url": "https://github.com/zenmoney/banks/pull/26"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "A current official business-account site publishes an original standalone SVG favicon matching its full ЧЕЛИНДБАНК logo. The selected bank has no baseline icon; recommend first addition, subject to coordinator candidate rendering and review.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4441/candidate-6adf40d3c1b1d3b09d66f38747ced166545f82046d0ba58a753d0fd8e4741755.json",
         "sha256": "6adf40d3c1b1d3b09d66f38747ced166545f82046d0ba58a753d0fd8e4741755"
@@ -122,7 +175,7 @@
           "url": "https://chelindbank.ru"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T15:27:54.024399Z",
         "compose": "1.12.0",

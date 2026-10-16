@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/16088",
         "headCommit": "ee0f498df7b1b7e676d311831cee0b2d9aa50f8f",
         "number": 140,
-        "observedAt": "2026-10-04T23:42:20.117588Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:38:58.683090Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Tesco Bank (Company.id 16088)",
         "url": "https://github.com/zenmoney/banks/pull/140"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0462ea9a8100a083393e4a12b692c5477b8db65069ca2444da3b0acaeb02a4c0",
+          "head": "bank-icon-maintenance/16088",
+          "headCommit": "ee0f498df7b1b7e676d311831cee0b2d9aa50f8f",
+          "number": 140,
+          "observedAt": "2026-10-04T23:42:20.117588Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Tesco Bank (Company.id 16088)",
+          "url": "https://github.com/zenmoney/banks/pull/140"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "0462ea9a8100a083393e4a12b692c5477b8db65069ca2444da3b0acaeb02a4c0",
+        "closedAt": "2026-10-14T17:07:05Z",
+        "head": "bank-icon-maintenance/16088",
+        "headCommit": "ee0f498df7b1b7e676d311831cee0b2d9aa50f8f",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 140,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Tesco Bank (Company.id 16088)",
+        "url": "https://github.com/zenmoney/banks/pull/140"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:38:58.683090Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "0462ea9a8100a083393e4a12b692c5477b8db65069ca2444da3b0acaeb02a4c0",
+          "closedAt": "2026-10-14T17:07:05Z",
+          "head": "bank-icon-maintenance/16088",
+          "headCommit": "ee0f498df7b1b7e676d311831cee0b2d9aa50f8f",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 140,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Tesco Bank (Company.id 16088)",
+          "url": "https://github.com/zenmoney/banks/pull/140"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Current Tesco Bank app icon is a blue tile with white 'Bank' and the red TESCO wordmark with blue underlines; accepted red-T icon is an obsolete variant.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/16088/candidate-0e4ca20924accb66d7285e038fbdc8f9b240697111fa0c433afc9309e1a74e99.json",
         "sha256": "0e4ca20924accb66d7285e038fbdc8f9b240697111fa0c433afc9309e1a74e99"
@@ -110,7 +163,7 @@
           "url": "https://www.tescoplc.com/media/759672/tesco-bank-everyones-welcome-report.pdf"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T23:28:27.720271Z",
         "compose": "1.12.0",

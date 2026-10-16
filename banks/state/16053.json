@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T21:33:04.222804Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T21:36:17.199452Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "a15f854002d18d06c019d0074aa73880df170deb",
+      "acceptedIconHash": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c",
       "agentAssessment": {
         "path": "evidence/16053/assessed-6f428c3633cff0036cecfa077ebffc09589bff7e6534e5f5aab824cc50ffd680.json",
         "sha256": "6f428c3633cff0036cecfa077ebffc09589bff7e6534e5f5aab824cc50ffd680"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/16053",
         "headCommit": "a15f854002d18d06c019d0074aa73880df170deb",
         "number": 138,
-        "observedAt": "2026-10-04T21:49:16.141776Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:38:54.390764Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Raiffeisen Srbije Biznis (Company.id 16053)",
         "url": "https://github.com/zenmoney/banks/pull/138"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e463cf3ad5042ea667b9e4f0ca3fe7bcc459133a8f57ab00dd26171d53227c55",
+          "head": "bank-icon-maintenance/16053",
+          "headCommit": "a15f854002d18d06c019d0074aa73880df170deb",
+          "number": 138,
+          "observedAt": "2026-10-04T21:49:16.141776Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Raiffeisen Srbije Biznis (Company.id 16053)",
+          "url": "https://github.com/zenmoney/banks/pull/138"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e463cf3ad5042ea667b9e4f0ca3fe7bcc459133a8f57ab00dd26171d53227c55",
+        "closedAt": "2026-10-15T14:42:08Z",
+        "head": "bank-icon-maintenance/16053",
+        "headCommit": "a15f854002d18d06c019d0074aa73880df170deb",
+        "mergeCommit": "4209f2166a48feac23e085cfbbc0b2315562985c",
+        "mergedAt": "2026-10-15T14:42:08Z",
+        "number": 138,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Raiffeisen Srbije Biznis (Company.id 16053)",
+        "url": "https://github.com/zenmoney/banks/pull/138"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:38:54.390764Z",
+        "proof": {
+          "accepted": {
+            "commit": "4209f2166a48feac23e085cfbbc0b2315562985c",
+            "iconHash": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c",
+            "metadataHash": "cbc4eb61831d862e18f66f21ffd4373af59d92ba3895ada81a506287e7f74fc9"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c",
+            "metadataHash": "cbc4eb61831d862e18f66f21ffd4373af59d92ba3895ada81a506287e7f74fc9"
+          },
+          "path": "banks/Raiffeisen Srbije Biznis_16053-rs/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "a15f854002d18d06c019d0074aa73880df170deb",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e463cf3ad5042ea667b9e4f0ca3fe7bcc459133a8f57ab00dd26171d53227c55",
+          "closedAt": "2026-10-15T14:42:08Z",
+          "head": "bank-icon-maintenance/16053",
+          "headCommit": "a15f854002d18d06c019d0074aa73880df170deb",
+          "mergeCommit": "4209f2166a48feac23e085cfbbc0b2315562985c",
+          "mergedAt": "2026-10-15T14:42:08Z",
+          "number": 138,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Raiffeisen Srbije Biznis (Company.id 16053)",
+          "url": "https://github.com/zenmoney/banks/pull/138"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Live official site (raiffeisenbank.rs, fetched 2026-10-04) serves the yellow/black gabled-heads Giebelkreuz mark in current use. Official favicon.svg is a standalone original vector of the mark on the brand-yellow field. The catalog icon shows the same mark but adds a black square frame not present in any observed official asset; a presentation-correcting candidate is justified.",
       "reviewPackage": {
@@ -106,7 +176,7 @@
           "url": "https://brand.rbinternational.com/en/brand-guidelines.html"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T21:36:17.199452Z",
         "compose": "1.12.0",
@@ -116,5 +186,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "91f35e073d7afe49c4c4cd5b9da01ba63bff4d4c4e9c7ae3ef57244b46cf0d7c"
 }

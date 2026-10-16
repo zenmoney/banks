@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-02T11:02:14.084154Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-02T11:03:30Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "dbd1b5ef5eca9637ad1226ab00d115b19aa2beb0",
+      "acceptedIconHash": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff",
       "agentAssessment": {
         "path": "evidence/4382/assessed-8d0f612e5b94a6d7593347f8023d718b1f419c32a18f52577c7d8916d462a3ca.json",
         "sha256": "8d0f612e5b94a6d7593347f8023d718b1f419c32a18f52577c7d8916d462a3ca"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/4382",
         "headCommit": "dbd1b5ef5eca9637ad1226ab00d115b19aa2beb0",
         "number": 19,
-        "observedAt": "2026-10-02T11:06:53.748459Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:39:19.600806Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: КБ \"КОЛЬЦО УРАЛА\" (Company.id 4382)",
         "url": "https://github.com/zenmoney/banks/pull/19"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "7e097b6a9468a08d5b5c6b1b7c5cd362e9788818c85a851c1addb16d7866d2be",
+          "head": "bank-icon-maintenance/4382",
+          "headCommit": "dbd1b5ef5eca9637ad1226ab00d115b19aa2beb0",
+          "number": 19,
+          "observedAt": "2026-10-02T11:06:53.748459Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КБ \"КОЛЬЦО УРАЛА\" (Company.id 4382)",
+          "url": "https://github.com/zenmoney/banks/pull/19"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "7e097b6a9468a08d5b5c6b1b7c5cd362e9788818c85a851c1addb16d7866d2be",
+        "closedAt": "2026-10-15T14:30:33Z",
+        "head": "bank-icon-maintenance/4382",
+        "headCommit": "dbd1b5ef5eca9637ad1226ab00d115b19aa2beb0",
+        "mergeCommit": "f47348b13cdbbd65ec61adc9568c040374850c1a",
+        "mergedAt": "2026-10-15T14:30:33Z",
+        "number": 19,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБ \"КОЛЬЦО УРАЛА\" (Company.id 4382)",
+        "url": "https://github.com/zenmoney/banks/pull/19"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:39:19.600806Z",
+        "proof": {
+          "accepted": {
+            "commit": "f47348b13cdbbd65ec61adc9568c040374850c1a",
+            "iconHash": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff",
+            "metadataHash": "bef4a4a9004216bf91eeb82a6473a299b07d8503ab566726df16daa5b57e5929"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff",
+            "metadataHash": "bef4a4a9004216bf91eeb82a6473a299b07d8503ab566726df16daa5b57e5929"
+          },
+          "path": "banks/КБ _КОЛЬЦО УРАЛА__4382-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "dbd1b5ef5eca9637ad1226ab00d115b19aa2beb0",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "7e097b6a9468a08d5b5c6b1b7c5cd362e9788818c85a851c1addb16d7866d2be",
+          "closedAt": "2026-10-15T14:30:33Z",
+          "head": "bank-icon-maintenance/4382",
+          "headCommit": "dbd1b5ef5eca9637ad1226ab00d115b19aa2beb0",
+          "mergeCommit": "f47348b13cdbbd65ec61adc9568c040374850c1a",
+          "mergedAt": "2026-10-15T14:30:33Z",
+          "number": 19,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КБ \"КОЛЬЦО УРАЛА\" (Company.id 4382)",
+          "url": "https://github.com/zenmoney/banks/pull/19"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "First addition: bank record has no icon.svg. Found the archived official lockup vector; its standalone emblem is suitable after lossless group extraction.",
       "reviewPackage": {
@@ -109,7 +179,7 @@
           "url": "https://cbr.ru/finorg/foinfo/?ogrn=1026600001955"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T11:03:30Z",
         "compose": "1.12.0",
@@ -119,5 +189,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "0bc59ef91dbf75f1db0716f808a1959797a1ce41958c450ebe7a80a96ed4c2ff"
 }
