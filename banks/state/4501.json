@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-02T20:18:29.435573Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-02T20:23:33.699708Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "405e1383de1fa36cd5fe1d9d5b689e965902a463",
+      "acceptedIconHash": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4",
       "agentAssessment": {
         "path": "evidence/4501/assessed-8ceacacf26362d20c9503da8ebd3034db73a1a0feb66136a8455751d1d7975e1.json",
         "sha256": "8ceacacf26362d20c9503da8ebd3034db73a1a0feb66136a8455751d1d7975e1"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/4501",
         "headCommit": "405e1383de1fa36cd5fe1d9d5b689e965902a463",
         "number": 33,
-        "observedAt": "2026-10-02T20:32:15.235265Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:40:56.683872Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: НКБ \"СЛАВЯНБАНК\" (Company.id 4501)",
         "url": "https://github.com/zenmoney/banks/pull/33"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "84a23112797014c736dca2665cb34b3d6c13d98eebb1c614dbc9aafb9c94e155",
+          "head": "bank-icon-maintenance/4501",
+          "headCommit": "405e1383de1fa36cd5fe1d9d5b689e965902a463",
+          "number": 33,
+          "observedAt": "2026-10-02T20:32:15.235265Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: НКБ \"СЛАВЯНБАНК\" (Company.id 4501)",
+          "url": "https://github.com/zenmoney/banks/pull/33"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "84a23112797014c736dca2665cb34b3d6c13d98eebb1c614dbc9aafb9c94e155",
+        "closedAt": "2026-10-15T14:31:02Z",
+        "head": "bank-icon-maintenance/4501",
+        "headCommit": "405e1383de1fa36cd5fe1d9d5b689e965902a463",
+        "mergeCommit": "e94ecb5db642e55dbe9b07e09bc3f53a87bce56b",
+        "mergedAt": "2026-10-15T14:31:02Z",
+        "number": 33,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: НКБ \"СЛАВЯНБАНК\" (Company.id 4501)",
+        "url": "https://github.com/zenmoney/banks/pull/33"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:40:56.683872Z",
+        "proof": {
+          "accepted": {
+            "commit": "e94ecb5db642e55dbe9b07e09bc3f53a87bce56b",
+            "iconHash": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4",
+            "metadataHash": "9352d199f1f771c5587b1c73d5b5186dd7dcfa867c2728605d86f262b1304daf"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4",
+            "metadataHash": "9352d199f1f771c5587b1c73d5b5186dd7dcfa867c2728605d86f262b1304daf"
+          },
+          "path": "banks/НКБ _СЛАВЯНБАНК__4501-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "405e1383de1fa36cd5fe1d9d5b689e965902a463",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "84a23112797014c736dca2665cb34b3d6c13d98eebb1c614dbc9aafb9c94e155",
+          "closedAt": "2026-10-15T14:31:02Z",
+          "head": "bank-icon-maintenance/4501",
+          "headCommit": "405e1383de1fa36cd5fe1d9d5b689e965902a463",
+          "mergeCommit": "e94ecb5db642e55dbe9b07e09bc3f53a87bce56b",
+          "mergedAt": "2026-10-15T14:31:02Z",
+          "number": 33,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: НКБ \"СЛАВЯНБАНК\" (Company.id 4501)",
+          "url": "https://github.com/zenmoney/banks/pull/33"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Original official-site SVG of НКБ «СЛАВЯНБАНК» (Veliky Novgorod, reg. 804) retrieved from the bank's own Bitrix template via web.archive.org capture 2019-07-04: single path, viewBox 0 0 244.344 64.688, fill #0a90e8 (Celtic-knot emblem + «СЛАВЯН БАНК» wordmark). Identity of the record is confirmed (CBR: АО НКБ «СЛАВЯНБАНК», OGRN 1025300000175, operating). The asset is a full lockup; a mark-only working variant will be prepared at candidate review by selecting the emblem region of the original vector (no tracing).",
       "reviewPackage": {
@@ -117,7 +187,7 @@
           "url": "https://www.cbr.ru/banking_sector/credit/coinfo/f810/1904/?dt=202501&regnum=804"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T20:23:33.699708Z",
         "compose": "1.12.0",
@@ -127,5 +197,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "878bd927d648621a2095e66f8c9319e3de9f6457d1d6136c8da51a41c2d408e4"
 }

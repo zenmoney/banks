@@ -59,13 +59,66 @@
         "head": "bank-icon-maintenance/4475",
         "headCommit": "3db51b848b5316d800a2e77d9f84d3ee6128ac5e",
         "number": 31,
-        "observedAt": "2026-10-02T18:13:43.661957Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:40:49.576402Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Датабанк (Company.id 4475)",
         "url": "https://github.com/zenmoney/banks/pull/31"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "2069df502cce1ec7594055227a37d2cb03caea123292d941ea2d9df8549e4dc8",
+          "head": "bank-icon-maintenance/4475",
+          "headCommit": "3db51b848b5316d800a2e77d9f84d3ee6128ac5e",
+          "number": 31,
+          "observedAt": "2026-10-02T18:13:43.661957Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Датабанк (Company.id 4475)",
+          "url": "https://github.com/zenmoney/banks/pull/31"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "2069df502cce1ec7594055227a37d2cb03caea123292d941ea2d9df8549e4dc8",
+        "closedAt": "2026-10-15T13:38:47Z",
+        "head": "bank-icon-maintenance/4475",
+        "headCommit": "3db51b848b5316d800a2e77d9f84d3ee6128ac5e",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 31,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Датабанк (Company.id 4475)",
+        "url": "https://github.com/zenmoney/banks/pull/31"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:40:49.576402Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "2069df502cce1ec7594055227a37d2cb03caea123292d941ea2d9df8549e4dc8",
+          "closedAt": "2026-10-15T13:38:47Z",
+          "head": "bank-icon-maintenance/4475",
+          "headCommit": "3db51b848b5316d800a2e77d9f84d3ee6128ac5e",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 31,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Датабанк (Company.id 4475)",
+          "url": "https://github.com/zenmoney/banks/pull/31"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Found an original-vector standalone bank mark from the bank's own site (archived): izhcombank.ru/images/logo-general.svg, a self-contained SVG (blue #4A90E2 circular mark with the И-swoosh emblem, viewBox 0 0 20 21). Captured by the Wayback Machine on 2020-06-14, within the final brand period of the bank. The bank is defunct (license revoked 2019; site offline today), so archived official assets are the correct dated source. The full wordmark logo also exists as an official vector (images/popup/data_logo.svg, grey #CCCCCC monochrome) but carries accompanying lettering and is not the standalone-mark candidate.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4475/candidate-564078943a97d8d7ed1ba3e740982914dc0d00755678942bb20bdbae14ecd161.json",
         "sha256": "564078943a97d8d7ed1ba3e740982914dc0d00755678942bb20bdbae14ecd161"
@@ -131,7 +184,7 @@
           "url": "https://izhcombank.ru/images/logo-general.svg"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T18:06:28.211910Z",
         "compose": "1.12.0",

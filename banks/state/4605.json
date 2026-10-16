@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T02:18:16.180769Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T02:23:18Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "0822b626ef24d0e53ddbd48525c9fe0b325dc5cd",
+      "acceptedIconHash": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048",
       "agentAssessment": {
         "path": "evidence/4605/assessed-66cef697182b5944250bc86d11d913c6c1c4497659189466c8c80d42fc4efd20.json",
         "sha256": "66cef697182b5944250bc86d11d913c6c1c4497659189466c8c80d42fc4efd20"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/4605",
         "headCommit": "0822b626ef24d0e53ddbd48525c9fe0b325dc5cd",
         "number": 37,
-        "observedAt": "2026-10-03T02:29:18.345028Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:41:06.348039Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк \"Левобережный\" (Company.id 4605)",
         "url": "https://github.com/zenmoney/banks/pull/37"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "aa949f226316ac90ae8990c93cd2c415953dffe4fa8e4ed58c2a4850ee8c803f",
+          "head": "bank-icon-maintenance/4605",
+          "headCommit": "0822b626ef24d0e53ddbd48525c9fe0b325dc5cd",
+          "number": 37,
+          "observedAt": "2026-10-03T02:29:18.345028Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Левобережный\" (Company.id 4605)",
+          "url": "https://github.com/zenmoney/banks/pull/37"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "aa949f226316ac90ae8990c93cd2c415953dffe4fa8e4ed58c2a4850ee8c803f",
+        "closedAt": "2026-10-15T14:31:20Z",
+        "head": "bank-icon-maintenance/4605",
+        "headCommit": "0822b626ef24d0e53ddbd48525c9fe0b325dc5cd",
+        "mergeCommit": "06dc0445c5e71717a4f56ec2cad72a163bdf3019",
+        "mergedAt": "2026-10-15T14:31:20Z",
+        "number": 37,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Левобережный\" (Company.id 4605)",
+        "url": "https://github.com/zenmoney/banks/pull/37"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:41:06.348039Z",
+        "proof": {
+          "accepted": {
+            "commit": "06dc0445c5e71717a4f56ec2cad72a163bdf3019",
+            "iconHash": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048",
+            "metadataHash": "4ebed5794be4a00c4b768b27473f8151e470d641f3e6747d0068bc75ac141a33"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048",
+            "metadataHash": "4ebed5794be4a00c4b768b27473f8151e470d641f3e6747d0068bc75ac141a33"
+          },
+          "path": "banks/Банк _Левобережный__4605-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "0822b626ef24d0e53ddbd48525c9fe0b325dc5cd",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "aa949f226316ac90ae8990c93cd2c415953dffe4fa8e4ed58c2a4850ee8c803f",
+          "closedAt": "2026-10-15T14:31:20Z",
+          "head": "bank-icon-maintenance/4605",
+          "headCommit": "0822b626ef24d0e53ddbd48525c9fe0b325dc5cd",
+          "mergeCommit": "06dc0445c5e71717a4f56ec2cad72a163bdf3019",
+          "mergedAt": "2026-10-15T14:31:20Z",
+          "number": 37,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Левобережный\" (Company.id 4605)",
+          "url": "https://github.com/zenmoney/banks/pull/37"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official site template SVG (live homepage header) with identical artwork in the bank's own press-kit vector bundle (BL_Logo_Rus_Main_Color.7z, containing BL_Firblock_Rus_Main_Color_RGB.svg). Original vector, losslessly obtained; the standalone 'L' mark is a self-contained two-path subgraph of the official lockup, separable without redrawing.",
       "reviewPackage": {
@@ -109,7 +179,7 @@
           "url": "https://www.nskbl.ru/press-center/media/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T02:23:18Z",
         "compose": "1.12.0",
@@ -119,5 +189,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "2f9c8686a6f4505b552e2347aedf6535e6db6ac00bcc7c261c337f206a6fb048"
 }

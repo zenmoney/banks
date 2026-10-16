@@ -62,13 +62,66 @@
         "head": "bank-icon-maintenance/kuznetsky-4469",
         "headCommit": "9ed926c63b82499d13071cc3cd4db3a6435c6185",
         "number": 30,
-        "observedAt": "2026-10-02T17:44:31.431412Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:40:48.731583Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк \"Кузнецкий\" (Company.id 4469)",
         "url": "https://github.com/zenmoney/banks/pull/30"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "c5593aa1bf22a7c36c5cab11707eb155b5034f6f681366e83fe030779e570812",
+          "head": "bank-icon-maintenance/kuznetsky-4469",
+          "headCommit": "9ed926c63b82499d13071cc3cd4db3a6435c6185",
+          "number": 30,
+          "observedAt": "2026-10-02T17:44:31.431412Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Кузнецкий\" (Company.id 4469)",
+          "url": "https://github.com/zenmoney/banks/pull/30"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "c5593aa1bf22a7c36c5cab11707eb155b5034f6f681366e83fe030779e570812",
+        "closedAt": "2026-10-15T13:43:12Z",
+        "head": "bank-icon-maintenance/kuznetsky-4469",
+        "headCommit": "9ed926c63b82499d13071cc3cd4db3a6435c6185",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 30,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Кузнецкий\" (Company.id 4469)",
+        "url": "https://github.com/zenmoney/banks/pull/30"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:40:48.731583Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "c5593aa1bf22a7c36c5cab11707eb155b5034f6f681366e83fe030779e570812",
+          "closedAt": "2026-10-15T13:43:12Z",
+          "head": "bank-icon-maintenance/kuznetsky-4469",
+          "headCommit": "9ed926c63b82499d13071cc3cd4db3a6435c6185",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 30,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Кузнецкий\" (Company.id 4469)",
+          "url": "https://github.com/zenmoney/banks/pull/30"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "official current logo available as original vector from the bank's own site",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4469/candidate-8088fb6337b093f0c7ad587c0af7cc6fc0b138a499672a395d0eec8f861a52ea.json",
         "sha256": "8088fb6337b093f0c7ad587c0af7cc6fc0b138a499672a395d0eec8f861a52ea"
@@ -101,7 +154,7 @@
           "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1125800000094"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T17:41:31.995464Z",
         "compose": "1.12.0",

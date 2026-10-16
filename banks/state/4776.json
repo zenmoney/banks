@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/4776",
         "headCommit": "b24fefa8b9e741ae8b9cbb1a28279340f3f2cd79",
         "number": 10,
-        "observedAt": "2026-10-01T21:13:22.666562Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:41:16.368377Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: МТС Банк (Company.id 4776)",
         "url": "https://github.com/zenmoney/banks/pull/10"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "8970626929bebf27373a31b8ac86440eefed51e1dc71b5c83cfeaeefa2248bbd",
+          "head": "bank-icon-maintenance/4776",
+          "headCommit": "b24fefa8b9e741ae8b9cbb1a28279340f3f2cd79",
+          "number": 10,
+          "observedAt": "2026-10-01T21:13:22.666562Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МТС Банк (Company.id 4776)",
+          "url": "https://github.com/zenmoney/banks/pull/10"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "8970626929bebf27373a31b8ac86440eefed51e1dc71b5c83cfeaeefa2248bbd",
+        "closedAt": "2026-10-15T13:52:15Z",
+        "head": "bank-icon-maintenance/4776",
+        "headCommit": "b24fefa8b9e741ae8b9cbb1a28279340f3f2cd79",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 10,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МТС Банк (Company.id 4776)",
+        "url": "https://github.com/zenmoney/banks/pull/10"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:41:16.368377Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "8970626929bebf27373a31b8ac86440eefed51e1dc71b5c83cfeaeefa2248bbd",
+          "closedAt": "2026-10-15T13:52:15Z",
+          "head": "bank-icon-maintenance/4776",
+          "headCommit": "b24fefa8b9e741ae8b9cbb1a28279340f3f2cd79",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 10,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МТС Банк (Company.id 4776)",
+          "url": "https://github.com/zenmoney/banks/pull/10"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Current official standalone mark differs from the accepted icon: mtsbank.ru serves a 120x120 SVG favicon — red egg (#e30611) on a white square — while the accepted icon is the inverse presentation (white egg on a #dd1220 red circle). Live fetch corroborated by Sep 2026 archive captures; the МТС parent 2023 grid rebrand did not replace the bank's egg mark. Evidenced supported-current-design update, not a byte-only change.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4776/candidate-52a92a9df487b5e988d66d35be8619fe7ca57980cf16d1313b972dda25187d20.json",
         "sha256": "52a92a9df487b5e988d66d35be8619fe7ca57980cf16d1313b972dda25187d20"
@@ -140,7 +193,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%A2%D0%A1+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-01T21:09:03.954265Z",
         "compose": "1.12.0",

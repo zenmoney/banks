@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/4517",
         "headCommit": "cda5dbc62b54974c4197ea3573c6c6d9bf15354f",
         "number": 35,
-        "observedAt": "2026-10-02T21:22:47.373658Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:40:59.159283Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
         "url": "https://github.com/zenmoney/banks/pull/35"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "53b0b6859744101d6eae3be089cf1a4b68fd694a07b330bbaa48674e2349ea41",
+          "head": "bank-icon-maintenance/4517",
+          "headCommit": "cda5dbc62b54974c4197ea3573c6c6d9bf15354f",
+          "number": 35,
+          "observedAt": "2026-10-02T21:22:47.373658Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+          "url": "https://github.com/zenmoney/banks/pull/35"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "53b0b6859744101d6eae3be089cf1a4b68fd694a07b330bbaa48674e2349ea41",
+        "closedAt": "2026-10-15T13:37:33Z",
+        "head": "bank-icon-maintenance/4517",
+        "headCommit": "cda5dbc62b54974c4197ea3573c6c6d9bf15354f",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 35,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+        "url": "https://github.com/zenmoney/banks/pull/35"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:40:59.159283Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "53b0b6859744101d6eae3be089cf1a4b68fd694a07b330bbaa48674e2349ea41",
+          "closedAt": "2026-10-15T13:37:33Z",
+          "head": "bank-icon-maintenance/4517",
+          "headCommit": "cda5dbc62b54974c4197ea3573c6c6d9bf15354f",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 35,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+          "url": "https://github.com/zenmoney/banks/pull/35"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Original vector found: the bank's current official site header logo BankPerm-Logo.svg is a clean original SVG (pure <path> geometry, single fill #0D47A1, no raster). It is a horizontal lockup: standalone stacked-ellipse БП emblem (x≈0–78 of 252) plus БАНК ПЕРМЬ wordmark. The emblem alone is a suitable standalone mark (monogram forms the mark itself; no accompanying name needed) and is obtainable by a lossless viewBox crop of the original bytes; preview rendered and verified complete and text-free. Identity and currency confirmed for the operating bank АКБ «Пермь» (АО), reg. no. 875, status «Действует» in the Bank of Russia registry as of 2026-10-02, with bankperm.ru listed as its official site.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4517/candidate-32dd2aafdea37f3c93dbb6b386b0545fd98b775f03d6c4accab958ba98c8f4f8.json",
         "sha256": "32dd2aafdea37f3c93dbb6b386b0545fd98b775f03d6c4accab958ba98c8f4f8"
@@ -98,7 +151,7 @@
           "url": "https://cbr.ru/ bank registry entry for OGRN 1025900000510"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T21:17:57.620477Z",
         "compose": "1.12.0",

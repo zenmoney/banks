@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-02T19:13:00.590762Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-02T19:15:16.934000Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "f57f827e2fe0cfa00fb180e4db30e7eac10d8eac",
+      "acceptedIconHash": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6",
       "agentAssessment": {
         "path": "evidence/4487/assessed-0ca3cd53511cd249d3f43f894fd40857ee617a7b80141d5b3db971e0c3c87bfc.json",
         "sha256": "0ca3cd53511cd249d3f43f894fd40857ee617a7b80141d5b3db971e0c3c87bfc"
@@ -65,11 +68,78 @@
         "head": "bank-icon-maintenance/1s82zz3w-4487",
         "headCommit": "f57f827e2fe0cfa00fb180e4db30e7eac10d8eac",
         "number": 32,
-        "observedAt": "2026-10-02T19:21:15.523949Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:40:53.049029Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: КБЭР \"Банк Казани\" (Company.id 4487)",
         "url": "https://github.com/zenmoney/banks/pull/32"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "59eb2d450edf1b36252a55777d8e52e3ec3709e751f276bc304193f3e83566dc",
+          "head": "bank-icon-maintenance/1s82zz3w-4487",
+          "headCommit": "f57f827e2fe0cfa00fb180e4db30e7eac10d8eac",
+          "number": 32,
+          "observedAt": "2026-10-02T19:21:15.523949Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КБЭР \"Банк Казани\" (Company.id 4487)",
+          "url": "https://github.com/zenmoney/banks/pull/32"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "59eb2d450edf1b36252a55777d8e52e3ec3709e751f276bc304193f3e83566dc",
+        "closedAt": "2026-10-15T14:30:53Z",
+        "head": "bank-icon-maintenance/1s82zz3w-4487",
+        "headCommit": "f57f827e2fe0cfa00fb180e4db30e7eac10d8eac",
+        "mergeCommit": "15253d1ffa8eb377af484e91a3a5657499b7fcb9",
+        "mergedAt": "2026-10-15T14:30:53Z",
+        "number": 32,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБЭР \"Банк Казани\" (Company.id 4487)",
+        "url": "https://github.com/zenmoney/banks/pull/32"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:40:53.049029Z",
+        "proof": {
+          "accepted": {
+            "commit": "15253d1ffa8eb377af484e91a3a5657499b7fcb9",
+            "iconHash": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6",
+            "metadataHash": "720f2c7be3e72f0714f1bec9c834e2de0644d2cd83d445d14ccf36351a7c4e6c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6",
+            "metadataHash": "720f2c7be3e72f0714f1bec9c834e2de0644d2cd83d445d14ccf36351a7c4e6c"
+          },
+          "path": "banks/КБЭР _Банк Казани__4487-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "f57f827e2fe0cfa00fb180e4db30e7eac10d8eac",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "59eb2d450edf1b36252a55777d8e52e3ec3709e751f276bc304193f3e83566dc",
+          "closedAt": "2026-10-15T14:30:53Z",
+          "head": "bank-icon-maintenance/1s82zz3w-4487",
+          "headCommit": "f57f827e2fe0cfa00fb180e4db30e7eac10d8eac",
+          "mergeCommit": "15253d1ffa8eb377af484e91a3a5657499b7fcb9",
+          "mergedAt": "2026-10-15T14:30:53Z",
+          "number": 32,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КБЭР \"Банк Казани\" (Company.id 4487)",
+          "url": "https://github.com/zenmoney/banks/pull/32"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Original vector source found and verified: the live official site https://www.bankofkazan.ru/ serves logo-violet.svg (viewBox 0 0 244 38) containing the current 'БК' monogram (single path, fill #96d700) plus the 'Банк Казани' wordmark (10 paths, fill #5f0091). An Internet Archive snapshot (2025-12-22T02:51:07Z) of the same asset was retrieved via workflow fetch and its bytes are sha256-identical to the live browser-observed bytes (8076 bytes, sha256 7eeee1751d8c35399aa21d38ed10b5c52abdf76bda4e1d8b896d38164242b91a), so the archive snapshot proves the live asset content. Working SVG isolates the original single monogram path byte-verbatim with the exact stylesheet color #96d700 inlined and a square viewBox 0 0 38.001 38.001 from measured path bounds; no tracing, no new geometry, no backing shape.",
       "reviewPackage": {
@@ -125,7 +195,7 @@
           "url": "https://banksdaily.com/rus/bank/bankkazani"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T19:15:16.934000Z",
         "compose": "1.12.0",
@@ -135,5 +205,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "9f040c087ca24e4c363158b7e1eeb362f25c7b621f8a8ec29abb3e07dbe19eb6"
 }

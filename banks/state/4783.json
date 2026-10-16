@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/4783",
         "headCommit": "a4fe0a5671c46fd8dfcbfd56a98ef8e6a867f6ad",
         "number": 11,
-        "observedAt": "2026-10-01T21:14:40.763018Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:41:17.160306Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: УРАЛСИБ (Company.id 4783)",
         "url": "https://github.com/zenmoney/banks/pull/11"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "cd2c5b1d79499360562417ce535510831fb860cee54ed0d5cc69afce654b0977",
+          "head": "bank-icon-maintenance/4783",
+          "headCommit": "a4fe0a5671c46fd8dfcbfd56a98ef8e6a867f6ad",
+          "number": 11,
+          "observedAt": "2026-10-01T21:14:40.763018Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: УРАЛСИБ (Company.id 4783)",
+          "url": "https://github.com/zenmoney/banks/pull/11"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "cd2c5b1d79499360562417ce535510831fb860cee54ed0d5cc69afce654b0977",
+        "closedAt": "2026-10-15T13:51:38Z",
+        "head": "bank-icon-maintenance/4783",
+        "headCommit": "a4fe0a5671c46fd8dfcbfd56a98ef8e6a867f6ad",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 11,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: УРАЛСИБ (Company.id 4783)",
+        "url": "https://github.com/zenmoney/banks/pull/11"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:41:17.160306Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "cd2c5b1d79499360562417ce535510831fb860cee54ed0d5cc69afce654b0977",
+          "closedAt": "2026-10-15T13:51:38Z",
+          "head": "bank-icon-maintenance/4783",
+          "headCommit": "a4fe0a5671c46fd8dfcbfd56a98ef8e6a867f6ad",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 11,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: УРАЛСИБ (Company.id 4783)",
+          "url": "https://github.com/zenmoney/banks/pull/11"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "The accepted icon is the pre-2019 УРАЛСИБ design (blue disc with the former building/wave emblem); the bank's current official standalone mark is the post-2019 white rounded-square app tile with the #3B175C 'U'-flow monogram, served live as uralsib.ru/favicon.svg. This is an evidenced rebrand update, not a byte-only change.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4783/candidate-3d16b819da906d00364288f041ad311b294f7f7d80020808d5ce77b1797cd1ae.json",
         "sha256": "3d16b819da906d00364288f041ad311b294f7f7d80020808d5ce77b1797cd1ae"
@@ -132,7 +185,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%A3%D0%A0%D0%90%D0%9B%D0%A1%D0%98%D0%91%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-01T21:10:02.186804Z",
         "compose": "1.12.0",

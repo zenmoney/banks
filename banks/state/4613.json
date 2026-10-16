@@ -63,13 +63,66 @@
         "head": "bank-icon-maintenance/4613",
         "headCommit": "165b67b8c2a08b3699801beea7aea0d2bf6710d1",
         "number": 38,
-        "observedAt": "2026-10-03T02:58:12.504154Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:41:07.691373Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: АРКБ \"Росбизнесбанк\" (Company.id 4613)",
         "url": "https://github.com/zenmoney/banks/pull/38"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "648c3024ff6cf845fdcf6dddcb259a9b1daee385ed8152d177233f4d8b7fc75c",
+          "head": "bank-icon-maintenance/4613",
+          "headCommit": "165b67b8c2a08b3699801beea7aea0d2bf6710d1",
+          "number": 38,
+          "observedAt": "2026-10-03T02:58:12.504154Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АРКБ \"Росбизнесбанк\" (Company.id 4613)",
+          "url": "https://github.com/zenmoney/banks/pull/38"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "648c3024ff6cf845fdcf6dddcb259a9b1daee385ed8152d177233f4d8b7fc75c",
+        "closedAt": "2026-10-15T13:34:17Z",
+        "head": "bank-icon-maintenance/4613",
+        "headCommit": "165b67b8c2a08b3699801beea7aea0d2bf6710d1",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 38,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АРКБ \"Росбизнесбанк\" (Company.id 4613)",
+        "url": "https://github.com/zenmoney/banks/pull/38"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:41:07.691373Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "648c3024ff6cf845fdcf6dddcb259a9b1daee385ed8152d177233f4d8b7fc75c",
+          "closedAt": "2026-10-15T13:34:17Z",
+          "head": "bank-icon-maintenance/4613",
+          "headCommit": "165b67b8c2a08b3699801beea7aea0d2bf6710d1",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 38,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АРКБ \"Росбизнесбанк\" (Company.id 4613)",
+          "url": "https://github.com/zenmoney/banks/pull/38"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Original vector found for the historical Росбизнесбанк mark: https://cdn.worldvectorlogo.com/logos/rosbusinessbank.svg — pure-path SVG (5 paths, no embedded raster/text), trademark-style 192.756 viewBox consistent with EPS-origin vector conversions. Full logo contains the РБ monogram emblem plus mandatory bank-name wordmark (РОССИЙСКИЙ АКЦИОНЕРНЫЙ КОММЕРЧЕСКИЙ БАНК РОСБИЗНЕСБАНК) — direct identity evidence; namesakes Rosbank/RBC excluded. The standalone РБ emblem (first path) renders cleanly and is the catalog-suitable standalone mark; extraction is deferred to candidate preparation, this attempt binds the fetched original. Live www.rbb.ru is unreachable (expired TLS certificate); Wayback captures of the operating-period site are raster-only and the color capture is corrupted, so the official color variant remains unverified — the source vector is monochrome.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4613/candidate-22cab2751ddbccbf7d6634bb62d377f543dc9700131c041454f4312e1551cf9a.json",
         "sha256": "22cab2751ddbccbf7d6634bb62d377f543dc9700131c041454f4312e1551cf9a"
@@ -107,7 +160,7 @@
           "url": "https://web.archive.org/web/2020/https://www.rbb.ru/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T02:53:11.695047Z",
         "compose": "1.12.0",

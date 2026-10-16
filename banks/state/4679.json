@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-01T20:24:18.540024Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-01T20:41:45.494510Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "a0d150a1379c117b1d683049bcc4dc35066416b2",
+      "acceptedIconHash": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0",
       "agentAssessment": {
         "path": "evidence/4679/assessed-94c82f3e6dd13e2d514129678ecc557f4dfa03cb08d4045531cbff9adce8ad05.json",
         "sha256": "94c82f3e6dd13e2d514129678ecc557f4dfa03cb08d4045531cbff9adce8ad05"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/4679",
         "headCommit": "a0d150a1379c117b1d683049bcc4dc35066416b2",
         "number": 8,
-        "observedAt": "2026-10-01T20:46:28.159187Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:41:14.502950Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: АТБ (Company.id 4679)",
         "url": "https://github.com/zenmoney/banks/pull/8"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "119c217b249101f1e2f92d02cab92df846977bb55c96d6342588f710d662590a",
+          "head": "bank-icon-maintenance/4679",
+          "headCommit": "a0d150a1379c117b1d683049bcc4dc35066416b2",
+          "number": 8,
+          "observedAt": "2026-10-01T20:46:28.159187Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АТБ (Company.id 4679)",
+          "url": "https://github.com/zenmoney/banks/pull/8"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+        "bodySha256": "119c217b249101f1e2f92d02cab92df846977bb55c96d6342588f710d662590a",
+        "closedAt": "2026-10-15T14:29:41Z",
+        "head": "bank-icon-maintenance/4679",
+        "headCommit": "a0d150a1379c117b1d683049bcc4dc35066416b2",
+        "mergeCommit": "011644be8224df4f188ded9066eafcaf1aa201b0",
+        "mergedAt": "2026-10-15T14:29:41Z",
+        "number": 8,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АТБ (Company.id 4679)",
+        "url": "https://github.com/zenmoney/banks/pull/8"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:41:14.502950Z",
+        "proof": {
+          "accepted": {
+            "commit": "011644be8224df4f188ded9066eafcaf1aa201b0",
+            "iconHash": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0",
+            "metadataHash": "2c1d19ef1e388e926869033af801d4b901ab92c3ad688b3b1f23edf36833ce1a"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0",
+            "metadataHash": "2c1d19ef1e388e926869033af801d4b901ab92c3ad688b3b1f23edf36833ce1a"
+          },
+          "path": "banks/АТБ_4679-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "a0d150a1379c117b1d683049bcc4dc35066416b2",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+          "bodySha256": "119c217b249101f1e2f92d02cab92df846977bb55c96d6342588f710d662590a",
+          "closedAt": "2026-10-15T14:29:41Z",
+          "head": "bank-icon-maintenance/4679",
+          "headCommit": "a0d150a1379c117b1d683049bcc4dc35066416b2",
+          "mergeCommit": "011644be8224df4f188ded9066eafcaf1aa201b0",
+          "mergedAt": "2026-10-15T14:29:41Z",
+          "number": 8,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АТБ (Company.id 4679)",
+          "url": "https://github.com/zenmoney/banks/pull/8"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official current АТБ mark is a standalone sail glyph with orange-red vertical gradient #F4711F→#ED4E27 (atb.su favicon.svg and header logo). Accepted baseline wraps the sail in a rounded square with inverted colors (orange fill, dark sail) not present in the official standalone mark.",
       "reviewPackage": {
@@ -122,7 +192,7 @@
           "url": "https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%90%D0%A2%D0%91%22+is%3Apr"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-01T20:41:45.494510Z",
         "compose": "1.12.0",
@@ -132,5 +202,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "74e2edce9169db178d70033365c2ec2bf6a20b1ff4d90db6301760df4dca59a0"
 }

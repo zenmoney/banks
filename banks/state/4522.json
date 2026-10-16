@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-02T21:37:11.122025Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-02T21:40:38.474322Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "e60f7b2195adb5cfcda309aa5a6c3c6419217bbe",
+      "acceptedIconHash": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9",
       "agentAssessment": {
         "path": "evidence/4522/assessed-f036434c1b061876360b2bbd579639d05c1bcbc211a735c90337ce3300d63c28.json",
         "sha256": "f036434c1b061876360b2bbd579639d05c1bcbc211a735c90337ce3300d63c28"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/4522",
         "headCommit": "e60f7b2195adb5cfcda309aa5a6c3c6419217bbe",
         "number": 36,
-        "observedAt": "2026-10-02T21:46:25.812737Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:41:02.499202Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Владбизнесбанк (Company.id 4522)",
         "url": "https://github.com/zenmoney/banks/pull/36"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5db38a527e4f3a02cf3f0e262e34c7d905de28ee25ece49f1de3319a935011bb",
+          "head": "bank-icon-maintenance/4522",
+          "headCommit": "e60f7b2195adb5cfcda309aa5a6c3c6419217bbe",
+          "number": 36,
+          "observedAt": "2026-10-02T21:46:25.812737Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Владбизнесбанк (Company.id 4522)",
+          "url": "https://github.com/zenmoney/banks/pull/36"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5db38a527e4f3a02cf3f0e262e34c7d905de28ee25ece49f1de3319a935011bb",
+        "closedAt": "2026-10-15T14:31:11Z",
+        "head": "bank-icon-maintenance/4522",
+        "headCommit": "e60f7b2195adb5cfcda309aa5a6c3c6419217bbe",
+        "mergeCommit": "85007fc86a6cdbcbe0bf34a9fc23807cc0a95479",
+        "mergedAt": "2026-10-15T14:31:10Z",
+        "number": 36,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Владбизнесбанк (Company.id 4522)",
+        "url": "https://github.com/zenmoney/banks/pull/36"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:41:02.499202Z",
+        "proof": {
+          "accepted": {
+            "commit": "85007fc86a6cdbcbe0bf34a9fc23807cc0a95479",
+            "iconHash": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9",
+            "metadataHash": "41b5d3aa39b49eb49edb34c758f44e3dedfb2878c0b616f81a6b994570cde38e"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9",
+            "metadataHash": "41b5d3aa39b49eb49edb34c758f44e3dedfb2878c0b616f81a6b994570cde38e"
+          },
+          "path": "banks/Владбизнесбанк_4522-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "e60f7b2195adb5cfcda309aa5a6c3c6419217bbe",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5db38a527e4f3a02cf3f0e262e34c7d905de28ee25ece49f1de3319a935011bb",
+          "closedAt": "2026-10-15T14:31:11Z",
+          "head": "bank-icon-maintenance/4522",
+          "headCommit": "e60f7b2195adb5cfcda309aa5a6c3c6419217bbe",
+          "mergeCommit": "85007fc86a6cdbcbe0bf34a9fc23807cc0a95479",
+          "mergedAt": "2026-10-15T14:31:10Z",
+          "number": 36,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Владбизнесбанк (Company.id 4522)",
+          "url": "https://github.com/zenmoney/banks/pull/36"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Operating bank (CBR: universal license; site live 2025). Official favicon.svg at vlbb.ru is a self-contained original vector (600x600 viewBox, 4 paths, no embedded raster, fill #9d235a; Inkscape export of the brand 'logo-color' file) showing the standalone folded-ribbon 'ВБ' monogram used in the official logo lockup; suitable standalone square mark. Proposed as first addition.",
       "reviewPackage": {
@@ -104,7 +174,7 @@
           "url": "https://cbr.ru/finorg/foinfo/?ogrn=1023300000063"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T21:40:38.474322Z",
         "compose": "1.12.0",
@@ -114,5 +184,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "d6150e6bcbc1afbcb39f488bfe20798f213940f39663be4bda6aa8fe33618aa9"
 }

@@ -62,13 +62,66 @@
         "head": "bank-icon-maintenance/4502",
         "headCommit": "a7971a23647d478ad3dc24924d96037b282104b3",
         "number": 34,
-        "observedAt": "2026-10-02T20:34:09.758592Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:40:57.552160Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Уралтрансбанк (Company.id 4502)",
         "url": "https://github.com/zenmoney/banks/pull/34"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5e9b5785b5dc6f01ec09f42c467ca9e4b60da9747824ddc44716022b09358918",
+          "head": "bank-icon-maintenance/4502",
+          "headCommit": "a7971a23647d478ad3dc24924d96037b282104b3",
+          "number": 34,
+          "observedAt": "2026-10-02T20:34:09.758592Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Уралтрансбанк (Company.id 4502)",
+          "url": "https://github.com/zenmoney/banks/pull/34"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5e9b5785b5dc6f01ec09f42c467ca9e4b60da9747824ddc44716022b09358918",
+        "closedAt": "2026-10-14T17:06:41Z",
+        "head": "bank-icon-maintenance/4502",
+        "headCommit": "a7971a23647d478ad3dc24924d96037b282104b3",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 34,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Уралтрансбанк (Company.id 4502)",
+        "url": "https://github.com/zenmoney/banks/pull/34"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:40:57.552160Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5e9b5785b5dc6f01ec09f42c467ca9e4b60da9747824ddc44716022b09358918",
+          "closedAt": "2026-10-14T17:06:41Z",
+          "head": "bank-icon-maintenance/4502",
+          "headCommit": "a7971a23647d478ad3dc24924d96037b282104b3",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 34,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Уралтрансбанк (Company.id 4502)",
+          "url": "https://github.com/zenmoney/banks/pull/34"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Original vector of Уралтрансбанк's final-period logo (black steam-locomotive emblem above «УралТрансБанк» wordmark with «1947») obtained from CDNLogo (viewBox 0 0 192.756 192.756, 22166 bytes). Bank closed: license revoked 2018-10-25 (OGRN 1026600001779), so the relevant brand period is the pre-2018 operating era. The asset is a full lockup with a white canvas rect; a standalone emblem-only working variant will be prepared at candidate review by selecting the emblem region and dropping the background rect (no tracing). Third-party provenance: no official vector exists in the archived utb.ru domain.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/4502/candidate-40c69518df6cfbee5497a5646803ca4511ef86c1bc45662bf0bedad5cde13b43.json",
         "sha256": "40c69518df6cfbee5497a5646803ca4511ef86c1bc45662bf0bedad5cde13b43"
@@ -118,7 +171,7 @@
           "url": "https://www.cbr.ru/press/pr/?file=25102018_133000pr.htm"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-02T20:23:35.171732Z",
         "compose": "1.12.0",

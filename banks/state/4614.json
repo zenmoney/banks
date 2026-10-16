@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T02:47:07.400563Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T02:53:13.450978Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "76ca561579db11153b5a331fe47995870589528e",
+      "acceptedIconHash": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a",
       "agentAssessment": {
         "path": "evidence/4614/assessed-8cdba513bc2e22e0d332c65cdf8365c0e9964de5d34cf6f31518c81010cc3b2c.json",
         "sha256": "8cdba513bc2e22e0d332c65cdf8365c0e9964de5d34cf6f31518c81010cc3b2c"
@@ -62,11 +65,78 @@
         "head": "bank-icon-maintenance/4614",
         "headCommit": "76ca561579db11153b5a331fe47995870589528e",
         "number": 39,
-        "observedAt": "2026-10-03T03:00:12.083689Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:41:10.815242Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: НОРВИК БАНК (Company.id 4614)",
         "url": "https://github.com/zenmoney/banks/pull/39"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5102f8aa806f49b6f94fc3f794855116e7dae7ad743e0ed6b83619305e3f4ab1",
+          "head": "bank-icon-maintenance/4614",
+          "headCommit": "76ca561579db11153b5a331fe47995870589528e",
+          "number": 39,
+          "observedAt": "2026-10-03T03:00:12.083689Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: НОРВИК БАНК (Company.id 4614)",
+          "url": "https://github.com/zenmoney/banks/pull/39"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5102f8aa806f49b6f94fc3f794855116e7dae7ad743e0ed6b83619305e3f4ab1",
+        "closedAt": "2026-10-15T14:31:28Z",
+        "head": "bank-icon-maintenance/4614",
+        "headCommit": "76ca561579db11153b5a331fe47995870589528e",
+        "mergeCommit": "49f047e411beeabff0ac26bd06dfa37a674ff39a",
+        "mergedAt": "2026-10-15T14:31:28Z",
+        "number": 39,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: НОРВИК БАНК (Company.id 4614)",
+        "url": "https://github.com/zenmoney/banks/pull/39"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:41:10.815242Z",
+        "proof": {
+          "accepted": {
+            "commit": "49f047e411beeabff0ac26bd06dfa37a674ff39a",
+            "iconHash": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a",
+            "metadataHash": "681380424f62ef914782540d5dd8ce71dd39fa3f385191de5893988782e4b3bc"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a",
+            "metadataHash": "681380424f62ef914782540d5dd8ce71dd39fa3f385191de5893988782e4b3bc"
+          },
+          "path": "banks/НОРВИК БАНК_4614-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "76ca561579db11153b5a331fe47995870589528e",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5102f8aa806f49b6f94fc3f794855116e7dae7ad743e0ed6b83619305e3f4ab1",
+          "closedAt": "2026-10-15T14:31:28Z",
+          "head": "bank-icon-maintenance/4614",
+          "headCommit": "76ca561579db11153b5a331fe47995870589528e",
+          "mergeCommit": "49f047e411beeabff0ac26bd06dfa37a674ff39a",
+          "mergedAt": "2026-10-15T14:31:28Z",
+          "number": 39,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: НОРВИК БАНК (Company.id 4614)",
+          "url": "https://github.com/zenmoney/banks/pull/39"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Original vector found on the bank's own live official infrastructure: https://api.norvikbank.ru/storage/images/logo.svg (nginx, image/svg+xml, last-modified 2022-04-13), 13 pure paths, no raster embeds; colors #B92032 red + #0E152D navy. Identity confirmed from the bank's own site (АО «Норвик Банк», Kirov; formerly Вятка Банк per official press-center rebrand news); the 'Novikbank/АТБ' alias found no support and was not used. The full header/footer lockup carries the mandatory wordmark, so it is not directly suitable; the bank's own favicon (fetched from norvikbank.ru/favicon.ico) shows the compact standalone mark = red fragment column + navy «Н». That mark is reproducible exactly by selecting the corresponding original vector elements in their original coordinates (uniform placement only), which is done during candidate preparation from these fetched bytes.",
       "reviewPackage": {
@@ -114,7 +184,7 @@
           "url": "https://norvikbank.ru/press-center/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T02:53:13.450978Z",
         "compose": "1.12.0",
@@ -124,5 +194,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "438b4f4613c612d3a948f430a1c0a3c864ba3689a324e95505cfee16fb2dc92a"
 }
