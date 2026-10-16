@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T21:55:45.883669Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T21:59:42.417452Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "12c0f51376ba7c87069f3596422e7ef6821483dd",
+      "acceptedIconHash": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616",
       "agentAssessment": {
         "path": "evidence/15678/assessed-2ac9eddeeeca968378f10dae16ebb69aeaf14f08e38aef3bbe0d6b2acbe9d60f.json",
         "sha256": "2ac9eddeeeca968378f10dae16ebb69aeaf14f08e38aef3bbe0d6b2acbe9d60f"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/15678",
         "headCommit": "12c0f51376ba7c87069f3596422e7ef6821483dd",
         "number": 80,
-        "observedAt": "2026-10-03T22:20:11.115733Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:40.746207Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Unibank (Company.id 15678)",
         "url": "https://github.com/zenmoney/banks/pull/80"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3bc826271e6c3759ad54aaf021f05fd0e0a1813f5eb8b88e67dda21669cee59f",
+          "head": "bank-icon-maintenance/15678",
+          "headCommit": "12c0f51376ba7c87069f3596422e7ef6821483dd",
+          "number": 80,
+          "observedAt": "2026-10-03T22:20:11.115733Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Unibank (Company.id 15678)",
+          "url": "https://github.com/zenmoney/banks/pull/80"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3bc826271e6c3759ad54aaf021f05fd0e0a1813f5eb8b88e67dda21669cee59f",
+        "closedAt": "2026-10-15T14:35:21Z",
+        "head": "bank-icon-maintenance/15678",
+        "headCommit": "12c0f51376ba7c87069f3596422e7ef6821483dd",
+        "mergeCommit": "88c6c2bcea323c5ef4263be3ea0396abc58a19d9",
+        "mergedAt": "2026-10-15T14:35:21Z",
+        "number": 80,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Unibank (Company.id 15678)",
+        "url": "https://github.com/zenmoney/banks/pull/80"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:32:40.746207Z",
+        "proof": {
+          "accepted": {
+            "commit": "88c6c2bcea323c5ef4263be3ea0396abc58a19d9",
+            "iconHash": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616",
+            "metadataHash": "e42ec6b033ce275d70720370351a7491f8ec45dfd018dae9dc0daa26c1c6ef17"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616",
+            "metadataHash": "e42ec6b033ce275d70720370351a7491f8ec45dfd018dae9dc0daa26c1c6ef17"
+          },
+          "path": "banks/Unibank_15678-am/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "12c0f51376ba7c87069f3596422e7ef6821483dd",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3bc826271e6c3759ad54aaf021f05fd0e0a1813f5eb8b88e67dda21669cee59f",
+          "closedAt": "2026-10-15T14:35:21Z",
+          "head": "bank-icon-maintenance/15678",
+          "headCommit": "12c0f51376ba7c87069f3596422e7ef6821483dd",
+          "mergeCommit": "88c6c2bcea323c5ef4263be3ea0396abc58a19d9",
+          "mergedAt": "2026-10-15T14:35:21Z",
+          "number": 80,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Unibank (Company.id 15678)",
+          "url": "https://github.com/zenmoney/banks/pull/80"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Accepted icon shows the legacy Unibank symbol (yellow U in ring on blue with orange corner wedges, still present only in the site favicon, sha256 ad53bf71). The current brand symbol on unibank.am (fetched 2026-10-03) is a different color treatment: the same U-in-ring construction with a white U on #016197 blue and orange corner wedges, served as the official header logo SVG. This is an evidenced rebrand of the accepted design.",
       "reviewPackage": {
@@ -106,7 +176,7 @@
           "url": "https://www.unibank.am/favicon.ico"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T21:59:42.417452Z",
         "compose": "1.12.0",
@@ -116,5 +186,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "98ddbe1a5438910113afa0a882e087addb878eff35e418698dfb6d4045b69616"
 }

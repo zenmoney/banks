@@ -61,13 +61,66 @@
         "head": "bank-icon-maintenance/alfa-bank-business-15725",
         "headCommit": "25fc768a583e4e20f0f78510984d34ad9588aeaa",
         "number": 90,
-        "observedAt": "2026-10-04T01:31:08.227818Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:20.206125Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Альфа-Банк Бизнес (Company.id 15725)",
         "url": "https://github.com/zenmoney/banks/pull/90"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "84f1dc0d63064aa5d31248d45600f77f4c345cce3da3fbd5e417e362510b290f",
+          "head": "bank-icon-maintenance/alfa-bank-business-15725",
+          "headCommit": "25fc768a583e4e20f0f78510984d34ad9588aeaa",
+          "number": 90,
+          "observedAt": "2026-10-04T01:31:08.227818Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Альфа-Банк Бизнес (Company.id 15725)",
+          "url": "https://github.com/zenmoney/banks/pull/90"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "84f1dc0d63064aa5d31248d45600f77f4c345cce3da3fbd5e417e362510b290f",
+        "closedAt": "2026-10-16T09:53:05Z",
+        "head": "bank-icon-maintenance/alfa-bank-business-15725",
+        "headCommit": "25fc768a583e4e20f0f78510984d34ad9588aeaa",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 90,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Альфа-Банк Бизнес (Company.id 15725)",
+        "url": "https://github.com/zenmoney/banks/pull/90"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:33:20.206125Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "84f1dc0d63064aa5d31248d45600f77f4c345cce3da3fbd5e417e362510b290f",
+          "closedAt": "2026-10-16T09:53:05Z",
+          "head": "bank-icon-maintenance/alfa-bank-business-15725",
+          "headCommit": "25fc768a583e4e20f0f78510984d34ad9588aeaa",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 90,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Альфа-Банк Бизнес (Company.id 15725)",
+          "url": "https://github.com/zenmoney/banks/pull/90"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Post-2022 official 'Á' glyph with underline, standalone compact SVG from Alfa-Bank's own design system (core-ds/ui-primitives master); base is an older stylized white-on-gradient-disc presentation of the same glyph.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15725/candidate-28b200892cfae1708ebc68f4b71e349153dbd8665e7c97b7cfd1e4f17df4964b.json",
         "sha256": "28b200892cfae1708ebc68f4b71e349153dbd8665e7c97b7cfd1e4f17df4964b"
@@ -101,7 +154,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Alfa_Bank_RU_logo.svg"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T01:22:12.343614Z",
         "compose": "1.12.0",

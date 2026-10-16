@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T22:41:32.540717Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T22:52:04.270212Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1d5ca126c5b151a42b68b15a27146b8ce556a764",
+      "acceptedIconHash": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4",
       "agentAssessment": {
         "path": "evidence/15693/assessed-647d9d3cd4f47852b4aeca13d041e50a7b8605a59a150e0ab78729dd67f5391e.json",
         "sha256": "647d9d3cd4f47852b4aeca13d041e50a7b8605a59a150e0ab78729dd67f5391e"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/15693",
         "headCommit": "1d5ca126c5b151a42b68b15a27146b8ce556a764",
         "number": 83,
-        "observedAt": "2026-10-03T23:02:37.529376Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:51.260767Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Revolut (Company.id 15693)",
         "url": "https://github.com/zenmoney/banks/pull/83"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "93c5fad8e900c5500534c59687bfb053763d4ba67be01058ce7c16aab9ef62f9",
+          "head": "bank-icon-maintenance/15693",
+          "headCommit": "1d5ca126c5b151a42b68b15a27146b8ce556a764",
+          "number": 83,
+          "observedAt": "2026-10-03T23:02:37.529376Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Revolut (Company.id 15693)",
+          "url": "https://github.com/zenmoney/banks/pull/83"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "93c5fad8e900c5500534c59687bfb053763d4ba67be01058ce7c16aab9ef62f9",
+        "closedAt": "2026-10-15T14:35:43Z",
+        "head": "bank-icon-maintenance/15693",
+        "headCommit": "1d5ca126c5b151a42b68b15a27146b8ce556a764",
+        "mergeCommit": "43484821a4f95b40ce8ad37c1696bd13c12433e9",
+        "mergedAt": "2026-10-15T14:35:43Z",
+        "number": 83,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Revolut (Company.id 15693)",
+        "url": "https://github.com/zenmoney/banks/pull/83"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:32:51.260767Z",
+        "proof": {
+          "accepted": {
+            "commit": "43484821a4f95b40ce8ad37c1696bd13c12433e9",
+            "iconHash": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4",
+            "metadataHash": "bf5cd0e53f4b1f26ad68819dd81fb5d33421b004271cbfb0e6a09f49562fe963"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4",
+            "metadataHash": "bf5cd0e53f4b1f26ad68819dd81fb5d33421b004271cbfb0e6a09f49562fe963"
+          },
+          "path": "banks/Revolut_15693-unknown/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1d5ca126c5b151a42b68b15a27146b8ce556a764",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "93c5fad8e900c5500534c59687bfb053763d4ba67be01058ce7c16aab9ef62f9",
+          "closedAt": "2026-10-15T14:35:43Z",
+          "head": "bank-icon-maintenance/15693",
+          "headCommit": "1d5ca126c5b151a42b68b15a27146b8ce556a764",
+          "mergeCommit": "43484821a4f95b40ce8ad37c1696bd13c12433e9",
+          "mergedAt": "2026-10-15T14:35:43Z",
+          "number": 83,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Revolut (Company.id 15693)",
+          "url": "https://github.com/zenmoney/banks/pull/83"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Accepted icon (sha256 83caa2f1...) is a #1326FD blue circle with a white R — an older/invented-color variant. Revolut's official 2021-rebrand app icon is a black R on a white field, confirmed current by the official Open Banking brand guidelines PDF retrieved live 2026-10-03, and the original app-icon SVG was losslessly extracted from the official retail logo package. Proposed as a candidate replacement.",
       "reviewPackage": {
@@ -105,7 +175,7 @@
           "url": "https://developer.revolut.com/assets/oba/Main%28Retail%29-Logo-package.zip"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T22:52:04.270212Z",
         "compose": "1.12.0",
@@ -115,5 +185,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "4258574627fd85ccfaea52717a379aefd3a3efbecaf1f7df103fe25802b2efa4"
 }

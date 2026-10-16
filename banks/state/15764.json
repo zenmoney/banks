@@ -60,13 +60,66 @@
         "head": "bank-icon-maintenance/15764",
         "headCommit": "4e14c7d1a86dd5b6ac79fc6b1702fecd3eb32643",
         "number": 96,
-        "observedAt": "2026-10-04T03:50:23.492104Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:29.779738Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк \"Открытие\" Бизнес (Company.id 15764)",
         "url": "https://github.com/zenmoney/banks/pull/96"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3330787d39946eb819137fb6452ecabda72c3c8fbba740b4d423e1a89bbc6672",
+          "head": "bank-icon-maintenance/15764",
+          "headCommit": "4e14c7d1a86dd5b6ac79fc6b1702fecd3eb32643",
+          "number": 96,
+          "observedAt": "2026-10-04T03:50:23.492104Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Открытие\" Бизнес (Company.id 15764)",
+          "url": "https://github.com/zenmoney/banks/pull/96"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "3330787d39946eb819137fb6452ecabda72c3c8fbba740b4d423e1a89bbc6672",
+        "closedAt": "2026-10-16T08:31:20Z",
+        "head": "bank-icon-maintenance/15764",
+        "headCommit": "4e14c7d1a86dd5b6ac79fc6b1702fecd3eb32643",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 96,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Открытие\" Бизнес (Company.id 15764)",
+        "url": "https://github.com/zenmoney/banks/pull/96"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:33:29.779738Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "3330787d39946eb819137fb6452ecabda72c3c8fbba740b4d423e1a89bbc6672",
+          "closedAt": "2026-10-16T08:31:20Z",
+          "head": "bank-icon-maintenance/15764",
+          "headCommit": "4e14c7d1a86dd5b6ac79fc6b1702fecd3eb32643",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 96,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Открытие\" Бизнес (Company.id 15764)",
+          "url": "https://github.com/zenmoney/banks/pull/96"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Historical record: Банк ФК Открытие merged into БМ-банк (VTB) on 2025-01-01 and branches rebranded to ВТБ; the record is retained for the last independent brand period. The accepted icon deviates from that period's authentic mark (extra white inner plate, lighter #4ab9e4 instead of #02BAE8), so a period-mark correction candidate is prepared.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15764/candidate-a68b4eaec3e8a9cabcdcfc10c54aeb202652eb39091d2ac8ff7f1b79c79d3ef3.json",
         "sha256": "a68b4eaec3e8a9cabcdcfc10c54aeb202652eb39091d2ac8ff7f1b79c79d3ef3"
@@ -108,7 +161,7 @@
           "url": "https://open.ru"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T03:45:40.163110Z",
         "compose": "1.12.0",

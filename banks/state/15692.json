@@ -61,13 +61,66 @@
         "head": "bank-icon-maintenance/15692",
         "headCommit": "4906983b59a77b5d84d550fe431c20225c727b7d",
         "number": 82,
-        "observedAt": "2026-10-03T22:59:29.750289Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:46.516390Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: PayPal (Company.id 15692)",
         "url": "https://github.com/zenmoney/banks/pull/82"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1c15c0f23ce80d13b7936815f6c1283c0f8f5c3b6a56e6c4c938679df578da0d",
+          "head": "bank-icon-maintenance/15692",
+          "headCommit": "4906983b59a77b5d84d550fe431c20225c727b7d",
+          "number": 82,
+          "observedAt": "2026-10-03T22:59:29.750289Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: PayPal (Company.id 15692)",
+          "url": "https://github.com/zenmoney/banks/pull/82"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1c15c0f23ce80d13b7936815f6c1283c0f8f5c3b6a56e6c4c938679df578da0d",
+        "closedAt": "2026-10-14T17:06:53Z",
+        "head": "bank-icon-maintenance/15692",
+        "headCommit": "4906983b59a77b5d84d550fe431c20225c727b7d",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 82,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: PayPal (Company.id 15692)",
+        "url": "https://github.com/zenmoney/banks/pull/82"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:32:46.516390Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "1c15c0f23ce80d13b7936815f6c1283c0f8f5c3b6a56e6c4c938679df578da0d",
+          "closedAt": "2026-10-14T17:06:53Z",
+          "head": "bank-icon-maintenance/15692",
+          "headCommit": "4906983b59a77b5d84d550fe431c20225c727b7d",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 82,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: PayPal (Company.id 15692)",
+          "url": "https://github.com/zenmoney/banks/pull/82"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Accepted icon (sha256 dc7a58d5...) is the superseded 2014-era two-tone filled PP monogram in a dark-blue circle using non-official fill #183686. PayPal's current brand (2024-2025 refresh) uses a flat one-color #003087 outline double-P monogram; an official original-vector monogram was retrieved from the official PayPal CDN and is proposed as a candidate replacement.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15692/candidate-e4fd00deb67fc9fa758f1413e46f372f7702fadfdc67f77098c6cd27eceb9e85.json",
         "sha256": "e4fd00deb67fc9fa758f1413e46f372f7702fadfdc67f77098c6cd27eceb9e85"
@@ -101,7 +154,7 @@
           "url": "https://developer.paypal.com/payment-methods/icons/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T22:52:02.308605Z",
         "compose": "1.12.0",

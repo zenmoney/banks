@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T23:25:12.664588Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T23:42:13.417490Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "c65121a1a6486c8fb87f6dedbd256fef176477bc",
+      "acceptedIconHash": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642",
       "agentAssessment": {
         "path": "evidence/15699/assessed-4505a9cbc8f73bd2dca2feaf3fc5a10530f037dc19290f945133afbffcf635c6.json",
         "sha256": "4505a9cbc8f73bd2dca2feaf3fc5a10530f037dc19290f945133afbffcf635c6"
@@ -57,11 +60,78 @@
         "head": "bank-icon-maintenance/15699",
         "headCommit": "c65121a1a6486c8fb87f6dedbd256fef176477bc",
         "number": 84,
-        "observedAt": "2026-10-03T23:52:26.195295Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:55.694624Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: דיסקונט (Company.id 15699)",
         "url": "https://github.com/zenmoney/banks/pull/84"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "517f147306b609d7a00a4016aa31596008ee422cf5dbf9080f24c2c370d693dd",
+          "head": "bank-icon-maintenance/15699",
+          "headCommit": "c65121a1a6486c8fb87f6dedbd256fef176477bc",
+          "number": 84,
+          "observedAt": "2026-10-03T23:52:26.195295Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: דיסקונט (Company.id 15699)",
+          "url": "https://github.com/zenmoney/banks/pull/84"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "517f147306b609d7a00a4016aa31596008ee422cf5dbf9080f24c2c370d693dd",
+        "closedAt": "2026-10-15T14:35:54Z",
+        "head": "bank-icon-maintenance/15699",
+        "headCommit": "c65121a1a6486c8fb87f6dedbd256fef176477bc",
+        "mergeCommit": "f89c89a4b966abee2f8b271618dd1f4fca3c36b4",
+        "mergedAt": "2026-10-15T14:35:54Z",
+        "number": 84,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: דיסקונט (Company.id 15699)",
+        "url": "https://github.com/zenmoney/banks/pull/84"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:32:55.694624Z",
+        "proof": {
+          "accepted": {
+            "commit": "f89c89a4b966abee2f8b271618dd1f4fca3c36b4",
+            "iconHash": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642",
+            "metadataHash": "e3c42c1cd0777d87cca1a2373fdfdffe1867e88bd1ff144bf6e122cdcf6e725d"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642",
+            "metadataHash": "e3c42c1cd0777d87cca1a2373fdfdffe1867e88bd1ff144bf6e122cdcf6e725d"
+          },
+          "path": "banks/דיסקונט_15699-il/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "c65121a1a6486c8fb87f6dedbd256fef176477bc",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "517f147306b609d7a00a4016aa31596008ee422cf5dbf9080f24c2c370d693dd",
+          "closedAt": "2026-10-15T14:35:54Z",
+          "head": "bank-icon-maintenance/15699",
+          "headCommit": "c65121a1a6486c8fb87f6dedbd256fef176477bc",
+          "mergeCommit": "f89c89a4b966abee2f8b271618dd1f4fca3c36b4",
+          "mergedAt": "2026-10-15T14:35:54Z",
+          "number": 84,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: דיסקונט (Company.id 15699)",
+          "url": "https://github.com/zenmoney/banks/pull/84"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Existing icon is an icon-pack rendition (clip0_49_2807) with a mint gradient (56B28D-60BD68) that does not match current brand green; official site serves the current wordmark+smile lockup as an original vector and the official apple-touch avatar uses flat green #00A661.",
       "reviewPackage": {
@@ -96,7 +166,7 @@
           "url": "https://www.discountbank.co.il/apple-touch-icon.png"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T23:42:13.417490Z",
         "compose": "1.12.0",
@@ -106,5 +176,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "20f5317aa41dbd02515cb4d555c7c774120aab5fc6342ad774f375d21bdcf642"
 }

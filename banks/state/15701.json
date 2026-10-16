@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T23:26:19.287356Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T23:42:16.685634Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "e5b5d6475e9f026839505b8eff65ee598a842c84",
+      "acceptedIconHash": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a",
       "agentAssessment": {
         "path": "evidence/15701/assessed-df9558488dcee65492c4b3287b20cf650b6ad409742116ca3661f1b03d5c1b4b.json",
         "sha256": "df9558488dcee65492c4b3287b20cf650b6ad409742116ca3661f1b03d5c1b4b"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15701",
         "headCommit": "e5b5d6475e9f026839505b8eff65ee598a842c84",
         "number": 86,
-        "observedAt": "2026-10-03T23:58:36.691045Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:05.428786Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: לאומי (Company.id 15701)",
         "url": "https://github.com/zenmoney/banks/pull/86"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5dbe0973bacd8c6c01097b682f044b9de939fe53caf30c50cbe1ccb3d1af8253",
+          "head": "bank-icon-maintenance/15701",
+          "headCommit": "e5b5d6475e9f026839505b8eff65ee598a842c84",
+          "number": 86,
+          "observedAt": "2026-10-03T23:58:36.691045Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: לאומי (Company.id 15701)",
+          "url": "https://github.com/zenmoney/banks/pull/86"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "5dbe0973bacd8c6c01097b682f044b9de939fe53caf30c50cbe1ccb3d1af8253",
+        "closedAt": "2026-10-15T14:36:12Z",
+        "head": "bank-icon-maintenance/15701",
+        "headCommit": "e5b5d6475e9f026839505b8eff65ee598a842c84",
+        "mergeCommit": "b1768fff5c0dcf47dd8927186e45fc541dcc3eb7",
+        "mergedAt": "2026-10-15T14:36:12Z",
+        "number": 86,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: לאומי (Company.id 15701)",
+        "url": "https://github.com/zenmoney/banks/pull/86"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:33:05.428786Z",
+        "proof": {
+          "accepted": {
+            "commit": "b1768fff5c0dcf47dd8927186e45fc541dcc3eb7",
+            "iconHash": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a",
+            "metadataHash": "69b872f64583391401356c0d407160c35975fb928c2a834f0b4cf2534079a898"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a",
+            "metadataHash": "69b872f64583391401356c0d407160c35975fb928c2a834f0b4cf2534079a898"
+          },
+          "path": "banks/לאומי_15701-il/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "e5b5d6475e9f026839505b8eff65ee598a842c84",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "5dbe0973bacd8c6c01097b682f044b9de939fe53caf30c50cbe1ccb3d1af8253",
+          "closedAt": "2026-10-15T14:36:12Z",
+          "head": "bank-icon-maintenance/15701",
+          "headCommit": "e5b5d6475e9f026839505b8eff65ee598a842c84",
+          "mergeCommit": "b1768fff5c0dcf47dd8927186e45fc541dcc3eb7",
+          "mergedAt": "2026-10-15T14:36:12Z",
+          "number": 86,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: לאומי (Company.id 15701)",
+          "url": "https://github.com/zenmoney/banks/pull/86"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Existing icon is an icon-pack rendition with #5591ED/#2B4594; the current Leumi app-mark uses #0066FF and navy #10069A. Official site was unreachable this run, so the current vector was obtained from Wikipedia's Bank_leumi_new_logo.svg whose declared source is leumi.co.il/en; currency supported by the 2026-09-23 archived homepage showing the same current mark.",
       "reviewPackage": {
@@ -105,7 +175,7 @@
           "url": "https://web.archive.org/web/20260923085905/https://www.leumi.co.il/he"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T23:42:16.685634Z",
         "compose": "1.12.0",
@@ -115,5 +185,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "e0a91afb1235fe1ca41a18fa7670907966816d6fe2ce45d4eadf00ff5f953a4a"
 }

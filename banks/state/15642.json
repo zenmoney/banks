@@ -59,13 +59,66 @@
         "head": "bank-icon-maintenance/15642",
         "headCommit": "14dd61d743afca41b869a25b093e0f2476ccd176",
         "number": 76,
-        "observedAt": "2026-10-03T20:22:58.660890Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:28.816522Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Kapital Bank (Company.id 15642)",
         "url": "https://github.com/zenmoney/banks/pull/76"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "069b41cbff6dfe1733e2d9cf290bdb6163bcd45a305d5581a54255aa511634a3",
+          "head": "bank-icon-maintenance/15642",
+          "headCommit": "14dd61d743afca41b869a25b093e0f2476ccd176",
+          "number": 76,
+          "observedAt": "2026-10-03T20:22:58.660890Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Kapital Bank (Company.id 15642)",
+          "url": "https://github.com/zenmoney/banks/pull/76"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "069b41cbff6dfe1733e2d9cf290bdb6163bcd45a305d5581a54255aa511634a3",
+        "closedAt": "2026-10-16T09:52:12Z",
+        "head": "bank-icon-maintenance/15642",
+        "headCommit": "14dd61d743afca41b869a25b093e0f2476ccd176",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 76,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Kapital Bank (Company.id 15642)",
+        "url": "https://github.com/zenmoney/banks/pull/76"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:32:28.816522Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "069b41cbff6dfe1733e2d9cf290bdb6163bcd45a305d5581a54255aa511634a3",
+          "closedAt": "2026-10-16T09:52:12Z",
+          "head": "bank-icon-maintenance/15642",
+          "headCommit": "14dd61d743afca41b869a25b093e0f2476ccd176",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 76,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Kapital Bank (Company.id 15642)",
+          "url": "https://github.com/zenmoney/banks/pull/76"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Current catalog icon is the legacy Kapital Bank red pinwheel/rhombus. The bank's retail identity has been rebranded to Birbank: the official birbank.az homepage titles itself 'Birbank - Ilk reqemsal bank | Kapital Bank' and serves the red #FF0039 'birbank' wordmark (with its leading parallelogram glyph) as the current logo, in two byte-identical official SVGs. The catalog mark is the superseded pre-rebrand design; candidate is the current official brand mark (the wordmark itself is the whole mark, so letters forming the mark are allowed).",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15642/candidate-8a8b07818627d15b5c4e74fdfc17ae29061b143de74d71b822be167222bc0895.json",
         "sha256": "8a8b07818627d15b5c4e74fdfc17ae29061b143de74d71b822be167222bc0895"
@@ -99,7 +152,7 @@
           "url": "https://kapitalbank.az/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T20:04:49.307112Z",
         "compose": "1.12.0",

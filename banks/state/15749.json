@@ -61,13 +61,66 @@
         "head": "bank-icon-maintenance/15749",
         "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
         "number": 93,
-        "observedAt": "2026-10-04T02:40:55.175547Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:28.111026Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Yahav (Company.id 15749)",
         "url": "https://github.com/zenmoney/banks/pull/93"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "96a8d87765b4a9ae35e3fe0e67194c6c31061cf36bab30417c8c82f4d2f29697",
+          "head": "bank-icon-maintenance/15749",
+          "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
+          "number": 93,
+          "observedAt": "2026-10-04T02:40:55.175547Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Yahav (Company.id 15749)",
+          "url": "https://github.com/zenmoney/banks/pull/93"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "96a8d87765b4a9ae35e3fe0e67194c6c31061cf36bab30417c8c82f4d2f29697",
+        "closedAt": "2026-10-16T09:55:10Z",
+        "head": "bank-icon-maintenance/15749",
+        "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 93,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Yahav (Company.id 15749)",
+        "url": "https://github.com/zenmoney/banks/pull/93"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:33:28.111026Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "96a8d87765b4a9ae35e3fe0e67194c6c31061cf36bab30417c8c82f4d2f29697",
+          "closedAt": "2026-10-16T09:55:10Z",
+          "head": "bank-icon-maintenance/15749",
+          "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 93,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Yahav (Company.id 15749)",
+          "url": "https://github.com/zenmoney/banks/pull/93"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Bank Yahav's current standalone mark is the blue layered-wave emblem with a green arc, served as the site's own logotype vector and favicon (about-us-logotype.svg). The accepted catalog icon is the older dark-indigo circular emblem, a different design. This is a supported rebranding replacement from an original vector.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15749/candidate-ed71bf3629c6e69a6cf268ee124c498cc4cf3a6bdb910096030eca0de3a83406.json",
         "sha256": "ed71bf3629c6e69a6cf268ee124c498cc4cf3a6bdb910096030eca0de3a83406"
@@ -101,7 +154,7 @@
           "url": "https://web.archive.org/web/20260925id_/https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T02:33:27Z",
         "compose": "1.12.0",

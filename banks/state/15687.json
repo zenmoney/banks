@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T21:54:16.894821Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T21:59:48.808722Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "291d560c48b0a676a845da5b31675a0d99759291",
+      "acceptedIconHash": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500",
       "agentAssessment": {
         "path": "evidence/15687/assessed-54e0f63027f714b03723322546b830bbd81e2d16304e61df6309eb20a139b984.json",
         "sha256": "54e0f63027f714b03723322546b830bbd81e2d16304e61df6309eb20a139b984"
@@ -60,11 +63,78 @@
         "head": "bank-icon-maintenance/15687",
         "headCommit": "291d560c48b0a676a845da5b31675a0d99759291",
         "number": 81,
-        "observedAt": "2026-10-03T22:23:14.463769Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:45.496852Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Alior Bank (Company.id 15687)",
         "url": "https://github.com/zenmoney/banks/pull/81"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "102030601aedeac8350b4c84e913a35a63f42cc379ca3dce460ed70b6556ce13",
+          "head": "bank-icon-maintenance/15687",
+          "headCommit": "291d560c48b0a676a845da5b31675a0d99759291",
+          "number": 81,
+          "observedAt": "2026-10-03T22:23:14.463769Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Alior Bank (Company.id 15687)",
+          "url": "https://github.com/zenmoney/banks/pull/81"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "102030601aedeac8350b4c84e913a35a63f42cc379ca3dce460ed70b6556ce13",
+        "closedAt": "2026-10-15T14:35:32Z",
+        "head": "bank-icon-maintenance/15687",
+        "headCommit": "291d560c48b0a676a845da5b31675a0d99759291",
+        "mergeCommit": "1084fe019e42a8249fcf2c863211fdc33755d488",
+        "mergedAt": "2026-10-15T14:35:32Z",
+        "number": 81,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Alior Bank (Company.id 15687)",
+        "url": "https://github.com/zenmoney/banks/pull/81"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:32:45.496852Z",
+        "proof": {
+          "accepted": {
+            "commit": "1084fe019e42a8249fcf2c863211fdc33755d488",
+            "iconHash": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500",
+            "metadataHash": "023cf1dc2018d58b2d37d1498aef22077a6ab44d0101690077c6750f9889c59e"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500",
+            "metadataHash": "023cf1dc2018d58b2d37d1498aef22077a6ab44d0101690077c6750f9889c59e"
+          },
+          "path": "banks/Alior Bank_15687-pl/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "291d560c48b0a676a845da5b31675a0d99759291",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "102030601aedeac8350b4c84e913a35a63f42cc379ca3dce460ed70b6556ce13",
+          "closedAt": "2026-10-15T14:35:32Z",
+          "head": "bank-icon-maintenance/15687",
+          "headCommit": "291d560c48b0a676a845da5b31675a0d99759291",
+          "mergeCommit": "1084fe019e42a8249fcf2c863211fdc33755d488",
+          "mergedAt": "2026-10-15T14:35:32Z",
+          "number": 81,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Alior Bank (Company.id 15687)",
+          "url": "https://github.com/zenmoney/banks/pull/81"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Accepted icon is a cropped variant of the Alior engraved head on a gold field: the face is cut off at the right edge of the canvas. A complete original-vector version of the same design (full head, gold radial-gradient field, no wordmark) is available and current; the accepted crop loses part of the emblem (geometry repair), which is a supported update reason.",
       "reviewPackage": {
@@ -116,7 +186,7 @@
           "url": "https://commons.wikimedia.org/wiki/File:Alior_Bank_logo.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T21:59:48.808722Z",
         "compose": "1.12.0",
@@ -126,5 +196,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "d782b8b2aecfc8557e6b3294c0356cc7f6a31a24b3a744fefed19273fb025500"
 }

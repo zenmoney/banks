@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T23:26:20.817601Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T23:42:21.287619Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "bb2079c8c35b619a244be920017f76d7822df36e",
+      "acceptedIconHash": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96",
       "agentAssessment": {
         "path": "evidence/15703/assessed-18d0ac2e5176c8cb57ec33a44b1418b915cf8e2d08baf29a4139372fc6b66e9d.json",
         "sha256": "18d0ac2e5176c8cb57ec33a44b1418b915cf8e2d08baf29a4139372fc6b66e9d"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15703",
         "headCommit": "bb2079c8c35b619a244be920017f76d7822df36e",
         "number": 88,
-        "observedAt": "2026-10-04T00:07:48.966650Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:14.731037Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: בינלאומי (Company.id 15703)",
         "url": "https://github.com/zenmoney/banks/pull/88"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "93d9fd6dd701f75ed5cabaeef1cdfe249431ad6e6f964ca4f25a947ea33293ff",
+          "head": "bank-icon-maintenance/15703",
+          "headCommit": "bb2079c8c35b619a244be920017f76d7822df36e",
+          "number": 88,
+          "observedAt": "2026-10-04T00:07:48.966650Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: בינלאומי (Company.id 15703)",
+          "url": "https://github.com/zenmoney/banks/pull/88"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "93d9fd6dd701f75ed5cabaeef1cdfe249431ad6e6f964ca4f25a947ea33293ff",
+        "closedAt": "2026-10-15T14:36:30Z",
+        "head": "bank-icon-maintenance/15703",
+        "headCommit": "bb2079c8c35b619a244be920017f76d7822df36e",
+        "mergeCommit": "d0fc8ef6105de4834d4a5a607285fc86ee349cb0",
+        "mergedAt": "2026-10-15T14:36:29Z",
+        "number": 88,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: בינלאומי (Company.id 15703)",
+        "url": "https://github.com/zenmoney/banks/pull/88"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:33:14.731037Z",
+        "proof": {
+          "accepted": {
+            "commit": "d0fc8ef6105de4834d4a5a607285fc86ee349cb0",
+            "iconHash": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96",
+            "metadataHash": "81e58059d737128167fc02108cd07d2333d847d2fe57b37d8d0539720b9ca745"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96",
+            "metadataHash": "81e58059d737128167fc02108cd07d2333d847d2fe57b37d8d0539720b9ca745"
+          },
+          "path": "banks/בינלאומי_15703-il/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "bb2079c8c35b619a244be920017f76d7822df36e",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "93d9fd6dd701f75ed5cabaeef1cdfe249431ad6e6f964ca4f25a947ea33293ff",
+          "closedAt": "2026-10-15T14:36:30Z",
+          "head": "bank-icon-maintenance/15703",
+          "headCommit": "bb2079c8c35b619a244be920017f76d7822df36e",
+          "mergeCommit": "d0fc8ef6105de4834d4a5a607285fc86ee349cb0",
+          "mergedAt": "2026-10-15T14:36:29Z",
+          "number": 88,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: בינלאומי (Company.id 15703)",
+          "url": "https://github.com/zenmoney/banks/pull/88"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Existing icon is an icon-pack rendition with #E8A33E; the current FIBI logo (Wikipedia First_International_Bank_of_Israel_logo.svg, declared author First International Bank of Israel, source tactico.co.il, FIBI's agency) uses symbol #FDB726 and wordmark #00529B. The official site is fully bot-blocked (Radware) this run, so the vector came from Wikipedia.",
       "reviewPackage": {
@@ -105,7 +175,7 @@
           "url": "https://www.fibi.co.il/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T23:42:21.287619Z",
         "compose": "1.12.0",
@@ -115,5 +185,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "b10062e13924af236dfa784b5585d10c7ab469d92b25be6da9a050469f5e3f96"
 }

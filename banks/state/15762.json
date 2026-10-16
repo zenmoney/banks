@@ -58,13 +58,66 @@
         "head": "bank-icon-maintenance/15762",
         "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
         "number": 95,
-        "observedAt": "2026-10-04T03:44:33.134657Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:28.981126Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
         "url": "https://github.com/zenmoney/banks/pull/95"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "acab785e2eee7c82bd974cbfff19658da62926b346dd0631c0c7e43a95de57e8",
+          "head": "bank-icon-maintenance/15762",
+          "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
+          "number": 95,
+          "observedAt": "2026-10-04T03:44:33.134657Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
+          "url": "https://github.com/zenmoney/banks/pull/95"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "acab785e2eee7c82bd974cbfff19658da62926b346dd0631c0c7e43a95de57e8",
+        "closedAt": "2026-10-16T08:35:24Z",
+        "head": "bank-icon-maintenance/15762",
+        "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 95,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
+        "url": "https://github.com/zenmoney/banks/pull/95"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:33:28.981126Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "acab785e2eee7c82bd974cbfff19658da62926b346dd0631c0c7e43a95de57e8",
+          "closedAt": "2026-10-16T08:35:24Z",
+          "head": "bank-icon-maintenance/15762",
+          "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 95,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
+          "url": "https://github.com/zenmoney/banks/pull/95"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Bank operates as Банк ПСБ with the orange/indigo pinwheel mark since the 2019-2020 rebrand (Рromsvyazbank name retired 2025-04-01); business.psbank.ru serves only the new mark; catalog icon is the old blue ПСБ mark.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15762/candidate-181645d8fc4f2ba08ff254ef07f525ad48fd85c3975fe8eebc74c2278403d980.json",
         "sha256": "181645d8fc4f2ba08ff254ef07f525ad48fd85c3975fe8eebc74c2278403d980"
@@ -106,7 +159,7 @@
           "url": "https://business.psbank.ru/assets/logo-on-white_7203a90e8570648383de.svg"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T03:39:53.978215Z",
         "compose": "1.12.0",

@@ -59,13 +59,66 @@
         "head": "bank-icon-maintenance/15648",
         "headCommit": "42b8fedc9e4751d91cdf9d040e15df64c7d964ba",
         "number": 77,
-        "observedAt": "2026-10-03T20:59:17.241262Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:30.231560Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: МегаФон Банк (Company.id 15648)",
         "url": "https://github.com/zenmoney/banks/pull/77"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "fe2f01258acc19dc4dee592ce786b611f769eae921d78a0c06f739597cca1e0c",
+          "head": "bank-icon-maintenance/15648",
+          "headCommit": "42b8fedc9e4751d91cdf9d040e15df64c7d964ba",
+          "number": 77,
+          "observedAt": "2026-10-03T20:59:17.241262Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МегаФон Банк (Company.id 15648)",
+          "url": "https://github.com/zenmoney/banks/pull/77"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "fe2f01258acc19dc4dee592ce786b611f769eae921d78a0c06f739597cca1e0c",
+        "closedAt": "2026-10-15T11:06:36Z",
+        "head": "bank-icon-maintenance/15648",
+        "headCommit": "42b8fedc9e4751d91cdf9d040e15df64c7d964ba",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 77,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: МегаФон Банк (Company.id 15648)",
+        "url": "https://github.com/zenmoney/banks/pull/77"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:32:30.231560Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "fe2f01258acc19dc4dee592ce786b611f769eae921d78a0c06f739597cca1e0c",
+          "closedAt": "2026-10-15T11:06:36Z",
+          "head": "bank-icon-maintenance/15648",
+          "headCommit": "42b8fedc9e4751d91cdf9d040e15df64c7d964ba",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 77,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: МегаФон Банк (Company.id 15648)",
+          "url": "https://github.com/zenmoney/banks/pull/77"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "The bank behind record 15648 (fullTitle 'Раунд') was divested from MegaFon in December 2022 and now operates as банк «Раунд» (Round Bank) at round.ru; bank.megafon.ru no longer resolves (DNS NXDOMAIN). The existing icon is the legacy MegaFon-era round-account emblem (green circle with crescent split and dots), which no longer matches the bank's current official mark: a green circle-'r' letterform favicon SVG served by round.ru itself. Supported same-bank rebrand, not a successor substitution.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15648/candidate-4a62fb4958f0957a74e5aae7f502335e881fa4c4602f9c3ee3d49cf14ed3a86c.json",
         "sha256": "4a62fb4958f0957a74e5aae7f502335e881fa4c4602f9c3ee3d49cf14ed3a86c"
@@ -107,7 +160,7 @@
           "url": "http://bank.megafon.ru/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T20:49:38.773741Z",
         "compose": "1.12.0",

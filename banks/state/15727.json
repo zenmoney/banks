@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T01:18:55.234426Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T01:26:29.813241Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "595cdacbfca114668a3d2a2a245a7c94ac3dc01e",
+      "acceptedIconHash": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde",
       "agentAssessment": {
         "path": "evidence/15727/assessed-80230d090a99dc4865891dd1a5273db1fc566834dd7ec51e948c04afb531031f.json",
         "sha256": "80230d090a99dc4865891dd1a5273db1fc566834dd7ec51e948c04afb531031f"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/bcr-romania-15727",
         "headCommit": "595cdacbfca114668a3d2a2a245a7c94ac3dc01e",
         "number": 91,
-        "observedAt": "2026-10-04T01:34:24.104293Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:23.948988Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: BCR Romania (Company.id 15727)",
         "url": "https://github.com/zenmoney/banks/pull/91"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8fbe54cd95a036260f0c9a739dc3ecc752d39599f6a967cc2ba3b6405a7af0d2",
+          "head": "bank-icon-maintenance/bcr-romania-15727",
+          "headCommit": "595cdacbfca114668a3d2a2a245a7c94ac3dc01e",
+          "number": 91,
+          "observedAt": "2026-10-04T01:34:24.104293Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BCR Romania (Company.id 15727)",
+          "url": "https://github.com/zenmoney/banks/pull/91"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8fbe54cd95a036260f0c9a739dc3ecc752d39599f6a967cc2ba3b6405a7af0d2",
+        "closedAt": "2026-10-15T14:36:49Z",
+        "head": "bank-icon-maintenance/bcr-romania-15727",
+        "headCommit": "595cdacbfca114668a3d2a2a245a7c94ac3dc01e",
+        "mergeCommit": "d6ca0329829ba9dbc5db76c63da3901e7433750e",
+        "mergedAt": "2026-10-15T14:36:48Z",
+        "number": 91,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: BCR Romania (Company.id 15727)",
+        "url": "https://github.com/zenmoney/banks/pull/91"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:33:23.948988Z",
+        "proof": {
+          "accepted": {
+            "commit": "d6ca0329829ba9dbc5db76c63da3901e7433750e",
+            "iconHash": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde",
+            "metadataHash": "9abce288cbfcb51c7eaf177216c6573a06a132333f57d3e4840debb04c4ed0c9"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde",
+            "metadataHash": "9abce288cbfcb51c7eaf177216c6573a06a132333f57d3e4840debb04c4ed0c9"
+          },
+          "path": "banks/BCR Romania_15727-ro/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "595cdacbfca114668a3d2a2a245a7c94ac3dc01e",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8fbe54cd95a036260f0c9a739dc3ecc752d39599f6a967cc2ba3b6405a7af0d2",
+          "closedAt": "2026-10-15T14:36:49Z",
+          "head": "bank-icon-maintenance/bcr-romania-15727",
+          "headCommit": "595cdacbfca114668a3d2a2a245a7c94ac3dc01e",
+          "mergeCommit": "d6ca0329829ba9dbc5db76c63da3901e7433750e",
+          "mergedAt": "2026-10-15T14:36:48Z",
+          "number": 91,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BCR Romania (Company.id 15727)",
+          "url": "https://github.com/zenmoney/banks/pull/91"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Official post-2023 monochrome white 'BCR'+S lockup SVG from the Erste Group CDN referenced by bcr.ro structured data; base is the 2007 red spark/flower monogram that the rebrand superseded.",
       "reviewPackage": {
@@ -100,7 +170,7 @@
           "url": "https://www.bcr.ro/ro/persoane-fizice"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T01:26:29.813241Z",
         "compose": "1.12.0",
@@ -110,5 +180,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "8e040bede7505ce4e50968a50dc9e250d97f8fcaa304c835f85582a79e092cde"
 }

@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T00:24:40.595959Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T00:27:46.297618Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "a2f7b41867ee6ee54d63e672ac396d85613ccfb5",
+      "acceptedIconHash": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f",
       "agentAssessment": {
         "path": "evidence/15704/assessed-7fdd8d3b5ff2abf7e40112686bd42abb5f62d5e4403b297f8e1d48df483a6abd.json",
         "sha256": "7fdd8d3b5ff2abf7e40112686bd42abb5f62d5e4403b297f8e1d48df483a6abd"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/15704",
         "headCommit": "a2f7b41867ee6ee54d63e672ac396d85613ccfb5",
         "number": 89,
-        "observedAt": "2026-10-04T00:35:00.980020Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:19.332450Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ЦИFРА банк (Company.id 15704)",
         "url": "https://github.com/zenmoney/banks/pull/89"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "30d34dcb71de6af5f82cafa62a4c7b5e50f7d83441e92bc8fb7716d4d05081d4",
+          "head": "bank-icon-maintenance/15704",
+          "headCommit": "a2f7b41867ee6ee54d63e672ac396d85613ccfb5",
+          "number": 89,
+          "observedAt": "2026-10-04T00:35:00.980020Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ЦИFРА банк (Company.id 15704)",
+          "url": "https://github.com/zenmoney/banks/pull/89"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "30d34dcb71de6af5f82cafa62a4c7b5e50f7d83441e92bc8fb7716d4d05081d4",
+        "closedAt": "2026-10-15T14:36:40Z",
+        "head": "bank-icon-maintenance/15704",
+        "headCommit": "a2f7b41867ee6ee54d63e672ac396d85613ccfb5",
+        "mergeCommit": "2689c59bde02bfc1534c29b37f0d4444f1e68b5f",
+        "mergedAt": "2026-10-15T14:36:40Z",
+        "number": 89,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ЦИFРА банк (Company.id 15704)",
+        "url": "https://github.com/zenmoney/banks/pull/89"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:33:19.332450Z",
+        "proof": {
+          "accepted": {
+            "commit": "2689c59bde02bfc1534c29b37f0d4444f1e68b5f",
+            "iconHash": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f",
+            "metadataHash": "9d6c65a16e4d3400db1a49c62f57f04f70d87a6c158c09d287aa687660d44006"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f",
+            "metadataHash": "9d6c65a16e4d3400db1a49c62f57f04f70d87a6c158c09d287aa687660d44006"
+          },
+          "path": "banks/ЦИFРА банк_15704-ru/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "a2f7b41867ee6ee54d63e672ac396d85613ccfb5",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "30d34dcb71de6af5f82cafa62a4c7b5e50f7d83441e92bc8fb7716d4d05081d4",
+          "closedAt": "2026-10-15T14:36:40Z",
+          "head": "bank-icon-maintenance/15704",
+          "headCommit": "a2f7b41867ee6ee54d63e672ac396d85613ccfb5",
+          "mergeCommit": "2689c59bde02bfc1534c29b37f0d4444f1e68b5f",
+          "mergedAt": "2026-10-15T14:36:40Z",
+          "number": 89,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ЦИFРА банк (Company.id 15704)",
+          "url": "https://github.com/zenmoney/banks/pull/89"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Repository icon is the former Freedom Finance (ФФИН) green-circle 'F' mark; bank rebranded to ЦИФРА банк. Official footer logo SVG (job.cifra-bank.ru, official careers property) contains the current standalone brand symbol (rounded square with legacy-F cutout, green #0AE15F); symbol extracted losslessly as a self-contained path subset of the original official vector and verified by rendering.",
       "reviewPackage": {
@@ -109,7 +179,7 @@
           "url": "https://play.google.com/store/apps/details?id=com.bankffin.portfolio"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T00:27:46.297618Z",
         "compose": "1.12.0",
@@ -119,5 +189,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "7561a8fb82ee068bbff9c3bbbdf78b75802877e5650644026c2ce8cede43a86f"
 }

@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-04T02:18:28.814610Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-04T02:20:50Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "0f5bfa5b97b307029674f9df8bd08a098b250466",
+      "acceptedIconHash": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e",
       "agentAssessment": {
         "path": "evidence/15745/assessed-2078c1b7dd5ddc770de88121c212d199813ef2d6b28f1ffcd593db617b080c3a.json",
         "sha256": "2078c1b7dd5ddc770de88121c212d199813ef2d6b28f1ffcd593db617b080c3a"
@@ -59,11 +62,78 @@
         "head": "bank-icon-maintenance/15745",
         "headCommit": "0f5bfa5b97b307029674f9df8bd08a098b250466",
         "number": 92,
-        "observedAt": "2026-10-04T02:26:20.330237Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:27.283581Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: UOB (Company.id 15745)",
         "url": "https://github.com/zenmoney/banks/pull/92"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "284e09ef225108ed0310d862761d6d4990ed630254264af79727030235de9cd8",
+          "head": "bank-icon-maintenance/15745",
+          "headCommit": "0f5bfa5b97b307029674f9df8bd08a098b250466",
+          "number": 92,
+          "observedAt": "2026-10-04T02:26:20.330237Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: UOB (Company.id 15745)",
+          "url": "https://github.com/zenmoney/banks/pull/92"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "284e09ef225108ed0310d862761d6d4990ed630254264af79727030235de9cd8",
+        "closedAt": "2026-10-15T14:36:59Z",
+        "head": "bank-icon-maintenance/15745",
+        "headCommit": "0f5bfa5b97b307029674f9df8bd08a098b250466",
+        "mergeCommit": "de5d93a88258c684cd76e9bdd3043a535dc9101d",
+        "mergedAt": "2026-10-15T14:36:59Z",
+        "number": 92,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: UOB (Company.id 15745)",
+        "url": "https://github.com/zenmoney/banks/pull/92"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:33:27.283581Z",
+        "proof": {
+          "accepted": {
+            "commit": "de5d93a88258c684cd76e9bdd3043a535dc9101d",
+            "iconHash": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e",
+            "metadataHash": "fa10c812de209fd9e55ec5bfdbd7a9b7d5a58686a3770f1393a97c6fa06b05b3"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e",
+            "metadataHash": "fa10c812de209fd9e55ec5bfdbd7a9b7d5a58686a3770f1393a97c6fa06b05b3"
+          },
+          "path": "banks/UOB_15745-sg/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "0f5bfa5b97b307029674f9df8bd08a098b250466",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "284e09ef225108ed0310d862761d6d4990ed630254264af79727030235de9cd8",
+          "closedAt": "2026-10-15T14:36:59Z",
+          "head": "bank-icon-maintenance/15745",
+          "headCommit": "0f5bfa5b97b307029674f9df8bd08a098b250466",
+          "mergeCommit": "de5d93a88258c684cd76e9bdd3043a535dc9101d",
+          "mergedAt": "2026-10-15T14:36:59Z",
+          "number": 92,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: UOB (Company.id 15745)",
+          "url": "https://github.com/zenmoney/banks/pull/92"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "The official UOB group site serves the brand lockup SVG (https://www.uobgroup.com/assets/iwov-resources/assets/BrandAssets/UOB_Logo.svg, fetched 2026-10-04, sha256 139bed79c5409437b22b737603686cebc1fd627796f09cb02208f4b2bec8da39) whose single red path (.cls-1, #f5333f) is the standalone four-strokes-and-crossbar mark identical in geometry to the accepted catalog icon, but in the authoritative current brand red. The accepted icon uses #D03532 (dE76 approx 13.9 vs #f5333f), a clearly visible shade difference; the source is the original vector, so a color-correction replacement is supported.",
       "reviewPackage": {
@@ -99,7 +169,7 @@
           "url": "https://www.uobgroup.com/uobgroup/index.page"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T02:20:50Z",
         "compose": "1.12.0",
@@ -109,5 +179,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "421241733c01749b022cf968471ea99a81a20af24c3a448a7f1764eb374ff36e"
 }

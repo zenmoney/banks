@@ -59,13 +59,66 @@
         "head": "bank-icon-maintenance/15640",
         "headCommit": "036e528dcb5a87b481d3e1c2edc245b349b5f7df",
         "number": 75,
-        "observedAt": "2026-10-03T20:20:05.929617Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:28.045606Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: ING Romania (Company.id 15640)",
         "url": "https://github.com/zenmoney/banks/pull/75"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "97abdb942df77ddf8c3624894235dfd965241be0503605fba3653050bd605bc7",
+          "head": "bank-icon-maintenance/15640",
+          "headCommit": "036e528dcb5a87b481d3e1c2edc245b349b5f7df",
+          "number": 75,
+          "observedAt": "2026-10-03T20:20:05.929617Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ING Romania (Company.id 15640)",
+          "url": "https://github.com/zenmoney/banks/pull/75"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "97abdb942df77ddf8c3624894235dfd965241be0503605fba3653050bd605bc7",
+        "closedAt": "2026-10-14T17:06:48Z",
+        "head": "bank-icon-maintenance/15640",
+        "headCommit": "036e528dcb5a87b481d3e1c2edc245b349b5f7df",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 75,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ING Romania (Company.id 15640)",
+        "url": "https://github.com/zenmoney/banks/pull/75"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-16T18:32:28.045606Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "97abdb942df77ddf8c3624894235dfd965241be0503605fba3653050bd605bc7",
+          "closedAt": "2026-10-14T17:06:48Z",
+          "head": "bank-icon-maintenance/15640",
+          "headCommit": "036e528dcb5a87b481d3e1c2edc245b349b5f7df",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 75,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ING Romania (Company.id 15640)",
+          "url": "https://github.com/zenmoney/banks/pull/75"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+      },
       "reason": "Current catalog icon is the pre-2024 ING emblem (orange lion head in a white circle). ING's current global identity (2024 rebrand) uses a redesigned standing lion with raised tail alongside the navy #091c5a ING wordmark. The bank's single global brand applies to ING Bank Romania, so the catalog mark is an obsolete design; an evidenced update for the same bank. Candidate asset is the current full logo vector (Wikimedia copy of the official logo); the working candidate carries the exact lion subtree with the wordmark excluded per catalog suitability.",
+      "rejectionReason": null,
       "reviewPackage": {
         "path": "evidence/15640/candidate-6ac8df562ca2afa1d317a854ffa18e27d0d55ad6501d848f7dfcbbe5a7d3c619.json",
         "sha256": "6ac8df562ca2afa1d317a854ffa18e27d0d55ad6501d848f7dfcbbe5a7d3c619"
@@ -107,7 +160,7 @@
           "url": "https://www.ing.ro/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-03T20:04:47.440445Z",
         "compose": "1.12.0",

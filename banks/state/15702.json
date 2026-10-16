@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T23:26:20.047426Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T23:42:18.856496Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "23eca22be854b22d7babb3565a413163b1007629",
+      "acceptedIconHash": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57",
       "agentAssessment": {
         "path": "evidence/15702/assessed-83afb550ac442cfcfc8002827a2edafd2256d3dba8977cb8b2110e07cf1723a1.json",
         "sha256": "83afb550ac442cfcfc8002827a2edafd2256d3dba8977cb8b2110e07cf1723a1"
@@ -57,11 +60,78 @@
         "head": "bank-icon-maintenance/15702",
         "headCommit": "23eca22be854b22d7babb3565a413163b1007629",
         "number": 87,
-        "observedAt": "2026-10-04T00:01:44.700618Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:09.943724Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: מזרחי-טפחות (Company.id 15702)",
         "url": "https://github.com/zenmoney/banks/pull/87"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b40f45c8fdd97ab16f1715120001c633753bbe0284443636c9d4357d5600b79b",
+          "head": "bank-icon-maintenance/15702",
+          "headCommit": "23eca22be854b22d7babb3565a413163b1007629",
+          "number": 87,
+          "observedAt": "2026-10-04T00:01:44.700618Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: מזרחי-טפחות (Company.id 15702)",
+          "url": "https://github.com/zenmoney/banks/pull/87"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "b40f45c8fdd97ab16f1715120001c633753bbe0284443636c9d4357d5600b79b",
+        "closedAt": "2026-10-15T14:36:21Z",
+        "head": "bank-icon-maintenance/15702",
+        "headCommit": "23eca22be854b22d7babb3565a413163b1007629",
+        "mergeCommit": "5f1d197a472a0b71cba0fc068bfd25a74ab44b8e",
+        "mergedAt": "2026-10-15T14:36:21Z",
+        "number": 87,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: מזרחי-טפחות (Company.id 15702)",
+        "url": "https://github.com/zenmoney/banks/pull/87"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:33:09.943724Z",
+        "proof": {
+          "accepted": {
+            "commit": "5f1d197a472a0b71cba0fc068bfd25a74ab44b8e",
+            "iconHash": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57",
+            "metadataHash": "e75efbbda40ec017c726a94ed6518f545c3c4e68a13b224688f5647e479ca3cc"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57",
+            "metadataHash": "e75efbbda40ec017c726a94ed6518f545c3c4e68a13b224688f5647e479ca3cc"
+          },
+          "path": "banks/מזרחי-טפחות_15702-il/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "23eca22be854b22d7babb3565a413163b1007629",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "b40f45c8fdd97ab16f1715120001c633753bbe0284443636c9d4357d5600b79b",
+          "closedAt": "2026-10-15T14:36:21Z",
+          "head": "bank-icon-maintenance/15702",
+          "headCommit": "23eca22be854b22d7babb3565a413163b1007629",
+          "mergeCommit": "5f1d197a472a0b71cba0fc068bfd25a74ab44b8e",
+          "mergedAt": "2026-10-15T14:36:21Z",
+          "number": 87,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: מזרחי-טפחות (Company.id 15702)",
+          "url": "https://github.com/zenmoney/banks/pull/87"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Existing icon is an icon-pack rendition with #545A5E/#E78C41; the official logo vector served by mizrahi-tefahot.co.il uses #4D555A and #F5821F. A color-corrected emblem-only candidate from the official vector is justified.",
       "reviewPackage": {
@@ -96,7 +166,7 @@
           "url": "https://www.mizrahi-tefahot.co.il/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T23:42:18.856496Z",
         "compose": "1.12.0",
@@ -106,5 +176,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "298e46294d58c828a31b45cb282de1227adf1405f33752737c8d516a722ede57"
 }

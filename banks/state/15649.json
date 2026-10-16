@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T20:35:56.983987Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T20:49:40.334175Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "2b388ce4ba3d15457c22b940673f949ac3368b35",
+      "acceptedIconHash": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1",
       "agentAssessment": {
         "path": "evidence/15649/assessed-ea1abaae52e40cbfa6969b882ef8143b62257a21d365eac2cf717d609a7689be.json",
         "sha256": "ea1abaae52e40cbfa6969b882ef8143b62257a21d365eac2cf717d609a7689be"
@@ -58,11 +61,78 @@
         "head": "bank-icon-maintenance/15649",
         "headCommit": "2b388ce4ba3d15457c22b940673f949ac3368b35",
         "number": 78,
-        "observedAt": "2026-10-03T21:02:22.198159Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:33.598712Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Кыргызстан Коммерциялык банкы (Company.id 15649)",
         "url": "https://github.com/zenmoney/banks/pull/78"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "f7714d612c308016fbcc5cb3265d6198f82311049e84eea96de9142d308c392a",
+          "head": "bank-icon-maintenance/15649",
+          "headCommit": "2b388ce4ba3d15457c22b940673f949ac3368b35",
+          "number": 78,
+          "observedAt": "2026-10-03T21:02:22.198159Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Кыргызстан Коммерциялык банкы (Company.id 15649)",
+          "url": "https://github.com/zenmoney/banks/pull/78"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f7714d612c308016fbcc5cb3265d6198f82311049e84eea96de9142d308c392a",
+        "closedAt": "2026-10-15T14:35:01Z",
+        "head": "bank-icon-maintenance/15649",
+        "headCommit": "2b388ce4ba3d15457c22b940673f949ac3368b35",
+        "mergeCommit": "0865ade24ea66e51b7e1e92c1c1b32ba6264241d",
+        "mergedAt": "2026-10-15T14:35:01Z",
+        "number": 78,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Кыргызстан Коммерциялык банкы (Company.id 15649)",
+        "url": "https://github.com/zenmoney/banks/pull/78"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:32:33.598712Z",
+        "proof": {
+          "accepted": {
+            "commit": "0865ade24ea66e51b7e1e92c1c1b32ba6264241d",
+            "iconHash": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1",
+            "metadataHash": "9d03e74fc9c5b105e04c6d0feed1452140c4d50218defb3939315bb9ce994262"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1",
+            "metadataHash": "9d03e74fc9c5b105e04c6d0feed1452140c4d50218defb3939315bb9ce994262"
+          },
+          "path": "banks/Кыргызстан Коммерциялык банкы_15649-kg/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "2b388ce4ba3d15457c22b940673f949ac3368b35",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "f7714d612c308016fbcc5cb3265d6198f82311049e84eea96de9142d308c392a",
+          "closedAt": "2026-10-15T14:35:01Z",
+          "head": "bank-icon-maintenance/15649",
+          "headCommit": "2b388ce4ba3d15457c22b940673f949ac3368b35",
+          "mergeCommit": "0865ade24ea66e51b7e1e92c1c1b32ba6264241d",
+          "mergedAt": "2026-10-15T14:35:01Z",
+          "number": 78,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Кыргызстан Коммерциялык банкы (Company.id 15649)",
+          "url": "https://github.com/zenmoney/banks/pull/78"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Bank rebranded from Коммерческий банк Кыргызстан to MBANK: brand launched Feb 2023 (mbank.kg), re-registered as OAO 'Мбанк' 2025-01-30, licenses replaced 2025-02-05. The existing icon shows the older abstract yellow-chevron/teal mark; the bank's current official identity is the MBANK mark, whose icon-only variant (yellow+white 'M' strokes on a teal-to-green gradient rounded square) is served by the bank's own site as an original vector favicon SVG.",
       "reviewPackage": {
@@ -106,7 +176,7 @@
           "url": "https://www.kse.kg/Listing/KAKB-auditreport-2025-06-20.pdf"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T20:49:40.334175Z",
         "compose": "1.12.0",
@@ -116,5 +186,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "26fe18ef88d279a5c92e2dd4aa5e6e1d8943084a926f694cd85ffd62ffd553b1"
 }

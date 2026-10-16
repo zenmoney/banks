@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T20:41:31.281012Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T20:49:42.235938Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "1c4518ee5c65953649cb3cfcf35c989cf985b066",
+      "acceptedIconHash": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e",
       "agentAssessment": {
         "path": "evidence/15656/assessed-284aa05833b2fb1d607e973a04d90a2cb891eb2e1fa768f5fd53f6ac319eefa4.json",
         "sha256": "284aa05833b2fb1d607e973a04d90a2cb891eb2e1fa768f5fd53f6ac319eefa4"
@@ -61,11 +64,78 @@
         "head": "bank-icon-maintenance/15656",
         "headCommit": "1c4518ee5c65953649cb3cfcf35c989cf985b066",
         "number": 79,
-        "observedAt": "2026-10-03T21:05:31.155263Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:32:37.451913Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Santander Río (Company.id 15656)",
         "url": "https://github.com/zenmoney/banks/pull/79"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8a85eb3c6f930bc0e26b20678758f938a99fd7bde5ae0305071801b3c0f46052",
+          "head": "bank-icon-maintenance/15656",
+          "headCommit": "1c4518ee5c65953649cb3cfcf35c989cf985b066",
+          "number": 79,
+          "observedAt": "2026-10-03T21:05:31.155263Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Santander Río (Company.id 15656)",
+          "url": "https://github.com/zenmoney/banks/pull/79"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "8a85eb3c6f930bc0e26b20678758f938a99fd7bde5ae0305071801b3c0f46052",
+        "closedAt": "2026-10-15T14:35:11Z",
+        "head": "bank-icon-maintenance/15656",
+        "headCommit": "1c4518ee5c65953649cb3cfcf35c989cf985b066",
+        "mergeCommit": "e2af61bc866faa508ba7152c70f0888a575ec413",
+        "mergedAt": "2026-10-15T14:35:10Z",
+        "number": 79,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Santander Río (Company.id 15656)",
+        "url": "https://github.com/zenmoney/banks/pull/79"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:32:37.451913Z",
+        "proof": {
+          "accepted": {
+            "commit": "e2af61bc866faa508ba7152c70f0888a575ec413",
+            "iconHash": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e",
+            "metadataHash": "1696605d326b6b62f2e1190b4de310ec971c26feb3d27ab07ae8e54cb3d1d208"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e",
+            "metadataHash": "1696605d326b6b62f2e1190b4de310ec971c26feb3d27ab07ae8e54cb3d1d208"
+          },
+          "path": "banks/Santander Río_15656-ar/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "1c4518ee5c65953649cb3cfcf35c989cf985b066",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "8a85eb3c6f930bc0e26b20678758f938a99fd7bde5ae0305071801b3c0f46052",
+          "closedAt": "2026-10-15T14:35:11Z",
+          "head": "bank-icon-maintenance/15656",
+          "headCommit": "1c4518ee5c65953649cb3cfcf35c989cf985b066",
+          "mergeCommit": "e2af61bc866faa508ba7152c70f0888a575ec413",
+          "mergedAt": "2026-10-15T14:35:10Z",
+          "number": 79,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Santander Río (Company.id 15656)",
+          "url": "https://github.com/zenmoney/banks/pull/79"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Record 15656 is a historical brand period: Banco Santander Río S.A. adopted the 'Santander' brand in Argentina in 2019, so the santanderrio.com.ar successor's current mark is out of scope. For the Santander Río period the correct standalone mark is the classic Santander flame (flame over disc), confirmed by the Commons CorelDRAW lockup sourced from the bank's own 2007-era website and by a Wayback capture of santanderrio.com.ar (2019-05) whose standalone favicon shows the same flame white-on-red. The existing icon depicts the right period variant but adds an unsupported black outline absent from every observed official presentation. A lossless extraction of the flame from the original vector, on its official red field, is a supported color/render correction.",
       "reviewPackage": {
@@ -113,7 +183,7 @@
           "url": "https://es.wikipedia.org/wiki/Banco_Santander_(Argentina)"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T20:49:42.235938Z",
         "compose": "1.12.0",
@@ -123,5 +193,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "c66885ffa1a9de0558ff187f5a5365ae606071bed35e738ac8ca8449f0f1e95e"
 }

@@ -1,8 +1,11 @@
 {
   "lastAttemptAt": "2026-10-03T23:26:18.522561Z",
   "lastAttemptResult": "candidate",
+  "lastVerifiedAt": "2026-10-03T23:42:14.918264Z",
   "proposals": [
     {
+      "acceptedHeadCommit": "3afef47ef11a2c2a0a8bac22647e6a4162ebf043",
+      "acceptedIconHash": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b",
       "agentAssessment": {
         "path": "evidence/15700/assessed-317aa4ac68e0aec20c05cbfcf7b0c19012b31bc94b15f1c31d5e7ad83bf040f5.json",
         "sha256": "317aa4ac68e0aec20c05cbfcf7b0c19012b31bc94b15f1c31d5e7ad83bf040f5"
@@ -57,11 +60,78 @@
         "head": "bank-icon-maintenance/15700",
         "headCommit": "3afef47ef11a2c2a0a8bac22647e6a4162ebf043",
         "number": 85,
-        "observedAt": "2026-10-03T23:55:31.160166Z",
-        "state": "open",
+        "observedAt": "2026-10-16T18:33:00.497148Z",
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: הפועלים (Company.id 15700)",
         "url": "https://github.com/zenmoney/banks/pull/85"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "eeebe9c913bdce403a7e2c458eefe3059a78001eef167736b0ebac3a29a5b344",
+          "head": "bank-icon-maintenance/15700",
+          "headCommit": "3afef47ef11a2c2a0a8bac22647e6a4162ebf043",
+          "number": 85,
+          "observedAt": "2026-10-03T23:55:31.160166Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: הפועלים (Company.id 15700)",
+          "url": "https://github.com/zenmoney/banks/pull/85"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "eeebe9c913bdce403a7e2c458eefe3059a78001eef167736b0ebac3a29a5b344",
+        "closedAt": "2026-10-15T14:36:03Z",
+        "head": "bank-icon-maintenance/15700",
+        "headCommit": "3afef47ef11a2c2a0a8bac22647e6a4162ebf043",
+        "mergeCommit": "110f5c667cff5a64ec468a9023677f4c8c5a20d8",
+        "mergedAt": "2026-10-15T14:36:03Z",
+        "number": 85,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: הפועלים (Company.id 15700)",
+        "url": "https://github.com/zenmoney/banks/pull/85"
+      },
+      "outcomeSync": {
+        "currentVerification": "retained-candidate-verification",
+        "observedAt": "2026-10-16T18:33:00.497148Z",
+        "proof": {
+          "accepted": {
+            "commit": "110f5c667cff5a64ec468a9023677f4c8c5a20d8",
+            "iconHash": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b",
+            "metadataHash": "6e4fc44cd85cedd84e8dc1e9dc6d38f0dc36144649c68abac2873299ff684e5c"
+          },
+          "current": {
+            "commit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "iconHash": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b",
+            "metadataHash": "6e4fc44cd85cedd84e8dc1e9dc6d38f0dc36144649c68abac2873299ff684e5c"
+          },
+          "path": "banks/הפועלים_15700-il/icon.svg",
+          "ref": "refs/heads/main",
+          "reviewedCommit": "3afef47ef11a2c2a0a8bac22647e6a4162ebf043",
+          "target": "zenmoney/banks"
+        },
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "eeebe9c913bdce403a7e2c458eefe3059a78001eef167736b0ebac3a29a5b344",
+          "closedAt": "2026-10-15T14:36:03Z",
+          "head": "bank-icon-maintenance/15700",
+          "headCommit": "3afef47ef11a2c2a0a8bac22647e6a4162ebf043",
+          "mergeCommit": "110f5c667cff5a64ec468a9023677f4c8c5a20d8",
+          "mergedAt": "2026-10-15T14:36:03Z",
+          "number": 85,
+          "state": "merged",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: הפועלים (Company.id 15700)",
+          "url": "https://github.com/zenmoney/banks/pull/85"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
       },
       "reason": "Existing icon is an icon-pack rendition with diamond fill #DB3B30; the official header logo vector served by bankhapoalim.co.il uses diamond #F0000B (plus #525252 wordmark). A color-corrected emblem-only candidate from the official vector is justified.",
       "reviewPackage": {
@@ -96,7 +166,7 @@
           "url": "https://www.bankhapoalim.co.il/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T23:42:14.918264Z",
         "compose": "1.12.0",
@@ -106,5 +176,6 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "verifiedIconHash": "c18135e5238d5bd2c6aad8bc56482c075bd2f17a52d9b97491143b84c7ca2a6b"
 }
