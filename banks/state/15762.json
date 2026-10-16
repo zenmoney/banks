@@ -169,5 +169,67 @@
       }
     }
   ],
+  "reviewFeedback": [
+    {
+      "event": {
+        "bank": {
+          "folder": "banks/ПСБ Бизнес_15762-ru",
+          "iconHash": "96a4262c9fa51764d088712b0a06c4008b9911e524a38f32f32ba6618d385bc3",
+          "id": 15762,
+          "metadataHash": "4fb7fb38d4d1bd969d0d6b4c3af63002334c3e2922c361eb6b01bb111fd43690",
+          "title": "ПСБ Бизнес"
+        },
+        "discussionSha256": "01d3d0fb1f9ce11d52f42bd429159d366ada961a32418504d12e6fbecf731a92",
+        "key": "cbc54d3513eeff505f4e6873952f055747ac273bd408f868cf353149642f2f8c",
+        "mr": {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "191bd48b72339a7bc6b66782ad7129deeda90cfcdb043933fcc7c76b7df55d5a",
+          "head": "bank-icon-maintenance/15762",
+          "headCommit": "8c81029e24c56b4a43c55ea8d135b43789df71a2",
+          "number": 148,
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ПСБ Бизнес (Company.id 15762)",
+          "url": "https://github.com/zenmoney/banks/pull/148"
+        },
+        "observedAt": "2026-10-16T18:43:38.413841Z",
+        "prBody": "Заменить на этот \n<img width=\"54\" height=\"54\" alt=\"ПСБ, 5132\" src=\"https://github.com/user-attachments/assets/611ff158-7c38-4ed8-95e2-0050968f6f9a\" />\n",
+        "source": {
+          "attachments": [
+            "https://github.com/user-attachments/assets/611ff158-7c38-4ed8-95e2-0050968f6f9a"
+          ],
+          "author": {
+            "__typename": "User",
+            "login": "VictoryKod"
+          },
+          "body": "Заменить на этот \n<img width=\"54\" height=\"54\" alt=\"ПСБ, 5132\" src=\"https://github.com/user-attachments/assets/611ff158-7c38-4ed8-95e2-0050968f6f9a\" />\n",
+          "bodySha256": "191bd48b72339a7bc6b66782ad7129deeda90cfcdb043933fcc7c76b7df55d5a",
+          "createdAt": "2026-10-16T08:36:14Z",
+          "editor": {
+            "__typename": "User",
+            "login": "VictoryKod"
+          },
+          "kind": "body",
+          "lastEditedAt": null,
+          "nodeId": "PR_kwDOU2-MbM8AAAABIzX8Kg",
+          "text": "Заменить на этот \n<img width=\"54\" height=\"54\" alt=\"ПСБ, 5132\" src=\"https://github.com/user-attachments/assets/611ff158-7c38-4ed8-95e2-0050968f6f9a\" />",
+          "textSha256": "bf6132e77340f8e36b7de4bfbc398fafdc02d868be52d77646aa30891b336787",
+          "trust": {
+            "login": "VictoryKod",
+            "permission": "write"
+          },
+          "url": "https://github.com/zenmoney/banks/pull/148"
+        }
+      },
+      "key": "cbc54d3513eeff505f4e6873952f055747ac273bd408f868cf353149642f2f8c",
+      "quote": "Заменить на этот ",
+      "reason": "Explicit replacement request by verified write-permission editor VictoryKod with one selected attachment. Bank identity is bound by changed path, not image alt text; normal applicability and source checks remain required.",
+      "recordedAt": "2026-10-16T18:45:07.240496Z",
+      "selectedUrl": "https://github.com/user-attachments/assets/611ff158-7c38-4ed8-95e2-0050968f6f9a",
+      "status": "queued",
+      "supersedes": []
+    }
+  ],
   "schemaVersion": 1
 }

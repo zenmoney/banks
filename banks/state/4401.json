@@ -1,5 +1,67 @@
 {
   "lastAttemptAt": "2026-10-02T13:17:47.274299Z",
   "lastAttemptResult": "unconfirmed",
+  "reviewFeedback": [
+    {
+      "event": {
+        "bank": {
+          "folder": "banks/Банк ЗЕНИТ Сочи_4401-ru",
+          "iconHash": null,
+          "id": 4401,
+          "metadataHash": "e397dfd0bf867b52a6332372f14c45b08305dbd8ad7ce732358d15035845b312",
+          "title": "Банк ЗЕНИТ Сочи"
+        },
+        "discussionSha256": "79c0d1e35a6dc1cc3668256659dad0a905d3c0f981a8739b41d889a7c59a3a5f",
+        "key": "7c804b3143a6ad80c953c136d74f07f2f66b60cef3fcfd961ea779d4ea64ae43",
+        "mr": {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "75b91e0c844de6c3731fb54e39ebf69bbe562095bbe4869fc9e873007ea158da",
+          "head": "bank-icon-maintenance/4401",
+          "headCommit": "7411196965ddda1645b9ca2a7ccc8742334df87d",
+          "number": 149,
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "update bank icon 4401",
+          "url": "https://github.com/zenmoney/banks/pull/149"
+        },
+        "observedAt": "2026-10-16T18:43:33.693622Z",
+        "prBody": "Заменить на этот\n<img width=\"54\" height=\"54\" alt=\"Zenit, 4401\" src=\"https://github.com/user-attachments/assets/a28d9f11-9d6d-4871-996e-9c6a1684126a\" />\n",
+        "source": {
+          "attachments": [
+            "https://github.com/user-attachments/assets/a28d9f11-9d6d-4871-996e-9c6a1684126a"
+          ],
+          "author": {
+            "__typename": "User",
+            "login": "VictoryKod"
+          },
+          "body": "Заменить на этот\n<img width=\"54\" height=\"54\" alt=\"Zenit, 4401\" src=\"https://github.com/user-attachments/assets/a28d9f11-9d6d-4871-996e-9c6a1684126a\" />\n",
+          "bodySha256": "75b91e0c844de6c3731fb54e39ebf69bbe562095bbe4869fc9e873007ea158da",
+          "createdAt": "2026-10-16T08:56:21Z",
+          "editor": {
+            "__typename": "User",
+            "login": "VictoryKod"
+          },
+          "kind": "body",
+          "lastEditedAt": null,
+          "nodeId": "PR_kwDOU2-MbM8AAAABIzmahw",
+          "text": "Заменить на этот\n<img width=\"54\" height=\"54\" alt=\"Zenit, 4401\" src=\"https://github.com/user-attachments/assets/a28d9f11-9d6d-4871-996e-9c6a1684126a\" />",
+          "textSha256": "6ae07ad3a374208fa06e4201bdb3bc76ed9b71572c39570c49d6c73edb05d554",
+          "trust": {
+            "login": "VictoryKod",
+            "permission": "write"
+          },
+          "url": "https://github.com/zenmoney/banks/pull/149"
+        }
+      },
+      "key": "7c804b3143a6ad80c953c136d74f07f2f66b60cef3fcfd961ea779d4ea64ae43",
+      "quote": "Заменить на этот",
+      "reason": "Explicit replacement request by verified write-permission editor VictoryKod with one selected attachment. Bank identity is bound by changed path, not image alt text; normal applicability and source checks remain required.",
+      "recordedAt": "2026-10-16T18:45:07.240496Z",
+      "selectedUrl": "https://github.com/user-attachments/assets/a28d9f11-9d6d-4871-996e-9c6a1684126a",
+      "status": "queued",
+      "supersedes": []
+    }
+  ],
   "schemaVersion": 1
 }

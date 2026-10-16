@@ -176,5 +176,67 @@
       }
     }
   ],
+  "reviewFeedback": [
+    {
+      "event": {
+        "bank": {
+          "folder": "banks/BPER Banca_15908-it",
+          "iconHash": "b29bbba72da79e6d7ff450fbeee319db2fa9ab8c54cd9920dce09769c4f572e7",
+          "id": 15908,
+          "metadataHash": "bd9e7412ff2c14dbe78923617d49da7f36fc0df4c58f21860eb45608d2cda422",
+          "title": "BPER Banca"
+        },
+        "discussionSha256": "be64e585475dae12d7733ba79591e7454842ced6ae6b5bb2e671f1a2a04c2119",
+        "key": "958e5b43f4257e52c9ad633a4259a5af28361062463ffc504e22131399f671bc",
+        "mr": {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "d3ef0ee16907161d146af92127d523816da2f854eb2e1ec5028403bafc0b8179",
+          "head": "bank-icon-maintenance/bper-15908",
+          "headCommit": "350dac648086db6c36b84752b88bf4ecd174d8fa",
+          "number": 146,
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: BPER Banca (Company.id 15908)",
+          "url": "https://github.com/zenmoney/banks/pull/146"
+        },
+        "observedAt": "2026-10-16T18:43:47.559120Z",
+        "prBody": "Обновить на этот\n<img width=\"54\" height=\"54\" alt=\"BPER Banca, 15908\" src=\"https://github.com/user-attachments/assets/5a6f146d-504b-431e-84a9-9639a26c339c\" />\n",
+        "source": {
+          "attachments": [
+            "https://github.com/user-attachments/assets/5a6f146d-504b-431e-84a9-9639a26c339c"
+          ],
+          "author": {
+            "__typename": "User",
+            "login": "VictoryKod"
+          },
+          "body": "Обновить на этот\n<img width=\"54\" height=\"54\" alt=\"BPER Banca, 15908\" src=\"https://github.com/user-attachments/assets/5a6f146d-504b-431e-84a9-9639a26c339c\" />\n",
+          "bodySha256": "d3ef0ee16907161d146af92127d523816da2f854eb2e1ec5028403bafc0b8179",
+          "createdAt": "2026-10-16T08:03:55Z",
+          "editor": {
+            "__typename": "User",
+            "login": "VictoryKod"
+          },
+          "kind": "body",
+          "lastEditedAt": null,
+          "nodeId": "PR_kwDOU2-MbM8AAAABIzChxg",
+          "text": "Обновить на этот\n<img width=\"54\" height=\"54\" alt=\"BPER Banca, 15908\" src=\"https://github.com/user-attachments/assets/5a6f146d-504b-431e-84a9-9639a26c339c\" />",
+          "textSha256": "0d10efbdeafa4ba0ca8482e0f329181b0e6ddaeeb8c55f084dbca7c38f6f9326",
+          "trust": {
+            "login": "VictoryKod",
+            "permission": "write"
+          },
+          "url": "https://github.com/zenmoney/banks/pull/146"
+        }
+      },
+      "key": "958e5b43f4257e52c9ad633a4259a5af28361062463ffc504e22131399f671bc",
+      "quote": "Обновить на этот",
+      "reason": "Explicit replacement request by verified write-permission editor VictoryKod with one selected attachment. Bank identity is bound by changed path, not image alt text; normal applicability and source checks remain required.",
+      "recordedAt": "2026-10-16T18:45:07.240496Z",
+      "selectedUrl": "https://github.com/user-attachments/assets/5a6f146d-504b-431e-84a9-9639a26c339c",
+      "status": "queued",
+      "supersedes": []
+    }
+  ],
   "schemaVersion": 1
 }
