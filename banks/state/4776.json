@@ -98,7 +98,7 @@
       },
       "outcomeSync": {
         "currentVerification": "not-renewed",
-        "observedAt": "2026-10-16T18:41:16.368377Z",
+        "observedAt": "2026-10-16T20:03:46.992464Z",
         "proof": null,
         "provider": {
           "base": "main",
@@ -116,10 +116,140 @@
           "url": "https://github.com/zenmoney/banks/pull/10"
         },
         "schemaVersion": 1,
-        "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        "sourceStateCommit": "82d39a8cbe905ff8a43ec3cf4b613e4a12576510"
       },
+      "outcomeSyncHistory": [
+        {
+          "currentVerification": "not-renewed",
+          "observedAt": "2026-10-16T18:41:16.368377Z",
+          "proof": null,
+          "provider": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "8970626929bebf27373a31b8ac86440eefed51e1dc71b5c83cfeaeefa2248bbd",
+            "closedAt": "2026-10-15T13:52:15Z",
+            "head": "bank-icon-maintenance/4776",
+            "headCommit": "b24fefa8b9e741ae8b9cbb1a28279340f3f2cd79",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 10,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: МТС Банк (Company.id 4776)",
+            "url": "https://github.com/zenmoney/banks/pull/10"
+          },
+          "schemaVersion": 1,
+          "sourceStateCommit": "1509b8712e8015d2b5c3c5633a63020bf788a21c"
+        }
+      ],
       "reason": "Current official standalone mark differs from the accepted icon: mtsbank.ru serves a 120x120 SVG favicon — red egg (#e30611) on a white square — while the accepted icon is the inverse presentation (white egg on a #dd1220 red circle). Live fetch corroborated by Sep 2026 archive captures; the МТС parent 2023 grid rebrand did not replace the bank's egg mark. Evidenced supported-current-design update, not a byte-only change.",
-      "rejectionReason": null,
+      "rejectionReason": {
+        "action": "keep-current",
+        "candidateIconHash": "4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38",
+        "category": "not-now",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "оставляем как было",
+          "createdAt": "2026-10-15T13:52:15Z",
+          "kind": "issue",
+          "updatedAt": "2026-10-15T13:52:15Z",
+          "url": "https://github.com/zenmoney/banks/pull/10#issuecomment-6193730836"
+        },
+        "explanation": "оставляем как было",
+        "mr": {
+          "number": 10,
+          "url": "https://github.com/zenmoney/banks/pull/10"
+        },
+        "rationale": "The reviewer explicitly requests leaving the accepted MTS Bank icon unchanged rather than accepting this replacement. Retain as not-now; no additional explanation or second acceptance question is required.",
+        "requirements": [
+          {
+            "quote": "оставляем как было",
+            "url": "https://github.com/zenmoney/banks/pull/10#issuecomment-6193730836"
+          }
+        ]
+      },
+      "rejectionReview": {
+        "evaluatedAt": "2026-10-16T20:03:46.992464Z",
+        "id": 4776,
+        "judgement": {
+          "action": "keep-current",
+          "key": "358bfc8c8ff429e789433b2662352f55cb880229c74015c442a61f061ae80f0f",
+          "rationale": "The reviewer explicitly requests leaving the accepted MTS Bank icon unchanged rather than accepting this replacement. Retain as not-now; no additional explanation or second acceptance question is required.",
+          "sources": [
+            {
+              "quote": "оставляем как было",
+              "url": "https://github.com/zenmoney/banks/pull/10#issuecomment-6193730836"
+            }
+          ]
+        },
+        "review": {
+          "attemptCheckedAt": "2026-10-01T21:04:30.826753Z",
+          "candidateIconHash": "4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38",
+          "key": "358bfc8c8ff429e789433b2662352f55cb880229c74015c442a61f061ae80f0f",
+          "messages": [
+            {
+              "author": "b3er",
+              "body": "## МТС Банк — Company.id 4776\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"RU\",\n  \"fullTitle\": null,\n  \"id\": 4776,\n  \"title\": \"\\u041c\\u0422\\u0421 \\u0411\\u0430\\u043d\\u043a\",\n  \"url\": \"mtsbank.ru\"\n}\n```\n\nFrozen base commit: `a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca`. Checked: `2026-10-01T21:09:03.954265Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/3078833d75772832feddafe39fefc6b2948c0b75/review-materials/4776/base.svg) — SHA-256 `09e02451785465124403ba231879d9cc27f5ac06b57be72df030e4ba801d1c13`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/3078833d75772832feddafe39fefc6b2948c0b75/review-materials/4776/source.svg) — SHA-256 `e7511b70e0e389782720f6a0c8bb46bc86f71de6a86c0713ce70b1b5c0a832ec`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/3078833d75772832feddafe39fefc6b2948c0b75/review-materials/4776/final.svg) — SHA-256 `4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/3078833d75772832feddafe39fefc6b2948c0b75/review-materials/4776/final.xml) — SHA-256 `8e17e64255416558ea70d48c96d6a93d54dcfbdf4ac17fd741c610d9b8e62ece`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/3078833d75772832feddafe39fefc6b2948c0b75/review-materials/4776/candidate.diff).\n- Source page: [https://www.mtsbank.ru/upload/static/favicons/icon.svg](https://www.mtsbank.ru/upload/static/favicons/icon.svg).\n- Source asset: [https://www.mtsbank.ru/upload/static/favicons/icon.svg](https://www.mtsbank.ru/upload/static/favicons/icon.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-01T20:52:00Z: [https://www.mtsbank.ru/upload/static/favicons/icon.svg](https://www.mtsbank.ru/upload/static/favicons/icon.svg); asset [https://www.mtsbank.ru/upload/static/favicons/icon.svg](https://www.mtsbank.ru/upload/static/favicons/icon.svg). Fetched asset page/bytes: official 120x120 SVG favicon, white square with red #e30611 egg, no text; sha256 e7511b70e0e389782720f6a0c8bb46bc86f71de6a86c0713ce70b1b5c0a832ec via packaged-CA retry \\(receipt \\[local artifact not published; reference omitted\\]\\). (independence group: mtsbank.ru primary).\n- official checked 2026-10-01T20:52:00Z: [https://www.mtsbank.ru/](https://www.mtsbank.ru/); asset [https://www.mtsbank.ru/upload/static/favicons/icon.svg](https://www.mtsbank.ru/upload/static/favicons/icon.svg). Official favicon: standalone 120x120 SVG, white square, red egg, no text. Direct TLS to mtsbank.ru fails from this environment; retrieved through the helper's packaged-CA retry \\(receipt \\[local artifact not published; reference omitted\\]\\), sha256 e7511b70e0e389782720f6a0c8bb46bc86f71de6a86c0713ce70b1b5c0a832ec, matching Sep 2026 Wayback captures. (independence group: mtsbank.ru primary).\n- third-party checked 2026-10-01T20:47:00Z: [https://web.archive.org/web/2026/https://www.mtsbank.ru/upload/static/favicons/icon.svg](https://web.archive.org/web/2026/https://www.mtsbank.ru/upload/static/favicons/icon.svg). Sep 2026 archive captures of the same favicon URL show the same red-egg-on-white mark; confirms continued use, not merely a stale live asset. (independence group: web.archive.org mirrors of mtsbank.ru).\n- official checked 2026-10-01T20:35:00Z: [https://www.mtsbank.ru/about/press/](https://www.mtsbank.ru/about/press/). 2020 bank brandbook describes red background + egg mark; no open official SVG download besides the favicon. og:image uses egg + 'МТС БАНК' lockup \\(wordmark text, not standalone, rejected\\). (independence group: mtsbank.ru primary).\n- third-party checked 2026-10-01T20:45:00Z: [https://apps.rustore.ru/app/ru.lewis.dbo](https://apps.rustore.ru/app/ru.lewis.dbo). Bank's consumer app is rebranded 'МТС Деньги' with a wallet-monogram icon — a product mark, not the bank mark; rejected as candidate. (independence group: RuStore listing).\n- zenplugins-issue checked 2026-10-01T20:33:00Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%A2%D0%A1+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%A2%D0%A1+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Aissue). 1 result: issue #925 \\(open, balance-display bug\\), not icon-related. (independence group: github search).\n- zenplugins-pr checked 2026-10-01T20:33:00Z: [https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%A2%D0%A1+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr](https://api.github.com/search/issues?q=repo%3Azenmoney%2FZenPlugins+%22%D0%9C%D0%A2%D0%A1+%D0%91%D0%B0%D0%BD%D0%BA%22+is%3Apr). 0 results. (independence group: github search).\n- Independent evidence: Primary official favicon plus an independent archive mirror of the same URL; identity further corroborated by the brandbook description of the egg mark..\n- Identity: confirmed — Fetched favicon is МТС Банк's own egg mark on the bank's official domain; egg geometry matches the accepted mark \\(ratio 0.727 vs 0.714\\)..\n- Currency: confirmed — Served live on mtsbank.ru today and present in Sep 2026 archive captures; 2023 parent rebrand did not replace the bank's egg..\n- Variant: confirmed — Official current standalone presentation is red egg on white square \\(#e30611\\); accepted inverse white-on-red-circle presentation is not the currently served standalone variant..\n- Uncertainty: Exact brand-color #e30611 vs accepted #dd1220 is taken from the served asset; no accessible brandbook file states the standalone icon spec directly..\n\nRationale: Official current standalone mark of МТС Банк \\(red egg on white square\\) replaces the accepted superseded inverse presentation \\(white egg on red circle\\)..\nRole: standalone app/favicon mark \\(egg symbol on a white square tile\\); variant: current official: red #e30611 egg on white; accepted baseline is the inverse white-on-red-circle presentation.\nVisible difference: Tile presentation inverted and brand red corrected: accepted icon shows a white egg on a red disc; current official mark is the red egg on a white square. Difference is a supported current-design update, clearly visible in both before/after pairs..\nDetails: Egg silhouette and white square identical between working, optimized and official source; no detail loss.. Proportions: Egg proportions preserved \\(ratio ~0.727\\); square tile centered; no stretching in renders..\n\nSource-to-final transformations:\n- SVGO 4.1.0 with the repository svgo.config.mjs \\(config sha256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e\\), multipass; 2102 -\\> 444 bytes; optimized bytes selected as the final candidate \\(sha256 4764c58aa88c36003e94428820a24a80f223235304608b48dadf1a8a40655f38\\). No geometry transformation was needed; serialization-only optimization.\n- No geometric transformation: the source 120x120 SVG geometry is kept and scaled by the catalog renderer.\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/3078833d75772832feddafe39fefc6b2948c0b75/review-materials/4776/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/3078833d75772832feddafe39fefc6b2948c0b75/review-materials/4776/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-01T21:06:49.440754761Z`. Source/final: Official source raster/librsvg reference and the final SVG are visually identical \\(same egg, same red, same white square\\).; base/final and rendering: Offscreen CPU Skia/painterResource light and dark 240px frames: final renders the red egg on a white square cleanly on both backgrounds, no clipping, distortion or color invention; base shows the old inverse disc mark. Candidate fits the square cell on both themes.\n\n- android-compose: not-tested (available: false) — The local Android SDK installation lacks the emulator component and system images, so a headless Android check is impossible this run. Risk: the Android Compose render path is unobserved..\n- android-native: not-tested (available: false) — Same missing emulator prerequisites; not run. Risk: native Android path unobserved..\n- ios-compose: not-tested (available: false) — No iOS runtime on this Linux host; not run. Risk: iOS Compose path unobserved..\n- ios-native: not-tested (available: false) — No iOS toolchain on this Linux host; not run. Risk: native iOS path unobserved..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+              "kind": "body",
+              "nodeId": "PR_kwDOU2-MbM8AAAABGLgFmg",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/10",
+              "userType": "User"
+            },
+            {
+              "author": "VictoryKod",
+              "body": "оставляем как было",
+              "kind": "comment",
+              "nodeId": "IC_kwDOU2-MbM8AAAABcSzVFA",
+              "reviewState": null,
+              "url": "https://github.com/zenmoney/banks/pull/10#issuecomment-6193730836",
+              "userType": "User"
+            }
+          ],
+          "mr": {
+            "base": "main",
+            "baseCommit": "a748b01de5b7f29dfdd5eb19dadb40881ae4b8ca",
+            "bodySha256": "8970626929bebf27373a31b8ac86440eefed51e1dc71b5c83cfeaeefa2248bbd",
+            "closedAt": "2026-10-15T13:52:15Z",
+            "head": "bank-icon-maintenance/4776",
+            "headCommit": "b24fefa8b9e741ae8b9cbb1a28279340f3f2cd79",
+            "mergeCommit": null,
+            "mergedAt": null,
+            "number": 10,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: МТС Банк (Company.id 4776)",
+            "url": "https://github.com/zenmoney/banks/pull/10"
+          },
+          "schemaVersion": 1
+        },
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "оставляем как было",
+            "bodySha256": "7384ae85f1dd3f269fb4483bbb54b3baf1b29e42ba7b3ea1b6d7a2e6382e0ec1",
+            "createdAt": "2026-10-15T13:52:15Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABcSzVFA",
+            "text": "оставляем как было",
+            "textSha256": "7384ae85f1dd3f269fb4483bbb54b3baf1b29e42ba7b3ea1b6d7a2e6382e0ec1",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/10#issuecomment-6193730836"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4776/candidate-52a92a9df487b5e988d66d35be8619fe7ca57980cf16d1313b972dda25187d20.json",
         "sha256": "52a92a9df487b5e988d66d35be8619fe7ca57980cf16d1313b972dda25187d20"
