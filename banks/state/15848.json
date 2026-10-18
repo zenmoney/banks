@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-18T10:54:45.955218Z",
+  "lastAttemptAt": "2026-10-18T11:45:40.438880Z",
   "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
@@ -201,15 +201,75 @@
   "schemaVersion": 1,
   "taskResults": [
     {
+      "history": [
+        {
+          "key": "33cbcb8cfd1f7cb42f878b180c0cd1810baf9d45a4d7b00dd39fda716b42bfe6",
+          "outcome": "unconfirmed",
+          "processedAt": "2026-10-18T10:54:45.955218Z",
+          "reason": "Fresh research did not retrieve an original vector of the requested full square two-colour S field. Official available bank SVGs and the downloaded Logo-teka SVG use a circular field; Seeklogo's preview also shows the circular corporate mark. Current Google Play and Apple store artwork confirms square app use, but those files are raster references, not permissible replacement sources. No working SVG was fabricated and the prior rejected circle was not proposed again. Logobank PDF/AI retrievals were incomplete; their variants remain unobserved. Search allocation exhausted; no unsupported redraw or rejected-circle revision will be published.",
+          "review": {
+            "action": "repair",
+            "assessedAt": "2026-10-18T10:38:40.021383Z",
+            "key": "33cbcb8cfd1f7cb42f878b180c0cd1810baf9d45a4d7b00dd39fda716b42bfe6",
+            "rationale": "Retain the accepted Uzum identity but find an original vector of the square app-store presentation. Preserve the complete two-colour S field without circular clipping and match the larger U scale in the store icon. Append a fresh reviewed revision to this exact PR head, preserving its human title/body and prior comparisons.",
+            "requirements": [
+              {
+                "quote": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт.",
+                "url": "https://github.com/zenmoney/banks/pull/106#pullrequestreview-5526887092"
+              }
+            ],
+            "selectedUrl": null,
+            "sources": [
+              {
+                "attachments": [],
+                "author": {
+                  "__typename": "User",
+                  "login": "pereperchili"
+                },
+                "body": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт. ",
+                "bodySha256": "d5b86f55588ce6e36367f657db60b16aed131af450d6339bf7e6eaa50c85ab21",
+                "createdAt": "2026-10-15T01:23:36Z",
+                "editor": {
+                  "__typename": "User",
+                  "login": "pereperchili"
+                },
+                "kind": "review",
+                "lastEditedAt": null,
+                "nodeId": "PRR_kwDOU2-MbM8AAAABSW2atA",
+                "text": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт.",
+                "textSha256": "e1a795e19719c3e3aad9b08d9810d69238d26aff9ff5fca3fa5477aeb036e556",
+                "trust": {
+                  "login": "pereperchili",
+                  "permission": "write"
+                },
+                "url": "https://github.com/zenmoney/banks/pull/106#pullrequestreview-5526887092"
+              }
+            ]
+          },
+          "sourceMR": {
+            "base": "main",
+            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+            "bodySha256": "15ae04f73e7f62ec0fefa94e0fbba16b340acc133b01a0f4152e2cbe2e86adbe",
+            "head": "bank-icon-maintenance/a3me6hif-15848",
+            "headCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+            "number": 106,
+            "state": "open",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: Uzum Bank (Apelsin) (Company.id 15848)",
+            "url": "https://github.com/zenmoney/banks/pull/106"
+          },
+          "task": "rework-changes"
+        }
+      ],
       "key": "33cbcb8cfd1f7cb42f878b180c0cd1810baf9d45a4d7b00dd39fda716b42bfe6",
       "outcome": "unconfirmed",
-      "processedAt": "2026-10-18T10:54:45.955218Z",
-      "reason": "Fresh research did not retrieve an original vector of the requested full square two-colour S field. Official available bank SVGs and the downloaded Logo-teka SVG use a circular field; Seeklogo's preview also shows the circular corporate mark. Current Google Play and Apple store artwork confirms square app use, but those files are raster references, not permissible replacement sources. No working SVG was fabricated and the prior rejected circle was not proposed again. Logobank PDF/AI retrievals were incomplete; their variants remain unobserved. Search allocation exhausted; no unsupported redraw or rejected-circle revision will be published.",
+      "processedAt": "2026-10-18T11:45:40.438880Z",
+      "reason": "Expanded renewed research used 60 searches, 72 fetches and 11 browser actions. No eligible original vector of the required full-square two-colour S backing with larger U was retrieved. Official website/developer/career vectors remain circular; store square artworks are raster references only. Corrected previous Logobank attribution: UB.* belongs to Uzum Business; Bank is entry745 and Uzum_bank.pdf/.ai. Correct Bank files partially transfer only (~16KB) and their geometry remains unknown; PDF/AI extraction is unsupported independently. No current APK was retrieved, so adaptive resources remain uninspected. No redraw, raster embedding, rejected-circle revision or asset publication performed.",
       "review": {
         "action": "repair",
-        "assessedAt": "2026-10-18T10:38:40.021383Z",
+        "assessedAt": "2026-10-18T11:16:48.300695Z",
         "key": "33cbcb8cfd1f7cb42f878b180c0cd1810baf9d45a4d7b00dd39fda716b42bfe6",
-        "rationale": "Retain the accepted Uzum identity but find an original vector of the square app-store presentation. Preserve the complete two-colour S field without circular clipping and match the larger U scale in the store icon. Append a fresh reviewed revision to this exact PR head, preserving its human title/body and prior comparisons.",
+        "rationale": "Search again with expanded limits as explicitly requested by the owner. Find an original vector for the square app-store variant retaining the complete two-colour S backing and larger U. Do not reuse the rejected circular variant or trace raster references. Any publishable revision must append to PR 106's existing exact head while preserving human title/body and prior versions.",
         "requirements": [
           {
             "quote": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт.",
