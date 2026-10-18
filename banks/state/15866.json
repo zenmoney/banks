@@ -177,5 +177,65 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "d10584074f5266a3c849f714f9f5af0e7a3377a317540e5831e34d9fdc9a902c",
+      "outcome": "keep-current",
+      "processedAt": "2026-10-18T10:37:13.504854Z",
+      "reason": "Reviewer explicitly requests retaining the previous/current catalog variant: the proposed darker blue arch nearly disappears on dark backgrounds and the reviewer prefers the prior version. Keep the current catalog icon; do not prepare another candidate, change verification dates, or append an unwanted replacement to this PR.",
+      "review": {
+        "action": "keep-current",
+        "assessedAt": "2026-10-18T10:37:13.504854Z",
+        "key": "d10584074f5266a3c849f714f9f5af0e7a3377a317540e5831e34d9fdc9a902c",
+        "rationale": "Reviewer explicitly requests retaining the previous/current catalog variant: the proposed darker blue arch nearly disappears on dark backgrounds and the reviewer prefers the prior version. Keep the current catalog icon; do not prepare another candidate, change verification dates, or append an unwanted replacement to this PR.",
+        "requirements": [
+          {
+            "quote": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше.",
+            "url": "https://github.com/zenmoney/banks/pull/111#pullrequestreview-5526807891"
+          }
+        ],
+        "selectedUrl": null,
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше. ",
+            "bodySha256": "d4d83dacb8135e7d97b0d4e48a277fee3b35891573914d3b5d5aad134d84d89c",
+            "createdAt": "2026-10-15T01:12:55Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSWxlUw",
+            "text": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше.",
+            "textSha256": "dda1ef74b8e5b99bc5163e2269d1b83f34c10206505a5aa6c4d6b0962e95922c",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/111#pullrequestreview-5526807891"
+          }
+        ]
+      },
+      "sourceMR": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "803c7b8fcbb164c1119b8215c85b4209e0846e189cf50c4fba8f2fad3015bbd1",
+        "head": "bank-icon-maintenance/15866",
+        "headCommit": "2d7965d0595933120a09e4c080cd902315610f91",
+        "number": 111,
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: CIB Bank (Company.id 15866)",
+        "url": "https://github.com/zenmoney/banks/pull/111"
+      },
+      "task": "rework-changes"
+    }
+  ]
 }
