@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-18T11:45:40.438880Z",
+  "lastAttemptAt": "2026-10-19T07:20:11.200491Z",
   "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
@@ -270,6 +270,64 @@
         "assessedAt": "2026-10-18T11:16:48.300695Z",
         "key": "33cbcb8cfd1f7cb42f878b180c0cd1810baf9d45a4d7b00dd39fda716b42bfe6",
         "rationale": "Search again with expanded limits as explicitly requested by the owner. Find an original vector for the square app-store variant retaining the complete two-colour S backing and larger U. Do not reuse the rejected circular variant or trace raster references. Any publishable revision must append to PR 106's existing exact head while preserving human title/body and prior versions.",
+        "requirements": [
+          {
+            "quote": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт.",
+            "url": "https://github.com/zenmoney/banks/pull/106#pullrequestreview-5526887092"
+          }
+        ],
+        "selectedUrl": null,
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт. ",
+            "bodySha256": "d5b86f55588ce6e36367f657db60b16aed131af450d6339bf7e6eaa50c85ab21",
+            "createdAt": "2026-10-15T01:23:36Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSW2atA",
+            "text": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт.",
+            "textSha256": "e1a795e19719c3e3aad9b08d9810d69238d26aff9ff5fca3fa5477aeb036e556",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/106#pullrequestreview-5526887092"
+          }
+        ]
+      },
+      "sourceMR": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "15ae04f73e7f62ec0fefa94e0fbba16b340acc133b01a0f4152e2cbe2e86adbe",
+        "head": "bank-icon-maintenance/a3me6hif-15848",
+        "headCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+        "number": 106,
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Uzum Bank (Apelsin) (Company.id 15848)",
+        "url": "https://github.com/zenmoney/banks/pull/106"
+      },
+      "task": "rework-changes"
+    },
+    {
+      "key": "ac2812ce8d7d5f6ef44f77543e8a6692a1f17a53bf53f63ab2c1231b2d47c272",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-19T07:20:11.200491Z",
+      "reason": "User-requested retry after repaired Logobank access succeeded: page, PNG preview, 338784-byte PDF and 345286-byte AI downloaded completely. Full sole-page PDF and AI previews inspected: both contain only the circular corporate Uzum Bank badge with a separate two-line wordmark, not the requested square full S/larger-U app variant. The old retrieval gap is resolved for these files; the variant is now observed and unsuitable. Both original receipts additionally fail supported source-material decoding (PDF1.6 containers). No eligible candidate, redraw, asset revision or PR update was made.",
+      "review": {
+        "action": "repair",
+        "assessedAt": "2026-10-19T07:17:15.587981Z",
+        "key": "ac2812ce8d7d5f6ef44f77543e8a6692a1f17a53bf53f63ab2c1231b2d47c272",
+        "rationale": "Owner reports Logobank access fixed and explicitly requests retry. Retrieve actual Bank entry745 originals and inspect their full artwork. Only a source-supported square variant preserving full S and larger U may proceed to fresh exact-byte checks and revision on existing PR106. Prior generated research comment is evidence of the old unsuccessful run, not a new requirement or proof of current retrieval failure.",
         "requirements": [
           {
             "quote": "@VictoryKod По смыслу ок: новый знак совпадает с иконкой приложения в сторе. По визуалу: двухцветная заливка, по требованиям такой знак ставим в квадрате, как в сторе. В круге S-плашка обрезается, а U получилась мелковатой.\nЛучше бы поправить и отдать апдейт.",
