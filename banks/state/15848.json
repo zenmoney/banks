@@ -3,6 +3,8 @@
   "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
+      "acceptedHeadCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+      "acceptedIconHash": "c8d350a87c562a2c7480c9e798c1dad6c41eedbeed1880e284da5ada3a7268fd",
       "agentAssessment": {
         "path": "evidence/15848/assessed-e7a30b9d81452029a952a1209cb40890e835192f624af5a26b04927bcbe2b2d7.json",
         "sha256": "e7a30b9d81452029a952a1209cb40890e835192f624af5a26b04927bcbe2b2d7"
@@ -53,15 +55,54 @@
       "candidateIconHash": "c8d350a87c562a2c7480c9e798c1dad6c41eedbeed1880e284da5ada3a7268fd",
       "checkedAt": "2026-10-04T07:52:50.873269Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+        "mergeCommit": "4860c13c4a2b02639899c0980a9a360ea66a4895",
+        "mergedAt": "2026-10-21T18:51:06Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "15ae04f73e7f62ec0fefa94e0fbba16b340acc133b01a0f4152e2cbe2e86adbe",
+        "closedAt": "2026-10-21T18:51:06Z",
         "head": "bank-icon-maintenance/a3me6hif-15848",
         "headCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+        "mergeCommit": "4860c13c4a2b02639899c0980a9a360ea66a4895",
+        "mergedAt": "2026-10-21T18:51:06Z",
         "number": 106,
-        "observedAt": "2026-10-04T08:18:31.843612Z",
-        "state": "open",
+        "observedAt": "2026-10-21T18:51:06Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Uzum Bank (Apelsin) (Company.id 15848)",
+        "url": "https://github.com/zenmoney/banks/pull/106"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "15ae04f73e7f62ec0fefa94e0fbba16b340acc133b01a0f4152e2cbe2e86adbe",
+          "head": "bank-icon-maintenance/a3me6hif-15848",
+          "headCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+          "number": 106,
+          "observedAt": "2026-10-04T08:18:31.843612Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Uzum Bank (Apelsin) (Company.id 15848)",
+          "url": "https://github.com/zenmoney/banks/pull/106"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "15ae04f73e7f62ec0fefa94e0fbba16b340acc133b01a0f4152e2cbe2e86adbe",
+        "closedAt": "2026-10-21T18:51:06Z",
+        "head": "bank-icon-maintenance/a3me6hif-15848",
+        "headCommit": "c6b440b8cc49ede713060a75b0637f35eb1a4361",
+        "mergeCommit": "4860c13c4a2b02639899c0980a9a360ea66a4895",
+        "mergedAt": "2026-10-21T18:51:06Z",
+        "number": 106,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Uzum Bank (Apelsin) (Company.id 15848)",
         "url": "https://github.com/zenmoney/banks/pull/106"
@@ -120,7 +161,7 @@
           "url": "https://uzumbank.uz/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T07:56:27.920466Z",
         "compose": "1.12.0",
