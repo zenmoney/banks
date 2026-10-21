@@ -3,6 +3,8 @@
   "lastAttemptResult": "candidate",
   "proposals": [
     {
+      "acceptedHeadCommit": "512a99097c5da629c8135f88893f8eb3c9edf2d8",
+      "acceptedIconHash": "8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76",
       "agentAssessment": {
         "path": "evidence/15771/assessed-58f839a6a9ea1cd03effe9739c8c3f725c353a1291fb0de0a9be49d5c94576ad.json",
         "sha256": "58f839a6a9ea1cd03effe9739c8c3f725c353a1291fb0de0a9be49d5c94576ad"
@@ -51,15 +53,54 @@
       "candidateIconHash": "8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76",
       "checkedAt": "2026-10-04T03:30:48.120332Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "512a99097c5da629c8135f88893f8eb3c9edf2d8",
+        "mergeCommit": "e257981d61a4e77df6b0b2b961822f9f4ccaea33",
+        "mergedAt": "2026-10-21T22:14:09Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "e05368b6d5ed008c9359a89fc6a2ee0aef06d53832fc124bf584bc27b2f0c0d9",
+        "closedAt": "2026-10-21T22:14:10Z",
         "head": "bank-icon-maintenance/15771",
         "headCommit": "512a99097c5da629c8135f88893f8eb3c9edf2d8",
+        "mergeCommit": "e257981d61a4e77df6b0b2b961822f9f4ccaea33",
+        "mergedAt": "2026-10-21T22:14:09Z",
         "number": 94,
-        "observedAt": "2026-10-04T03:38:26.899302Z",
-        "state": "open",
+        "observedAt": "2026-10-21T22:14:09Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Ipak Yu'li Banki (Company.id 15771)",
+        "url": "https://github.com/zenmoney/banks/pull/94"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "e05368b6d5ed008c9359a89fc6a2ee0aef06d53832fc124bf584bc27b2f0c0d9",
+          "head": "bank-icon-maintenance/15771",
+          "headCommit": "512a99097c5da629c8135f88893f8eb3c9edf2d8",
+          "number": 94,
+          "observedAt": "2026-10-04T03:38:26.899302Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Ipak Yu'li Banki (Company.id 15771)",
+          "url": "https://github.com/zenmoney/banks/pull/94"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "e05368b6d5ed008c9359a89fc6a2ee0aef06d53832fc124bf584bc27b2f0c0d9",
+        "closedAt": "2026-10-21T22:14:10Z",
+        "head": "bank-icon-maintenance/15771",
+        "headCommit": "512a99097c5da629c8135f88893f8eb3c9edf2d8",
+        "mergeCommit": "e257981d61a4e77df6b0b2b961822f9f4ccaea33",
+        "mergedAt": "2026-10-21T22:14:09Z",
+        "number": 94,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Ipak Yu'li Banki (Company.id 15771)",
         "url": "https://github.com/zenmoney/banks/pull/94"
@@ -106,7 +147,7 @@
           "url": "https://en.ipakyulibank.uz/news/rebranding"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T03:32:45.044533Z",
         "compose": "1.12.0",
