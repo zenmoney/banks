@@ -3,6 +3,8 @@
   "lastAttemptResult": "candidate",
   "proposals": [
     {
+      "acceptedHeadCommit": "f5dbabb450da8861aed0bfebcc458f8bd1118952",
+      "acceptedIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
       "agentAssessment": {
         "path": "evidence/15800/assessed-e1f5947021990c03c6152c85bb1eea098dce173bd7cd49553048d45f7703ab61.json",
         "sha256": "e1f5947021990c03c6152c85bb1eea098dce173bd7cd49553048d45f7703ab61"
@@ -51,15 +53,54 @@
       "candidateIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97",
       "checkedAt": "2026-10-04T04:35:55.151415Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "f5dbabb450da8861aed0bfebcc458f8bd1118952",
+        "mergeCommit": "12100b9e10d6143a65b7026223d2662f1aa75575",
+        "mergedAt": "2026-10-21T22:13:13Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "a458f2713a101e58060d67f1587b4bfd6891c47832d9ca1e484b25577d00d79e",
+        "closedAt": "2026-10-21T22:13:13Z",
         "head": "bank-icon-maintenance/15800",
         "headCommit": "f5dbabb450da8861aed0bfebcc458f8bd1118952",
+        "mergeCommit": "12100b9e10d6143a65b7026223d2662f1aa75575",
+        "mergedAt": "2026-10-21T22:13:13Z",
         "number": 97,
-        "observedAt": "2026-10-04T04:48:46.077817Z",
-        "state": "open",
+        "observedAt": "2026-10-21T22:13:13Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Swedbank (Company.id 15800)",
+        "url": "https://github.com/zenmoney/banks/pull/97"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "a458f2713a101e58060d67f1587b4bfd6891c47832d9ca1e484b25577d00d79e",
+          "head": "bank-icon-maintenance/15800",
+          "headCommit": "f5dbabb450da8861aed0bfebcc458f8bd1118952",
+          "number": 97,
+          "observedAt": "2026-10-04T04:48:46.077817Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Swedbank (Company.id 15800)",
+          "url": "https://github.com/zenmoney/banks/pull/97"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "a458f2713a101e58060d67f1587b4bfd6891c47832d9ca1e484b25577d00d79e",
+        "closedAt": "2026-10-21T22:13:13Z",
+        "head": "bank-icon-maintenance/15800",
+        "headCommit": "f5dbabb450da8861aed0bfebcc458f8bd1118952",
+        "mergeCommit": "12100b9e10d6143a65b7026223d2662f1aa75575",
+        "mergedAt": "2026-10-21T22:13:13Z",
+        "number": 97,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Swedbank (Company.id 15800)",
         "url": "https://github.com/zenmoney/banks/pull/97"
@@ -110,7 +151,7 @@
           "url": "https://www.swedbank.com/content/dam/global/brand/logotypes/8999-swedbank-logo-default.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T04:41:58.900112Z",
         "compose": "1.12.0",
