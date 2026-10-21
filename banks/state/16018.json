@@ -3,6 +3,8 @@
   "lastAttemptResult": "candidate",
   "proposals": [
     {
+      "acceptedHeadCommit": "0683962aa7c255a640862ef7e8b9a33c4e7dc3b9",
+      "acceptedIconHash": "27f2a14711f73d542c523836d9fab37a416877c4f013ef2c7a017ae2d703854c",
       "agentAssessment": {
         "path": "evidence/16018/assessed-c6ba1810843f0a751a721826c602ffc0d7e7c1c54932e095eacf83c74887a3c6.json",
         "sha256": "c6ba1810843f0a751a721826c602ffc0d7e7c1c54932e095eacf83c74887a3c6"
@@ -53,15 +55,54 @@
       "candidateIconHash": "27f2a14711f73d542c523836d9fab37a416877c4f013ef2c7a017ae2d703854c",
       "checkedAt": "2026-10-04T20:42:43.942202Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "0683962aa7c255a640862ef7e8b9a33c4e7dc3b9",
+        "mergeCommit": "c38efa75c5cc194f3ec9fcecf7bf1f1fd9c9b4c8",
+        "mergedAt": "2026-10-21T18:27:05Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "4e59c69573840642a10d7d546b28f8888182d8aa0d39f2555ee53b3593dacb88",
+        "closedAt": "2026-10-21T18:27:06Z",
         "head": "bank-icon-maintenance/16018",
         "headCommit": "0683962aa7c255a640862ef7e8b9a33c4e7dc3b9",
+        "mergeCommit": "c38efa75c5cc194f3ec9fcecf7bf1f1fd9c9b4c8",
+        "mergedAt": "2026-10-21T18:27:05Z",
         "number": 137,
-        "observedAt": "2026-10-04T21:01:23.425183Z",
-        "state": "open",
+        "observedAt": "2026-10-21T18:27:05Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Nest Bank Biznes (Company.id 16018)",
+        "url": "https://github.com/zenmoney/banks/pull/137"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "4e59c69573840642a10d7d546b28f8888182d8aa0d39f2555ee53b3593dacb88",
+          "head": "bank-icon-maintenance/16018",
+          "headCommit": "0683962aa7c255a640862ef7e8b9a33c4e7dc3b9",
+          "number": 137,
+          "observedAt": "2026-10-04T21:01:23.425183Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Nest Bank Biznes (Company.id 16018)",
+          "url": "https://github.com/zenmoney/banks/pull/137"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "4e59c69573840642a10d7d546b28f8888182d8aa0d39f2555ee53b3593dacb88",
+        "closedAt": "2026-10-21T18:27:06Z",
+        "head": "bank-icon-maintenance/16018",
+        "headCommit": "0683962aa7c255a640862ef7e8b9a33c4e7dc3b9",
+        "mergeCommit": "c38efa75c5cc194f3ec9fcecf7bf1f1fd9c9b4c8",
+        "mergedAt": "2026-10-21T18:27:05Z",
+        "number": 137,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Nest Bank Biznes (Company.id 16018)",
         "url": "https://github.com/zenmoney/banks/pull/137"
@@ -100,7 +141,7 @@
           "url": "https://web.archive.org/web/20260203041804/https://nestbank.pl/o-banku"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-04T20:48:04.549164Z",
         "compose": "1.12.0",
