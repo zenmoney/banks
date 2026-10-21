@@ -126,6 +126,50 @@
         "sourceSha256": "6e4a68dae34c154bf01ba4b343741448a3490485952da169abafad6ad24d27e0",
         "xmlSha256": "4d590582b9717b782175ac1f2df028251248b12b23d833781cc40d9f732623b0"
       }
+    },
+    {
+      "acceptedHeadCommit": "a4955ca22891cdba84fcb19053fadd8f64dd3174",
+      "acceptedIconHash": "683a4f622a0fe3ed479f327ae6a0fa822373efccfe0ce853731c093fe49d767e",
+      "baseIconHash": null,
+      "candidateIconHash": "683a4f622a0fe3ed479f327ae6a0fa822373efccfe0ce853731c093fe49d767e",
+      "mergeReceipt": {
+        "headCommit": "a4955ca22891cdba84fcb19053fadd8f64dd3174",
+        "mergeCommit": "3d649031b4f881938bc659cbc656672d2565b4b0",
+        "mergedAt": "2026-10-21T22:20:08Z",
+        "method": "squash"
+      },
+      "mr": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1619bf1c7b9d9dc438755f9dd173a51c4a774b75d11042847519f31d7dae9934",
+        "closedAt": "2026-10-21T22:20:08Z",
+        "head": "bank-icon-maintenance/4404",
+        "headCommit": "a4955ca22891cdba84fcb19053fadd8f64dd3174",
+        "mergeCommit": "3d649031b4f881938bc659cbc656672d2565b4b0",
+        "mergedAt": "2026-10-21T22:20:08Z",
+        "number": 23,
+        "observedAt": "2026-10-21T22:20:08Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Дом.ру Банк (Company.id 4404)",
+        "url": "https://github.com/zenmoney/banks/pull/23"
+      },
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "1619bf1c7b9d9dc438755f9dd173a51c4a774b75d11042847519f31d7dae9934",
+        "closedAt": "2026-10-21T22:20:08Z",
+        "head": "bank-icon-maintenance/4404",
+        "headCommit": "a4955ca22891cdba84fcb19053fadd8f64dd3174",
+        "mergeCommit": "3d649031b4f881938bc659cbc656672d2565b4b0",
+        "mergedAt": "2026-10-21T22:20:08Z",
+        "number": 23,
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Дом.ру Банк (Company.id 4404)",
+        "url": "https://github.com/zenmoney/banks/pull/23"
+      },
+      "status": "accepted"
     }
   ],
   "reviewFeedback": [
