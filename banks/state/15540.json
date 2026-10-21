@@ -3,6 +3,8 @@
   "lastAttemptResult": "candidate",
   "proposals": [
     {
+      "acceptedHeadCommit": "25b43c8c3dcf05204c4d9ce3c9c1033efc4864c4",
+      "acceptedIconHash": "ef673b830705dbc1c28ad35cb5cc4dc8d96405c369a0ec07ef3f26e96898b290",
       "agentAssessment": {
         "path": "evidence/15540/assessed-408599fbc49ba6901f6950efec2f66c95a198dc822b795e110cc383910907845.json",
         "sha256": "408599fbc49ba6901f6950efec2f66c95a198dc822b795e110cc383910907845"
@@ -54,15 +56,54 @@
       "candidateIconHash": "ef673b830705dbc1c28ad35cb5cc4dc8d96405c369a0ec07ef3f26e96898b290",
       "checkedAt": "2026-10-03T15:09:03.722027Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "25b43c8c3dcf05204c4d9ce3c9c1033efc4864c4",
+        "mergeCommit": "5bcfb3f11dc04ae26cd61241dd2048cd7d3fb872",
+        "mergedAt": "2026-10-21T22:16:14Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "ef8d02f6573b921a975f69b11cfd5de61058e0da3c8d1d0fb135b40d3b148667",
+        "closedAt": "2026-10-21T22:16:14Z",
         "head": "bank-icon-maintenance/15540",
         "headCommit": "25b43c8c3dcf05204c4d9ce3c9c1033efc4864c4",
+        "mergeCommit": "5bcfb3f11dc04ae26cd61241dd2048cd7d3fb872",
+        "mergedAt": "2026-10-21T22:16:14Z",
         "number": 62,
-        "observedAt": "2026-10-03T15:29:07.821263Z",
-        "state": "open",
+        "observedAt": "2026-10-21T22:16:14Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ABN Amro (Company.id 15540)",
+        "url": "https://github.com/zenmoney/banks/pull/62"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "ef8d02f6573b921a975f69b11cfd5de61058e0da3c8d1d0fb135b40d3b148667",
+          "head": "bank-icon-maintenance/15540",
+          "headCommit": "25b43c8c3dcf05204c4d9ce3c9c1033efc4864c4",
+          "number": 62,
+          "observedAt": "2026-10-03T15:29:07.821263Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ABN Amro (Company.id 15540)",
+          "url": "https://github.com/zenmoney/banks/pull/62"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "ef8d02f6573b921a975f69b11cfd5de61058e0da3c8d1d0fb135b40d3b148667",
+        "closedAt": "2026-10-21T22:16:14Z",
+        "head": "bank-icon-maintenance/15540",
+        "headCommit": "25b43c8c3dcf05204c4d9ce3c9c1033efc4864c4",
+        "mergeCommit": "5bcfb3f11dc04ae26cd61241dd2048cd7d3fb872",
+        "mergedAt": "2026-10-21T22:16:14Z",
+        "number": 62,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ABN Amro (Company.id 15540)",
         "url": "https://github.com/zenmoney/banks/pull/62"
@@ -105,7 +146,7 @@
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/ABN-AMRO_Logo_new_colors.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T15:21:27.224714Z",
         "compose": "1.12.0",
