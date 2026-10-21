@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-04T02:30:59.321732Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-21T22:51:52.836720Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "agentAssessment": {
@@ -61,7 +61,7 @@
         "head": "bank-icon-maintenance/15749",
         "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
         "number": 93,
-        "observedAt": "2026-10-16T18:33:28.111026Z",
+        "observedAt": "2026-10-21T22:41:40.230680Z",
         "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Yahav (Company.id 15749)",
@@ -152,7 +152,7 @@
           "author": "VictoryKod",
           "body": "На сайте лого отличается от первого и второго варианта",
           "createdAt": "2026-10-16T09:55:10Z",
-          "kind": "issue",
+          "kind": "comment",
           "updatedAt": "2026-10-16T09:55:10Z",
           "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835"
         },
@@ -161,7 +161,7 @@
           "number": 93,
           "url": "https://github.com/zenmoney/banks/pull/93"
         },
-        "rationale": "The reviewer states that the site logo differs from BOTH the first/current icon and the second/proposed icon. This raises a current-logo/variant applicability concern that neither candidate is established as the intended site mark. The comment does not identify a specific replacement or technical correction; retain the concern without treating its assertion as independently verified bank metadata or deciding that either existing variant is correct.",
+        "rationale": "Reviewer reports the website logo differs from both the existing icon and rejected candidate. Verify the applicable current Yahav identity and original vector rather than assuming closure means keep-current or reusing rejected bytes. A supported repair needs fresh source and visual evidence and a new linked PR; preserve any unresolved identity or retrieval gap.",
         "requirements": [
           {
             "quote": "На сайте лого отличается от первого и второго варианта",
@@ -169,88 +169,90 @@
           }
         ]
       },
-      "rejectionReview": {
-        "evaluatedAt": "2026-10-16T19:52:12.742552Z",
-        "id": 15749,
-        "judgement": {
-          "action": "verify-applicability",
-          "key": "4f2a20226bad2854588bf42ebac41736a12845805dd09280b98f4eb9cdce6bf3",
-          "rationale": "The reviewer states that the site logo differs from BOTH the first/current icon and the second/proposed icon. This raises a current-logo/variant applicability concern that neither candidate is established as the intended site mark. The comment does not identify a specific replacement or technical correction; retain the concern without treating its assertion as independently verified bank metadata or deciding that either existing variant is correct.",
+      "rejectionReviewHistory": [
+        {
+          "evaluatedAt": "2026-10-16T19:52:12.742552Z",
+          "id": 15749,
+          "judgement": {
+            "action": "verify-applicability",
+            "key": "4f2a20226bad2854588bf42ebac41736a12845805dd09280b98f4eb9cdce6bf3",
+            "rationale": "The reviewer states that the site logo differs from BOTH the first/current icon and the second/proposed icon. This raises a current-logo/variant applicability concern that neither candidate is established as the intended site mark. The comment does not identify a specific replacement or technical correction; retain the concern without treating its assertion as independently verified bank metadata or deciding that either existing variant is correct.",
+            "sources": [
+              {
+                "quote": "На сайте лого отличается от первого и второго варианта",
+                "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835"
+              }
+            ]
+          },
+          "review": {
+            "attemptCheckedAt": "2026-10-04T02:30:59.321732Z",
+            "candidateIconHash": "bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55",
+            "key": "4f2a20226bad2854588bf42ebac41736a12845805dd09280b98f4eb9cdce6bf3",
+            "messages": [
+              {
+                "author": "b3er",
+                "body": "## Yahav — Company.id 15749\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"IL\",\n  \"fullTitle\": \"\\u05d1\\u05e0\\u05e7 \\u05d9\\u05d4\\u05d1\",\n  \"id\": 15749,\n  \"title\": \"Yahav\",\n  \"url\": \"bank-yahav.co.il\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T02:33:27Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/base.svg) — SHA-256 `f105766a49bddf700473d94e948f151ef227820c3a1d32df530bb35f1367d2d2`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/source.svg) — SHA-256 `14d8b69c760b063895f3a1a54a799f7e148b07d705f45db52405558c1eabf442`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/final.svg) — SHA-256 `bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/final.xml) — SHA-256 `9d2f9b06d67cf20f5c59a2c22650d22ffe33ecbe2820b57ee3d83056f50abfba`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/candidate.diff).\n- Source page: [https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/](https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/).\n- Source asset: [https://web.archive.org/web/20260925134704im\\_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg](https://web.archive.org/web/20260925134704im_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T02:24:00Z: [https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/](https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/); asset [https://web.archive.org/web/20260925134704im\\_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg](https://web.archive.org/web/20260925134704im_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg). Wayback capture \\(2026-09-25\\) of the live official homepage shows the site header logo new-logo-medium.png and the favicon about-us-logotype.svg — the blue layered-wave emblem with green arc. The live site is Incapsula WAF-blocked to automated fetches \\(HTTP 403 / JS challenge\\), so observation is via the archive capture of the live site; the SVG itself was retrieved losslessly through the Wayback im\\_ copy \\(sha256 14d8b69c760b063895f3a1a54a799f7e148b07d705f45db52405558c1eabf442\\). (independence group: bank-yahav.co.il official site \\(archived\\)).\n- official checked 2026-10-04T02:24:30Z: [https://web.archive.org/web/20260925id\\_/https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png](https://web.archive.org/web/20260925id_/https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png); asset [https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png](https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png). Official current header logo raster \\(567x174, 'new-logo-medium.png'\\) shows the same blue wave motif with green arc as the logotype SVG \\(raster used as visual research evidence only\\). (independence group: bank-yahav.co.il official site \\(archived\\)).\n- Independent evidence: Both observations come from the bank's own official site as captured by a single independent archivist \\(Wayback\\) on 2026-09-25; header logo raster and favicon/logotype SVG corroborate each other. The WAF block prevents additional live observation; this is disclosed as a retrieval limitation..\n- Identity: confirmed — The wave-and-green-arc emblem is served by the bank's own domain bank-yahav.co.il \\(favicon and about-us logotype, header logo 'new-logo'\\) for Bank Yahav \\(בנק יהב, Israel\\)..\n- Currency: confirmed — The 2026-09-25 capture of the live official homepage shows the new logo as header and favicon; the file name 'new-logo' and the current use confirm the design in use. Limitation: the live site blocks automated retrieval, so currency rests on the recent archive capture of the live site plus the live-referenced asset paths..\n- Variant: confirmed — The candidate is the bank's current standalone emblem variant \\(blue layered waves, white separations, green arc, transparent background, no wordmark\\). The accepted icon is a different, older dark-indigo circular emblem design; the accepted design is not the bank's current mark..\n- Uncertainty: Exact adoption date of the new logo is unknown; currentness is supported by the 2026-09-25 capture of the live official homepage..\n\nRationale: Replacement of the accepted older dark-indigo circular emblem with the bank's current standalone mark \\(blue layered waves, white separations, green arc\\), taken unchanged from the bank's own logotype vector also used as the site favicon on the 2026-09-25 capture of the live homepage..\nRole: standalone bank emblem from the official site logotype SVG; no wordmark present; variant: the bank's current wave-and-green-arc emblem on transparent background.\nVisible difference: Before/after desktop pairs show the accepted retired dark-indigo circular emblem replaced by the bank's current wave-and-green-arc mark — a different design per the bank's current branding, not a restyling of the old icon..\nDetails: All wave layers, white separations, rounded contours, the green arc and internal transparency survive exactly; source/final pairs on both themes show no lost or altered details.. Proportions: The whole emblem including the arc fits the square cell with even margins on both themes and remains legible at small sizes; white separations stay distinct; no stretching, rotation or clipping..\n\nSource-to-final transformations:\n- lossless copy of the bank's logotype SVG geometry \\(no geometry, color or transparency changes\\)\n- square viewBox 0.5 -28.25 325 325 \\(pure translation of the canvas\\) so the whole emblem, including the green arc, fits the square cell; the original 326x269 canvas had unequal margins\n- removed the \\<title\\> metadata GUID and ran SVGO 4.1.0 with the repository svgo.config.mjs: 5733 -\\> 3478 bytes; renders identical within antialiasing \\(max channel difference 11/255, mean ~0.2%\\), optimized result chosen\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T02:32:22.220819770Z`. Offscreen Desktop base/final pairs on #FFFFFF and #121212: the base shows the retired dark-indigo circular emblem; the final reproduces the bank's current wave-and-green-arc emblem with intact contours, colors and transparency on both themes. Independent librsvg source/final pairs match.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator verified in this run; exact final bytes verified by the offscreen Desktop export with source/base/final comparisons..\n- android-native: not-tested (available: false) — No Android device or emulator available in this environment..\n- ios-compose: not-tested (available: false) — No iOS runtime available in this Linux environment..\n- ios-native: not-tested (available: false) — No iOS runtime available in this Linux environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
+                "kind": "body",
+                "nodeId": "PR_kwDOU2-MbM8AAAABGgNrNw",
+                "reviewState": null,
+                "url": "https://github.com/zenmoney/banks/pull/93",
+                "userType": "User"
+              },
+              {
+                "author": "VictoryKod",
+                "body": "На сайте лого отличается от первого и второго варианта",
+                "kind": "comment",
+                "nodeId": "IC_kwDOU2-MbM8AAAABclGt0w",
+                "reviewState": null,
+                "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835",
+                "userType": "User"
+              }
+            ],
+            "mr": {
+              "base": "main",
+              "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+              "bodySha256": "96a8d87765b4a9ae35e3fe0e67194c6c31061cf36bab30417c8c82f4d2f29697",
+              "closedAt": "2026-10-16T09:55:10Z",
+              "head": "bank-icon-maintenance/15749",
+              "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
+              "mergeCommit": null,
+              "mergedAt": null,
+              "number": 93,
+              "state": "closed",
+              "target": "zenmoney/banks",
+              "title": "Bank icon: Yahav (Company.id 15749)",
+              "url": "https://github.com/zenmoney/banks/pull/93"
+            },
+            "schemaVersion": 1
+          },
           "sources": [
             {
-              "quote": "На сайте лого отличается от первого и второго варианта",
+              "attachments": [],
+              "author": {
+                "__typename": "User",
+                "login": "VictoryKod"
+              },
+              "body": "На сайте лого отличается от первого и второго варианта",
+              "bodySha256": "816248dd34f990c6c33192f6a94285942f8e8fd58f258748599fdd469c102fbb",
+              "createdAt": "2026-10-16T09:55:10Z",
+              "editor": {
+                "__typename": "User",
+                "login": "VictoryKod"
+              },
+              "kind": "comment",
+              "lastEditedAt": null,
+              "nodeId": "IC_kwDOU2-MbM8AAAABclGt0w",
+              "text": "На сайте лого отличается от первого и второго варианта",
+              "textSha256": "816248dd34f990c6c33192f6a94285942f8e8fd58f258748599fdd469c102fbb",
+              "trust": {
+                "login": "VictoryKod",
+                "permission": "write"
+              },
               "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835"
             }
           ]
-        },
-        "review": {
-          "attemptCheckedAt": "2026-10-04T02:30:59.321732Z",
-          "candidateIconHash": "bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55",
-          "key": "4f2a20226bad2854588bf42ebac41736a12845805dd09280b98f4eb9cdce6bf3",
-          "messages": [
-            {
-              "author": "b3er",
-              "body": "## Yahav — Company.id 15749\n\nCatalog metadata (unchanged):\n\n```json\n{\n  \"countryCode\": \"IL\",\n  \"fullTitle\": \"\\u05d1\\u05e0\\u05e7 \\u05d9\\u05d4\\u05d1\",\n  \"id\": 15749,\n  \"title\": \"Yahav\",\n  \"url\": \"bank-yahav.co.il\"\n}\n```\n\nFrozen base commit: `fe29fbc1291b8842ed201261408a3bc690875b55`. Checked: `2026-10-04T02:33:27Z`.\n\n### Exact versions and source\n\n- Current/base SVG: [base.svg](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/base.svg) — SHA-256 `f105766a49bddf700473d94e948f151ef227820c3a1d32df530bb35f1367d2d2`.\n- Fetched source SVG: [source.svg](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/source.svg) — SHA-256 `14d8b69c760b063895f3a1a54a799f7e148b07d705f45db52405558c1eabf442`.\n- Proposed final SVG: [final.svg](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/final.svg) — SHA-256 `bffa79c804eaee4fac1d6ca48763312248bc7b666a138f6c8e66fa6a03846e55`.\n- Generated VectorDrawable XML: [final.xml](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/final.xml) — SHA-256 `9d2f9b06d67cf20f5c59a2c22650d22ffe33ecbe2820b57ee3d83056f50abfba`.\n- Exact base-to-final changes: [candidate.diff](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/candidate.diff).\n- Source page: [https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/](https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/).\n- Source asset: [https://web.archive.org/web/20260925134704im\\_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg](https://web.archive.org/web/20260925134704im_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg).\n\n### Evidence and judgment\n\n- official checked 2026-10-04T02:24:00Z: [https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/](https://web.archive.org/web/20260925/https://www.bank-yahav.co.il/); asset [https://web.archive.org/web/20260925134704im\\_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg](https://web.archive.org/web/20260925134704im_/https://www.bank-yahav.co.il/Content/Images/about-us-logotype.svg). Wayback capture \\(2026-09-25\\) of the live official homepage shows the site header logo new-logo-medium.png and the favicon about-us-logotype.svg — the blue layered-wave emblem with green arc. The live site is Incapsula WAF-blocked to automated fetches \\(HTTP 403 / JS challenge\\), so observation is via the archive capture of the live site; the SVG itself was retrieved losslessly through the Wayback im\\_ copy \\(sha256 14d8b69c760b063895f3a1a54a799f7e148b07d705f45db52405558c1eabf442\\). (independence group: bank-yahav.co.il official site \\(archived\\)).\n- official checked 2026-10-04T02:24:30Z: [https://web.archive.org/web/20260925id\\_/https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png](https://web.archive.org/web/20260925id_/https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png); asset [https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png](https://www.bank-yahav.co.il/media/sjglypnj/new-logo-medium.png). Official current header logo raster \\(567x174, 'new-logo-medium.png'\\) shows the same blue wave motif with green arc as the logotype SVG \\(raster used as visual research evidence only\\). (independence group: bank-yahav.co.il official site \\(archived\\)).\n- Independent evidence: Both observations come from the bank's own official site as captured by a single independent archivist \\(Wayback\\) on 2026-09-25; header logo raster and favicon/logotype SVG corroborate each other. The WAF block prevents additional live observation; this is disclosed as a retrieval limitation..\n- Identity: confirmed — The wave-and-green-arc emblem is served by the bank's own domain bank-yahav.co.il \\(favicon and about-us logotype, header logo 'new-logo'\\) for Bank Yahav \\(בנק יהב, Israel\\)..\n- Currency: confirmed — The 2026-09-25 capture of the live official homepage shows the new logo as header and favicon; the file name 'new-logo' and the current use confirm the design in use. Limitation: the live site blocks automated retrieval, so currency rests on the recent archive capture of the live site plus the live-referenced asset paths..\n- Variant: confirmed — The candidate is the bank's current standalone emblem variant \\(blue layered waves, white separations, green arc, transparent background, no wordmark\\). The accepted icon is a different, older dark-indigo circular emblem design; the accepted design is not the bank's current mark..\n- Uncertainty: Exact adoption date of the new logo is unknown; currentness is supported by the 2026-09-25 capture of the live official homepage..\n\nRationale: Replacement of the accepted older dark-indigo circular emblem with the bank's current standalone mark \\(blue layered waves, white separations, green arc\\), taken unchanged from the bank's own logotype vector also used as the site favicon on the 2026-09-25 capture of the live homepage..\nRole: standalone bank emblem from the official site logotype SVG; no wordmark present; variant: the bank's current wave-and-green-arc emblem on transparent background.\nVisible difference: Before/after desktop pairs show the accepted retired dark-indigo circular emblem replaced by the bank's current wave-and-green-arc mark — a different design per the bank's current branding, not a restyling of the old icon..\nDetails: All wave layers, white separations, rounded contours, the green arc and internal transparency survive exactly; source/final pairs on both themes show no lost or altered details.. Proportions: The whole emblem including the arc fits the square cell with even margins on both themes and remains legible at small sizes; white separations stay distinct; no stretching, rotation or clipping..\n\nSource-to-final transformations:\n- lossless copy of the bank's logotype SVG geometry \\(no geometry, color or transparency changes\\)\n- square viewBox 0.5 -28.25 325 325 \\(pure translation of the canvas\\) so the whole emblem, including the green arc, fits the square cell; the original 326x269 canvas had unequal margins\n- removed the \\<title\\> metadata GUID and ran SVGO 4.1.0 with the repository svgo.config.mjs: 5733 -\\> 3478 bytes; renders identical within antialiasing \\(max channel difference 11/255, mean ~0.2%\\), optimized result chosen\n\n### Light and dark before/after\n\n![Before and after — light background](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/comparison-light.png?raw=true)\n\n![Before and after — dark background](https://github.com/zenmoney/banks/blob/6b9bcfe3f2c85270bd6b9db323a5543a6ce80edf/review-materials/15749/comparison-dark.png?raw=true)\n\n### Render checks and limits\n\nDesktop renderer recorded: `offscreen CPU Skia/painterResource` at `2026-10-04T02:32:22.220819770Z`. Offscreen Desktop base/final pairs on #FFFFFF and #121212: the base shows the retired dark-indigo circular emblem; the final reproduces the bank's current wave-and-green-arc emblem with intact contours, colors and transparency on both themes. Independent librsvg source/final pairs match.\n\n- android-compose: not-tested (available: false) — No Android SDK/emulator verified in this run; exact final bytes verified by the offscreen Desktop export with source/base/final comparisons..\n- android-native: not-tested (available: false) — No Android device or emulator available in this environment..\n- ios-compose: not-tested (available: false) — No iOS runtime available in this Linux environment..\n- ios-native: not-tested (available: false) — No iOS runtime available in this Linux environment..\n\nDesktop observation is for the generated XML through Compose Desktop `painterResource`, not a claim of successful Android/iOS or native-widget rendering. Unavailable targets remain untested; reviewer visual approval and merge remain separate decisions.\n",
-              "kind": "body",
-              "nodeId": "PR_kwDOU2-MbM8AAAABGgNrNw",
-              "reviewState": null,
-              "url": "https://github.com/zenmoney/banks/pull/93",
-              "userType": "User"
-            },
-            {
-              "author": "VictoryKod",
-              "body": "На сайте лого отличается от первого и второго варианта",
-              "kind": "comment",
-              "nodeId": "IC_kwDOU2-MbM8AAAABclGt0w",
-              "reviewState": null,
-              "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835",
-              "userType": "User"
-            }
-          ],
-          "mr": {
-            "base": "main",
-            "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
-            "bodySha256": "96a8d87765b4a9ae35e3fe0e67194c6c31061cf36bab30417c8c82f4d2f29697",
-            "closedAt": "2026-10-16T09:55:10Z",
-            "head": "bank-icon-maintenance/15749",
-            "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
-            "mergeCommit": null,
-            "mergedAt": null,
-            "number": 93,
-            "state": "closed",
-            "target": "zenmoney/banks",
-            "title": "Bank icon: Yahav (Company.id 15749)",
-            "url": "https://github.com/zenmoney/banks/pull/93"
-          },
-          "schemaVersion": 1
-        },
-        "sources": [
-          {
-            "attachments": [],
-            "author": {
-              "__typename": "User",
-              "login": "VictoryKod"
-            },
-            "body": "На сайте лого отличается от первого и второго варианта",
-            "bodySha256": "816248dd34f990c6c33192f6a94285942f8e8fd58f258748599fdd469c102fbb",
-            "createdAt": "2026-10-16T09:55:10Z",
-            "editor": {
-              "__typename": "User",
-              "login": "VictoryKod"
-            },
-            "kind": "comment",
-            "lastEditedAt": null,
-            "nodeId": "IC_kwDOU2-MbM8AAAABclGt0w",
-            "text": "На сайте лого отличается от первого и второго варианта",
-            "textSha256": "816248dd34f990c6c33192f6a94285942f8e8fd58f258748599fdd469c102fbb",
-            "trust": {
-              "login": "VictoryKod",
-              "permission": "write"
-            },
-            "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835"
-          }
-        ]
-      },
+        }
+      ],
       "reviewPackage": {
         "path": "evidence/15749/candidate-ed71bf3629c6e69a6cf268ee124c498cc4cf3a6bdb910096030eca0de3a83406.json",
         "sha256": "ed71bf3629c6e69a6cf268ee124c498cc4cf3a6bdb910096030eca0de3a83406"
@@ -294,5 +296,65 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2e657cd683f5521af79d6a13968eea2e3868fda49b34abe2540a8fd3cb5bfd2e",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-21T22:51:52.836720Z",
+      "reason": "The reviewer reports the website logo differs from both prior versions. Fresh official homepage, about-page and recent-report retrievals remain HTTP 403, and the permitted browser route is unavailable because its sandbox preflight failed. A live Bank Yahav Google Play listing updated 17 October 2026 confirms a metallic silver emblem on a blue/teal gradient rounded square, but supplies only raster artwork and does not establish the disputed website variant. Independent NESS project material shows the blue/green full lockup without a currentness date. No usable original vector of the applicable current identity was obtained; preserve the accepted icon without claiming it is current or equivalent.",
+      "review": {
+        "action": "verify-applicability",
+        "assessedAt": "2026-10-21T22:42:01.463796Z",
+        "key": "2e657cd683f5521af79d6a13968eea2e3868fda49b34abe2540a8fd3cb5bfd2e",
+        "rationale": "Reviewer reports the website logo differs from both the existing icon and rejected candidate. Verify the applicable current Yahav identity and original vector rather than assuming closure means keep-current or reusing rejected bytes. A supported repair needs fresh source and visual evidence and a new linked PR; preserve any unresolved identity or retrieval gap.",
+        "requirements": [
+          {
+            "quote": "На сайте лого отличается от первого и второго варианта",
+            "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835"
+          }
+        ],
+        "selectedUrl": null,
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "На сайте лого отличается от первого и второго варианта",
+            "bodySha256": "816248dd34f990c6c33192f6a94285942f8e8fd58f258748599fdd469c102fbb",
+            "createdAt": "2026-10-16T09:55:10Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABclGt0w",
+            "text": "На сайте лого отличается от первого и второго варианта",
+            "textSha256": "816248dd34f990c6c33192f6a94285942f8e8fd58f258748599fdd469c102fbb",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/93#issuecomment-6212922835"
+          }
+        ]
+      },
+      "sourceMR": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "96a8d87765b4a9ae35e3fe0e67194c6c31061cf36bab30417c8c82f4d2f29697",
+        "head": "bank-icon-maintenance/15749",
+        "headCommit": "ece29e2858fccb31a5921af9503b8ed74c66ed0a",
+        "number": 93,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Yahav (Company.id 15749)",
+        "url": "https://github.com/zenmoney/banks/pull/93"
+      },
+      "task": "rework-rejected"
+    }
+  ]
 }
