@@ -1,13 +1,202 @@
 {
-  "lastAttemptAt": "2026-10-21T23:28:53.648936Z",
-  "lastAttemptResult": "unconfirmed",
+  "lastAttemptAt": "2026-10-21T23:48:39.064852Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16204/assessed-36c73c2cb46d6ac828effa59a91ee20b37e2d0ea587eb4c2cd105d49537cda45.json",
+        "sha256": "36c73c2cb46d6ac828effa59a91ee20b37e2d0ea587eb4c2cd105d49537cda45"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The live official documentation currently uses the retrieved SVG as favicon and the same emblem in its header PNG beside ZEN.COM. The retrievable WordPress plugin listing has softwareVersion 2.10.1 and dateModified 2026-10-07. Apple's live ZEN.COM: Multicurrency Account listing has 2026 version-history entries and current matching emblem artwork. This supports active brand use, not a historic brand selection or exact rebrand date. Legal status was not separately determined.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Record title ZEN.COM and known zen.com host match official docs.zen.com branding. The retrieved WordPress plugin is authored by ZEN.COM with Author URI https://zen.com and links the official docs; the current Apple Finance listing names publisher UAB ZEN.COM. No country or successor was inferred.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Documentation, plugin and app are separate distribution contexts but publisher-controlled; not claimed as independent confirmations. BIMI index only corroborates domain asset location, not unseen SVG geometry.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Model image input showed the official SVG's complete flat dark ring-and-detached-dot symbol. The official docs header PNG and flat Apple structured-data icon show matching emblem topology. Apple's main 400px app artwork additionally has dimensional shading. Preserve the source's actual #222222 rather than borrowing raster colors, gradients, shadows or new geometry. Standalone emblem appropriate for square cell. A white field is supported by official app context; circular catalog backing is a presentation adaptation, not official circular use. Exact final usability remains subject to rendering.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/443fe9490f01550c109b9023b058822922afc5bfc99f8c934da349b3ef458b10.json",
+        "sha256": "443fe9490f01550c109b9023b058822922afc5bfc99f8c934da349b3ef458b10"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Actual model input of the full original librsvg source, both source/final pairs, both actual offscreen CPU Skia/painterResource frames and independent working/optimized theme pairs shows the same complete outer ring, stepped upper-left terminal, enlarged rounded upper-right terminal, detached dot, interior opening and relative geometry. No visible crop, wordmark leak, distortion, recoloring, lost satellite detail or optimization regression. Source path holes remain transparent and show the separate white backing; no raster tracing, raster embedding or per-part manipulation.",
+        "faithful": true,
+        "iconHash": "379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d",
+        "path": "evidence/16204/candidate-379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d.svg",
+        "proportionsJudgement": "Whole source uniformly scaled to approximately 70% of the field width, matching the roughly 70% emblem/white-field scale visible in official flat app context. The complete emblem fits well inside the separate circle with useful optical weight and balanced placement; no emblem is circle-clipped. Both 240x240 actual Desktop frames are clear. Resized 24/32/48px icon-area diagnostics on both themes remain recognizable: ring opening and enlarged terminal stay distinct; the detached dot remains separate but naturally tiny at 24px. White backing supplies strong dark-theme contrast; on white the circle merges into the canvas while the dark emblem remains clear. Diagnostics are resizes of bound Desktop frames, not native platform passes.",
+        "rationale": "First addition of the complete current ZEN.COM standalone emblem to existing record 16204, which has no icon.svg at the frozen base. Genuine official documentation favicon supplies the original paths. Its transparent #222222 rendering was visibly weak on the dark catalog tile; source-backed white field restores contrast without changing emblem paint or geometry. The white circular catalog backing is a policy presentation adaptation, not an official circular-use claim or a rebrand.",
+        "role": "Standalone ZEN.COM symbol; no visible wordmark, bank name or tagline.",
+        "sha256": "379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d",
+        "sourceAssetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg",
+        "sourceUrl": "https://docs.zen.com/payments/plugins/about-woocommerce",
+        "transforms": [
+          "Original visible 82x81 SVG viewport preserved by its original clipPath and original group/path transforms; no crop or raster redraw; all five original paths retained, including three invisible clipped wordmark paths.",
+          "Added separate #FFFFFF circle cx=50 cy=50 r=50 in 100x100 viewport; no whole-emblem masking. White-field context is official flat Apple product artwork; circular shape is catalog backing policy, not observed official circular use.",
+          "Uniform whole-source placement: translate(15 15.426829268292683) scale(0.8536585365853658), i.e. original 82x81 viewport fitted to 70x69.14634146341463 centered in circle. The approximately 70% emblem/field scale follows observed official app context rather than arbitrary extra margin.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 7079 to 4470 bytes. It consolidated original transforms into path coordinates, merged compatible paths, shortened #222222 to #222 and #FFFFFF to #fff, and rounded outer placement to translate(15 15.4268) scale(.85366). Selected optimized output hash 379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d after actual independent theme comparison. No recoloring or per-part placement."
+        ],
+        "variant": "Original flat dark-gray (#222222, equivalently #222) open-ring-and-detached-dot emblem on a #FFFFFF circular catalog backing, transparent outside the circle. Official flat Apple product artwork supports dark-emblem/white-field context; no official circular avatar was observed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Pinned first addition: no icon.svg exists at the frozen base. The new real emblem is visible on both actual final-only frames; there is no invented blank/base comparison or claimed improvement over a previous logo."
+      },
+      "candidateIconHash": "379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d",
+      "checkedAt": "2026-10-21T23:48:39.064852Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "3171f838eaf34931a3ebdcd06fe9d3a479f25e3d",
+        "bodySha256": "809d0225248b39cddc4ce6bfea4fbfe4c4d771d3d1d8b8032190a0ea2dd3f887",
+        "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
+        "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
+        "number": 160,
+        "observedAt": "2026-10-21T23:57:54.864109Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ZEN.COM (Company.id 16204)",
+        "url": "https://github.com/zenmoney/banks/pull/160"
+      },
+      "reason": "Original official documentation SVG retrieved for first addition. Complete standalone emblem supported by current official documentation and app listing. Raw transparent dark emblem fails dark-theme contrast; prepare a source-backed white circular catalog field without recoloring or altering emblem geometry. Final checks remain required. Preserve null country and absent baseline.",
+      "reviewPackage": {
+        "path": "evidence/16204/candidate-7ffd43ab226f3e3732974a5ff579e8f905e82a65c87c22f7380601b6425702c0.json",
+        "sha256": "7ffd43ab226f3e3732974a5ff579e8f905e82a65c87c22f7380601b6425702c0"
+      },
+      "sourceCandidate": {
+        "iconHash": "6a0338a63d6a108e3a7b5f6be112fe3206efcfe08cb66d413e9a81790fe01d59",
+        "path": "evidence/16204/research-566dbf94fbaf4701a4720c293b9de664/fetch-f4354ecb6ffe4215a76d63a091ce0d11/attempt-1/body.bin",
+        "rationale": "First original-vector standalone mark for existing ZEN.COM record; official SVG geometry with source-supported white-field catalog presentation to address dark contrast. No baseline verification claimed.",
+        "retrieval": {
+          "path": "evidence/16204/research-566dbf94fbaf4701a4720c293b9de664/fetch-f4354ecb6ffe4215a76d63a091ce0d11/receipt.json",
+          "sha256": "0352f9c370156e250ecd7f1fb810d5c9b571915a8b530c3df8d8ec449f59cf55"
+        },
+        "sourceAssetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg",
+        "sourceMaterial": {
+          "path": "evidence/16204/source-material-587bacfda78b4465ab1c51d67a97053d/material.json",
+          "sha256": "b9cea7c3302287202024dffc14416dc7a376ceacca2f310f784a06afa5c6d06d"
+        },
+        "sourceUrl": "https://docs.zen.com/payments/plugins/about-woocommerce"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg",
+          "checkedAt": "2026-10-21T23:44:23.410608Z",
+          "independenceGroup": "zen-official",
+          "kind": "official",
+          "observation": "Retrieved HTML links the exact original SVG as favicon and a current ZEN.COM header-logo PNG. It is an official general payments/plugin documentation page on the metadata brand's domain.",
+          "url": "https://docs.zen.com/payments/plugins/about-woocommerce"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-21T23:43:16.575264Z",
+          "independenceGroup": "zen-published-plugin-on-wordpress",
+          "kind": "official",
+          "observation": "ZEN.COM Payments by uabzencom, version 2.10.1, dateModified 2026-10-07; links docs.zen.com integration documentation and exact downloadable bundle. Publisher claims are first-party, not independent brand confirmation merely because WordPress hosts them.",
+          "url": "https://wordpress.org/plugins/zen-com-payments/"
+        },
+        {
+          "assetUrl": "https://downloads.wordpress.org/plugin/zen-com-payments.2.10.1.zip",
+          "checkedAt": "2026-10-21T23:43:25.432478Z",
+          "independenceGroup": "zen-published-plugin-on-wordpress",
+          "kind": "official",
+          "observation": "Preserved original bundle. Plugin header names Author ZEN.COM, Author URI https://zen.com and official docs URL. Selected zen-loader.svg is a thin spinner with a bottom dot, not the thick bank emblem; rejected. This source route led to the accessible official docs, not to a usable loader candidate.",
+          "url": "https://downloads.wordpress.org/plugin/zen-com-payments.2.10.1.zip"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-21T23:41:33.289550Z",
+          "independenceGroup": "zen-published-app-on-apple",
+          "kind": "official",
+          "observation": "Live Finance application ZEN.COM: Multicurrency Account, author UAB ZEN.COM. Page links zen.com, describes multicurrency account/card/wallet, contains 2026 version history, and supplies the artwork URLs fetched separately. App description and images are first-party publisher content hosted by Apple.",
+          "url": "https://apps.apple.com/us/app/zen-com-mobile-wallet/id1505547865"
+        },
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/ed/47/78ed47a0-0768-7c83-5e25-8a2f07ee89ae/Placeholder.mill/400x400Icon.ApSiOS01-75.webp",
+          "checkedAt": "2026-10-21T23:41:57.436560Z",
+          "independenceGroup": "zen-published-app-on-apple",
+          "kind": "official",
+          "observation": "Actual model image input: white rounded-square icon with a dimensional dark open-ring emblem, enlarged right terminal, small detached dot and shadows. The whole emblem and dot fit. This is not an original-vector source and its shading was not recreated.",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/78/ed/47/78ed47a0-0768-7c83-5e25-8a2f07ee89ae/Placeholder.mill/400x400Icon.ApSiOS01-75.webp"
+        },
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/b1/0e/41b10eba-46e8-f18a-a133-62749754f3c6/AppIcon-PRODUCTION-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png",
+          "checkedAt": "2026-10-21T23:45:37.736548Z",
+          "independenceGroup": "zen-published-app-on-apple",
+          "kind": "official",
+          "observation": "Actual model image input: flat black open-ring-and-dot emblem centered inside a white rounded-square app field on a light-gray social canvas. Matching topology supports the standalone role and white-field presentation; source #222222 differs from this raster's black and was not recolored.",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/b1/0e/41b10eba-46e8-f18a-a133-62749754f3c6/AppIcon-PRODUCTION-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png"
+        },
+        {
+          "assetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20250428/3679e36a-71f4-4b63-acbd-fdd1fde219ff.png",
+          "checkedAt": "2026-10-21T23:45:19.468411Z",
+          "independenceGroup": "zen-official",
+          "kind": "official",
+          "observation": "Actual model image input after transparent PNG compositing on white: black ring-and-dot emblem beside ZEN.COM wordmark. This header lockup is context only, not the final icon.",
+          "url": "https://assets.apidog.com/app/apidoc-image/custom/20250428/3679e36a-71f4-4b63-acbd-fdd1fde219ff.png"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-21T23:40:05.149212Z",
+          "independenceGroup": "bimi-explorer",
+          "kind": "third-party",
+          "observation": "Identifies https://www.zen.com/bimi/uab_zen_com_1324381871.svg but embeds that remote URL rather than caching vector bytes. Its circular/rounded masks are generic index demonstrations, not official avatar evidence. Did not retry the previously blocked BIMI request.",
+          "url": "https://bimi-explorer.svg.zone/bimi/zen.com/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "af187e5c0d95e368ae5f0249532023e780efca4f849c9e29700b802d6b752b6f",
+      "verification": {
+        "checkedAt": "2026-10-21T23:52:57.733374Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d",
+        "xmlSha256": "c0e887ab75d5ed9fa383ef85408e42d2565e45eeacf725fff25dcb66afbf2831"
+      }
+    }
+  ],
   "schemaVersion": 1,
   "taskResults": [
     {
+      "history": [
+        {
+          "key": "af187e5c0d95e368ae5f0249532023e780efca4f849c9e29700b802d6b752b6f",
+          "outcome": "unconfirmed",
+          "processedAt": "2026-10-21T23:28:53.648936Z",
+          "reason": "First addition remains unconfirmed: no usable original standalone vector was downloaded. Official homepage, newsroom, brand kit, support, developer PDF and exact discovered BIMI SVG returned HTTP 403; Brandfetch also returned HTTP 403. The official Notion merchant guide yielded only a JavaScript shell. Headless Chromium failed the required sandbox status check and was closed without external navigation. An accessible independent BIMI listing established a concrete official vector URL but embeds that same inaccessible file remotely. No logo image was available for full model input, source-quality assessment or a supported candidate. Preserve icon absence and countryCode null; no tracing, metadata change, successor substitution or asset MR.",
+          "review": null,
+          "sourceMR": null,
+          "task": "add-missing"
+        }
+      ],
       "key": "af187e5c0d95e368ae5f0249532023e780efca4f849c9e29700b802d6b752b6f",
-      "outcome": "unconfirmed",
-      "processedAt": "2026-10-21T23:28:53.648936Z",
-      "reason": "First addition remains unconfirmed: no usable original standalone vector was downloaded. Official homepage, newsroom, brand kit, support, developer PDF and exact discovered BIMI SVG returned HTTP 403; Brandfetch also returned HTTP 403. The official Notion merchant guide yielded only a JavaScript shell. Headless Chromium failed the required sandbox status check and was closed without external navigation. An accessible independent BIMI listing established a concrete official vector URL but embeds that same inaccessible file remotely. No logo image was available for full model input, source-quality assessment or a supported candidate. Preserve icon absence and countryCode null; no tracing, metadata change, successor substitution or asset MR.",
+      "outcome": "published",
+      "processedAt": "2026-10-21T23:48:39.064852Z",
+      "publication": {
+        "candidateIconHash": "379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d",
+        "mr": {
+          "base": "main",
+          "baseCommit": "3171f838eaf34931a3ebdcd06fe9d3a479f25e3d",
+          "bodySha256": "809d0225248b39cddc4ce6bfea4fbfe4c4d771d3d1d8b8032190a0ea2dd3f887",
+          "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
+          "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
+          "number": 160,
+          "observedAt": "2026-10-21T23:57:54.864109Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ZEN.COM (Company.id 16204)",
+          "url": "https://github.com/zenmoney/banks/pull/160"
+        }
+      },
+      "reason": "Original official documentation SVG retrieved for first addition. Complete standalone emblem supported by current official documentation and app listing. Raw transparent dark emblem fails dark-theme contrast; prepare a source-backed white circular catalog field without recoloring or altering emblem geometry. Final checks remain required. Preserve null country and absent baseline.",
       "review": null,
       "sourceMR": null,
       "task": "add-missing"
