@@ -64,6 +64,25 @@ adb -s "$EMULATOR_SERIAL" shell am start -n catalog.android/.NativeCatalogActivi
 
 The same `-PcatalogBanks=/absolute/path/to/banks`, `-PcatalogId=3`, and `-PcatalogCandidate=/absolute/path/to/final.svg` options can be passed to the build command. A button in Compose opens the native catalog; the native detail view displays the same XML through the platform `ImageView`, not the Compose renderer. Synchronization copies the exact XML bytes only into `:androidApp`'s own generated output, removing stale copies; AAPT then compiles them. APK contents must be correlated with the exact `manifest.json` and hashes from the corresponding build.
 
+## Bank metadata
+
+The source directory is `banks/<title>_<Company.id>-<country>/`, with integer `id`,
+`title`, `fullTitle`, `countryCode`, and `url` in `info.json`. Nullable fields stay
+null; a null country uses the folder suffix `unknown`. Check IDs across **all**
+metadata records before adding a bank, including records without `icon.svg`.
+Metadata-only banks are valid but are not displayed in the icon catalog. Do not
+create placeholder icons or overwrite an existing record during an additive import.
+
+On 2026-10-22, a read-only export of the live Pixel application's `company` table
+(captured at `2026-10-21T23:03:02.608211Z`) supplied two new records:
+TBC Bank (`16203`, `UZ`, `tbcbank.uz`) and ZEN.COM (`16204`, null country, `zen.com`).
+The source `www` field maps to `url`; all five metadata values were preserved.
+Neither bank had an icon in the app checkout or the installed APK `26.9b1` (`1107`),
+so both were added without `icon.svg`. The old record `4809`, titled
+`ХОУМ-БАНК (удалён)` and already present in the September app snapshot, was outside
+this new-bank import. Its original absence from this repository is unexplained;
+the title is not a deletion flag.
+
 ## Conversion and resource contract
 
 `:catalog:generateCatalogResources` invokes the JVM CLI `catalog.generator.MainKt`:
