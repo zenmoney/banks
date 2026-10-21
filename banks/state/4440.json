@@ -3,6 +3,8 @@
   "lastAttemptResult": "candidate",
   "proposals": [
     {
+      "acceptedHeadCommit": "687d4e3b5f4491b84dc7dee35f09f873a9a341c8",
+      "acceptedIconHash": "b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782",
       "agentAssessment": {
         "path": "evidence/4440/assessed-00e5b253f6aa13a5c0318360dc73451fcbd917ccd525012024add4c2b545a688.json",
         "sha256": "00e5b253f6aa13a5c0318360dc73451fcbd917ccd525012024add4c2b545a688"
@@ -51,15 +53,54 @@
       "candidateIconHash": "b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782",
       "checkedAt": "2026-10-02T14:59:06.864566Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "687d4e3b5f4491b84dc7dee35f09f873a9a341c8",
+        "mergeCommit": "27acb7a377d2d4a612e11341af86a0104c009e54",
+        "mergedAt": "2026-10-21T22:19:12Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "730d4e848f4dd1f24258c6135820f023ff25aacf69a2b32ac255998ee4c0bd3d",
+        "closedAt": "2026-10-21T22:19:12Z",
         "head": "bank-icon-maintenance/ydjutdy8-4440",
         "headCommit": "687d4e3b5f4491b84dc7dee35f09f873a9a341c8",
+        "mergeCommit": "27acb7a377d2d4a612e11341af86a0104c009e54",
+        "mergedAt": "2026-10-21T22:19:12Z",
         "number": 25,
-        "observedAt": "2026-10-02T15:10:05.693915Z",
-        "state": "open",
+        "observedAt": "2026-10-21T22:19:12Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ТАТСОЦБАНК (Company.id 4440)",
+        "url": "https://github.com/zenmoney/banks/pull/25"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "730d4e848f4dd1f24258c6135820f023ff25aacf69a2b32ac255998ee4c0bd3d",
+          "head": "bank-icon-maintenance/ydjutdy8-4440",
+          "headCommit": "687d4e3b5f4491b84dc7dee35f09f873a9a341c8",
+          "number": 25,
+          "observedAt": "2026-10-02T15:10:05.693915Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ТАТСОЦБАНК (Company.id 4440)",
+          "url": "https://github.com/zenmoney/banks/pull/25"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "730d4e848f4dd1f24258c6135820f023ff25aacf69a2b32ac255998ee4c0bd3d",
+        "closedAt": "2026-10-21T22:19:12Z",
+        "head": "bank-icon-maintenance/ydjutdy8-4440",
+        "headCommit": "687d4e3b5f4491b84dc7dee35f09f873a9a341c8",
+        "mergeCommit": "27acb7a377d2d4a612e11341af86a0104c009e54",
+        "mergedAt": "2026-10-21T22:19:12Z",
+        "number": 25,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ТАТСОЦБАНК (Company.id 4440)",
         "url": "https://github.com/zenmoney/banks/pull/25"
@@ -102,7 +143,7 @@
           "url": "https://finuslugi.ru/banki/tatsocbank"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T15:04:31.921853Z",
         "compose": "1.12.0",
