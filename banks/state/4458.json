@@ -3,6 +3,8 @@
   "lastAttemptResult": "candidate",
   "proposals": [
     {
+      "acceptedHeadCommit": "4f06b0e9da99c41e04bdea171b6d71bb095bf217",
+      "acceptedIconHash": "2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0",
       "agentAssessment": {
         "path": "evidence/4458/assessed-2f3705419735c5774ed9986b51cb63d2be38c0c1d7b61d95bd0a2b0052a7ee75.json",
         "sha256": "2f3705419735c5774ed9986b51cb63d2be38c0c1d7b61d95bd0a2b0052a7ee75"
@@ -54,15 +56,54 @@
       "candidateIconHash": "2dbe606c2cbdd58c8d7bc97c8bfe2ec9ed1879776d562773a2553f6670dd88a0",
       "checkedAt": "2026-10-02T16:26:56.536795Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "4f06b0e9da99c41e04bdea171b6d71bb095bf217",
+        "mergeCommit": "c0e961dd9a6c0a10aa0f1588446774dd9fb790a5",
+        "mergedAt": "2026-10-21T22:18:16Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "9f17b7fccf30e38beed8762a70c484a800f1db09af8b4d84d97fa5e5e51cf553",
+        "closedAt": "2026-10-21T22:18:16Z",
         "head": "bank-icon-maintenance/4458",
         "headCommit": "4f06b0e9da99c41e04bdea171b6d71bb095bf217",
+        "mergeCommit": "c0e961dd9a6c0a10aa0f1588446774dd9fb790a5",
+        "mergedAt": "2026-10-21T22:18:16Z",
         "number": 27,
-        "observedAt": "2026-10-02T16:35:27.242473Z",
-        "state": "open",
+        "observedAt": "2026-10-21T22:18:16Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Банк \"Советский\" (Company.id 4458)",
+        "url": "https://github.com/zenmoney/banks/pull/27"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "9f17b7fccf30e38beed8762a70c484a800f1db09af8b4d84d97fa5e5e51cf553",
+          "head": "bank-icon-maintenance/4458",
+          "headCommit": "4f06b0e9da99c41e04bdea171b6d71bb095bf217",
+          "number": 27,
+          "observedAt": "2026-10-02T16:35:27.242473Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Банк \"Советский\" (Company.id 4458)",
+          "url": "https://github.com/zenmoney/banks/pull/27"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "9f17b7fccf30e38beed8762a70c484a800f1db09af8b4d84d97fa5e5e51cf553",
+        "closedAt": "2026-10-21T22:18:16Z",
+        "head": "bank-icon-maintenance/4458",
+        "headCommit": "4f06b0e9da99c41e04bdea171b6d71bb095bf217",
+        "mergeCommit": "c0e961dd9a6c0a10aa0f1588446774dd9fb790a5",
+        "mergedAt": "2026-10-21T22:18:16Z",
+        "number": 27,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Банк \"Советский\" (Company.id 4458)",
         "url": "https://github.com/zenmoney/banks/pull/27"
@@ -113,7 +154,7 @@
           "url": "http://sovbank.ru"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-02T16:29:41.442717Z",
         "compose": "1.12.0",
