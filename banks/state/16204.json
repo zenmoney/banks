@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-21T23:28:53.648936Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "af187e5c0d95e368ae5f0249532023e780efca4f849c9e29700b802d6b752b6f",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-21T23:28:53.648936Z",
+      "reason": "First addition remains unconfirmed: no usable original standalone vector was downloaded. Official homepage, newsroom, brand kit, support, developer PDF and exact discovered BIMI SVG returned HTTP 403; Brandfetch also returned HTTP 403. The official Notion merchant guide yielded only a JavaScript shell. Headless Chromium failed the required sandbox status check and was closed without external navigation. An accessible independent BIMI listing established a concrete official vector URL but embeds that same inaccessible file remotely. No logo image was available for full model input, source-quality assessment or a supported candidate. Preserve icon absence and countryCode null; no tracing, metadata change, successor substitution or asset MR.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
