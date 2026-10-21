@@ -60,13 +60,90 @@
         "head": "bank-icon-maintenance/15866",
         "headCommit": "2d7965d0595933120a09e4c080cd902315610f91",
         "number": 111,
-        "observedAt": "2026-10-04T10:27:32.474369Z",
-        "state": "open",
+        "observedAt": "2026-10-21T22:36:17.688316Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: CIB Bank (Company.id 15866)",
         "url": "https://github.com/zenmoney/banks/pull/111"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "803c7b8fcbb164c1119b8215c85b4209e0846e189cf50c4fba8f2fad3015bbd1",
+          "head": "bank-icon-maintenance/15866",
+          "headCommit": "2d7965d0595933120a09e4c080cd902315610f91",
+          "number": 111,
+          "observedAt": "2026-10-04T10:27:32.474369Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: CIB Bank (Company.id 15866)",
+          "url": "https://github.com/zenmoney/banks/pull/111"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "803c7b8fcbb164c1119b8215c85b4209e0846e189cf50c4fba8f2fad3015bbd1",
+        "closedAt": "2026-10-21T22:34:30Z",
+        "head": "bank-icon-maintenance/15866",
+        "headCommit": "2d7965d0595933120a09e4c080cd902315610f91",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 111,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: CIB Bank (Company.id 15866)",
+        "url": "https://github.com/zenmoney/banks/pull/111"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-21T22:36:17.688316Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "803c7b8fcbb164c1119b8215c85b4209e0846e189cf50c4fba8f2fad3015bbd1",
+          "closedAt": "2026-10-21T22:34:30Z",
+          "head": "bank-icon-maintenance/15866",
+          "headCommit": "2d7965d0595933120a09e4c080cd902315610f91",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 111,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: CIB Bank (Company.id 15866)",
+          "url": "https://github.com/zenmoney/banks/pull/111"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "e6fecc4cda89424af3062ca6e66f27de2950ddd6"
+      },
       "reason": "Accepted icon.svg is an approximate redraw of the current (post-2021) CIB emblem; an official original vector of the same current symbol is served by cib.hu's Cloudinary asset (CIB_Color.svg, 12 paths, viewBox 728x178; standalone emblem = leading paths in 0 0 116.14 116.14). Evidenced geometry correction.",
+      "rejectionReason": {
+        "action": "keep-current",
+        "candidateIconHash": "975608d9585b1c5fcf0ba9d58222d54e4f000471185ba0643cf2a577d6b3ab80",
+        "category": "not-now",
+        "comment": {
+          "author": "pereperchili",
+          "body": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше. ",
+          "createdAt": "2026-10-15T01:12:55Z",
+          "kind": "review",
+          "updatedAt": "2026-10-15T01:12:55Z",
+          "url": "https://github.com/zenmoney/banks/pull/111#pullrequestreview-5526807891"
+        },
+        "explanation": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше.",
+        "mr": {
+          "number": 111,
+          "url": "https://github.com/zenmoney/banks/pull/111"
+        },
+        "rationale": "Retain the existing catalog icon as explicitly requested. The reviewer reports poorer dark-theme blue-arch contrast in the proposal, prefers the previous version and found no supporting change evidence. No replacement research, candidate or fresh verification date is warranted by this decision.",
+        "requirements": [
+          {
+            "quote": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше.",
+            "url": "https://github.com/zenmoney/banks/pull/111#pullrequestreview-5526807891"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15866/candidate-7114614c7428cf2023a7b857ebaf47b33693c01c61d0bd5fd2f9e31ead1d03d2.json",
         "sha256": "7114614c7428cf2023a7b857ebaf47b33693c01c61d0bd5fd2f9e31ead1d03d2"
@@ -100,7 +177,7 @@
           "url": "https://hu.wikipedia.org/wiki/CIB_Bank"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "verification": {
         "checkedAt": "2026-10-04T10:14:59.083282Z",
         "compose": "1.12.0",
@@ -236,6 +313,64 @@
         "url": "https://github.com/zenmoney/banks/pull/111"
       },
       "task": "rework-changes"
+    },
+    {
+      "key": "cc2c16ef4f080e32b9bdfeb5fcfe209bff5c0518623bb63fbdfc20165c5d6995",
+      "outcome": "keep-current",
+      "processedAt": "2026-10-21T22:36:40.737811Z",
+      "reason": "Retain the existing catalog icon as explicitly requested. The reviewer reports poorer dark-theme blue-arch contrast in the proposal, prefers the previous version and found no supporting change evidence. No replacement research, candidate or fresh verification date is warranted by this decision.",
+      "review": {
+        "action": "keep-current",
+        "assessedAt": "2026-10-21T22:36:40.737811Z",
+        "key": "cc2c16ef4f080e32b9bdfeb5fcfe209bff5c0518623bb63fbdfc20165c5d6995",
+        "rationale": "Retain the existing catalog icon as explicitly requested. The reviewer reports poorer dark-theme blue-arch contrast in the proposal, prefers the previous version and found no supporting change evidence. No replacement research, candidate or fresh verification date is warranted by this decision.",
+        "requirements": [
+          {
+            "quote": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше.",
+            "url": "https://github.com/zenmoney/banks/pull/111#pullrequestreview-5526807891"
+          }
+        ],
+        "selectedUrl": null,
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "body": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше. ",
+            "bodySha256": "d4d83dacb8135e7d97b0d4e48a277fee3b35891573914d3b5d5aad134d84d89c",
+            "createdAt": "2026-10-15T01:12:55Z",
+            "editor": {
+              "__typename": "User",
+              "login": "pereperchili"
+            },
+            "kind": "review",
+            "lastEditedAt": null,
+            "nodeId": "PRR_kwDOU2-MbM8AAAABSWxlUw",
+            "text": "Тёмная тема: в новой версии синяя арка темнее и почти пропадает на тёмном фоне, в \"старой\" читалась нормально. Разница визуально тоже лучше, а подтверждений смены в темную сторону не нашла, оставляем предыдущий вариант, он лучше.",
+            "textSha256": "dda1ef74b8e5b99bc5163e2269d1b83f34c10206505a5aa6c4d6b0962e95922c",
+            "trust": {
+              "login": "pereperchili",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/111#pullrequestreview-5526807891"
+          }
+        ]
+      },
+      "sourceMR": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "803c7b8fcbb164c1119b8215c85b4209e0846e189cf50c4fba8f2fad3015bbd1",
+        "head": "bank-icon-maintenance/15866",
+        "headCommit": "2d7965d0595933120a09e4c080cd902315610f91",
+        "number": 111,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: CIB Bank (Company.id 15866)",
+        "url": "https://github.com/zenmoney/banks/pull/111"
+      },
+      "task": "rework-rejected"
     }
   ]
 }
