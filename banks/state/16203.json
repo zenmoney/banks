@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-21T23:22:34.470419Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "9231731f1740ffef4ea7e9e080eb982332e72cdd9c6b9dbd151c2544e317b4f3",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-21T23:22:34.470419Z",
+      "reason": "No usable original vector could be obtained through supported retrieval/extraction. The official Uzbekistan site is active and publishes a standalone three-part TBC mark, but its inline vector uses inherited currentColor; source-material listing and explicit svg-index 0 selection both stopped with 'source decoder failed or exceeded resource limits'. The official touch icon is raster-only and cannot be traced. Seeklogo's SVG listing exposed only a POST download form and browser access stopped at Cloudflare security verification. Brandfetch retrieval returned HTTP 403. The designer case study uses raster slides; Logobank exposes PDF/AI containers, not a directly supported SVG. Preserve the absent icon rather than fabricate a candidate.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
