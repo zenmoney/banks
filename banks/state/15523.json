@@ -3,6 +3,8 @@
   "lastAttemptResult": "candidate",
   "proposals": [
     {
+      "acceptedHeadCommit": "e1f0c5b3520d27c203723b78d826eb19a6fb375a",
+      "acceptedIconHash": "47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5",
       "agentAssessment": {
         "path": "evidence/15523/assessed-c82bb8fca597e0cc2e75f332032665e9fa36c45dc263ee610bb9acbfca1467b3.json",
         "sha256": "c82bb8fca597e0cc2e75f332032665e9fa36c45dc263ee610bb9acbfca1467b3"
@@ -52,15 +54,54 @@
       "candidateIconHash": "47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5",
       "checkedAt": "2026-10-03T14:30:54.802301Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "e1f0c5b3520d27c203723b78d826eb19a6fb375a",
+        "mergeCommit": "3551d073f4e30846972aeed5893cb32a98e88c0a",
+        "mergedAt": "2026-10-21T22:17:18Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
         "bodySha256": "f792e5225f90779b9cf6a64f683cdb8ce3ce8394f230a1c4a7a420df80829c7c",
+        "closedAt": "2026-10-21T22:17:18Z",
         "head": "bank-icon-maintenance/15523",
         "headCommit": "e1f0c5b3520d27c203723b78d826eb19a6fb375a",
+        "mergeCommit": "3551d073f4e30846972aeed5893cb32a98e88c0a",
+        "mergedAt": "2026-10-21T22:17:18Z",
         "number": 60,
-        "observedAt": "2026-10-03T14:40:59.116472Z",
-        "state": "open",
+        "observedAt": "2026-10-21T22:17:18Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Модульбанк (Company.id 15523)",
+        "url": "https://github.com/zenmoney/banks/pull/60"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+          "bodySha256": "f792e5225f90779b9cf6a64f683cdb8ce3ce8394f230a1c4a7a420df80829c7c",
+          "head": "bank-icon-maintenance/15523",
+          "headCommit": "e1f0c5b3520d27c203723b78d826eb19a6fb375a",
+          "number": 60,
+          "observedAt": "2026-10-03T14:40:59.116472Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Модульбанк (Company.id 15523)",
+          "url": "https://github.com/zenmoney/banks/pull/60"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "fe29fbc1291b8842ed201261408a3bc690875b55",
+        "bodySha256": "f792e5225f90779b9cf6a64f683cdb8ce3ce8394f230a1c4a7a420df80829c7c",
+        "closedAt": "2026-10-21T22:17:18Z",
+        "head": "bank-icon-maintenance/15523",
+        "headCommit": "e1f0c5b3520d27c203723b78d826eb19a6fb375a",
+        "mergeCommit": "3551d073f4e30846972aeed5893cb32a98e88c0a",
+        "mergedAt": "2026-10-21T22:17:18Z",
+        "number": 60,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Модульбанк (Company.id 15523)",
         "url": "https://github.com/zenmoney/banks/pull/60"
@@ -99,7 +140,7 @@
           "url": "https://pay.modulbank.ru/static/favicon/safari-pinned-tab.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "verification": {
         "checkedAt": "2026-10-03T14:34:25.074848Z",
         "compose": "1.12.0",
