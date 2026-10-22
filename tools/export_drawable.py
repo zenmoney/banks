@@ -74,7 +74,7 @@ def normalize_svg(source: Path) -> bytes:
         root.setAttribute("width", "54")
         root.setAttribute("height", "54")
         root.setAttribute("preserveAspectRatio", "xMidYMid meet")
-        return document.toxml(encoding="utf-8")
+        return "".join(node.toxml() for node in document.childNodes).encode("utf-8")
 
 
 def collect_icons(banks: Path) -> tuple[list[tuple[int, Path]], int]:
