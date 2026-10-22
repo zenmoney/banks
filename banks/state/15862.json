@@ -340,6 +340,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "5378cf1f57308b358eeb1a72330e650b1123b210",
+      "acceptedIconHash": "12febce20182f744fef3cac9211bde08dd907f5ad443cfb4b2df97d61cffd3d9",
       "agentAssessment": {
         "path": "evidence/15862/assessed-71d3c73f971273a0f45be2baff77a397f8d828d67c496013cabaccad111eca8d.json",
         "sha256": "71d3c73f971273a0f45be2baff77a397f8d828d67c496013cabaccad111eca8d"
@@ -388,15 +390,54 @@
       "candidateIconHash": "12febce20182f744fef3cac9211bde08dd907f5ad443cfb4b2df97d61cffd3d9",
       "checkedAt": "2026-10-21T22:45:37.536524Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "5378cf1f57308b358eeb1a72330e650b1123b210",
+        "mergeCommit": "55d15c3014aff55895f0ebc333001478768bd675",
+        "mergedAt": "2026-10-22T18:03:42Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "3d649031b4f881938bc659cbc656672d2565b4b0",
         "bodySha256": "6838c5857181f3bf8e94b176ea1b87fbf8b5b2ae237164ba40530c724ff6238f",
+        "closedAt": "2026-10-22T18:03:42Z",
         "head": "bank-icon-maintenance/task-540925b5ec9f-15862",
         "headCommit": "5378cf1f57308b358eeb1a72330e650b1123b210",
+        "mergeCommit": "55d15c3014aff55895f0ebc333001478768bd675",
+        "mergedAt": "2026-10-22T18:03:42Z",
         "number": 158,
-        "observedAt": "2026-10-21T22:50:32.134606Z",
-        "state": "open",
+        "observedAt": "2026-10-22T18:03:42Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Stripe (Company.id 15862)",
+        "url": "https://github.com/zenmoney/banks/pull/158"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "3d649031b4f881938bc659cbc656672d2565b4b0",
+          "bodySha256": "6838c5857181f3bf8e94b176ea1b87fbf8b5b2ae237164ba40530c724ff6238f",
+          "head": "bank-icon-maintenance/task-540925b5ec9f-15862",
+          "headCommit": "5378cf1f57308b358eeb1a72330e650b1123b210",
+          "number": 158,
+          "observedAt": "2026-10-21T22:50:32.134606Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Stripe (Company.id 15862)",
+          "url": "https://github.com/zenmoney/banks/pull/158"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "3d649031b4f881938bc659cbc656672d2565b4b0",
+        "bodySha256": "6838c5857181f3bf8e94b176ea1b87fbf8b5b2ae237164ba40530c724ff6238f",
+        "closedAt": "2026-10-22T18:03:42Z",
+        "head": "bank-icon-maintenance/task-540925b5ec9f-15862",
+        "headCommit": "5378cf1f57308b358eeb1a72330e650b1123b210",
+        "mergeCommit": "55d15c3014aff55895f0ebc333001478768bd675",
+        "mergedAt": "2026-10-22T18:03:42Z",
+        "number": 158,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Stripe (Company.id 15862)",
         "url": "https://github.com/zenmoney/banks/pull/158"
@@ -471,7 +512,7 @@
           "url": "https://github.com/zenmoney/banks/pull/110#issuecomment-6212988347"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "supersedesMR": "https://github.com/zenmoney/banks/pull/110",
       "taskKey": "540925b5ec9f04bfd4e3e7c28c6702e46dad4a54a93ce063a16f7238e4e65b95",
       "taskResponse": [
