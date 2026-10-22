@@ -324,6 +324,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "08f3e08e0d4a73ffa8b6d4f1979eeec3095afff7",
+      "acceptedIconHash": "1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b",
       "agentAssessment": {
         "path": "evidence/4475/assessed-fa319c70046114b527aeac71a9fcede89835855ca7f16cc1a46e1c9103471e37.json",
         "sha256": "fa319c70046114b527aeac71a9fcede89835855ca7f16cc1a46e1c9103471e37"
@@ -372,15 +374,54 @@
       "candidateIconHash": "1164f98e1e79addb2f2a1e7a2ad7f0de5e977746ec496c1b1015211be9e16c5b",
       "checkedAt": "2026-10-16T21:12:29.963582Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "08f3e08e0d4a73ffa8b6d4f1979eeec3095afff7",
+        "mergeCommit": "0702634dc0239d2c5ebc6557b8e9ddb516950dff",
+        "mergedAt": "2026-10-22T18:07:47Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
         "bodySha256": "b02f519d9179e27667c2e78259c29d9c7cfe861a3bc7845cec4effcdbe98bf24",
+        "closedAt": "2026-10-22T18:07:48Z",
         "head": "bank-icon-maintenance/technical-20261016-4475",
         "headCommit": "08f3e08e0d4a73ffa8b6d4f1979eeec3095afff7",
+        "mergeCommit": "0702634dc0239d2c5ebc6557b8e9ddb516950dff",
+        "mergedAt": "2026-10-22T18:07:47Z",
         "number": 153,
-        "observedAt": "2026-10-16T21:28:46.987818Z",
-        "state": "open",
+        "observedAt": "2026-10-22T18:07:47Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Датабанк (Company.id 4475)",
+        "url": "https://github.com/zenmoney/banks/pull/153"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "b02f519d9179e27667c2e78259c29d9c7cfe861a3bc7845cec4effcdbe98bf24",
+          "head": "bank-icon-maintenance/technical-20261016-4475",
+          "headCommit": "08f3e08e0d4a73ffa8b6d4f1979eeec3095afff7",
+          "number": 153,
+          "observedAt": "2026-10-16T21:28:46.987818Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Датабанк (Company.id 4475)",
+          "url": "https://github.com/zenmoney/banks/pull/153"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "b02f519d9179e27667c2e78259c29d9c7cfe861a3bc7845cec4effcdbe98bf24",
+        "closedAt": "2026-10-22T18:07:48Z",
+        "head": "bank-icon-maintenance/technical-20261016-4475",
+        "headCommit": "08f3e08e0d4a73ffa8b6d4f1979eeec3095afff7",
+        "mergeCommit": "0702634dc0239d2c5ebc6557b8e9ddb516950dff",
+        "mergedAt": "2026-10-22T18:07:47Z",
+        "number": 153,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Датабанк (Company.id 4475)",
         "url": "https://github.com/zenmoney/banks/pull/153"
@@ -427,7 +468,7 @@
           "url": "https://databank.ru/about/rekvizity-i-obshchie-svedeniya/"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "technicalRetry": {
         "path": "evidence/4475/technical-retry-8a32b5e96fdbe3322c310550dcbe4b2f4402d5636331387c84ea153243cf5922.json",
         "sha256": "8a32b5e96fdbe3322c310550dcbe4b2f4402d5636331387c84ea153243cf5922"
