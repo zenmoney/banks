@@ -108,8 +108,9 @@ application drawable directory** or remove unrelated/fallback resources.
 Fetching updates is a separate manual operation, not a dependency of normal app
 builds.
 
-These are SVG resources, not the catalog's derived VectorDrawable XML. Every
-exported root has `width="54"`, `height="54"` and
+These are SVG resources, not the catalog's derived VectorDrawable XML. Files are
+encoded as UTF-8 without an XML declaration. Every exported root has
+`width="54"`, `height="54"` and
 `preserveAspectRatio="xMidYMid meet"`: a centered proportional fit without a new
 background, cropping or stretching. Existing `viewBox` coordinates are retained;
 when absent, they are inferred from the original width/height. The viewBox need
