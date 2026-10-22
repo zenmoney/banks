@@ -298,6 +298,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "07d8a8fb388e12727537a2de76b23cdd1605b141",
+      "acceptedIconHash": "26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f",
       "agentAssessment": {
         "path": "evidence/4399/assessed-a42acf29b817bf26a7cd7ca1c53937c489cac4545f9e4217c23ce9d37de7e625.json",
         "sha256": "a42acf29b817bf26a7cd7ca1c53937c489cac4545f9e4217c23ce9d37de7e625"
@@ -347,15 +349,54 @@
       "candidateIconHash": "26a16e390312f3be43b2f97a7312cc7f679d8213e03e07d509e2fb284051af0f",
       "checkedAt": "2026-10-16T21:21:45.437272Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "07d8a8fb388e12727537a2de76b23cdd1605b141",
+        "mergeCommit": "e162f67d6d95d5edadbc64711c60f3aeb5741dd7",
+        "mergedAt": "2026-10-22T18:05:50Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
         "bodySha256": "4549610816be312a9726ad63d2799234d369f5e1dbe1a345d9e8a5d2fcae3d56",
+        "closedAt": "2026-10-22T18:05:50Z",
         "head": "bank-icon-maintenance/technical-20261016-4399",
         "headCommit": "07d8a8fb388e12727537a2de76b23cdd1605b141",
+        "mergeCommit": "e162f67d6d95d5edadbc64711c60f3aeb5741dd7",
+        "mergedAt": "2026-10-22T18:05:50Z",
         "number": 156,
-        "observedAt": "2026-10-16T21:37:29.168491Z",
-        "state": "open",
+        "observedAt": "2026-10-22T18:05:50Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+        "url": "https://github.com/zenmoney/banks/pull/156"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "4549610816be312a9726ad63d2799234d369f5e1dbe1a345d9e8a5d2fcae3d56",
+          "head": "bank-icon-maintenance/technical-20261016-4399",
+          "headCommit": "07d8a8fb388e12727537a2de76b23cdd1605b141",
+          "number": 156,
+          "observedAt": "2026-10-16T21:37:29.168491Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
+          "url": "https://github.com/zenmoney/banks/pull/156"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "4549610816be312a9726ad63d2799234d369f5e1dbe1a345d9e8a5d2fcae3d56",
+        "closedAt": "2026-10-22T18:05:50Z",
+        "head": "bank-icon-maintenance/technical-20261016-4399",
+        "headCommit": "07d8a8fb388e12727537a2de76b23cdd1605b141",
+        "mergeCommit": "e162f67d6d95d5edadbc64711c60f3aeb5741dd7",
+        "mergedAt": "2026-10-22T18:05:50Z",
+        "number": 156,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Прио-Внешторгбанк (Company.id 4399)",
         "url": "https://github.com/zenmoney/banks/pull/156"
@@ -406,7 +447,7 @@
           "url": "https://vk.com/priobank"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "technicalRetry": {
         "path": "evidence/4399/technical-retry-0f9302ae58f5302c69c5c2aa3663838e9013c3ccce24669610dad209bfa4a64e.json",
         "sha256": "0f9302ae58f5302c69c5c2aa3663838e9013c3ccce24669610dad209bfa4a64e"
