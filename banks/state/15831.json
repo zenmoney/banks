@@ -334,6 +334,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "0a12ffd46bfb2a19fa809aa5f7daf3121166f491",
+      "acceptedIconHash": "b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2",
       "agentAssessment": {
         "path": "evidence/15831/assessed-a1a98458c9a2005ba01ed03d263a93a41c4f2af7d7009cad618375a64ead65fb.json",
         "sha256": "a1a98458c9a2005ba01ed03d263a93a41c4f2af7d7009cad618375a64ead65fb"
@@ -383,15 +385,54 @@
       "candidateIconHash": "b1d51302538658a3cfdc6a64b4e10f92d5eb8cd6572b3f93eef50c0552990ca2",
       "checkedAt": "2026-10-16T21:12:33.445676Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "0a12ffd46bfb2a19fa809aa5f7daf3121166f491",
+        "mergeCommit": "134ae7af498a1201112dd29f0025d2599a7cae29",
+        "mergedAt": "2026-10-22T18:06:49Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
         "bodySha256": "480160f6512900bce718277d5b14e3a068b980535d654ce98b7a57de46318aac",
+        "closedAt": "2026-10-22T18:06:49Z",
         "head": "bank-icon-maintenance/technical-20261016-15831",
         "headCommit": "0a12ffd46bfb2a19fa809aa5f7daf3121166f491",
+        "mergeCommit": "134ae7af498a1201112dd29f0025d2599a7cae29",
+        "mergedAt": "2026-10-22T18:06:49Z",
         "number": 155,
-        "observedAt": "2026-10-16T21:30:50.265859Z",
-        "state": "open",
+        "observedAt": "2026-10-22T18:06:49Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+        "url": "https://github.com/zenmoney/banks/pull/155"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "480160f6512900bce718277d5b14e3a068b980535d654ce98b7a57de46318aac",
+          "head": "bank-icon-maintenance/technical-20261016-15831",
+          "headCommit": "0a12ffd46bfb2a19fa809aa5f7daf3121166f491",
+          "number": 155,
+          "observedAt": "2026-10-16T21:30:50.265859Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
+          "url": "https://github.com/zenmoney/banks/pull/155"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "480160f6512900bce718277d5b14e3a068b980535d654ce98b7a57de46318aac",
+        "closedAt": "2026-10-22T18:06:49Z",
+        "head": "bank-icon-maintenance/technical-20261016-15831",
+        "headCommit": "0a12ffd46bfb2a19fa809aa5f7daf3121166f491",
+        "mergeCommit": "134ae7af498a1201112dd29f0025d2599a7cae29",
+        "mergedAt": "2026-10-22T18:06:49Z",
+        "number": 155,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Šiaulių bankas (Company.id 15831)",
         "url": "https://github.com/zenmoney/banks/pull/155"
@@ -454,7 +495,7 @@
           "url": "https://www.artea.lt/en/public-brandbook"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "technicalRetry": {
         "path": "evidence/15831/technical-retry-2da5757b297c27cdfcdfb5193b1a1393f742180ba52203999ac8976b08156caf.json",
         "sha256": "2da5757b297c27cdfcdfb5193b1a1393f742180ba52203999ac8976b08156caf"
