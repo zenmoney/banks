@@ -315,6 +315,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "89e75dd7bec010309bca2958a030bf7e65d695a3",
+      "acceptedIconHash": "014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2",
       "agentAssessment": {
         "path": "evidence/4441/assessed-d7035fb64f9a99ed2a5b4c8b697b0f69186ccb382fba592ff66adf9c60d7cb85.json",
         "sha256": "d7035fb64f9a99ed2a5b4c8b697b0f69186ccb382fba592ff66adf9c60d7cb85"
@@ -365,15 +367,54 @@
       "candidateIconHash": "014878446b12fd2f34bd5b9764a2510dcdcb1c993dfef691c889741937d571c2",
       "checkedAt": "2026-10-16T21:21:48.327255Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "89e75dd7bec010309bca2958a030bf7e65d695a3",
+        "mergeCommit": "9e93cf5b1755b2950562744b984e485908521f37",
+        "mergedAt": "2026-10-22T18:04:47Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
         "bodySha256": "9e9c3d3f133bb79dfd0da4fd2c2d99b20ee82ceabbdfc5c964b140dace75ab05",
+        "closedAt": "2026-10-22T18:04:47Z",
         "head": "bank-icon-maintenance/technical-20261016-4441",
         "headCommit": "89e75dd7bec010309bca2958a030bf7e65d695a3",
+        "mergeCommit": "9e93cf5b1755b2950562744b984e485908521f37",
+        "mergedAt": "2026-10-22T18:04:47Z",
         "number": 157,
-        "observedAt": "2026-10-16T21:38:32.023741Z",
-        "state": "open",
+        "observedAt": "2026-10-22T18:04:47Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+        "url": "https://github.com/zenmoney/banks/pull/157"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "9e9c3d3f133bb79dfd0da4fd2c2d99b20ee82ceabbdfc5c964b140dace75ab05",
+          "head": "bank-icon-maintenance/technical-20261016-4441",
+          "headCommit": "89e75dd7bec010309bca2958a030bf7e65d695a3",
+          "number": 157,
+          "observedAt": "2026-10-16T21:38:32.023741Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
+          "url": "https://github.com/zenmoney/banks/pull/157"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "9e9c3d3f133bb79dfd0da4fd2c2d99b20ee82ceabbdfc5c964b140dace75ab05",
+        "closedAt": "2026-10-22T18:04:47Z",
+        "head": "bank-icon-maintenance/technical-20261016-4441",
+        "headCommit": "89e75dd7bec010309bca2958a030bf7e65d695a3",
+        "mergeCommit": "9e93cf5b1755b2950562744b984e485908521f37",
+        "mergedAt": "2026-10-22T18:04:47Z",
+        "number": 157,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ЧЕЛИНДБАНК (Company.id 4441)",
         "url": "https://github.com/zenmoney/banks/pull/157"
@@ -432,7 +473,7 @@
           "url": "https://vk.com/chelindbank"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "technicalRetry": {
         "path": "evidence/4441/technical-retry-0088138c736c9ebc240bf1302625e6a8686c5533efdb23bc899031688e1db5f5.json",
         "sha256": "0088138c736c9ebc240bf1302625e6a8686c5533efdb23bc899031688e1db5f5"
