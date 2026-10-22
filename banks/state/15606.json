@@ -298,6 +298,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "260b8d12646ec5536ca617012a0027bb8f4ea403",
+      "acceptedIconHash": "5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121",
       "agentAssessment": {
         "path": "evidence/15606/assessed-8c455e7d76faea24633ac322930f8de11a518a2dd4de8bdbc3c75c41a00b0c85.json",
         "sha256": "8c455e7d76faea24633ac322930f8de11a518a2dd4de8bdbc3c75c41a00b0c85"
@@ -347,15 +349,54 @@
       "candidateIconHash": "5722d1a3b4f0fc2055e174b0bdc69d85862c1196a82719839a7f893d61841121",
       "checkedAt": "2026-10-16T21:04:35.439404Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "260b8d12646ec5536ca617012a0027bb8f4ea403",
+        "mergeCommit": "5a4abd65589d5bbae2314fdb3a4aea2787072fec",
+        "mergedAt": "2026-10-22T18:08:47Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
         "bodySha256": "1de32ffbd82b7643b27ed912d54a1303e226f961a369a5670202ef083e92baf1",
+        "closedAt": "2026-10-22T18:08:47Z",
         "head": "bank-icon-maintenance/technical-20261016-15606",
         "headCommit": "260b8d12646ec5536ca617012a0027bb8f4ea403",
+        "mergeCommit": "5a4abd65589d5bbae2314fdb3a4aea2787072fec",
+        "mergedAt": "2026-10-22T18:08:47Z",
         "number": 152,
-        "observedAt": "2026-10-16T21:21:07.968769Z",
-        "state": "open",
+        "observedAt": "2026-10-22T18:08:47Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+        "url": "https://github.com/zenmoney/banks/pull/152"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "1de32ffbd82b7643b27ed912d54a1303e226f961a369a5670202ef083e92baf1",
+          "head": "bank-icon-maintenance/technical-20261016-15606",
+          "headCommit": "260b8d12646ec5536ca617012a0027bb8f4ea403",
+          "number": 152,
+          "observedAt": "2026-10-16T21:21:07.968769Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
+          "url": "https://github.com/zenmoney/banks/pull/152"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "1de32ffbd82b7643b27ed912d54a1303e226f961a369a5670202ef083e92baf1",
+        "closedAt": "2026-10-22T18:08:47Z",
+        "head": "bank-icon-maintenance/technical-20261016-15606",
+        "headCommit": "260b8d12646ec5536ca617012a0027bb8f4ea403",
+        "mergeCommit": "5a4abd65589d5bbae2314fdb3a4aea2787072fec",
+        "mergedAt": "2026-10-22T18:08:47Z",
+        "number": 152,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: Raiffeisenbank (Company.id 15606)",
         "url": "https://github.com/zenmoney/banks/pull/152"
@@ -394,7 +435,7 @@
           "url": "https://brand.rbinternational.com/favicon.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "technicalRetry": {
         "path": "evidence/15606/technical-retry-32a6f1534713aed35be4765d382bfdb1b5024911ce660d26c7a69f9b3eda5fbb.json",
         "sha256": "32a6f1534713aed35be4765d382bfdb1b5024911ce660d26c7a69f9b3eda5fbb"
