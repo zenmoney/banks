@@ -296,6 +296,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "89f5218297d762e72cd78bc77f0c65bc93520270",
+      "acceptedIconHash": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
       "agentAssessment": {
         "path": "evidence/15692/assessed-e9dffc6ba56825954d2fc4209904f3cc0de2904a4b47cd412ac6880e2f55b3fe.json",
         "sha256": "e9dffc6ba56825954d2fc4209904f3cc0de2904a4b47cd412ac6880e2f55b3fe"
@@ -346,15 +348,54 @@
       "candidateIconHash": "8766a4211434d2c318fbfa412ea9633b385ecf1cab6119f8894019d91ed7e027",
       "checkedAt": "2026-10-16T21:01:14.662472Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "89f5218297d762e72cd78bc77f0c65bc93520270",
+        "mergeCommit": "be2f54c3d42d28300186b7413222a5cd2ec3400d",
+        "mergedAt": "2026-10-22T18:09:50Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
         "bodySha256": "ca53896d09d3b9a4da9f57310c87e0879d8edabd8140b2f1e10b5eef8d8944ef",
+        "closedAt": "2026-10-22T18:09:50Z",
         "head": "bank-icon-maintenance/technical-20261016-15692",
         "headCommit": "89f5218297d762e72cd78bc77f0c65bc93520270",
+        "mergeCommit": "be2f54c3d42d28300186b7413222a5cd2ec3400d",
+        "mergedAt": "2026-10-22T18:09:50Z",
         "number": 150,
-        "observedAt": "2026-10-16T21:10:26.809018Z",
-        "state": "open",
+        "observedAt": "2026-10-22T18:09:50Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: PayPal (Company.id 15692)",
+        "url": "https://github.com/zenmoney/banks/pull/150"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "ca53896d09d3b9a4da9f57310c87e0879d8edabd8140b2f1e10b5eef8d8944ef",
+          "head": "bank-icon-maintenance/technical-20261016-15692",
+          "headCommit": "89f5218297d762e72cd78bc77f0c65bc93520270",
+          "number": 150,
+          "observedAt": "2026-10-16T21:10:26.809018Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: PayPal (Company.id 15692)",
+          "url": "https://github.com/zenmoney/banks/pull/150"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "ca53896d09d3b9a4da9f57310c87e0879d8edabd8140b2f1e10b5eef8d8944ef",
+        "closedAt": "2026-10-22T18:09:50Z",
+        "head": "bank-icon-maintenance/technical-20261016-15692",
+        "headCommit": "89f5218297d762e72cd78bc77f0c65bc93520270",
+        "mergeCommit": "be2f54c3d42d28300186b7413222a5cd2ec3400d",
+        "mergedAt": "2026-10-22T18:09:50Z",
+        "number": 150,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: PayPal (Company.id 15692)",
         "url": "https://github.com/zenmoney/banks/pull/150"
@@ -393,7 +434,7 @@
           "url": "https://www.paypalobjects.com/marketing/web/logos/paypal-mark-color_new.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "technicalRetry": {
         "path": "evidence/15692/technical-retry-26a422605fd142029a58ac9072fb49c3548bd5f99c8eb1fb083d146da4ff2c9f.json",
         "sha256": "26a422605fd142029a58ac9072fb49c3548bd5f99c8eb1fb083d146da4ff2c9f"
