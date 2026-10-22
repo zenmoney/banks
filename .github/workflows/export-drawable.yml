@@ -1,0 +1,105 @@
+name: Export bank drawable icons
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'banks/**'
+      - 'tools/export_drawable.py'
+      - 'tools/tests/test_export_drawable.py'
+      - '.github/workflows/export-drawable.yml'
+  pull_request:
+    paths:
+      - 'banks/**'
+      - 'tools/export_drawable.py'
+      - 'tools/tests/test_export_drawable.py'
+      - '.github/workflows/export-drawable.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Validate and export SVG drawables
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out sources
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+
+      - name: Test exporter
+        run: python3 -m unittest discover -s tools/tests -p 'test_*.py'
+
+      - name: Export drawable archive
+        run: python3 tools/export_drawable.py --banks banks --output "$RUNNER_TEMP/bank-icons-export"
+
+      - name: Upload drawable archive
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: bank-icons-drawable
+          path: ${{ runner.temp }}/bank-icons-export/bank-icons-drawable.zip
+          if-no-files-found: error
+
+  publish:
+    name: Publish rolling drawable release
+    needs: build
+    if: >-
+      github.repository == 'zenmoney/banks' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      actions: read
+      contents: write
+    concurrency:
+      group: bank-icons-latest
+      cancel-in-progress: false
+    steps:
+      # No checkout or repository code runs with the write-enabled token.
+      - name: Download validated drawable archive
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: bank-icons-drawable
+          path: ${{ runner.temp }}/bank-icons-release
+
+      - name: Update rolling release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          EXPORT_SHA: ${{ github.sha }}
+          RELEASE_TAG: bank-icons-latest
+        run: |
+          set -euo pipefail
+
+          # A queued older build must not replace an export of newer main.
+          head_sha="$(gh api "repos/${GH_REPO}/git/ref/heads/main" --jq '.object.sha')"
+          if [[ "$head_sha" != "$EXPORT_SHA" ]]; then
+            echo "::notice::Skipping stale export: main no longer points to ${EXPORT_SHA}."
+            exit 0
+          fi
+
+          if gh api "repos/${GH_REPO}/git/ref/tags/${RELEASE_TAG}" --silent; then
+            gh api --method PATCH "repos/${GH_REPO}/git/refs/tags/${RELEASE_TAG}" \
+              -f sha="$EXPORT_SHA" -F force=true --silent
+          else
+            gh api --method POST "repos/${GH_REPO}/git/refs" \
+              -f ref="refs/tags/${RELEASE_TAG}" -f sha="$EXPORT_SHA" --silent
+          fi
+
+          title='Bank icons drawable (latest)'
+          notes="54x54 SVG drawable resources exported from commit ${EXPORT_SHA}. Import the drawable directory manually into zen-mobile-app."
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release edit "$RELEASE_TAG" --target "$EXPORT_SHA" \
+              --title "$title" --notes "$notes" --latest=false
+          else
+            gh release create "$RELEASE_TAG" --verify-tag --target "$EXPORT_SHA" \
+              --title "$title" --notes "$notes" --latest=false
+          fi
+
+          gh release upload "$RELEASE_TAG" \
+            "$RUNNER_TEMP/bank-icons-release/bank-icons-drawable.zip" --clobber

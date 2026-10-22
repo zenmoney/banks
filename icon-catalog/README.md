@@ -83,6 +83,70 @@ so both were added without `icon.svg`. The old record `4809`, titled
 this new-bank import. Its original absence from this repository is unexplained;
 the title is not a deletion flag.
 
+## Mobile drawable ZIP
+
+The [Export bank drawable icons workflow](../.github/workflows/export-drawable.yml)
+packages the canonical `banks/*/icon.svg` files for `zen-mobile-app`. It runs on
+relevant pull requests and pushes to `main`, or manually through **Actions →
+Export bank drawable icons → Run workflow**. Each successful build provides the
+`bank-icons-drawable` Actions artifact containing `bank-icons-drawable.zip`.
+Only a successful push/manual run for the current `main` commit publishes the
+rolling `bank-icons-latest` release, replacing its ZIP and moving its tag.
+PRs and other branches cannot publish. The release is not marked as the latest
+product release.
+
+After the first successful publication, the stable download URL is:
+
+```text
+https://github.com/zenmoney/banks/releases/download/bank-icons-latest/bank-icons-drawable.zip
+```
+
+Archive layout: `drawable/ic_bank_<companyId>_54px.svg`. IDs come from `info.json`,
+not folder names or plugin IDs. Import these bank files into
+`mobile-ui/src/commonMain/composeResources/drawable/`; **do not replace the whole
+application drawable directory** or remove unrelated/fallback resources.
+Fetching updates is a separate manual operation, not a dependency of normal app
+builds.
+
+These are SVG resources, not the catalog's derived VectorDrawable XML. Every
+exported root has `width="54"`, `height="54"` and
+`preserveAspectRatio="xMidYMid meet"`: a centered proportional fit without a new
+background, cropping or stretching. Existing `viewBox` coordinates are retained;
+when absent, they are inferred from the original width/height. The viewBox need
+not itself be 54×54. Paths, gradients, masks, colors and transparency remain
+unchanged, and source files are never edited. This retains SVGs such as Ozon's
+(`15685`/`16060`) that the catalog's Android XML converter cannot represent.
+The consumer also converts SVG to VectorDrawable XML for **Compose** through
+`SyncCommonResources`/`ConvertSvgToAndroidVectorTask`; exporting valid SVG does not
+resolve those mask-conversion limitations or prove an application build.
+The proportional-fit check applies to SVG rendering; preservation of that fit
+after the consumer's Svg2Vector conversion, particularly for non-square icons,
+has not been verified.
+Native Android drawable synchronization is currently disabled in the consumer
+(`includeAndroidDrawables=false`), so importing this ZIP does not automatically
+refresh its native widget XML resources either.
+
+Local export from the repository root needs only Python 3.10+:
+
+```sh
+python3 -m unittest discover -s tools/tests -p 'test_*.py'
+python3 tools/export_drawable.py --banks banks --output /tmp/bank-icons-export
+```
+
+The output directory must not exist and must not overlap the inputs. It contains
+both `drawable/` and `bank-icons-drawable.zip`. ZIP ordering/timestamps are fixed.
+Metadata-only banks are counted and skipped, without placeholder icons.
+Duplicate IDs (including metadata-only entries), negative icon IDs, invalid
+metadata/XML/geometry, and DTD/entity declarations fail the export; no partial
+archive is published.
+
+Verification on 2026-10-22: 15 exporter tests and actionlint 1.7.7 passed. A full
+CLI export packaged 427 SVGs, skipped 1295 metadata-only records, and passed ZIP
+integrity and exact filename checks. All 427 derived SVGs rendered with librsvg;
+eight samples were visually checked on light/dark backgrounds. All 2149 input
+files retained their hashes. This is not an Android/iOS runtime check or an
+observed hosted release publication.
+
 ## Conversion and resource contract
 
 `:catalog:generateCatalogResources` invokes the JVM CLI `catalog.generator.MainKt`:
