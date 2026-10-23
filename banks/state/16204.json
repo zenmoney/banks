@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-21T23:48:39.064852Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-23T06:44:39.162807Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "agentAssessment": {
@@ -60,13 +60,90 @@
         "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
         "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
         "number": 160,
-        "observedAt": "2026-10-21T23:57:54.864109Z",
-        "state": "open",
+        "observedAt": "2026-10-23T06:28:13.593743Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: ZEN.COM (Company.id 16204)",
         "url": "https://github.com/zenmoney/banks/pull/160"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "3171f838eaf34931a3ebdcd06fe9d3a479f25e3d",
+          "bodySha256": "809d0225248b39cddc4ce6bfea4fbfe4c4d771d3d1d8b8032190a0ea2dd3f887",
+          "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
+          "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
+          "number": 160,
+          "observedAt": "2026-10-21T23:57:54.864109Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ZEN.COM (Company.id 16204)",
+          "url": "https://github.com/zenmoney/banks/pull/160"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "3171f838eaf34931a3ebdcd06fe9d3a479f25e3d",
+        "bodySha256": "809d0225248b39cddc4ce6bfea4fbfe4c4d771d3d1d8b8032190a0ea2dd3f887",
+        "closedAt": "2026-10-22T16:26:31Z",
+        "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
+        "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 160,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ZEN.COM (Company.id 16204)",
+        "url": "https://github.com/zenmoney/banks/pull/160"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-23T06:28:13.593743Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "3171f838eaf34931a3ebdcd06fe9d3a479f25e3d",
+          "bodySha256": "809d0225248b39cddc4ce6bfea4fbfe4c4d771d3d1d8b8032190a0ea2dd3f887",
+          "closedAt": "2026-10-22T16:26:31Z",
+          "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
+          "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 160,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ZEN.COM (Company.id 16204)",
+          "url": "https://github.com/zenmoney/banks/pull/160"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "7117c031474a1cc6d0d10704febb3b44e56122d0"
+      },
       "reason": "Original official documentation SVG retrieved for first addition. Complete standalone emblem supported by current official documentation and app listing. Raw transparent dark emblem fails dark-theme contrast; prepare a source-backed white circular catalog field without recoloring or altering emblem geometry. Final checks remain required. Preserve null country and absent baseline.",
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+          "createdAt": "2026-10-22T16:26:31Z",
+          "kind": "comment",
+          "updatedAt": "2026-10-22T16:26:31Z",
+          "url": "https://github.com/zenmoney/banks/pull/160#issuecomment-6345785487"
+        },
+        "explanation": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+        "mr": {
+          "number": 160,
+          "url": "https://github.com/zenmoney/banks/pull/160"
+        },
+        "rationale": "Read the full PR body and complete discussion. Reviewer requests an inverse-color logo presentation with the same appearance in light and dark themes, explicitly noting that a pure white backing is unavailable. Research a genuine original official inverse variant and a source-backed usable field rather than reusing the rejected dark emblem on a pure-white circle or mechanically recoloring it. Preserve the complete standalone symbol, absent baseline, existing ZEN.COM identity and countryCode null. Final source fidelity and both-theme suitability require fresh evidence; no selected attachment was supplied.",
+        "requirements": [
+          {
+            "quote": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+            "url": "https://github.com/zenmoney/banks/pull/160#issuecomment-6345785487"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/16204/candidate-7ffd43ab226f3e3732974a5ff579e8f905e82a65c87c22f7380601b6425702c0.json",
         "sha256": "7ffd43ab226f3e3732974a5ff579e8f905e82a65c87c22f7380601b6425702c0"
@@ -152,7 +229,7 @@
           "url": "https://bimi-explorer.svg.zone/bimi/zen.com/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "taskKey": "af187e5c0d95e368ae5f0249532023e780efca4f849c9e29700b802d6b752b6f",
       "verification": {
         "checkedAt": "2026-10-21T23:52:57.733374Z",
@@ -200,6 +277,64 @@
       "review": null,
       "sourceMR": null,
       "task": "add-missing"
+    },
+    {
+      "key": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-23T06:44:39.162807Z",
+      "reason": "Fresh rework research confirms that an official inverse-color ZEN.COM variant exists: current docs configure a white-on-transparent logo PNG for the dark theme, and full model image input shows its complete ring-and-detached-dot symbol beside the wordmark. However, no usable original inverse standalone vector with a source-backed stable dark presentation was retrieved. The genuine original standalone SVG obtained from the same docs is painted #222222, not inverse. The official logo-pack ZIP and BIMI SVG returned HTTP 403; the official merchant guide and exact logo subpage returned JavaScript shells without download bytes. The isolated headless browser was closed before external navigation because its effective sandbox status was inadequate. Current publisher plugin vectors were a spinner, wallet/phone illustration or error decoration, not the required inverse emblem. Mechanical recoloring of the dark SVG, tracing/cropping the PNG into replacement geometry, and reusing the rejected pure-white field were not performed. Preserve the absent catalog icon, all metadata and countryCode null. This is an inverse-vector/presentation retrieval gap, not a claim that ZEN has no inverse logo or that its current brand is unknown.",
+      "review": {
+        "action": "repair",
+        "assessedAt": "2026-10-23T06:30:20.519639Z",
+        "key": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
+        "rationale": "Read the full PR body and complete discussion. Reviewer requests an inverse-color logo presentation with the same appearance in light and dark themes, explicitly noting that a pure white backing is unavailable. Research a genuine original official inverse variant and a source-backed usable field rather than reusing the rejected dark emblem on a pure-white circle or mechanically recoloring it. Preserve the complete standalone symbol, absent baseline, existing ZEN.COM identity and countryCode null. Final source fidelity and both-theme suitability require fresh evidence; no selected attachment was supplied.",
+        "requirements": [
+          {
+            "quote": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+            "url": "https://github.com/zenmoney/banks/pull/160#issuecomment-6345785487"
+          }
+        ],
+        "selectedUrl": null,
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+            "bodySha256": "41e2f141ae8ead6b74c26940397738aac4c280d45b0ad57192ca36aaf104baf8",
+            "createdAt": "2026-10-22T16:26:31Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABej0Ajw",
+            "text": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+            "textSha256": "41e2f141ae8ead6b74c26940397738aac4c280d45b0ad57192ca36aaf104baf8",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/160#issuecomment-6345785487"
+          }
+        ]
+      },
+      "sourceMR": {
+        "base": "main",
+        "baseCommit": "3171f838eaf34931a3ebdcd06fe9d3a479f25e3d",
+        "bodySha256": "809d0225248b39cddc4ce6bfea4fbfe4c4d771d3d1d8b8032190a0ea2dd3f887",
+        "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
+        "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
+        "number": 160,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ZEN.COM (Company.id 16204)",
+        "url": "https://github.com/zenmoney/banks/pull/160"
+      },
+      "task": "rework-rejected"
     }
   ]
 }
