@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-23T06:44:39.162807Z",
-  "lastAttemptResult": "unconfirmed",
+  "lastAttemptAt": "2026-10-23T08:45:12.567256Z",
+  "lastAttemptResult": "candidate",
   "proposals": [
     {
       "agentAssessment": {
@@ -60,7 +60,7 @@
         "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
         "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
         "number": 160,
-        "observedAt": "2026-10-23T06:28:13.593743Z",
+        "observedAt": "2026-10-23T08:39:21.106691Z",
         "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: ZEN.COM (Company.id 16204)",
@@ -136,7 +136,7 @@
           "number": 160,
           "url": "https://github.com/zenmoney/banks/pull/160"
         },
-        "rationale": "Read the full PR body and complete discussion. Reviewer requests an inverse-color logo presentation with the same appearance in light and dark themes, explicitly noting that a pure white backing is unavailable. Research a genuine original official inverse variant and a source-backed usable field rather than reusing the rejected dark emblem on a pure-white circle or mechanically recoloring it. Preserve the complete standalone symbol, absent baseline, existing ZEN.COM identity and countryCode null. Final source fidelity and both-theme suitability require fresh evidence; no selected attachment was supplied.",
+        "rationale": "Full fresh bound PR discussion read. Repair the prior first-addition proposal by inverting its dark #222222 ring-and-detached-dot emblem on a white circle into white emblem on a #222222 circle, transparent outside. Preserve the complete original vector geometry, detached dot, prior whole-emblem scale and placement; remove pure-white backing. The current direct user explicitly authorizes recoloring: «сделай такой инверс раз редактор просит, это его ответсвенность, можем сделать для 4517 5192 16204». This is reviewer/user-directed paint adaptation, not an unchanged original colorway or an original inverse asset supplied by the bank. Freshly retrieve the known official docs favicon SVG for contours; do not demand a separately published inverse original. Metadata countryCode stays null, and there is no accepted icon baseline.",
         "requirements": [
           {
             "quote": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
@@ -238,6 +238,103 @@
         "sourceSha256": "379a3c62ea078f2be9027b4d7707e2d3cc180b1c256df6a2fcb7a097dc12ce0d",
         "xmlSha256": "c0e887ab75d5ed9fa383ef85408e42d2565e45eeacf725fff25dcb66afbf2831"
       }
+    },
+    {
+      "assessment": {
+        "currency": {
+          "basis": "Fresh live official docs currently link this exact original SVG favicon. This confirms active use of the geometry, not an exact rebrand date, legal-status research, or current bank publication of our adapted inverse paint.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Existing ZEN.COM / zen.com metadata matches live docs.zen.com and its zen.com navigation. Exact original asset is the same documented PR160 source, freshly retrieved. CountryCode remains null; no entity or metadata replacement.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Fresh docs page and its uploaded SVG are one first-party provenance group, not independent confirmations. Full previous research is historical context only. Focused reviewer/user-directed recoloring has no remaining original-contour retrieval gap, so no repeat exhaustive inverse-asset search is necessary.",
+        "uncertainties": [
+          "Final adapted paint is not represented as a bank-supplied original inverse asset.",
+          "This worker has not run Compose Desktop, Android or iOS final-byte checks; librsvg references are not platform passes."
+        ],
+        "variant": {
+          "basis": "Original official standalone flat ring-and-detached-dot geometry is confirmed. Final variant is white #FFFFFF emblem on a dark #222222 catalog circle, explicitly directed by reviewer and authorized by current user. Previous candidate placement is retained: original 82x81 viewport fitted to 70x69.1463414634 in a 100x100 circle using translate(15 15.426829268292683) scale(0.8536585365853658), then SVGO rounding to translate(15 15.4268) scale(.85366). No official circular-use or original inverse-colorway claim. Independent librsvg full/theme/24-32-48px diagnostics were visually inspected: complete dot survives, no clipping or apparent geometry/optimization regression. Exact Compose/platform checks remain for coordinator.",
+          "finding": "confirmed"
+        }
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Actual image input of the full exact fresh original librsvg source; both helper source/final theme pairs; both exact offscreen CPU Skia/painterResource final frames; and independent working/final plus 24/32/48px final diagnostics shows the same complete open ring, stepped upper-left terminal, enlarged rounded upper-right terminal, original internal opening and full detached upper dot. No visible crop, distortion, wordmark leak or converter/optimization loss. Paint deliberately differs: original #222222 emblem becomes white, and prior white circle becomes #222222 at explicit user/reviewer direction. Faithful refers to source contours/relative geometry with disclosed authorized paint adaptation, not unchanged original colors.",
+        "faithful": true,
+        "iconHash": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
+        "path": "evidence/16204/candidate-07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7.svg",
+        "proportionsJudgement": "Previous whole-source scale and placement retained. Complete ring plus detached dot fits within separate circle, without whole-emblem clipping; useful optical weight and spacing in exact 240x240 Desktop frames. Both actual light and dark theme frames retain identical white-on-dark emblem presentation, no pure-white backing, alpha outside the circle. Independent librsvg 24/32/48px diagnostics remain recognizable; dot remains separate but naturally tiny at 24px. Small diagnostics are not native platform passes.",
+        "rationale": "Repair PR160 at explicit reviewer and current-user direction: first addition of the complete ZEN.COM original-vector ring-and-detached-dot emblem, using white emblem on a dark #222222 circle instead of the rejected dark emblem/white circle. Previous scale and position are preserved. This is a deliberately recolored catalog adaptation, not a rebrand or a bank-supplied original inverse SVG.",
+        "role": "Standalone ZEN.COM ring-and-detached-dot symbol, no visible accompanying wordmark.",
+        "sha256": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
+        "sourceAssetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg",
+        "sourceUrl": "https://docs.zen.com/payments/plugins/about-woocommerce",
+        "transforms": [
+          "Fresh original 82x81 official favicon SVG preserved unchanged as source; all five original paths, original clipPath and original matrix transforms retained in separate working copy. No raster tracing, redraw, per-part movement, source-path crop or new emblem geometry.",
+          "Explicit authorized paint inversion: original emblem paths #222222 -> #FFFFFF; prior #FFFFFF catalog circle -> #222222 circle cx=50 cy=50 r=50 in a 100x100 viewport. This changes original colors deliberately and is disclosed as reviewer/user-directed, not source-faithful paint.",
+          "Previous whole-emblem placement retained: translate(15 15.426829268292683) scale(0.8536585365853658), original 82x81 viewport fitted to 70x69.14634146341463. No individual ring or detached-dot movement; no emblem masking.",
+          "SVGO 4.1.0, frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 7081 -> 4470 bytes, selected optimized output SHA-256 07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7. Consolidates existing path transforms, merges compatible paths, shortens color notation, and rounds the existing whole-emblem placement to translate(15 15.4268) scale(.85366). Full and both-theme independent librsvg working/final comparisons visually inspected; no visible detail or proportion regression. RGB antialias edge differences up to 12/255 at 640px, alpha identical; pixel metrics are supplemental, not the visual decision."
+        ],
+        "variant": "Reviewer/user-directed inverse paint: #FFFFFF emblem on #222222 circular catalog backing, transparent outside. Original source paint was #222222 on transparency. Circle remains a catalog presentation, not an official circular-avatar claim.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Pinned catalog baseline has no icon.svg; this remains a first addition, not a before/after comparison against an accepted icon. Relative to rejected PR160, the requested deliberate paint inversion removes the pure-white backing while retaining the complete source ring/dot geometry, scale and position."
+      },
+      "candidateIconHash": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
+      "checkedAt": "2026-10-23T08:45:12.567256Z",
+      "humanReview": "pending",
+      "reason": "Rework of rejected PR160: preserve the genuine official docs favicon ring-and-detached-dot contours and the previous candidate scale/position, but invert the presentation to white emblem on a dark #222222 circle, transparent outside. Reviewer requested inverse colors without a pure-white backing; current direct user explicitly authorizes recoloring. This is a disclosed reviewer/user-directed adaptation, not an original bank-supplied inverse SVG or unchanged source paint. No accepted icon exists at the frozen base; country remains null.",
+      "reviewPackage": {
+        "path": "evidence/16204/candidate-aec01fcba76c5a7c2573326f97c4e214f942247a8840ecb42e3661ca945494da.json",
+        "sha256": "aec01fcba76c5a7c2573326f97c4e214f942247a8840ecb42e3661ca945494da"
+      },
+      "sourceCandidate": {
+        "iconHash": "6a0338a63d6a108e3a7b5f6be112fe3206efcfe08cb66d413e9a81790fe01d59",
+        "path": "evidence/16204/research-0bfc510b798342d8b26ce8f2369c5617/fetch-1e471bb03301430c92db32193580c450/attempt-1/body.bin",
+        "rationale": "Use the freshly downloaded official SVG for original contours and preserve prior scale/position. Invert prior dark emblem/white circle to white emblem/dark #222222 circle at explicit reviewer and current-user direction. Preserve complete ring, internal opening, original clip and detached dot; no raster-derived geometry. This is a first-addition repair with a disclosed paint adaptation, not a rebrand or an original inverse SVG.",
+        "retrieval": {
+          "path": "evidence/16204/research-0bfc510b798342d8b26ce8f2369c5617/fetch-1e471bb03301430c92db32193580c450/receipt.json",
+          "sha256": "eaa4b5c62bc74deb5d4ffb945d87ca29107932ba151994a75a610fe7de390cd6"
+        },
+        "sourceAssetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg",
+        "sourceUrl": "https://docs.zen.com/payments/plugins/about-woocommerce"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg",
+          "checkedAt": "2026-10-23T08:45:05.798055Z",
+          "independenceGroup": "zen-first-party",
+          "kind": "official",
+          "observation": "Fresh official docs HTML fetched in this session. Its rel=icon links the exact SVG URL and its navigation links www.zen.com. The live metadata-host subdomain uses the original standalone asset now. The title ZEN.COM and zen.com record apply to this publisher; no country, successor, or historical-record inference. This is current source-use evidence, not bank approval of our deliberate inverse paint adaptation.",
+          "url": "https://docs.zen.com/payments/plugins/about-woocommerce"
+        },
+        {
+          "assetUrl": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg",
+          "checkedAt": "2026-10-23T08:45:05.798055Z",
+          "independenceGroup": "zen-first-party",
+          "kind": "official",
+          "observation": "Fresh 7006-byte original SVG retrieved successfully with verified HTTPS; SHA-256 6a0338a63d6a108e3a7b5f6be112fe3206efcfe08cb66d413e9a81790fe01d59. Only svg/defs/clipPath/rect/g/path, five original paths and no external content. Full original librsvg 2.63.3 image and both theme comparisons visually read: complete thick open ring, stepped left terminal, enlarged rounded right terminal, separate upper dot; no visible accompanying wordmark inside the original 82x81 clipped viewport. Original paint is #222222 on alpha. Working/final retains those contours and source clip; deliberate white emblem and #222222 circle are user-directed adaptation. No raster tracing, redraw, per-part movement or source-byte change.",
+          "url": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg"
+        }
+      ],
+      "status": "pending",
+      "supersedesMR": "https://github.com/zenmoney/banks/pull/160",
+      "taskKey": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
+      "taskResponse": [
+        {
+          "quote": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+          "resolution": "Inverted rejected dark-emblem/white-circle presentation into white emblem on dark #222222 circle with transparent exterior; complete original ring-and-detached-dot contours and previous scale/position retained. No pure-white backing remains. The current user explicitly authorizes this deliberate recoloring, which is disclosed rather than called bank-provided inverse paint. Actual source/final helper views and exact Desktop final frames on both themes were read: stable white-on-dark emblem presentation with complete separate dot and no visible clipping. Mobile rendering remains not-tested: exact Android offline build succeeded according to coordinator, but installed-only isolated offline AVD setup failed because Android CLI attempted remote repository access; iOS runtime is unavailable on Linux. No mobile pass is claimed.",
+          "url": "https://github.com/zenmoney/banks/pull/160#issuecomment-6345785487"
+        }
+      ],
+      "verification": {
+        "checkedAt": "2026-10-23T08:59:58.835882Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
+        "xmlSha256": "36ad786e3a9eb25f8f1abd9db26eb8d47bad026377cfcaab52c4e71e3004b62d"
+      }
     }
   ],
   "schemaVersion": 1,
@@ -279,15 +376,75 @@
       "task": "add-missing"
     },
     {
+      "history": [
+        {
+          "key": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
+          "outcome": "unconfirmed",
+          "processedAt": "2026-10-23T06:44:39.162807Z",
+          "reason": "Fresh rework research confirms that an official inverse-color ZEN.COM variant exists: current docs configure a white-on-transparent logo PNG for the dark theme, and full model image input shows its complete ring-and-detached-dot symbol beside the wordmark. However, no usable original inverse standalone vector with a source-backed stable dark presentation was retrieved. The genuine original standalone SVG obtained from the same docs is painted #222222, not inverse. The official logo-pack ZIP and BIMI SVG returned HTTP 403; the official merchant guide and exact logo subpage returned JavaScript shells without download bytes. The isolated headless browser was closed before external navigation because its effective sandbox status was inadequate. Current publisher plugin vectors were a spinner, wallet/phone illustration or error decoration, not the required inverse emblem. Mechanical recoloring of the dark SVG, tracing/cropping the PNG into replacement geometry, and reusing the rejected pure-white field were not performed. Preserve the absent catalog icon, all metadata and countryCode null. This is an inverse-vector/presentation retrieval gap, not a claim that ZEN has no inverse logo or that its current brand is unknown.",
+          "review": {
+            "action": "repair",
+            "assessedAt": "2026-10-23T06:30:20.519639Z",
+            "key": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
+            "rationale": "Read the full PR body and complete discussion. Reviewer requests an inverse-color logo presentation with the same appearance in light and dark themes, explicitly noting that a pure white backing is unavailable. Research a genuine original official inverse variant and a source-backed usable field rather than reusing the rejected dark emblem on a pure-white circle or mechanically recoloring it. Preserve the complete standalone symbol, absent baseline, existing ZEN.COM identity and countryCode null. Final source fidelity and both-theme suitability require fresh evidence; no selected attachment was supplied.",
+            "requirements": [
+              {
+                "quote": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+                "url": "https://github.com/zenmoney/banks/pull/160#issuecomment-6345785487"
+              }
+            ],
+            "selectedUrl": null,
+            "sources": [
+              {
+                "attachments": [],
+                "author": {
+                  "__typename": "User",
+                  "login": "VictoryKod"
+                },
+                "body": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+                "bodySha256": "41e2f141ae8ead6b74c26940397738aac4c280d45b0ad57192ca36aaf104baf8",
+                "createdAt": "2026-10-22T16:26:31Z",
+                "editor": {
+                  "__typename": "User",
+                  "login": "VictoryKod"
+                },
+                "kind": "comment",
+                "lastEditedAt": null,
+                "nodeId": "IC_kwDOU2-MbM8AAAABej0Ajw",
+                "text": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
+                "textSha256": "41e2f141ae8ead6b74c26940397738aac4c280d45b0ad57192ca36aaf104baf8",
+                "trust": {
+                  "login": "VictoryKod",
+                  "permission": "write"
+                },
+                "url": "https://github.com/zenmoney/banks/pull/160#issuecomment-6345785487"
+              }
+            ]
+          },
+          "sourceMR": {
+            "base": "main",
+            "baseCommit": "3171f838eaf34931a3ebdcd06fe9d3a479f25e3d",
+            "bodySha256": "809d0225248b39cddc4ce6bfea4fbfe4c4d771d3d1d8b8032190a0ea2dd3f887",
+            "head": "bank-icon-maintenance/task-af187e5c0d95-16204",
+            "headCommit": "8ae5651e0e0f4c723d497fa8e0a16b2ba56a1f9c",
+            "number": 160,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: ZEN.COM (Company.id 16204)",
+            "url": "https://github.com/zenmoney/banks/pull/160"
+          },
+          "task": "rework-rejected"
+        }
+      ],
       "key": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
-      "outcome": "unconfirmed",
-      "processedAt": "2026-10-23T06:44:39.162807Z",
-      "reason": "Fresh rework research confirms that an official inverse-color ZEN.COM variant exists: current docs configure a white-on-transparent logo PNG for the dark theme, and full model image input shows its complete ring-and-detached-dot symbol beside the wordmark. However, no usable original inverse standalone vector with a source-backed stable dark presentation was retrieved. The genuine original standalone SVG obtained from the same docs is painted #222222, not inverse. The official logo-pack ZIP and BIMI SVG returned HTTP 403; the official merchant guide and exact logo subpage returned JavaScript shells without download bytes. The isolated headless browser was closed before external navigation because its effective sandbox status was inadequate. Current publisher plugin vectors were a spinner, wallet/phone illustration or error decoration, not the required inverse emblem. Mechanical recoloring of the dark SVG, tracing/cropping the PNG into replacement geometry, and reusing the rejected pure-white field were not performed. Preserve the absent catalog icon, all metadata and countryCode null. This is an inverse-vector/presentation retrieval gap, not a claim that ZEN has no inverse logo or that its current brand is unknown.",
+      "outcome": "candidate",
+      "processedAt": "2026-10-23T08:45:12.567256Z",
+      "reason": "Rework of rejected PR160: preserve the genuine official docs favicon ring-and-detached-dot contours and the previous candidate scale/position, but invert the presentation to white emblem on a dark #222222 circle, transparent outside. Reviewer requested inverse colors without a pure-white backing; current direct user explicitly authorizes recoloring. This is a disclosed reviewer/user-directed adaptation, not an original bank-supplied inverse SVG or unchanged source paint. No accepted icon exists at the frozen base; country remains null.",
       "review": {
         "action": "repair",
-        "assessedAt": "2026-10-23T06:30:20.519639Z",
+        "assessedAt": "2026-10-23T08:41:20.747915Z",
         "key": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
-        "rationale": "Read the full PR body and complete discussion. Reviewer requests an inverse-color logo presentation with the same appearance in light and dark themes, explicitly noting that a pure white backing is unavailable. Research a genuine original official inverse variant and a source-backed usable field rather than reusing the rejected dark emblem on a pure-white circle or mechanically recoloring it. Preserve the complete standalone symbol, absent baseline, existing ZEN.COM identity and countryCode null. Final source fidelity and both-theme suitability require fresh evidence; no selected attachment was supplied.",
+        "rationale": "Full fresh bound PR discussion read. Repair the prior first-addition proposal by inverting its dark #222222 ring-and-detached-dot emblem on a white circle into white emblem on a #222222 circle, transparent outside. Preserve the complete original vector geometry, detached dot, prior whole-emblem scale and placement; remove pure-white backing. The current direct user explicitly authorizes recoloring: «сделай такой инверс раз редактор просит, это его ответсвенность, можем сделать для 4517 5192 16204». This is reviewer/user-directed paint adaptation, not an unchanged original colorway or an original inverse asset supplied by the bank. Freshly retrieve the known official docs favicon SVG for contours; do not demand a separately published inverse original. Metadata countryCode stays null, and there is no accepted icon baseline.",
         "requirements": [
           {
             "quote": "Нужно сделать инверсию цвета логотипа что бы в темной и светлой теме выглядело одинаково, чистой белой подложки под лого у нас нет",
