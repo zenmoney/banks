@@ -495,6 +495,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "9a934ca0a77a0102cbf59d8f87544e5644de26ed",
+      "acceptedIconHash": "69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856",
       "agentAssessment": {
         "path": "evidence/4517/assessed-b5fdae116f0cfcd58bb34a6f0232b1160bf5c49779efa6d2fa0c09383048b01d.json",
         "sha256": "b5fdae116f0cfcd58bb34a6f0232b1160bf5c49779efa6d2fa0c09383048b01d"
@@ -545,15 +547,54 @@
       "candidateIconHash": "69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856",
       "checkedAt": "2026-10-23T08:46:10.292610Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "9a934ca0a77a0102cbf59d8f87544e5644de26ed",
+        "mergeCommit": "6b982b3850f0661960fd706af5af5ecce962bd78",
+        "mergedAt": "2026-10-23T11:48:31Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "f37956957381d5596397bc6704aca74877807523",
         "bodySha256": "94638273e185c789620f7524afd2087507467b58c0243461250771a4f567b787",
+        "closedAt": "2026-10-23T11:48:31Z",
         "head": "bank-icon-maintenance/task-1bd46b2d10d8-4517",
         "headCommit": "9a934ca0a77a0102cbf59d8f87544e5644de26ed",
+        "mergeCommit": "6b982b3850f0661960fd706af5af5ecce962bd78",
+        "mergedAt": "2026-10-23T11:48:31Z",
         "number": 163,
-        "observedAt": "2026-10-23T09:03:46.713296Z",
-        "state": "open",
+        "observedAt": "2026-10-23T11:48:31Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+        "url": "https://github.com/zenmoney/banks/pull/163"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+          "bodySha256": "94638273e185c789620f7524afd2087507467b58c0243461250771a4f567b787",
+          "head": "bank-icon-maintenance/task-1bd46b2d10d8-4517",
+          "headCommit": "9a934ca0a77a0102cbf59d8f87544e5644de26ed",
+          "number": 163,
+          "observedAt": "2026-10-23T09:03:46.713296Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+          "url": "https://github.com/zenmoney/banks/pull/163"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+        "bodySha256": "94638273e185c789620f7524afd2087507467b58c0243461250771a4f567b787",
+        "closedAt": "2026-10-23T11:48:31Z",
+        "head": "bank-icon-maintenance/task-1bd46b2d10d8-4517",
+        "headCommit": "9a934ca0a77a0102cbf59d8f87544e5644de26ed",
+        "mergeCommit": "6b982b3850f0661960fd706af5af5ecce962bd78",
+        "mergedAt": "2026-10-23T11:48:31Z",
+        "number": 163,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
         "url": "https://github.com/zenmoney/banks/pull/163"
@@ -600,7 +641,7 @@
           "url": "https://play.google.com/store/apps/details?id=com.bifit.mobile.corporate.bankperm"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "supersedesMR": "https://github.com/zenmoney/banks/pull/151",
       "taskKey": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
       "taskResponse": [
