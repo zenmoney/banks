@@ -240,6 +240,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "3172137ca1dff2b223f1ddcc25291a86f177e1c6",
+      "acceptedIconHash": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
       "agentAssessment": {
         "path": "evidence/16204/assessed-0f24cba70d6feec3f75fcdb6861619d98673c8c4d12229a040fb36d5b0a1a777.json",
         "sha256": "0f24cba70d6feec3f75fcdb6861619d98673c8c4d12229a040fb36d5b0a1a777"
@@ -293,15 +295,54 @@
       "candidateIconHash": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
       "checkedAt": "2026-10-23T08:45:12.567256Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "3172137ca1dff2b223f1ddcc25291a86f177e1c6",
+        "mergeCommit": "b8d71ccbe55516d47244f0332a8c2fd4dbc3cffd",
+        "mergedAt": "2026-10-23T11:43:54Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "f37956957381d5596397bc6704aca74877807523",
         "bodySha256": "681869cb6a80cc170e51f4b858d91012d2b9045111bed86b57c6fc5fd623f78f",
+        "closedAt": "2026-10-23T11:43:54Z",
         "head": "bank-icon-maintenance/task-77afe23d63cf-16204",
         "headCommit": "3172137ca1dff2b223f1ddcc25291a86f177e1c6",
+        "mergeCommit": "b8d71ccbe55516d47244f0332a8c2fd4dbc3cffd",
+        "mergedAt": "2026-10-23T11:43:54Z",
         "number": 165,
-        "observedAt": "2026-10-23T10:54:55.825472Z",
-        "state": "open",
+        "observedAt": "2026-10-23T11:43:54Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ZEN.COM (Company.id 16204)",
+        "url": "https://github.com/zenmoney/banks/pull/165"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+          "bodySha256": "681869cb6a80cc170e51f4b858d91012d2b9045111bed86b57c6fc5fd623f78f",
+          "head": "bank-icon-maintenance/task-77afe23d63cf-16204",
+          "headCommit": "3172137ca1dff2b223f1ddcc25291a86f177e1c6",
+          "number": 165,
+          "observedAt": "2026-10-23T10:54:55.825472Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ZEN.COM (Company.id 16204)",
+          "url": "https://github.com/zenmoney/banks/pull/165"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+        "bodySha256": "681869cb6a80cc170e51f4b858d91012d2b9045111bed86b57c6fc5fd623f78f",
+        "closedAt": "2026-10-23T11:43:54Z",
+        "head": "bank-icon-maintenance/task-77afe23d63cf-16204",
+        "headCommit": "3172137ca1dff2b223f1ddcc25291a86f177e1c6",
+        "mergeCommit": "b8d71ccbe55516d47244f0332a8c2fd4dbc3cffd",
+        "mergedAt": "2026-10-23T11:43:54Z",
+        "number": 165,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: ZEN.COM (Company.id 16204)",
         "url": "https://github.com/zenmoney/banks/pull/165"
@@ -340,7 +381,7 @@
           "url": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "supersedesMR": "https://github.com/zenmoney/banks/pull/160",
       "taskKey": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
       "taskResponse": [
