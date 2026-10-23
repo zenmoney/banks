@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-16T21:04:33.704469Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-23T06:53:19.967028Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "agentAssessment": {
@@ -347,13 +347,90 @@
         "head": "bank-icon-maintenance/technical-20261016-4517",
         "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
         "number": 151,
-        "observedAt": "2026-10-16T21:20:10.587951Z",
-        "state": "open",
+        "observedAt": "2026-10-23T06:27:50.074552Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
         "url": "https://github.com/zenmoney/banks/pull/151"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "e831e80919f24d274723194d5b39c9f3bb0ab4a5598353d9a450dd4fa1241172",
+          "head": "bank-icon-maintenance/technical-20261016-4517",
+          "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
+          "number": 151,
+          "observedAt": "2026-10-16T21:20:10.587951Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+          "url": "https://github.com/zenmoney/banks/pull/151"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "e831e80919f24d274723194d5b39c9f3bb0ab4a5598353d9a450dd4fa1241172",
+        "closedAt": "2026-10-22T16:35:57Z",
+        "head": "bank-icon-maintenance/technical-20261016-4517",
+        "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 151,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+        "url": "https://github.com/zenmoney/banks/pull/151"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-23T06:27:50.074552Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+          "bodySha256": "e831e80919f24d274723194d5b39c9f3bb0ab4a5598353d9a450dd4fa1241172",
+          "closedAt": "2026-10-22T16:35:57Z",
+          "head": "bank-icon-maintenance/technical-20261016-4517",
+          "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 151,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+          "url": "https://github.com/zenmoney/banks/pull/151"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "7117c031474a1cc6d0d10704febb3b44e56122d0"
+      },
       "reason": "First icon addition from the current official Bank Perm header SVG. Measured complete emblem bounds replace the rejected 78-unit-wide off-center crop; a square viewport uses the actual 66.409-unit width and uniform aspect-preserving placement. No metadata or country changes.",
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11",
+        "category": "technical",
+        "comment": {
+          "author": "VictoryKod",
+          "body": "Сделать инверсию цветов фона и иконки для светлой и темной темы ",
+          "createdAt": "2026-10-22T16:35:57Z",
+          "kind": "comment",
+          "updatedAt": "2026-10-22T16:35:57Z",
+          "url": "https://github.com/zenmoney/banks/pull/151#issuecomment-6345970591"
+        },
+        "explanation": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
+        "mr": {
+          "number": 151,
+          "url": "https://github.com/zenmoney/banks/pull/151"
+        },
+        "rationale": "The complete saved PR151 discussion contains its full first-addition proposal body and one reviewer comment. VictoryKod requests inversion of the background and icon colors for light and dark themes. Preserve that full requirement: investigate current official source-supported inverted/negative variants and the actual single-asset renderer/export constraints before claiming a repair. The proposal body described a transparent #0D47A1 monogram whose blue is subdued on dark; closure alone is not a keep-current decision. This review authorizes investigation, not unsupported recoloring, invented backing, dynamic theming, or a claim that an unchanged rejected asset resolves the request. No selected attachment or exact replacement URL is supplied by the reviewer.",
+        "requirements": [
+          {
+            "quote": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
+            "url": "https://github.com/zenmoney/banks/pull/151#issuecomment-6345970591"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/4517/candidate-fe8fd8c25fb523bf977a3c6c5aed5b13ab2fb67644603a36a7373944af736db9.json",
         "sha256": "fe8fd8c25fb523bf977a3c6c5aed5b13ab2fb67644603a36a7373944af736db9"
@@ -379,7 +456,7 @@
           "url": "https://bankperm.ru/"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "technicalRetry": {
         "path": "evidence/4517/technical-retry-69566b63c7e02736f54bbec55c67f53a7bd80357da98aea16457181e710df858.json",
         "sha256": "69566b63c7e02736f54bbec55c67f53a7bd80357da98aea16457181e710df858"
@@ -418,5 +495,65 @@
       }
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-23T06:53:19.967028Z",
+      "reason": "PR151's complete reviewer requirement is preserved: «Сделать инверсию цветов фона и иконки для светлой и темной темы». Fresh research confirms that Bank Perm actually uses an inverse white emblem on a navy field in its current official internet-bank login and official linked Android app. However, those retrieved inverse assets are PNG rasters, not eligible original vectors. The fresh genuine original website SVG is the same positive transparent #0D47A1 lockup used by the rejected proposal; reusing it without inversion would not resolve the request. The independent Finuslugi SVG is also positive navy-on-white and its raster-like construction does not establish original-vector provenance. No eligible original vector carrying the inverse variant's colors was obtained from the inspected official/independent routes. The discovered APK container route was unavailable through both verified HTTPS and normal headless Chromium because its host did not resolve. This is an original-vector/provenance gap for the requested repair, not a claim that the bank has no logo or no official inverse presentation. The frozen base still has no accepted icon.svg; no new asset is proposed.",
+      "review": {
+        "action": "repair",
+        "assessedAt": "2026-10-23T06:30:40.218873Z",
+        "key": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
+        "rationale": "The complete saved PR151 discussion contains its full first-addition proposal body and one reviewer comment. VictoryKod requests inversion of the background and icon colors for light and dark themes. Preserve that full requirement: investigate current official source-supported inverted/negative variants and the actual single-asset renderer/export constraints before claiming a repair. The proposal body described a transparent #0D47A1 monogram whose blue is subdued on dark; closure alone is not a keep-current decision. This review authorizes investigation, not unsupported recoloring, invented backing, dynamic theming, or a claim that an unchanged rejected asset resolves the request. No selected attachment or exact replacement URL is supplied by the reviewer.",
+        "requirements": [
+          {
+            "quote": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
+            "url": "https://github.com/zenmoney/banks/pull/151#issuecomment-6345970591"
+          }
+        ],
+        "selectedUrl": null,
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "body": "Сделать инверсию цветов фона и иконки для светлой и темной темы ",
+            "bodySha256": "f648bf202c89cd24c0e59a8ec7f8b45a994a7f4fed330d88a322e866dea01ad6",
+            "createdAt": "2026-10-22T16:35:57Z",
+            "editor": {
+              "__typename": "User",
+              "login": "VictoryKod"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABej_Tnw",
+            "text": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
+            "textSha256": "c246ddf0818a46448439c9d6197277a9f737d421f6badfab12a6cc1096136e07",
+            "trust": {
+              "login": "VictoryKod",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/151#issuecomment-6345970591"
+          }
+        ]
+      },
+      "sourceMR": {
+        "base": "main",
+        "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+        "bodySha256": "e831e80919f24d274723194d5b39c9f3bb0ab4a5598353d9a450dd4fa1241172",
+        "head": "bank-icon-maintenance/technical-20261016-4517",
+        "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
+        "number": 151,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+        "url": "https://github.com/zenmoney/banks/pull/151"
+      },
+      "task": "rework-rejected"
+    }
+  ]
 }
