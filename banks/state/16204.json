@@ -240,6 +240,11 @@
       }
     },
     {
+      "agentAssessment": {
+        "path": "evidence/16204/assessed-0f24cba70d6feec3f75fcdb6861619d98673c8c4d12229a040fb36d5b0a1a777.json",
+        "sha256": "0f24cba70d6feec3f75fcdb6861619d98673c8c4d12229a040fb36d5b0a1a777"
+      },
+      "agentVisualAssessment": "suitable",
       "assessment": {
         "currency": {
           "basis": "Fresh live official docs currently link this exact original SVG favicon. This confirms active use of the geometry, not an exact rebrand date, legal-status research, or current bank publication of our adapted inverse paint.",
@@ -258,6 +263,10 @@
           "basis": "Original official standalone flat ring-and-detached-dot geometry is confirmed. Final variant is white #FFFFFF emblem on a dark #222222 catalog circle, explicitly directed by reviewer and authorized by current user. Previous candidate placement is retained: original 82x81 viewport fitted to 70x69.1463414634 in a 100x100 circle using translate(15 15.426829268292683) scale(0.8536585365853658), then SVGO rounding to translate(15 15.4268) scale(.85366). No official circular-use or original inverse-colorway claim. Independent librsvg full/theme/24-32-48px diagnostics were visually inspected: complete dot survives, no clipping or apparent geometry/optimization regression. Exact Compose/platform checks remain for coordinator.",
           "finding": "confirmed"
         }
+      },
+      "assetPublication": {
+        "path": "asset-publication/746086d18e532662a2f8ff3ecd00b795299292510c953943769b52e65838875c.json",
+        "sha256": "746086d18e532662a2f8ff3ecd00b795299292510c953943769b52e65838875c"
       },
       "baseIconHash": null,
       "candidate": {
@@ -284,6 +293,19 @@
       "candidateIconHash": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
       "checkedAt": "2026-10-23T08:45:12.567256Z",
       "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+        "bodySha256": "681869cb6a80cc170e51f4b858d91012d2b9045111bed86b57c6fc5fd623f78f",
+        "head": "bank-icon-maintenance/task-77afe23d63cf-16204",
+        "headCommit": "3172137ca1dff2b223f1ddcc25291a86f177e1c6",
+        "number": 165,
+        "observedAt": "2026-10-23T10:54:55.825472Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ZEN.COM (Company.id 16204)",
+        "url": "https://github.com/zenmoney/banks/pull/165"
+      },
       "reason": "Rework of rejected PR160: preserve the genuine official docs favicon ring-and-detached-dot contours and the previous candidate scale/position, but invert the presentation to white emblem on a dark #222222 circle, transparent outside. Reviewer requested inverse colors without a pure-white backing; current direct user explicitly authorizes recoloring. This is a disclosed reviewer/user-directed adaptation, not an original bank-supplied inverse SVG or unchanged source paint. No accepted icon exists at the frozen base; country remains null.",
       "reviewPackage": {
         "path": "evidence/16204/candidate-aec01fcba76c5a7c2573326f97c4e214f942247a8840ecb42e3661ca945494da.json",
@@ -318,7 +340,7 @@
           "url": "https://assets.apidog.com/app/apidoc-image/custom/20241108/28b7361a-3fa7-4198-945d-f30714c02295.svg"
         }
       ],
-      "status": "pending",
+      "status": "open",
       "supersedesMR": "https://github.com/zenmoney/banks/pull/160",
       "taskKey": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
       "taskResponse": [
@@ -437,8 +459,24 @@
         }
       ],
       "key": "77afe23d63cfd4b0c28e890220a93a5fcebf72afc9e2b96d63ac74835eaae95d",
-      "outcome": "candidate",
+      "outcome": "published",
       "processedAt": "2026-10-23T08:45:12.567256Z",
+      "publication": {
+        "candidateIconHash": "07106db7d1eeda31e318c57ef7eba6d868c45c7d2eb7f4c9f12a7f2dba419fe7",
+        "mr": {
+          "base": "main",
+          "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+          "bodySha256": "681869cb6a80cc170e51f4b858d91012d2b9045111bed86b57c6fc5fd623f78f",
+          "head": "bank-icon-maintenance/task-77afe23d63cf-16204",
+          "headCommit": "3172137ca1dff2b223f1ddcc25291a86f177e1c6",
+          "number": 165,
+          "observedAt": "2026-10-23T10:54:55.825472Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ZEN.COM (Company.id 16204)",
+          "url": "https://github.com/zenmoney/banks/pull/165"
+        }
+      },
       "reason": "Rework of rejected PR160: preserve the genuine official docs favicon ring-and-detached-dot contours and the previous candidate scale/position, but invert the presentation to white emblem on a dark #222222 circle, transparent outside. Reviewer requested inverse colors without a pure-white backing; current direct user explicitly authorizes recoloring. This is a disclosed reviewer/user-directed adaptation, not an original bank-supplied inverse SVG or unchanged source paint. No accepted icon exists at the frozen base; country remains null.",
       "review": {
         "action": "repair",
