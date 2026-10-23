@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-23T06:53:19.967028Z",
-  "lastAttemptResult": "unconfirmed",
+  "lastAttemptAt": "2026-10-23T08:46:10.292610Z",
+  "lastAttemptResult": "candidate",
   "proposals": [
     {
       "agentAssessment": {
@@ -347,7 +347,7 @@
         "head": "bank-icon-maintenance/technical-20261016-4517",
         "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
         "number": 151,
-        "observedAt": "2026-10-23T06:27:50.074552Z",
+        "observedAt": "2026-10-23T08:38:58.886434Z",
         "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
@@ -423,7 +423,7 @@
           "number": 151,
           "url": "https://github.com/zenmoney/banks/pull/151"
         },
-        "rationale": "The complete saved PR151 discussion contains its full first-addition proposal body and one reviewer comment. VictoryKod requests inversion of the background and icon colors for light and dark themes. Preserve that full requirement: investigate current official source-supported inverted/negative variants and the actual single-asset renderer/export constraints before claiming a repair. The proposal body described a transparent #0D47A1 monogram whose blue is subdued on dark; closure alone is not a keep-current decision. This review authorizes investigation, not unsupported recoloring, invented backing, dynamic theming, or a claim that an unchanged rejected asset resolves the request. No selected attachment or exact replacement URL is supplied by the reviewer.",
+        "rationale": "Read the complete freshly bound PR151 body and comment. Repair the rejected transparent positive-blue presentation with the original complete Bank Perm emblem contours rendered white on a blue circular catalog field, usable as one static asset on both light and dark application backgrounds; the repository consumes one static icon.svg, so no unsupported theme-switching mechanism is implied. Preserve the corrected actual-emblem bounds, original wide proportions, both complete rings/bands/holes and terminal details; omit only the separate БАНК ПЕРМЬ wordmark. New direct user authorization explicitly overrides the prior source-paint restriction: «сделай такой инверс раз редактор просит, это его ответсвенность, можем сделать для 4517 5192 16204». This authorizes a disclosed reviewer/user-directed white recolor and added blue field, not a claim that the official positive SVG supplied negative paint or that an original inverse SVG was found. Use source blue #0D47A1 for the field; prior official inverse login/app rasters support the presentation idea but are not vector geometry or a reason to invent an exact navy value. Keep original downloaded SVG untouched, do not trace raster, and inspect the prepared complete vector on both themes before later coordinator Desktop/platform review. No publication or merge is performed by this worker.",
         "requirements": [
           {
             "quote": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
@@ -493,20 +493,220 @@
         "sourceSha256": "2b8826e0bd67e793965d24999af85d20338c1093b713f41b4ecf0f0af4ba3b11",
         "xmlSha256": "b0234bc3bafa4df1cde1ff352e45d3a6bb4ca1fcafbc148b41e78cd901804b61"
       }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/4517/assessed-b5fdae116f0cfcd58bb34a6f0232b1160bf5c49779efa6d2fa0c09383048b01d.json",
+        "sha256": "b5fdae116f0cfcd58bb34a6f0232b1160bf5c49779efa6d2fa0c09383048b01d"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The freshly retrieved live official homepage directly uses the same genuine stacked-ellipse original SVG. Retained earlier-today official linked login/app observations support continued inverse use but retain their original checkedAt dates. No dated rebrand or historical-record decision is invented.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Company.id 4517 metadata identifies АКБ Пермь, RU, bankperm.ru. Fresh official homepage title and header alt text identify Bank Perm (АО) and directly publish the selected original SVG. No parent, successor, BIFIT demo or unrelated Permata bank is substituted.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Fresh official homepage/vector and preserved login/app material belong to one Bank Perm publication family. They are not counted as independent publishers. Current first-party record-specific source use establishes identity/currency and original-vector provenance; the deliberate paint/circle adaptation rests on direct user authorization, not an invented additional source.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The complete original-vector standalone stacked-ellipse emblem is suitable geometry for this record once the separate wordmark subpaths are omitted. The final paint is deliberately adapted: original #0D47A1 emblem is recolored white, placed over a newly constructed #0D47A1 circle, with original evenodd holes left as holes in the white emblem so the field shows through. This is supported by the exact reviewer inversion request plus new direct user recoloring authorization; it is not a bank-supplied inverse SVG, unchanged official paint, or officially observed circular variant. Whole-emblem uniform scaling/centering preserves the corrected actual bounds and original wide proportions. Independently read 24/32/48px and full-size librsvg previews show complete rings/bands and legible white mark on both themes; exact catalog/platform rendering remains the next stage.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/0100c7a5565adc742f5b50cc3b3bf3fcabc89ec2198c94f36a713902dc1ac6ff.json",
+        "sha256": "0100c7a5565adc742f5b50cc3b3bf3fcabc89ec2198c94f36a713902dc1ac6ff"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Actually read the full original lockup raster, exact generated VectorDrawable XML, both original-source/Compose-Desktop-final comparison pairs and both exact final Desktop frames. Both complete oval rings, layered arc bands, terminal ends, source relative geometry and original negative spaces survive; the separate bank-name lettering is absent rather than clipped away. Original contour d strings are unchanged in final SVG; conversion retains two white evenOdd emblem paths over one blue circle. The white recolor and #0D47A1 circular field are deliberate user/reviewer-directed adaptations, not unchanged source paint or a bank-supplied negative SVG. Read exact Desktop-derived 24/32/48px crop diagnostics: the full two-oval symbol remains recognizable; finest gaps soften at 24px but no complete oval or terminal vanishes. This is Compose Desktop and resized diagnostics, not a mobile/native render claim.",
+        "faithful": true,
+        "iconHash": "69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856",
+        "path": "evidence/4517/candidate-69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856.svg",
+        "proportionsJudgement": "Read both exact 240x240 offscreen CPU Skia/painterResource final frames and source/final pairs: the 162px circular icon is centered with the complete naturally wide symbol centered inside it and useful clear space on every side. No nonuniform stretch, clipped band, cropped oval or lost terminal is visible. Final geometry retains approximately 1.714:1 emblem proportions through the single whole-emblem uniform scale/translation. The circle is a disclosed new catalog presentation under the direct user authorization, not an official-avatar claim. Actual 24/32/48px resized diagnostics of the bound Desktop icon-canvas crop preserve the complete recognizable symbol; 24px fine gaps soften without loss of the two-oval silhouette.",
+        "rationale": "First icon addition for Company.id 4517 resolving PR151's full inversion request under the new direct user authorization. Use the genuine official original-vector stacked-ellipse emblem, not traced raster geometry, in a deliberately adapted white-on-source-blue circular catalog presentation. The positive original source remains untouched. This is a reviewer/user-directed paint/background adaptation, not a claimed bank-supplied inverse SVG, exact official app color/shape, dated rebrand or accepted-baseline verification.",
+        "role": "Complete standalone stacked-ellipse Bank Perm emblem from the official horizontal lockup; the separate БАНК ПЕРМЬ bank-name lettering is omitted rather than hidden outside the viewport.",
+        "sha256": "69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856",
+        "sourceAssetUrl": "https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c",
+        "sourceUrl": "https://bankperm.ru/",
+        "transforms": [
+          "Selected the exact first source-path suffix beginning M8.435 and exact second source-path prefix ending immediately before M155.363. These complete emblem d strings remain byte-for-byte unedited in working/final SVG. All separate bank-name subpaths are omitted. No raster trace/redraw, nonuniform scale, rotation, movement of separate parts, clipping or hole filling is applied.",
+          "Changed the two emblem fills from source #0D47A1 to #FFFFFF under explicit direct user/reviewer authorization and constructed a separate #0D47A1 circle (cx=50, cy=50, r=50). The source document stays unchanged; the circle shows through original evenodd emblem holes, with transparency only outside the field.",
+          "Retained actual-emblem bounds correction: source bounds approximately x=0, y=0.218862, width=66.409002, height=38.7453; use transform translate(50 50) scale(1.204655959142) translate(-33.2045 -19.591512). This is one whole-emblem uniform scale/translation, giving 80-unit width with the wide original ratio and bounding-box center at (50,50) inside the 100-unit circle. Extra circle clearance is deliberate useful padding, not the obsolete 78-unit rejected viewport or wordmark bounds.",
+          "Ran SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e. Working 2227 bytes, optimized 2476 bytes; retained the smaller working version as final SHA-256 69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856. Read independent working/optimized/final librsvg comparisons on both themes and 24/32/48px diagnostics; trial had no visible regression but increased size. Exact selected bytes were then safety-validated/converted by the coordinator and are bound to the read offscreen Compose Desktop frames; no trial geometry is substituted."
+        ],
+        "variant": "Reviewer/user-directed inverse catalog adaptation: original #0D47A1 emblem paths are recolored #FFFFFF on a newly constructed #0D47A1 circle in a transparent-outside 100x100 canvas. Source-blue value is retained as the field color; final white paint and circular field are intentional adaptations, not unchanged original paint. Official inverse login/app PNG context supports the presentation idea but is neither traced nor claimed as a negative vector or official circular variant.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The pinned base has no icon.svg, so this is an absent-to-real-icon first addition, with no fake accepted baseline panel. Compared with PR151's rejected transparent source-blue design, this candidate visibly places the complete white emblem on a blue circle for light/dark usability while retaining corrected actual-emblem centering and natural wide proportions. It resolves the explicit recoloring request rather than returning unchanged rejected bytes. The faithful judgment refers to original vector contours/details/proportions plus the explicitly authorized disclosed paint/background adaptation, not unchanged source colors."
+      },
+      "candidateIconHash": "69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856",
+      "checkedAt": "2026-10-23T08:46:10.292610Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+        "bodySha256": "94638273e185c789620f7524afd2087507467b58c0243461250771a4f567b787",
+        "head": "bank-icon-maintenance/task-1bd46b2d10d8-4517",
+        "headCommit": "9a934ca0a77a0102cbf59d8f87544e5644de26ed",
+        "number": 163,
+        "observedAt": "2026-10-23T09:03:46.713296Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+        "url": "https://github.com/zenmoney/banks/pull/163"
+      },
+      "reason": "PR151 asks «Сделать инверсию цветов фона и иконки для светлой и темной темы». The full freshly bound discussion was read. A new direct user instruction expressly authorizes inversion/recoloring for ID4517: «сделай такой инверс раз редактор просит, это его ответсвенность, можем сделать для 4517 5192 16204». The freshly fetched original official BankPerm-Logo.svg provides the genuine complete emblem geometry. Select it for a disclosed white-emblem/source-blue circular-field adaptation, not as an already-negative source SVG or proof of unchanged source paint. The user/reviewer-directed paint change resolves the prior source-paint-only obstacle without tracing the official login/app rasters. The pinned base has no accepted icon; this remains a first addition, not current-icon verification or a rebrand.",
+      "reviewPackage": {
+        "path": "evidence/4517/candidate-24c52518d94c80ba0718c440f1b6c0476da84736d8f94e5f3b83d85e911cab0c.json",
+        "sha256": "24c52518d94c80ba0718c440f1b6c0476da84736d8f94e5f3b83d85e911cab0c"
+      },
+      "sourceCandidate": {
+        "iconHash": "047eb84637e413541f4030c4f4b437437776ab1e186db352389ae2b9487be4e0",
+        "path": "evidence/4517/research-de3e462216cd4bfb9990436eedf515f5/fetch-b194bae5454648a7a87a9d32caea190c/attempt-1/body.bin",
+        "rationale": "Use the current official original SVG's two complete emblem path substrings for the reviewer-requested and newly user-authorized inverse catalog adaptation: white complete emblem on original source-blue #0D47A1 circular field, separated from the wordmark, uniformly scaled and centered using corrected actual emblem bounds. Preserve the untouched downloaded original and disclose final recoloring/backing rather than claiming original negative paint.",
+        "retrieval": {
+          "path": "evidence/4517/research-de3e462216cd4bfb9990436eedf515f5/fetch-b194bae5454648a7a87a9d32caea190c/receipt.json",
+          "sha256": "5b851e31a3e6da2e5c5d83edd3e1e199762b07747fe2bd9f599931729aece1d3"
+        },
+        "sourceAssetUrl": "https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c",
+        "sourceUrl": "https://bankperm.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://bankperm.ru/static/images/BankPerm-Logo.svg?h=9343761c",
+          "checkedAt": "2026-10-23T08:44:52.534018Z",
+          "independenceGroup": "Bank Perm official publications",
+          "kind": "official",
+          "observation": "Fresh verified HTTPS homepage is titled «Бизнесу — Банк Пермь (АО)» and contains two header img elements alt «Банк Пермь (АО)» referencing this exact SVG. The freshly retrieved 4297-byte original is a self-contained two-path #0D47A1/evenodd horizontal lockup. Its complete librsvg raster was actually read on transparent, white and #121212 backgrounds. It contains the stacked-ellipse emblem and separate БАНК ПЕРМЬ lettering. Original source bytes remain untouched. The emblem's first path begins at M8.435 within source path one; its second path starts at M57.975 and ends immediately before M155.363 in source path two. Those exact complete substrings supply geometry; no inverse original SVG is claimed. Current run receipt and homepage response are retained in the work-order evidence directory.",
+          "url": "https://bankperm.ru/"
+        },
+        {
+          "assetUrl": "https://dbo.bankperm.ru:10443/ibank2/loginPageLogo?1792737438089",
+          "checkedAt": "2026-10-23T06:50:14Z",
+          "independenceGroup": "Bank Perm official publications",
+          "kind": "official",
+          "observation": "Preserved prior-run observation, not a new network check: the bank-homepage-linked unauthenticated internet-bank login supplied a 394x111 PNG with white stacked-ellipse emblem on a navy field and separate wordmark. This run re-read that exact preserved raster. It supports the inverse presentation idea only; its contours are not traced and no exact navy color is inferred for the final. Final field deliberately uses original vector blue #0D47A1 under the direct user authorization.",
+          "url": "https://dbo.bankperm.ru:10443/ibank2/"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/GAkTxwr2-g93KPkdmYqViStdXOCvs-pg3GYkqFUazfIh1Wp8TWw_PtqDQ_cyTCq3roe3SrO6MtzqDCxBVHvgVw=s0-br30",
+          "checkedAt": "2026-10-23T06:50:14Z",
+          "independenceGroup": "Bank Perm official publications",
+          "kind": "official",
+          "observation": "Preserved prior-run observation, not a fresh app-listing retrieval: the official bank service page linked this exact Android package; the listing updated October 16, 2026 and its downloaded original 512x512 PNG showed white stacked-ellipse emblem on navy rounded square with separate name below. This run re-read the preserved PNG. It is supporting visual context, not vector source, an official circular icon, a native Android test or exact final paint provenance. The new circular field and white recolor are explicitly reviewer/user-directed catalog adaptations.",
+          "url": "https://play.google.com/store/apps/details?id=com.bifit.mobile.corporate.bankperm"
+        }
+      ],
+      "status": "open",
+      "supersedesMR": "https://github.com/zenmoney/banks/pull/151",
+      "taskKey": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
+      "taskResponse": [
+        {
+          "quote": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
+          "resolution": "Prepared and read the exact genuine-original-vector complete white symbol on a #0D47A1 blue circular field as one static icon on light/dark backgrounds, under the user's explicit recoloring authorization. It preserves corrected actual-emblem centering, uniform original proportions, holes, bands and terminals, omits only separate bank-name lettering and visibly differs from PR151's rejected transparent-positive design. Both exact Compose Desktop theme frames, independent-source/final pairs, full source and Desktop-derived 24/32/48px diagnostics were inspected and remain legible. No automatic per-theme swap, bank-supplied original negative vector or mobile-platform pass is claimed.",
+          "url": "https://github.com/zenmoney/banks/pull/151#issuecomment-6345970591"
+        }
+      ],
+      "verification": {
+        "checkedAt": "2026-10-23T08:57:20.550497Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856",
+        "xmlSha256": "d0e13637dd602d58f68435e8518a5f9d955ef87b0737cd9cb485e12f727c9ef6"
+      }
     }
   ],
   "schemaVersion": 1,
   "taskResults": [
     {
+      "history": [
+        {
+          "key": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
+          "outcome": "unconfirmed",
+          "processedAt": "2026-10-23T06:53:19.967028Z",
+          "reason": "PR151's complete reviewer requirement is preserved: «Сделать инверсию цветов фона и иконки для светлой и темной темы». Fresh research confirms that Bank Perm actually uses an inverse white emblem on a navy field in its current official internet-bank login and official linked Android app. However, those retrieved inverse assets are PNG rasters, not eligible original vectors. The fresh genuine original website SVG is the same positive transparent #0D47A1 lockup used by the rejected proposal; reusing it without inversion would not resolve the request. The independent Finuslugi SVG is also positive navy-on-white and its raster-like construction does not establish original-vector provenance. No eligible original vector carrying the inverse variant's colors was obtained from the inspected official/independent routes. The discovered APK container route was unavailable through both verified HTTPS and normal headless Chromium because its host did not resolve. This is an original-vector/provenance gap for the requested repair, not a claim that the bank has no logo or no official inverse presentation. The frozen base still has no accepted icon.svg; no new asset is proposed.",
+          "review": {
+            "action": "repair",
+            "assessedAt": "2026-10-23T06:30:40.218873Z",
+            "key": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
+            "rationale": "The complete saved PR151 discussion contains its full first-addition proposal body and one reviewer comment. VictoryKod requests inversion of the background and icon colors for light and dark themes. Preserve that full requirement: investigate current official source-supported inverted/negative variants and the actual single-asset renderer/export constraints before claiming a repair. The proposal body described a transparent #0D47A1 monogram whose blue is subdued on dark; closure alone is not a keep-current decision. This review authorizes investigation, not unsupported recoloring, invented backing, dynamic theming, or a claim that an unchanged rejected asset resolves the request. No selected attachment or exact replacement URL is supplied by the reviewer.",
+            "requirements": [
+              {
+                "quote": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
+                "url": "https://github.com/zenmoney/banks/pull/151#issuecomment-6345970591"
+              }
+            ],
+            "selectedUrl": null,
+            "sources": [
+              {
+                "attachments": [],
+                "author": {
+                  "__typename": "User",
+                  "login": "VictoryKod"
+                },
+                "body": "Сделать инверсию цветов фона и иконки для светлой и темной темы ",
+                "bodySha256": "f648bf202c89cd24c0e59a8ec7f8b45a994a7f4fed330d88a322e866dea01ad6",
+                "createdAt": "2026-10-22T16:35:57Z",
+                "editor": {
+                  "__typename": "User",
+                  "login": "VictoryKod"
+                },
+                "kind": "comment",
+                "lastEditedAt": null,
+                "nodeId": "IC_kwDOU2-MbM8AAAABej_Tnw",
+                "text": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
+                "textSha256": "c246ddf0818a46448439c9d6197277a9f737d421f6badfab12a6cc1096136e07",
+                "trust": {
+                  "login": "VictoryKod",
+                  "permission": "write"
+                },
+                "url": "https://github.com/zenmoney/banks/pull/151#issuecomment-6345970591"
+              }
+            ]
+          },
+          "sourceMR": {
+            "base": "main",
+            "baseCommit": "bdf044fea570e6d9b4e543da9db069ad9dd11ae4",
+            "bodySha256": "e831e80919f24d274723194d5b39c9f3bb0ab4a5598353d9a450dd4fa1241172",
+            "head": "bank-icon-maintenance/technical-20261016-4517",
+            "headCommit": "eb5a4436a2c4feea6bcb20449ac3fa448d6b59ba",
+            "number": 151,
+            "state": "closed",
+            "target": "zenmoney/banks",
+            "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+            "url": "https://github.com/zenmoney/banks/pull/151"
+          },
+          "task": "rework-rejected"
+        }
+      ],
       "key": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
-      "outcome": "unconfirmed",
-      "processedAt": "2026-10-23T06:53:19.967028Z",
-      "reason": "PR151's complete reviewer requirement is preserved: «Сделать инверсию цветов фона и иконки для светлой и темной темы». Fresh research confirms that Bank Perm actually uses an inverse white emblem on a navy field in its current official internet-bank login and official linked Android app. However, those retrieved inverse assets are PNG rasters, not eligible original vectors. The fresh genuine original website SVG is the same positive transparent #0D47A1 lockup used by the rejected proposal; reusing it without inversion would not resolve the request. The independent Finuslugi SVG is also positive navy-on-white and its raster-like construction does not establish original-vector provenance. No eligible original vector carrying the inverse variant's colors was obtained from the inspected official/independent routes. The discovered APK container route was unavailable through both verified HTTPS and normal headless Chromium because its host did not resolve. This is an original-vector/provenance gap for the requested repair, not a claim that the bank has no logo or no official inverse presentation. The frozen base still has no accepted icon.svg; no new asset is proposed.",
+      "outcome": "published",
+      "processedAt": "2026-10-23T08:46:10.292610Z",
+      "publication": {
+        "candidateIconHash": "69b4551b8aac331667d48f0ee2c6c12c44b5d1a3a98d2e24c6dd24d2f2030856",
+        "mr": {
+          "base": "main",
+          "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+          "bodySha256": "94638273e185c789620f7524afd2087507467b58c0243461250771a4f567b787",
+          "head": "bank-icon-maintenance/task-1bd46b2d10d8-4517",
+          "headCommit": "9a934ca0a77a0102cbf59d8f87544e5644de26ed",
+          "number": 163,
+          "observedAt": "2026-10-23T09:03:46.713296Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: АКБ \"Пермь\" (Company.id 4517)",
+          "url": "https://github.com/zenmoney/banks/pull/163"
+        }
+      },
+      "reason": "PR151 asks «Сделать инверсию цветов фона и иконки для светлой и темной темы». The full freshly bound discussion was read. A new direct user instruction expressly authorizes inversion/recoloring for ID4517: «сделай такой инверс раз редактор просит, это его ответсвенность, можем сделать для 4517 5192 16204». The freshly fetched original official BankPerm-Logo.svg provides the genuine complete emblem geometry. Select it for a disclosed white-emblem/source-blue circular-field adaptation, not as an already-negative source SVG or proof of unchanged source paint. The user/reviewer-directed paint change resolves the prior source-paint-only obstacle without tracing the official login/app rasters. The pinned base has no accepted icon; this remains a first addition, not current-icon verification or a rebrand.",
       "review": {
         "action": "repair",
-        "assessedAt": "2026-10-23T06:30:40.218873Z",
+        "assessedAt": "2026-10-23T08:41:26.385651Z",
         "key": "1bd46b2d10d8c785a20df4b50d27dffc9e41830cb9b6247f56f7b141c1c7f436",
-        "rationale": "The complete saved PR151 discussion contains its full first-addition proposal body and one reviewer comment. VictoryKod requests inversion of the background and icon colors for light and dark themes. Preserve that full requirement: investigate current official source-supported inverted/negative variants and the actual single-asset renderer/export constraints before claiming a repair. The proposal body described a transparent #0D47A1 monogram whose blue is subdued on dark; closure alone is not a keep-current decision. This review authorizes investigation, not unsupported recoloring, invented backing, dynamic theming, or a claim that an unchanged rejected asset resolves the request. No selected attachment or exact replacement URL is supplied by the reviewer.",
+        "rationale": "Read the complete freshly bound PR151 body and comment. Repair the rejected transparent positive-blue presentation with the original complete Bank Perm emblem contours rendered white on a blue circular catalog field, usable as one static asset on both light and dark application backgrounds; the repository consumes one static icon.svg, so no unsupported theme-switching mechanism is implied. Preserve the corrected actual-emblem bounds, original wide proportions, both complete rings/bands/holes and terminal details; omit only the separate БАНК ПЕРМЬ wordmark. New direct user authorization explicitly overrides the prior source-paint restriction: «сделай такой инверс раз редактор просит, это его ответсвенность, можем сделать для 4517 5192 16204». This authorizes a disclosed reviewer/user-directed white recolor and added blue field, not a claim that the official positive SVG supplied negative paint or that an original inverse SVG was found. Use source blue #0D47A1 for the field; prior official inverse login/app rasters support the presentation idea but are not vector geometry or a reason to invent an exact navy value. Keep original downloaded SVG untouched, do not trace raster, and inspect the prepared complete vector on both themes before later coordinator Desktop/platform review. No publication or merge is performed by this worker.",
         "requirements": [
           {
             "quote": "Сделать инверсию цветов фона и иконки для светлой и темной темы",
