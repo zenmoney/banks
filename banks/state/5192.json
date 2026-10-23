@@ -543,6 +543,8 @@
       }
     },
     {
+      "acceptedHeadCommit": "a6981625dfb67e745d26d9d892116976894c93a5",
+      "acceptedIconHash": "6d104a3300e2f4efed7332a74c6ffdd90ea63a9d8b485433ce14d6f56a948ab3",
       "agentAssessment": {
         "path": "evidence/5192/assessed-ef58393fac9d621d207757a689cb6c7f22f523a34acff27b31837ea201c17a63.json",
         "sha256": "ef58393fac9d621d207757a689cb6c7f22f523a34acff27b31837ea201c17a63"
@@ -596,15 +598,54 @@
       "candidateIconHash": "6d104a3300e2f4efed7332a74c6ffdd90ea63a9d8b485433ce14d6f56a948ab3",
       "checkedAt": "2026-10-23T08:48:41.805341Z",
       "humanReview": "pending",
+      "mergeReceipt": {
+        "headCommit": "a6981625dfb67e745d26d9d892116976894c93a5",
+        "mergeCommit": "9d9ce0544f76c43990601bd4052753526bf38d96",
+        "mergedAt": "2026-10-23T11:44:54Z",
+        "method": "squash"
+      },
       "mr": {
         "base": "main",
         "baseCommit": "f37956957381d5596397bc6704aca74877807523",
         "bodySha256": "baf9322ab9ee4a240c32b4d948c401d08d2f098a6240e28b69e9050c7335c5ea",
+        "closedAt": "2026-10-23T11:44:54Z",
         "head": "bank-icon-maintenance/task-4d55d07e59f1-5192",
         "headCommit": "a6981625dfb67e745d26d9d892116976894c93a5",
+        "mergeCommit": "9d9ce0544f76c43990601bd4052753526bf38d96",
+        "mergedAt": "2026-10-23T11:44:54Z",
         "number": 164,
-        "observedAt": "2026-10-23T09:05:33.907013Z",
-        "state": "open",
+        "observedAt": "2026-10-23T11:44:54Z",
+        "state": "merged",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+        "url": "https://github.com/zenmoney/banks/pull/164"
+      },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+          "bodySha256": "baf9322ab9ee4a240c32b4d948c401d08d2f098a6240e28b69e9050c7335c5ea",
+          "head": "bank-icon-maintenance/task-4d55d07e59f1-5192",
+          "headCommit": "a6981625dfb67e745d26d9d892116976894c93a5",
+          "number": 164,
+          "observedAt": "2026-10-23T09:05:33.907013Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
+          "url": "https://github.com/zenmoney/banks/pull/164"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "f37956957381d5596397bc6704aca74877807523",
+        "bodySha256": "baf9322ab9ee4a240c32b4d948c401d08d2f098a6240e28b69e9050c7335c5ea",
+        "closedAt": "2026-10-23T11:44:54Z",
+        "head": "bank-icon-maintenance/task-4d55d07e59f1-5192",
+        "headCommit": "a6981625dfb67e745d26d9d892116976894c93a5",
+        "mergeCommit": "9d9ce0544f76c43990601bd4052753526bf38d96",
+        "mergedAt": "2026-10-23T11:44:54Z",
+        "number": 164,
+        "state": "merged",
         "target": "zenmoney/banks",
         "title": "Bank icon: КБ \"Ренессанс Кредит\" (Company.id 5192)",
         "url": "https://github.com/zenmoney/banks/pull/164"
@@ -659,7 +700,7 @@
           "url": "https://github.com/zenmoney/banks/pull/154#issuecomment-6345921406"
         }
       ],
-      "status": "open",
+      "status": "accepted",
       "supersedesMR": "https://github.com/zenmoney/banks/pull/154",
       "taskKey": "4d55d07e59f128813dcad8b323051e732c7cf4da40766356fb81e2be7d343f30",
       "taskResponse": [
