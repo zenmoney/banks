@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:16:24.757981Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "df3d788f5ad2d2a01d472224e6efe1e57cc0067f4b94ae8c2ecd430acb8a1b08",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:16:24.757981Z",
+      "reason": "No usable provenance-established original vector for the current orange BiG monogram was retrieved. The bank's Spanish app shows that mark, but only as a raster; the promising third-party AI file is a PDF container unsupported by source-material and its provenance and actual vector geometry remain unverified. The downloaded SVG is a different full-name wordmark, not the app mark, and is unsuitable in a square icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
