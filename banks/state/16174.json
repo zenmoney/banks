@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:53:43.672119Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "217409ca18e682b24e8919303365aa78e43c6ffb25a8ad7697123d951bd13780",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:53:43.672119Z",
+      "reason": "No original vector asset was obtained for this first addition. The official site failed verified HTTPS retrieval and browser navigation, while the independent brand listing returned HTTP 403. Search did not identify a direct SVG. Current use, the variant and square-cell suitability remain unverified; a search snippet is not asset evidence.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
