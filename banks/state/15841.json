@@ -1,0 +1,138 @@
+{
+  "lastAttemptAt": "2026-10-29T14:02:57.410019Z",
+  "lastAttemptResult": "unconfirmed",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [
+          {
+            "path": "evidence/15841/progress-24.png",
+            "sha256": "29135bed5426790fc30b690f8106c325756b3409c8104cb1390dfdb57efc422b"
+          },
+          {
+            "path": "evidence/15841/desktop-candidate/bundle.json",
+            "sha256": "a00f773cc165b1681f8fdcff609963504d05badafb11516d80a035a8a3ec3c92"
+          }
+        ],
+        "finishedAt": "2026-10-29T14:02:57.410019Z",
+        "outcome": "unconfirmed",
+        "reason": "The official progress-bar vector renders faithfully at full size, but its thin outline nearly disappears in the 24px preview; no source-supported legible alternative was established. Further research reservations are blocked after the candidate attempt.",
+        "stage": "render"
+      },
+      "proposal": {
+        "assessment": {
+          "currency": {
+            "basis": "Official 2024 renewal describes the new mark and the current Danish site uses it.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "Official Danish site identifies Danske Bank and links the source mark.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "Nordic Brief independently reports the rebrand; official bank sources establish current site use.",
+          "uncertainties": [],
+          "variant": {
+            "basis": "The official standalone negative progress-bar vector is also displayed by the official app; square adaptation and renderer checks remain.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": "c95eb995b3c27f196f1eb20d0b50969605fdfa67ac37c0caf482bb7ae099b424",
+        "candidate": {
+          "iconHash": "827f4ca63cc16001f17e72f5ed84e395ba15764afbc322f981b6f83611a2b5df",
+          "path": "evidence/15841/research-babc7847fc0c4e8f9680ad3491aa59c5/fetch-3e9a3c238b54492c983e99bffc72faa7/attempt-1/body.bin",
+          "rationale": "Official standalone progress bar supports replacement of the older D mark; final visual suitability remains subject to render review.",
+          "retrieval": {
+            "path": "evidence/15841/research-babc7847fc0c4e8f9680ad3491aa59c5/fetch-3e9a3c238b54492c983e99bffc72faa7/receipt.json",
+            "sha256": "c5dfea127a8cf4d9098b48421ecb6cb22cb7437652542871083c749958c148e4"
+          },
+          "sourceAssetUrl": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43",
+          "sourceMaterial": {
+            "path": "evidence/15841/source-material-e67bbc15a2e8474d9432c9529d6cd1d2/material.json",
+            "sha256": "5e21eadcfcdd11db91527ae7f2d1eea2e57746c1e3008f954dd09e8182fc15de"
+          },
+          "sourceUrl": "https://danskebank.dk/privat"
+        },
+        "candidateIconHash": "827f4ca63cc16001f17e72f5ed84e395ba15764afbc322f981b6f83611a2b5df",
+        "checkedAt": "2026-10-29T14:00:32.719136Z",
+        "reason": "Danske Bank describes and uses a new progress-bar identity, differing visibly from the existing D icon.",
+        "sources": [
+          {
+            "assetUrl": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43",
+            "checkedAt": "2026-10-29T13:55:38.710463Z",
+            "independenceGroup": "Danske Bank",
+            "kind": "official",
+            "observation": "official current Danish banking site; footer links standalone symbol SVG with Danske Bank alt text",
+            "url": "https://danskebank.dk/privat"
+          },
+          {
+            "assetUrl": null,
+            "checkedAt": "2026-10-29T13:56:17.114985Z",
+            "independenceGroup": "Danske Bank",
+            "kind": "official",
+            "observation": "official standalone source SVG, 391 x 92.2 viewBox, white outer rectangular shape and #002346 inner rectangle; exported from Adobe Illustrator per original comment",
+            "url": "https://danskebank.dk/-/media/danske-bank-images/logo/danske-bank-progress-bar-negative-svg.svg?iar=0&rev=db20f02c885c48b58ff08a3784e27fb6&hash=D7B96811144D1BC3B7CFC0A71CEE5C43"
+          },
+          {
+            "assetUrl": null,
+            "checkedAt": "2026-10-29T13:56:09.750587Z",
+            "independenceGroup": "Danske Bank",
+            "kind": "official",
+            "observation": "official 2024 renewal announcement, updated 23 April 2025 after website implementation; explicitly names the progress bar as new symbol and describes simplified logo, palette, and gradual rollout",
+            "url": "https://danskebank.com/news-and-insights/news-archive/news/2024/02092024"
+          },
+          {
+            "assetUrl": null,
+            "checkedAt": "2026-10-29T13:56:46.518895Z",
+            "independenceGroup": "Nordic Brief",
+            "kind": "third-party",
+            "observation": "independent design report corroborates bank-name separation from logo boxes and new progress bar extracted from former logo geometry",
+            "url": "https://nordicbrief.com/projects/kontrapunkt-evolves-danske-bank-s-identity-it-originally-designed-25-years-ago"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "bf63d93c441c478d085a9cf9b55647e7ade90d66ee2db27625a44b13da695107"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "827f4ca63cc16001f17e72f5ed84e395ba15764afbc322f981b6f83611a2b5df",
+        "evidence": [
+          {
+            "path": "evidence/15841/progress-24.png",
+            "sha256": "29135bed5426790fc30b690f8106c325756b3409c8104cb1390dfdb57efc422b"
+          },
+          {
+            "path": "evidence/15841/desktop-candidate/bundle.json",
+            "sha256": "a00f773cc165b1681f8fdcff609963504d05badafb11516d80a035a8a3ec3c92"
+          }
+        ],
+        "finishedAt": "2026-10-29T14:02:57.410019Z",
+        "outcome": "unconfirmed",
+        "reason": "The official progress-bar vector renders faithfully at full size, but its thin outline nearly disappears in the 24px preview; no source-supported legible alternative was established. Further research reservations are blocked after the candidate attempt.",
+        "stage": "render"
+      },
+      "history": [
+        {
+          "key": "bf63d93c441c478d085a9cf9b55647e7ade90d66ee2db27625a44b13da695107",
+          "outcome": "candidate",
+          "processedAt": "2026-10-29T14:00:32.719136Z",
+          "reason": "Danske Bank describes and uses a new progress-bar identity, differing visibly from the existing D icon.",
+          "review": null,
+          "sourceMR": null,
+          "task": "update-existing"
+        }
+      ],
+      "key": "bf63d93c441c478d085a9cf9b55647e7ade90d66ee2db27625a44b13da695107",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:02:57.410019Z",
+      "reason": "The official progress-bar vector renders faithfully at full size, but its thin outline nearly disappears in the 24px preview; no source-supported legible alternative was established. Further research reservations are blocked after the candidate attempt.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
