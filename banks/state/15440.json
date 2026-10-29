@@ -1,0 +1,141 @@
+{
+  "lastAttemptAt": "2026-10-29T07:57:49.499928Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15440/assessed-c709028a46ab36ec3f55da2527f8f407278d43e7d02a29b3152e1e59e0309e5b.json",
+        "sha256": "c709028a46ab36ec3f55da2527f8f407278d43e7d02a29b3152e1e59e0309e5b"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The black-and-white mark is displayed on the active official website; its announcement supports the change in website/internet banking. The separately described mobile app uses dark green.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata seb.lv and LV match the current Latvian bank website and its own labelled header emblem.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both identity/brand observations are the same official publisher, not independent sources; the claim concerns the bank's own current website and directly observed official SVG.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The source is a compact standalone SEB lettermark without accompanying caption; suitable initial candidate for square-cell testing. Its white uniform field and centered black emblem appear eligible plain-field type 1; circular adaptation is catalog presentation, not an observed official circular avatar.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3f3c4030a6306d440b33af5468998a7fbe96e330595bf540b9f234138ea19fe2.json",
+        "sha256": "3f3c4030a6306d440b33af5468998a7fbe96e330595bf540b9f234138ea19fe2"
+      },
+      "baseIconHash": "15a081135dd613fb1520aea5c12c723bb96d9ba88322a22d54bcf5d6ccb21e16",
+      "candidate": {
+        "detailsJudgement": "Original black letter shapes and separators are preserved; only uniform white field is changed from square to circle.",
+        "faithful": true,
+        "iconHash": "166db37c84200ecf470477f7c18cb84625936b276da499c412832e8e25aa384d",
+        "path": "evidence/15440/candidate-166db37c84200ecf470477f7c18cb84625936b276da499c412832e8e25aa384d.svg",
+        "proportionsJudgement": "Emblem keeps source size and proportions; complete lettermark is centered and fits within circle.",
+        "rationale": "Current official website replaced light green with black-on-white lettermark; exact rendered result matches that source.",
+        "role": "standalone bank lettermark",
+        "sha256": "166db37c84200ecf470477f7c18cb84625936b276da499c412832e8e25aa384d",
+        "sourceAssetUrl": "https://www.seb.lv/themes/custom/seb8/assets/images/SebLogo.svg",
+        "sourceUrl": "https://www.seb.lv/",
+        "transforms": [
+          "Replace separable plain white square field with same-color inscribed circle",
+          "Translate emblem horizontally by 0.012 source units for centering",
+          "Optimize source-preserving SVG"
+        ],
+        "variant": "Official website black on white; circular backing is catalog adaptation, not observed official avatar.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Green circle and white letters become white circle and black letters, matching current website variant."
+      },
+      "candidateIconHash": "166db37c84200ecf470477f7c18cb84625936b276da499c412832e8e25aa384d",
+      "checkedAt": "2026-10-29T07:57:49.499928Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "47d1488605a13f067e25b327c98d722ec97c2f688691ad7564c0304d298b59f8",
+        "head": "bank-icon-maintenance/15440",
+        "headCommit": "65f4fac2b85e6355814104efa81bf6c26ee71815",
+        "number": 172,
+        "observedAt": "2026-10-29T08:04:38.554700Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: SEB banka (Company.id 15440)",
+        "url": "https://github.com/zenmoney/banks/pull/172"
+      },
+      "reason": "The active Latvian bank's official homepage currently displays its original black SEB lettermark on white, unlike the pinned white-on-light-green icon. The bank announced replacing the light-green website/internet-bank logo with this black-and-white presentation, while also changing its separate mobile app icon to dark green. A visible supported color/presentation change justifies candidate preparation; it is not yet an approved final icon.",
+      "reviewPackage": {
+        "path": "evidence/15440/candidate-927db9b4caed1c21593152dbd5843ea4f934ff26dc1445d143eceda52d84182a.json",
+        "sha256": "927db9b4caed1c21593152dbd5843ea4f934ff26dc1445d143eceda52d84182a"
+      },
+      "sourceCandidate": {
+        "iconHash": "9225236effd32a49637bfe0ccbc3599aa20b10ebac5366c7e4b98924cfb828f1",
+        "path": "evidence/15440/research-db1639e0557f4125833b22b379c07579/fetch-aa7922627fac416e8494dc33016e979f/attempt-1/body.bin",
+        "rationale": "The bank's actual current official vector shows a black-on-white variant and its own announcement explains replacement of the earlier light-green website logo; the accepted icon is visually different. Retain source paths/paint, and separately assess type-1 backing and complete emblem fit.",
+        "retrieval": {
+          "path": "evidence/15440/research-db1639e0557f4125833b22b379c07579/fetch-aa7922627fac416e8494dc33016e979f/receipt.json",
+          "sha256": "3113ba57d48803cea704eb843a228c56d5bd0e16b15523a21552399375bf1fe0"
+        },
+        "sourceAssetUrl": "https://www.seb.lv/themes/custom/seb8/assets/images/SebLogo.svg",
+        "sourceUrl": "https://www.seb.lv/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.seb.lv/themes/custom/seb8/assets/images/SebLogo.svg",
+          "checkedAt": "2026-10-29T07:56:14Z",
+          "independenceGroup": "SEB Latvia official website",
+          "kind": "official",
+          "observation": "The Latvian bank homepage identifies this exact SVG as its header SEB logo. The original vector is a black SEB lettermark with vertical separators on a white square field, with no separate bank-name caption; its geometry is native paths in the official-served SVG. The page and SVG were retrieved separately over HTTPS. The pinned icon instead has white lettering on light-green circle.",
+          "url": "https://www.seb.lv/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:56:57Z",
+          "independenceGroup": "SEB Latvia official website",
+          "kind": "official",
+          "observation": "SEB Latvia's 26 March 2026 announcement says its light-green website and internet-bank logo would be replaced with the classic black-and-white logo, and that its mobile app icon had changed to dark green while retaining the SEB logo and Latvian flag. The live homepage shows the black-and-white version now. This is an explicitly channel-specific difference, not evidence that all green SEB marks are retired.",
+          "url": "https://www.seb.lv/info/pazinojumi/mainas-seb-bankas-logo-majaslapa-un-internetbanka"
+        }
+      ],
+      "status": "open",
+      "taskKey": "470b72ef11dbf3e453c5d7b374d76322e2e6a494374c63e423e0bbecd24e1bb8",
+      "verification": {
+        "checkedAt": "2026-10-29T08:00:36.294844Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "166db37c84200ecf470477f7c18cb84625936b276da499c412832e8e25aa384d",
+        "xmlSha256": "c9037b47577088cc2066a393db1960b78896b43b296207c5208be4ff3e24696b"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "470b72ef11dbf3e453c5d7b374d76322e2e6a494374c63e423e0bbecd24e1bb8",
+      "outcome": "published",
+      "processedAt": "2026-10-29T07:57:49.499928Z",
+      "publication": {
+        "candidateIconHash": "166db37c84200ecf470477f7c18cb84625936b276da499c412832e8e25aa384d",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "47d1488605a13f067e25b327c98d722ec97c2f688691ad7564c0304d298b59f8",
+          "head": "bank-icon-maintenance/15440",
+          "headCommit": "65f4fac2b85e6355814104efa81bf6c26ee71815",
+          "number": 172,
+          "observedAt": "2026-10-29T08:04:38.554700Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: SEB banka (Company.id 15440)",
+          "url": "https://github.com/zenmoney/banks/pull/172"
+        }
+      },
+      "reason": "The active Latvian bank's official homepage currently displays its original black SEB lettermark on white, unlike the pinned white-on-light-green icon. The bank announced replacing the light-green website/internet-bank logo with this black-and-white presentation, while also changing its separate mobile app icon to dark green. A visible supported color/presentation change justifies candidate preparation; it is not yet an approved final icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
