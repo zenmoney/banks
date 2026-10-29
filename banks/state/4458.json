@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-02T16:26:56.536795Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:19:39.457543Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "acceptedHeadCommit": "4f06b0e9da99c41e04bdea171b6d71bb095bf217",
@@ -230,5 +230,16 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "6473bbf80abf157139a1d37b7659bdb2b6abb806586687c3d34c7ce1260247ac",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:19:39.457543Z",
+      "reason": "The regulator confirms the bank's 2018 licence withdrawal. An independent logo directory provides a name-labelled lockup whose five-point emblem resembles the accepted SVG, but the directory is undated and its dark burgundy preview differs from the accepted #b52e1e red. Its downloadable original-vector archive contains EPS, CDR and AI, not an extractable SVG; artwork provenance and period have not been established. The official website returned 403. No suitable supported original SVG, exact color equivalence or required current-icon renders were verified; similarity alone does not establish unchanged.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
 }
