@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T09:30:34.164798Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "5a0e513affa95cd865e579ce6bf6b170f79a5eadcd6b3a531dc905e0a4e11a6d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T09:30:34.164798Z",
+      "reason": "The official business site shows an ornamented gradient app image while its linked Google Play listing shows a black app icon; neither establishes equivalence to the accepted gradient circle. No usable original vector for the app presentation was established. The official sprite symbol extraction is blocked by stylesheet and currentColor; neither raster can be used as a replacement.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
