@@ -1,0 +1,156 @@
+{
+  "lastAttemptAt": "2026-10-29T07:28:04.146958Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/5156/assessed-99b79ee28bc7c3ada2023af20701ba483721ddfc94418bb5a7fb1facb4859a90.json",
+        "sha256": "99b79ee28bc7c3ada2023af20701ba483721ddfc94418bb5a7fb1facb4859a90"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The currently operating official homepage links the original favicon as its logo; regulator register marks the bank active.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "RU metadata names Райффайзенбанк and raiffeisen.ru, whose legal details and Bank of Russia register agree on the Russian legal entity and OGRN.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank of Russia independently corroborates entity and operational status; homepage, legal details and vector assets are one bank source group.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Bank-served original vector is a centered, standalone, unboxed dark emblem on a plain yellow background; suitable for square-cell presentation without separate text. The rounded-square source background is separable and can be adapted to a circular catalog field without changing the emblem.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/3671ad89a28b2f49f519f1b0c3c1abc4f7f12b80a648d070a324c1174ae860d8.json",
+        "sha256": "3671ad89a28b2f49f519f1b0c3c1abc4f7f12b80a648d070a324c1174ae860d8"
+      },
+      "baseIconHash": "05c49c92166d232efbdd669d17c87853534a5d44c5ae755ffa15c7f35a288959",
+      "candidate": {
+        "detailsJudgement": "Full source and source/final pairs on both themes show the emblem contours and charcoal/yellow colors preserved; the backing shape differs as an explicit catalog adaptation.",
+        "faithful": true,
+        "iconHash": "96e97367f13fb623c5d0ed9f16e853e39f946703e2ee166c3e41005095b02a4d",
+        "path": "evidence/5156/candidate-96e97367f13fb623c5d0ed9f16e853e39f946703e2ee166c3e41005095b02a4d.svg",
+        "proportionsJudgement": "The entire centered emblem fits within the circle without clipping and remains legible at the rendered size.",
+        "rationale": "Current official bank favicon replaces the old boxed symbol with a larger unboxed emblem and updated source colors.",
+        "role": "Standalone bank mark",
+        "sha256": "96e97367f13fb623c5d0ed9f16e853e39f946703e2ee166c3e41005095b02a4d",
+        "sourceAssetUrl": "https://www.raiffeisen.ru/fav/icon.svg",
+        "sourceUrl": "https://www.raiffeisen.ru/",
+        "transforms": [
+          "Replace separable plain yellow rounded-square background with a same-color centered circle; preserve complete centered original emblem.",
+          "SVGO 4.1.0 config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 734 to 580 bytes, optimized trial selected after reference and Compose comparison."
+        ],
+        "variant": "Dark crossed horse heads on yellow, circular catalog adaptation of the official rounded square",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The previous yellow icon has a smaller emblem enclosed by a square outline; the new icon is unboxed and uses a stronger yellow and charcoal."
+      },
+      "candidateIconHash": "96e97367f13fb623c5d0ed9f16e853e39f946703e2ee166c3e41005095b02a4d",
+      "checkedAt": "2026-10-29T07:28:04.146958Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "c5d23b9ba5966ef7358a7aad294a2c99eed81763276e2143990a91bbdce9e00f",
+        "head": "bank-icon-maintenance/task-55f568ccb517-5156",
+        "headCommit": "80b43308743f65bb7c24ebf6556679ae874aa775",
+        "number": 167,
+        "observedAt": "2026-10-29T07:31:09.691782Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Райффайзенбанк (Company.id 5156)",
+        "url": "https://github.com/zenmoney/banks/pull/167"
+      },
+      "reason": "The operating Russian bank's official vector favicon has a large unboxed crossed-horse-head mark and yellow and dark colors distinct from the accepted smaller emblem enclosed in a thin square; this is a visible source-supported geometry and color correction.",
+      "reviewPackage": {
+        "path": "evidence/5156/candidate-d4389ef16bcbb65aed3de98ddca16cf28dda759cb3f0c6ba513ae78713b4b873.json",
+        "sha256": "d4389ef16bcbb65aed3de98ddca16cf28dda759cb3f0c6ba513ae78713b4b873"
+      },
+      "sourceCandidate": {
+        "iconHash": "d10befdbba057b662cb7f004d9e8d38c6c839abc1d9430e72a6179f29f1b4c27",
+        "path": "evidence/5156/research-d56af7bbf8e549bd82e58c2381718a2b/fetch-2d82c3c6def04eab8ab05c7577d03d77/attempt-1/body.bin",
+        "rationale": "Official original vector replaces old boxed variant with current unboxed emblem and source-supported yellow/charcoal colors. Circle adaptation is catalog presentation, not claimed official avatar.",
+        "retrieval": {
+          "path": "evidence/5156/research-d56af7bbf8e549bd82e58c2381718a2b/fetch-2d82c3c6def04eab8ab05c7577d03d77/receipt.json",
+          "sha256": "47f1bf46fc159f71a64602cc39c47f82cb78dad8efbd2a0de376196e98739a0f"
+        },
+        "sourceAssetUrl": "https://www.raiffeisen.ru/fav/icon.svg",
+        "sourceUrl": "https://www.raiffeisen.ru/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.raiffeisen.ru/fav/icon.svg",
+          "checkedAt": "2026-10-29T07:26:14Z",
+          "independenceGroup": "Raiffeisen Russia official site",
+          "kind": "official",
+          "observation": "Homepage identifies Райффайзен Банк and links this SVG as favicon and JSON-LD logo. The bank-served original vector has yellow background and a dark unboxed standalone crossed-horse-head emblem.",
+          "url": "https://www.raiffeisen.ru/"
+        },
+        {
+          "assetUrl": "https://www.raiffeisen.ru/static/common/initial/LightHeader/Logo_retail.svg",
+          "checkedAt": "2026-10-29T07:26:11Z",
+          "independenceGroup": "Raiffeisen Russia official site",
+          "kind": "official",
+          "observation": "Homepage retail header references a separate unboxed dark standalone emblem vector. This is the same bank source, not independent.",
+          "url": "https://www.raiffeisen.ru/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:26:11Z",
+          "independenceGroup": "Raiffeisen Russia official site",
+          "kind": "official",
+          "observation": "Bank details identify АО Райффайзенбанк, OGRN 1027739326449 and Bank of Russia license 3292.",
+          "url": "https://www.raiffeisen.ru/about/requisites/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:26:27Z",
+          "independenceGroup": "Bank of Russia",
+          "kind": "third-party",
+          "observation": "Bank of Russia register independently identifies АО Райффайзенбанк, OGRN 1027739326449, registration 3292, active status and universal banking licence.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1027739326449"
+        }
+      ],
+      "status": "open",
+      "taskKey": "55f568ccb5177204cf71a7ea42913dcc8e9749d2b0e7b53843eee187a1d0ff6b",
+      "verification": {
+        "checkedAt": "2026-10-29T07:29:39.251256Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "96e97367f13fb623c5d0ed9f16e853e39f946703e2ee166c3e41005095b02a4d",
+        "xmlSha256": "32303fae945cb5ef26d98f559d87667cc72a6a5cf0d57ba7c481e464221d8966"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "55f568ccb5177204cf71a7ea42913dcc8e9749d2b0e7b53843eee187a1d0ff6b",
+      "outcome": "published",
+      "processedAt": "2026-10-29T07:28:04.146958Z",
+      "publication": {
+        "candidateIconHash": "96e97367f13fb623c5d0ed9f16e853e39f946703e2ee166c3e41005095b02a4d",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "c5d23b9ba5966ef7358a7aad294a2c99eed81763276e2143990a91bbdce9e00f",
+          "head": "bank-icon-maintenance/task-55f568ccb517-5156",
+          "headCommit": "80b43308743f65bb7c24ebf6556679ae874aa775",
+          "number": 167,
+          "observedAt": "2026-10-29T07:31:09.691782Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Райффайзенбанк (Company.id 5156)",
+          "url": "https://github.com/zenmoney/banks/pull/167"
+        }
+      },
+      "reason": "The operating Russian bank's official vector favicon has a large unboxed crossed-horse-head mark and yellow and dark colors distinct from the accepted smaller emblem enclosed in a thin square; this is a visible source-supported geometry and color correction.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
