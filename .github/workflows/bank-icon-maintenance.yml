@@ -1,0 +1,118 @@
+name: Bank icon maintenance checks
+
+on:
+  pull_request:
+    paths:
+      - '.agents/skills/bank-icon-maintenance/**'
+      - 'icon-catalog/**'
+      - 'svgo.config.mjs'
+      - '.github/workflows/bank-icon-maintenance.yml'
+  push:
+    branches: [main]
+    paths:
+      - '.agents/skills/bank-icon-maintenance/**'
+      - 'icon-catalog/**'
+      - 'svgo.config.mjs'
+      - '.github/workflows/bank-icon-maintenance.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bank-icon-maintenance-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  contracts:
+    name: Full local suite
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Install test tools outside the checkout
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends python3 python3-venv librsvg2-bin
+          rsvg-convert --version
+          /usr/bin/python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/python" -m pip install -r .agents/skills/bank-icon-maintenance/requirements.txt
+          echo "$RUNNER_TEMP/venv/bin" >> "$GITHUB_PATH"
+          npm install --prefix "$RUNNER_TEMP/svgo" --ignore-scripts --no-audit --no-fund --save-exact svgo@4.0.2
+          echo "SVGO_BINARY=$RUNNER_TEMP/svgo/node_modules/.bin/svgo" >> "$GITHUB_ENV"
+      - name: Check configuration and run all local contract tests
+        shell: bash
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          unset BANK_ICON_PUBLICATION_POLICY BANK_ICON_PUBLICATION_POLICY_SHA256
+          test "$("$SVGO_BINARY" --version)" = '4.0.2'
+          node --check svgo.config.mjs
+          python -m unittest discover -s .agents/skills/bank-icon-maintenance/tests -p 'test_*.py' -v 2>&1 | tee "$RUNNER_TEMP/maintenance-tests.log"
+      - name: Report validation and verify tracked files stayed unchanged
+        if: always()
+        shell: bash
+        run: |
+          if test -f "$RUNNER_TEMP/maintenance-tests.log"; then
+            tail -n 8 "$RUNNER_TEMP/maintenance-tests.log" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          git diff --exit-code HEAD
+      - name: Retain actual test logs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: maintenance-tests
+          path: ${{ runner.temp }}/maintenance-tests.log
+          retention-days: 7
+
+  render-smoke:
+    name: Real Compose update and first addition
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@cf277c60eb25467037889841efdb72551f06f6c3 # v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Install Python dependencies outside the checkout
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends python3 python3-venv
+          /usr/bin/python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/python" -m pip install -r .agents/skills/bank-icon-maintenance/requirements.txt
+          echo "$RUNNER_TEMP/venv/bin" >> "$GITHUB_PATH"
+      - name: Exercise pinned generator and real offscreen Compose export
+        shell: bash
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          unset BANK_ICON_PUBLICATION_POLICY BANK_ICON_PUBLICATION_POLICY_SHA256
+          python .agents/skills/bank-icon-maintenance/scripts/render_smoke.py \
+            --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/render-smoke" \
+            --allow-build-downloads --timeout 600
+      - name: Retain render diagnostics and exact evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: real-compose-smoke
+          path: |
+            ${{ runner.temp }}/render-smoke/*.log
+            ${{ runner.temp }}/render-smoke/smoke.json
+            ${{ runner.temp }}/render-smoke/update-base/**
+            ${{ runner.temp }}/render-smoke/update-final/**
+            ${{ runner.temp }}/render-smoke/addition-final/**
+          retention-days: 7
+      - name: Verify source checkout stayed unchanged
+        if: always()
+        run: git diff --exit-code HEAD
