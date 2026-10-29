@@ -1,0 +1,147 @@
+{
+  "lastAttemptAt": "2026-10-29T08:02:04.105743Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15555/assessed-fe19c307f35910ad19a7c49b9dde1b7f91b8d06cce76008fee46636cc6661844.json",
+        "sha256": "fe19c307f35910ad19a7c49b9dde1b7f91b8d06cce76008fee46636cc6661844"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The active UAE banking page displays this variant in its footer as observed on 2026-10-29.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official UAE banking page identifies Standard Chartered and uses the same emblem as the bank-hosted SVG.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The UAE homepage establishes regional use and the bank-hosted asset supplies original vector geometry. They are both Standard Chartered sources, not independent publishers; an agency case study fetch failed and is not used as corroboration.",
+        "uncertainties": [
+          "Precise transition date and baseline attribution are not established.",
+          "Extraction fidelity, final theme and small-size rendering remain to be verified."
+        ],
+        "variant": {
+          "basis": "The four colored source paths form the complete standalone transparent symbol. The asset is a full logo lockup, not a standalone app icon; text must be excluded without altering the emblem. No circular official avatar or backing was observed.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ffe4b92b7a8fde911f7080e83fadef0fbdb6db9aa856df6a7af04c92866436a1.json",
+        "sha256": "ffe4b92b7a8fde911f7080e83fadef0fbdb6db9aa856df6a7af04c92866436a1"
+      },
+      "baseIconHash": "e3fe66b22bff76862a662033349da868c73164b117c11312de47b591fe9bc9bb",
+      "candidate": {
+        "detailsJudgement": "I inspected the full original source and cropped original/final pairs on both backgrounds. The two main diagonal ribbon strokes, both detached rounded blue/green ends, internal gaps, colors, transparency and relative positions are preserved; no visual clipping or loss of emblem detail was observed.",
+        "faithful": true,
+        "iconHash": "d98ecabf13be6ce9ba0c1219fbcb55fcc748f0582e749c8704c018a1942342c8",
+        "path": "evidence/15555/candidate-d98ecabf13be6ce9ba0c1219fbcb55fcc748f0582e749c8704c018a1942342c8.svg",
+        "proportionsJudgement": "The transparent emblem is centered in a square and maintains source proportions, with detached elements intact. Both desktop themes are legible; resized 24, 32 and 48 pixel diagnostics retain recognizable blue/green shape, with expected detail reduction at 24 pixels. Those diagnostics are resized desktop images, not native mobile tests.",
+        "rationale": "The official UAE banking homepage displays the current blue/green emblem, whose geometry, detached elements and colors differ visibly from the accepted catalog icon. The source is the bank's original SVG lockup.",
+        "role": "symbol",
+        "sha256": "d98ecabf13be6ce9ba0c1219fbcb55fcc748f0582e749c8704c018a1942342c8",
+        "sourceAssetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+        "sourceUrl": "https://www.sc.com/ae/",
+        "transforms": [
+          "Losslessly extracted the four colored emblem paths from the official full SVG lockup, omitted the separate text paths, and changed the viewport to a square viewBox -20.3 0 110 110 to center the whole emblem without stretching or recoloring; transparency is preserved.",
+          "SVGO 4.1.0, frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e, trial reduced 1969 bytes to 1111 bytes; optimized SHA-256 d98ecabf13be6ce9ba0c1219fbcb55fcc748f0582e749c8704c018a1942342c8 selected. Working and trial independently rendered on light and dark backgrounds appear visually equivalent; precision introduces small pixel differences. Exact optimized bytes were subsequently rendered in Compose Desktop."
+        ],
+        "variant": "Four-part blue and green standalone emblem, on a transparent field; no circular avatar or separate branded backing was observed. The source lockup's adjacent bank name is excluded.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The baseline has overlapping angular-ended components and lighter, more muted colors; the supported current emblem has separated round-ended fragments and brighter source blue/green, clearly visible in both Compose Desktop before/after pairs. This is an evidenced geometry/color correction, not a claim of a dated rebrand."
+      },
+      "candidateIconHash": "d98ecabf13be6ce9ba0c1219fbcb55fcc748f0582e749c8704c018a1942342c8",
+      "checkedAt": "2026-10-29T08:02:04.105743Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "12be606ee5832a88ddb3c607719d360d03270dc683bbb2cc518eeed4b48dfd2a",
+        "head": "bank-icon-maintenance/15555",
+        "headCommit": "212dfb2ba07320d7b24f3ec54eef32c12ffefc6e",
+        "number": 173,
+        "observedAt": "2026-10-29T08:09:55.824565Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Standard Chartered (Company.id 15555)",
+        "url": "https://github.com/zenmoney/banks/pull/173"
+      },
+      "reason": "The active Standard Chartered UAE site displays the bank's blue-green four-part emblem. The bank-hosted vector lockup contains the same emblem; its geometry and colors differ materially from the current catalog symbol, including rounded detached parts rather than angular ones. The full original vector includes text, which must be removed by lossless extraction of the complete emblem before catalog use. Baseline attribution and a precise transition date are not established, so this is not claimed as a dated rebrand.",
+      "reviewPackage": {
+        "path": "evidence/15555/candidate-83e22015ac7fd84bf758a66235cb1456dcb2ecbe0dec317718e5b27a8a18ddca.json",
+        "sha256": "83e22015ac7fd84bf758a66235cb1456dcb2ecbe0dec317718e5b27a8a18ddca"
+      },
+      "sourceCandidate": {
+        "iconHash": "75f45303a558f48d99512cc4bb53d66e76663b112802b58a29122ccf315a30d4",
+        "path": "evidence/15555/research-27c73cd0778140b7b3d04c9402f599a8/fetch-e0df4c11d91a46acb22d9b4d18248bc5/attempt-1/body.bin",
+        "rationale": "Current UAE brand emblem is supported by the official page and the original bank-hosted vector; its different shapes and blue/green colors support a geometry and color correction. The source is a lockup, requiring lossless extraction of the complete emblem only.",
+        "retrieval": {
+          "path": "evidence/15555/research-27c73cd0778140b7b3d04c9402f599a8/fetch-e0df4c11d91a46acb22d9b4d18248bc5/receipt.json",
+          "sha256": "f7ea05b10344a4aca3a5b230916549396d1f15088ec7d1ca6ccd5c0868fd2998"
+        },
+        "sourceAssetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15555/source-material-28d1a704796b4d3e983a386de0348de5/material.json",
+          "sha256": "1891ff1c46a3a1f24ab6f94b5cb523a89eb0b06ce4f8b50b69cd68412f21d5ea"
+        },
+        "sourceUrl": "https://www.sc.com/ae/"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:56:44Z",
+          "independenceGroup": "Standard Chartered official site",
+          "kind": "official",
+          "observation": "Standard Chartered's UAE banking homepage identifies the bank and displays the same blue and green four-part emblem within the inline footer logo lockup.",
+          "url": "https://www.sc.com/ae/"
+        },
+        {
+          "assetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+          "checkedAt": "2026-10-29T07:57:35Z",
+          "independenceGroup": "Standard Chartered official site",
+          "kind": "official",
+          "observation": "The bank-hosted original SVG lockup contains four blue and green paths forming the emblem, plus separate gray name paths. The fills #0473EA and #38D200 and emblem design match the UAE footer; coordinates are serialized slightly differently.",
+          "url": "https://www.sc.com/ae/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "05cb9288daa1cae67072d7c7ef672665d535a888a986309d382c836373186236",
+      "verification": {
+        "checkedAt": "2026-10-29T08:07:31.990352Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "d98ecabf13be6ce9ba0c1219fbcb55fcc748f0582e749c8704c018a1942342c8",
+        "xmlSha256": "63c072bd042148867ce4060664e2555c590ee6448f7c93466085225b9726cd6b"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "05cb9288daa1cae67072d7c7ef672665d535a888a986309d382c836373186236",
+      "outcome": "published",
+      "processedAt": "2026-10-29T08:02:04.105743Z",
+      "publication": {
+        "candidateIconHash": "d98ecabf13be6ce9ba0c1219fbcb55fcc748f0582e749c8704c018a1942342c8",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "12be606ee5832a88ddb3c607719d360d03270dc683bbb2cc518eeed4b48dfd2a",
+          "head": "bank-icon-maintenance/15555",
+          "headCommit": "212dfb2ba07320d7b24f3ec54eef32c12ffefc6e",
+          "number": 173,
+          "observedAt": "2026-10-29T08:09:55.824565Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Standard Chartered (Company.id 15555)",
+          "url": "https://github.com/zenmoney/banks/pull/173"
+        }
+      },
+      "reason": "The active Standard Chartered UAE site displays the bank's blue-green four-part emblem. The bank-hosted vector lockup contains the same emblem; its geometry and colors differ materially from the current catalog symbol, including rounded detached parts rather than angular ones. The full original vector includes text, which must be removed by lossless extraction of the complete emblem before catalog use. Baseline attribution and a precise transition date are not established, so this is not claimed as a dated rebrand.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
