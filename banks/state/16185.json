@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T09:46:31.806324Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "3feded2d538339c049f698ce53c556ed002105e42bd7636e6648b2626da99b90",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T09:46:31.806324Z",
+      "reason": "No original standalone vector with supported provenance was found. UNACC's logo and the official referenced image are raster; PDF source extraction is not supported by the workflow. Metadata-host HTTPS failed and the current official page timed out with partial HTML. No icon exists at the pinned base, so unchanged is not an option.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
