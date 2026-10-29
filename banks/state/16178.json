@@ -1,0 +1,116 @@
+{
+  "lastAttemptAt": "2026-10-29T14:16:24.813604Z",
+  "lastAttemptResult": "unconfirmed",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [
+          {
+            "path": "evidence/16178/desktop-candidate/desktop.json",
+            "sha256": "51ad53e1acca84449d66a3f52358040658fdfe67c8d6cb8804b67ccdadbb08e5"
+          }
+        ],
+        "finishedAt": "2026-10-29T14:16:24.813604Z",
+        "outcome": "unconfirmed",
+        "reason": "The official dark transparent emblem is visible on the light desktop frame but has low contrast against the dark desktop theme; no supported standalone backed variant was established. A suitable first icon was not verified.",
+        "stage": "render"
+      },
+      "proposal": {
+        "assessment": {
+          "currency": {
+            "basis": "The live official banking homepage currently uses the asset as its mobile header logo and offers accounts, deposits and loans.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "The official domain matches the existing cbnk.es record; the header explicitly labels the logo CBNK and footer identifies CBNK Banco de Colectivos S.A.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "Both sources belong to the same official website and are not independent. A third-party search result associated a 2024 trademark with the bank, but its page returned HTTP 403, so it is not treated as a verified independent observation.",
+          "uncertainties": [
+            "The original dark transparent emblem may have insufficient contrast on dark theme; exact candidate and platform renders have not been assessed."
+          ],
+          "variant": {
+            "basis": "The official favicon shows this emblem as a standalone dark mark; its geometry is also present as original vector paths in the mobile header SVG. The SVG is a transparent lockup, not a plain-field-backed icon. This establishes a source design for a candidate, not final icon approval.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": null,
+        "candidate": {
+          "iconHash": "98f77118ae0def8148b9110e9b3b90ccadb9082a024f2a4a5fde6a2aca7c1f4c",
+          "path": "evidence/16178/research-ac3e4f2f959b420caf3a47f4b62b53bc/fetch-66769a69f04c4856877321d8449b22d3/attempt-1/body.bin",
+          "rationale": "Use the original SVG as the provenance for the standalone emblem, supported by the official favicon; discard the accompanying wordmark for square-cell suitability. Check exact final presentation and contrast before acceptance.",
+          "retrieval": {
+            "path": "evidence/16178/research-ac3e4f2f959b420caf3a47f4b62b53bc/fetch-66769a69f04c4856877321d8449b22d3/receipt.json",
+            "sha256": "dbd056eb0631c634842cb3e2ca7a2a52b4d51a774c5ecb116b64f5c903ec1a40"
+          },
+          "sourceAssetUrl": "https://cbnk.es/dam/jcr:201dd184-12d4-4ff5-9e8d-a36fd971e280/cbnk-logo--mobile.svg",
+          "sourceMaterial": {
+            "path": "evidence/16178/source-material-2f0edaa60d5940798326eabf85111066/material.json",
+            "sha256": "2d463b6b0b6bd385a4d3877228965ae9ea844f87b13d6b7c18efbc51b74758e1"
+          },
+          "sourceUrl": "https://cbnk.es/personas"
+        },
+        "candidateIconHash": "98f77118ae0def8148b9110e9b3b90ccadb9082a024f2a4a5fde6a2aca7c1f4c",
+        "checkedAt": "2026-10-29T14:15:11.906351Z",
+        "reason": "The operating bank's official site supplies an original vector containing its emblem, and its favicon displays the emblem alone. This is a possible source for the missing icon, not an approved final rendering.",
+        "sources": [
+          {
+            "assetUrl": "https://cbnk.es/dam/jcr:201dd184-12d4-4ff5-9e8d-a36fd971e280/cbnk-logo--mobile.svg",
+            "checkedAt": "2026-10-29T14:14:13Z",
+            "independenceGroup": "CBNK official website",
+            "kind": "official",
+            "observation": "The official bank homepage header labels this mobile SVG CBNK. The vector contains the dark #2D3F51 emblem and CBNK wordmark; the footer identifies CBNK Banco de Colectivos S.A. and the page presents banking products.",
+            "url": "https://cbnk.es/personas"
+          },
+          {
+            "assetUrl": "https://cbnk.es/.resources/cbnk/webresources/images/favicon.ico",
+            "checkedAt": "2026-10-29T14:14:13Z",
+            "independenceGroup": "CBNK official website",
+            "kind": "official",
+            "observation": "The site-referenced favicon visually displays the dark CBNK emblem alone, on transparency. This is raster context for standalone use, not the source of the vector geometry.",
+            "url": "https://cbnk.es/personas"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "a0d7b2dbdcd9d81e519d33fae46bdaf92538dccd3303ffb12bbdaa1d61be0bcb"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "98f77118ae0def8148b9110e9b3b90ccadb9082a024f2a4a5fde6a2aca7c1f4c",
+        "evidence": [
+          {
+            "path": "evidence/16178/desktop-candidate/desktop.json",
+            "sha256": "51ad53e1acca84449d66a3f52358040658fdfe67c8d6cb8804b67ccdadbb08e5"
+          }
+        ],
+        "finishedAt": "2026-10-29T14:16:24.813604Z",
+        "outcome": "unconfirmed",
+        "reason": "The official dark transparent emblem is visible on the light desktop frame but has low contrast against the dark desktop theme; no supported standalone backed variant was established. A suitable first icon was not verified.",
+        "stage": "render"
+      },
+      "history": [
+        {
+          "key": "a0d7b2dbdcd9d81e519d33fae46bdaf92538dccd3303ffb12bbdaa1d61be0bcb",
+          "outcome": "candidate",
+          "processedAt": "2026-10-29T14:15:11.906351Z",
+          "reason": "The operating bank's official site supplies an original vector containing its emblem, and its favicon displays the emblem alone. This is a possible source for the missing icon, not an approved final rendering.",
+          "review": null,
+          "sourceMR": null,
+          "task": "add-missing"
+        }
+      ],
+      "key": "a0d7b2dbdcd9d81e519d33fae46bdaf92538dccd3303ffb12bbdaa1d61be0bcb",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:16:24.813604Z",
+      "reason": "The official dark transparent emblem is visible on the light desktop frame but has low contrast against the dark desktop theme; no supported standalone backed variant was established. A suitable first icon was not verified.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
