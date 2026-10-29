@@ -23,11 +23,13 @@ def completed(session, data, snapshot):
     if data.get("paused") is not False or len(data.get("banks", [])) != 1:
         return False
     if data["banks"][0].get("point") not in {
-        "task-complete", "awaiting-state-publication", "waiting-mr"
+        "task-complete", "awaiting-state-publication", "waiting-mr",
+        "attempt-complete", "needs-human"
     }:
         return False
     # A successful agent exit alone says nothing about publication. Require a
-    # receipt bound to the current session and a successful per-object result.
+    # receipt bound to the current session and a terminal per-object result.
+    # Research can finish with an error or uncertainty; an unknown write cannot.
     receipts = list((session / "state-publication").glob("*.receipt.json"))
     if any(json.loads(regular(path)).get("status") not in {"published", "no-state-changes"}
            for path in receipts):
@@ -46,10 +48,15 @@ def completed(session, data, snapshot):
         if len(results) != 1 or results[0].get("id") != data["banks"][0].get("id"):
             continue
         before = (results[0].get("before") or {}).get("taskResults", [])
-        after = results[0]["after"].get("taskResults", [])
+        state = results[0]["after"]
+        if any(p.get("status") == "pending" and not p.get("mr")
+               for p in state.get("proposals", [])):
+            continue
+        after = state.get("taskResults", [])
         changed = [row for row in after if row not in before]
         if changed and all(row.get("outcome") in {
-            "published", "unchanged", "keep-current", "defer"
+            "published", "unchanged", "keep-current", "defer",
+            "unconfirmed", "error", "needs-human", "unclear"
         } for row in changed):
             return True
     return False
@@ -83,7 +90,7 @@ def cleanup(repo, main, roots):
                     or os.fsdecode(git(worktree, "rev-parse", "HEAD")).strip() != data.get("baseCommit")):
                 raise ValueError("session ownership or base commit changed")
             if not completed(session, data, snapshot):
-                raise ValueError("no confirmed successful task result for the current session")
+                raise ValueError("no confirmed terminal task result for the current session")
             if git(worktree, "status", "--porcelain", "--untracked-files=all", "--ignored=matching"):
                 raise ValueError("local changes or untracked/ignored files")
             git(repo, "worktree", "remove", str(worktree))

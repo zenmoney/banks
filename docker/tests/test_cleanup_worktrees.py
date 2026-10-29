@@ -38,7 +38,8 @@ class CleanupTests(unittest.TestCase):
             stderr=subprocess.PIPE, text=True, timeout=30,
         )
 
-    def session(self, name="completed", *, parent=None, outcome="unchanged", receipt="published"):
+    def session(self, name="completed", *, parent=None, outcome="unchanged", receipt="published",
+                point="awaiting-state-publication", before=None, proposals=None):
         session = (parent or self.task) / name
         session.mkdir(parents=True)
         tree = session / "worktree"
@@ -46,13 +47,14 @@ class CleanupTests(unittest.TestCase):
         data = {"schemaVersion": 2, "repo": str(self.main), "baseCommit": self.base,
                 "worktree": str(tree), "worktreeGitDir": self.git(tree, "rev-parse", "--absolute-git-dir").strip(),
                 "selectedIds": [3], "paused": False,
-                "banks": [{"id": 3, "point": "awaiting-state-publication"}]}
+                "banks": [{"id": 3, "point": point}]}
         snapshot = json.dumps(data).encode()
         (session / "session.json").write_bytes(snapshot)
         package = {"scope": "state-publication", "ids": [3],
                    "bindings": {str(session / "session.json"): hashlib.sha256(snapshot).hexdigest()},
-                   "results": [{"id": 3, "before": None,
-                                "after": {"taskResults": [{"key": "task", "outcome": outcome}]}}]}
+                   "results": [{"id": 3, "before": before,
+                                "after": {"taskResults": [{"key": "task", "outcome": outcome}],
+                                          "proposals": proposals or []}}]}
         raw = json.dumps(package).encode()
         key = hashlib.sha256(raw).hexdigest()
         publication = session / "state-publication"
@@ -84,11 +86,32 @@ class CleanupTests(unittest.TestCase):
         self.cleanup()  # Repeated cleanup must leave the remaining registrations alone.
         self.assertEqual(registered, self.git(self.repo, "worktree", "list", "--porcelain"))
 
-    def test_failed_uncertain_and_unfinished_operations_survive(self):
-        trees = [self.session("failed", outcome="error"),
-                 self.session("unclear", outcome="unclear"),
-                 self.session("candidate", outcome="candidate"),
-                 self.session("unknown", receipt="outcome-unknown")]
+    def test_published_terminal_outcomes_remove_only_the_checkout(self):
+        for outcome, point in (("published", "waiting-mr"),
+                               ("keep-current", "task-complete"),
+                               ("defer", "task-complete"),
+                               ("unclear", "task-complete"),
+                               ("unconfirmed", "attempt-complete"),
+                               ("error", "attempt-complete"),
+                               ("needs-human", "needs-human")):
+            with self.subTest(outcome=outcome):
+                tree = self.session(outcome, outcome=outcome, point=point)
+                evidence = tree.parent / "evidence.json"
+                evidence.write_text("saved diagnostic")
+                self.cleanup()
+                self.assertFalse(tree.exists())
+                self.assertEqual("saved diagnostic", evidence.read_text())
+                self.assertTrue((tree.parent / "session.json").is_file())
+                self.assertTrue(next((tree.parent / "state-publication").glob("*.receipt.json")).is_file())
+
+    def test_failed_publications_and_unfinished_operations_survive(self):
+        trees = [self.session("candidate", outcome="candidate"),
+                 self.session("unknown", receipt="outcome-unknown", outcome="error", point="attempt-complete"),
+                 self.session("failed-push", receipt="publication-failed", outcome="unconfirmed", point="attempt-complete"),
+                 self.session("unfinished", point="task-review"),
+                 self.session("unsupported", outcome="new-unknown-outcome"),
+                 self.session("pending", outcome="needs-human", point="needs-human",
+                              proposals=[{"status": "pending"}])]
         missing = self.session("missing")
         next((missing.parent / "state-publication").glob("*.receipt.json")).unlink()
         trees.append(missing)
@@ -101,12 +124,22 @@ class CleanupTests(unittest.TestCase):
         for tree in trees:
             self.assertTrue(tree.is_dir(), tree)
 
+    def test_no_state_changes_requires_a_new_terminal_result(self):
+        terminal = self.session("terminal", outcome="unconfirmed", point="attempt-complete",
+                                receipt="no-state-changes")
+        inherited = self.session("inherited", outcome="needs-human", point="needs-human",
+                                 receipt="no-state-changes",
+                                 before={"taskResults": [{"key": "task", "outcome": "needs-human"}]})
+        self.cleanup()
+        self.assertFalse(terminal.exists())
+        self.assertTrue(inherited.is_dir())
+
     def test_tracked_untracked_ignored_changes_and_local_commits_survive(self):
-        dirty = self.session("dirty")
+        dirty = self.session("dirty", outcome="error", point="attempt-complete")
         (dirty / "tracked").write_text("unsaved")
-        untracked = self.session("untracked")
+        untracked = self.session("untracked", outcome="unconfirmed", point="attempt-complete")
         (untracked / "new").write_text("unsaved")
-        ignored = self.session("ignored")
+        ignored = self.session("ignored", outcome="needs-human", point="needs-human")
         (ignored / "cache").mkdir()
         (ignored / "cache" / "new").write_text("unsaved")
         committed = self.session("committed")

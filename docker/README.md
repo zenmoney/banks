@@ -322,9 +322,13 @@ After all five invocations finish, the launcher removes eligible session worktre
 only under the fresh task roots whose agents exited successfully. A zero agent
 exit alone is insufficient: cleanup requires a state-publication receipt
 (`published` or `no-state-changes`) bound to the unchanged session snapshot and a
-successful per-object result (`published`, `unchanged`, `keep-current`, or `defer`).
-Uncertain or failed state-publication receipts retain the worktree. Failed/timed-out
-task roots are excluded entirely; SIGTERM/SIGINT during a task skips cleanup.
+new terminal per-object result (`published`, `unchanged`, `keep-current`, `defer`,
+`unconfirmed`, `error`, `needs-human`, or `unclear`). A completed investigation
+need not produce an icon: a durably recorded negative result also permits cleanup.
+An inherited stop without a new task result does not. Pending unpublished
+candidates and uncertain or failed state-publication receipts retain the worktree.
+Failed/timed-out task roots are excluded entirely; SIGTERM/SIGINT during a task
+skips cleanup.
 
 Cleanup checks the session's repository, registered worktree identity and original
 detached HEAD. Local commits, tracked edits, untracked/ignored files, symlinks,
@@ -335,6 +339,9 @@ unrelated worktrees, and session evidence outside the removed checkout are kept.
 Retained sessions still disappear when the container's tmpfs is torn down; export
 diagnostics before stopping it. A cleanup infrastructure failure makes an otherwise
 successful sequence nonzero, without replacing an earlier task failure status.
+
+The cleanup script is copied into the image. Rebuild and recreate the worker to
+apply changes to these rules; restarting the existing container is insufficient.
 
 Run the isolated Git cleanup regression cases with:
 
