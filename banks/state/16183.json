@@ -1,0 +1,152 @@
+{
+  "lastAttemptAt": "2026-10-29T09:42:04.434207Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16183/assessed-eb77667964c03ca9c0390c4e194a64dd8318e707d15c73f7862648d4494d702e.json",
+        "sha256": "eb77667964c03ca9c0390c4e194a64dd8318e707d15c73f7862648d4494d702e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The current official banking website directly serves and displays the standalone symbol and matching full logo; the site advertises current banking products.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata host redirects to the bank's active official site, whose structured data identifies Colonya Caixa Pollença in Spain and whose labelled footer uses the same symbol.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "All observations come from the same official publisher; none are presented as independent corroboration. The bank's directly served active page and associated artwork suffice for the brand and source role.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Visual inspection shows the standalone white brushstroke C and orange disc matching the full official logo; it has no separate bank name. The official stylesheet supplies a dark blue display field. Exact adaptation and legibility require further checks.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/ef581fe47a95aec040cc9bca10fde9e9246fe7200e7c94807f1417d7b6635603.json",
+        "sha256": "ef581fe47a95aec040cc9bca10fde9e9246fe7200e7c94807f1417d7b6635603"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Inspected full original and both source/final frames: white brush contours and fine scratches and orange disc remain, with added navy backing.",
+        "faithful": true,
+        "iconHash": "89e6926e496409875c861d539c46d2ecf7c67c18159c548f5be0119edad2c3ac",
+        "path": "evidence/16183/candidate-89e6926e496409875c861d539c46d2ecf7c67c18159c548f5be0119edad2c3ac.svg",
+        "proportionsJudgement": "Whole mark centered within circular backing without stretching; both themes show clear edges and legible symbol. Fine scratches diminish at 24px diagnostic size.",
+        "rationale": "Current official bank emblem with source-supported dark field for contrast.",
+        "role": "Standalone symbol",
+        "sha256": "89e6926e496409875c861d539c46d2ecf7c67c18159c548f5be0119edad2c3ac",
+        "sourceAssetUrl": "https://colonya.es/assets/front_img/preloader.svg",
+        "sourceUrl": "https://colonya.com/ca",
+        "transforms": [
+          "Added circle #262a5e from official preloader field; translated original complete emblem (18,22) and uniformly scaled 0.8 into 100-square viewBox.",
+          "SVGO 4.1.0 config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e; 9913 to 8277 bytes; selected optimized after comparison."
+        ],
+        "variant": "White brushstroke C and orange disc on catalog-adapted navy circle",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon exists at pinned base; final frames display the symbol on both themes."
+      },
+      "candidateIconHash": "89e6926e496409875c861d539c46d2ecf7c67c18159c548f5be0119edad2c3ac",
+      "checkedAt": "2026-10-29T09:42:04.434207Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "93045332b37f3a5e8621081b4e59ff9356c9901fec5f88f91d7df4edfa7e0156",
+        "head": "bank-icon-maintenance/16183",
+        "headCommit": "1540d187d9572bae340b003bbc17322a4772e96b",
+        "number": 182,
+        "observedAt": "2026-10-29T09:49:03.830386Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Colonya (Company.id 16183)",
+        "url": "https://github.com/zenmoney/banks/pull/182"
+      },
+      "reason": "The active Colonya Caixa Pollença website supplies a standalone original SVG emblem, visually matching the symbol in its labelled bank logo. The record has no baseline icon. The white emblem needs a source-supported dark background for use on light surfaces; final suitability remains subject to actual candidate and renderer checks.",
+      "reviewPackage": {
+        "path": "evidence/16183/candidate-5b83a1b0674de18c4438a17f452b384a160b9b9414aa4faf9f8eb29f6da2934e.json",
+        "sha256": "5b83a1b0674de18c4438a17f452b384a160b9b9414aa4faf9f8eb29f6da2934e"
+      },
+      "sourceCandidate": {
+        "iconHash": "d13c707c2a213db377846dcb76816046f09458cd6bf7bd083ab0b0ec351eb5d9",
+        "path": "evidence/16183/research-04dae45d6d36496caf8a6e7475edff4d/fetch-f4ad2e4a95f14d7cb76072464a7974ca/attempt-2/body.bin",
+        "rationale": "Official Illustrator-exported standalone vector, used on the official bank site and matching its named full logo; suitable for square-cell preparation if source-supported background and whole-mark fit pass review.",
+        "retrieval": {
+          "path": "evidence/16183/research-04dae45d6d36496caf8a6e7475edff4d/fetch-f4ad2e4a95f14d7cb76072464a7974ca/receipt.json",
+          "sha256": "eb2726b15380ac13e445f9caa5a8014d3ce1798c84573f12d9d435a046eceea0"
+        },
+        "sourceAssetUrl": "https://colonya.es/assets/front_img/preloader.svg",
+        "sourceMaterial": {
+          "path": "evidence/16183/source-material-aea7e4e2acaa4361b69866e9ce0d5707/material.json",
+          "sha256": "71cecb2cc72690a078b1d7791f9772d1ea65a962d3fe64a446efa569eed2505c"
+        },
+        "sourceUrl": "https://colonya.com/ca"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://colonya.es/assets/front_img/preloader.svg",
+          "checkedAt": "2026-10-29T09:40:38Z",
+          "independenceGroup": "Colonya official website",
+          "kind": "official",
+          "observation": "The metadata URL colonya.es redirects to this official financial service page; it identifies Colonya, Caixa Pollença, in Pollença, Illes Balears, Spain. The page references the standalone preloader SVG and labels its footer logo Colonya Caixa Pollença.",
+          "url": "https://colonya.com/ca"
+        },
+        {
+          "assetUrl": "https://colonya.com/assets/front_img/logo-header.svg",
+          "checkedAt": "2026-10-29T09:40:44Z",
+          "independenceGroup": "Colonya official website",
+          "kind": "official",
+          "observation": "The official footer logo pairs the same white brushstroke C and orange disc with the bank name; inspected both independently rasterized SVGs. The preloader SVG contains the standalone mark without accompanying lettering, uses white and #F08E00, and reports Adobe Illustrator SVG export. Its direct hosted vector is source artwork, not a raster trace created for this task.",
+          "url": "https://colonya.com/ca"
+        },
+        {
+          "assetUrl": "https://colonya.es/assets/front_img/preloader.svg",
+          "checkedAt": "2026-10-29T09:41:03Z",
+          "independenceGroup": "Colonya official website",
+          "kind": "official",
+          "observation": "Official stylesheet displays the preloader on a #262a5e field; this is source support for a backing, not approval of a particular catalog shape. The standalone white mark would lose contrast on a white surface without a backing.",
+          "url": "https://colonya.com/assets/css/front/staycreative_front.css?v=1793172656"
+        }
+      ],
+      "status": "open",
+      "taskKey": "e2218d39a6a41f99cce164585fb99d95d943255933f61de78e721cea686f50ae",
+      "verification": {
+        "checkedAt": "2026-10-29T09:45:56.176768Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "89e6926e496409875c861d539c46d2ecf7c67c18159c548f5be0119edad2c3ac",
+        "xmlSha256": "21d8d60c9f5e47ed1fbaa1b3abfa85fcbdfbc8bf9470a70377920129b092f0b5"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "e2218d39a6a41f99cce164585fb99d95d943255933f61de78e721cea686f50ae",
+      "outcome": "published",
+      "processedAt": "2026-10-29T09:42:04.434207Z",
+      "publication": {
+        "candidateIconHash": "89e6926e496409875c861d539c46d2ecf7c67c18159c548f5be0119edad2c3ac",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "93045332b37f3a5e8621081b4e59ff9356c9901fec5f88f91d7df4edfa7e0156",
+          "head": "bank-icon-maintenance/16183",
+          "headCommit": "1540d187d9572bae340b003bbc17322a4772e96b",
+          "number": 182,
+          "observedAt": "2026-10-29T09:49:03.830386Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Colonya (Company.id 16183)",
+          "url": "https://github.com/zenmoney/banks/pull/182"
+        }
+      },
+      "reason": "The active Colonya Caixa Pollença website supplies a standalone original SVG emblem, visually matching the symbol in its labelled bank logo. The record has no baseline icon. The white emblem needs a source-supported dark background for use on light surfaces; final suitability remains subject to actual candidate and renderer checks.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
