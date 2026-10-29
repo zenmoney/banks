@@ -1,0 +1,144 @@
+{
+  "lastAttemptAt": "2026-10-29T09:31:58.407818Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15736/assessed-cb990adfeae6cb4efe70b693842dfa9139d493a5de054c320754918126c2153a.json",
+        "sha256": "cb990adfeae6cb4efe70b693842dfa9139d493a5de054c320754918126c2153a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The bank's current Singapore website uses the blue-green mark in its official header.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The Singapore homepage identifies Standard Chartered and matches the catalog URL and country.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Commons is a separate publisher but attributes its extracted asset to the same official SVG, so it does not independently establish current usage.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The sourced standalone blue-green symbol corresponds to the mark within the official header; it is suitable for square-cell assessment without the wordmark.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/f46bf5ab3a9bba40f43d048f00708867decc1d74973290541b086094337a958a.json",
+        "sha256": "f46bf5ab3a9bba40f43d048f00708867decc1d74973290541b086094337a958a"
+      },
+      "baseIconHash": "f1543d7e66d1b7b841c9f0827c48148a49588bf27214c0675c93e24dd06d31e6",
+      "candidate": {
+        "detailsJudgement": "The blue and green ribbon shapes and detached tips retain their geometry, colors, separation and negative spaces in the source/final images; no clipping observed.",
+        "faithful": true,
+        "iconHash": "df3b4f4c11b3a8e7f86fe6764bac203d9df1d64028fb632a9f88f5b86db577be",
+        "path": "evidence/15736/candidate-df3b4f4c11b3a8e7f86fe6764bac203d9df1d64028fb632a9f88f5b86db577be.svg",
+        "proportionsJudgement": "The complete standalone symbol is centered in a square transparent viewport and retains its proportions, with clearly visible gaps and tips.",
+        "rationale": "Replace the old four-color woven mark with the current blue and green bank symbol evidenced on the Singapore homepage.",
+        "role": "standalone bank symbol",
+        "sha256": "df3b4f4c11b3a8e7f86fe6764bac203d9df1d64028fb632a9f88f5b86db577be",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Standard_Chartered_Logo_%282021%2C_Logo_only%29.svg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Standard_Chartered_Logo_%282021%2C_Logo_only%29.svg",
+        "transforms": [
+          "Retain the Commons extracted symbol path geometry and colors; remove editor metadata and center it in a square transparent viewport.",
+          "Optimize a separate copy with SVGO; independently rendered comparisons show no visible fidelity difference."
+        ],
+        "variant": "Blue and green standalone trustmark on transparent background; no accompanying wordmark.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The earlier four-color interwoven mark changes to the current simplified bright blue and green ribbon and detached tips."
+      },
+      "candidateIconHash": "df3b4f4c11b3a8e7f86fe6764bac203d9df1d64028fb632a9f88f5b86db577be",
+      "checkedAt": "2026-10-29T09:31:58.407818Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "99d3ad629fe018cf7c0d4b39e0f6feff2724e2eb9358d14348c712628648bc73",
+        "head": "bank-icon-maintenance/15736",
+        "headCommit": "f00254da72d2919ee9e2b80dc382c9544811fdc5",
+        "number": 180,
+        "observedAt": "2026-10-29T09:37:32.246574Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Standard Chartered (Company.id 15736)",
+        "url": "https://github.com/zenmoney/banks/pull/180"
+      },
+      "reason": "The Singapore bank's current official homepage displays a blue and green mark differing visibly from the accepted earlier four-color woven mark. A standalone vector extracted from the official logo is available for fidelity and application checks.",
+      "reviewPackage": {
+        "path": "evidence/15736/candidate-acfa3b17a3b263df7652620c0a44b6b708914d23ed4a34a7b4f1ee7d47f7ffa1.json",
+        "sha256": "acfa3b17a3b263df7652620c0a44b6b708914d23ed4a34a7b4f1ee7d47f7ffa1"
+      },
+      "sourceCandidate": {
+        "iconHash": "3444fded06c7cfab6a50001e065945e0dfb8ddc0321afc80c8d1a448ab2d446d",
+        "path": "evidence/15736/research-fdabacacb18e4c41b830f04d1d7686f6/fetch-a82c9484b07b48ccb0ac2265f5cf23f8/attempt-1/body.bin",
+        "rationale": "Standalone original vector extracted from the official current logo, with changed colors and geometry relative to the accepted mark.",
+        "retrieval": {
+          "path": "evidence/15736/research-fdabacacb18e4c41b830f04d1d7686f6/fetch-a82c9484b07b48ccb0ac2265f5cf23f8/receipt.json",
+          "sha256": "b8218a73bb382e254daf823beb1c1d70f9793f7cfc75946b31f4d354619ca41c"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Standard_Chartered_Logo_%282021%2C_Logo_only%29.svg",
+        "sourceMaterial": {
+          "path": "evidence/15736/source-material-476399d91aa6468ea74c4e2267bb25d1/material.json",
+          "sha256": "0e6eadd72ad9a9844dc2fddff72506fe9294a8e9c0ff127d9d93fa48559204c8"
+        },
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Standard_Chartered_Logo_%282021%2C_Logo_only%29.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://av.sc.com/assets/global/images/components/header/standard-chartered-logo.svg",
+          "checkedAt": "2026-10-29T09:28:46.402958Z",
+          "independenceGroup": "Standard Chartered official website",
+          "kind": "official",
+          "observation": "The operating Singapore bank homepage links its official header SVG through its CSS; the full logo contains the current blue and green mark and a separate wordmark.",
+          "url": "https://www.sc.com/sg/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Standard_Chartered_Logo_%282021%2C_Logo_only%29.svg",
+          "checkedAt": "2026-10-29T09:29:57.268170Z",
+          "independenceGroup": "Wikimedia Commons extraction of official asset",
+          "kind": "third-party",
+          "observation": "Commons describes this standalone SVG as extracted from the bank's official header logo; its mark uses corresponding vector geometry and colors with rounded and translated coordinates.",
+          "url": "https://commons.wikimedia.org/wiki/File:Standard_Chartered_Logo_%282021%2C_Logo_only%29.svg"
+        }
+      ],
+      "status": "open",
+      "taskKey": "0f05fc27287bf8caf51ca8ac4e7ae3a5015c9bd800cf4c8affd1a39f479c87a0",
+      "verification": {
+        "checkedAt": "2026-10-29T09:35:46.604655Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "df3b4f4c11b3a8e7f86fe6764bac203d9df1d64028fb632a9f88f5b86db577be",
+        "xmlSha256": "b05c3a9e97270237056153e97697f5d1ae1c2c0f3b0002d77d98da34385e8bdf"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "0f05fc27287bf8caf51ca8ac4e7ae3a5015c9bd800cf4c8affd1a39f479c87a0",
+      "outcome": "published",
+      "processedAt": "2026-10-29T09:31:58.407818Z",
+      "publication": {
+        "candidateIconHash": "df3b4f4c11b3a8e7f86fe6764bac203d9df1d64028fb632a9f88f5b86db577be",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "99d3ad629fe018cf7c0d4b39e0f6feff2724e2eb9358d14348c712628648bc73",
+          "head": "bank-icon-maintenance/15736",
+          "headCommit": "f00254da72d2919ee9e2b80dc382c9544811fdc5",
+          "number": 180,
+          "observedAt": "2026-10-29T09:37:32.246574Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Standard Chartered (Company.id 15736)",
+          "url": "https://github.com/zenmoney/banks/pull/180"
+        }
+      },
+      "reason": "The Singapore bank's current official homepage displays a blue and green mark differing visibly from the accepted earlier four-color woven mark. A standalone vector extracted from the official logo is available for fidelity and application checks.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
