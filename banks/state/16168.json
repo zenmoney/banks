@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T15:31:48.815014Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "c17a2cbbfdd1dc46bb0b5f10314415c3dfca4d1a415b520813995ab77603567d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:31:48.815014Z",
+      "reason": "No usable original vector has been obtained and the record's intended period and appropriate variant are unconfirmed. The Commons file based on a JPEG is not an eligible original vector, and other discovered options lack established provenance. No candidate or image suitability review was made.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
