@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T15:33:05.345557Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "ff9c2c5e39940921e4817fcfc6c39a4749f402493d1b3528d9484926ba0614bc",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:33:05.345557Z",
+      "reason": "Research identified WiZink Bank S.A. but did not identify a usable original vector for an addition. The association page points to a PNG, which is raster evidence, not permitted replacement material; the official website and Brandfetch were inaccessible. Search exposed no direct original SVG, and a Wiz SVG result was not established as WiZink. The current suitable standalone variant and its vector provenance remain unconfirmed; no candidate or render is claimed.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
