@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T13:58:58.214591Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "f63685c5e8cbf1491ef9977c9062f413c3a4563690e9fb80058e69f3caab9f7c",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T13:58:58.214591Z",
+      "reason": "The Czech liquidation site displays a chevron mark, but no applicable original vector was established; the intended catalog period and accepted icon currency remain unresolved.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
