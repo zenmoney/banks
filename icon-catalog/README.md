@@ -88,8 +88,10 @@ the title is not a deletion flag.
 The [Export bank drawable icons workflow](../.github/workflows/export-drawable.yml)
 packages the canonical `banks/*/icon.svg` files for `zen-mobile-app`. It runs on
 relevant pull requests and pushes to `main`, or manually through **Actions →
-Export bank drawable icons → Run workflow**. Each successful build provides the
-`bank-icons-drawable` Actions artifact containing `bank-icons-drawable.zip`.
+Export bank drawable icons → Run workflow**. PRs validate the export without
+uploading the ZIP. Only successful push/manual builds on `main` provide the
+`bank-icons-drawable` Actions artifact containing `bank-icons-drawable.zip` for
+the release job.
 Only a successful push/manual run for the current `main` commit publishes the
 rolling `bank-icons-latest` release, replacing its ZIP and moving its tag.
 PRs and other branches cannot publish. The release is not marked as the latest
