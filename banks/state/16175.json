@@ -1,0 +1,140 @@
+{
+  "lastAttemptAt": "2026-10-29T14:53:35.025253Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16175/assessed-9650b585479be7ef626a9202ddfce33cfe83b0f01e803b829dd644dd8fb863a6.json",
+        "sha256": "9650b585479be7ef626a9202ddfce33cfe83b0f01e803b829dd644dd8fb863a6"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The source favicon is linked by the currently retrieved Spanish website; the bank's 24 February 2026 Spanish press release announces a renewed identity applying across its local branches.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The existing record names Triodos in Spain and specifies triodos.es; that site links the source favicon directly.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both observations are from Triodos and are one official independence group, not independent corroboration. Searches returned official releases and a third-party listing without a supporting descriptive snippet; no independently verified report was established. Direct use on the matching official website supports this candidate without claiming independent corroboration.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The source is the Spanish website's actual favicon: an SVG with three colored vector paths, a white circular field and no external wordmark, appropriate for initial standalone icon selection. Exact visual fidelity and backing decisions remain to be assessed in candidate review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/954537285f2482f0ba2b977b4ff633ac7711bfb6db5210ab8170e706f3088af0.json",
+        "sha256": "954537285f2482f0ba2b977b4ff633ac7711bfb6db5210ab8170e706f3088af0"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Compared original librsvg reference with offscreen Compose render on both themes: purple and two green shapes, white circular field and transparent exterior are preserved; no visible clipping or lost detail.",
+        "faithful": true,
+        "iconHash": "cb24a10c2bb0cc7b654e12f8a1c4f15cd56ab02ffc497f6aa89bfd97adacceec",
+        "path": "evidence/16175/candidate-cb24a10c2bb0cc7b654e12f8a1c4f15cd56ab02ffc497f6aa89bfd97adacceec.svg",
+        "proportionsJudgement": "Three components retain their relative positions and proportions, centered within the circular field; complete mark has clear margins and remains legible at catalog size.",
+        "rationale": "First icon for Triodos Spain, sourced from the official website favicon; no pre-existing icon exists at the frozen base.",
+        "role": "Standalone bank symbol in a white circular field",
+        "sha256": "cb24a10c2bb0cc7b654e12f8a1c4f15cd56ab02ffc497f6aa89bfd97adacceec",
+        "sourceAssetUrl": "https://www.triodos.es/webfiles/1791959223063/static/img/svg/favicon.svg",
+        "sourceUrl": "https://www.triodos.es/es",
+        "transforms": [
+          "Retained official circular white field and source emblem without geometric alteration.",
+          "SVGO 4.1.0 using config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 1299 to 1123 bytes; optimized bytes selected after visually comparing both and exact desktop rendering."
+        ],
+        "variant": "Current official Spanish website favicon, three-color symbol on white circle",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no existing icon at the frozen base; both frames show the new standalone symbol, not a before/after comparison."
+      },
+      "candidateIconHash": "cb24a10c2bb0cc7b654e12f8a1c4f15cd56ab02ffc497f6aa89bfd97adacceec",
+      "checkedAt": "2026-10-29T14:53:35.025253Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "111867d18d238ce2c10493dd8addee18ea400e3f",
+        "bodySha256": "4a867ef5d9d7b8096e66def88ff9be789cff8cf4da9d5192569558c3e705272b",
+        "head": "bank-icon-maintenance/16175",
+        "headCommit": "f26852fa74d896b435218a4c513a9dc566044287",
+        "number": 187,
+        "observedAt": "2026-10-29T14:57:57.425820Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Triodos (Company.id 16175)",
+        "url": "https://github.com/zenmoney/banks/pull/187"
+      },
+      "reason": "The Spanish Triodos record has no existing icon. Its live official website supplies a standalone original SVG favicon and its 2026 announcement describes a refreshed visual identity applicable to local branches. The SVG is a source candidate, not yet a visually approved final icon.",
+      "reviewPackage": {
+        "path": "evidence/16175/candidate-2fe590e21b9ddfb107b17d2ef5bb42e7c61bd739fdbca4f6254ee9b2ca5c7676.json",
+        "sha256": "2fe590e21b9ddfb107b17d2ef5bb42e7c61bd739fdbca4f6254ee9b2ca5c7676"
+      },
+      "sourceCandidate": {
+        "iconHash": "eab784fd36fc4941218afab2ca728db46e20d2f1565598ead75aeabb6944856b",
+        "path": "evidence/16175/research-cd3d700729484f29a35cc314b47cc6eb/fetch-6bdbb9d5a7b24c5d832da42aab5142ca/attempt-1/body.bin",
+        "rationale": "The bank's own Spanish homepage links this directly served SVG as its favicon. The source has a standalone three-part symbol on a circular white field, with no accompanying wordmark, suitable for square-cell assessment. Its website provenance supports original vector status; final visual and background review remain required.",
+        "retrieval": {
+          "path": "evidence/16175/research-cd3d700729484f29a35cc314b47cc6eb/fetch-6bdbb9d5a7b24c5d832da42aab5142ca/receipt.json",
+          "sha256": "cadc895c2d439caffd31180f2b3d78d6106f5ff3f71bb6a749691886c88346ed"
+        },
+        "sourceAssetUrl": "https://www.triodos.es/webfiles/1791959223063/static/img/svg/favicon.svg",
+        "sourceUrl": "https://www.triodos.es/es"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.triodos.es/webfiles/1791959223063/static/img/svg/favicon.svg",
+          "checkedAt": "2026-10-29T14:50:59.123783Z",
+          "independenceGroup": "Triodos official website and publications",
+          "kind": "official",
+          "observation": "The Spanish homepage links the SVG favicon in its head; the retrieved SVG is 192 by 192 with a white circular field and paths colored #8074FF, #004B32 and #98D39A.",
+          "url": "https://www.triodos.es/es"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T14:51:23.968250Z",
+          "independenceGroup": "Triodos official website and publications",
+          "kind": "official",
+          "observation": "The Spanish press release dated 24 February 2026 announces refreshed visual identity and logo across Triodos Bank's local branches.",
+          "url": "https://www.triodos.es/es/notas-de-prensa/2026/triodos-bank-refresca-su-identidad-visual"
+        }
+      ],
+      "status": "open",
+      "taskKey": "6e2f22fba9f9de9e46634aa53d3802e19f3248a8267a4707a694d0e069f422f4",
+      "verification": {
+        "checkedAt": "2026-10-29T14:55:41.143180Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "cb24a10c2bb0cc7b654e12f8a1c4f15cd56ab02ffc497f6aa89bfd97adacceec",
+        "xmlSha256": "bb3fe24d1ab8a8952cebb48aa0595715f95b521686dcf6cb4843d73ad15aefaf"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "6e2f22fba9f9de9e46634aa53d3802e19f3248a8267a4707a694d0e069f422f4",
+      "outcome": "published",
+      "processedAt": "2026-10-29T14:53:35.025253Z",
+      "publication": {
+        "candidateIconHash": "cb24a10c2bb0cc7b654e12f8a1c4f15cd56ab02ffc497f6aa89bfd97adacceec",
+        "mr": {
+          "base": "main",
+          "baseCommit": "111867d18d238ce2c10493dd8addee18ea400e3f",
+          "bodySha256": "4a867ef5d9d7b8096e66def88ff9be789cff8cf4da9d5192569558c3e705272b",
+          "head": "bank-icon-maintenance/16175",
+          "headCommit": "f26852fa74d896b435218a4c513a9dc566044287",
+          "number": 187,
+          "observedAt": "2026-10-29T14:57:57.425820Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Triodos (Company.id 16175)",
+          "url": "https://github.com/zenmoney/banks/pull/187"
+        }
+      },
+      "reason": "The Spanish Triodos record has no existing icon. Its live official website supplies a standalone original SVG favicon and its 2026 announcement describes a refreshed visual identity applicable to local branches. The SVG is a source candidate, not yet a visually approved final icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
