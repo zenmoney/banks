@@ -1,0 +1,154 @@
+{
+  "lastAttemptAt": "2026-10-29T07:28:49.669065Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15330/assessed-604cd873ed27281c45da08cc92cdf200e17db28e900d1405984e64e02e994edd.json",
+        "sha256": "604cd873ed27281c45da08cc92cdf200e17db28e900d1405984e64e02e994edd"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The bank's present homepage displays the SVG beside its new MyRaif app banner. This is current first-party presentation, not a historical attribution of the base.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official name-change announcement and current Ukrainian website tie the current Raiffeisen Bank and its MyRaif graphic to the bank formerly known as Raiffeisen Bank Aval in the record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "These are first-party observations from the same bank, not independent sources; the bank's own identity announcement and current first-party usage are direct evidence.",
+        "uncertainties": [
+          "Exact attribution of the accepted outlined variant is not established; this does not undermine the official candidate."
+        ],
+        "variant": {
+          "basis": "The official asset is a standalone, wordless mark with a separable yellow uniform field around the complete emblem. The unboxed emblem is also present in the current header. It is suitable for a square cell; actual catalog circular adaptation and final fit remain to be verified.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/01ecb7eae358790aea479dc5137cd56635ce2a3ace5eef18fda735872c01eefc.json",
+        "sha256": "01ecb7eae358790aea479dc5137cd56635ce2a3ace5eef18fda735872c01eefc"
+      },
+      "baseIconHash": "05c49c92166d232efbdd669d17c87853534a5d44c5ae755ffa15c7f35a288959",
+      "candidate": {
+        "detailsJudgement": "Full original librsvg source and exact Compose Desktop source/final comparisons show the same complete dark crossed-horse emblem, including notches, negative space, proportions and color. Only its background silhouette changes; no tracing, cropping or internal recoloring. No clipping observed.",
+        "faithful": true,
+        "iconHash": "e780768630be4d9a956db147df02e9952322a5f172fd353ea2a77e1e04554fa2",
+        "path": "evidence/15330/candidate-e780768630be4d9a956db147df02e9952322a5f172fd353ea2a77e1e04554fa2.svg",
+        "proportionsJudgement": "The source has a separable uniform yellow field and centered complete emblem away from its edges: plain-field type 1. The equal-color circular backing preserves original emblem position and scale, leaving visible clearances. Resized 24, 32 and 48 px diagnostics from bound Desktop frames remain recognizable in both themes; these are not native mobile checks.",
+        "rationale": "Current official MyRaif vector supplies the standalone Ukrainian bank mark without the enclosing square of the accepted icon. Its larger, unboxed crossed-horse emblem is visibly different and consistent with the current official bank presentation. Baseline attribution is unknown, so this is a supported replacement rather than a claimed dated rebrand.",
+        "role": "standalone app icon",
+        "sha256": "e780768630be4d9a956db147df02e9952322a5f172fd353ea2a77e1e04554fa2",
+        "sourceAssetUrl": "https://raiffeisen.ua/img/android-app.svg",
+        "sourceUrl": "https://raiffeisen.ua/",
+        "transforms": [
+          "Separated the uniform yellow background from the complete centered emblem and replaced its rounded square with a same-color #FFED00 circle; transparency remains outside. Kept the original #231F20 emblem path, position and scale unchanged.",
+          "SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e produced 580 bytes from 580 bytes, SHA-256 7804e818f7047e645bdf32b208ba0ac3568506f147aa853fc2a338b0f943d2cd; independent raster previews were identical, but the optimized trial is not smaller, so retained working SVG SHA-256 e780768630be4d9a956db147df02e9952322a5f172fd353ea2a77e1e04554fa2."
+        ],
+        "variant": "Original official dark crossed-horse emblem on an adapted yellow catalog circle; not a claim that a circular official avatar was observed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Both desktop before/after views show the black square border removed, the crossed-horse emblem larger and differently shaped, and a more saturated yellow field. The source directly supports the new unboxed version; this does not prove the old symbol's origin or a precise transition date."
+      },
+      "candidateIconHash": "e780768630be4d9a956db147df02e9952322a5f172fd353ea2a77e1e04554fa2",
+      "checkedAt": "2026-10-29T07:28:49.669065Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "0bd7663bf1e70a6278e20eb655a093b5c04445ad4cc31c3f91de1a24dd33ffca",
+        "head": "bank-icon-maintenance/task-2ac0b1e5071a-15330",
+        "headCommit": "5d940797cf523217c50670ce41f4739435708d1a",
+        "number": 169,
+        "observedAt": "2026-10-29T07:35:58.753921Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Райффайзен Банк Аваль (Company.id 15330)",
+        "url": "https://github.com/zenmoney/banks/pull/169"
+      },
+      "reason": "The official Ukrainian bank's current MyRaif app graphic presents the crossed-horse-head mark without the black enclosing square present in the accepted icon. Its official vector is a suitable standalone mark; the different frame and emblem geometry justify a source-supported update, not merely reserialization. The exact attribution and current use of the old square-outline icon remain unconfirmed.",
+      "reviewPackage": {
+        "path": "evidence/15330/candidate-74a3e55167875d30afd584c86d373c3809a429766789e332f1ba0434552dcfa2.json",
+        "sha256": "74a3e55167875d30afd584c86d373c3809a429766789e332f1ba0434552dcfa2"
+      },
+      "sourceCandidate": {
+        "iconHash": "e56c03070c58cdf7d2d8ed62be235e5207c4055537f18f568da9f12163d645f6",
+        "path": "evidence/15330/research-52d56f0ad312478bae001d774c4e44cc/fetch-115e956b8b7749a28c76f3026f82f1c5/attempt-1/body.bin",
+        "rationale": "The original vector is the official current bank MyRaif app graphic: a clear standalone symbol with no separate lettering. Its unboxed mark and geometry differ visibly from the outlined accepted icon. Use the permitted same-color circular catalog backing after verifying whole-emblem fit and source fidelity.",
+        "retrieval": {
+          "path": "evidence/15330/research-52d56f0ad312478bae001d774c4e44cc/fetch-115e956b8b7749a28c76f3026f82f1c5/receipt.json",
+          "sha256": "cb5220c324cd46cc736a85df8fdb9582db7795655d0798606e1f6d05f715d051"
+        },
+        "sourceAssetUrl": "https://raiffeisen.ua/img/android-app.svg",
+        "sourceMaterial": {
+          "path": "evidence/15330/source-material-3608e2d413334566b1dd73ce0747f50d/material.json",
+          "sha256": "55e3c528398a462909910f43baed29a4f8e6f57280398c1990f603b41284c335"
+        },
+        "sourceUrl": "https://raiffeisen.ua/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://raiffeisen.ua/img/android-app.svg",
+          "checkedAt": "2026-10-29T07:28:22Z",
+          "independenceGroup": "Raiffeisen Bank Ukraine official",
+          "kind": "official",
+          "observation": "The Ukrainian bank's current homepage displays this SVG beside its New MyRaif app banner. The downloaded first-party SVG is a dark standalone crossed-horse-head symbol on yellow rounded-square background, formed from paths without raster. The homepage identifies Raiffeisen Bank in Ukraine.",
+          "url": "https://raiffeisen.ua/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:28:22Z",
+          "independenceGroup": "Raiffeisen Bank Ukraine official",
+          "kind": "official",
+          "observation": "In its 17 June 2021 announcement the bank said Raiffeisen Bank Aval Joint Stock Company officially changed its name to Raiffeisen Bank Joint Stock Company and continues obligations as successor.",
+          "url": "https://raiffeisen.ua/en/news/raiffeisen-bank-aval-staye-raiffeisen-bank-1406"
+        },
+        {
+          "assetUrl": "https://raiffeisen.ua/img/universal/svg/logo_v2_ua.svg",
+          "checkedAt": "2026-10-29T07:28:22Z",
+          "independenceGroup": "Raiffeisen Bank Ukraine official",
+          "kind": "official",
+          "observation": "The current homepage header uses a full logo with a similar unboxed crossed-horse-head mark beside the name and slogan; the full lockup is not the replacement icon.",
+          "url": "https://raiffeisen.ua/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "2ac0b1e5071a9b77169876f86488244ddde72268152a3877ade039ad91814ed2",
+      "verification": {
+        "checkedAt": "2026-10-29T07:34:10.709555Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "e780768630be4d9a956db147df02e9952322a5f172fd353ea2a77e1e04554fa2",
+        "xmlSha256": "8cccb32df6bb8a6ce6724e85ae459733939bc93b0722c7807d7d5a62e8a2136d"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2ac0b1e5071a9b77169876f86488244ddde72268152a3877ade039ad91814ed2",
+      "outcome": "published",
+      "processedAt": "2026-10-29T07:28:49.669065Z",
+      "publication": {
+        "candidateIconHash": "e780768630be4d9a956db147df02e9952322a5f172fd353ea2a77e1e04554fa2",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "0bd7663bf1e70a6278e20eb655a093b5c04445ad4cc31c3f91de1a24dd33ffca",
+          "head": "bank-icon-maintenance/task-2ac0b1e5071a-15330",
+          "headCommit": "5d940797cf523217c50670ce41f4739435708d1a",
+          "number": 169,
+          "observedAt": "2026-10-29T07:35:58.753921Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Райффайзен Банк Аваль (Company.id 15330)",
+          "url": "https://github.com/zenmoney/banks/pull/169"
+        }
+      },
+      "reason": "The official Ukrainian bank's current MyRaif app graphic presents the crossed-horse-head mark without the black enclosing square present in the accepted icon. Its official vector is a suitable standalone mark; the different frame and emblem geometry justify a source-supported update, not merely reserialization. The exact attribution and current use of the old square-outline icon remain unconfirmed.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
