@@ -1,0 +1,148 @@
+{
+  "lastAttemptAt": "2026-10-29T09:44:59.066016Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16181/assessed-cc48ecb66f91f602ea3bfe66673ad024230bba62edefb5d83c61f1d846555074.json",
+        "sha256": "cc48ecb66f91f602ea3bfe66673ad024230bba62edefb5d83c61f1d846555074"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official homepage references this SVG at the time of retrieval; UNACC's entry cites 2024 presence.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "UNACC explicitly connects Caixa Guissona, Caja Rural de Guissona S.C.C. and caixaguissona.com; official homepage header references the source SVG.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "UNACC is an independent association; the SVG and header are the same official source and not independent of one another.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The fetched official vector presents a distinct complete circular emblem beside separate wordmark paths; the emblem is appropriate for evaluation in a square cell, with final adaptation and render checks still required.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/dcdb60feb8fddf05f4cf6564f3d4aac293f7c1ee455fda936fb93c4c0499d582.json",
+        "sha256": "dcdb60feb8fddf05f4cf6564f3d4aac293f7c1ee455fda936fb93c4c0499d582"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The full official librsvg source shows an orange circle containing interlocking white and navy forms alongside a separate wordmark. Both exact Desktop theme renders preserve the source emblem's visible colors, contours and overlap; the separate wordmark is deliberately omitted. Exterior transparency remains visible against both themes.",
+        "faithful": true,
+        "iconHash": "763768f79c907a3d9818b5ddb4f64b940afdefc3d3eb591ed643bd036e9d5adc",
+        "path": "evidence/16181/candidate-763768f79c907a3d9818b5ddb4f64b940afdefc3d3eb591ed643bd036e9d5adc.svg",
+        "proportionsJudgement": "The original circular enclosing contour and its interior composition are retained, not recentered or masked as a plain square field. The complete circle fits and is recognizable on both themes. Resized diagnostics from the exact Desktop frames at approximately 24, 32 and 48 icon pixels retain the mark; these are not native mobile renders.",
+        "rationale": "The official homepage's original vector has a distinct circular Caixa Guissona emblem beside a separate wordmark; the standalone source emblem is suitable for a square catalog cell.",
+        "role": "Standalone bank emblem extracted from the official header lockup",
+        "sha256": "763768f79c907a3d9818b5ddb4f64b940afdefc3d3eb591ed643bd036e9d5adc",
+        "sourceAssetUrl": "https://www.caixaguissona.com/Content/img/logo-caixaguissona.svg",
+        "sourceUrl": "https://www.caixaguissona.com/",
+        "transforms": [
+          "Retained the source's three emblem paths and original circular backing, removed the two separate wordmark paths, and set a 38.7 by 38.7 viewBox to contain the entire source circle, including its bottom at 38.7 versus the original lockup height 38.69; no emblem recentering or recoloring.",
+          "SVGO 4.1.0 with repository config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 757 bytes to 745 bytes; selected optimized output. Independent librsvg working/trial comparison appears identical on both backgrounds; preparation reports identical 512px RGBA raster bytes, and the selected output was rendered by Desktop."
+        ],
+        "variant": "Orange source circle with white and navy emblem; source's meaningful enclosing contour, not a newly introduced circular catalog backing. No official social-avatar presentation is claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon.svg exists at the frozen base; the new file supplies the identifiable source-derived emblem, rather than a change compared with an existing icon."
+      },
+      "candidateIconHash": "763768f79c907a3d9818b5ddb4f64b940afdefc3d3eb591ed643bd036e9d5adc",
+      "checkedAt": "2026-10-29T09:44:59.066016Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "e89db13404c92c5a445431bd9ff08077628adc72eb3c462f568b23f582323a6a",
+        "head": "bank-icon-maintenance/16181",
+        "headCommit": "bfff79e172f6d9aed28665b83ccd1bd6a9c7bb3f",
+        "number": 184,
+        "observedAt": "2026-10-29T09:55:13.857859Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Caixa Guissona (Company.id 16181)",
+        "url": "https://github.com/zenmoney/banks/pull/184"
+      },
+      "reason": "The official bank homepage's header references a successfully fetched original SVG containing the bank's wordmark and a separately drawn round emblem. The full wordmark is not suitable as a square icon; the last three SVG paths form the standalone emblem and can be preserved for candidate preparation. No visual approval or render verification is implied.",
+      "reviewPackage": {
+        "path": "evidence/16181/candidate-8a53ea6e4c782431c5deb204c9e314da3075eee0f213b49502273c4973743e35.json",
+        "sha256": "8a53ea6e4c782431c5deb204c9e314da3075eee0f213b49502273c4973743e35"
+      },
+      "sourceCandidate": {
+        "iconHash": "1c57ffc6b1a2eecb5a6dda22828bed9e745ffdb775d38c0216e93a82bb5358dd",
+        "path": "evidence/16181/research-a991b23dcb724f0488af323a75d2d8a6/fetch-70ca420dcb9f4beabba2de8f7e778eee/attempt-1/body.bin",
+        "rationale": "Official site header asset provides an original vector with independently separable emblem paths; omit the separate wordmark only for square-cell candidate preparation.",
+        "retrieval": {
+          "path": "evidence/16181/research-a991b23dcb724f0488af323a75d2d8a6/fetch-70ca420dcb9f4beabba2de8f7e778eee/receipt.json",
+          "sha256": "7cbcc65e1a64ab232d273be4d2b7d09526e0428a39340695b654ffb3a081b084"
+        },
+        "sourceAssetUrl": "https://www.caixaguissona.com/Content/img/logo-caixaguissona.svg",
+        "sourceUrl": "https://www.caixaguissona.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.caixaguissona.com/Content/img/logo-caixaguissona.svg",
+          "checkedAt": "2026-10-29T09:43:36Z",
+          "independenceGroup": "Caixa Guissona official website",
+          "kind": "official",
+          "observation": "The homepage retrieval redirected from caixaguissona.com and timed out after receiving part of the HTML; that preserved partial response explicitly identifies the SVG in the header logo. The SVG itself was separately fetched successfully over HTTPS and contains five vector paths: two text paths and three paths forming an orange circular emblem with white and navy detail. Rendered source inspection confirms this composition.",
+          "url": "https://www.caixaguissona.com/"
+        },
+        {
+          "assetUrl": "https://www.unacc.com/wp-content/uploads/2018/07/caixa-guissona-2.png",
+          "checkedAt": "2026-10-29T09:42:00Z",
+          "independenceGroup": "UNACC credit-cooperative association",
+          "kind": "third-party",
+          "observation": "UNACC lists Caja Rural de Guissona S.C.C., the website caixaguissona.com, and commercial name Caixa Guissona; page cites 2024 provincial presence. Its PNG is contextual evidence only, not proposed artwork.",
+          "url": "https://www.unacc.com/sector-de-cooperativas-de-credito/cooperativas-asociadas/caja-rural-de-guissona-scc/"
+        },
+        {
+          "assetUrl": "https://www.vectorlogo.es/download/111590/?tmstv=1793217527",
+          "checkedAt": "2026-10-29T09:41:46Z",
+          "independenceGroup": "Vectorlogo.es",
+          "kind": "third-party",
+          "observation": "Page labels a vector download Caixa Guissona and links to the bank's website; download returned HTTP 403, so no asset or provenance was validated from it.",
+          "url": "https://www.vectorlogo.es/logos/logo-vector-caixa-guissona/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "b38b724e7a8845167e17e38f641f45075c28984419b64de1abec2272e5830631",
+      "verification": {
+        "checkedAt": "2026-10-29T09:49:59.119920Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "763768f79c907a3d9818b5ddb4f64b940afdefc3d3eb591ed643bd036e9d5adc",
+        "xmlSha256": "671677e7820252769d5d077f9de8d290210d2457d4afafa59be6f86021cb83c6"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "b38b724e7a8845167e17e38f641f45075c28984419b64de1abec2272e5830631",
+      "outcome": "published",
+      "processedAt": "2026-10-29T09:44:59.066016Z",
+      "publication": {
+        "candidateIconHash": "763768f79c907a3d9818b5ddb4f64b940afdefc3d3eb591ed643bd036e9d5adc",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "e89db13404c92c5a445431bd9ff08077628adc72eb3c462f568b23f582323a6a",
+          "head": "bank-icon-maintenance/16181",
+          "headCommit": "bfff79e172f6d9aed28665b83ccd1bd6a9c7bb3f",
+          "number": 184,
+          "observedAt": "2026-10-29T09:55:13.857859Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Caixa Guissona (Company.id 16181)",
+          "url": "https://github.com/zenmoney/banks/pull/184"
+        }
+      },
+      "reason": "The official bank homepage's header references a successfully fetched original SVG containing the bank's wordmark and a separately drawn round emblem. The full wordmark is not suitable as a square icon; the last three SVG paths form the standalone emblem and can be preserved for candidate preparation. No visual approval or render verification is implied.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
