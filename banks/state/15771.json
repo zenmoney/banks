@@ -1,6 +1,7 @@
 {
-  "lastAttemptAt": "2026-10-04T03:30:48.120332Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:46:17.098115Z",
+  "lastAttemptResult": "verified",
+  "lastVerifiedAt": "2026-10-29T15:46:17.098115Z",
   "proposals": [
     {
       "acceptedHeadCommit": "512a99097c5da629c8135f88893f8eb3c9edf2d8",
@@ -224,5 +225,17 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a03c501dcaed6e641fa1981cbdce58822768fa6d53c91dcfc29a1f041f43785a",
+      "outcome": "unchanged",
+      "processedAt": "2026-10-29T15:46:17.098115Z",
+      "reason": "The accepted striped green brandmark visually matches the standalone emblem in the current official lockup. Its exact desktop render is complete on light and dark themes; no justified update found.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ],
+  "verifiedIconHash": "8ff5c1e4b559dbfe2ff9a04607b5c1fb1e81f45a7f233c2d833882b4a41bfb76"
 }
