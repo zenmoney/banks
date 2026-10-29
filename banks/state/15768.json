@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T09:34:06.080065Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "54e9393a75e5d18859050a3b150f6ef0b1a138cf38effe2f67fc156d73df32ad",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T09:34:06.080065Z",
+      "reason": "The current Play listing and a 2022 third-party preview show a flat blue emblem, while the accepted icon is gradient. No supported original SVG or source establishing the accepted gradient as equivalent was found. The advertised third-party AI file is a PDF container unsupported by the source-material tool; official website retrieval timed out.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
