@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T13:59:59.231735Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2a80b3053aafafbe2d22dd6fb67f296571f348e1e5b62b4fdbf227108716cc42",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T13:59:59.231735Z",
+      "reason": "A 2023 Itaú redesign is reported, but an eligible original vector and current icon equivalence remain unconfirmed; official site access returned 403.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
