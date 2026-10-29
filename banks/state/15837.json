@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T13:59:39.511107Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "118d92d0e7b6bc46852d2d6af20fb5ceb778d2bdaccf9163a8d5dafa916fcd61",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T13:59:39.511107Z",
+      "reason": "Official Slovak wordmark found but its SVG cannot be bound due to DOCTYPE; no suitable supported standalone original vector found and current stacked variant is not verified.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
