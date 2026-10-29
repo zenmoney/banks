@@ -1,0 +1,56 @@
+services:
+  maintenance:
+    image: banks-dev-maintenance:local
+    platform: linux/amd64
+    build:
+      context: .
+      args:
+        BANK_UID: "${BANK_UID:-1000}"
+        BANK_GID: "${BANK_GID:-1000}"
+        ACCEPT_ANDROID_SDK_LICENSES: "${ACCEPT_ANDROID_SDK_LICENSES:-no}"
+        INSTALL_ANDROID_EMULATOR: "${INSTALL_ANDROID_EMULATOR:-no}"
+    init: true
+    restart: "${BANK_ICON_RESTART_POLICY:-no}"
+    working_dir: /workspace
+    environment:
+      HOME: /home/bank
+      GRADLE_USER_HOME: /home/bank/.gradle
+      BANK_ICON_PASS_TIMEOUT_SECONDS: "${BANK_ICON_PASS_TIMEOUT_SECONDS:-10800}"
+      BANK_ICON_SOURCE_REPO: /workspace
+      BANK_ICON_REPO: /workspace/.worktree
+      ANDROID_HOME: /opt/android-sdk
+      ANDROID_SDK_ROOT: /opt/android-sdk
+      OMP_AUTH_BROKER_URL: "${OMP_AUTH_BROKER_URL:-}"
+      OMP_AUTH_BROKER_TOKEN: "${OMP_AUTH_BROKER_TOKEN:-}"
+      OMP_CONFIG_FILE: /home/bank/.omp/agent/config.yml
+      OMP_UPDATE: "${OMP_UPDATE:-0}"
+      BANK_ICON_INTERACTION: "${BANK_ICON_INTERACTION:-noninteractive}"
+      BANK_ICON_PUBLICATION_POLICY: "${BANK_ICON_PUBLICATION_POLICY:-}"
+      # Preserve unset versus empty: the skill supplies defaults and rejects empty limits.
+      BANK_ICON_RESEARCH_SEARCH_LIMIT:
+      BANK_ICON_RESEARCH_FETCH_LIMIT:
+      BANK_ICON_RESEARCH_BROWSER_LIMIT:
+      GH_TOKEN: "${GH_TOKEN:-}"
+    container_name: zen-banks-worker
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+      - type: volume
+        source: agent-home
+        target: /home/bank
+      - type: bind
+        source: "${OMP_CONFIG_FILE:-./docker/omp-config.yml}"
+        target: /home/bank/.omp/agent/config.yml
+        read_only: true
+        bind:
+          create_host_path: false
+    shm_size: 1gb
+    tmpfs:
+      - /tmp:rw,exec,nosuid,nodev,mode=1777
+      - /sessions:rw,exec,nosuid,nodev,mode=1777
+    stop_grace_period: 45s
+    command: ["run"]
+
+volumes:
+  agent-home:

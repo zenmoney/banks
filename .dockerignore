@@ -1,0 +1,10 @@
+# Tool image only: no Git history, banks, catalog sources or credentials.
+**
+!Dockerfile
+!docker/
+!docker/entrypoint.sh
+!docker/cleanup-worktrees.py
+!.agents/
+!.agents/skills/
+!.agents/skills/bank-icon-maintenance/
+!.agents/skills/bank-icon-maintenance/requirements.txt
