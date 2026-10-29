@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:44:07.387063Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "fb426ebb1abdf1e910e9d6530ed9c0357c788d968faf240dbe8950ff4abc0fc5",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:44:07.387063Z",
+      "reason": "The official SVG favicon contains the full PLATA bank name rather than a standalone emblem. Additional search found no suitable supported original-vector symbol; the wordmark is not proposed as a square-cell bank icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
