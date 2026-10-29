@@ -1,0 +1,133 @@
+{
+  "lastAttemptAt": "2026-10-29T08:19:36.126659Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16192/assessed-ecedb5c8df0bc5c3f68576f3ce5d8ee5c95aaa95ebfecf806c6150a5fef9db82.json",
+        "sha256": "ecedb5c8df0bc5c3f68576f3ce5d8ee5c95aaa95ebfecf806c6150a5fef9db82"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The retrieved current official homepage actively uses this specific icon for its wallet app; no historical-record purpose is indicated by the record.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The exact metadata host identifies the named wallet and associates it with an Abkhaz bank and Abkhazia address; the vector appears in that wallet's app-download section, not as a replacement by the underlying bank.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The website and its asset are one official source group, not independent corroborating sources. The record's exact website and its explicit wallet app context directly support identity and variant.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The original direct official vector is an app icon with a standalone stylized A and no separate name text. It has a separable yellow field around the emblem; actual circular adaptation, complete fit and final legibility remain to be assessed at candidate review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/a0e1d59091582027d56fb3f560882b3a1a0b6c5cf9dc25a6074b576506971f84.json",
+        "sha256": "a0e1d59091582027d56fb3f560882b3a1a0b6c5cf9dc25a6074b576506971f84"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "In full source reference and both source/final theme pairs, the white A's contours, inner opening, diagonal joins and subtle grey gradient are preserved, without visible clipping or altered detail. The field shape and vertical positioning intentionally differ as disclosed.",
+        "faithful": true,
+        "iconHash": "80d58df96034b61e8b32626cf89780bc76e1b992538807621ddf525ecfbc0ef4",
+        "path": "evidence/16192/candidate-80d58df96034b61e8b32626cf89780bc76e1b992538807621ddf525ecfbc0ef4.svg",
+        "proportionsJudgement": "The full centered A fits inside the yellow circle with clear edges, retains useful weight and remains recognizable on light and dark backgrounds. Resized desktop-frame 24, 32 and 48px diagnostics show a legible A; these are supplemental scaled previews, not native platform captures.",
+        "rationale": "First addition of the wallet's current official standalone app emblem, adapted to a catalog circle from the original vector.",
+        "role": "Standalone wallet app emblem",
+        "sha256": "80d58df96034b61e8b32626cf89780bc76e1b992538807621ddf525ecfbc0ef4",
+        "sourceAssetUrl": "https://altyn.one/assets/images/home/home-app-icon.svg",
+        "sourceUrl": "https://altyn.one/",
+        "transforms": [
+          "Replaced the separable uniform yellow rounded rectangle with an 80-unit diameter circle of the same #ffd119, transparent outside; retained original emblem paths, gradient, and scale.",
+          "Translated the entire emblem down 3.801 units to center its visible bounds, without changing its relative geometry. Flattened the original nested 76.25-square SVG viewport into a group translated by (1.875, 5.676): viewport and viewBox have equal size, hence unit scale; emblem geometry stays inside its original viewport. Independent 80px librsvg renders of nested and flattened working versions were byte-identical.",
+          "SVGO 4.1.0 using frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e produced an 830-byte trial from 873-byte working SVG; selected trial SHA-256 80d58df96034b61e8b32626cf89780bc76e1b992538807621ddf525ecfbc0ef4. Independent 162px librsvg renders of working and optimized were byte-identical and their light/dark composites visually matched; the selected trial also converted and rendered through Desktop."
+        ],
+        "variant": "White stylized A with subtle grey gradient on yellow. The original rounded-square plain field is adapted to a circular catalog backing; no official circular avatar was observed or claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The frozen record has no existing icon; this adds a real wallet emblem. The original rounded-square source background is normalized to a circular catalog field, not presented as a rebrand."
+      },
+      "candidateIconHash": "80d58df96034b61e8b32626cf89780bc76e1b992538807621ddf525ecfbc0ef4",
+      "checkedAt": "2026-10-29T08:19:36.126659Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "dbb6afbf893753d6c1baef72641cc1cb68e0188260ce9c41cc9ecb7008febca7",
+        "head": "bank-icon-maintenance/16192",
+        "headCommit": "5ee2739ec37a8c4e6fc0c7a1fb30753442decbe2",
+        "number": 176,
+        "observedAt": "2026-10-29T08:27:43.406404Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Кошелек Алтын (Company.id 16192)",
+        "url": "https://github.com/zenmoney/banks/pull/176"
+      },
+      "reason": "The existing record lacks an icon. Its own website publishes an original vector app icon for the same wallet, making a first addition appropriate for candidate review.",
+      "reviewPackage": {
+        "path": "evidence/16192/candidate-1c0a2157ada140004caa896ecad4ada130761b8bed8e0bfde079b84068723c76.json",
+        "sha256": "1c0a2157ada140004caa896ecad4ada130761b8bed8e0bfde079b84068723c76"
+      },
+      "sourceCandidate": {
+        "iconHash": "d15bc09794cd4c849ee84dfa27f33d30f87bfb8b6b5e25cd566a7b87538a70ce",
+        "path": "evidence/16192/research-1a28444ce8da4c848ed9320ff4010525/fetch-5481955951d04f50bc00234c3fc6f637/attempt-1/body.bin",
+        "rationale": "The official site directly supplies the vector app emblem for this wallet; the absent catalog icon justifies a first addition subject to background policy and actual final render checks.",
+        "retrieval": {
+          "path": "evidence/16192/research-1a28444ce8da4c848ed9320ff4010525/fetch-5481955951d04f50bc00234c3fc6f637/receipt.json",
+          "sha256": "10d2912434d87fc2e4cd16ab6e4f800522187b5a3e096ca870d30dbd87c5fb4e"
+        },
+        "sourceAssetUrl": "https://altyn.one/assets/images/home/home-app-icon.svg",
+        "sourceUrl": "https://altyn.one/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://altyn.one/assets/images/home/home-app-icon.svg",
+          "checkedAt": "2026-10-29T08:16:58Z",
+          "independenceGroup": "Altyn.One official website and its hosted asset",
+          "kind": "official",
+          "observation": "The official page identifies itself as Кошелек Алтын | Altyn.One, describes the wallet as a payment service based on an Abkhaz bank and names КБ Черноморский банк развития. It embeds this SVG alongside the heading Скачайте приложение Кошелек Алтын and store links. The direct original SVG contains a white stylized A and gradient on a yellow rounded field; no raster content is embedded.",
+          "url": "https://altyn.one/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "95c8af50681d3c2fd47fe207dce8bf98c5430cfc548d4a38ab0fec2d31b3bb11",
+      "verification": {
+        "checkedAt": "2026-10-29T08:23:42.526608Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "80d58df96034b61e8b32626cf89780bc76e1b992538807621ddf525ecfbc0ef4",
+        "xmlSha256": "bbeca657df900941c42069145f41e36160db9331ecd8ec20644cfd3cda67ab58"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "95c8af50681d3c2fd47fe207dce8bf98c5430cfc548d4a38ab0fec2d31b3bb11",
+      "outcome": "published",
+      "processedAt": "2026-10-29T08:19:36.126659Z",
+      "publication": {
+        "candidateIconHash": "80d58df96034b61e8b32626cf89780bc76e1b992538807621ddf525ecfbc0ef4",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "dbb6afbf893753d6c1baef72641cc1cb68e0188260ce9c41cc9ecb7008febca7",
+          "head": "bank-icon-maintenance/16192",
+          "headCommit": "5ee2739ec37a8c4e6fc0c7a1fb30753442decbe2",
+          "number": 176,
+          "observedAt": "2026-10-29T08:27:43.406404Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Кошелек Алтын (Company.id 16192)",
+          "url": "https://github.com/zenmoney/banks/pull/176"
+        }
+      },
+      "reason": "The existing record lacks an icon. Its own website publishes an original vector app icon for the same wallet, making a first addition appropriate for candidate review.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
