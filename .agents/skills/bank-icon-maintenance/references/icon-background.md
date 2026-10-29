@@ -1,7 +1,7 @@
 # Background shape and emblem fit
 
 **Emblem integrity → legibility → background consistency.** A circle is the standard
-catalog backing for an eligible plain field, not a mandatory mask for every logo.
+catalog backing for a retained eligible plain field, not a mandatory mask for every logo.
 Canvas, official presentation and emblem geometry differ. Apply this to updates and first additions.
 
 ## 1. Classify source and actual presentation
@@ -9,6 +9,14 @@ Canvas, official presentation and emblem geometry differ. Apply this to updates 
 Use the full original vector and observed source context. A square file, viewport
 or full-bleed fill is not by itself a branded silhouette. Separate the emblem from
 the backing by actual structure/context, not SVG tag names or canvas edges alone.
+
+First choose whether a backing is needed. Prefer a supported transparent standalone
+mark when legible on both themes. Retain a backing when it is meaningful to the
+supported brand variant or needed for target-size legibility. A uniform source fill
+alone does not establish either. A separable field confirmed by source context as
+incidental canvas may be omitted in the working SVG; preserve the complete emblem
+and original source evidence. If its role is uncertain, preserve it or choose another
+supported variant. The type-1 rules below apply only to retained backings.
 
 **Plain-field type 1** has a separable, uniform-color field (background) around the complete
 emblem, which does not reach the canvas edges. Uniform color describes the background,
@@ -21,7 +29,7 @@ This rule does not define the other types or silently assign them new treatments
 
 | Source role | Action |
 | --- | --- |
-| Eligible plain-field type 1 | Use a same-color circle with transparency outside; center the complete emblem as below, with individually judged scale. |
+| Retained eligible plain-field type 1 | Use a same-color circle with transparency outside; center the complete emblem as below, with individually judged scale. |
 | Same emblem/color variant observed in a circular official avatar, even with a square source file | Evidence of presentation, not a classification override; no separate round source is needed. |
 | Branded silhouette, shield, frame, meaningful outer contour or intentional off-center composition | Preserve significant contours/composition; do not force type 1. Official display does not excuse clipped details. |
 | Suitable transparent standalone mark | Keep transparency; do not add a backing merely for consistency. |
@@ -68,7 +76,7 @@ not the emblem, and says nothing about the emblem's scale. A non-square viewport
 must not turn this into an ellipse. Prepare the circular geometry in the working SVG;
 do not rely on an unverified UI `clipContent` / `overflow hidden` to supply it later.
 
-Replace the eligible field with a same-color circle with transparency outside.
+Replace the retained eligible field with a same-color circle with transparency outside.
 Do not clip the whole SVG blindly: a background-only mask is allowed only when
 no emblem pixel, stroke, negative-space feature or satellite detail is removed or
 changed. Prefer a separate circular backing when feasible. Both implementations
@@ -78,9 +86,10 @@ Do not stretch, rotate, redraw, recolor, move individual parts or crop strokes a
 Preserve internal transparency; a hole is not white paint. Do not fill holes or
 change alpha to repair an unsuitable monochrome mask; choose a suitable source instead.
 
-Original-vector-only applies to all emblem contours. A circle or verified background-only
-mask is the narrow presentation exception, not permission to trace raster or combine unsupported
-colors/geometry. Extraction stays lossless; presentation changes belong to the working candidate.
+Original-vector-only applies to all emblem contours. Omitting confirmed incidental canvas,
+a circle or a verified background-only mask are the narrow presentation exceptions,
+not permission to trace raster or combine unsupported colors/geometry. Extraction stays
+lossless; presentation changes belong to the working candidate.
 
 ## 3. Check complete fit and useful size
 
@@ -106,6 +115,10 @@ context/previews do not change the six/seven reviewer-file contract.
 
 Mathematical fit does not establish useful size. Excessive shrinking can lose detail,
 recognition or optical weight. Inspect thin lines, gaps, contrast and effective size.
+For updates, compare the emblem's effective size and detail with the baseline at equal
+output sizes. Remaining recognizable is not enough: avoidable shrinking caused by
+backing or incidental source padding fails presentation. Correct placement or choose
+another supported variant; preserve supported clear-space requirements.
 Image-input limitations leave visual checks incomplete. For type 1, if a faithful,
 legible circle cannot be prepared, find another supported eligible variant or stop
 the candidate; never silently switch to a square or relabel the type to evade the rule.
@@ -118,7 +131,7 @@ shape-approval question or endless scale trials. Never fabricate unchanged.
 
 1. **Emblem fidelity:** source contours, colors, internal transparency, details and
    relative geometry survive any disclosed whole-emblem placement transform.
-2. **Presentation:** backing classification, observed official display or catalog
+2. **Presentation:** backing selection/classification, observed official display or catalog
    adaptation, complete fit and theme/size legibility meet this policy.
 
 Both must be supported for `faithful: true`; this does not mean identical source/final
@@ -128,7 +141,7 @@ Use existing fields, not new evidence schema keys:
 
 | Existing field | Record |
 | --- | --- |
-| `assessment.variant.basis` | Source/display variant match and backing role; do not claim fit before rendering. |
+| `assessment.variant.basis` | Source/display variant match, backing role and reason for retaining/omitting it; do not claim fit before rendering. |
 | `candidate.variant`, `candidate.transforms` | Observed official presentation or catalog adaptation; exact field/mask and whole-emblem changes or fallback, plus optimization. |
 | `candidate.detailsJudgement`, `candidate.proportionsJudgement` | Emblem fidelity separately from fit, useful size, alpha and circle fallback. |
 | `sourceJudgement`, `visualComparison` | Actual full source/final and theme/size observations; context or resized previews are not platform passes. |
@@ -136,7 +149,7 @@ Use existing fields, not new evidence schema keys:
 
 When observed, say “circular presentation matches the official channel avatar;
 the source file has a square canvas”, not a separate circular asset or a rebrand.
-Without such an observation, say “original emblem on a circular catalog backing”,
+For a circle without such an observation, say “original emblem on a circular catalog backing”,
 not an official circular app icon. The original source hash proves byte preservation,
 not arbitrary editing authority. Do not invent square derivatives for provenance or create
 bulk cosmetic MRs solely for consistency; suitability, update rationale and authority still apply.

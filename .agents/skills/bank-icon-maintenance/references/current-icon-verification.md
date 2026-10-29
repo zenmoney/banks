@@ -46,8 +46,8 @@ the download is square and the platform supplies the mask. Match the emblem/colo
 a different file posted in the channel does not inherit the avatar's shape. Retain
 context URL, observed time and image/hash in existing evidence and variant reasoning.
 No separate round SVG or routine shape approval is required. Raster display context
-is not a geometry source or a platform test. Otherwise start from the plain-field
-circle policy, preserving full emblem fit and useful size or a suitable fallback.
+is not a geometry source or a platform test. Follow the backing-selection policy
+before choosing its shape, preserving full emblem fit and useful size or a suitable fallback.
 
 ### Original vector source
 
@@ -65,8 +65,9 @@ research limits. Lossless extraction of an existing SVG from a bundle and normal
 source-preserving SVG optimization remain allowed; keep downloaded bytes and
 member lineage intact. Do not construct a candidate from raster while searching.
 The [presentation exception](icon-background.md#2-adapt-the-backing-not-the-emblem)
-permits a circular field or verified background-only mask around an original-vector
-emblem, including a matching observed official presentation. It never permits new
+permits omission of confirmed incidental canvas, a circular field or a verified
+background-only mask around an original-vector emblem, including a matching observed
+official presentation. It never permits new
 emblem geometry, raster tracing, recoloring or changes to internal transparency.
 If no usable original vector is found, retain the accepted icon or its absence and
 record the concrete limitation and rejected options, normally as `unconfirmed`,

@@ -208,13 +208,13 @@
     {
       "id": 15,
       "name": "plain-background-circle",
-      "prompt": "У существующего банка найден оригинальный вектор: отдельная эмблема на обычном однотонном поле. Примени правило подложки каталога, проверь знак и подготовь оправданный результат без изменения исходника.",
+      "prompt": "У существующего банка найден оригинальный вектор: отдельная эмблема на обычном однотонном поле. Контекст источника подтверждает поле как значимую часть фирменного цветового варианта. Примени правило подложки каталога, проверь знак и подготовь оправданный результат без изменения исходника.",
       "expected_output": "Uses a same-color circular catalog field only after complete-fit and small-size/theme checks; accurately discloses adaptation.",
       "files": [
         "evals/fixtures/background-shapes/plain-field.svg"
       ],
       "expectations": [
-        "Classifies the separable uniform field using actual structure/context; does not demand a separately sourced official round app icon.",
+        "Justifies retaining the meaningful backing before classifying the separable uniform field using actual structure/context; does not demand a separately sourced official round app icon.",
         "Retains every emblem contour/color/relative position and internal alpha, using only a disclosed uniform whole-emblem scale/translation; creates only the standard background circle.",
         "Keeps original download/material and full source/reference pixels unchanged; source/final differences remain visible.",
         "Actually inspects both final themes, full fit and target-size previews (24/32/48 px diagnostics when unspecified); no pass is inferred from receipt hashes or conversion.",
@@ -226,7 +226,7 @@
     {
       "id": 16,
       "name": "circle-fit-fallback",
-      "prompt": "Проверь круг для двух оригинальных знаков: с отдельными угловыми деталями и вытянутого с тонкими линиями. Не обрезай знак и не уменьшай его до потери читаемости; допустимо оставить подходящую исходную форму.",
+      "prompt": "Проверь круг для двух оригинальных знаков: с отдельными угловыми деталями и вытянутого с тонкими линиями. Предварительный вариант всё ещё узнаваем, но заметно мельче принятой иконки; требования бренда и защитного поля этого не требуют. Не обрезай знак; оцени полезный размер и выбери подтверждённый вариант либо останови кандидат.",
       "expected_output": "Separates mathematical fit from legibility and retains a source-backed alternative when circle placement is harmful.",
       "files": [
         "evals/fixtures/background-shapes/corner-mark.svg",
@@ -235,7 +235,7 @@
       "expectations": [
         "Examines strokes, detached corner elements and actual emblem bounds rather than only the viewBox/background.",
         "Never clips emblem details, moves individual parts or stretches geometry to satisfy the circle preference. A verified background-only mask is allowed; blindly clipping the whole asset is not.",
-        "Uses actual target-size/theme images to decide useful size; a successful fit calculation or universal occupancy threshold is not a visual pass.",
+        "Compares effective emblem size/detail with the baseline at equal output sizes using actual target-size/theme images. Recognizability alone does not excuse avoidable shrinking from backing or incidental padding; preserves supported clear-space requirements without a fixed occupancy threshold.",
         "Keeps a suitable source-backed noncircular or genuinely supported transparent alternative when the circle demands excessive shrinking; explains the observed fallback without a new permission question.",
         "If no variant is legible, records the real limitation and durable stopped result instead of fabricating unchanged or a successful candidate."
       ],
@@ -244,15 +244,18 @@
     {
       "id": 17,
       "name": "preserve-branded-or-transparent-shape",
-      "prompt": "Есть фирменный щит и самостоятельный прозрачный знак. Сделай проверку по политике круглой подложки; не меняй логотип ради унификации.",
-      "expected_output": "Preserves a meaningful outer shape and a suitable transparent mark; does not force every bank into a circle.",
+      "prompt": "Есть фирменный щит, самостоятельный прозрачный знак и знак на отделимом однотонном поле. Для последнего проверь два независимых контекста: подтверждён технический холст и читаемость без него на обеих темах; роль поля неизвестна и подтверждённого прозрачного варианта нет. Выбери подложку и форму по политике; не меняй логотип ради унификации.",
+      "expected_output": "Preserves meaningful backing and suitable transparency; omits only confirmed incidental canvas in the working candidate and does not infer permission from a flat fill alone.",
       "files": [
         "evals/fixtures/background-shapes/branded-shield.svg",
-        "evals/fixtures/background-shapes/transparent-mark.svg"
+        "evals/fixtures/background-shapes/transparent-mark.svg",
+        "evals/fixtures/background-shapes/plain-field.svg"
       ],
       "expectations": [
         "Preserves the branded shield and all significant contours; being noncircular is not a defect.",
         "Adds no circle or new fill to the already suitable transparent variant purely for consistency.",
+        "Omits confirmed incidental canvas only in the working candidate, preserving the complete emblem and original source/reference evidence; records the backing decision in existing fields.",
+        "Does not remove an uncertain field solely because it is white, uniform or separable; preserves it or chooses another supported variant without inventing transparency.",
         "Does not infer brand geometry from a generic platform mask or a rect alone. Actual matched official display supports presentation, not loss of meaningful contours; otherwise use bounded reasoning or a suitable fallback.",
         "Still checks real source/final/theme evidence; a no-change outcome is unchanged only with the existing positive verification gates.",
         "Does not reopen an immutable prepared proposal, refresh historical dates or launch bulk cosmetic updates."
