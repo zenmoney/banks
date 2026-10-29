@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:07:08.773704Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "92f6ae7a504556f9b1d09ada2b3eb936c13a265568870daa6e5dec0e9b17aad9",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:07:08.773704Z",
+      "reason": "The current Sber mark is consistent at coarse scale with the official Sber ID reference, but no usable independently proven original standalone vector and no exact supported current-icon comparison were established. The official bank site yielded a browser/WAF problem page; Commons describes its wordmark as own work based on Sber rather than establishing original vector lineage. Research alone cannot establish unchanged without the prescribed exact renderer/platform evidence.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
