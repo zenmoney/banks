@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T09:31:11.832351Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "0ed96c36c4847aa3b838edc4b791a317a04ccc955c4311f8f5eda3128b188d1c",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T09:31:11.832351Z",
+      "reason": "The official business app image shows a white circular check on teal, but differs in color and symbol size from the accepted icon. The official image is raster and the third-party vectors found are horizontal wordmarks. Neither an exact supported equivalent nor a suitable original vector for this app variant was established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
