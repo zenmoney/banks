@@ -1,0 +1,159 @@
+{
+  "lastAttemptAt": "2026-10-29T08:21:49.636989Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16187/assessed-30f1b49dfe0b1cf7ac6eb2cacdcaf1404b41d843dff140ac6cbe37ed67e870dc.json",
+        "sha256": "30f1b49dfe0b1cf7ac6eb2cacdcaf1404b41d843dff140ac6cbe37ed67e870dc"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official active banking homepage currently uses the vector wordmark and links the Ф touch icon; regulator lists the bank and license without a displayed ending date.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The regulator names ФИНСТАР БАНК and explicitly lists the metadata-matching finstarbank.ru domain.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank of Russia independently establishes entity and domain; the bank itself establishes logo and touch-icon presentation. Finuslugi is a separate listing with a stale conflicting image and history explaining a brand change.",
+        "uncertainties": [
+          "The final cropped/adapted SVG, precise vector-to-touch-icon visual fidelity, square fit, colors, circle treatment and platform render quality have not been reviewed."
+        ],
+        "variant": {
+          "basis": "The homepage touch icon independently displays the same first Ф as the official wordmark, supporting a standalone letter mark; exact vector-to-raster equivalence and fit remain for candidate review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/0ce69a8dafe1d6e425bac62dc93d6d7555fcec5061cac8a650bdad21840d4a04.json",
+        "sha256": "0ce69a8dafe1d6e425bac62dc93d6d7555fcec5061cac8a650bdad21840d4a04"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The dark-blue Ф is the first path from the original official vector wordmark; its outline, central stem, two counters and color are retained. The official touch icon independently depicts the blue Ф on white. The white circular backing is a presentation adaptation, not traced artwork; the source wordmark does not have that circle. Optimized versus working previews show no visible contour or color changes on light or dark backgrounds.",
+        "faithful": true,
+        "iconHash": "a8f048ff9bd2d5eee8d7ed6b0a77650b8642f4f5045a1ba8fed26e9d2051ed8c",
+        "path": "evidence/16187/candidate-a8f048ff9bd2d5eee8d7ed6b0a77650b8642f4f5045a1ba8fed26e9d2051ed8c.svg",
+        "proportionsJudgement": "The entire emblem fits centered inside a circular white field with clear margin and no clipping. Actual Desktop light and dark frames show the letter legibly and the white circle separating it from dark surroundings. Resized diagnostic previews at 24, 32 and 48 pixels remain recognizable on both themes; these are not native mobile renders.",
+        "rationale": "First addition for ФИНСТАР БАНК: the first letter in the official SVG is also shown as a standalone blue Ф in the bank site's official touch icon. A complete standalone letter mark fits the catalog square without accompanying bank name.",
+        "role": "Standalone bank mark for catalog icon",
+        "sha256": "a8f048ff9bd2d5eee8d7ed6b0a77650b8642f4f5045a1ba8fed26e9d2051ed8c",
+        "sourceAssetUrl": "https://finstarbank.ru/images/logo.svg?v=3",
+        "sourceUrl": "https://finstarbank.ru/personal/",
+        "transforms": [
+          "Isolated the existing Ф path from the official vector wordmark without tracing, redrawing, recoloring or nonuniform scaling; translated it by (11.635, 14.66) in an 84 by 84 viewBox.",
+          "Added a white circle of radius 42 centered at (42,42), with transparent corners, as a same-color field adaptation consistent with the observed official touch icon; no emblem pixels or counters were clipped.",
+          "SVGO 4.1.0 used frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e; 1132 bytes reduced to 669 bytes; selected optimized SHA-256 a8f048ff9bd2d5eee8d7ed6b0a77650b8642f4f5045a1ba8fed26e9d2051ed8c. Independently rasterized working and optimized images show no visible difference on either theme and identical 240-pixel RGBA output."
+        ],
+        "variant": "Original blue Ф letterform isolated from the bank's full official wordmark, on a white circular field adapted from the official touch-icon presentation; it is not a claim that a separate circular original SVG was published.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: frozen catalog has no existing icon.svg; the final frames show the new standalone bank mark on light and dark themes, not a comparison with a fabricated baseline."
+      },
+      "candidateIconHash": "a8f048ff9bd2d5eee8d7ed6b0a77650b8642f4f5045a1ba8fed26e9d2051ed8c",
+      "checkedAt": "2026-10-29T08:21:49.636989Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "e3fa9025c1c7799e51bb30175833e444f1da5c266cfc837e0edf802888e56131",
+        "head": "bank-icon-maintenance/16187",
+        "headCommit": "5f765fd864a22ce92f743a4ca7dfee13d977e0a9",
+        "number": 177,
+        "observedAt": "2026-10-29T08:30:39.962182Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: ФИНСТАР БАНК (Company.id 16187)",
+        "url": "https://github.com/zenmoney/banks/pull/177"
+      },
+      "reason": "The operating bank's official site provides an original vector wordmark. Its first letter Ф is separately used by the same official site as its touch icon; the original vector's Ф path can be isolated without tracing for a standalone icon. Final extraction, suitability and rendering require coordinator review; the downloaded whole wordmark is not itself suitable as a square icon.",
+      "reviewPackage": {
+        "path": "evidence/16187/candidate-b18d5a4227530d54a86f452363011f245a9860a931afe5e10a1f06045b465709.json",
+        "sha256": "b18d5a4227530d54a86f452363011f245a9860a931afe5e10a1f06045b465709"
+      },
+      "sourceCandidate": {
+        "iconHash": "e8fffe60e5d6b4a3f47a8e17077d7130ca83f64082fe650c67e8371153bff078",
+        "path": "evidence/16187/research-0c5606c214634310aecc8d18766b6ebd/fetch-a210a024b9b5489d9d174710ad258acf/attempt-1/body.bin",
+        "rationale": "Official header points to an SVG containing a separate path for its first Ф. The official linked touch icon shows the same blue Ф alone on a white circle; this supports the letter as an independent brand mark. Original path is fill #3D509B; retain it without recoloring or tracing. Circle/backing requires normal policy and visual review.",
+        "retrieval": {
+          "path": "evidence/16187/research-0c5606c214634310aecc8d18766b6ebd/fetch-a210a024b9b5489d9d174710ad258acf/receipt.json",
+          "sha256": "d761f12a25c3bfb6c7f5a40563c0bc9de4797b09d566cf1b870e0930f2e4d7ec"
+        },
+        "sourceAssetUrl": "https://finstarbank.ru/images/logo.svg?v=3",
+        "sourceUrl": "https://finstarbank.ru/personal/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://finstarbank.ru/images/logo.svg?v=3",
+          "checkedAt": "2026-10-29T08:19:36Z",
+          "independenceGroup": "Finstar official website",
+          "kind": "official",
+          "observation": "The bank homepage header uses this SVG as its logo. Original 672 by 55 SVG is a blue ФИНСТАР БАНК wordmark composed of vector paths; its first Ф is a separate path. Whole wordmark is too wide and contains accompanying bank name, so is not itself a square-cell icon. Official asset SHA-256 e8fffe60e5d6b4a3f47a8e17077d7130ca83f64082fe650c67e8371153bff078.",
+          "url": "https://finstarbank.ru/personal/"
+        },
+        {
+          "assetUrl": "https://finstarbank.ru/apple-touch-icon.png",
+          "checkedAt": "2026-10-29T08:19:36Z",
+          "independenceGroup": "Finstar official website",
+          "kind": "official",
+          "observation": "Page links this touch icon; visual inspection shows a blue Ф on a white circular field, supporting standalone use of the first letter. Raster is evidence only, not replacement material; its appearance must be compared against the isolated original vector in candidate review.",
+          "url": "https://finstarbank.ru/personal/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T08:19:36Z",
+          "independenceGroup": "Bank of Russia regulator",
+          "kind": "third-party",
+          "observation": "Bank of Russia identifies ПАО ФИНСТАР БАНК, OGRN 1022400003944, as a bank with universal license and lists https://finstarbank.ru/ as its site. License 3245 is listed from 2023-12-07 with no ending date shown.",
+          "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1022400003944"
+        },
+        {
+          "assetUrl": "https://assets.finuslugi.ru/mp-assets/images/bank/logo-brandmark-bank-044030757.svg",
+          "checkedAt": "2026-10-29T08:19:36Z",
+          "independenceGroup": "Finuslugi listing",
+          "kind": "third-party",
+          "observation": "This independent listing associates a four-part green/blue vector mark with the bank but its history says it dropped the previous Finstar-associated logo and adopted a letters-based logo. The old listing asset therefore is not a reliable current replacement; reject it in favor of the current official site.",
+          "url": "https://finuslugi.ru/banki/bank_siab"
+        }
+      ],
+      "status": "open",
+      "taskKey": "ee7386ceafde28f403ca2829fc986c7d99ce6f0837217b21b1e14929ffba2f2a",
+      "verification": {
+        "checkedAt": "2026-10-29T08:28:21.603935Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a8f048ff9bd2d5eee8d7ed6b0a77650b8642f4f5045a1ba8fed26e9d2051ed8c",
+        "xmlSha256": "c4df366d24bfb1af89b1166d82421bc65a02803310a5a8361bc6c58faf2500ab"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "ee7386ceafde28f403ca2829fc986c7d99ce6f0837217b21b1e14929ffba2f2a",
+      "outcome": "published",
+      "processedAt": "2026-10-29T08:21:49.636989Z",
+      "publication": {
+        "candidateIconHash": "a8f048ff9bd2d5eee8d7ed6b0a77650b8642f4f5045a1ba8fed26e9d2051ed8c",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "e3fa9025c1c7799e51bb30175833e444f1da5c266cfc837e0edf802888e56131",
+          "head": "bank-icon-maintenance/16187",
+          "headCommit": "5f765fd864a22ce92f743a4ca7dfee13d977e0a9",
+          "number": 177,
+          "observedAt": "2026-10-29T08:30:39.962182Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: ФИНСТАР БАНК (Company.id 16187)",
+          "url": "https://github.com/zenmoney/banks/pull/177"
+        }
+      },
+      "reason": "The operating bank's official site provides an original vector wordmark. Its first letter Ф is separately used by the same official site as its touch icon; the original vector's Ф path can be isolated without tracing for a standalone icon. Final extraction, suitability and rendering require coordinator review; the downloaded whole wordmark is not itself suitable as a square icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
