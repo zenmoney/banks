@@ -1,0 +1,160 @@
+{
+  "lastAttemptAt": "2026-10-29T14:04:22.827859Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15884/assessed-f30a72bfccb1866ceb9cec5dbcdcf1d50d7dde9360410913e88efef1adcbcb12.json",
+        "sha256": "f30a72bfccb1866ceb9cec5dbcdcf1d50d7dde9360410913e88efef1adcbcb12"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The Brazilian directory records an official source and 2026 update; group website uses the matching flame.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Brazilian financial institution identifiers in Open Finance provenance identify Banco Santander Brasil; group logo matches the flame.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Third-party directory documents source mapping; Santander group official site corroborates symbol and red color, but direct original bytes are unavailable.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Mirrored standalone vector is attributed to Banco Santander Brasil Open Finance and its hash matches the independently reported source hash. Direct source access returned 403.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6f5383517b781ff814ad5cb33761cc7346f55ccfdb56a7a15235c1c24abae892.json",
+        "sha256": "6f5383517b781ff814ad5cb33761cc7346f55ccfdb56a7a15235c1c24abae892"
+      },
+      "baseIconHash": "3b09a659cc0309bbf6e57e52e3066390526d7cbd65568f2feb8abe7ad88a6430",
+      "candidate": {
+        "detailsJudgement": "Full red flame contours and white negative gaps match the original source; white field replaced by a circle without cutting the emblem.",
+        "faithful": true,
+        "iconHash": "a38cc33b1650f8f9ae1afc18078527e29c4735ff5a28daa871a3c24081ca1995",
+        "path": "evidence/15884/candidate-a38cc33b1650f8f9ae1afc18078527e29c4735ff5a28daa871a3c24081ca1995.svg",
+        "proportionsJudgement": "Centered complete flame retains source scale; 24/32/48px independent previews remain recognizable, though smaller than the existing icon.",
+        "rationale": "Brazil-source color and field correct the existing transparent red presentation; original source provenance is indirect because bank-hosted URL returned 403.",
+        "role": "Standalone Brazilian bank flame",
+        "sha256": "a38cc33b1650f8f9ae1afc18078527e29c4735ff5a28daa871a3c24081ca1995",
+        "sourceAssetUrl": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/90400888.svg",
+        "sourceUrl": "https://github.com/rzmt/logos-bancos-br/blob/main/data/bancos.json",
+        "transforms": [
+          "Replace separable white field with white circular catalog backing; move the whole emblem upward by 1/512 of canvas to center it, preserving contours and colors. No official circular presentation observed.",
+          "SVGO 4.1.0 with config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 1622 to 1039 bytes; optimized trial selected after pixel-identical independent previews."
+        ],
+        "variant": "Red flame on white circle; catalog adaptation of white-field Brazil source.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Old larger transparent #ea1d25 mark becomes source-red #EC0000 flame on white circular field."
+      },
+      "candidateIconHash": "a38cc33b1650f8f9ae1afc18078527e29c4735ff5a28daa871a3c24081ca1995",
+      "checkedAt": "2026-10-29T14:04:22.827859Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "b0eb00ae3d7ab0019dc976298fc92bc36ee400b7f2fae0ddec58e3d54f7d2e2e",
+        "head": "bank-icon-maintenance/15884",
+        "headCommit": "2dca1ada9e9a592af97f4da2f127f5bd26112dc2",
+        "number": 185,
+        "observedAt": "2026-10-29T14:08:02.675910Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Santander (Company.id 15884)",
+        "url": "https://github.com/zenmoney/banks/pull/185"
+      },
+      "reason": "The Brazilian-source flame has a different red and white backing compared with the accepted transparent red icon; current group logo corroborates the flame and color.",
+      "reviewPackage": {
+        "path": "evidence/15884/candidate-f7512054355e8f164eac9f435febbba64d4d98fc5fef4474fa6b73dc7d4d198e.json",
+        "sha256": "f7512054355e8f164eac9f435febbba64d4d98fc5fef4474fa6b73dc7d4d198e"
+      },
+      "sourceCandidate": {
+        "iconHash": "3db65acca8651f09096f81c004513586b3b22075041afe7e29df16f658b7d766",
+        "path": "evidence/15884/research-4e4f8fba797b461fbb56bfac2cfcb740/fetch-3b2c54db3ee8469cbe280f2456de544b/attempt-1/body.bin",
+        "rationale": "Brazil-specific flame source supports correction of color and backing; direct official source is inaccessible, and provenance is indirect.",
+        "retrieval": {
+          "path": "evidence/15884/research-4e4f8fba797b461fbb56bfac2cfcb740/fetch-3b2c54db3ee8469cbe280f2456de544b/receipt.json",
+          "sha256": "bf96dea960e179c4b14365adccf59b26951d5387820b4077cbd7a4883630e76d"
+        },
+        "sourceAssetUrl": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/90400888.svg",
+        "sourceMaterial": {
+          "path": "evidence/15884/source-material-087b34d86034423f8bb1eee92ed7d8b9/material.json",
+          "sha256": "a5453e76301064e3919a13611cd814af43f188b8c4f11969532a034625f3a8d3"
+        },
+        "sourceUrl": "https://github.com/rzmt/logos-bancos-br/blob/main/data/bancos.json"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T13:56:18.891333Z",
+          "independenceGroup": "Santander Group",
+          "kind": "official",
+          "observation": "HTML links an official red header SVG and white footer SVG; the media-page logo downloads themselves are JPG.",
+          "url": "https://www.santander.com/en/press-room/media-resources"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T13:56:34.091663Z",
+          "independenceGroup": "Santander Group",
+          "kind": "official",
+          "observation": "Self-contained SVG successfully bound; white horizontal full logo, 155 by 28; a combined path makes it unsuitable as a standalone square mark without further review.",
+          "url": "https://www.santander.com/content/dam/santander-com/images/Santander_Logo.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T13:56:25.099113Z",
+          "independenceGroup": "Santander Group",
+          "kind": "official",
+          "observation": "Original Illustrator SVG includes red #EC0000 flame path and wordmark; source-material blocked due to SVG declarations/entities. Do not bypass the validator.",
+          "url": "https://www.santander.com/content/dam/santander-com/images/logo/santander-logo-positive.svg"
+        },
+        {
+          "assetUrl": "https://cdn.jsdelivr.net/npm/logos-bancos-br@0/logos/svg/90400888.svg",
+          "checkedAt": "2026-10-29T14:00:48.406673Z",
+          "independenceGroup": "Brazil bank logo catalog",
+          "kind": "third-party",
+          "observation": "Bank identified by CNPJ 90400888000142 and ISPB 90400888; source type openfinance, original URL above, SHA-256 3db65acca8651f09096f81c004513586b3b22075041afe7e29df16f658b7d766, updated 2026-07-17. Catalog describes SVGs as original when safe. Direct bank-hosted URL returned HTTP 403; mirror matches the hash reported by the catalog, not independently verified against original.",
+          "url": "https://github.com/rzmt/logos-bancos-br/blob/main/data/bancos.json"
+        }
+      ],
+      "status": "open",
+      "taskKey": "1d5cbfb0359a39330389d6f2afaf4d2b4a2bd9edfaa9c004bf5f387d3bc1ac3a",
+      "verification": {
+        "checkedAt": "2026-10-29T14:05:24.199296Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a38cc33b1650f8f9ae1afc18078527e29c4735ff5a28daa871a3c24081ca1995",
+        "xmlSha256": "d53c0b408f023bd3d340ce1c18b4d1aca764963ab6b94cfbd73d671df41200b4"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "1d5cbfb0359a39330389d6f2afaf4d2b4a2bd9edfaa9c004bf5f387d3bc1ac3a",
+      "outcome": "published",
+      "processedAt": "2026-10-29T14:04:22.827859Z",
+      "publication": {
+        "candidateIconHash": "a38cc33b1650f8f9ae1afc18078527e29c4735ff5a28daa871a3c24081ca1995",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "b0eb00ae3d7ab0019dc976298fc92bc36ee400b7f2fae0ddec58e3d54f7d2e2e",
+          "head": "bank-icon-maintenance/15884",
+          "headCommit": "2dca1ada9e9a592af97f4da2f127f5bd26112dc2",
+          "number": 185,
+          "observedAt": "2026-10-29T14:08:02.675910Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Santander (Company.id 15884)",
+          "url": "https://github.com/zenmoney/banks/pull/185"
+        }
+      },
+      "reason": "The Brazilian-source flame has a different red and white backing compared with the accepted transparent red icon; current group logo corroborates the flame and color.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
