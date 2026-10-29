@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-03T15:09:03.722027Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:45:22.156033Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "acceptedHeadCommit": "25b43c8c3dcf05204c4d9ce3c9c1033efc4864c4",
@@ -225,5 +225,16 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "89a0a7c101aea58cd47c54de7ce8cf18733a90dad540c7c852e83eb8186846f0",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:45:22.156033Z",
+      "reason": "A bank-attributed historical vector lockup and the current bank-published app show the shield. The accepted SVG visually matches the historical flat shield, while the app uses gradients; current equivalence of the flat variant and required actual platform renders remain unverified. The available lockup contains a wordmark and is not itself a standalone candidate. No supported change is established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
 }
