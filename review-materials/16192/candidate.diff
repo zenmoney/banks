@@ -1,0 +1,17 @@
+--- /dev/null
++++ candidate/16192/icon.svg
+@@ -0,0 +1,14 @@
++<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="none" viewBox="0 0 80 80">
++    <circle cx="40" cy="40" r="40" fill="#ffd119"/>
++    <g transform="translate(1.875 5.676)">
++        <path fill="#fff" d="M65.6244 59.6408H54.7935l-3.8991-8.9355H25.3537l4.3324-9.9284h16.8782l-8.4391-19.3444 5.4222-12.424z"/>
++        <path fill="url(#a)" fill-opacity=".4" d="M65.6244 59.6408H54.7935l-3.8991-8.9355H25.3537l4.3324-9.9284h16.8782l-8.4391-19.3444 5.4222-12.424z"/>
++        <path fill="#fff" d="M21.4573 59.6392H10.6282L32.7051 9.0085h10.8417z"/>
++        <defs>
++            <linearGradient id="a" x1="44.7602" x2="27.3665" y1="28.6949" y2="21.329" gradientUnits="userSpaceOnUse">
++                <stop stop-opacity="0"/>
++                <stop offset="1"/>
++            </linearGradient>
++        </defs>
++    </g>
++</svg>
