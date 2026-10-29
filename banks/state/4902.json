@@ -1,5 +1,5 @@
 {
-  "lastAttemptAt": "2026-10-05T08:37:30.416275Z",
+  "lastAttemptAt": "2026-10-29T14:51:03.787590Z",
   "lastAttemptResult": "candidate",
   "lastVerifiedAt": "2026-10-05T08:45:24.023619Z",
   "proposals": [
@@ -432,8 +432,149 @@
         "sourceSha256": "0d73862655078f9685acb0b8aad05b9b2703ae07cd64f7da181327362ef76bdc",
         "xmlSha256": "048edaa2607e182168000b5496c0e85b0fc1e7b445779ffbf27dfb53632e8588"
       }
+    },
+    {
+      "agentAssessment": {
+        "path": "evidence/4902/assessed-9a3097f65f08877dc1689b8b60b2ac279299a1c6f3eee46558f4eed780737a24.json",
+        "sha256": "9a3097f65f08877dc1689b8b60b2ac279299a1c6f3eee46558f4eed780737a24"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The observed bank brand page currently uses the yellow standalone shield in the page header on 2026-10-29; the independent 2024 article connects the yellow shield and T-Bank renaming.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The bank's brand-page header expressly labels its standalone mark Т-Банк and metadata has the same bank website and title; BankInform separately reports the 2024 Tinkoff Bank rename.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official website use directly establishes present branding; independent BankInform reporting confirms the name transition and yellow shield but quotes the bank as the origin. The two official assets are not independent sources.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The fetched bank-hosted standalone SVG is a yellow shield with dark Т and no accompanying text, suitable for a square cell without any circular field. The old pre-PR catalog mark looks materially similar, but exact prior geometry versus this source remains to be checked during candidate preparation.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/8b1fcacf8688a6665ea5d4b0c55a8aaad47ef64fc148078943ba0abef943a48a.json",
+        "sha256": "8b1fcacf8688a6665ea5d4b0c55a8aaad47ef64fc148078943ba0abef943a48a"
+      },
+      "baseIconHash": "0d73862655078f9685acb0b8aad05b9b2703ae07cd64f7da181327362ef76bdc",
+      "candidate": {
+        "detailsJudgement": "Source and final show the same yellow shield, dark T, contour and transparent exterior; no circle or accompanying wordmark.",
+        "faithful": true,
+        "iconHash": "6b1e9f7dc14da41c4302f1153eb92f3ff0a152e3e5a1ee629208dd33c08739f0",
+        "path": "evidence/4902/candidate-6b1e9f7dc14da41c4302f1153eb92f3ff0a152e3e5a1ee629208dd33c08739f0.svg",
+        "proportionsJudgement": "Full emblem fits without clipping. Removing transparent vertical padding increases the shield size without stretching its geometry; both themes retain readable T and clear contours.",
+        "rationale": "The bank currently uses the yellow standalone shield on its brand page. Restore this actual variant in response to PR 144's request to remove the circle and use the old logo if current.",
+        "role": "standalone bank symbol",
+        "sha256": "6b1e9f7dc14da41c4302f1153eb92f3ff0a152e3e5a1ee629208dd33c08739f0",
+        "sourceAssetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/33447f85-5b92-42f9-8d88-509bd152b47c.svg",
+        "sourceUrl": "https://www.tbank.ru/about/brand/",
+        "transforms": [
+          "Preserved original vector emblem and colors; removed incidental transparent top and bottom viewport padding by changing the viewBox to a square enclosing the full emblem.",
+          "SVGO 4.1.0 with repository config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced working SVG from 660 to 530 bytes; optimized selected after independent visual comparison and successful Desktop conversion."
+        ],
+        "variant": "yellow shield with dark T on transparent surroundings",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The previous white shield on a yellow circle becomes the bank's standalone yellow shield with dark T and no circle."
+      },
+      "candidateIconHash": "6b1e9f7dc14da41c4302f1153eb92f3ff0a152e3e5a1ee629208dd33c08739f0",
+      "checkedAt": "2026-10-29T14:51:03.787590Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "retro/logo-bacground-fixes",
+        "baseCommit": "1bcb6c8b2f8bb88feb2c1b12456644457a248506",
+        "bodySha256": "b2b74e89f60d07e5ff91b164f7002b4263eb84f082840650ebd75e5e98b753a4",
+        "head": "bank-icon-maintenance/4902",
+        "headCommit": "4ea21d4f54d829e0970000fdd997a33b88929633",
+        "number": 188,
+        "observedAt": "2026-10-29T14:58:23.387340Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Т-Банк (Company.id 4902)",
+        "url": "https://github.com/zenmoney/banks/pull/188"
+      },
+      "reason": "The prior yellow standalone shield with dark Т remains an actual T-Bank brand variant: the bank's current brand page uses that standalone vector as its own labelled site-header logo. The current catalog icon instead presents a white shield within a yellow circle. Reviewer b3er explicitly requested restoring the old logo if current; a supported return to the yellow shield addresses that request, not a generic circle-consistency change. The old catalog shape visually resembles the official standalone asset but exact geometry is not established by visual comparison; it is not byte-identical to the newly fetched source.",
+      "reviewPackage": {
+        "path": "evidence/4902/candidate-d862a87bf3e4d61293028a4543ff24a8cfc7083dea4e613fdd9aefbddde8ae5d.json",
+        "sha256": "d862a87bf3e4d61293028a4543ff24a8cfc7083dea4e613fdd9aefbddde8ae5d"
+      },
+      "sourceCandidate": {
+        "iconHash": "b19f8d69f3f3c6852615e2089d231a16e3702c67d4d5d51baab720ec0798097c",
+        "path": "evidence/4902/research-6c142476daa34cc7a41ab0e3c3c7257e/fetch-ad6c8bd4a5de4a0fb70864ba7eb6724c/attempt-2/body.bin",
+        "rationale": "Use the official standalone yellow shield on transparent surroundings; compare with and consider restoration of the old catalog logo as requested in PR #144. Preserve original vector geometry and avoid assuming visual equivalence proves exact identity.",
+        "retrieval": {
+          "path": "evidence/4902/research-6c142476daa34cc7a41ab0e3c3c7257e/fetch-ad6c8bd4a5de4a0fb70864ba7eb6724c/receipt.json",
+          "sha256": "5e2b9488816e4d373c6993d29f777422460f1c94b288983f73b5e57fef281026"
+        },
+        "sourceAssetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/33447f85-5b92-42f9-8d88-509bd152b47c.svg",
+        "sourceUrl": "https://www.tbank.ru/about/brand/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/33447f85-5b92-42f9-8d88-509bd152b47c.svg",
+          "checkedAt": "2026-10-29T14:48:46.921013Z",
+          "independenceGroup": "tbank-official",
+          "kind": "official",
+          "observation": "The fetched page is headed 'Логотипы Т-Банк' and describes group logo resources. Its header img has alt='Т-Банк', data-test='logoImg', links to the site root, and points to this direct SVG. Inspected rsvg-convert image: single yellow shield with dark serif Т, transparent exterior and no accompanying wordmark. SVG consists of two vector paths, no raster. It is an original asset served and used by the bank itself, not a traced third-party reconstruction.",
+          "url": "https://www.tbank.ru/about/brand/"
+        },
+        {
+          "assetUrl": "https://cdn.tbank.ru/static/pfa-multimedia/images/e3283f8b-eeb6-4471-9ea7-965ff52435f1.svg",
+          "checkedAt": "2026-10-29T14:48:35.102698Z",
+          "independenceGroup": "tbank-official",
+          "kind": "official",
+          "observation": "The official logo download section links a vector full lockup; inspected raster shows yellow shield, dark Т and separate БАНК text. This corroborates the emblem but the full lockup itself is not suitable as a square-cell mark because of the wordmark. Another official download ed62434c-f486-441f-9545-767dc7a3303a.svg shows a white shield, dark Т and БАНК on a yellow rectangular field, demonstrating coexistence of the other variant rather than disproving the yellow shield.",
+          "url": "https://www.tbank.ru/about/brand/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T14:49:29.898755Z",
+          "independenceGroup": "bankinform-reporting",
+          "kind": "third-party",
+          "observation": "BankInform dated 5 June 2024 reports that Tinkoff Bank renamed itself T-Bank and its new logo has a yellow shield with a T in the middle plus the T-Bank name; it cites the bank's announcement. Independent publisher, though reporting originates in the bank's announcement, so it is not an independent design-origin source.",
+          "url": "https://bankinform.ru/news/133754"
+        }
+      ],
+      "status": "open",
+      "taskKey": "676bff2b7600c8e6cda390d55ad966b207ac9b9dd7cf8d49daba2975303a1f4a",
+      "verification": {
+        "checkedAt": "2026-10-29T14:55:57.821225Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6b1e9f7dc14da41c4302f1153eb92f3ff0a152e3e5a1ee629208dd33c08739f0",
+        "xmlSha256": "dcec6def58b19a68c4fe2821454dfcd157b450e17123247a23df1e577a00a4d2"
+      }
     }
   ],
   "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "676bff2b7600c8e6cda390d55ad966b207ac9b9dd7cf8d49daba2975303a1f4a",
+      "outcome": "published",
+      "processedAt": "2026-10-29T14:51:03.787590Z",
+      "publication": {
+        "candidateIconHash": "6b1e9f7dc14da41c4302f1153eb92f3ff0a152e3e5a1ee629208dd33c08739f0",
+        "mr": {
+          "base": "retro/logo-bacground-fixes",
+          "baseCommit": "1bcb6c8b2f8bb88feb2c1b12456644457a248506",
+          "bodySha256": "b2b74e89f60d07e5ff91b164f7002b4263eb84f082840650ebd75e5e98b753a4",
+          "head": "bank-icon-maintenance/4902",
+          "headCommit": "4ea21d4f54d829e0970000fdd997a33b88929633",
+          "number": 188,
+          "observedAt": "2026-10-29T14:58:23.387340Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Т-Банк (Company.id 4902)",
+          "url": "https://github.com/zenmoney/banks/pull/188"
+        }
+      },
+      "reason": "The prior yellow standalone shield with dark Т remains an actual T-Bank brand variant: the bank's current brand page uses that standalone vector as its own labelled site-header logo. The current catalog icon instead presents a white shield within a yellow circle. Reviewer b3er explicitly requested restoring the old logo if current; a supported return to the yellow shield addresses that request, not a generic circle-consistency change. The old catalog shape visually resembles the official standalone asset but exact geometry is not established by visual comparison; it is not byte-identical to the newly fetched source.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ],
   "verifiedIconHash": "0d73862655078f9685acb0b8aad05b9b2703ae07cd64f7da181327362ef76bdc"
 }
