@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:14:34.886990Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "48a1c536c5f0e141a1ffaeee9121b64745d1ffe5be7889e4f600bac10fa12f1a",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:14:34.886990Z",
+      "reason": "No original vector with supported provenance was retrieved. The official logo is JPEG, while the independent vector directory's advertised download returned HTTP 403. No candidate or visual approval can be claimed.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
