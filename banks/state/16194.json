@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T08:21:19.323676Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "cb2aa399d10791536010dda0ce217a5b6be3fe634b9adc0d0c02e0cb3e46afc9",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T08:21:19.323676Z",
+      "reason": "The record has no existing icon. An observed Enpara.com vector contains an en emblem similar to the current Enpara Bank app icon, but is a horizontal lockup with accompanying para.com text; its upstream original-vector provenance is not established. The Commons uploader describes it as own work, without identifying bank-supplied original art. No suitable standalone original vector with established provenance has been found. The bank's website, news page and 2025 annual report failed HTTPS transfer with SSL_ERROR_SYSCALL, while an independent logo directory returned HTTP 403. A different independent listing offers EPS without substantiating original source. No raster tracing or redrawing was used.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
