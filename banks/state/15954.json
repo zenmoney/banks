@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:47:25.513423Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "fe0a738ffc3729eb79e3264ecd7431498cffed66f7f636085b20cbbfbe5a482d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:47:25.513423Z",
+      "reason": "The current App Store listing identifies Bank of Georgia Business and displays a simplified orange lion on a white shape against purple, but that displayed artwork is raster. No matching original vector was found. The fetched third-party SVG is a materially different older detailed lion with wordmark and is not suitable evidence for this product's current mark. The existing detailed lion SVG has not been verified as equivalent to the current product artwork.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
