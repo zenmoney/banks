@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:49:11.685560Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "6a0ccc0f8db8f21601d45a4419b8eff4f26b54941f9c10fceefa0c34e9948d0e",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:49:11.685560Z",
+      "reason": "A 2024 Commons SVG attributed to the HYPE press kit closely corresponds in geometry and colors to the existing icon, but evidence of current use of this specific mark is missing and no exact current icon render comparison was performed. No different supported replacement was found. The HYPE website timed out and the attributed official press kit exceeded the retrieval size limit.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
