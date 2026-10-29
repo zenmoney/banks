@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:07:38.446584Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2e72ffffe16bd07ecaf1c7774e365e1495878e0bfde0feda2ea6000b63c2cd9b",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:07:38.446584Z",
+      "reason": "The bank's current published app displays a gold butterfly on a dark field, while the accepted icon is a white butterfly on burgundy. An independent directory displays a dark butterfly on a gold-gradient field in an SVG, but the provenance of that vector and the current applicability of its inverted color variant are unconfirmed. The independently published burgundy-and-white lockup supports a similar variant to the accepted icon but does not establish its present official use or byte-exact equivalence. No appropriate replacement is sufficiently supported; neither a candidate nor unchanged is established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
