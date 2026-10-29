@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:46:21.270433Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "3876835ec56fe7e071a7e13b432c70ce1f0d67087c8ad3da3dbdd714c8756c25",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:46:21.270433Z",
+      "reason": "The current primary BtcScan header and favicon use a concentric mark, but the discovered header SVGs embed raster and no original vector for that mark was verified. The secondary footer's Bitcoin menu vector resembles the accepted Bitcoin icon, but unchanged is not supported without applicability and exact render review.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
