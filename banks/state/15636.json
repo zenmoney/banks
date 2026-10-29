@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-03T19:25:59.195642Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:47:05.568280Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "acceptedHeadCommit": "9d3de9608f5011c6a726fd08f4f7e9e9103cb477",
@@ -218,5 +218,16 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "883748067a9b561e8982929d7427bad2213ce24bae960cee333be0a5dc355aea",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:47:05.568280Z",
+      "reason": "The current app artwork shows an orange lion and white emblem on an orange field, while the accepted icon has transparent surroundings. Its white emblem disappears on the light Compose background, although the orange lion remains visible. Official site retrieval failed and no original current vector establishing an appropriate correction was obtained; equivalence and suitability of the current presentation remain unconfirmed.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
 }
