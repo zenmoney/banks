@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:56:54.765313Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "ca243f1aa3997d9f4300dd122bc010cdf731f36f28cfe5f5204256a3e4d3417d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:56:54.765313Z",
+      "reason": "This is a first addition with no existing icon. No usable original vector for the current brand was established: the Commons file for the later logo cites a PNG source, and the other Commons vector is derived from an older bank PDF and predates the 2014 rebrand. Official pages returned HTTP 403 and the vector directory download also returned 403. No candidate or render has been approved.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
