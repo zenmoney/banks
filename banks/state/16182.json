@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T09:43:28.615211Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a4b1a723fdf317a2fb2f950f02798f56db40c4822dd0b36793e9ab84d6b6a77d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T09:43:28.615211Z",
+      "reason": "The official current header logo is raster with accompanying lettering; no supported original standalone vector has been found. The catalog has no existing icon to verify.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
