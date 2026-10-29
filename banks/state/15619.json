@@ -1,0 +1,144 @@
+{
+  "lastAttemptAt": "2026-10-29T09:30:06.071657Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15619/assessed-ce41225181d1c2dde5e462e98ad5390b8e0abb42105ef6426b79bee3f37661d9.json",
+        "sha256": "ce41225181d1c2dde5e462e98ad5390b8e0abb42105ef6426b79bee3f37661d9"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The operating bank's current website uses this logo; the 2024 report describes the branding change.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official bank domain and Ukrainian bank identity match the catalog record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Minfin is a separate publication but its rebrand report relies on bank statements; current use is directly observed on the bank's own site.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The official SVG is a standalone black accented-a mark on a green field, without separate wording; it appears in the bank app context.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/17b7d4302edb1955e0a489cc274c327a563998f3f7614df957553f8802758a39.json",
+        "sha256": "17b7d4302edb1955e0a489cc274c327a563998f3f7614df957553f8802758a39"
+      },
+      "baseIconHash": "133c08b3af6a4480c7b4acea4b1b0d375724568e8ae5746b9a3d8204f3fb666d",
+      "candidate": {
+        "detailsJudgement": "The black accented-a emblem, detached accent, inner opening and green color match the official source in the inspected source/final comparisons; no emblem detail is clipped.",
+        "faithful": true,
+        "iconHash": "c0aff58c37656164f7b3b68c90ecfd54ea79aefa8f2b3843dd6aaebb45fa1eb8",
+        "path": "evidence/15619/candidate-c0aff58c37656164f7b3b68c90ecfd54ea79aefa8f2b3843dd6aaebb45fa1eb8.svg",
+        "proportionsJudgement": "The complete mark is centered within the catalog circle, remains recognizable at rendered size and preserves source emblem proportions; the round field is a catalog-only adaptation of the uniform source field.",
+        "rationale": "Replace the outdated apple with the bank's current standalone accented-a branding, sourced from its official app link.",
+        "role": "standalone bank app mark",
+        "sha256": "c0aff58c37656164f7b3b68c90ecfd54ea79aefa8f2b3843dd6aaebb45fa1eb8",
+        "sourceAssetUrl": "https://a-bank.com.ua/assets/img/f39f15d41b34d7381219cec3cc509b10.svg",
+        "sourceUrl": "https://a-bank.com.ua/",
+        "transforms": [
+          "Replace the separable uniform green rounded-square background with a same-color inscribed circle and translate the complete emblem to center it; no emblem scaling or recoloring.",
+          "Optimize a separate copy with SVGO; independently rendered working and optimized light comparisons are visually identical."
+        ],
+        "variant": "Black accented-a on vivid green field; circular field is catalog adaptation, not an observed official avatar.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The old green apple and leaf are replaced with a black accented-a on a green circular field, reflecting the bank's rebrand."
+      },
+      "candidateIconHash": "c0aff58c37656164f7b3b68c90ecfd54ea79aefa8f2b3843dd6aaebb45fa1eb8",
+      "checkedAt": "2026-10-29T09:30:06.071657Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "197201db13ef42bffbf3d1bad190372b57582933d39f8caa9007b6f77322e84a",
+        "head": "bank-icon-maintenance/15619",
+        "headCommit": "ad1d58c06a67271d41a166c060fefbff7484f080",
+        "number": 179,
+        "observedAt": "2026-10-29T09:34:50.977554Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: А-Банк (Company.id 15619)",
+        "url": "https://github.com/zenmoney/banks/pull/179"
+      },
+      "reason": "The accepted green apple is materially different from the bank's current accented-a mark; Minfin reports the 2024 replacement of apple branding and the current official bank site uses this mark.",
+      "reviewPackage": {
+        "path": "evidence/15619/candidate-5198b73414ec8e8ad49c5a60c3d5ba8fa810ea66e596d93c9ac0b426e796160a.json",
+        "sha256": "5198b73414ec8e8ad49c5a60c3d5ba8fa810ea66e596d93c9ac0b426e796160a"
+      },
+      "sourceCandidate": {
+        "iconHash": "40035016e535846a97766a5b397f2f26bd07d2a600ba1cd9244d8e8284481a40",
+        "path": "evidence/15619/research-41e737cacd7c452d83aab2045c9f3730/fetch-c8e7d9f0a6ec486ba944d953feb83386/attempt-1/body.bin",
+        "rationale": "Bank-served SVG in current app-link context; original vector with a standalone symbol and materially changed branding.",
+        "retrieval": {
+          "path": "evidence/15619/research-41e737cacd7c452d83aab2045c9f3730/fetch-c8e7d9f0a6ec486ba944d953feb83386/receipt.json",
+          "sha256": "c455745f879ebc03d382cf7aa5fad137d5b5dc9c57946aa1cc864ef224471ac2"
+        },
+        "sourceAssetUrl": "https://a-bank.com.ua/assets/img/f39f15d41b34d7381219cec3cc509b10.svg",
+        "sourceMaterial": {
+          "path": "evidence/15619/source-material-9b4352f8b61d44549cbc14125ace2cc3/material.json",
+          "sha256": "48bed89c35c89d6bec32f593932934e54ac44803290529dca5aa999354d25ed7"
+        },
+        "sourceUrl": "https://a-bank.com.ua/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://a-bank.com.ua/assets/img/f39f15d41b34d7381219cec3cc509b10.svg",
+          "checkedAt": "2026-10-29T09:28:08.925720Z",
+          "independenceGroup": "A-Bank official website",
+          "kind": "official",
+          "observation": "The live Ukrainian bank site identifies А-Банк and АТ «А-БАНК» and uses this bank-served standalone accented-a SVG next to its banking app; the header also uses an accented-a icon.",
+          "url": "https://a-bank.com.ua/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T09:28:55.802423Z",
+          "independenceGroup": "Minfin reporting based on bank announcement",
+          "kind": "third-party",
+          "observation": "The 16 September 2024 article reports that the bank replaced its longstanding green apple branding with the àбанк design, quoting the bank.",
+          "url": "https://minfin.com.ua/ua/2024/09/16/135644153/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "4ae93e13beb967d74e1ca8a8f19255fc0cae05b744837455296acd5d2350817b",
+      "verification": {
+        "checkedAt": "2026-10-29T09:32:54.027451Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "c0aff58c37656164f7b3b68c90ecfd54ea79aefa8f2b3843dd6aaebb45fa1eb8",
+        "xmlSha256": "452ad918d2a5ead53156c63dfcf279ae97fabccd5690a7f9f920522b244a6bd2"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "4ae93e13beb967d74e1ca8a8f19255fc0cae05b744837455296acd5d2350817b",
+      "outcome": "published",
+      "processedAt": "2026-10-29T09:30:06.071657Z",
+      "publication": {
+        "candidateIconHash": "c0aff58c37656164f7b3b68c90ecfd54ea79aefa8f2b3843dd6aaebb45fa1eb8",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "197201db13ef42bffbf3d1bad190372b57582933d39f8caa9007b6f77322e84a",
+          "head": "bank-icon-maintenance/15619",
+          "headCommit": "ad1d58c06a67271d41a166c060fefbff7484f080",
+          "number": 179,
+          "observedAt": "2026-10-29T09:34:50.977554Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: А-Банк (Company.id 15619)",
+          "url": "https://github.com/zenmoney/banks/pull/179"
+        }
+      },
+      "reason": "The accepted green apple is materially different from the bank's current accented-a mark; Minfin reports the 2024 replacement of apple branding and the current official bank site uses this mark.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
