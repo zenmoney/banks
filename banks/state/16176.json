@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:18:57.880935Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a25386d345419d73e1fbd6d16d5613ecc8402bf6cd0996170c75e39720e8d85f",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:18:57.880935Z",
+      "reason": "The current Spanish app shows a standalone white underlined C on green, but no supported original vector for that emblem was found. A downloaded third-party SVG contains a full wordmark and third-party watermark, and its original-vector provenance is unconfirmed. The Spanish official site could not be retrieved over verified HTTPS. A raster app icon is research evidence, not an allowed replacement source. No icon is present in the frozen base, so unchanged is not applicable.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
