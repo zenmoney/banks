@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:08:48.087670Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "28c821d974d1b4e5adb758de751269aa0a4ca89e7b453befb4e6fb584039f932",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:08:48.087670Z",
+      "reason": "The pinned icon is a white three-part mark on an orange/red gradient. The official site's linked apple-touch PNG uses a closely similar white mark on an orange/red gradient but also says банк, and its current header displays a red version of the mark with Урал ФД банк lettering. No sufficiently evidenced meaningful correction was established; the source PNG is not eligible as vector replacement and the header SVG is a text-bearing lockup, not a standalone ready-to-use icon. Exact visual equivalence of the pinned asset and its Compose rendering is not established, so this is not an unchanged verification.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
