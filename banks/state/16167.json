@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T15:32:43.346649Z",
+  "lastAttemptResult": "error",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "d1de3c3099e905f0cb6dc60a6338f0bd786c3a7de5eaf371085ab35c5acb8400",
+      "outcome": "error",
+      "processedAt": "2026-10-29T15:32:43.346649Z",
+      "reason": "The official page contains an inline square-and-slash logo symbol, but source-material listing and selection both returned a decoder failure or resource-limit error. No material binding or visual candidate assessment was produced. This technical stop does not establish that an original vector is unavailable.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
