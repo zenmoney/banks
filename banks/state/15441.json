@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:59:53.623094Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "879b109a1a98949e47c14fbd10498b0afc3b2b439aa9fa32225e7e1f19cbab5a",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:59:53.623094Z",
+      "reason": "The present white plant emblem on a golden #EDA944 circle resembles the operating bank's official channel image, but its exact color and geometry are not verified by that image or the official homepage's differently colored vector. A 2021 designer-authored account describes a more red-orange primary color and added yellow accent shades, but does not prove that this exact golden icon is either obsolete or a valid current logo variant. No justified correction or exact visual equivalence is established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
