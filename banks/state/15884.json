@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-29T14:04:22.827859Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:08:38.687646Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "agentAssessment": {
@@ -58,13 +58,90 @@
         "head": "bank-icon-maintenance/15884",
         "headCommit": "2dca1ada9e9a592af97f4da2f127f5bd26112dc2",
         "number": 185,
-        "observedAt": "2026-10-29T14:08:02.675910Z",
-        "state": "open",
+        "observedAt": "2026-10-29T15:00:25.801170Z",
+        "state": "closed",
         "target": "zenmoney/banks",
         "title": "Bank icon: Santander (Company.id 15884)",
         "url": "https://github.com/zenmoney/banks/pull/185"
       },
+      "mrHistory": [
+        {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "b0eb00ae3d7ab0019dc976298fc92bc36ee400b7f2fae0ddec58e3d54f7d2e2e",
+          "head": "bank-icon-maintenance/15884",
+          "headCommit": "2dca1ada9e9a592af97f4da2f127f5bd26112dc2",
+          "number": 185,
+          "observedAt": "2026-10-29T14:08:02.675910Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Santander (Company.id 15884)",
+          "url": "https://github.com/zenmoney/banks/pull/185"
+        }
+      ],
+      "mrOutcome": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "b0eb00ae3d7ab0019dc976298fc92bc36ee400b7f2fae0ddec58e3d54f7d2e2e",
+        "closedAt": "2026-10-29T14:38:54Z",
+        "head": "bank-icon-maintenance/15884",
+        "headCommit": "2dca1ada9e9a592af97f4da2f127f5bd26112dc2",
+        "mergeCommit": null,
+        "mergedAt": null,
+        "number": 185,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Santander (Company.id 15884)",
+        "url": "https://github.com/zenmoney/banks/pull/185"
+      },
+      "outcomeSync": {
+        "currentVerification": "not-renewed",
+        "observedAt": "2026-10-29T15:00:25.801170Z",
+        "proof": null,
+        "provider": {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "b0eb00ae3d7ab0019dc976298fc92bc36ee400b7f2fae0ddec58e3d54f7d2e2e",
+          "closedAt": "2026-10-29T14:38:54Z",
+          "head": "bank-icon-maintenance/15884",
+          "headCommit": "2dca1ada9e9a592af97f4da2f127f5bd26112dc2",
+          "mergeCommit": null,
+          "mergedAt": null,
+          "number": 185,
+          "state": "closed",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Santander (Company.id 15884)",
+          "url": "https://github.com/zenmoney/banks/pull/185"
+        },
+        "schemaVersion": 1,
+        "sourceStateCommit": "6ac136e9730dd90649ec67781244424227a8e288"
+      },
       "reason": "The Brazilian-source flame has a different red and white backing compared with the accepted transparent red icon; current group logo corroborates the flame and color.",
+      "rejectionReason": {
+        "action": "repair",
+        "candidateIconHash": "a38cc33b1650f8f9ae1afc18078527e29c4735ff5a28daa871a3c24081ca1995",
+        "category": "technical",
+        "comment": {
+          "author": "b3er",
+          "body": "no need to place logo in circle here",
+          "createdAt": "2026-10-29T14:38:54Z",
+          "kind": "comment",
+          "updatedAt": "2026-10-29T14:38:54Z",
+          "url": "https://github.com/zenmoney/banks/pull/185#issuecomment-6499680550"
+        },
+        "explanation": "no need to place logo in circle here",
+        "mr": {
+          "number": 185,
+          "url": "https://github.com/zenmoney/banks/pull/185"
+        },
+        "rationale": "The reviewer says the proposed circular backing is unnecessary. Investigate an applicable original-vector presentation without the circle and whether a supported change to the existing transparent flame is warranted; the comment does not select a color or approve a replacement.",
+        "requirements": [
+          {
+            "quote": "no need to place logo in circle here",
+            "url": "https://github.com/zenmoney/banks/pull/185#issuecomment-6499680550"
+          }
+        ]
+      },
       "reviewPackage": {
         "path": "evidence/15884/candidate-f7512054355e8f164eac9f435febbba64d4d98fc5fef4474fa6b73dc7d4d198e.json",
         "sha256": "f7512054355e8f164eac9f435febbba64d4d98fc5fef4474fa6b73dc7d4d198e"
@@ -118,7 +195,7 @@
           "url": "https://github.com/rzmt/logos-bancos-br/blob/main/data/bancos.json"
         }
       ],
-      "status": "open",
+      "status": "rejected",
       "taskKey": "1d5cbfb0359a39330389d6f2afaf4d2b4a2bd9edfaa9c004bf5f387d3bc1ac3a",
       "verification": {
         "checkedAt": "2026-10-29T14:05:24.199296Z",
@@ -155,6 +232,64 @@
       "review": null,
       "sourceMR": null,
       "task": "update-existing"
+    },
+    {
+      "key": "027ed5ac76ad2ebd4fecd32fbd5b72fdb3d966b0a63a1d4d742291e269729aa7",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:08:38.687646Z",
+      "reason": "The reviewer objected to the proposed circle. A Santander Brazil CMS SVG supplies a red flame on a white field, but the evidence does not establish whether that field is incidental for this exact variant; omitting it is therefore unsupported. A transparent third-party SVG resembles the baseline but its original-vector provenance is not established. No suitable non-circular replacement or verified unchanged result was established.",
+      "review": {
+        "action": "repair",
+        "assessedAt": "2026-10-29T15:01:09.357463Z",
+        "key": "027ed5ac76ad2ebd4fecd32fbd5b72fdb3d966b0a63a1d4d742291e269729aa7",
+        "rationale": "The reviewer says the proposed circular backing is unnecessary. Investigate an applicable original-vector presentation without the circle and whether a supported change to the existing transparent flame is warranted; the comment does not select a color or approve a replacement.",
+        "requirements": [
+          {
+            "quote": "no need to place logo in circle here",
+            "url": "https://github.com/zenmoney/banks/pull/185#issuecomment-6499680550"
+          }
+        ],
+        "selectedUrl": null,
+        "sources": [
+          {
+            "attachments": [],
+            "author": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "body": "no need to place logo in circle here",
+            "bodySha256": "0145f330d099353915eb4085d3eba7c4336a3b50fe2120bcd05b2cae0af3272e",
+            "createdAt": "2026-10-29T14:38:54Z",
+            "editor": {
+              "__typename": "User",
+              "login": "b3er"
+            },
+            "kind": "comment",
+            "lastEditedAt": null,
+            "nodeId": "IC_kwDOU2-MbM8AAAABg2lBJg",
+            "text": "no need to place logo in circle here",
+            "textSha256": "0145f330d099353915eb4085d3eba7c4336a3b50fe2120bcd05b2cae0af3272e",
+            "trust": {
+              "login": "b3er",
+              "permission": "write"
+            },
+            "url": "https://github.com/zenmoney/banks/pull/185#issuecomment-6499680550"
+          }
+        ]
+      },
+      "sourceMR": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "b0eb00ae3d7ab0019dc976298fc92bc36ee400b7f2fae0ddec58e3d54f7d2e2e",
+        "head": "bank-icon-maintenance/15884",
+        "headCommit": "2dca1ada9e9a592af97f4da2f127f5bd26112dc2",
+        "number": 185,
+        "state": "closed",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Santander (Company.id 15884)",
+        "url": "https://github.com/zenmoney/banks/pull/185"
+      },
+      "task": "rework-rejected"
     }
   ]
 }
