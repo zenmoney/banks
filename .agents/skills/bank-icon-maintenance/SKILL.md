@@ -173,9 +173,10 @@ on a copy before choosing final bytes. Its bounded trial is not a visual decisio
 Missing-tool/optimization failure permits full working-version checks; integrity
 failures stay blocked.
 
-Apply the [background/fit policy](references/icon-background.md): classify before
-rounding. Plain-field type 1 uses a same-color circle in the working SVG and a centered
-complete emblem; intentional off-center branding is not type 1. Official avatars
+Apply the [background/fit policy](references/icon-background.md): choose whether a
+backing is needed before classifying/rounding it. Retained eligible plain-field type 1
+uses a same-color circle in the working SVG and a centered complete emblem;
+intentional off-center branding is not type 1. Official avatars
 support the same variant and observed scale, not a classification/centering override.
 Keep scale source- and legibility-driven, not a fixed percentage. A separate round
 SVG or routine shape approval is unnecessary. Background-only masking must lose no

@@ -103,8 +103,9 @@ renamed or embedded raster is forbidden even if accurate. Base (when present),
 source/final/diff/XML/images remain exact and hash-checked. Source is byte-preserved with
 its original hash and extraction lineage where applicable. The separately prepared
 `final.svg` must remain genuine vector artwork derived from that source through
-source-preserving preparation/optimization, with only the documented plain-field
-catalog-circle exception. The emblem must still come from the original vector;
+source-preserving preparation/optimization, with only the documented
+[background-presentation exceptions](icon-background.md#2-adapt-the-backing-not-the-emblem).
+The emblem must still come from the original vector;
 this does not permit raster redraw, recoloring or inventing an official round variant.
 Scripts check bytes and SVG structure,
 not whether a vector was previously traced; the agent must judge provenance.

@@ -26,8 +26,9 @@ optimization, exact final-byte/render checks, assessment, or publication authori
 Use the sources and fetched asset from the original attempt. Preserve the
 supported source design of a suitable standalone symbol or app mark; color/monochrome;
 internal transparency and meaningful backing. The [background/fit policy](icon-background.md)
-defines a same-color circle and complete-emblem centering for eligible plain-field
-type 1. Intentional off-center branding is not type 1; do not forcibly recenter it.
+first selects whether a backing is needed, then defines a same-color circle and
+complete-emblem centering for retained eligible plain-field type 1.
+Intentional off-center branding is not type 1; do not forcibly recenter it.
 Official avatars support variant choice and observed scale, not a classification
 or centering override. Keep scale source- and legibility-driven without fixed fill
 percentages. Prepare the circle in the working SVG, not by assuming a later UI mask.
