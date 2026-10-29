@@ -1,6 +1,6 @@
 {
-  "lastAttemptAt": "2026-10-03T19:58:02.125003Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:44:19.054442Z",
+  "lastAttemptResult": "unconfirmed",
   "proposals": [
     {
       "acceptedHeadCommit": "0439c6e8fb606f298ded9f1c0368fbaa8d1bffca",
@@ -218,5 +218,16 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "af62404c993c3ae735ef4988754978f66ce8b2102b7213c7d8817a3178854a92",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:44:19.054442Z",
+      "reason": "The current official website presents a blue text-only DenizBank wordmark and independent reporting says the red helm was removed from its primary visual identity. The official MobilDeniz app listing still presents a red helm, but its rounded spoke tips, white border and blue background visibly differ from the existing red transparent icon. No suitable current standalone original-vector replacement or demonstrated exact equivalence has been established; neither the text-only wordmark nor app raster is a qualifying replacement.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
 }
