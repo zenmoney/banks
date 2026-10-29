@@ -1,6 +1,7 @@
 {
-  "lastAttemptAt": "2026-10-04T04:35:55.151415Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:44:58.596264Z",
+  "lastAttemptResult": "verified",
+  "lastVerifiedAt": "2026-10-29T15:44:58.596264Z",
   "proposals": [
     {
       "acceptedHeadCommit": "f5dbabb450da8861aed0bfebcc458f8bd1118952",
@@ -228,5 +229,17 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a9a29840044ce569f54afd0988ea2f573bd1c96bfde23e223044b35cd9cf92f9",
+      "outcome": "unchanged",
+      "processedAt": "2026-10-29T15:44:58.596264Z",
+      "reason": "The accepted coin visually matches the bank's official standalone symbol in independent source renders; its current desktop render is complete and legible on light and dark backgrounds. No justified visual update found.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ],
+  "verifiedIconHash": "334776e388324280e2abb51e019f178b1c24674c676d2b400fc33146a9ccab97"
 }
