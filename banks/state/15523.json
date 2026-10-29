@@ -1,6 +1,7 @@
 {
-  "lastAttemptAt": "2026-10-03T14:30:54.802301Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:19:13.691621Z",
+  "lastAttemptResult": "verified",
+  "lastVerifiedAt": "2026-10-29T15:19:13.691621Z",
   "proposals": [
     {
       "acceptedHeadCommit": "e1f0c5b3520d27c203723b78d826eb19a6fb375a",
@@ -218,5 +219,17 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "0f9f3ec3ab6085a847d33fcd6cd5130d5781afada3265bf7e6ceb9b7cc640f30",
+      "outcome": "unchanged",
+      "processedAt": "2026-10-29T15:19:13.691621Z",
+      "reason": "The frozen catalog mark matches the logo mark used on the official bank payment page, including its dark-blue rounded backing, near-white outline, white pixel emblem, and matching geometry; current RuStore listing independently corroborates the same bank emblem in a blue-on-white presentation. The official logo is a wordmark lockup; the catalog retains its standalone emblem.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ],
+  "verifiedIconHash": "47bfda91de38a9b0084e25b79f36a57ab590fc01cd868767d988b97e5c84ebc5"
 }
