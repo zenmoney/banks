@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:17:53.871558Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "8b37fff9421293a49b652ef7dc6d85988b1e2e26def524b5340b4f8ebd4c2d46",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:17:53.871558Z",
+      "reason": "The bank's matching official mobile SVG is original but contains a DOCTYPE and is rejected by the source-material/attempt declaration and entity check; no validated suitable alternate has been established. The missing icon cannot be declared unchanged.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
