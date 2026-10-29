@@ -1,0 +1,114 @@
+{
+  "lastAttemptAt": "2026-10-29T14:47:45.958084Z",
+  "lastAttemptResult": "unconfirmed",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [
+          {
+            "path": "evidence/15936/desktop-candidate/desktop.json",
+            "sha256": "bcdef4c24c0edb7e1666171ff75888f7409e553cfa86165f3015c2f7777249e7"
+          }
+        ],
+        "finishedAt": "2026-10-29T14:47:45.958084Z",
+        "outcome": "unconfirmed",
+        "reason": "Official circular vector renders with low dark-theme contrast: its navy emblem is difficult to distinguish from the dark catalog background at small sizes. Official guidance says use the logo as provided; no suitable checked alternative has been established.",
+        "stage": "render"
+      },
+      "proposal": {
+        "assessment": {
+          "currency": {
+            "basis": "The currently accessible official Etherscan website links to its Brand Assets page, which currently offers this exact circular SVG among its downloads. The header also displays the Etherscan logo.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "The record names EtherScan and specifies etherscan.io; that website identifies the brand as Etherscan and offers this asset on its own Brand Assets page.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "All observations are from Etherscan itself and form one official source group, not independent corroboration. The operator's own current branding page directly identifies and offers the asset for the record's specified website.",
+          "uncertainties": [],
+          "variant": {
+            "basis": "The official brand assets page specifically displays this standalone circular SVG as a logo. It is a square 123 by 123 original vector supplied directly by the brand, without accompanying wordmark. Final small-size and theme suitability require actual candidate renders.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": "53c7032cf078d66b7b45d2caf38816f696e1bd76f20d3f44e00f2b7760fd82b5",
+        "candidate": {
+          "iconHash": "21c1a4e2578a29059d8b50ba67e5a0eb25adaa8689f19fbadb21981d50bd9476",
+          "path": "evidence/15936/research-e14f869566ff4812ab8d856b6a02ae7c/fetch-4e72cb508a044831b2156ce1494cab23/attempt-1/body.bin",
+          "rationale": "The official standalone circular Etherscan brand vector replaces the unrelated Ethereum diamond in the current icon. The original source SVG was retrieved directly and retained without tracing; candidate rendering and source/final fidelity checks remain required.",
+          "retrieval": {
+            "path": "evidence/15936/research-e14f869566ff4812ab8d856b6a02ae7c/fetch-4e72cb508a044831b2156ce1494cab23/receipt.json",
+            "sha256": "49faf067d3b1605bb2621e4b9d31df45c5f830b4e00f567efc0130c163e5f315"
+          },
+          "sourceAssetUrl": "https://etherscan.io/images/brandassets/etherscan-logo-circle.svg",
+          "sourceMaterial": {
+            "path": "evidence/15936/source-material-fd22321e3ac04518b314b2fa110b0a63/material.json",
+            "sha256": "1d900dddde1d3ea56d277636b767c2ebfd1874d0b8603d333e167fabf4a57d96"
+          },
+          "sourceUrl": "https://etherscan.io/brandassets"
+        },
+        "candidateIconHash": "21c1a4e2578a29059d8b50ba67e5a0eb25adaa8689f19fbadb21981d50bd9476",
+        "checkedAt": "2026-10-29T14:45:03.186057Z",
+        "reason": "The existing icon depicts the Ethereum diamond, whereas the specified site's official brand page offers a distinct Etherscan circular logo. This is an identity correction, not a mere serialization change; visual candidate approval remains pending.",
+        "sources": [
+          {
+            "assetUrl": "https://etherscan.io/images/brandassets/etherscan-logo-circle.svg",
+            "checkedAt": "2026-10-29T14:43:53Z",
+            "independenceGroup": "Etherscan official website",
+            "kind": "official",
+            "observation": "Etherscan's brand assets page identifies Etherscan, displays the circular logo and links it as an SVG. Its branding guidelines say not to alter the logo and to use it as provided. The fetched image is an SVG with 123 by 123 viewBox and path geometry.",
+            "url": "https://etherscan.io/brandassets"
+          },
+          {
+            "assetUrl": "https://etherscan.io/assets/svg/logos/logo-etherscan.svg?v=0.0.5",
+            "checkedAt": "2026-10-29T14:43:53Z",
+            "independenceGroup": "Etherscan official website",
+            "kind": "official",
+            "observation": "The current homepage identifies its header image as Etherscan Logo and links to the brand assets page; it describes the Ethereum blockchain explorer.",
+            "url": "https://etherscan.io/"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "6adf44a2679d6a13badf291854d7843d4280731e4e9a0e3777eed7f7bd1c709f"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "21c1a4e2578a29059d8b50ba67e5a0eb25adaa8689f19fbadb21981d50bd9476",
+        "evidence": [
+          {
+            "path": "evidence/15936/desktop-candidate/desktop.json",
+            "sha256": "bcdef4c24c0edb7e1666171ff75888f7409e553cfa86165f3015c2f7777249e7"
+          }
+        ],
+        "finishedAt": "2026-10-29T14:47:45.958084Z",
+        "outcome": "unconfirmed",
+        "reason": "Official circular vector renders with low dark-theme contrast: its navy emblem is difficult to distinguish from the dark catalog background at small sizes. Official guidance says use the logo as provided; no suitable checked alternative has been established.",
+        "stage": "render"
+      },
+      "history": [
+        {
+          "key": "6adf44a2679d6a13badf291854d7843d4280731e4e9a0e3777eed7f7bd1c709f",
+          "outcome": "candidate",
+          "processedAt": "2026-10-29T14:45:03.186057Z",
+          "reason": "The existing icon depicts the Ethereum diamond, whereas the specified site's official brand page offers a distinct Etherscan circular logo. This is an identity correction, not a mere serialization change; visual candidate approval remains pending.",
+          "review": null,
+          "sourceMR": null,
+          "task": "update-existing"
+        }
+      ],
+      "key": "6adf44a2679d6a13badf291854d7843d4280731e4e9a0e3777eed7f7bd1c709f",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:47:45.958084Z",
+      "reason": "Official circular vector renders with low dark-theme contrast: its navy emblem is difficult to distinguish from the dark catalog background at small sizes. Official guidance says use the logo as provided; no suitable checked alternative has been established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
