@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:46:47.090347Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "6dc9f3fb071f2f1c1920c97d5dde2c76c0bd5206fe1f9849a701077f1326fe5b",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:46:47.090347Z",
+      "reason": "The official live site's linked favicon differs from the accepted icon, but no usable replayable original-vector material was obtained; unsupported extraction is not evidence that no original vector exists. The application bundle retrieval timed out.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
