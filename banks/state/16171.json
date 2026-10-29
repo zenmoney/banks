@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:57:19.388933Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "0ed1300205d76437d3aa93034c8bf21ede8b4fbcd24b3d011895e08d1b44cd6e",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:57:19.388933Z",
+      "reason": "The existing record has no icon. No original vector could be retrieved: official logo gallery returned HTTP 403 and its headless browser open timed out; the linked third-party vector download also returned HTTP 403. A PNG reference is unsuitable as replacement source material. An addition or visual equivalence cannot be verified.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
