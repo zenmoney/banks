@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T15:31:25.771843Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "563bc04f8067a6d0a9c265ef0d091d14b897552d092d865eef7918128342b065",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:31:25.771843Z",
+      "reason": "A 2023 identity change is reported, but no retrievable original vector and no evidence establishing the present design and a suitable standalone variant were found. The official site and announcement returned HTTP 403; other source retrievals also failed. No candidate or visual verification is available.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
