@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:08:20.553878Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "7f5f044b29610c3a8846960b30f02b48e2c91a32c258aafe9ac7bd3bcb5920c3",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:08:20.553878Z",
+      "reason": "The bank's current website and official touch icon identify a red standalone mark, but the accepted SVG uses a much darker red. No eligible standalone original-vector replacement with verified provenance was obtained; the third-party SVG includes the bank wordmark, and the official inline header vector could not be extracted by source-material. The observations do not justify an unchanged decision or a candidate.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
