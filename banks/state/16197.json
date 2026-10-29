@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:43:15.121875Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "d2707aa7c712347cb000bdcc9c1de92f7b619fa612ac9b96c4e9595066bdcd5e",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:43:15.121875Z",
+      "reason": "No provenance-supported original vector or confirmed current brand variant was retrieved. The official website returned HTTP 403; a third-party PNG depicts a possible stepped emblem but cannot supply vector geometry, and its vector download was blocked by a challenge.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
