@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T08:19:12.389364Z",
+  "lastAttemptResult": "error",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a5c55f53bdf0bdc99ee683fd86e46cdfd9b76d088e0247e83d723d44904b4a78",
+      "outcome": "error",
+      "processedAt": "2026-10-29T08:19:12.389364Z",
+      "reason": "The original inline SVG on the official homepage could not be extracted: source-material inventory, ID selection and index selection each reported 'source decoder failed or exceeded resource limits'. The official sprite's footer mark is a nested SVG, not a selectable symbol, and symbol selection reported 'sprite symbol does not exist exactly once'. No material manifest was produced.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
