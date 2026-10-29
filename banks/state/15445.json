@@ -1,0 +1,143 @@
+{
+  "lastAttemptAt": "2026-10-29T07:58:32.415925Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15445/assessed-016872aff2880b6afce59d4c5a42c82e18f432e10a53eb9543b70ffba3d31cc1.json",
+        "sha256": "016872aff2880b6afce59d4c5a42c82e18f432e10a53eb9543b70ffba3d31cc1"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Homepage was fetched in this session and displays the asset; Finratings dated July 2026 reports the current digital emblem and distinguishes older yellow variant. Full formal rebrand is unconfirmed and not needed for current use.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The asset is served from the exact Kazakhstan bank host in the metadata and appears in its own homepage header as Halyk logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official source establishes actual bank use and original vector provenance; Finratings is an independent publisher corroborating the design change but draws its observations from bank channels.",
+        "uncertainties": [
+          "Final exact-byte symbol extraction, background handling, contrast on dark/light themes, small-size legibility and platform rendering are candidate-stage checks, not established here.",
+          "No official circular display of this exact green variant was inspected; do not claim one or add a backing on that basis."
+        ],
+        "variant": {
+          "basis": "The distinct emblem in the official vector is a recognizable standalone mark, separated structurally from its accompanying lettering, and is a materially different color/geometry design from the baseline. The final standalone extraction and theme/small-size usability are not yet verified.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/9be23f418350c3821709fff20b372991eec62daf4c9fa622e5566c13ed80e54b.json",
+        "sha256": "9be23f418350c3821709fff20b372991eec62daf4c9fa622e5566c13ed80e54b"
+      },
+      "baseIconHash": "d0d7ce5db5c9376233274fdadbe803273ff5268cb749ba4274ca32e20cb7a0ea",
+      "candidate": {
+        "detailsJudgement": "The independent full source and cropped source/final comparisons on light and dark show the same eight-point green contour, S-shaped division, and transparent interior; no detail or clipping difference apparent at full size. The candidate omits only the separate accompanying wordmark.",
+        "faithful": true,
+        "iconHash": "f0efc5212cb8e0d31ab71e49015e4ab8696379e19ba1b91bd3587c14a2508b3a",
+        "path": "evidence/15445/candidate-f0efc5212cb8e0d31ab71e49015e4ab8696379e19ba1b91bd3587c14a2508b3a.svg",
+        "proportionsJudgement": "The complete original single-path symbol is centered in a 46.5-unit square viewBox with transparent margins. The viewport change uniformly enlarges the complete emblem for a useful square fit, without stretching or clipping. Source/final comparison shows the same shape and proportions.",
+        "rationale": "The official Halyk Kazakhstan site uses this current green emblem in a vector lockup; the accepted icon instead uses a green field with yellow outlined symbol. The independent source also reports the updated digital design without claiming an official full rebrand.",
+        "role": "symbol",
+        "sha256": "f0efc5212cb8e0d31ab71e49015e4ab8696379e19ba1b91bd3587c14a2508b3a",
+        "sourceAssetUrl": "https://halykbank.kz/storage/app/uploads/public/6a5/75a/f7a/6a575af7a9880610279451.svg",
+        "sourceUrl": "https://halykbank.kz/",
+        "transforms": [
+          "Losslessly retain the original emblem path and remove the separate wordmark and unused source clip; use a 46.5-unit square viewBox centered on the complete symbol, enlarging it uniformly while preserving path geometry, color and alpha.",
+          "SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 1704 bytes to 1312 bytes; optimized SHA-256 f0efc5212cb8e0d31ab71e49015e4ab8696379e19ba1b91bd3587c14a2508b3a. Working and optimized independent librsvg renders were pixel-identical at 162px; optimized SVG was used for this Desktop export."
+        ],
+        "variant": "Current official green transparent standalone emblem extracted from the light-mode Halyk lockup; no observed circular official presentation, no backing adaptation.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "The baseline's yellow outlined emblem and green circular field are replaced by a green standalone transparent symbol with revised contours. Exact Desktop base/final images show the difference on both themes."
+      },
+      "candidateIconHash": "f0efc5212cb8e0d31ab71e49015e4ab8696379e19ba1b91bd3587c14a2508b3a",
+      "checkedAt": "2026-10-29T07:58:32.415925Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "e9dd764a8c54c1667ff2321fc953a9939edaa5b94dadad31ba3781c7891c741f",
+        "head": "bank-icon-maintenance/15445",
+        "headCommit": "de5f63655384e668fe486af5a73a30354986fb84",
+        "number": 174,
+        "observedAt": "2026-10-29T08:13:58.143345Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Halyk Bank (Company.id 15445)",
+        "url": "https://github.com/zenmoney/banks/pull/174"
+      },
+      "reason": "The Kazakhstan bank's current official homepage displays a materially updated green standalone emblem in its vector Halyk lockup. The baseline has a yellow emblem and outline on a green circular field. This is a supported replacement, not a claim of a formally announced full rebrand. The complete emblem occupies a distinct original SVG path separate from the wordmark, but source-preserving separation and final fit, contrast and transparency need actual candidate-stage review.",
+      "reviewPackage": {
+        "path": "evidence/15445/candidate-ac092ffdc66ef64591da2db1ae91a0760dfff506d73243352b2a915696181b8e.json",
+        "sha256": "ac092ffdc66ef64591da2db1ae91a0760dfff506d73243352b2a915696181b8e"
+      },
+      "sourceCandidate": {
+        "iconHash": "8c17ebcfd8543df338dc491687727340c0eb618813900435f2f7d4068568219d",
+        "path": "evidence/15445/research-65338ebfe5a04b30bf4b532b0d3cee33/fetch-43126021e8dd499a910344e66e362d4f/attempt-1/body.bin",
+        "rationale": "Official current vector emblem differs visibly from the green/yellow baseline. Use the official resource as the original vector; accompanying text must be removed only through source-preserving preparation.",
+        "retrieval": {
+          "path": "evidence/15445/research-65338ebfe5a04b30bf4b532b0d3cee33/fetch-43126021e8dd499a910344e66e362d4f/receipt.json",
+          "sha256": "4e1e69a0ffbb1c0595f34c18cac89d254847b649f6ac2a65ab1975bfd7f87c5a"
+        },
+        "sourceAssetUrl": "https://halykbank.kz/storage/app/uploads/public/6a5/75a/f7a/6a575af7a9880610279451.svg",
+        "sourceUrl": "https://halykbank.kz/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://halykbank.kz/storage/app/uploads/public/6a5/75a/f7a/6a575af7a9880610279451.svg",
+          "checkedAt": "2026-10-29T07:57:59Z",
+          "independenceGroup": "Halyk Bank official Kazakhstan site",
+          "kind": "official",
+          "observation": "The homepage redirects to /kz and displays this SVG as its light-mode header logo. The official SVG is a green Halyk wordmark plus a separate green eight-point emblem with internal transparent space, not a standalone square asset. The complete emblem is a separate path; the containing SVG also includes a clip path.",
+          "url": "https://halykbank.kz/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:57:59Z",
+          "independenceGroup": "Finratings reporting",
+          "kind": "third-party",
+          "observation": "Article dated 17 July 2026 says Halyk Bank started using an updated green-and-white emblem on official site and social channels; describes earlier green star with yellow border and says no official full rebrand had been announced. The article is a separate publisher but its current-logo observation is based on bank channels, not independent asset creation.",
+          "url": "https://finratings.kz/news/15508-halyk-bank-smenil-logotip/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "cfa4f168d0d209ceba6fd4092c7a61fc09ff40b094c6fdc52172686c9af75f7f",
+      "verification": {
+        "checkedAt": "2026-10-29T08:11:08.348887Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "f0efc5212cb8e0d31ab71e49015e4ab8696379e19ba1b91bd3587c14a2508b3a",
+        "xmlSha256": "f23d2653cd582692ab182121d4145666b1ec7303b9f741fd1868f598ef5d5754"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "cfa4f168d0d209ceba6fd4092c7a61fc09ff40b094c6fdc52172686c9af75f7f",
+      "outcome": "published",
+      "processedAt": "2026-10-29T07:58:32.415925Z",
+      "publication": {
+        "candidateIconHash": "f0efc5212cb8e0d31ab71e49015e4ab8696379e19ba1b91bd3587c14a2508b3a",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "e9dd764a8c54c1667ff2321fc953a9939edaa5b94dadad31ba3781c7891c741f",
+          "head": "bank-icon-maintenance/15445",
+          "headCommit": "de5f63655384e668fe486af5a73a30354986fb84",
+          "number": 174,
+          "observedAt": "2026-10-29T08:13:58.143345Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Halyk Bank (Company.id 15445)",
+          "url": "https://github.com/zenmoney/banks/pull/174"
+        }
+      },
+      "reason": "The Kazakhstan bank's current official homepage displays a materially updated green standalone emblem in its vector Halyk lockup. The baseline has a yellow emblem and outline on a green circular field. This is a supported replacement, not a claim of a formally announced full rebrand. The complete emblem occupies a distinct original SVG path separate from the wordmark, but source-preserving separation and final fit, contrast and transparency need actual candidate-stage review.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
