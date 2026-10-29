@@ -1,0 +1,156 @@
+{
+  "lastAttemptAt": "2026-10-29T09:43:19.717492Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16184/assessed-b5dcca2fa8716c54881b5ddbbd6224e3f719387920a98453ba0aedb559968b2e.json",
+        "sha256": "b5dcca2fa8716c54881b5ddbbd6224e3f719387920a98453ba0aedb559968b2e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The matching yellow-on-blue emblem is in the live Fiare homepage header observed 2026-10-29; the 2019 Commons upload date alone would not establish currency.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official identity text explicitly identifies the Spanish Fiare bank and its relationship to Banca Popolare Etica; the Spanish website itself displays the matching mark.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Fiare's official identity and current use substantiate Spanish applicability and currency; Commons supplies a group-attributed original vector, not an independent second assertion of current use.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Visual inspection of the original vector rendered through rsvg-convert and the official Fiare header shows the same yellow mirrored emblem and blue field. Use only the complete emblem and its field, not the group name alongside it; final presentation and precise fidelity require separate review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/695161188b5c6c80332ed8057aae50ec7c81cb7b0a43938cc8b24cf06640eb81.json",
+        "sha256": "695161188b5c6c80332ed8057aae50ec7c81cb7b0a43938cc8b24cf06640eb81"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The independently rendered full source has a yellow mirrored emblem on a blue square beside the bancaetica wordmark. The final retains both yellow vector shapes, their relative geometry and yellow/blue colors; the wordmark is deliberately omitted. The source square field is replaced by a circular catalog field, not represented as an official circular avatar.",
+        "faithful": true,
+        "iconHash": "ba6722d721c647667e244b881a43f2e225282c178ee545687226c0b763151794",
+        "path": "evidence/16184/candidate-ba6722d721c647667e244b881a43f2e225282c178ee545687226c0b763151794.svg",
+        "proportionsJudgement": "The source mark is contained within a separable uniform blue square, with no observed intentional offset; this is plain-field type 1. The same-color circle has transparent corners, and the complete emblem is centered by its visible bounds with the whole emblem translated 0.02 source units vertically. Both shapes fit without clipping. Desktop final frames remain recognizable on both themes; resized 24, 32 and 48 px diagnostic previews show the mark, though the dark blue field has low edge contrast on the dark theme. These are resized diagnostics, not native mobile observations.",
+        "rationale": "The original group vector's standalone emblem matches the current official Fiare website's yellow-on-blue mark; omitting the separate group wordmark makes it suitable for a square catalog cell.",
+        "role": "Standalone bank emblem on catalog-adapted circular backing",
+        "sha256": "ba6722d721c647667e244b881a43f2e225282c178ee545687226c0b763151794",
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Logo-bancaetica.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo-bancaetica.svg",
+        "transforms": [
+          "Isolate the two original yellow vector paths and omit the separate group wordmark; replace the separable solid blue square with a same-color inscribed circle. Translate the complete emblem vertically by 0.02 source units for visible-bounds centering; no individual emblem component is redrawn or scaled.",
+          "SVGO 4.1.0 with repository config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 672 bytes to 613 bytes. Selected the optimized SVG after visually comparing working and optimized renders on light and dark backgrounds; no visible change observed."
+        ],
+        "variant": "Yellow mirrored emblem on blue, matching the official Spanish site; circular backing is a catalog adaptation, not a claimed official circular avatar.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: there was no icon.svg at the frozen base; the final frames show the new standalone emblem. No before-image or improvement over an existing icon is claimed."
+      },
+      "candidateIconHash": "ba6722d721c647667e244b881a43f2e225282c178ee545687226c0b763151794",
+      "checkedAt": "2026-10-29T09:43:19.717492Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+        "bodySha256": "839b2e75c687e7a204ecff30652167a0eada956f4625c1bd328a2eeffd89fb12",
+        "head": "bank-icon-maintenance/16184",
+        "headCommit": "6f107d7602149cf5b807aa8ea8be7cf3cdc736b1",
+        "number": 183,
+        "observedAt": "2026-10-29T09:52:34.887762Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Fiare Banca Etica (Company.id 16184)",
+        "url": "https://github.com/zenmoney/banks/pull/183"
+      },
+      "reason": "The official Spanish Fiare Banca Etica website currently displays the same yellow mirrored symbol on a blue square as the bank-origin vector distributed by Wikimedia Commons. The SVG is a full Banca Etica wordmark, not a ready-made square icon; a compliant candidate must isolate its existing original symbol and backing without redrawing and then pass all source/final and platform checks. This is research, not visual approval.",
+      "reviewPackage": {
+        "path": "evidence/16184/candidate-54ca6967f65475b28e699bfe114e6e1e0d891b0047b8f62fddd1d0b2d28d0b9e.json",
+        "sha256": "54ca6967f65475b28e699bfe114e6e1e0d891b0047b8f62fddd1d0b2d28d0b9e"
+      },
+      "sourceCandidate": {
+        "iconHash": "26fae3e1abc0aaa1c4b2818245f85692d50498d194995677226541b9c3e951e8",
+        "path": "evidence/16184/research-b6845ba376d4450184e8204331bf7cb9/fetch-3237fd09124c4e50b486d93c454aec02/attempt-1/body.bin",
+        "rationale": "The original group vector has a separable mark and background visually matching the Spanish official site's header; the separate Banca Etica lettering is unsuitable in a square cell and should not be retained.",
+        "retrieval": {
+          "path": "evidence/16184/research-b6845ba376d4450184e8204331bf7cb9/fetch-3237fd09124c4e50b486d93c454aec02/receipt.json",
+          "sha256": "ac17702a76b634bf7f6ffe8fd99466c24fbfb7871ed51e990d66d9fd807887d2"
+        },
+        "sourceAssetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Logo-bancaetica.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logo-bancaetica.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.fiarebancaetica.coop/app/themes/crispybacon-bancaetica/images/logofiare.png",
+          "checkedAt": "2026-10-29T09:41:57Z",
+          "independenceGroup": "Fiare Banca Etica official website",
+          "kind": "official",
+          "observation": "The current homepage header uses a Fiare Banca Etica lockup. Its left emblem is a yellow mirrored mark on a dark blue square; raster is supporting visual evidence only, not replacement material.",
+          "url": "https://www.fiarebancaetica.coop/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T09:41:57Z",
+          "independenceGroup": "Fiare Banca Etica official website",
+          "kind": "official",
+          "observation": "The official identity page says Fiare Banca Etica arose from the union of Banca Popolare Etica in Italy and Fiare in Spain; its footer identifies Fiare Banca Etica as the Spanish branch of Banca Popolare Etica. Page metadata says modified 2026-10-14.",
+          "url": "https://www.fiarebancaetica.coop/identidad/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Logo-bancaetica.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "checkedAt": "2026-10-29T09:41:57Z",
+          "independenceGroup": "Banca Etica vector distributed by Wikimedia Commons",
+          "kind": "third-party",
+          "observation": "Wikimedia describes the SVG as the official Banca Etica logo, attributes source to bancaetica.it, author to terzini e muratori, and lists a 2019-02-09 upload. The SVG names itself Logo-BE-RGB-2colori and contains a blue rectangle and two yellow vector paths plus separate text artwork. Its independently rendered mark visually matches the mark in the current Fiare header. Wikimedia is a distribution source for the group artwork, not independent evidence that the artwork remains current.",
+          "url": "https://commons.wikimedia.org/wiki/File:Logo-bancaetica.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T09:41:57Z",
+          "independenceGroup": "Fiare Banca Etica official website",
+          "kind": "official",
+          "observation": "Official press kit links to a press dossier PDF and includes the same raster header logo; no downloadable SVG logo was observed on the page.",
+          "url": "https://www.fiarebancaetica.coop/press-kit/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "aea2198ec96caae0d93aa12322c58bc9ac976ce9c710b428cea7be5d3768b117",
+      "verification": {
+        "checkedAt": "2026-10-29T09:49:52.888829Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "ba6722d721c647667e244b881a43f2e225282c178ee545687226c0b763151794",
+        "xmlSha256": "8e33a75d21dc99b2fa558b642c54e885b260856460cde83cd414257dda5e56a5"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "aea2198ec96caae0d93aa12322c58bc9ac976ce9c710b428cea7be5d3768b117",
+      "outcome": "published",
+      "processedAt": "2026-10-29T09:43:19.717492Z",
+      "publication": {
+        "candidateIconHash": "ba6722d721c647667e244b881a43f2e225282c178ee545687226c0b763151794",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c041c08dfc64aaaa2d2d3f86b3efde3c38cbe50d",
+          "bodySha256": "839b2e75c687e7a204ecff30652167a0eada956f4625c1bd328a2eeffd89fb12",
+          "head": "bank-icon-maintenance/16184",
+          "headCommit": "6f107d7602149cf5b807aa8ea8be7cf3cdc736b1",
+          "number": 183,
+          "observedAt": "2026-10-29T09:52:34.887762Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Fiare Banca Etica (Company.id 16184)",
+          "url": "https://github.com/zenmoney/banks/pull/183"
+        }
+      },
+      "reason": "The official Spanish Fiare Banca Etica website currently displays the same yellow mirrored symbol on a blue square as the bank-origin vector distributed by Wikimedia Commons. The SVG is a full Banca Etica wordmark, not a ready-made square icon; a compliant candidate must isolate its existing original symbol and backing without redrawing and then pass all source/final and platform checks. This is research, not visual approval.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
