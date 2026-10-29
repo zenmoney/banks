@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T08:02:07.790752Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "5a9a40f64803fdbee95baa08c6917b7e82f37be3ee74ec888d005aea02511a8a",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T08:02:07.790752Z",
+      "reason": "Citi UAE remains active and its current app presents a white citi mark with a red arc on blue. The accepted icon has a flat cyan circular field while the app shows a blue gradient rounded square; the exact accepted background and full variant are not independently confirmed. No supported original vector replacement was identified; raster app and website logos cannot serve as replacement sources. The exact accepted icon has not received Compose render verification.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
