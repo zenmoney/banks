@@ -1,6 +1,7 @@
 {
-  "lastAttemptAt": "2026-10-02T14:59:06.864566Z",
-  "lastAttemptResult": "candidate",
+  "lastAttemptAt": "2026-10-29T15:17:00.068561Z",
+  "lastAttemptResult": "verified",
+  "lastVerifiedAt": "2026-10-29T15:17:00.068561Z",
   "proposals": [
     {
       "acceptedHeadCommit": "687d4e3b5f4491b84dc7dee35f09f873a9a341c8",
@@ -220,5 +221,17 @@
       "supersedes": []
     }
   ],
-  "schemaVersion": 1
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "31ba472f528df2ee8acc894832a93b3bd149065a2ef45490d090f4fec9181f11",
+      "outcome": "unchanged",
+      "processedAt": "2026-10-29T15:17:00.068561Z",
+      "reason": "No evidence of a meaningful change in brand mark; color and form of accepted icon correspond to current official header and independent vector. No proposal is justified solely by minor SVG serialization or background difference.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ],
+  "verifiedIconHash": "b54e0112b3e336bac075684e2714c56ff41ecd53fa82ade1cdb6265420532782"
 }
