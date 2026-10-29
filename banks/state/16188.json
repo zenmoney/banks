@@ -1,0 +1,140 @@
+{
+  "lastAttemptAt": "2026-10-29T08:19:49.216697Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16188/assessed-3958ddca2936b7dd54a77641692afb810e2840ed65ebd9b9ab17a36d545efba4.json",
+        "sha256": "3958ddca2936b7dd54a77641692afb810e2840ed65ebd9b9ab17a36d545efba4"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The operating bank's website references the SVG as its site chat logo; the website also carries a matching header lockup. Retrieved 2026-10-29.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Metadata title and host match the bank website; the National Bank of Tajikistan identifies ОАО Банк Эсхата and links that host.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The bank publishes the graphic and site; the National Bank of Tajikistan is an independent banking regulator corroborating bank and domain, not independent graphic artwork.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Blue open-ring monogram is a discrete complete emblem path in the bank's official SVG. The separate wordmark must be omitted for the catalog icon; transparent background remains. Square suitability, small-size readability and final source fidelity require actual candidate render review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/17bf4998e1898cca4208838ea224563861303d7bb586f42dd95ceaf0bbffd489.json",
+        "sha256": "17bf4998e1898cca4208838ea224563861303d7bb586f42dd95ceaf0bbffd489"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The optimized final shows the complete blue broken ring, interior monogram, open gaps and transparent interior. In the original-source/final pairs these features and their color match the original emblem. The separate wordmark is deliberately removed.",
+        "faithful": true,
+        "iconHash": "6af24e2e7f34140cbe9ebf4851f2dc0115439f14718bcfe34bd8a2b8ce2f2990",
+        "path": "evidence/16188/candidate-6af24e2e7f34140cbe9ebf4851f2dc0115439f14718bcfe34bd8a2b8ce2f2990.svg",
+        "proportionsJudgement": "The source emblem proportions are preserved and the complete standalone symbol fits within the square desktop frame on both themes, with no visible clipping. It is recognizable at the shown desktop size; dark-theme blue has lower contrast than on light.",
+        "rationale": "First icon addition: the bank's current official SVG provides a complete blue emblem that is distinct from the accompanying name. A standalone symbol fits the catalog cell without the wordmark.",
+        "role": "symbol",
+        "sha256": "6af24e2e7f34140cbe9ebf4851f2dc0115439f14718bcfe34bd8a2b8ce2f2990",
+        "sourceAssetUrl": "https://eskhata.com/img/logo-chat.svg",
+        "sourceUrl": "https://eskhata.com/",
+        "transforms": [
+          "Retained the blue emblem path from the original SVG and omitted the separate wordmark; set a 44 by 44 viewport around the emblem without redrawing or recoloring it. Transparent source background retained, no backing or mask added.",
+          "SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 820 bytes to 678 bytes; selected optimized SHA-256 6af24e2e7f34140cbe9ebf4851f2dc0115439f14718bcfe34bd8a2b8ce2f2990. Independently rasterized 176px working and optimized images visually match on light and dark, and have no differing RGBA pixels. The exact optimized bytes also passed pinned desktop export."
+        ],
+        "variant": "Blue open circular monogram on transparency, extracted from the bank's official logo lockup; no official round avatar presentation is claimed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg; the final provides the bank's standalone blue emblem, not an update comparison to a previous image."
+      },
+      "candidateIconHash": "6af24e2e7f34140cbe9ebf4851f2dc0115439f14718bcfe34bd8a2b8ce2f2990",
+      "checkedAt": "2026-10-29T08:19:49.216697Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "1c7ae34e42ebcd83f0824e16a1c20f0fd63185cd58afa0d2cb7d94312bbd71bc",
+        "head": "bank-icon-maintenance/16188",
+        "headCommit": "bcf63a6dec3b29a0914e23f30f79e9bd3ce391d3",
+        "number": 175,
+        "observedAt": "2026-10-29T08:25:48.409639Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Эсхата (Company.id 16188)",
+        "url": "https://github.com/zenmoney/banks/pull/175"
+      },
+      "reason": "This record has no existing icon. The bank's official website serves its logo as an original SVG; its separate blue emblem path can be extracted without tracing or retaining the accompanying bank name. The National Bank of Tajikistan independently lists the bank and its website. Final extraction, small-size rendering and visual fidelity must be checked in the candidate phase.",
+      "reviewPackage": {
+        "path": "evidence/16188/candidate-e519dc6fd2abedefbc1d281ddb8150956e4b6e5e3a67d4061b18e0509a40f1e4.json",
+        "sha256": "e519dc6fd2abedefbc1d281ddb8150956e4b6e5e3a67d4061b18e0509a40f1e4"
+      },
+      "sourceCandidate": {
+        "iconHash": "af034e36eacc8a37367f39b5cb6fc4b409acfb954249a1796d04da411b31fbb3",
+        "path": "evidence/16188/research-39695b481be34810a1ebf3516fd8ea31/fetch-cd1e3e3c2f714731be01ce11f0c3c28c/attempt-1/body.bin",
+        "rationale": "Original vector on the bank's own current website; the blue standalone emblem is a separate path from the dark wordmark, suitable for source-preserving extraction without redrawing. Full lockup with name is not the final icon.",
+        "retrieval": {
+          "path": "evidence/16188/research-39695b481be34810a1ebf3516fd8ea31/fetch-cd1e3e3c2f714731be01ce11f0c3c28c/receipt.json",
+          "sha256": "51a692cc997d68ae9412b7ad8e11fd9a063b4716eba3ced7076f12a8592c7884"
+        },
+        "sourceAssetUrl": "https://eskhata.com/img/logo-chat.svg",
+        "sourceUrl": "https://eskhata.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://eskhata.com/img/logo-chat.svg",
+          "checkedAt": "2026-10-29T08:16:58Z",
+          "independenceGroup": "eskhata-bank",
+          "kind": "official",
+          "observation": "The bank website uses the referenced SVG as its chat site logo with alt text Эсхата, and separately shows a matching header lockup. The fetched SVG contains a blue emblem and a separate dark wordmark; the emblem appears as an open circular monogram.",
+          "url": "https://eskhata.com/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T08:17:44Z",
+          "independenceGroup": "national-bank-tajikistan",
+          "kind": "third-party",
+          "observation": "National Bank of Tajikistan lists ОАО Банк Эсхата and links to www.eskhata.com.",
+          "url": "https://www.nbt.tj/ru/banking_system/banks.php"
+        }
+      ],
+      "status": "open",
+      "taskKey": "277aada220f9ca0b20a1bd76b83478eae6b1b401436cf6d3a4eebc28d8d84ecf",
+      "verification": {
+        "checkedAt": "2026-10-29T08:23:26.066912Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6af24e2e7f34140cbe9ebf4851f2dc0115439f14718bcfe34bd8a2b8ce2f2990",
+        "xmlSha256": "2f07f91026a0b73351fafc42b114029013862d2f469aa2cd9151a49e6927169d"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "277aada220f9ca0b20a1bd76b83478eae6b1b401436cf6d3a4eebc28d8d84ecf",
+      "outcome": "published",
+      "processedAt": "2026-10-29T08:19:49.216697Z",
+      "publication": {
+        "candidateIconHash": "6af24e2e7f34140cbe9ebf4851f2dc0115439f14718bcfe34bd8a2b8ce2f2990",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "1c7ae34e42ebcd83f0824e16a1c20f0fd63185cd58afa0d2cb7d94312bbd71bc",
+          "head": "bank-icon-maintenance/16188",
+          "headCommit": "bcf63a6dec3b29a0914e23f30f79e9bd3ce391d3",
+          "number": 175,
+          "observedAt": "2026-10-29T08:25:48.409639Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Эсхата (Company.id 16188)",
+          "url": "https://github.com/zenmoney/banks/pull/175"
+        }
+      },
+      "reason": "This record has no existing icon. The bank's official website serves its logo as an original SVG; its separate blue emblem path can be extracted without tracing or retaining the accompanying bank name. The National Bank of Tajikistan independently lists the bank and its website. Final extraction, small-size rendering and visual fidelity must be checked in the candidate phase.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
