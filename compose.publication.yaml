@@ -1,0 +1,11 @@
+services:
+  maintenance:
+    environment:
+      BANK_ICON_PUBLICATION_POLICY: /run/bank-icon-publication/policy.json
+    volumes:
+      - type: bind
+        source: "${BANK_ICON_PUBLICATION_POLICY:?Set BANK_ICON_PUBLICATION_POLICY to an existing absolute host policy path outside the checkout}"
+        target: /run/bank-icon-publication/policy.json
+        read_only: true
+        bind:
+          create_host_path: false

@@ -1,0 +1,9 @@
+services:
+  maintenance:
+    build:
+      args:
+        INSTALL_ANDROID_EMULATOR: 'yes'
+    devices:
+      - /dev/kvm:/dev/kvm
+    group_add:
+      - "${KVM_GID:-0}"
