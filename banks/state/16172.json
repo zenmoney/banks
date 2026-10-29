@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T14:55:15.884126Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "4cdfb7b60db8567bb08cf05e693377cb6dd2cde2ee386607889ef8136c4e2b1a",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T14:55:15.884126Z",
+      "reason": "The record has no icon. The official visual identity page returned HTTP 403, preventing retrieval of its indexed SVG downloads. Iconape provides an SVG labelled CajaSiete, but the third party does not establish its original-vector provenance or current use. The downloaded file is a wide logo with separate lettering and is not directly suitable for a square icon cell. No supported standalone replacement was established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
