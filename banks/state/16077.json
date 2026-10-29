@@ -1,0 +1,162 @@
+{
+  "lastAttemptAt": "2026-10-29T15:18:20.180606Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16077/assessed-330e749494fa32e4ad305eb00e6bc8b036bf0df10492c10cd0d9e904c1bbbdf0.json",
+        "sha256": "330e749494fa32e4ad305eb00e6bc8b036bf0df10492c10cd0d9e904c1bbbdf0"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The current official website displays the matching coral emblem from the bank-hosted vector captured in 2024.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The metadata domain is the bank's active homepage; its labelled logo depicts the same distinctive symbol as the vector served by the archived bank website.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Current and archived official websites are one primary source. Commons and Wasmenia are separate listings but may derive from the bank artwork, not independent design origins.",
+        "uncertainties": [
+          "Accepted red M icon's original attribution is unverified; this does not undermine the independently identified replacement."
+        ],
+        "variant": {
+          "basis": "The single coral path is a self-contained standalone geometric symbol suitable for square-cell adaptation; separate D360 text in the original full logo must be omitted. Exact scale, background, source fidelity, and rendering remain to be checked.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/1f3f35e387f30688f7ee8ff0fa0e2c764b0e0589ab4ea12dd27f97e3d7e118bd.json",
+        "sha256": "1f3f35e387f30688f7ee8ff0fa0e2c764b0e0589ab4ea12dd27f97e3d7e118bd"
+      },
+      "baseIconHash": "8b2741da63182f72bcb7007ef58a467ff0f559136fc0f021e896cadca8389cb6",
+      "candidate": {
+        "detailsJudgement": "Inspected full source and source/final light and dark pairs: coral angular emblem retains its notches, corners and contour; separate D360 lettering intentionally removed. No clipping or invented backing.",
+        "faithful": true,
+        "iconHash": "014588be9c826458056914ad0eebe5def9a18487c46bd59b77bfde0628266d00",
+        "path": "evidence/16077/candidate-014588be9c826458056914ad0eebe5def9a18487c46bd59b77bfde0628266d00.svg",
+        "proportionsJudgement": "Square crop keeps entire original emblem and proportions, with transparent background; both themes show a complete legible mark.",
+        "rationale": "Replace unrelated red M on blue with original bank-hosted coral D360 emblem corroborated by current official website.",
+        "role": "Standalone geometric D360 brand emblem; separate wordmark omitted.",
+        "sha256": "014588be9c826458056914ad0eebe5def9a18487c46bd59b77bfde0628266d00",
+        "sourceAssetUrl": "https://web.archive.org/web/20240104190813id_/https://d360.com/_next/static/media/logo-color.7d088050.svg",
+        "sourceUrl": "https://web.archive.org/web/20240104190813id_/https://d360.com/",
+        "transforms": [
+          "Selected original coral emblem path and omitted separate wordmark paths; changed viewBox from 0 0 41 62 to 0 0 41 41 without scaling, translation, tracing or recoloring.",
+          "SVGO 4.1.0 with frozen config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 685 to 480 bytes. Viewed independent working and optimized references; no visible geometric or color difference. Selected optimized bytes after successful Desktop conversion."
+        ],
+        "variant": "Coral #EB644C emblem on transparent field; no separable plain field or circular backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Red M on blue square replaced by official coral geometric emblem on transparency."
+      },
+      "candidateIconHash": "014588be9c826458056914ad0eebe5def9a18487c46bd59b77bfde0628266d00",
+      "checkedAt": "2026-10-29T15:18:20.180606Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "111867d18d238ce2c10493dd8addee18ea400e3f",
+        "bodySha256": "9c910690bf92150f0b65726c064892e8766601ffab746912ded7b5c97c17ee5f",
+        "head": "bank-icon-maintenance/task-2e5bff2f24b6-16077",
+        "headCommit": "37c0f3fbf11ee25989ed801b2a7c6a47011b0fd0",
+        "number": 189,
+        "observedAt": "2026-10-29T15:25:11.626295Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: D360 Bank (Company.id 16077)",
+        "url": "https://github.com/zenmoney/banks/pull/189"
+      },
+      "reason": "The accepted icon depicts a red M-like mark on a blue square, unlike D360 Bank's current coral geometric mark. An archived bank website supplies the original vector and the current site displays the same geometric mark above D360 lettering. The vector contains separate lettering, so only its standalone emblem is appropriate for the square catalog cell; source/final fidelity and rendering still require review.",
+      "reviewPackage": {
+        "path": "evidence/16077/candidate-2685fd2da19c77606a9a2ab6b15b6b8e9bee7774e85019abc8be120127798eec.json",
+        "sha256": "2685fd2da19c77606a9a2ab6b15b6b8e9bee7774e85019abc8be120127798eec"
+      },
+      "sourceCandidate": {
+        "iconHash": "bed36d5342ead305d83a7a3110d13cfec0d3c0a9e00968591c977912b646dd91",
+        "path": "evidence/16077/research-6e7e15c188ba456d99e343c24e8ffa1e/fetch-5249de23fdd8445d9cdf1a7edfd29050/attempt-2/body.bin",
+        "rationale": "Original bank-hosted SVG from the archived bank homepage reproduces the emblem displayed on the current official site; isolating its existing emblem path removes separate lettering and corrects the unrelated accepted icon without tracing.",
+        "retrieval": {
+          "path": "evidence/16077/research-6e7e15c188ba456d99e343c24e8ffa1e/fetch-5249de23fdd8445d9cdf1a7edfd29050/receipt.json",
+          "sha256": "d7405cc13e8d3087b079e7b0387ffa2e842ccc0074bdcc25beacab4b657dd421"
+        },
+        "sourceAssetUrl": "https://web.archive.org/web/20240104190813id_/https://d360.com/_next/static/media/logo-color.7d088050.svg",
+        "sourceMaterial": {
+          "path": "evidence/16077/source-material-880ef7f8e6ee471bb9259fdfd42e8fc7/material.json",
+          "sha256": "fc7b0f50b1b2e1be72b15058fa37acf0bf6f3b969dfc7d4431d53436503aa8d9"
+        },
+        "sourceUrl": "https://web.archive.org/web/20240104190813id_/https://d360.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://axa3tigaf4dy.objectstorage.me-jeddah-1.oci.customer-oci.com/n/axa3tigaf4dy/b/webcms-prod-bucket/o/logo2_a240e6aea9.png",
+          "checkedAt": "2026-10-29T15:13:43Z",
+          "independenceGroup": "D360 Bank official website",
+          "kind": "official",
+          "observation": "Bank homepage labels the displayed raster D360 Bank Logo; the image shows a coral geometric emblem above dark D360 lettering. Raster is used for identity and current-use comparison, not as source material.",
+          "url": "https://d360.com/ar"
+        },
+        {
+          "assetUrl": "https://web.archive.org/web/20240104190813id_/https://d360.com/_next/static/media/logo-color.7d088050.svg",
+          "checkedAt": "2026-10-29T15:17:38Z",
+          "independenceGroup": "D360 Bank official website",
+          "kind": "official",
+          "observation": "The bank homepage captured on 4 January 2024 directly references this footer logo. The archived bank-hosted SVG contains the coral #EB644C geometric symbol in one path, and separate dark wordmark paths. The current bank homepage raster displays the same symbol; the archive delivers the original asset gzip-compressed.",
+          "url": "https://web.archive.org/web/20240104190813id_/https://d360.com/"
+        },
+        {
+          "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/D360_Bank.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+          "checkedAt": "2026-10-29T15:14:17Z",
+          "independenceGroup": "Wikimedia Commons attributed bank artwork",
+          "kind": "third-party",
+          "observation": "Commons describes this as D360 Bank logo, attributes its author to D360 Bank and source to d360.com, with an upload dated 7 June 2024. Its SVG contains a single coral emblem path and separate dark text paths; the emblem matches the official site's displayed geometry. Attribution is a third-party statement, not an independently recovered bank-hosted vector.",
+          "url": "https://commons.wikimedia.org/wiki/File:D360_Bank.svg"
+        },
+        {
+          "assetUrl": "https://strapi.wasmenia.com/uploads/D360_7b1c1cd250.svg",
+          "checkedAt": "2026-10-29T15:15:00Z",
+          "independenceGroup": "Wasmenia logo listing, derivation unknown",
+          "kind": "third-party",
+          "observation": "Logo listing names D360 Bank and serves a separate vector showing the same geometric emblem and D360 text, with different colors. It is corroborating identity/design evidence, not the selected source; its derivation is unknown.",
+          "url": "https://wasmenia.com/en/logos/d360-bank-3"
+        }
+      ],
+      "status": "open",
+      "taskKey": "2e5bff2f24b69a32db29d5b5aecb2c8e4d5cb78e0d55e5c959127707c054905c",
+      "verification": {
+        "checkedAt": "2026-10-29T15:21:42.075952Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "014588be9c826458056914ad0eebe5def9a18487c46bd59b77bfde0628266d00",
+        "xmlSha256": "48ed5b8f4c229cfd21f073b18655b5a2e4012db91d48e2a105910674d52f2fae"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2e5bff2f24b69a32db29d5b5aecb2c8e4d5cb78e0d55e5c959127707c054905c",
+      "outcome": "published",
+      "processedAt": "2026-10-29T15:18:20.180606Z",
+      "publication": {
+        "candidateIconHash": "014588be9c826458056914ad0eebe5def9a18487c46bd59b77bfde0628266d00",
+        "mr": {
+          "base": "main",
+          "baseCommit": "111867d18d238ce2c10493dd8addee18ea400e3f",
+          "bodySha256": "9c910690bf92150f0b65726c064892e8766601ffab746912ded7b5c97c17ee5f",
+          "head": "bank-icon-maintenance/task-2e5bff2f24b6-16077",
+          "headCommit": "37c0f3fbf11ee25989ed801b2a7c6a47011b0fd0",
+          "number": 189,
+          "observedAt": "2026-10-29T15:25:11.626295Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: D360 Bank (Company.id 16077)",
+          "url": "https://github.com/zenmoney/banks/pull/189"
+        }
+      },
+      "reason": "The accepted icon depicts a red M-like mark on a blue square, unlike D360 Bank's current coral geometric mark. An archived bank website supplies the original vector and the current site displays the same geometric mark above D360 lettering. The vector contains separate lettering, so only its standalone emblem is appropriate for the square catalog cell; source/final fidelity and rendering still require review.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
