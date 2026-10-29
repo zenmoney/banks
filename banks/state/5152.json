@@ -1,0 +1,122 @@
+{
+  "lastAttemptAt": "2026-10-29T07:32:29.179500Z",
+  "lastAttemptResult": "unconfirmed",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [
+          {
+            "path": "evidence/5152/desktop-candidate/candidate/render/dark.png",
+            "sha256": "025f28e7f4e32450d99be6a49c47da19bbdaafb94b1c27936406e76630abf600"
+          }
+        ],
+        "finishedAt": "2026-10-29T07:32:29.179500Z",
+        "outcome": "unconfirmed",
+        "reason": "Official transparent charcoal favicon is nearly invisible on the actual dark Compose Desktop background; the official app listing shows a different yellow-backed mark but only raster artwork was found. A suitable source-backed original vector alternative is not established.",
+        "stage": "render"
+      },
+      "proposal": {
+        "assessment": {
+          "currency": {
+            "basis": "The bank's current homepage explicitly links its favicon SVG and shows the same five-bar emblem in its header logo. This supports the currently used bank mark, not a historical successor.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "Bank of Russia identifies Банк «ВБРР» (АО), describes it as a bank with universal licence and lists vbrr.ru and www.vbrr.ru as its websites; the official site corresponds to the catalog metadata.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "The Bank of Russia registry independently establishes identity, domain and status. The bank's own homepage and two linked vectors are one source group and establish current visual use, not two independent visual sources.",
+          "uncertainties": [],
+          "variant": {
+            "basis": "The homepage explicitly specifies a standalone transparent five-bar favicon. Its charcoal SVG paths form the bank mark and contain no separate name; the same mark appears in the bank's official header. Transparent symbol rather than a plain-field background; final theme contrast and fit still need real renderer review.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": "35cbe9c3f4715310707ad32ab75208bb7d54eb579841e249e7e6810ecbbc7535",
+        "candidate": {
+          "iconHash": "8d969a37607ff5d2227aa6d59ccfcae7402461652422c020c58c74c1d46c2cdc",
+          "path": "evidence/5152/research-3c7fa65f97d64636bde1de3cfc5db602/fetch-760052c85f71499ca363ed6b6829b5de/attempt-2/body.bin",
+          "rationale": "Source is the bank's own linked original standalone SVG. Its corrected lower-left bar geometry and charcoal color are visible differences from the accepted brown icon; all rendering and theme-legibility judgments remain pending.",
+          "retrieval": {
+            "path": "evidence/5152/research-3c7fa65f97d64636bde1de3cfc5db602/fetch-760052c85f71499ca363ed6b6829b5de/receipt.json",
+            "sha256": "bd3b5d6b1e36faf18a0fb71950c6b1dd70d63b91cdc6edbcf4e33a32cf6f4f25"
+          },
+          "sourceAssetUrl": "https://www.vbrr.ru/favicon.svg",
+          "sourceMaterial": {
+            "path": "evidence/5152/source-material-129a7c314eca4c9aab488f83d5157633/material.json",
+            "sha256": "fee253598a5a5c437395907782de7527e43353d8cfe86915c0d4de342350e7a3"
+          },
+          "sourceUrl": "https://www.vbrr.ru/"
+        },
+        "candidateIconHash": "8d969a37607ff5d2227aa6d59ccfcae7402461652422c020c58c74c1d46c2cdc",
+        "checkedAt": "2026-10-29T07:28:47.626193Z",
+        "reason": "Official standalone vector differs from the accepted icon in the geometry of the lower-left bar and charcoal rather than brown color. It is a source-supported correction for this bank, subject to actual candidate suitability and rendering review, not proof of a rebrand.",
+        "sources": [
+          {
+            "assetUrl": null,
+            "checkedAt": "2026-10-29T07:25:58.800998Z",
+            "independenceGroup": "Bank of Russia",
+            "kind": "third-party",
+            "observation": "Registry identifies Банк «ВБРР» (АО), universal-licence status and vbrr.ru/www.vbrr.ru domains.",
+            "url": "https://www.cbr.ru/finorg/foinfo/?ogrn=1027739186914"
+          },
+          {
+            "assetUrl": "https://www.vbrr.ru/favicon.svg",
+            "checkedAt": "2026-10-29T07:26:08.426359Z",
+            "independenceGroup": "Bank ВБРР",
+            "kind": "official",
+            "observation": "Bank homepage, retrieved at 07:25:58Z, links this standalone five-bar favicon; the retrieved SVG is charcoal on transparency, with its own original vector path.",
+            "url": "https://www.vbrr.ru/"
+          },
+          {
+            "assetUrl": "https://www.vbrr.ru/local/templates/vbrr-new/external/dist/images/logo.svg",
+            "checkedAt": "2026-10-29T07:26:08.422530Z",
+            "independenceGroup": "Bank ВБРР",
+            "kind": "official",
+            "observation": "Bank homepage references this header SVG, which contains the corresponding five-bar symbol and separate lettering; the full lockup is not suitable as a standalone square-cell icon.",
+            "url": "https://www.vbrr.ru/"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "83dc728476dd7821141a91a7c574805786972c32f01c13bd3d4becc9203264dd"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "8d969a37607ff5d2227aa6d59ccfcae7402461652422c020c58c74c1d46c2cdc",
+        "evidence": [
+          {
+            "path": "evidence/5152/desktop-candidate/candidate/render/dark.png",
+            "sha256": "025f28e7f4e32450d99be6a49c47da19bbdaafb94b1c27936406e76630abf600"
+          }
+        ],
+        "finishedAt": "2026-10-29T07:32:29.179500Z",
+        "outcome": "unconfirmed",
+        "reason": "Official transparent charcoal favicon is nearly invisible on the actual dark Compose Desktop background; the official app listing shows a different yellow-backed mark but only raster artwork was found. A suitable source-backed original vector alternative is not established.",
+        "stage": "render"
+      },
+      "history": [
+        {
+          "key": "83dc728476dd7821141a91a7c574805786972c32f01c13bd3d4becc9203264dd",
+          "outcome": "candidate",
+          "processedAt": "2026-10-29T07:28:47.626193Z",
+          "reason": "Official standalone vector differs from the accepted icon in the geometry of the lower-left bar and charcoal rather than brown color. It is a source-supported correction for this bank, subject to actual candidate suitability and rendering review, not proof of a rebrand.",
+          "review": null,
+          "sourceMR": null,
+          "task": "update-existing"
+        }
+      ],
+      "key": "83dc728476dd7821141a91a7c574805786972c32f01c13bd3d4becc9203264dd",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:32:29.179500Z",
+      "reason": "Official transparent charcoal favicon is nearly invisible on the actual dark Compose Desktop background; the official app listing shows a different yellow-backed mark but only raster artwork was found. A suitable source-backed original vector alternative is not established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
