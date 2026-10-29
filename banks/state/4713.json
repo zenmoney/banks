@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:06:39.402429Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2c60efbb1eb45d0572371a3915e54990c9cc1cc0fcaa2d4d0ca8592b96de685d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:06:39.402429Z",
+      "reason": "The bank's investor site currently presents a multicolored circular mark, while the accepted SVG has a flat burgundy circle and white angular mark. I found no supported, usable original SVG of the bank's current standalone mark: the LogoTeka SVG contains an embedded PNG for its multicolor field, and the PH4 standalone archive contains EPS, AI and CDR rather than a supported SVG. The SeekVectors SVG is visibly the different Bank of Moscow despite the page label. The baseline's flat-color variant is not independently established as current or equivalent, and no Compose render was performed.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
