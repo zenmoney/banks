@@ -1,0 +1,152 @@
+{
+  "lastAttemptAt": "2026-10-29T07:28:48.658671Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15383/assessed-15ef3c244193d2fec75753a7c26a1bf2f156140afe549066f4ca04a02de34553.json",
+        "sha256": "15ef3c244193d2fec75753a7c26a1bf2f156140afe549066f4ca04a02de34553"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The official bank site currently displays this vector in its header, and the bank's 2021 announcement describes the refresh for the same operating bank.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official legal-name announcement explicitly links Moldova Agroindbank with BC MAIB SA; the current maib site is the domain in the catalog record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The official identity announcement, brand announcement and current homepage are related primary sources from the same bank, not independent sources; direct self-identification and current official header provide direct support. An independent IPN result could not be fetched.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The official vector includes a turquoise divided circular standalone emblem whose cut and color match the bank's explanation of its refreshed identity. It is a transparent mark with meaningful circular silhouette, not a separable background field; retain transparency. Source includes separate lettering, to be removed without changing the two emblem paths. Actual final fit and legibility remain candidate-stage checks.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/201ebd24eecfe2ef07d85151ef2cf941c28ebd128fca8571bf0d1dddda35024a.json",
+        "sha256": "201ebd24eecfe2ef07d85151ef2cf941c28ebd128fca8571bf0d1dddda35024a"
+      },
+      "baseIconHash": "a5e7608ed8f206932e83e6c389c543f1b39f76518f7598ceab861e373df378e0",
+      "candidate": {
+        "detailsJudgement": "The original turquoise two-piece circle and rising transparent cut are retained. Full original logo and both source/final images were inspected: the separately accompanying maib lettering is omitted; no symbol detail or internal transparency is visibly lost. Source colors and contour match the candidate.",
+        "faithful": true,
+        "iconHash": "7f919515168bd31ace51aba2e5c470db2e08dbfbeb860ea2399458c025ef0304",
+        "path": "evidence/15383/candidate-7f919515168bd31ace51aba2e5c470db2e08dbfbeb860ea2399458c025ef0304.svg",
+        "proportionsJudgement": "Transparent source symbol has a meaningful circular silhouette, not a plain background field; no backing was added. Square viewport centers the whole original emblem, retaining its source proportions and transparent cut. The complete mark fits without clipping on both Desktop themes; resized Desktop diagnostics at 24, 32 and 48 pixels retain a recognizable cut and symbol.",
+        "rationale": "The current official bank header depicts this symbol, materially distinct from the accepted white M; the bank's legal-name and refresh announcements establish the same operating entity and new visual identity.",
+        "role": "symbol",
+        "sha256": "7f919515168bd31ace51aba2e5c470db2e08dbfbeb860ea2399458c025ef0304",
+        "sourceAssetUrl": "https://www.maib.md/images/logo.svg",
+        "sourceUrl": "https://www.maib.md/ro",
+        "transforms": [
+          "Removed the four original separate wordmark paths and kept both original emblem paths, their #40C1AC color and transparent cut; set a square 40 x 40 viewport at -1.005 2.217 without drawing or recoloring.",
+          "SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e produced 521 bytes from 610 bytes; selected optimized SHA-256 7f919515168bd31ace51aba2e5c470db2e08dbfbeb860ea2399458c025ef0304. Working and trial librsvg references visually matched; exact optimized bytes rendered in Desktop export."
+        ],
+        "variant": "Official turquoise standalone emblem extracted from full lockup on a transparent square canvas; no circular backing or claim of official avatar display.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Both actual baseline/final theme pairs show replacement of the dark green disk and white M by a turquoise divided circular symbol, visibly different geometry and color. This is a source-supported replacement, not a claim about old icon provenance."
+      },
+      "candidateIconHash": "7f919515168bd31ace51aba2e5c470db2e08dbfbeb860ea2399458c025ef0304",
+      "checkedAt": "2026-10-29T07:28:48.658671Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "98ed0ac92baa00741413c5cbe72f270e4b78d98922a3b35434378c0834e50973",
+        "head": "bank-icon-maintenance/task-4c83b83b27fd-15383",
+        "headCommit": "c7ff25ff531f1c39a68907db8fa42444684a5480",
+        "number": 170,
+        "observedAt": "2026-10-29T07:37:16.755706Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Moldova Agroindbank (Company.id 15383)",
+        "url": "https://github.com/zenmoney/banks/pull/170"
+      },
+      "reason": "Moldova Agroindbank adopted the maib name and refreshed identity. The current official website uses a turquoise divided circular symbol, materially different from the accepted white M on dark green. The official original vector contains a standalone symbol alongside a separate wordmark; preparation must isolate the original symbol and verify its final presentation. The old icon's source attribution remains unknown but does not undermine the supported replacement.",
+      "reviewPackage": {
+        "path": "evidence/15383/candidate-17cb49275b213aab1422d1be23d6429a024566056a8674bbc52658ad13cf0033.json",
+        "sha256": "17cb49275b213aab1422d1be23d6429a024566056a8674bbc52658ad13cf0033"
+      },
+      "sourceCandidate": {
+        "iconHash": "9fc5151cdcabe9f43c11e53e7b12a624d47dd88cca65a55deda47d7e8dc610fd",
+        "path": "evidence/15383/research-4a5b218f3fa44b01a9ab6d36e152f625/fetch-c69294e5c6434d88b90aacf3732ba20e/attempt-1/body.bin",
+        "rationale": "Official current original vector supports the refreshed same-bank emblem, distinct from the accepted old white M. Isolate the original turquoise symbol paths, omit separate lettering, and retain its transparent divided-circle contour.",
+        "retrieval": {
+          "path": "evidence/15383/research-4a5b218f3fa44b01a9ab6d36e152f625/fetch-c69294e5c6434d88b90aacf3732ba20e/receipt.json",
+          "sha256": "356bd28dedf9740eef240d5fb69d17f56c6d98cd199d58cef451009f2dbbdfff"
+        },
+        "sourceAssetUrl": "https://www.maib.md/images/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/15383/source-material-4d845aaaae1141a490632fdab234adf3/material.json",
+          "sha256": "4df4a0505c7952ac4af3e0e72dd97457d9c3e0f7cea75f17d92422402415b279"
+        },
+        "sourceUrl": "https://www.maib.md/ro"
+      },
+      "sources": [
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:26:09Z",
+          "independenceGroup": "maib official publications",
+          "kind": "official",
+          "observation": "The bank identifies Moldova Agroindbank and states that shareholders adopted the abbreviated name BC MAIB SA in 2021.",
+          "url": "https://www.maib.md/en/noutati/moldova-agroindbank-a-inregistrat-denumirea-juridica-prescurtata.-de-astazi-oficial-numele-bancii-este-maib"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-10-29T07:26:10Z",
+          "independenceGroup": "maib official publications",
+          "kind": "official",
+          "observation": "The bank's 7 October 2021 announcement describes the refreshed brand across branches, website and apps; the circular symbol has a rising cut and brighter green.",
+          "url": "https://www.maib.md/en/noutati/maib-has-refreshed-its-brand-modern-agile-innovative"
+        },
+        {
+          "assetUrl": "https://www.maib.md/images/logo.svg",
+          "checkedAt": "2026-10-29T07:25:48Z",
+          "independenceGroup": "maib official publications",
+          "kind": "official",
+          "observation": "The bank's official homepage header links to this vector logo. The visible logo has a turquoise divided circle followed by separate maib lettering. The source contains two turquoise symbol paths and four separate lettering paths; the unbacked symbol is suitable for isolation without tracing.",
+          "url": "https://www.maib.md/ro"
+        }
+      ],
+      "status": "open",
+      "taskKey": "4c83b83b27fd915144c1f908982935560419cc07184442af024985141c53289b",
+      "verification": {
+        "checkedAt": "2026-10-29T07:34:12.674673Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "7f919515168bd31ace51aba2e5c470db2e08dbfbeb860ea2399458c025ef0304",
+        "xmlSha256": "40ef99483a13e6bcdf7354cc3016b7c073e1ccf9373ad476b338c4fe26bf30bf"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "4c83b83b27fd915144c1f908982935560419cc07184442af024985141c53289b",
+      "outcome": "published",
+      "processedAt": "2026-10-29T07:28:48.658671Z",
+      "publication": {
+        "candidateIconHash": "7f919515168bd31ace51aba2e5c470db2e08dbfbeb860ea2399458c025ef0304",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "98ed0ac92baa00741413c5cbe72f270e4b78d98922a3b35434378c0834e50973",
+          "head": "bank-icon-maintenance/task-4c83b83b27fd-15383",
+          "headCommit": "c7ff25ff531f1c39a68907db8fa42444684a5480",
+          "number": 170,
+          "observedAt": "2026-10-29T07:37:16.755706Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Moldova Agroindbank (Company.id 15383)",
+          "url": "https://github.com/zenmoney/banks/pull/170"
+        }
+      },
+      "reason": "Moldova Agroindbank adopted the maib name and refreshed identity. The current official website uses a turquoise divided circular symbol, materially different from the accepted white M on dark green. The official original vector contains a standalone symbol alongside a separate wordmark; preparation must isolate the original symbol and verify its final presentation. The old icon's source attribution remains unknown but does not undermine the supported replacement.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
