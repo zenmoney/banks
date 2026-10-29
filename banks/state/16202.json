@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T07:41:42.285248Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2815bd917e00f197b3c352c542f9007e8c09816980b78d8ebc0bbf463232c891",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T07:41:42.285248Z",
+      "reason": "The official Q-Pay site displays a Quantera Pay lockup, but provenance of its discretized Q path as an original vector and suitability of the extracted standalone emblem remain unconfirmed. The complete lockup includes accompanying text and is unsuitable for the catalog; no final render was performed.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
