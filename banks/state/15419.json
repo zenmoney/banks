@@ -1,0 +1,144 @@
+{
+  "lastAttemptAt": "2026-10-29T07:29:07.463039Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/15419/assessed-ee1645afe9558051c41dd228094b48abf6196cf73fd35c304f3f653075263316.json",
+        "sha256": "ee1645afe9558051c41dd228094b48abf6196cf73fd35c304f3f653075263316"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The bank's current homepage provides the logo as a header asset and a matching main header image; the source is the operating Ukrainian bank itself.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The source homepage explicitly names the same Ukrainian bank and its legal entity in the footer; the fetched SVG is its labelled header logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Both assets belong to one official bank website and are not independent sources. The bank itself directly establishes its name and present header design.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The original SVG renders a standalone teal C, green A, red accent and green underline, matching the main displayed bank logo; the white field is separable and the complete emblem does not reach canvas edges. Circular presentation is a catalog adaptation, not an observed official avatar.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/1ecac2566933ee80e5c9b1fbc22643e63ce4a5b8bc881c11d6c94b4146d473ae.json",
+        "sha256": "1ecac2566933ee80e5c9b1fbc22643e63ce4a5b8bc881c11d6c94b4146d473ae"
+      },
+      "baseIconHash": "f5a5776e94c1b58f4d01f70087629ffc1c5d614958039ec3647431f9ed615b22",
+      "candidate": {
+        "detailsJudgement": "Full original librsvg raster and source/final theme pairs show the same contours, green underline, accent, gaps, proportions and teal/green/red colors, with no lost detail; background is intentionally circular rather than square.",
+        "faithful": true,
+        "iconHash": "8b74fd90dbe50c0a4e6e2c4b3fb0e4fe1f142ad906236c89c2c4f4711b1d2799",
+        "path": "evidence/15419/candidate-8b74fd90dbe50c0a4e6e2c4b3fb0e4fe1f142ad906236c89c2c4f4711b1d2799.svg",
+        "proportionsJudgement": "The complete emblem including the underline is centered within the white circle with adequate clearances and no clipping. The 24, 32 and 48 px resized diagnostics remain recognizable on light and dark; these are resized Desktop screenshots, not native mobile renders.",
+        "rationale": "The bank's own current Ukrainian website uses this original vector symbol, whose brighter colors and green underline differ materially from the accepted icon.",
+        "role": "Standalone C/A monogram with red accent and integral underline; no accompanying name or slogan.",
+        "sha256": "8b74fd90dbe50c0a4e6e2c4b3fb0e4fe1f142ad906236c89c2c4f4711b1d2799",
+        "sourceAssetUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+        "sourceUrl": "https://credit-agricole.ua/",
+        "transforms": [
+          "Extracted the visible source group without redrawing, retained the original exact paths and explicit source fills, discarded only off-canvas artwork, replaced the plain white square backing with a white circle, and translated the complete emblem -0.45 horizontally and +0.05 vertically to center full visible bounds. No emblem scaling or clipping.",
+          "SVGO 4.1.0 using frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 1035 to 840 bytes; trial SHA-256 8b74fd90dbe50c0a4e6e2c4b3fb0e4fe1f142ad906236c89c2c4f4711b1d2799. Independent 600px librsvg working/trial previews have identical RGBA pixels; the optimized version was used for the actual Desktop render."
+        ],
+        "variant": "Official current full-color emblem on a white field. The square source background was adapted to a circular white catalog backing; no official circular avatar was observed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Both real base/final theme images show the final green underline, more saturated source colors and white circular backing, unlike the baseline's muted, transparent, underline-free emblem. This is a supported variant correction, not proof of a dated rebrand."
+      },
+      "candidateIconHash": "8b74fd90dbe50c0a4e6e2c4b3fb0e4fe1f142ad906236c89c2c4f4711b1d2799",
+      "checkedAt": "2026-10-29T07:29:07.463039Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+        "bodySha256": "51d4309466ffbf72cefe5d92a1d4e7b711bfba4adcf4b79223bead7269a90024",
+        "head": "bank-icon-maintenance/task-8facd66d0a23-15419",
+        "headCommit": "784b5a3aade0ea381e35b1130c6c8d7ee9981c13",
+        "number": 168,
+        "observedAt": "2026-10-29T07:34:27.427478Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: КРЕДІ АГРІКОЛЬ БАНК (Company.id 15419)",
+        "url": "https://github.com/zenmoney/banks/pull/168"
+      },
+      "reason": "The exact accepted mark has muted colors and no underline, whereas the bank's current homepage logo uses the same C/A emblem with stronger colors and a green underline. The bank's own current sticky-header original SVG supplies a suitable standalone replacement.",
+      "reviewPackage": {
+        "path": "evidence/15419/candidate-7844a6645397a8f69512b7206daecbe8433bbc1fa1c4876d9d8f855d0c7c4a7f.json",
+        "sha256": "7844a6645397a8f69512b7206daecbe8433bbc1fa1c4876d9d8f855d0c7c4a7f"
+      },
+      "sourceCandidate": {
+        "iconHash": "d6c7c6434def5a95cf0fb02c48f7ba3d1eebbf8dea6ee8081ec46de892e5e8a0",
+        "path": "evidence/15419/research-d8e8e6db84f246ef97f9ac3949e0b0d2/fetch-910f34e29d9a4fbe9df5780666a8566c/attempt-1/body.bin",
+        "rationale": "Official original-vector standalone brand symbol corrects the visibly different baseline color and missing underline; it is not merely a serialization change.",
+        "retrieval": {
+          "path": "evidence/15419/research-d8e8e6db84f246ef97f9ac3949e0b0d2/fetch-910f34e29d9a4fbe9df5780666a8566c/receipt.json",
+          "sha256": "23ffda94380dc2cfdf0b0429838399591fe782063ffc8f50fb73c99e242d0f40"
+        },
+        "sourceAssetUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+        "sourceMaterial": {
+          "path": "evidence/15419/source-material-61678f769d03447c82dbb746aec45d72/material.json",
+          "sha256": "f1ae2a79f2c778f25ecb58ea5bc88b94e826868ac56ec8ec388e07d83cd0784d"
+        },
+        "sourceUrl": "https://credit-agricole.ua/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://credit-agricole.ua/storage/settings/logo-credit-agricole-small.svg",
+          "checkedAt": "2026-10-29T07:28:12Z",
+          "independenceGroup": "Ukrainian bank official website",
+          "kind": "official",
+          "observation": "The bank homepage names АТ «КРЕДІ АГРІКОЛЬ БАНК» and its NBU licence, and includes this SVG as the sticky-header Credit Agricole logo. The fetched bank-hosted Illustrator-exported vector has a standalone C/A emblem with green underline on white.",
+          "url": "https://credit-agricole.ua/"
+        },
+        {
+          "assetUrl": "https://credit-agricole.ua/storage/settings/logo-ca-320.png",
+          "checkedAt": "2026-10-29T07:28:12Z",
+          "independenceGroup": "Ukrainian bank official website",
+          "kind": "official",
+          "observation": "The homepage's main logo PNG was visually inspected and displays the same emblem, colors and underline; it corroborates the site presentation but is raster research evidence only.",
+          "url": "https://credit-agricole.ua/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "8facd66d0a236628aff321fa61e1fe924ad223ceef5511ebc12dc3821573ff50",
+      "verification": {
+        "checkedAt": "2026-10-29T07:33:06.123914Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8b74fd90dbe50c0a4e6e2c4b3fb0e4fe1f142ad906236c89c2c4f4711b1d2799",
+        "xmlSha256": "86f91a6c1f6e7dfa791ca83b2ee3c0ad171f518e65251dde5da5f9eda5f9ae24"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "8facd66d0a236628aff321fa61e1fe924ad223ceef5511ebc12dc3821573ff50",
+      "outcome": "published",
+      "processedAt": "2026-10-29T07:29:07.463039Z",
+      "publication": {
+        "candidateIconHash": "8b74fd90dbe50c0a4e6e2c4b3fb0e4fe1f142ad906236c89c2c4f4711b1d2799",
+        "mr": {
+          "base": "main",
+          "baseCommit": "c0876b17461e242ed3d7dabde7fe99521142f8e0",
+          "bodySha256": "51d4309466ffbf72cefe5d92a1d4e7b711bfba4adcf4b79223bead7269a90024",
+          "head": "bank-icon-maintenance/task-8facd66d0a23-15419",
+          "headCommit": "784b5a3aade0ea381e35b1130c6c8d7ee9981c13",
+          "number": 168,
+          "observedAt": "2026-10-29T07:34:27.427478Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: КРЕДІ АГРІКОЛЬ БАНК (Company.id 15419)",
+          "url": "https://github.com/zenmoney/banks/pull/168"
+        }
+      },
+      "reason": "The exact accepted mark has muted colors and no underline, whereas the bank's current homepage logo uses the same C/A emblem with stronger colors and a green underline. The bank's own current sticky-header original SVG supplies a suitable standalone replacement.",
+      "review": null,
+      "sourceMR": null,
+      "task": "update-existing"
+    }
+  ]
+}
