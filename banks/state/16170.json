@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-10-29T15:32:17.021328Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "956402a22994bab372cb5725521e32fe47de5abe46a556698a6af411e1b31f40",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-10-29T15:32:17.021328Z",
+      "reason": "No original bank-vector provenance was established for a suitable current standalone mark. The Commons uploader describes the SVG as own work, without establishing its creation method or bank origin; its background differs from the official app raster. The raster is research evidence, not replacement artwork.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
