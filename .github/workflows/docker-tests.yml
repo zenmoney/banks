@@ -4,11 +4,19 @@ on:
   pull_request:
     paths:
       - 'docker/**'
+      - 'compose*.yaml'
+      - '.env.example'
+      - 'Dockerfile'
+      - '.dockerignore'
       - '.github/workflows/docker-tests.yml'
   push:
     branches: [main]
     paths:
       - 'docker/**'
+      - 'compose*.yaml'
+      - '.env.example'
+      - 'Dockerfile'
+      - '.dockerignore'
       - '.github/workflows/docker-tests.yml'
   workflow_dispatch:
 
@@ -28,7 +36,11 @@ jobs:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
           persist-credentials: false
-      - name: Run isolated Git cleanup tests
+      - name: Install launcher test dependencies
+        run: |
+          /usr/bin/python3 -m venv /tmp/docker-tests-venv
+          /tmp/docker-tests-venv/bin/pip install -r docker/requirements.txt
+      - name: Run isolated launcher and cleanup tests
         env:
           PYTHONDONTWRITEBYTECODE: '1'
-        run: /usr/bin/python3 -m unittest discover -s docker/tests -p 'test_*.py' -v
+        run: /tmp/docker-tests-venv/bin/python -m unittest discover -s docker/tests -p 'test_*.py' -v

@@ -31,6 +31,18 @@ export PATH="$runtime/bin:$PATH"
 
 # Diagnostic commands remain usable without creating a maintenance worktree.
 if [ "${1:-}" = run ]; then
+    launcher=$(dirname "$(readlink -f "$0")")
+    runner=/usr/local/share/bank-icon-maintenance/runner.md
+    test -r "$runner"
+    config=${BANK_ICON_TASKS_FILE:-tasks.yaml}
+    case "$config" in
+        /*) ;;
+        *) config="/run/bank-icon-config/$config" ;;
+    esac
+    plan=$(mktemp -d /tmp/bank-icon-steps.XXXXXX)
+    trap 'rm -rf "$plan"' 0
+    python3 "$launcher/prepare-steps.py" "$config" "$plan"
+
     source_repo=${BANK_ICON_SOURCE_REPO:-/workspace}
     export BANK_ICON_REPO="${BANK_ICON_REPO:-$source_repo/.worktree}"
     if [ ! -e "$BANK_ICON_REPO/.git" ]; then
@@ -44,40 +56,56 @@ if [ "${1:-}" = run ]; then
     catalog=${BANK_ICON_CATALOG:-$BANK_ICON_REPO/icon-catalog}
     skill=${BANK_ICON_SKILL:-$BANK_ICON_REPO/.agents/skills/bank-icon-maintenance/SKILL.md}
     recipes=$(dirname "$skill")/tasks
-    tasks='update-existing add-missing rework-rejected rework-changes merge-approved'
     test -r "${OMP_CONFIG_FILE:-$HOME/.omp/agent/config.yml}"
-    test -r "$skill"
-    for task in $tasks; do
-        test -r "$recipes/$task.md"
-    done
+    while IFS= read -r index; do
+        task=$(cat "$plan/$index/task")
+        if [ -n "$task" ]; then
+            test -r "$skill"
+            test -r "$recipes/$task.md"
+        fi
+    done < "$plan/order"
     export BANK_ICON_INTERACTION=noninteractive
 
-    # Provision the current checkout's build cache before the installed-only skill.
-    prep=$(mktemp -d /tmp/bank-icon-prepare.XXXXXX)
-    trap 'rm -rf "$prep"' 0
-    printf '%s\n' 'Preparing Gradle cache from the Git worktree...' >&2
-    env -u DISPLAY -u WAYLAND_DISPLAY -u XAUTHORITY \
-        JAVA_TOOL_OPTIONS=-Djava.awt.headless=true \
-        JDK_JAVA_OPTIONS="${JDK_JAVA_OPTIONS:-} -Djava.io.tmpdir=$prep" \
-        "$catalog/gradlew" -p "$catalog" --no-daemon --max-workers=2 \
-        -Pandroid.builder.sdkDownload=false -Pkotlin.compiler.execution.strategy=in-process \
-        "-PcatalogBanks=$BANK_ICON_REPO/banks" -PcatalogId=3 \
-        :androidApp:assembleDebug :catalog:run \
-        --args="export --id 3 --manifest \"$catalog/catalog/build/generated/catalog/manifest.json\" --output \"$prep/render\"" >&2
-    rm -rf "$prep"
-    trap - 0
+    # Only recipe-backed runs need the catalog's installed-only build cache.
+    if [ -e "$plan/needs-catalog" ]; then
+        prep="$plan/prepare"
+        mkdir "$prep"
+        printf '%s\n' 'Preparing Gradle cache from the Git worktree...' >&2
+        env -u DISPLAY -u WAYLAND_DISPLAY -u XAUTHORITY \
+            JAVA_TOOL_OPTIONS=-Djava.awt.headless=true \
+            JDK_JAVA_OPTIONS="${JDK_JAVA_OPTIONS:-} -Djava.io.tmpdir=$prep" \
+            "$catalog/gradlew" -p "$catalog" --no-daemon --max-workers=2 \
+            -Pandroid.builder.sdkDownload=false -Pkotlin.compiler.execution.strategy=in-process \
+            "-PcatalogBanks=$BANK_ICON_REPO/banks" -PcatalogId=3 \
+            :androidApp:assembleDebug :catalog:run \
+            --args="export --id 3 --manifest \"$catalog/catalog/build/generated/catalog/manifest.json\" --output \"$prep/render\"" >&2
+        rm -rf "$prep"
+    fi
     cd "$BANK_ICON_REPO"
     status=0
     # Only these fresh task roots can own worktrees eligible for cleanup.
     set -- "$source_repo" "$BANK_ICON_REPO"
-    for task in $tasks; do
-        task_root=$(mktemp -d "/sessions/$task.XXXXXX")
-        printf 'Starting task %s (sessions: %s)\n' "$task" "$task_root" >&2
-        timeout --signal=TERM --kill-after=10s "${BANK_ICON_PASS_TIMEOUT_SECONDS:-10800}s" \
-            omp -p --no-title --no-session \
-            --config "${OMP_CONFIG_FILE:-$HOME/.omp/agent/config.yml}" \
-            "@$recipes/$task.md" \
-            "Execute exactly one finite noninteractive task: $task. Follow the attached task recipe and common skill, not the other task recipes or a global startup audit. Use the configured selection limit and one finite plan; do not refill it after failures. Use $task_root as this task's temporary parent, creating a fresh child session or operation directory for each selected object. Keep temporary files in /tmp. Never wait for stdin or an owner reply. Check the configured publication authority before research or writes; missing or insufficient authority is a blocker, not permission to ask or manufacture a grant. Only the merge-approved task requests merges, and still requires matching merge authority and exact-head approval checks. Follow the recipe's state publication and verification before claiming completion. Report an empty eligible queue as no work; otherwise report each processed, skipped, failed or blocked object and any unconfirmed writes. Sessions and evidence are ephemeral and disappear when this container stops." </dev/null &
+    while IFS= read -r index; do
+        step="$plan/$index"
+        task=$(cat "$step/task")
+        label=$(cat "$step/label")
+        task_root=$(mktemp -d "/sessions/$label.XXXXXX")
+        printf 'Starting step %s (sessions: %s)\n' "$label" "$task_root" >&2
+        (
+            set -- omp -p --no-title --no-session \
+                --config "${OMP_CONFIG_FILE:-$HOME/.omp/agent/config.yml}" \
+                "@$runner"
+            context=$(printf 'Step directory: %s' "$task_root")
+            if [ -n "$task" ]; then
+                set -- "$@" "@$recipes/$task.md"
+                context=$(printf 'Selected task: %s\n%s' "$task" "$context")
+            fi
+            if [ -e "$step/prompt.md" ]; then
+                set -- "$@" "@$step/prompt.md"
+            fi
+            set -- "$@" "$context"
+            exec timeout --signal=TERM --kill-after=10s "${BANK_ICON_PASS_TIMEOUT_SECONDS:-10800}s" "$@"
+        ) </dev/null &
         pass_pid=$!
         trap 'kill -TERM "$pass_pid" 2>/dev/null || :; wait "$pass_pid" || :; exit 143' TERM
         trap 'kill -INT "$pass_pid" 2>/dev/null || :; wait "$pass_pid" || :; exit 130' INT
@@ -87,15 +115,15 @@ if [ "${1:-}" = run ]; then
             task_status=$?
         fi
         trap - TERM INT
-        printf 'Finished task %s (exit: %s)\n' "$task" "$task_status" >&2
+        printf 'Finished step %s (exit: %s)\n' "$label" "$task_status" >&2
         if [ "$task_status" -eq 0 ]; then
             set -- "$@" "$task_root"
         fi
         if [ "$status" -eq 0 ] && [ "$task_status" -ne 0 ]; then
             status=$task_status
         fi
-    done
-    if python3 "$(dirname "$0")/cleanup-worktrees.py" "$@"; then
+    done < "$plan/order"
+    if python3 "$launcher/cleanup-worktrees.py" "$@"; then
         :
     else
         cleanup_status=$?
