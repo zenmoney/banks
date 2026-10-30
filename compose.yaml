@@ -15,6 +15,7 @@ services:
     environment:
       HOME: /home/bank
       GRADLE_USER_HOME: /home/bank/.gradle
+      BANK_ICON_TASKS_FILE: "${BANK_ICON_TASKS_FILE:-tasks.yaml}"
       BANK_ICON_PASS_TIMEOUT_SECONDS: "${BANK_ICON_PASS_TIMEOUT_SECONDS:-10800}"
       BANK_ICON_SOURCE_REPO: /workspace
       BANK_ICON_REPO: /workspace/.worktree
@@ -42,6 +43,12 @@ services:
       - type: bind
         source: "${OMP_CONFIG_FILE:-./docker/omp-config.yml}"
         target: /home/bank/.omp/agent/config.yml
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
+        source: "${BANK_ICON_CONFIG_DIR:-./docker}"
+        target: /run/bank-icon-config
         read_only: true
         bind:
           create_host_path: false
