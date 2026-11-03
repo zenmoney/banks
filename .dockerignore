@@ -4,6 +4,10 @@
 !docker/
 !docker/entrypoint.sh
 !docker/cleanup-worktrees.py
+!docker/prepare-steps.py
+!docker/requirements.txt
+!docker/prompts/
+!docker/prompts/runner.md
 !.agents/
 !.agents/skills/
 !.agents/skills/bank-icon-maintenance/

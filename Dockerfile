@@ -49,15 +49,16 @@ ENV JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64 \
 ENV PATH="/opt/venv/bin:/opt/android-sdk/cmdline-tools/latest/bin:/opt/android-sdk/platform-tools:/opt/android-sdk/emulator:${JAVA_HOME}/bin:${PATH}"
 
 COPY .agents/skills/bank-icon-maintenance/requirements.txt /tmp/skill-requirements.txt
+COPY docker/requirements.txt /tmp/launcher-requirements.txt
 RUN python3 -m venv "$VIRTUAL_ENV" \
-    && pip install --no-cache-dir -r /tmp/skill-requirements.txt "playwright==$PLAYWRIGHT_VERSION" \
+    && pip install --no-cache-dir -r /tmp/skill-requirements.txt -r /tmp/launcher-requirements.txt "playwright==$PLAYWRIGHT_VERSION" \
     && playwright install --with-deps chromium \
     && ln -s "$(python3 -c 'from playwright.sync_api import sync_playwright; p = sync_playwright().start(); print(p.chromium.executable_path); p.stop()')" "$AGENT_BROWSER_EXECUTABLE_PATH" \
     && npm install --global --ignore-scripts --no-audit --no-fund "svgo@$SVGO_VERSION" \
     && npm install --global --no-audit --no-fund "agent-browser@$AGENT_BROWSER_VERSION" \
     && agent-browser --version \
     && npm cache clean --force \
-    && rm -rf /var/lib/apt/lists/* /tmp/skill-requirements.txt
+    && rm -rf /var/lib/apt/lists/* /tmp/skill-requirements.txt /tmp/launcher-requirements.txt
 
 RUN if id ubuntu &>/dev/null; then userdel -r ubuntu; fi \
     && groupadd --gid "$BANK_GID" bank \
@@ -85,6 +86,8 @@ RUN if [ "$INSTALL_ANDROID_EMULATOR" = yes ]; then \
 RUN mkdir -p "$HOME/.local" "$HOME/.omp/agent"
 COPY --chmod=755 docker/entrypoint.sh /usr/local/bin/bank-icon-entrypoint
 COPY docker/cleanup-worktrees.py /usr/local/bin/cleanup-worktrees.py
+COPY docker/prepare-steps.py /usr/local/bin/prepare-steps.py
+COPY docker/prompts/runner.md /usr/local/share/bank-icon-maintenance/runner.md
 ENV TMPDIR=/tmp
 WORKDIR /workspace
 ENTRYPOINT ["/usr/local/bin/bank-icon-entrypoint"]

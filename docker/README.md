@@ -1,7 +1,9 @@
 # Bank icon maintenance — Docker
 
-The default service runs one noninteractive sequence of five tasks, each in a
-separate agent process, and exits. Its Compose restart policy defaults to `no`.
+The service runs one noninteractive YAML sequence, each step in a separate agent
+process, and exits. The default `docker/tasks.yaml` retains the five maintenance
+tasks; steps can also contain standalone prompts. Compose's restart policy
+defaults to `no`.
 Run every Compose command from the checkout root.
 The main file is `compose.yaml`; Compose reads the local `.env` automatically.
 For initial setup, copy `.env.example` to `.env` only if `.env` does not already
@@ -82,9 +84,10 @@ BANK_ICON_RESTART_POLICY=always docker compose up -d --no-build maintenance
 
 Use `BANK_ICON_RESTART_POLICY=on-failure` to restart only after errors, not
 successful completion. `docker compose stop maintenance` suppresses automatic
-restart. Each restarted container reuses the installed client and repeats Gradle
-preparation once before restarting the entire five-task sequence, not just the
-failed task. There is no configurable delay between sequences.
+restart. Each restarted container reuses the installed client, rereads the YAML
+and prompt files, and restarts the entire sequence, not just the failed step.
+Gradle preparation runs once if any step selects a maintenance task. There is no
+configurable delay between sequences.
 
 A single configuration file, `${OMP_CONFIG_FILE:-./docker/omp-config.yml}`, is mounted
 read-only at `/home/bank/.omp/agent/config.yml` for both the explicit omp
@@ -190,7 +193,9 @@ at startup. Build settings additionally require an image rebuild.
 | `OMP_AUTH_BROKER_URL` | Empty; optional container-reachable broker URL override. Configure authentication in the mounted file or with these broker variables. |
 | `OMP_AUTH_BROKER_TOKEN` | Empty; optional broker credential override. Not a GitHub token or a build argument. |
 | `OMP_UPDATE` | `0`; `1` reinstalls Bun/omp at startup. Prefer the one-off update command below; do not leave `1` with automatic restarts. |
-| `BANK_ICON_PASS_TIMEOUT_SECONDS` | `10800`; positive duration in seconds for **each task's agent invocation**, excluding Gradle preparation. The five-task sequence can take up to five such deadlines plus preparation and kill grace periods. |
+| `BANK_ICON_CONFIG_DIR` | Host directory `./docker`, mounted read-only at `/run/bank-icon-config`. Must exist; contains the YAML and any relative prompt files. |
+| `BANK_ICON_TASKS_FILE` | `tasks.yaml`, relative to `/run/bank-icon-config`; alternatively an absolute **container** path. Selects the ordered YAML `steps` list, not a host mount path. |
+| `BANK_ICON_PASS_TIMEOUT_SECONDS` | `10800`; positive duration in seconds for **each step's agent invocation**, excluding Gradle preparation. Total duration depends on the configured number of invocations plus preparation and kill grace periods. |
 | `BANK_ICON_RESTART_POLICY` | `no`; Compose policy, not a runtime env. Alternatives: `on-failure[:N]`, `always`, `unless-stopped`. |
 | `BANK_ICON_INTERACTION` | `noninteractive` in Compose; `run` forces this mode and closes stdin for every agent. `interactive` is only for a separately invoked human-driven task. Standalone helpers otherwise default to `interactive`. |
 | `BANK_ICON_PUBLICATION_POLICY` | Empty: no standing permission. With `compose.publication.yaml`, an absolute **host** policy-file path; see the mount setup below. Without the override, Compose only forwards the value and does not mount the file. |
@@ -219,9 +224,10 @@ Host Java/SDK/cache paths must not replace these container paths.
 
 Low-level entrypoint inputs `BANK_ICON_CATALOG`, `BANK_ICON_SKILL` and
 `JDK_JAVA_OPTIONS` are not `.env` options in this service. The first changes startup
-Gradle preparation; the second selects the attached skill and its sibling `tasks/`
-recipes. All five recipes must exist. Normal maintenance uses the worktree's
-catalog and installed skill.
+Gradle preparation; the second selects the common skill location and its sibling
+`tasks/` recipes. Only selected recipes must exist. A standalone-prompt-only
+sequence requires neither the maintenance skill nor the Gradle catalog.
+Normal maintenance uses the worktree's catalog and installed skill.
 Headless execution controls `JAVA_TOOL_OPTIONS` and unsets `DISPLAY`,
 `WAYLAND_DISPLAY`, `XAUTHORITY` itself. `AGENT_BROWSER_SESSION` is a per-task browser
 session, not shared service configuration.
@@ -275,51 +281,113 @@ docker compose run --rm -e OMP_UPDATE=1 maintenance omp --version
 A failed explicit update stops that invocation and leaves the previous release
 available for normal starts. Old releases are retained so active containers are
 not broken; legacy `~/.local/lib/node_modules` installations are no longer used.
-Before its task sequence, each start prepares the
-current worktree's Gradle cache online with `:androidApp:assembleDebug` and a real Desktop
-export of bank ID 3. This happens once, not before each task. Android SDK auto-download
-is disabled. Maintenance tasks
-then use offline catalog export and installed tools only: no dependency
-installation occurs during a task. Build-source changes in the reused worktree
+When the YAML includes at least one `task`, startup prepares the
+current worktree's Gradle cache online with `:androidApp:assembleDebug` and a real
+Desktop export of bank ID 3. This happens once before the sequence, not before
+each step; a standalone-prompt-only sequence skips it. Android SDK auto-download
+is disabled. Maintenance tasks then use offline catalog export and installed
+tools only: no dependency installation occurs during a task.
+Build-source changes in the reused worktree
 are prepared on the next container startup, without baking sources into the
 image; source-checkout changes do not refresh that worktree except for `.agents`.
 Restarting repeats startup. For a shell, use
 `docker compose run --rm maintenance bash`; client installation is reused if
 present, while worktree creation, `.agents` copying, and Gradle preparation are skipped.
 
-### One agent invocation per task
+### One agent invocation per YAML step
 
-`run` invokes the five recipes sequentially in this order:
+The default [tasks.yaml](tasks.yaml) runs `update-existing`, `add-missing`,
+`rework-rejected`, `rework-changes`, then `merge-approved`. These are the five
+supported `task` names. Edit the YAML to select, reorder or repeat steps:
 
-1. `update-existing`
-2. `add-missing`
-3. `rework-rejected`
-4. `rework-changes`
-5. `merge-approved`
+```yaml
+steps:
+  - task: rework-changes
+    prompt: |
+      Pay particular attention to comments about emblem size.
+  - prompt: |
+      Inspect the catalog and report inconsistencies. Do not change anything.
+  - prompt_file: ./prompts/catalog-audit.md
+  - task: add-missing
+```
 
-Each call is a fresh `omp -p --no-title --no-session` process from `.worktree`,
-with the mounted config, `@SKILL.md` and that task's `@tasks/<task>.md` attached.
-The task gets its own fresh `/sessions/<task>.XXXXXX` parent for per-object
-sessions and operations. Agent context is not reused between tasks; installed
-tools, worktree, Gradle cache and durable bank state are shared. Each recipe uses
-its finite selection limit, not an endless/refilled queue. Empty eligible queues
-are reported as no work. No mandatory global audit precedes a task.
+Every step must contain `task`, `prompt`, or `prompt_file`. `task` is optional;
+`prompt` and `prompt_file` are mutually exclusive, and either can supplement a
+task. With neither prompt field, a task runs its normal recipe. Without `task`,
+the launcher attaches the supplied prompt and shared runner instructions, not a
+maintenance recipe.
+The normal omp configuration and project instructions still apply.
+Prompt files are UTF-8 text instructions, **not executable scripts**.
+
+The YAML must have exactly one top-level `steps` key containing a nonempty list.
+Empty steps, unknown fields/tasks, duplicate mapping keys, non-string/blank
+instructions, conflicting prompt sources, and unreadable or non-UTF-8 prompt
+files fail with exit code `2`. The entire list and all prompt files are validated
+before creating the worktree or starting Gradle/agents. Selected recipes are
+checked after the worktree's `.agents` copy, before Gradle or any agent.
+
+`prompt_file` paths are relative to the YAML's directory, not the checkout or
+agent working directory. Absolute paths must be accessible **inside the
+container**. Create the referenced files, for example
+`docker/prompts/catalog-audit.md`; the launcher does not generate them.
+The directory mount preserves relative paths, including for external configs:
+
+```dotenv
+BANK_ICON_CONFIG_DIR=/absolute/host/path/to/agent-config
+BANK_ICON_TASKS_FILE=tasks.yaml
+```
+
+Here `/absolute/host/path/to/agent-config/tasks.yaml` and its sibling `prompts/`
+appear under `/run/bank-icon-config`. Mount a dedicated directory, not a home
+directory containing unrelated secrets. Configs under the checkout are still
+writable through the separate `/workspace` mount; read-only config mounting is
+not a new authorization boundary.
+
+This replaces the old `BANK_ICON_TASKS` space-separated variable; remove it from
+local settings and express its order in YAML. There is no fallback task list
+when the selected YAML is missing or invalid. Recreate the container after
+changing `.env` paths. YAML and user prompt files are read on each start and
+snapshotted before the first agent; edits during a sequence affect only the next start.
+Applying this launcher change first requires rebuilding and recreating the worker.
+
+Each step runs a fresh `omp -p --no-title --no-session` from `.worktree` with the
+mounted omp config and shared [runner instructions](prompts/runner.md).
+`runner.md` contains only the general finite/noninteractive execution rules,
+temporary-data guidance and reporting requirements. It is bundled in the image
+at `/usr/local/share/bank-icon-maintenance/runner.md`; changing it requires
+rebuilding and recreating the worker, not just editing a mounted config.
+The entrypoint passes `Step directory` as runtime context and includes
+`Selected task` only for recipe-backed steps. Standalone prompts get no task
+field or `none` placeholder.
+
+Task steps also attach `@tasks/<task>.md`, whose instructions load the common
+skill, plus any additional prompt snapshot. Standalone steps attach their prompt
+snapshot without a maintenance recipe. Bank selection, publication and merge
+checks stay in the recipes/skill, not in `runner.md` or embedded shell text.
+Arguments are passed without evaluating prompt text as shell syntax or CLI options.
+Each step gets a fresh `/sessions/<index>-<task-or-prompt>.XXXXXX` parent.
+Agent context is not reused; installed tools, the worktree, Gradle cache and
+durable bank state are shared. Each maintenance recipe uses its finite selection
+limit, not an endless/refilled queue. Empty eligible queues are reported as no
+work. No mandatory global audit precedes a step.
 
 Every invocation is noninteractive with closed stdin. Missing publication authority
-is a blocker, never a request to fabricate a grant. Only the final recipe requests
-merges, still requiring the configured `mergeApproved`/state permissions and
-exact-head human approval/checks. Selecting this sequence does not extend policy.
+is a blocker, never a request to fabricate a grant. Among maintenance recipes,
+only `merge-approved` requests merges, regardless of its position, still
+requiring the configured `mergeApproved`/state permissions and exact-head human
+approval/checks. Selecting/reordering steps or supplying a standalone/additional
+prompt does not extend policy or waive required checks.
 
 `BANK_ICON_PASS_TIMEOUT_SECONDS` applies independently to each invocation through
 `timeout --signal=TERM --kill-after=10s` (default `10800s`). A failed or timed-out
-agent is logged and the next task still starts; the sequence exits with its first
+agent is logged and the next step still starts; the sequence exits with its first
 nonzero agent status, or `0` if all processes exit successfully. Timeout returns
 124, or 137 after forced termination. SIGTERM/SIGINT instead terminate the active
-agent and stop the sequence immediately (143/130), without starting later tasks.
+agent and stop the sequence immediately (143/130), without starting later steps.
 There are no in-process retries or restarts.
 
-After all five invocations finish, the launcher removes eligible session worktrees
-only under the fresh task roots whose agents exited successfully. A zero agent
+After all configured invocations finish, the launcher removes eligible session worktrees
+only under the fresh step roots whose agents exited successfully. A zero agent
 exit alone is insufficient: cleanup requires a state-publication receipt
 (`published` or `no-state-changes`) bound to the unchanged session snapshot and a
 new terminal per-object result (`published`, `unchanged`, `keep-current`, `defer`,
@@ -327,8 +395,8 @@ new terminal per-object result (`published`, `unchanged`, `keep-current`, `defer
 need not produce an icon: a durably recorded negative result also permits cleanup.
 An inherited stop without a new task result does not. Pending unpublished
 candidates and uncertain or failed state-publication receipts retain the worktree.
-Failed/timed-out task roots are excluded entirely; SIGTERM/SIGINT during a task
-skips cleanup.
+Failed/timed-out step roots are excluded entirely; SIGTERM/SIGINT during a step
+skips cleanup. Standalone steps do not bypass these receipt/ownership requirements.
 
 Cleanup checks the session's repository, registered worktree identity and original
 detached HEAD. Local commits, tracked edits, untracked/ignored files, symlinks,
@@ -343,23 +411,26 @@ successful sequence nonzero, without replacing an earlier task failure status.
 The cleanup script is copied into the image. Rebuild and recreate the worker to
 apply changes to these rules; restarting the existing container is insufficient.
 
-Run the isolated Git cleanup regression cases with:
+Run the isolated YAML preflight and Git cleanup regression cases with:
 
 ```sh
-python3 -m unittest discover -s docker/tests -p 'test_*.py' -v
+/usr/bin/python3 -m venv /tmp/docker-tests-venv
+/tmp/docker-tests-venv/bin/pip install -r docker/requirements.txt
+/tmp/docker-tests-venv/bin/python -B -m unittest discover -s docker/tests -p 'test_*.py' -v
 ```
 
 The [Docker tooling tests workflow](../.github/workflows/docker-tests.yml) runs
-all `docker/tests/test_*.py` tests on Ubuntu 24.04 with system Python and Git.
-It runs for pull requests and pushes to `main` affecting `docker/**` or the
-workflow itself, and supports manual dispatch. It does not build a Docker image
-or run the catalog render smoke checks.
+all `docker/tests/test_*.py` tests on Ubuntu 24.04 with system Python in a venv,
+the pinned launcher dependencies and Git. It runs for pull requests and pushes
+to `main` affecting `docker/**`, Compose files, `.env.example`, `Dockerfile`,
+`.dockerignore` or the workflow itself, and supports manual dispatch. It does
+not build a Docker image or run the catalog render smoke checks.
 
-The retired `workflow.py finish` command is not used. Each agent follows its
-recipe's canonical per-object publication and state checks and reports blockers
+The retired `workflow.py finish` command is not used. Recipe-backed steps follow
+their canonical per-object publication and state checks and report blockers
 and uncertain writes. A zero process exit is not independent proof that all
 selected objects were published; inspect those task results. Agent output goes
-directly to stdout; task start/end markers and diagnostics go to stderr:
+directly to stdout; step start/end markers and diagnostics go to stderr:
 
 ```sh
 docker compose logs -f maintenance
@@ -367,8 +438,8 @@ docker compose logs -f maintenance
 
 `--no-session` disables omp transcript files; output is retained only by the Docker
 logging driver. Export logs separately if they must survive container removal.
-Per-task sessions and evidence remain under `/sessions` for this container run
-only; the skill still controls the workflow and publication permissions. Launcher
+Per-step sessions and evidence remain under `/sessions` for this container run
+only; the skill still controls maintenance workflows and publication permissions. Launcher
 changes require rebuilding the image and recreating the container; restarting an
 old image does not update its copied entrypoint.
 

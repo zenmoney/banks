@@ -1,0 +1,6 @@
+steps:
+  - task: update-existing
+  - task: add-missing
+  - task: rework-rejected
+  - task: rework-changes
+  - task: merge-approved
