@@ -1,0 +1,24 @@
+services:
+  auth-broker:
+    image: banks-auth-broker:local
+    build:
+      context: .
+      dockerfile: Dockerfile.auth-broker
+    init: true
+    restart: unless-stopped
+    environment:
+      HOME: /home/node
+    volumes:
+      - auth-broker-data:/home/node/.omp
+    ports:
+      - "127.0.0.1:8765:8765"
+    healthcheck:
+      test: ["CMD", "bun", "-e", "const r = await fetch('http://127.0.0.1:8765/v1/healthz'); process.exit(r.ok ? 0 : 1)"]
+      interval: 30s
+      timeout: 5s
+      start_period: 10s
+      retries: 3
+    stop_grace_period: 30s
+
+volumes:
+  auth-broker-data:
