@@ -102,6 +102,72 @@ access. Direct broker clients receive access tokens; refresh tokens stay at the
 broker. The separate `omp auth-gateway` avoids exposing provider access tokens to
 clients.
 
+## Local auth broker
+
+`compose.auth-broker.yaml` runs an optional, independent broker. It builds
+`Dockerfile.auth-broker` without the maintenance image or Android SDK.
+The Dockerfile pins omp and Bun; update its version arguments and rebuild to
+upgrade. No host credentials, agent configuration, or checkout are mounted.
+
+```sh
+docker compose -f compose.auth-broker.yaml up -d --build --wait auth-broker
+docker compose -f compose.auth-broker.yaml logs -f auth-broker
+```
+
+The service runs as a non-root user. Its SQLite vault and generated bearer token
+live in the persistent `auth-broker-data` volume at `/home/node/.omp`. The host
+port is bound only to `127.0.0.1:8765`; containers in the same Compose project
+use `http://auth-broker:8765`. Do not expose the broker publicly without a secure
+transport. Its bearer grants access to provider access tokens and stored API
+keys, not just a health check. The healthcheck does not prove a provider login.
+
+Capture the generated bearer without printing it:
+
+```sh
+export OMP_AUTH_BROKER_TOKEN="$(docker compose -f compose.auth-broker.yaml exec -T auth-broker omp auth-broker token)"
+```
+
+The new vault is empty. On a host with omp and existing local provider logins,
+preview the credentials to copy, then explicitly apply the migration:
+
+```sh
+OMP_AUTH_BROKER_URL=http://127.0.0.1:8765 omp auth-broker migrate --from-local --include-oauth --dry-run
+OMP_AUTH_BROKER_URL=http://127.0.0.1:8765 omp auth-broker migrate --from-local --include-oauth
+```
+
+This includes stored API keys and OAuth logins, but not environment-derived
+keys (those require `--include-env`). For a new login, run
+`omp auth-broker list` and `omp auth-broker login <provider>` on the host first.
+OAuth callbacks then stay on the host; their provider-specific ports are not
+published by this Compose file. Real credentials are never part of the image.
+
+To connect the maintenance worker, retain the exported bearer above and set
+the container-facing URL. Prepare the worker image and configuration as
+described earlier; this command does not build or provision them:
+
+```sh
+export OMP_AUTH_BROKER_URL=http://auth-broker:8765
+docker compose -f compose.yaml -f compose.auth-broker.yaml up -d --no-build --wait auth-broker
+docker compose -f compose.yaml -f compose.auth-broker.yaml up -d --no-build maintenance
+```
+
+Both services must use the same Compose project name (the checkout default, or
+the same `-p` value). For later shells, save the URL and bearer in the private
+local `.env`, or export them again; do not commit them. The worker's localhost
+is not the Docker host. Stop the broker without deleting its vault:
+
+```sh
+docker compose -f compose.auth-broker.yaml stop auth-broker
+```
+
+Avoid `down --volumes`: it deletes the stored logins and bearer. For token
+rotation, run `docker compose -f compose.auth-broker.yaml exec -T auth-broker
+omp auth-broker token --regenerate`, restart the broker to load the replacement,
+and update/recreate its clients. See the
+[upstream broker documentation](https://github.com/can1357/oh-my-pi/blob/main/docs/auth-broker-gateway.md).
+
+## Worker filesystem and authentication
+
 Compose mounts the checkout, including `.git`, read-write at `/workspace`. The
 agent works at `/workspace/.worktree`, independent of the host directory name.
 On startup, an absent worktree is created from HEAD; an existing one is

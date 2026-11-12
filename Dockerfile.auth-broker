@@ -1,0 +1,18 @@
+FROM node:24-bookworm-slim
+
+ARG BUN_VERSION=1.4.4
+ARG OMP_VERSION=18.19.0
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends ca-certificates \
+    && rm -rf /var/lib/apt/lists/* \
+    && npm install --global --no-audit --no-fund \
+        "bun@$BUN_VERSION" "@oh-my-pi/pi-coding-agent@$OMP_VERSION" \
+    && npm cache clean --force
+
+ENV HOME=/home/node
+RUN install -d -m 0700 -o node -g node /home/node/.omp
+USER node
+WORKDIR /home/node
+ENTRYPOINT ["omp", "auth-broker"]
+CMD ["serve", "--bind=0.0.0.0:8765"]
