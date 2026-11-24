@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:09:05.245489Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "0dc14e94159824ea97b3c87fcb0cb7cc6a30162db72f440717eff0aea04f1765",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:09:05.245489Z",
+      "reason": "The official homepage and about page returned HTTP 403. The official app listing provides raster current-use evidence only. The third-party listing advertises SVG but does not establish original provenance or expose a directly observed receipt-compatible asset URL; no candidate was retrieved.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
