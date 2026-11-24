@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T19:33:32.045883Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a2bb41b7876334a0475c54f77ec8391cbd9fb53d244b7febcfe3ef88fa5cd86c",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T19:33:32.045883Z",
+      "reason": "No supported original standalone bank symbol was found. The located SVG is a wide INVEX wordmark, and the product-specific app artwork is raster. The official site returned HTTP 403; the baseline icon is absent.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
