@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T19:59:45.531084Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "f7a6b6140a4be26b3f992a9bf11b616bc5e645fe30485133a67cfaf84be49cdd",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T19:59:45.531084Z",
+      "reason": "No provenance-supported current standalone original vector was established. A third-party archive contains a watermark and a wide wordmark with slogan and fish; the Mexican app artwork is raster with separate lettering. The official website returned HTTP 403. The baseline icon is absent.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
