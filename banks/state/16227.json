@@ -1,0 +1,140 @@
+{
+  "lastAttemptAt": "2026-11-24T19:37:14.715711Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16227/assessed-1afc829511509e04da8159d1c0ab3606d24daf7d24bca5d72c59ce0a39ad2778.json",
+        "sha256": "1afc829511509e04da8159d1c0ab3606d24daf7d24bca5d72c59ce0a39ad2778"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Recent Mexican app listing displays the black R variant; the website itself returned 403.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Revolut-hosted vector and Revolut Ltd Mexican app listing identify the same brand.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Bank CDN supplies the vector, while Apple independently supplies the Mexican app context; the app artwork itself is brand-provided.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The standalone CDN vector and Mexican app artwork use the same stylized black R. The vector has transparent canvas; the app shows a white field. Background selection and fit remain for visual review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/82be56859283e46e678e044af64c51490c1784ae9729e36b78d4f35b76684387.json",
+        "sha256": "82be56859283e46e678e044af64c51490c1784ae9729e36b78d4f35b76684387"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The stem, gap, bowl and diagonal leg retain source shape and relative geometry in source/final pairs; white backing is a disclosed catalog adaptation.",
+        "faithful": true,
+        "iconHash": "60a6bc07296a5871fefd34d544453ac8ba5d8a909e2149cfd4b63838e974a1f7",
+        "path": "evidence/16227/candidate-60a6bc07296a5871fefd34d544453ac8ba5d8a909e2149cfd4b63838e974a1f7.svg",
+        "proportionsJudgement": "Complete R fits within circle with clear surrounding margin on both themes; source mark scaled uniformly and centered as one unit. Independently rendered small diagnostics retain the recognizable form.",
+        "rationale": "First icon for existing Revolut Mexico record using the bank-hosted R and current Mexican app context.",
+        "role": "standalone lettermark",
+        "sha256": "60a6bc07296a5871fefd34d544453ac8ba5d8a909e2149cfd4b63838e974a1f7",
+        "sourceAssetUrl": "https://cdn.revolut.com/website/images/revolut-logo.svg",
+        "sourceUrl": "https://cdn.revolut.com/website/images/revolut-logo.svg",
+        "transforms": [
+          "Added white circular catalog backing for dark-theme contrast and uniformly scaled and centered the complete black source R; no emblem recolor or tracing.",
+          "SVGO 4.1.0 with config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 677 to 614 bytes; optimized selected after independent working/optimized render comparison."
+        ],
+        "variant": "Original black R on white circular catalog backing; Mexican app artwork shows the same black R on a white square. Circular official use was not observed.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon existed at frozen base; real final frames show the icon without an invented blank baseline."
+      },
+      "candidateIconHash": "60a6bc07296a5871fefd34d544453ac8ba5d8a909e2149cfd4b63838e974a1f7",
+      "checkedAt": "2026-11-24T19:37:14.715711Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "4bb91454de3459dc4fef466aa365ed29606a52abfd75f5031cc1d570fdf042a2",
+        "head": "bank-icon-maintenance/16227",
+        "headCommit": "b6a2a9e147a90f864d00c9e94f8ff09e14071ce4",
+        "number": 214,
+        "observedAt": "2026-11-24T19:48:39.037347Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Revolut (Company.id 16227)",
+        "url": "https://github.com/zenmoney/banks/pull/214"
+      },
+      "reason": "The absent icon can be supplied from a Revolut-hosted standalone vector; current Mexican app artwork shows the black R variant. Final background, fidelity and renderer checks remain.",
+      "reviewPackage": {
+        "path": "evidence/16227/candidate-6a137674b1fec621a881114387efef74701c522117e83775b03bae3a2c377cdd.json",
+        "sha256": "6a137674b1fec621a881114387efef74701c522117e83775b03bae3a2c377cdd"
+      },
+      "sourceCandidate": {
+        "iconHash": "85ead2c958cbc43fc7172313077b41fd8c239e39a96823b2e2c208bf611f4114",
+        "path": "evidence/16227/research-d9a519292aec44c4adcf8c93ceefb347/fetch-829c67253c174ede951ac1a9fa911126/attempt-1/body.bin",
+        "rationale": "Revolut CDN serves a standalone vector R; the current Mexican app listing shows the same stylized black R. The hosted vector is original source artwork, not the separately rejected traced favicon. The app image is context only.",
+        "retrieval": {
+          "path": "evidence/16227/research-d9a519292aec44c4adcf8c93ceefb347/fetch-829c67253c174ede951ac1a9fa911126/receipt.json",
+          "sha256": "b5c386fd86be7a65b8a8cd0ccc77115c175336b8f349af3ec864e748a48635a9"
+        },
+        "sourceAssetUrl": "https://cdn.revolut.com/website/images/revolut-logo.svg",
+        "sourceUrl": "https://cdn.revolut.com/website/images/revolut-logo.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.revolut.com/website/images/revolut-logo.svg",
+          "checkedAt": "2026-11-24T19:29:50.163665Z",
+          "independenceGroup": "Revolut source vector",
+          "kind": "official",
+          "observation": "Revolut CDN serves a black standalone R path in a transparent square SVG. Source has no tracing metadata; the separately fetched favicon explicitly says potrace and was rejected.",
+          "url": "https://cdn.revolut.com/website/images/revolut-logo.svg"
+        },
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/07/33/3d/07333d65-2dd9-8af8-93f5-a8bafec6e2aa/AppIcon-Production-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+          "checkedAt": "2026-11-24T19:35:56.774187Z",
+          "independenceGroup": "Apple Mexican app listing",
+          "kind": "third-party",
+          "observation": "Mexican App Store lookup identifies Revolut Ltd and Mexican banking app, with a 2026-11-23 version. Its artwork shows the stylized black R on white; the raster is context only, not a candidate source or circular avatar.",
+          "url": "https://itunes.apple.com/lookup?id=932493382&country=mx"
+        }
+      ],
+      "status": "open",
+      "taskKey": "a065efafb2ccc7124a11cec43ee6504f5d7ac5768a50587f08cfa9c0e7e29fd2",
+      "verification": {
+        "checkedAt": "2026-11-24T19:42:43.634168Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "60a6bc07296a5871fefd34d544453ac8ba5d8a909e2149cfd4b63838e974a1f7",
+        "xmlSha256": "b585111b40c45e15112e3a12ed851f7782aa1f58f67df3dfe6a975a25e4ea720"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a065efafb2ccc7124a11cec43ee6504f5d7ac5768a50587f08cfa9c0e7e29fd2",
+      "outcome": "published",
+      "processedAt": "2026-11-24T19:37:14.715711Z",
+      "publication": {
+        "candidateIconHash": "60a6bc07296a5871fefd34d544453ac8ba5d8a909e2149cfd4b63838e974a1f7",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "4bb91454de3459dc4fef466aa365ed29606a52abfd75f5031cc1d570fdf042a2",
+          "head": "bank-icon-maintenance/16227",
+          "headCommit": "b6a2a9e147a90f864d00c9e94f8ff09e14071ce4",
+          "number": 214,
+          "observedAt": "2026-11-24T19:48:39.037347Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Revolut (Company.id 16227)",
+          "url": "https://github.com/zenmoney/banks/pull/214"
+        }
+      },
+      "reason": "The absent icon can be supplied from a Revolut-hosted standalone vector; current Mexican app artwork shows the black R variant. Final background, fidelity and renderer checks remain.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
