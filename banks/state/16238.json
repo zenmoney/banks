@@ -1,0 +1,139 @@
+{
+  "lastAttemptAt": "2026-11-24T18:37:02.512283Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16238/assessed-9e231cfea9379a5293c4bf809d2ae7b7b13e7992fb4fe04284ebf0cc69b42ec4.json",
+        "sha256": "9e231cfea9379a5293c4bf809d2ae7b7b13e7992fb4fe04284ebf0cc69b42ec4"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The official developer site and Mexican product listing both display the handshake emblem.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official developer branding and Mexican product listing identify Mercado Pago.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Google Play listing is a distinct distribution context, but brand artwork is supplied by the same brand.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Official standalone vector is a text-free handshake; Mexican listing corroborates the variant. Final rendering and theme suitability remain separate checks.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/01e415806fd59a6adf152de4e50f8fa96a7f29fd5719ca355dc24ad2b47dad24.json",
+        "sha256": "01e415806fd59a6adf152de4e50f8fa96a7f29fd5719ca355dc24ad2b47dad24"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Original reference and final show matching white handshake, navy contours and cyan interior, without clipping.",
+        "faithful": true,
+        "iconHash": "36be7ae6f1b585385c891b2d71e3d6fa35241c2f056135b8f785fde77cc048b4",
+        "path": "evidence/16238/candidate-36be7ae6f1b585385c891b2d71e3d6fa35241c2f056135b8f785fde77cc048b4.svg",
+        "proportionsJudgement": "Source and final have the same oval proportions and fit within the cell; emblem remains recognizable on both themes.",
+        "rationale": "Official standalone handshake emblem fits the catalog cell; source bytes were retained after the SVGO trial increased size.",
+        "role": "Standalone Mercado Pago brand emblem",
+        "sha256": "36be7ae6f1b585385c891b2d71e3d6fa35241c2f056135b8f785fde77cc048b4",
+        "sourceAssetUrl": "https://http2.mlstatic.com/frontend-assets/dx-template-lib/assets/logo-mercadopago.svg",
+        "sourceUrl": "https://www.mercadopago.com/developers/",
+        "transforms": [
+          "No geometric or color changes; retained original SVG because SVGO output was larger."
+        ],
+        "variant": "Cyan ellipse with navy border and white handshake; transparent exterior. The oval is a meaningful emblem contour, not a separable plain field.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the pinned bank record has no icon; both frames show the new standalone emblem, not a comparison against a blank icon."
+      },
+      "candidateIconHash": "36be7ae6f1b585385c891b2d71e3d6fa35241c2f056135b8f785fde77cc048b4",
+      "checkedAt": "2026-11-24T18:37:02.512283Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "71ed072001df491f84fb95ff84d680345df83a2af46a1c392d1954bded56c895",
+        "head": "bank-icon-maintenance/task-e18a683e9298-16238",
+        "headCommit": "d9b6d0d695c66909e24a36b2f00f79f77b4bb602",
+        "number": 211,
+        "observedAt": "2026-11-24T18:42:13.231682Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Mercado Pago (Company.id 16238)",
+        "url": "https://github.com/zenmoney/banks/pull/211"
+      },
+      "reason": "The official developer site supplies a standalone vector handshake; the Mexican app listing corroborates the same brand mark. No baseline icon exists. Final suitability and rendering remain to be checked.",
+      "reviewPackage": {
+        "path": "evidence/16238/candidate-9306dec243b1fc6e71f3ed1b549a80c0a69f57c891e128d3002b944db9d78200.json",
+        "sha256": "9306dec243b1fc6e71f3ed1b549a80c0a69f57c891e128d3002b944db9d78200"
+      },
+      "sourceCandidate": {
+        "iconHash": "36be7ae6f1b585385c891b2d71e3d6fa35241c2f056135b8f785fde77cc048b4",
+        "path": "evidence/16238/research-a76ba4fd38424e1b9453fb2fa477bccf/fetch-31686471e3f046109474a1712c84e678/attempt-1/body.bin",
+        "rationale": "Official standalone vector depicts the brand mark also used in the Mexican digital account listing; inspect final fidelity and usability before publication.",
+        "retrieval": {
+          "path": "evidence/16238/research-a76ba4fd38424e1b9453fb2fa477bccf/fetch-31686471e3f046109474a1712c84e678/receipt.json",
+          "sha256": "b352d5763510c3c0381b847f75cf41d37aeb6185be10faf2f9bf6bac0ebc5ff3"
+        },
+        "sourceAssetUrl": "https://http2.mlstatic.com/frontend-assets/dx-template-lib/assets/logo-mercadopago.svg",
+        "sourceUrl": "https://www.mercadopago.com/developers/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://http2.mlstatic.com/frontend-assets/dx-template-lib/assets/logo-mercadopago.svg",
+          "checkedAt": "2026-11-24T18:33:20.644491Z",
+          "independenceGroup": "Mercado Pago developer site",
+          "kind": "official",
+          "observation": "Official developer page uses this standalone SVG as the Mercado Pago header image; it depicts a handshake without accompanying text.",
+          "url": "https://www.mercadopago.com/developers/"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/-WB4u-r62cAEy8kImGb4-pXGcr2T-nC71c54xJO4m1aIRtKb2eI2pW_rm7AZg6tEpOL1ZTdIiozUMHgA6eZFl9Y=s0-br30",
+          "checkedAt": "2026-11-24T18:34:05.148014Z",
+          "independenceGroup": "Google Play listing",
+          "kind": "third-party",
+          "observation": "Mexican digital account listing shows the same handshake emblem; app image is raster context, not candidate geometry.",
+          "url": "https://play.google.com/store/apps/details?gl=MX&id=com.mercadopago.wallet"
+        }
+      ],
+      "status": "open",
+      "taskKey": "e18a683e92982c0fd9ae5ad4d4db3c57d5f4744a70e18315d21b524216da9e84",
+      "verification": {
+        "checkedAt": "2026-11-24T18:39:10.771258Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "36be7ae6f1b585385c891b2d71e3d6fa35241c2f056135b8f785fde77cc048b4",
+        "xmlSha256": "47137fe0209cf68682eaf200cb7cf8efc933ac98189e0d9d17465f7449720e55"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "e18a683e92982c0fd9ae5ad4d4db3c57d5f4744a70e18315d21b524216da9e84",
+      "outcome": "published",
+      "processedAt": "2026-11-24T18:37:02.512283Z",
+      "publication": {
+        "candidateIconHash": "36be7ae6f1b585385c891b2d71e3d6fa35241c2f056135b8f785fde77cc048b4",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "71ed072001df491f84fb95ff84d680345df83a2af46a1c392d1954bded56c895",
+          "head": "bank-icon-maintenance/task-e18a683e9298-16238",
+          "headCommit": "d9b6d0d695c66909e24a36b2f00f79f77b4bb602",
+          "number": 211,
+          "observedAt": "2026-11-24T18:42:13.231682Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Mercado Pago (Company.id 16238)",
+          "url": "https://github.com/zenmoney/banks/pull/211"
+        }
+      },
+      "reason": "The official developer site supplies a standalone vector handshake; the Mexican app listing corroborates the same brand mark. No baseline icon exists. Final suitability and rendering remain to be checked.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
