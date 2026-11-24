@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T20:00:34.825043Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "6c0624aee047a90a0bc2afbec291823cc3647e6d76279b4d10622419c9db1ac7",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T20:00:34.825043Z",
+      "reason": "No suitable provenance-supported original standalone vector was established. The app smile artwork is raster; Commons alternatives are wordmarks with inadequate vector lineage. The official homepage returned HTTP 403 and source-material does not support the bank PDFs. The baseline icon is absent.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
