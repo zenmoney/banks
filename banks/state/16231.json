@@ -1,0 +1,104 @@
+{
+  "lastAttemptAt": "2026-11-24T18:57:42.528898Z",
+  "lastAttemptResult": "unconfirmed",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [
+          {
+            "path": "evidence/16231/research-cf32f70a791e4951864d5d73900b567c/preparation-observations.json",
+            "sha256": "8cf14eb61e3d27fef3f385d40d6ce76e2f19971085d875065809c622ffc2f50b"
+          }
+        ],
+        "finishedAt": "2026-11-24T18:57:42.528898Z",
+        "outcome": "unconfirmed",
+        "reason": "The official animated vector static final state has a dark B that is nearly invisible against a dark theme in small-size reference renders. A white backing would hide the white registered-mark detail; no supported faithful legible variant was established.",
+        "stage": "preparation"
+      },
+      "proposal": {
+        "assessment": {
+          "currency": {
+            "basis": "The official bank homepage directly uses this SVG in its current header; the completed animation was viewed in Chromium.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "The metadata host redirects to a page titled Ve por más- Banco, identifying Banco Ve por Más as B×+ and directly embedding the SVG in its header.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "Bank site is primary evidence; the Wikimedia asset cites Brands of the World and those two are not independent corroborations. The bank's current direct use independently supports the chosen variant.",
+          "uncertainties": [
+            "An unmodified static renderer produces an empty image because original animation starts at zero opacity; the faithful final-keyframe static version has not undergone catalog or platform review."
+          ],
+          "variant": {
+            "basis": "The completed official vector is the standalone B×+ monogram, with no separate bank name or slogan; the geometry and colors come directly from the original bank SVG. The source is wide; square-fit and small-size rendering are later gates.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": null,
+        "candidate": {
+          "iconHash": "13a34295f597c85636c1a8dac3788a2373ae1b1482a40c58b5680bd6afc23b05",
+          "path": "evidence/16231/research-cf32f70a791e4951864d5d73900b567c/fetch-6ba6ef92b0c34c97b7cd9124855f3943/attempt-1/body.bin",
+          "rationale": "Original SVG served in the operating bank's header; its completed animated frame is a recognizable standalone B×+ monogram. The matching static keyframe interpretation remains subject to full candidate fidelity, square-fit and platform checks.",
+          "retrieval": {
+            "path": "evidence/16231/research-cf32f70a791e4951864d5d73900b567c/fetch-6ba6ef92b0c34c97b7cd9124855f3943/receipt.json",
+            "sha256": "284256d663749dca80d7e310570b5013b2b3ef284a39da3cde95627892179d91"
+          },
+          "sourceAssetUrl": "https://www.vepormas.com/fwpf/storage/logo-color-anim.svg",
+          "sourceUrl": "https://www.vepormas.com/fwpf/portal/"
+        },
+        "candidateIconHash": "13a34295f597c85636c1a8dac3788a2373ae1b1482a40c58b5680bd6afc23b05",
+        "checkedAt": "2026-11-24T18:55:54.910242Z",
+        "reason": "First addition: the bank's own current homepage directly embeds an original B×+ vector monogram. Headless Chromium displayed its completed animation, confirming the dark blue-gray B and lime X and plus. This is a standalone monogram without accompanying name or slogan.",
+        "sources": [
+          {
+            "assetUrl": "https://www.vepormas.com/fwpf/storage/logo-color-anim.svg",
+            "checkedAt": "2026-11-24T18:55:11Z",
+            "independenceGroup": "Banco Ve por Más official website",
+            "kind": "official",
+            "observation": "Current official homepage identifies Banco Ve por Más and B×+ and embeds the SVG. Its completed animation shows dark blue-gray B, lime X and lime plus; a white registered-mark glyph is present in the SVG.",
+            "url": "https://www.vepormas.com/fwpf/portal/"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "f1d0ea6911d730d720e5245c502d51b75ecda3412849ecc272f342b5c9d5e2d2"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "13a34295f597c85636c1a8dac3788a2373ae1b1482a40c58b5680bd6afc23b05",
+        "evidence": [
+          {
+            "path": "evidence/16231/research-cf32f70a791e4951864d5d73900b567c/preparation-observations.json",
+            "sha256": "8cf14eb61e3d27fef3f385d40d6ce76e2f19971085d875065809c622ffc2f50b"
+          }
+        ],
+        "finishedAt": "2026-11-24T18:57:42.528898Z",
+        "outcome": "unconfirmed",
+        "reason": "The official animated vector static final state has a dark B that is nearly invisible against a dark theme in small-size reference renders. A white backing would hide the white registered-mark detail; no supported faithful legible variant was established.",
+        "stage": "preparation"
+      },
+      "history": [
+        {
+          "key": "f1d0ea6911d730d720e5245c502d51b75ecda3412849ecc272f342b5c9d5e2d2",
+          "outcome": "candidate",
+          "processedAt": "2026-11-24T18:55:54.910242Z",
+          "reason": "First addition: the bank's own current homepage directly embeds an original B×+ vector monogram. Headless Chromium displayed its completed animation, confirming the dark blue-gray B and lime X and plus. This is a standalone monogram without accompanying name or slogan.",
+          "review": null,
+          "sourceMR": null,
+          "task": "add-missing"
+        }
+      ],
+      "key": "f1d0ea6911d730d720e5245c502d51b75ecda3412849ecc272f342b5c9d5e2d2",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:57:42.528898Z",
+      "reason": "The official animated vector static final state has a dark B that is nearly invisible against a dark theme in small-size reference renders. A white backing would hide the white registered-mark detail; no supported faithful legible variant was established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
