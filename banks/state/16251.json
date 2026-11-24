@@ -1,0 +1,136 @@
+{
+  "lastAttemptAt": "2026-11-24T17:42:18.865065Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16251/assessed-e8b206ac35b882381358267e50e0b7ef1851d23b4567622c279d9e1909b81105.json",
+        "sha256": "e8b206ac35b882381358267e50e0b7ef1851d23b4567622c279d9e1909b81105"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The bank's 2025 annual report uses the depicted Davivienda mark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The bank's annual report labels the source Davivienda and displays the house mark.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The bank-hosted annual report is the primary source for the bank's own mark; independent investor relations imagery corroborates the house.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The official vector contains a standalone multicolor house separable from its wordmark; final extraction and fit remain to be checked.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/6e9c8cd0ab40f06d4a18da8c03d53644f55d8446118df4e422bc3b9a429e80c9.json",
+        "sha256": "6e9c8cd0ab40f06d4a18da8c03d53644f55d8446118df4e422bc3b9a429e80c9"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Compared full official source and final render: red house, orange roof and step, blue surrounds, yellow door and windows, chimney and dark outlines are retained. Dark outline has low contrast against dark theme, but colored house silhouette and interior remain recognizable.",
+        "faithful": true,
+        "iconHash": "6a2df58b06794315b52eb79c124f005f6fb0b0ca2be68cf248177a92fd27c01a",
+        "path": "evidence/16251/candidate-6a2df58b06794315b52eb79c124f005f6fb0b0ca2be68cf248177a92fd27c01a.svg",
+        "proportionsJudgement": "The standalone house keeps the source's roof, chimney, wall, windows and door proportions; it is centered and fits without clipping.",
+        "rationale": "Use the bank annual report's original house symbol as a first addition, removing its separate wordmark.",
+        "role": "symbol",
+        "sha256": "6a2df58b06794315b52eb79c124f005f6fb0b0ca2be68cf248177a92fd27c01a",
+        "sourceAssetUrl": "https://comunicaciones.davivienda.com/informe-anual-2025/assets/images/logo-davivienda.svg",
+        "sourceUrl": "https://comunicaciones.davivienda.com/informe-anual-2025/",
+        "transforms": [
+          "Removed separate wordmark and adjusted viewport around the unchanged house; no emblem recoloring or tracing.",
+          "Trialled SVGO separately and retained the working vector after visual uncertainty in the trial."
+        ],
+        "variant": "Multicolor Davivienda house on transparent field, from the bank's 2025 annual report.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: baseline icon is absent, so there is no before image."
+      },
+      "candidateIconHash": "6a2df58b06794315b52eb79c124f005f6fb0b0ca2be68cf248177a92fd27c01a",
+      "checkedAt": "2026-11-24T17:42:18.865065Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "fd639d64ef9fa07c3cfcfcc30487f0eb446d86611798ced224c1b3dea2ffcbd7",
+        "head": "bank-icon-maintenance/task-05d9264411b0-16251",
+        "headCommit": "8900dcbf045b2e520d83390b4646f0d7731c3a1e",
+        "number": 206,
+        "observedAt": "2026-11-24T17:47:54.273487Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Davivienda (Company.id 16251)",
+        "url": "https://github.com/zenmoney/banks/pull/206"
+      },
+      "reason": "The bank-hosted 2025 annual report uses an original vector containing the recognizable multicolor house and a separate wordmark. The house is a potential standalone icon; exact extraction, fit and render checks remain required.",
+      "reviewPackage": {
+        "path": "evidence/16251/candidate-5a2f71440589d02f6ddd83f6bd68691bc9bec33a82476e107d3c851346a3935a.json",
+        "sha256": "5a2f71440589d02f6ddd83f6bd68691bc9bec33a82476e107d3c851346a3935a"
+      },
+      "sourceCandidate": {
+        "iconHash": "e80751daa6e8c9e9604ff860f6bc1758aa249fd5a6e1d13806b3e0d2a0d14964",
+        "path": "evidence/16251/research-b73efd1d03534ea4ac8d088beeaf5027/fetch-f7c3a4b36ed64bee8386b00f7501a1c0/attempt-1/body.bin",
+        "rationale": "Official bank-hosted original vector contains the recognizable standalone house, subject to extraction and render review.",
+        "retrieval": {
+          "path": "evidence/16251/research-b73efd1d03534ea4ac8d088beeaf5027/fetch-f7c3a4b36ed64bee8386b00f7501a1c0/receipt.json",
+          "sha256": "af0dc1afb1e498aed3f31b5728238d4389a1d2d6f50b6550eb6fed1968f680c3"
+        },
+        "sourceAssetUrl": "https://comunicaciones.davivienda.com/informe-anual-2025/assets/images/logo-davivienda.svg",
+        "sourceMaterial": {
+          "path": "evidence/16251/source-material-f74d6cfbe50e4b2ca7f2b08bbec8fea3/material.json",
+          "sha256": "a37914f61f7fb49d07885f72b56d23e8a6d13b42e0cfdf88da45dd4a91b1d00d"
+        },
+        "sourceUrl": "https://comunicaciones.davivienda.com/informe-anual-2025/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://comunicaciones.davivienda.com/informe-anual-2025/assets/images/logo-davivienda.svg",
+          "checkedAt": "2026-11-24T17:41:06.916701Z",
+          "independenceGroup": "Davivienda annual report",
+          "kind": "official",
+          "observation": "The bank's annual report labels and uses this vector as Davivienda; the source shows the multicolor house above a separate wordmark.",
+          "url": "https://comunicaciones.davivienda.com/informe-anual-2025/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "05d9264411b0f9daaaf1ccb94d3c84bf5a0a2a48e4a922a714a3657d61854835",
+      "verification": {
+        "checkedAt": "2026-11-24T17:45:20.452776Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "6a2df58b06794315b52eb79c124f005f6fb0b0ca2be68cf248177a92fd27c01a",
+        "xmlSha256": "13d704818e9793e332363a5730f134a0c34af47ea7c9892d68bdbcbad3c16501"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "05d9264411b0f9daaaf1ccb94d3c84bf5a0a2a48e4a922a714a3657d61854835",
+      "outcome": "published",
+      "processedAt": "2026-11-24T17:42:18.865065Z",
+      "publication": {
+        "candidateIconHash": "6a2df58b06794315b52eb79c124f005f6fb0b0ca2be68cf248177a92fd27c01a",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "fd639d64ef9fa07c3cfcfcc30487f0eb446d86611798ced224c1b3dea2ffcbd7",
+          "head": "bank-icon-maintenance/task-05d9264411b0-16251",
+          "headCommit": "8900dcbf045b2e520d83390b4646f0d7731c3a1e",
+          "number": 206,
+          "observedAt": "2026-11-24T17:47:54.273487Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Davivienda (Company.id 16251)",
+          "url": "https://github.com/zenmoney/banks/pull/206"
+        }
+      },
+      "reason": "The bank-hosted 2025 annual report uses an original vector containing the recognizable multicolor house and a separate wordmark. The house is a potential standalone icon; exact extraction, fit and render checks remain required.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
