@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:08:45.860552Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "49b29f0bfd7e570d0e0d505c9dfa9befc350350292d1e84d6ee7ca2641a97127",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:08:45.860552Z",
+      "reason": "No accessible original vector for the Mexican Vexi mark was found; the official logo is WebP and cannot be used or traced. Brandfetch returned 403. No icon existed at the baseline.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
