@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:06:13.036012Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "835569a3ad8e675a7ad9547608779ace8a6cc074de50652db29f717553c3b298",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:06:13.036012Z",
+      "reason": "No supported original vector for the Colombian financing company was found. The official site returned 403; the matching independent logo was raster and a third-party listing advertised unsupported EPS. An unrelated SVG lacked identity support.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
