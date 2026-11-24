@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T20:14:45.296056Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "59162c16039f94e405e243d08602ee9eac867ff2eec2fcf8f81bd9ff498beb6a",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T20:14:45.296056Z",
+      "reason": "A square-suitable original vector with verified source lineage and Mexican applicability was not retrieved. The official Mexico logo page returned 403 and the official corporate logo archive failed to download; a Commons SVG is a wide wordmark only.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
