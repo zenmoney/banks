@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T19:55:59.784611Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "df6dd89395492bcab047d13fdad2e5da945ab3ef3a1188e8073f5a350db13043",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T19:55:59.784611Z",
+      "reason": "No suitable current standalone original vector was established. The retrieved historical SVG has separate banco lettering and differs from the current app artwork; the official site returned HTTP 403. The baseline icon is absent.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
