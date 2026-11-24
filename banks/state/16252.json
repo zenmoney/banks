@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:42:48.631607Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "c3d503580c6693f1de433c198fa24c23b3efb624ff347f6060727036887d6147",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:42:48.631607Z",
+      "reason": "A bank application bundle contains SVG logo definitions as encoded CSS data URIs, but the source-material tool does not support extracting them from JavaScript, so no replayable source material or visual review was obtained. A Commons listing cites own work and does not establish original-vector provenance.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
