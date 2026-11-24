@@ -1,0 +1,100 @@
+{
+  "lastAttemptAt": "2026-11-24T17:26:07.119688Z",
+  "lastAttemptResult": "error",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [],
+        "finishedAt": "2026-11-24T17:26:07.119688Z",
+        "outcome": "error",
+        "reason": "Original official SVG contains active script; candidate-view rejects the original source as unsupported active or raster content. An alternate source cannot be researched in this completed attempt; source fidelity comparison is blocked.",
+        "stage": "preparation"
+      },
+      "proposal": {
+        "assessment": {
+          "currency": {
+            "basis": "The operating bank's homepage currently uses the SVG as its header logo and displays a matching standalone mandala in its app download section.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "The record's Colombian bank domain serves the Banco Caja Social website, where the linked header SVG has alt text Logo Banco Caja Social and the app image is labeled Mándala del Banco Caja Social.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "Both homepage and app image are official bank observations, not independent sources; the site itself directly identifies and currently displays the mark.",
+          "uncertainties": [],
+          "variant": {
+            "basis": "The SVG contains the red and blue radial mandala on the left of the full wordmark. The bank displays a matching standalone mandala in its app section. The full lockup is not square-suitable; preserving and isolating its mandala for a candidate and checking visual fidelity remains necessary.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": null,
+        "candidate": {
+          "iconHash": "bbcf1bdafe70943eb27cb9970e5ac7cbcfe6ad8771b44505f8cf593af46cb352",
+          "path": "evidence/16256/research-5a4afa3b0d57458f84e78154edd8046a/fetch-5432b05a342d42baa01e065f96a4349a/attempt-1/body.bin",
+          "rationale": "The official original SVG contains the bank's mandala; extract its complete unaltered vector emblem from the wide lockup for a square-cell candidate, subject to source comparison and platform checks.",
+          "retrieval": {
+            "path": "evidence/16256/research-5a4afa3b0d57458f84e78154edd8046a/fetch-5432b05a342d42baa01e065f96a4349a/receipt.json",
+            "sha256": "9cb48496da9add0591d727b6e9ad655b352c2fe99e4be0121d16fa321f8eb85c"
+          },
+          "sourceAssetUrl": "https://www.bancocajasocial.com/content/dam/bcs/logos/logo-bcs.svg",
+          "sourceUrl": "https://www.bancocajasocial.com/"
+        },
+        "candidateIconHash": "bbcf1bdafe70943eb27cb9970e5ac7cbcfe6ad8771b44505f8cf593af46cb352",
+        "checkedAt": "2026-11-24T17:23:17.881305Z",
+        "reason": "No existing icon was supplied for this first addition. The official bank website provides an original vector lockup containing the current mandala; the full lockup itself is not suitable as a square-cell icon.",
+        "sources": [
+          {
+            "assetUrl": "https://www.bancocajasocial.com/content/dam/bcs/logos/logo-bcs.svg",
+            "checkedAt": "2026-11-24T17:21:29Z",
+            "independenceGroup": "Banco Caja Social official website",
+            "kind": "official",
+            "observation": "The operating homepage header identifies this linked SVG as Logo Banco Caja Social. Its rendered original vector shows a red and blue radial mandala, the bank name, and a separate Fundación Grupo Social mark.",
+            "url": "https://www.bancocajasocial.com/"
+          },
+          {
+            "assetUrl": "https://www.bancocajasocial.com/content/dam/bcs/logos/nueva-app-banco-caja-social.png",
+            "checkedAt": "2026-11-24T17:21:52Z",
+            "independenceGroup": "Banco Caja Social official website",
+            "kind": "official",
+            "observation": "The app download section labels a standalone red and blue mandala as Mándala del Banco Caja Social; the raster is corroborating display context only, not source geometry.",
+            "url": "https://www.bancocajasocial.com/"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "21240a83003313740315b41599715412e55eabe3b1703d34fd0045588c963a06"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "bbcf1bdafe70943eb27cb9970e5ac7cbcfe6ad8771b44505f8cf593af46cb352",
+        "evidence": [],
+        "finishedAt": "2026-11-24T17:26:07.119688Z",
+        "outcome": "error",
+        "reason": "Original official SVG contains active script; candidate-view rejects the original source as unsupported active or raster content. An alternate source cannot be researched in this completed attempt; source fidelity comparison is blocked.",
+        "stage": "preparation"
+      },
+      "history": [
+        {
+          "key": "21240a83003313740315b41599715412e55eabe3b1703d34fd0045588c963a06",
+          "outcome": "candidate",
+          "processedAt": "2026-11-24T17:23:17.881305Z",
+          "reason": "No existing icon was supplied for this first addition. The official bank website provides an original vector lockup containing the current mandala; the full lockup itself is not suitable as a square-cell icon.",
+          "review": null,
+          "sourceMR": null,
+          "task": "add-missing"
+        }
+      ],
+      "key": "21240a83003313740315b41599715412e55eabe3b1703d34fd0045588c963a06",
+      "outcome": "error",
+      "processedAt": "2026-11-24T17:26:07.119688Z",
+      "reason": "Original official SVG contains active script; candidate-view rejects the original source as unsupported active or raster content. An alternate source cannot be researched in this completed attempt; source fidelity comparison is blocked.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
