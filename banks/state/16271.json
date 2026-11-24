@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:15:06.993591Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "04438e2fe34a755af4cd9161001a9be4476c1ddb6c420e4ea98a1ce5c141dad9",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:15:06.993591Z",
+      "reason": "The record has no existing icon. Current DaviPlata branding is evidenced, but no retrievable, provenance-supported original vector of the current stacked mark was obtained. The official archive's AI file is unsupported by source-material, and a third-party matching-looking preview is not vector evidence; its download was blocked by a human-verification challenge. A separate SVG-containing archive shows the older horizontal variant.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
