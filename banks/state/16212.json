@@ -1,0 +1,151 @@
+{
+  "lastAttemptAt": "2026-11-24T20:41:19.068099Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16212/assessed-73b25d7dd98d2b87a045e68f08421d91d6ab9f0de5780c94d202a39f35d58954.json",
+        "sha256": "73b25d7dd98d2b87a045e68f08421d91d6ab9f0de5780c94d202a39f35d58954"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The corporate brand page served the vector in its current header; the 2026 release establishes the Mexican bank's use of the corporate identity in a recent operating context, corroborated by independently reported 2025 results.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official 2026 press release identifies Banco Santander México, links its Mexican domain and uses the same corporate header as the source page. The record is Santander in Mexico.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The bank's corporate brand page and press release are related primary sources and count as one group; El Economista is a separate publisher supporting bank activity, not independent proof of the exact vector.",
+        "uncertainties": [
+          "The Mexican homepage and a historical press page returned HTTP 403, so direct observation on that domain was unavailable; the corporate 2026 Mexican-bank release supplies alternative contextual evidence.",
+          "Final exact-byte converter, desktop and mobile rendering are not yet assessed."
+        ],
+        "variant": {
+          "basis": "The original corporate mobile-header SVG is a standalone red flame path without accompanying wordmark or backing. Its transparent source variant is suited to square-cell preparation; the final theme, size and converter checks remain outstanding. No circular official avatar was observed.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/27628fec84e911a0356d8c3ec18b982e1b65aa21e6120c0b72b5aec5f8e63925.json",
+        "sha256": "27628fec84e911a0356d8c3ec18b982e1b65aa21e6120c0b72b5aec5f8e63925"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The red flame and ellipse retain the complete source contours and transparent cutouts. The optimized and working reference renders appear equivalent; the generated Desktop frames retain the same details.",
+        "faithful": true,
+        "iconHash": "098437f02927c62f2ba362772a1a3f8436cf60451826589ea96e438058952786",
+        "path": "evidence/16212/candidate-098437f02927c62f2ba362772a1a3f8436cf60451826589ea96e438058952786.svg",
+        "proportionsJudgement": "The flame and ellipse retain their relative proportions; the square viewport centers the complete symbol without stretching or clipping.",
+        "rationale": "The official red standalone Santander flame is suitable for this existing Mexican bank record, with no accompanying text and legible on both tested themes.",
+        "role": "standalone bank symbol",
+        "sha256": "098437f02927c62f2ba362772a1a3f8436cf60451826589ea96e438058952786",
+        "sourceAssetUrl": "https://www.santander.com/content/dam/santander-com/images/logo/recursos-back-up/logo_red_mobile_part1.svg",
+        "sourceUrl": "https://www.santander.com/en/about-us/our-brand",
+        "transforms": [
+          "Reframed the original transparent vector into a square viewBox without altering path geometry or color.",
+          "SVGO 4.1.0 using config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 1742 bytes to 801 bytes; selected the visually faithful optimized version after Desktop conversion."
+        ],
+        "variant": "Red flame on transparent background; no added backing or claimed official circular avatar.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon.svg exists at the frozen base; the final frames show the new red symbol rather than a comparison to a fabricated baseline."
+      },
+      "candidateIconHash": "098437f02927c62f2ba362772a1a3f8436cf60451826589ea96e438058952786",
+      "checkedAt": "2026-11-24T20:41:19.068099Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "cd966adf5f8b1c4baa9111d5ebad29efd2ac9ac539d0a48737dbe8542f6d4cfa",
+        "head": "bank-icon-maintenance/16212",
+        "headCommit": "153a31d3114d6a456feefb42fad9681ba2550fea",
+        "number": 218,
+        "observedAt": "2026-11-24T20:45:56.854797Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Santander (Company.id 16212)",
+        "url": "https://github.com/zenmoney/banks/pull/218"
+      },
+      "reason": "The frozen bank record has no icon. Santander's official mobile-header SVG contains a standalone red flame symbol, and the official 2026 Mexico press release links Banco Santander México to the corporate brand. The independent financial report supports the bank's continuing operation. This is a source candidate, not an approved or platform-verified icon.",
+      "reviewPackage": {
+        "path": "evidence/16212/candidate-bbc73b20991857f17b96e06f503fcd02a400e2476d070288a3ba6599d53356ba.json",
+        "sha256": "bbc73b20991857f17b96e06f503fcd02a400e2476d070288a3ba6599d53356ba"
+      },
+      "sourceCandidate": {
+        "iconHash": "64d50b5a92d727ba42d4c2cbf6a9695cd9c489f6f906316a50a064ebf08846a9",
+        "path": "evidence/16212/research-b4126d1615db452098087844285a96cd/fetch-6b49a3713d9d48949ba2ca23e74d811b/attempt-1/body.bin",
+        "rationale": "Official original standalone red flame vector from the corporate mobile header, with corporate press evidence connecting the brand to the Mexican bank; the full original vector is retained and no raster tracing or embedding is involved.",
+        "retrieval": {
+          "path": "evidence/16212/research-b4126d1615db452098087844285a96cd/fetch-6b49a3713d9d48949ba2ca23e74d811b/receipt.json",
+          "sha256": "d77dbd0a627c8ac270a1ba2ae8010f466b2255bcda48147b9f4f8d56bd2b8caa"
+        },
+        "sourceAssetUrl": "https://www.santander.com/content/dam/santander-com/images/logo/recursos-back-up/logo_red_mobile_part1.svg",
+        "sourceUrl": "https://www.santander.com/en/about-us/our-brand"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.santander.com/content/dam/santander-com/images/logo/recursos-back-up/logo_red_mobile_part1.svg",
+          "checkedAt": "2026-11-24T20:34:46.833267Z",
+          "independenceGroup": "Santander corporate",
+          "kind": "official",
+          "observation": "Corporate brand page identifies the flame and red among its visual elements and includes this SVG as its mobile Banco Santander header logo. The direct SVG is a red vector path with no embedded raster, retrieved separately at 2026-11-24T20:34:56.744726Z.",
+          "url": "https://www.santander.com/en/about-us/our-brand"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-11-24T20:38:28.062630Z",
+          "independenceGroup": "Santander corporate",
+          "kind": "official",
+          "observation": "The 12 May 2026 release describes Banco Santander México's Mexican commercial banking agreement, links the Mexican bank domain and uses the Santander corporate header; this supports applicability of the corporate branding to the Mexican bank.",
+          "url": "https://www.santander.com/es/sala-de-comunicacion/notas-de-prensa/2026/05/banco-santander-y-dmx-se-alian-a-favor-de-adultos-mayores-a-traves-de-un-financiamiento-social-con-etiqueta-plateada"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-11-24T20:37:02.587100Z",
+          "independenceGroup": "El Economista",
+          "kind": "third-party",
+          "observation": "El Economista's 5 February 2026 report names Banco Santander México and reports its 2025 financial results and lending, independent evidence of operation, not independent proof of the SVG's precise design.",
+          "url": "https://www.eleconomista.com.mx/sectorfinanciero/banco-santander-mexico-reporto-utilidad-32-364-millones-pesos-2025-crecimiento-12-20260205-798636.html?facet=app&mode=light"
+        }
+      ],
+      "status": "open",
+      "taskKey": "dcad7f8b81a69e43224ad259f3e1e5cf8297e6a8651e0edc88f1540b7c54b554",
+      "verification": {
+        "checkedAt": "2026-11-24T20:42:41.875820Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "098437f02927c62f2ba362772a1a3f8436cf60451826589ea96e438058952786",
+        "xmlSha256": "754b0f246c24222ff6d3b2778f33b4fb0834eed6375997573ee9f770fca23d61"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "dcad7f8b81a69e43224ad259f3e1e5cf8297e6a8651e0edc88f1540b7c54b554",
+      "outcome": "published",
+      "processedAt": "2026-11-24T20:41:19.068099Z",
+      "publication": {
+        "candidateIconHash": "098437f02927c62f2ba362772a1a3f8436cf60451826589ea96e438058952786",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "cd966adf5f8b1c4baa9111d5ebad29efd2ac9ac539d0a48737dbe8542f6d4cfa",
+          "head": "bank-icon-maintenance/16212",
+          "headCommit": "153a31d3114d6a456feefb42fad9681ba2550fea",
+          "number": 218,
+          "observedAt": "2026-11-24T20:45:56.854797Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Santander (Company.id 16212)",
+          "url": "https://github.com/zenmoney/banks/pull/218"
+        }
+      },
+      "reason": "The frozen bank record has no icon. Santander's official mobile-header SVG contains a standalone red flame symbol, and the official 2026 Mexico press release links Banco Santander México to the corporate brand. The independent financial report supports the bank's continuing operation. This is a source candidate, not an approved or platform-verified icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
