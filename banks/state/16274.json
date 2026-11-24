@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:31:46.645046Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "12eabe90eb5d94c2ab7b50467109002975447f94aa0048f473f4db0393c3b942",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:31:46.645046Z",
+      "reason": "No original vector could be retrieved or verified; official pages timed out or returned 403, and Brandfetch returned 403.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
