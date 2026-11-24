@@ -1,0 +1,145 @@
+{
+  "lastAttemptAt": "2026-11-24T20:22:04.057256Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16216/assessed-599ab1505d1ed9ef0c5ecbef0e73dec35de4202ce825cad88bbfe2758fc54abe.json",
+        "sha256": "599ab1505d1ed9ef0c5ecbef0e73dec35de4202ce825cad88bbfe2758fc54abe"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The current Mexican Nu site displays the Nu mark and official global design page links the vector.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The current Mexican bank site identifies Nubank S.A. and the metadata matches Nubank Mexico.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The two official Nu sites establish direct vector provenance and Mexican context for the same brand, not independent publishers.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The original white Nu mark visually corresponds to the Mexican white-on-purple avatar; exact candidate comparison and backing require review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/db626faa58f2c729e5bd0c5f187f6bfea98410ddfc71cc139589ce3f4a0af74d.json",
+        "sha256": "db626faa58f2c729e5bd0c5f187f6bfea98410ddfc71cc139589ce3f4a0af74d"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The white Nu paths and internal contours match the original vector. The purple #9903D5 circular field is a catalog adaptation based on the Mexican site’s avatar image; the original source is transparent.",
+        "faithful": true,
+        "iconHash": "469d0c35b5eaf2729f88254d70164972702af5dab339d1e766f7d85dddb66cb5",
+        "path": "evidence/16216/candidate-469d0c35b5eaf2729f88254d70164972702af5dab339d1e766f7d85dddb66cb5.svg",
+        "proportionsJudgement": "The complete mark is uniformly scaled and centered, with space inside the circle. The mark is larger than the observed avatar to retain small-size legibility.",
+        "rationale": "The official vector supplies the same recognizable Nu mark used by the Mexican bank; a purple circle makes its white mark visible on both themes.",
+        "role": "standalone Nu monogram",
+        "sha256": "469d0c35b5eaf2729f88254d70164972702af5dab339d1e766f7d85dddb66cb5",
+        "sourceAssetUrl": "https://staging-98ca-nubankblogcom.wpcomstaging.com/wp-content/uploads/2026/06/logo.svg",
+        "sourceUrl": "https://building.nu.com/new-logo-nubank/",
+        "transforms": [
+          "Preserved the four original white vector paths; translated (30.275, 51.2) and uniformly scaled 1.55 in a 152-square viewport.",
+          "Added #9903D5 circular field, sampled from the bank’s Mexican avatar image; larger mark size is a catalog fit adaptation, not a claim of identical official avatar scale.",
+          "SVGO 4.1.0 with frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced working SVG from 1553 to 1209 bytes. Inspected working and optimized small-size previews and exact Desktop conversion of optimized bytes."
+        ],
+        "variant": "Original white Nu vector on a purple catalog circle informed by the Mexican official avatar.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no baseline icon exists; final frames show the new Nu symbol on a purple circle."
+      },
+      "candidateIconHash": "469d0c35b5eaf2729f88254d70164972702af5dab339d1e766f7d85dddb66cb5",
+      "checkedAt": "2026-11-24T20:22:04.057256Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "bbdd1512bee6f900716e1a1938b042a80d4a3c774156078fece482e806c4e6eb",
+        "head": "bank-icon-maintenance/16216",
+        "headCommit": "73c8524c2e8be08d318e8a6f6b878842eda880e1",
+        "number": 217,
+        "observedAt": "2026-11-24T20:30:03.822834Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Nubank (Company.id 16216)",
+        "url": "https://github.com/zenmoney/banks/pull/217"
+      },
+      "reason": "No existing icon; official Nu materials provide an original white Nu vector, and the current Mexican site displays the matching white-on-purple mark.",
+      "reviewPackage": {
+        "path": "evidence/16216/candidate-8b0cd16fbcba928e6c2656c2747cf10cb41d878de1145ec5b57b5ab48fa93b81.json",
+        "sha256": "8b0cd16fbcba928e6c2656c2747cf10cb41d878de1145ec5b57b5ab48fa93b81"
+      },
+      "sourceCandidate": {
+        "iconHash": "7dd3a7dfcce65f956dc7ec0f1f03319417470a33262de5d673d80f62d5b587e6",
+        "path": "evidence/16216/research-1cf1591922b54123866ea3f11ebba45e/fetch-4324cb806a60455c98fbf65dc5f2350e/attempt-1/body.bin",
+        "rationale": "The official original Nu symbol is applicable to the Mexican bank and no icon exists for this record.",
+        "retrieval": {
+          "path": "evidence/16216/research-1cf1591922b54123866ea3f11ebba45e/fetch-4324cb806a60455c98fbf65dc5f2350e/receipt.json",
+          "sha256": "5dc265a3d4f455cceab151945b3f077ef210d563c8855ccb8cac795f29f1340d"
+        },
+        "sourceAssetUrl": "https://staging-98ca-nubankblogcom.wpcomstaging.com/wp-content/uploads/2026/06/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/16216/source-material-416cea77170242398d5e35b5afffe50e/material.json",
+          "sha256": "84439eefd196cfa7788b5eae763f2e4bcb72e5a4fb58a3c9438c7da14929a009"
+        },
+        "sourceUrl": "https://building.nu.com/new-logo-nubank/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://staging-98ca-nubankblogcom.wpcomstaging.com/wp-content/uploads/2026/06/logo.svg",
+          "checkedAt": "2026-11-24T20:07:32.350838Z",
+          "independenceGroup": "Nu official brand",
+          "kind": "official",
+          "observation": "The official Nu design site links this original white Nu path SVG as its logo.",
+          "url": "https://building.nu.com/new-logo-nubank/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-11-24T20:16:36.543558Z",
+          "independenceGroup": "Nu Mexico official",
+          "kind": "official",
+          "observation": "The current Mexican bank blog identifies Nubank S.A. as a Mexican bank and displays a Nu header mark and white-on-purple author avatar; the avatar is styled as a circle.",
+          "url": "https://blog.nu.com.mx/nubank/tarjeta-de-credito-nu-banco/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "8c0905287213f832060979bf5a0f03062ddec4e3510cc61e45bad6aa419f0079",
+      "verification": {
+        "checkedAt": "2026-11-24T20:27:28.124429Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "469d0c35b5eaf2729f88254d70164972702af5dab339d1e766f7d85dddb66cb5",
+        "xmlSha256": "ed1fdba01c8744afa45b543f4d61aa635a421cb1794e0fd326e4c14688270236"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "8c0905287213f832060979bf5a0f03062ddec4e3510cc61e45bad6aa419f0079",
+      "outcome": "published",
+      "processedAt": "2026-11-24T20:22:04.057256Z",
+      "publication": {
+        "candidateIconHash": "469d0c35b5eaf2729f88254d70164972702af5dab339d1e766f7d85dddb66cb5",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "bbdd1512bee6f900716e1a1938b042a80d4a3c774156078fece482e806c4e6eb",
+          "head": "bank-icon-maintenance/16216",
+          "headCommit": "73c8524c2e8be08d318e8a6f6b878842eda880e1",
+          "number": 217,
+          "observedAt": "2026-11-24T20:30:03.822834Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Nubank (Company.id 16216)",
+          "url": "https://github.com/zenmoney/banks/pull/217"
+        }
+      },
+      "reason": "No existing icon; official Nu materials provide an original white Nu vector, and the current Mexican site displays the matching white-on-purple mark.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
