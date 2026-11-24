@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:18:36.955917Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "22ceb19b267e909051c2f9084648e213cab14d5dd3ddb23de3d1862fd06f53e3",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:18:36.955917Z",
+      "reason": "The existing Colombian bank record has no icon. The 2018 Colombian rebrand and continuing bank operation are supported, but current Colombian use of the precise candidate design and genuine original-vector provenance of the discovered Wikimedia SVG are not established. Its wide lockup also includes a separate wordmark; no square-cell standalone vector is established by this research. Raster agency artwork is visual research only.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
