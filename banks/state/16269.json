@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:16:25.597773Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a86d2795755cb84fabd346b880eea37d1d907d6f1b09dca25932956454105056",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:16:25.597773Z",
+      "reason": "No usable original vector for the Colombian Lulo Bank standalone mark was retrieved. The agency's image and current Google Play icon are raster research only. A third-party SVG is merely an embedded PNG and is not an original vector. The official site application bundle and stylesheet transfers timed out, preventing inspection of their full assets. The icon is absent from the frozen catalog baseline.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
