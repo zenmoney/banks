@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:30:49.195752Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "84c2cf6ce51e79dcf36c3860082ecb95f52c79d559347e3d2929fa9897568360",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:30:49.195752Z",
+      "reason": "No original SVG with supported provenance and a suitable standalone bank mark was identified. The selected record has no baseline icon. A third-party WebP logo is raster research material, not an eligible candidate. Official site transfer failed with TLS unexpected EOF; the identified brand manual and Brandfetch page returned HTTP 403. This does not establish that no original vector exists.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
