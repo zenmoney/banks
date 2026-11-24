@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:53:53.162599Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "c66f5f50bceb9acfc131b3c96f15c72ef6f72e38028c65ce52ef01a011251c9c",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:53:53.162599Z",
+      "reason": "Mifel's icon is absent. A third-party SVG depicts the relevant Mifel emblem alongside the words Banca Mifel, and a current Google Play Mifel Empresas icon shows a matching-looking emblem, but the SVG's original vector provenance is not established: Commons cites a contributor-uploaded Brands of the World listing with unknown designer, not the bank. The whole lockup includes separate lettering and is not suitable as a square-cell icon. A standalone vector with supported provenance has not been confirmed. This is not evidence that none exists.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
