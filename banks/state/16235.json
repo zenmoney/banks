@@ -1,0 +1,140 @@
+{
+  "lastAttemptAt": "2026-11-24T18:37:58.957331Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16235/assessed-1230ad162d287dff2fc8ef68f795597c875c64d648a6a3b4ba53ce13320745fb.json",
+        "sha256": "1230ad162d287dff2fc8ef68f795597c875c64d648a6a3b4ba53ce13320745fb"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official homepage currently displays the vector lockup and the standalone emblem.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official website and Mexican app listing identify Banco Dondé and Fundación Dondé Banco.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The app store is a distinct distribution context but the bank supplies its brand artwork.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The emblem appears both inside the original vector lockup and separately on the bank site. Actual lossless extraction and final fidelity are separate checks.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/0d295334e4614f6def8d8a733e37a777b45b2d2486c6bab217ad330b77a2a8d7.json",
+        "sha256": "0d295334e4614f6def8d8a733e37a777b45b2d2486c6bab217ad330b77a2a8d7"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "Full original and cropped source/final pairs show matching colored facets and white star; no visible clipping or missing details.",
+        "faithful": true,
+        "iconHash": "06ded5c1ff3bb1274d98f2e2d6d018bb704d18d7744c4768bee70f19bc4e7ec2",
+        "path": "evidence/16235/candidate-06ded5c1ff3bb1274d98f2e2d6d018bb704d18d7744c4768bee70f19bc4e7ec2.svg",
+        "proportionsJudgement": "Full emblem fits the cell without distortion; source and final proportions match.",
+        "rationale": "Official vector lockup supplies a complete standalone symbol also displayed separately by the bank; extracted emblem is recognizable in the cell.",
+        "role": "Standalone Banco Dondé cube and sun emblem",
+        "sha256": "06ded5c1ff3bb1274d98f2e2d6d018bb704d18d7744c4768bee70f19bc4e7ec2",
+        "sourceAssetUrl": "https://cdn.prod.website-files.com/682105f26bede33c31ea4e40/697ce25078b0f60dee8c96d1_Footer%20Logo.svg",
+        "sourceUrl": "https://www.bancodonde.com/",
+        "transforms": [
+          "Extracted five original emblem paths and preserved their order and fill colors; removed separate lettering and changed the viewport to enclose the emblem.",
+          "SVGO trial was smaller but working version retained because optimized converter compatibility was not established."
+        ],
+        "variant": "Yellow/orange sun and green cube with white star; transparent exterior and distinctive cube silhouette, not a separable plain-field backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon exists at the frozen base; final-only frames show the emblem without an invented baseline."
+      },
+      "candidateIconHash": "06ded5c1ff3bb1274d98f2e2d6d018bb704d18d7744c4768bee70f19bc4e7ec2",
+      "checkedAt": "2026-11-24T18:37:58.957331Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "8b16906f7b17fb68a5f9fbc6588cbc1816b1e70410f43cc7aa93d7e0f3072c2e",
+        "head": "bank-icon-maintenance/task-8aa49be62d7b-16235",
+        "headCommit": "23c75789175e408e1d0242ca709387492bbdbf2e",
+        "number": 212,
+        "observedAt": "2026-11-24T18:46:14.517609Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Banco Dondé (Company.id 16235)",
+        "url": "https://github.com/zenmoney/banks/pull/212"
+      },
+      "reason": "The official bank homepage supplies an original vector lockup containing the standalone cube and sun emblem; the bank also publishes the same symbol separately as raster. No baseline icon exists. Extraction, fidelity and final rendering remain to be checked.",
+      "reviewPackage": {
+        "path": "evidence/16235/candidate-c23878cd51a62c2eafa3746fec39f2acfc2928f56cf34df5a6ccfb3083d8acda.json",
+        "sha256": "c23878cd51a62c2eafa3746fec39f2acfc2928f56cf34df5a6ccfb3083d8acda"
+      },
+      "sourceCandidate": {
+        "iconHash": "a1e6d89669c774a25120ca5ceed0748555626ea8db690d9e23a70fcf28364bc3",
+        "path": "evidence/16235/research-8af2e0e0d9ac471ebb887d39b53a9750/fetch-00ef2093d9464007b0918dba971cc7f7/attempt-1/body.bin",
+        "rationale": "The official original vector includes the same emblem separately shown by the bank; preserve source geometry and exclude the accompanying text, subject to final verification.",
+        "retrieval": {
+          "path": "evidence/16235/research-8af2e0e0d9ac471ebb887d39b53a9750/fetch-00ef2093d9464007b0918dba971cc7f7/receipt.json",
+          "sha256": "553911825e91fde97d0211d6dd57945b4fba1d917c93569be0e3e12c454f836a"
+        },
+        "sourceAssetUrl": "https://cdn.prod.website-files.com/682105f26bede33c31ea4e40/697ce25078b0f60dee8c96d1_Footer%20Logo.svg",
+        "sourceUrl": "https://www.bancodonde.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.prod.website-files.com/682105f26bede33c31ea4e40/697ce25078b0f60dee8c96d1_Footer%20Logo.svg",
+          "checkedAt": "2026-11-24T18:30:53.486325Z",
+          "independenceGroup": "Banco Dondé official website",
+          "kind": "official",
+          "observation": "Official bank page embeds this original vector lockup. Its cube and sun emblem is accompanied by a bank name and slogan, which must not appear in the final icon.",
+          "url": "https://www.bancodonde.com/"
+        },
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e1/08/f0/e108f048-0fed-44e9-d2f5-baccc9d98101/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.png",
+          "checkedAt": "2026-11-24T18:32:09.510099Z",
+          "independenceGroup": "Apple App Store",
+          "kind": "third-party",
+          "observation": "Mexican app listing identifies Fundación Dondé Banco and displays the same emblem; the image is raster context only.",
+          "url": "https://apps.apple.com/mx/app/banco-dond%C3%A9/id6657958940"
+        }
+      ],
+      "status": "open",
+      "taskKey": "8aa49be62d7ba24a863a586f57fac75b692b227624c52e42154e03479ca7155a",
+      "verification": {
+        "checkedAt": "2026-11-24T18:43:35.776518Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "06ded5c1ff3bb1274d98f2e2d6d018bb704d18d7744c4768bee70f19bc4e7ec2",
+        "xmlSha256": "13512867939fbebb2500a93a9733fa9f290fc8365d7cc639a514fcd6e74b4547"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "8aa49be62d7ba24a863a586f57fac75b692b227624c52e42154e03479ca7155a",
+      "outcome": "published",
+      "processedAt": "2026-11-24T18:37:58.957331Z",
+      "publication": {
+        "candidateIconHash": "06ded5c1ff3bb1274d98f2e2d6d018bb704d18d7744c4768bee70f19bc4e7ec2",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "8b16906f7b17fb68a5f9fbc6588cbc1816b1e70410f43cc7aa93d7e0f3072c2e",
+          "head": "bank-icon-maintenance/task-8aa49be62d7b-16235",
+          "headCommit": "23c75789175e408e1d0242ca709387492bbdbf2e",
+          "number": 212,
+          "observedAt": "2026-11-24T18:46:14.517609Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Banco Dondé (Company.id 16235)",
+          "url": "https://github.com/zenmoney/banks/pull/212"
+        }
+      },
+      "reason": "The official bank homepage supplies an original vector lockup containing the standalone cube and sun emblem; the bank also publishes the same symbol separately as raster. No baseline icon exists. Extraction, fidelity and final rendering remain to be checked.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
