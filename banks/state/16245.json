@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:58:48.687921Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "b231d79d8711ee72e27e8b50daefa389dfe4434cee18307e58856f0ec12000b8",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:58:48.687921Z",
+      "reason": "No suitable standalone original-vector Cashi mark has been located for the empty icon slot. Cashi's official homepage provides an original vector, but it is the full 679 by 193 Cashi wordmark, not a suitable standalone square-cell symbol. Its second SVG combines the wordmark with other retail logos. A partner PNG is raster and cannot be replacement artwork. The record website returned HTTP 403.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
