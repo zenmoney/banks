@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:35:30.424681Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "8afb7e8a7a4ab3948d66322ffc6038b186f4590dfe45c9c23fa8e647db8b31fa",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:35:30.424681Z",
+      "reason": "Official site and annual reports returned HTTP 403. Third-party vector is a full wordmark with unverified original-vector provenance; standalone symbol use is not established. The Google Play artwork is raster. No baseline icon exists.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
