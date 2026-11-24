@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:31:47.247827Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "d74f3e5273aaa7fec5dc9c395ea08f5956bef9fa364c9bd888197efcdbd4c271",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:31:47.247827Z",
+      "reason": "No usable original vector was retrieved. The third-party SVG archive returned 403; the official homepage was blocked by a security challenge, and CDR listings and the official PDF do not supply a supported SVG.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
