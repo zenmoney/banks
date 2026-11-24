@@ -1,0 +1,147 @@
+{
+  "lastAttemptAt": "2026-11-24T21:01:04.173002Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16206/assessed-9467874c23a061430b3c3b67157f2d620ecbd30c7fde043ffb22a39b0c96164a.json",
+        "sha256": "9467874c23a061430b3c3b67157f2d620ecbd30c7fde043ffb22a39b0c96164a"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The current official product page promotes the operating financial app and contains November 2026 tariffs; its linked stylesheet uses the candidate mark.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official page names the same Moldcell Money product in Moldova and uses this mark on its product-home link.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Product page, stylesheet and vector are one official source group; no independent corroboration is claimed.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The official product navigation directly uses the square SVG containing a circular purple gradient and yellow m/CG symbol. Gradient backing is meaningful to this sourced composition, not a uniform type-1 field, so preserve it without reshaping. Catalog conversion and actual small-size rendering remain to be checked.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/cdb82fdd173ffa1729a3bb84ae69900d249204220db937149345802b89c1c4fc.json",
+        "sha256": "cdb82fdd173ffa1729a3bb84ae69900d249204220db937149345802b89c1c4fc"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The yellow m and CG details and purple gradient match the independent source on light and dark comparisons; no visible clipping.",
+        "faithful": true,
+        "iconHash": "709bd90bafff37c2e904ba9f77dd4507b8d9e18bf311f1de7caf4db379beeab3",
+        "path": "evidence/16206/candidate-709bd90bafff37c2e904ba9f77dd4507b8d9e18bf311f1de7caf4db379beeab3.svg",
+        "proportionsJudgement": "Original circular disk and symbol placement are preserved; the full mark fits both square-cell renders.",
+        "rationale": "Official Moldcell Money navigation mark provides a first icon for the matching existing product.",
+        "role": "standalone product navigation mark",
+        "sha256": "709bd90bafff37c2e904ba9f77dd4507b8d9e18bf311f1de7caf4db379beeab3",
+        "sourceAssetUrl": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg",
+        "sourceUrl": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg",
+        "transforms": [
+          "SVGO 4.1.0 with committed svgo.config.mjs SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 8255 to 6519 bytes; selected optimized version after source comparison and desktop conversion. No intentional geometry, backing or color changes."
+        ],
+        "variant": "Yellow m and CG on the original purple gradient circular field; the field is not a uniform type-1 background and is retained.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon existed at the frozen base; the final-only frames show the new mark on light and dark themes."
+      },
+      "candidateIconHash": "709bd90bafff37c2e904ba9f77dd4507b8d9e18bf311f1de7caf4db379beeab3",
+      "checkedAt": "2026-11-24T21:01:04.173002Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "85ae31ffd2bf2a721bc9af2e0adc049199f3a0d2d626bb108f0c69ea240c867b",
+        "head": "bank-icon-maintenance/task-c5d3dbb9ac22-16206",
+        "headCommit": "ad3aa1f921ef72ddbe88f7d43fe732c4a9456972",
+        "number": 220,
+        "observedAt": "2026-11-24T21:07:04.514888Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Moldcell Money (Company.id 16206)",
+        "url": "https://github.com/zenmoney/banks/pull/220"
+      },
+      "reason": "The frozen record has no icon. The official product page uses an original standalone circular SVG for its Moldcell Money home navigation. A librsvg reference shows the yellow stylized m and CG mark on a purple gradient disk. Final converter and platform fidelity are not yet verified.",
+      "reviewPackage": {
+        "path": "evidence/16206/candidate-dc35be3a8b802abce76fe52742ce2f805b1ea1230038a3d7ed5b936554987a3d.json",
+        "sha256": "dc35be3a8b802abce76fe52742ce2f805b1ea1230038a3d7ed5b936554987a3d"
+      },
+      "sourceCandidate": {
+        "iconHash": "c7f77783194c33ac31b60242b09a9d2c0604ea68e847f9724c7fec4ead1fb042",
+        "path": "evidence/16206/research-eb6ed77e825a407b9621e4c1f56cf175/fetch-fa5a81c94b624eba9914a39dbe589715/attempt-1/body.bin",
+        "rationale": "Original standalone product-navigation vector, used by the official Moldcell Money page; provides a first icon for the existing record.",
+        "retrieval": {
+          "path": "evidence/16206/research-eb6ed77e825a407b9621e4c1f56cf175/fetch-fa5a81c94b624eba9914a39dbe589715/receipt.json",
+          "sha256": "9e7d803fbe8f29e7ab237cda7b3d6c6f1538e55d0f987fc472b3bd3f2f7e89e7"
+        },
+        "sourceAssetUrl": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg",
+        "sourceUrl": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg",
+          "checkedAt": "2026-11-24T20:57:59Z",
+          "independenceGroup": "Moldcell official website",
+          "kind": "official",
+          "observation": "Official product page describes Moldcell Money financial services, links its app stores and publishes tariffs effective November 2026. Its product-home navigation uses class icon; its linked product CSS binds that selector to the original SVG.",
+          "url": "https://moldcell.md/rom/moldcell-money"
+        },
+        {
+          "assetUrl": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg",
+          "checkedAt": "2026-11-24T20:58:15Z",
+          "independenceGroup": "Moldcell official website",
+          "kind": "official",
+          "observation": "Official stylesheet references this standalone original SVG for the product-home navigation.",
+          "url": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg"
+        },
+        {
+          "assetUrl": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/img/icon.svg",
+          "checkedAt": "2026-11-24T20:58:15Z",
+          "independenceGroup": "Moldcell official website",
+          "kind": "official",
+          "observation": "Product stylesheet specifies ../img/icon.svg for .tabs li a.icon; the retrieved SVG is the full original vector, not a raster tracing.",
+          "url": "https://moldcell.md/sites/moldcell/themes/custom/moldcell/money/assets/main.css?cc40"
+        }
+      ],
+      "status": "open",
+      "taskKey": "c5d3dbb9ac222811d5406d652862c40caba55d5c790ddba30bebc4bf9960e6ce",
+      "verification": {
+        "checkedAt": "2026-11-24T21:03:03.269191Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "709bd90bafff37c2e904ba9f77dd4507b8d9e18bf311f1de7caf4db379beeab3",
+        "xmlSha256": "8a824fac39911cb012b0238fc1c931ff48e04be8dbb28654a11d7f747d87a401"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "c5d3dbb9ac222811d5406d652862c40caba55d5c790ddba30bebc4bf9960e6ce",
+      "outcome": "published",
+      "processedAt": "2026-11-24T21:01:04.173002Z",
+      "publication": {
+        "candidateIconHash": "709bd90bafff37c2e904ba9f77dd4507b8d9e18bf311f1de7caf4db379beeab3",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "85ae31ffd2bf2a721bc9af2e0adc049199f3a0d2d626bb108f0c69ea240c867b",
+          "head": "bank-icon-maintenance/task-c5d3dbb9ac22-16206",
+          "headCommit": "ad3aa1f921ef72ddbe88f7d43fe732c4a9456972",
+          "number": 220,
+          "observedAt": "2026-11-24T21:07:04.514888Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Moldcell Money (Company.id 16206)",
+          "url": "https://github.com/zenmoney/banks/pull/220"
+        }
+      },
+      "reason": "The frozen record has no icon. The official product page uses an original standalone circular SVG for its Moldcell Money home navigation. A librsvg reference shows the yellow stylized m and CG mark on a purple gradient disk. Final converter and platform fidelity are not yet verified.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
