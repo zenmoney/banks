@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:55:48.821746Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "6b6b92f5079ba22907f56702de4b030cca3a2e723c4ccf90804a888af79c54d4",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:55:48.821746Z",
+      "reason": "First addition remains unconfirmed: the SVGs offered by a third-party listing contain embedded PNG, not vector geometry; official inline wordmark extraction is blocked by external SVG style context. Brandfetch returned HTTP 403 and a discovered Dribbble page returned HTTP 202. No eligible original vector candidate was found in these searches.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
