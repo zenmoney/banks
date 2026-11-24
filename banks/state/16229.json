@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T19:34:18.836098Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "aa57853940b9a3739b0520f9d78cbdef7492e91e8dba95130f429afeb8129d7f",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T19:34:18.836098Z",
+      "reason": "No supported original vector for a current standalone Mexican Ualá mark was obtained. A 2021 vector is a full wordmark predating a reported 2023 redesign; the Mexican press page returned HTTP 403. The baseline icon is absent.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
