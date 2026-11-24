@@ -1,0 +1,149 @@
+{
+  "lastAttemptAt": "2026-11-24T17:54:42.566304Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16246/assessed-a1e57efa96956088b1b70758eb47336a1ff4846fb814b7741a87c07f9e3cc1d6.json",
+        "sha256": "a1e57efa96956088b1b70758eb47336a1ff4846fb814b7741a87c07f9e3cc1d6"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The live official operating website linked the SVG favicon when fetched on 2026-11-24; this is direct evidence that the site currently uses this brand variant.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The record names Finsus, Financiera Sustentable de México, MX and finsus.mx. The official site's structured data explicitly names Finsus and legalName Financiera Sustentable de México, S.A. de C.V., S.F.P.; the same homepage links the asset as its favicon.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The homepage and favicon are one official publication, not independent corroborating sources. A search surfaced an independent CONDUSEF institution page but its direct verified HTTPS retrieval failed, so its content has not been counted as a verified independent source. The official domain and its explicit legal name and site icon together directly support this record and current website use.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The linked 587-square favicon is a standalone fi monogram, not a separate wordmark or slogan. Viewing an independently rasterized reference shows a dark navy f, coral i dot and coral-to-dark vertical gradient on a pale rounded field. It is suitable for assessment as a square-cell symbol; final backing, size and theme legibility require the candidate review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/29741dbd48781e8033718a8667e4cd427fd0fbf1de73414b4e21f99874065366.json",
+        "sha256": "29741dbd48781e8033718a8667e4cd427fd0fbf1de73414b4e21f99874065366"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The original dark navy f and red detached i dot and red-to-dark gradient stem remain visibly intact, with their spacing and proportions preserved. Both Compose Desktop frames reproduce the source emblem and gradient; no clipping or missing detail is visible.",
+        "faithful": true,
+        "iconHash": "a0c49c483ebd03fb80f2d097265830eda68efcf5d5417aca462d27e6750c97fe",
+        "path": "evidence/16246/candidate-a0c49c483ebd03fb80f2d097265830eda68efcf5d5417aca462d27e6750c97fe.svg",
+        "proportionsJudgement": "The complete source emblem bounds are x=172..416 and y=85..503 in the 587-square source. Translating all emblem parts by (-0.5,-0.5) centers those bounds at (293.5,293.5) without scaling. The complete mark fits within the circle with useful clear space; it remains distinct on light and dark Desktop frames.",
+        "rationale": "The bank's official original SVG supplies a recognizable standalone fi app mark, suitable for the existing Finsus record's first icon addition. Its light backing is retained because its incidental role is not established; its rounded-square plain field is adapted to the catalog circle.",
+        "role": "standalone app mark",
+        "sha256": "a0c49c483ebd03fb80f2d097265830eda68efcf5d5417aca462d27e6750c97fe",
+        "sourceAssetUrl": "https://finsus.mx/icon.svg",
+        "sourceUrl": "https://finsus.mx/icon.svg",
+        "transforms": [
+          "Replaced the separable uniform #F0F2F9 rounded-square field with an equal-color circle centered at (293.5,293.5), radius 293.5, transparent outside; this is a catalog adaptation, not a claim of an official circular asset.",
+          "Translated the complete source emblem and its gradient together by (-0.5,-0.5) source units; no resizing, cropping, recoloring or separately moving parts.",
+          "SVGO 4.1.0, frozen config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 950-byte working SVG to 943-byte selected SVG SHA-256 a0c49c483ebd03fb80f2d097265830eda68efcf5d5417aca462d27e6750c97fe. Independent librsvg working/trial comparison showed no meaningful visible difference; 102 pixels differed by at most one channel level. Exact selected bytes passed the Desktop converter/render run."
+        ],
+        "variant": "Official colored fi mark on a retained pale plain field adapted to a circular catalog backing",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the frozen base has no icon.svg; the proposed file adds the real source-derived fi mark. No invented visual comparison against an old icon is implied."
+      },
+      "candidateIconHash": "a0c49c483ebd03fb80f2d097265830eda68efcf5d5417aca462d27e6750c97fe",
+      "checkedAt": "2026-11-24T17:54:42.566304Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "62ba1381ad2255683df7b02a321a2aa22f02cca048c079101c46184e1e8137d2",
+        "head": "bank-icon-maintenance/task-e77e7c87a770-16246",
+        "headCommit": "6dba514875e880e83bed655cac08400b75a7e1d5",
+        "number": 207,
+        "observedAt": "2026-11-24T18:02:38.279140Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Finsus (Company.id 16246)",
+        "url": "https://github.com/zenmoney/banks/pull/207"
+      },
+      "reason": "No existing icon is present for this record; the official matching Finsus site directly links a standalone original vector favicon. This is a first-addition candidate, not a visual or publication approval.",
+      "reviewPackage": {
+        "path": "evidence/16246/candidate-4c2e232141bada114dd0549da487bbd3cd9d14af3385271f9251a1b05c51fadd.json",
+        "sha256": "4c2e232141bada114dd0549da487bbd3cd9d14af3385271f9251a1b05c51fadd"
+      },
+      "sourceCandidate": {
+        "iconHash": "2f419995f7597e41e3654f4dbf4c3d705b4e10df2b92ebe6657da9b070030c53",
+        "path": "evidence/16246/research-654380d8220a4c079695ecb79248f529/fetch-7907653bd7fe435fb5d0cfa55fdae9eb/attempt-1/body.bin",
+        "rationale": "Official site-linked original SVG favicon; its standalone fi monogram is appropriate to investigate for a square icon, with backing and rendering subject to independent review.",
+        "retrieval": {
+          "path": "evidence/16246/research-654380d8220a4c079695ecb79248f529/fetch-7907653bd7fe435fb5d0cfa55fdae9eb/receipt.json",
+          "sha256": "fe5d0d4a1abd51cce24c3b378d0f968a5396e779aa534e12afe18c05cc4aa76d"
+        },
+        "sourceAssetUrl": "https://finsus.mx/icon.svg",
+        "sourceUrl": "https://finsus.mx/icon.svg"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://finsus.mx/icon.svg",
+          "checkedAt": "2026-11-24T17:51:26.258941Z",
+          "independenceGroup": "Finsus official website and favicon",
+          "kind": "official",
+          "observation": "Homepage JSON-LD calls the organization Finsus and gives its legal name as Financiera Sustentable de México, S.A. de C.V., S.F.P.; its head specifies /icon.svg as its image/svg+xml favicon.",
+          "url": "https://finsus.mx/"
+        },
+        {
+          "assetUrl": "https://finsus.mx/icon.svg",
+          "checkedAt": "2026-11-24T17:51:33.860255Z",
+          "independenceGroup": "Finsus official website and favicon",
+          "kind": "official",
+          "observation": "Direct SVG returned HTTP 200, with original path and gradient artwork, no embedded raster. Independent rsvg reference displays navy f and coral gradient i on a pale rounded field.",
+          "url": "https://finsus.mx/icon.svg"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-11-24T17:52:18.288479Z",
+          "independenceGroup": "CONDUSEF regulator",
+          "kind": "third-party",
+          "observation": "Search discovery surfaced this regulator institution page in response to Finsus legal-name query. The direct verified HTTPS fetch including eligible CA retry failed; page content was not directly inspected.",
+          "url": "https://www.condusef.gob.mx/index.php/institucion?idi=740&p=ficha_institucion"
+        }
+      ],
+      "status": "open",
+      "taskKey": "e77e7c87a770d0d171564ea77e93a2f7c48a78d4d4b516fd325a90ba2e0a6c57",
+      "verification": {
+        "checkedAt": "2026-11-24T17:59:08.585786Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a0c49c483ebd03fb80f2d097265830eda68efcf5d5417aca462d27e6750c97fe",
+        "xmlSha256": "52bf744990ccfd47daecc4e7840805715e0107b5435d0dfe3c56751b61a263e3"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "e77e7c87a770d0d171564ea77e93a2f7c48a78d4d4b516fd325a90ba2e0a6c57",
+      "outcome": "published",
+      "processedAt": "2026-11-24T17:54:42.566304Z",
+      "publication": {
+        "candidateIconHash": "a0c49c483ebd03fb80f2d097265830eda68efcf5d5417aca462d27e6750c97fe",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "62ba1381ad2255683df7b02a321a2aa22f02cca048c079101c46184e1e8137d2",
+          "head": "bank-icon-maintenance/task-e77e7c87a770-16246",
+          "headCommit": "6dba514875e880e83bed655cac08400b75a7e1d5",
+          "number": 207,
+          "observedAt": "2026-11-24T18:02:38.279140Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Finsus (Company.id 16246)",
+          "url": "https://github.com/zenmoney/banks/pull/207"
+        }
+      },
+      "reason": "No existing icon is present for this record; the official matching Finsus site directly links a standalone original vector favicon. This is a first-addition candidate, not a visual or publication approval.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
