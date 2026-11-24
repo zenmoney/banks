@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:10:28.567598Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "0e989f72e1ea4e169af7da6b39571775ad28b16145d9031ec54875f448ae3dc3",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:10:28.567598Z",
+      "reason": "No original vector has been established as both applicable to Pibank Colombia and a suitable standalone square-cell bank mark. The original Pibank USA horizontal vector includes the bank name beside the circle; the observed Colombian app icon includes it below the circle. The bank's Colombian SVG URLs returned homepage HTML or timed out. No candidate or current icon was verified.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
