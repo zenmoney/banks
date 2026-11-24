@@ -1,0 +1,141 @@
+{
+  "lastAttemptAt": "2026-11-24T18:15:03.624958Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16240/assessed-06c24ace8b61f57e8f589aec07f2720fffd9ed7ae84f586e5ec2718645af3473.json",
+        "sha256": "06c24ace8b61f57e8f589aec07f2720fffd9ed7ae84f586e5ec2718645af3473"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The official website references the fetched logo vector; page retrieval was partial due to timeout.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official Stori domain and agency description identify the Mexican financial brand and its stepped symbol.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The agency and Stori are distinct publishers though agency artwork is commissioned brand work.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "Agency identifies the stepped S and original vector contains its separable closed subpath; isolated treatment requires visual review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/63c9c8f69855dec03ee33c9316c2f8af11dc2b5a4ebb1820a1790d4e9628901a.json",
+        "sha256": "63c9c8f69855dec03ee33c9316c2f8af11dc2b5a4ebb1820a1790d4e9628901a"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The dark teal stepped S preserves the original square steps and rounded joins; the wordmark was removed.",
+        "faithful": true,
+        "iconHash": "73fc5033be48399e119631fedca84bbc0b10e2ada0f886ab04631d42e0f4db3e",
+        "path": "evidence/16240/candidate-73fc5033be48399e119631fedca84bbc0b10e2ada0f886ab04631d42e0f4db3e.svg",
+        "proportionsJudgement": "The complete S is uniformly scaled and centered without clipping inside a white circular field.",
+        "rationale": "Extract the original Stori S subpath for a first icon; a white field is needed for legibility on dark theme and is supported by the official page's white navbar context.",
+        "role": "standalone brand symbol",
+        "sha256": "73fc5033be48399e119631fedca84bbc0b10e2ada0f886ab04631d42e0f4db3e",
+        "sourceAssetUrl": "https://www.storicard.com/_next/static/media/stori-logo-vector.fd330f3f.svg",
+        "sourceUrl": "https://www.storicard.com/stori-card",
+        "transforms": [
+          "Isolated the first closed subpath without tracing or recoloring and removed the wordmark.",
+          "Added a white circle and uniformly scaled and centered the complete S; the circle is a catalog adaptation, not an observed official circular avatar.",
+          "Retained the smaller working SVG after SVGO trial."
+        ],
+        "variant": "dark teal S on white circular field",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no baseline icon exists; exact final-only frames show the Stori S on both themes."
+      },
+      "candidateIconHash": "73fc5033be48399e119631fedca84bbc0b10e2ada0f886ab04631d42e0f4db3e",
+      "checkedAt": "2026-11-24T18:15:03.624958Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "6d1e1485d1d81ad92032fc4c9496dfc8567be029ea07b55db4b1e960ddd27fc5",
+        "head": "bank-icon-maintenance/add-missing-16240",
+        "headCommit": "caa4866bf3e1a273d9770d132f48bf4ffe5453bc",
+        "number": 210,
+        "observedAt": "2026-11-24T18:25:50.260589Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Stori (Company.id 16240)",
+        "url": "https://github.com/zenmoney/banks/pull/210"
+      },
+      "reason": "No icon exists at baseline. An original vector on Stori's official domain contains a stepped S and wordmark; the brand agency describes the stepped S as Stori's symbol.",
+      "reviewPackage": {
+        "path": "evidence/16240/candidate-a850e238ff1802c95e16e029dd1fa2a5802ae23de20bbfd27712a02a47e5e3c5.json",
+        "sha256": "a850e238ff1802c95e16e029dd1fa2a5802ae23de20bbfd27712a02a47e5e3c5"
+      },
+      "sourceCandidate": {
+        "iconHash": "0338ad2878a99270c189ffa8137720c8b81dfffb0737e868e06a6d18882560a8",
+        "path": "evidence/16240/research-b0e4324b18fc49e0af685ec93c3886e3/fetch-d7c2dd2c06a44e57a916fcc502bda9c5/attempt-1/body.bin",
+        "rationale": "Extract the existing stepped S subpath from official vector and assess fidelity and usability; do not trace.",
+        "retrieval": {
+          "path": "evidence/16240/research-b0e4324b18fc49e0af685ec93c3886e3/fetch-d7c2dd2c06a44e57a916fcc502bda9c5/receipt.json",
+          "sha256": "12f04f0bf399d86b399cc181cabc150bda1e86dfd9f7e04c8794e7ba8ac52aca"
+        },
+        "sourceAssetUrl": "https://www.storicard.com/_next/static/media/stori-logo-vector.fd330f3f.svg",
+        "sourceUrl": "https://www.storicard.com/stori-card"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.storicard.com/_next/static/media/stori-logo-vector.fd330f3f.svg",
+          "checkedAt": "2026-11-24T18:13:04.123598Z",
+          "independenceGroup": "Stori official",
+          "kind": "official",
+          "observation": "Official page transfer timed out but preserved partial HTML explicitly references the separately retrieved official SVG, which contains a dark teal stepped S and Stori wordmark.",
+          "url": "https://www.storicard.com/stori-card"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-11-24T18:10:14.066411Z",
+          "independenceGroup": "Elmwood agency",
+          "kind": "third-party",
+          "observation": "Brand agency describes the Stori symbol as interconnected squares forming ascending stairs and describes its work for Stori in Mexico.",
+          "url": "https://elmwood.com/work/stori/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "b20d7c83082a7830107f2306b10f4d21641ff80794f29f22fac5e9a72f515ea2",
+      "verification": {
+        "checkedAt": "2026-11-24T18:23:29.032545Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "73fc5033be48399e119631fedca84bbc0b10e2ada0f886ab04631d42e0f4db3e",
+        "xmlSha256": "52709bd6f04063155661eeda8a98959ca9b01742cfca42001af1309788f7ee87"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "b20d7c83082a7830107f2306b10f4d21641ff80794f29f22fac5e9a72f515ea2",
+      "outcome": "published",
+      "processedAt": "2026-11-24T18:15:03.624958Z",
+      "publication": {
+        "candidateIconHash": "73fc5033be48399e119631fedca84bbc0b10e2ada0f886ab04631d42e0f4db3e",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "6d1e1485d1d81ad92032fc4c9496dfc8567be029ea07b55db4b1e960ddd27fc5",
+          "head": "bank-icon-maintenance/add-missing-16240",
+          "headCommit": "caa4866bf3e1a273d9770d132f48bf4ffe5453bc",
+          "number": 210,
+          "observedAt": "2026-11-24T18:25:50.260589Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Stori (Company.id 16240)",
+          "url": "https://github.com/zenmoney/banks/pull/210"
+        }
+      },
+      "reason": "No icon exists at baseline. An original vector on Stori's official domain contains a stepped S and wordmark; the brand agency describes the stepped S as Stori's symbol.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
