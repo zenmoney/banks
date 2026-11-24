@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:34:18.530445Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "67fa7901ed3e5e148f14bee021bed99d59105f2e239c984bb42a92e51dbc8058",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:34:18.530445Z",
+      "reason": "No original vector for the current standalone mark was obtained. Official pages returned HTTP 403; the app artwork and agency artwork are raster, and the third-party outline is not supported as original artwork. No baseline icon exists.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
