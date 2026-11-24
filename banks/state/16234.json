@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:53:24.147743Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "655a61830d5fdb077ebbd60f418ec7254bcc63e72e19e742d5a936de22bddd96",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:53:24.147743Z",
+      "reason": "The official Actinver app listing uses a standalone white A and gold dot on a dark blue field, but no original vector of that standalone emblem was found. Wikimedia preserves an SVG attributed to Actinver's former official URL, but it is a complete wordmark, not a suitable standalone square-cell emblem. The old official SVG URL returned HTTP 404. The app artwork is PNG and is not an eligible vector source; no tracing or reconstructed artwork was used.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
