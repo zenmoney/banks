@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T21:08:14.323697Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "b311c40f069734760ba704deb6db625ec142831099e3645ce5f44c85cce3ecfa",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T21:08:14.323697Z",
+      "reason": "This first addition has no baseline icon. Research did not establish an original current standalone Samsung Card vector with supported provenance and suitability. The third-party standalone S SVG has unproven origin and standalone use; the separate blue oval SVG is an older design and the 2022 report describes its replacement. The official ESG index has no inline SVG, and its linked stylesheet and report could not be fetched. No candidate or render was approved.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
