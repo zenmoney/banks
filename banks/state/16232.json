@@ -1,0 +1,135 @@
+{
+  "lastAttemptAt": "2026-11-24T18:51:15.226739Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16232/assessed-506e8333a5b2c899cb08da50edf3ebdbdca0a2a0fbdc667fc7f3458df3a9bcb7.json",
+        "sha256": "506e8333a5b2c899cb08da50edf3ebdbdca0a2a0fbdc667fc7f3458df3a9bcb7"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The asset is directly embedded in the live official homepage observed on 2026-11-24.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The metadata's multiva.com.mx redirects to www.multiva.com.mx, where the bank's navigation says Banco Multiva and its own Línea Multiva section uses the asset.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The website and SVG are one primary source, not independent corroboration; direct current official use establishes source identity and currency.",
+        "uncertainties": [
+          "Final source-preserving background and rendering suitability have not been reviewed."
+        ],
+        "variant": {
+          "basis": "The direct SVG is a standalone m-shaped mark without separate lettering; its square viewBox is suitable for further icon preparation. The white symbol is displayed on dark #333E48 on the source page; background adaptation, small-size legibility and actual platform rendering require separate review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/4518160c293df4366b69f29402d9f52e9932f0a737f7267c9294659528cabcce.json",
+        "sha256": "4518160c293df4366b69f29402d9f52e9932f0a737f7267c9294659528cabcce"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The white double-arched m silhouette, both rounded counters, asymmetric arch heights and straight baseline match the independently rendered source on dark. The added dark circle is a catalog presentation adaptation, not an element of the standalone source SVG; its color matches the #333e48 context reported on the bank homepage. No emblem clipping is visible.",
+        "faithful": true,
+        "iconHash": "cc8165b58ec56e85ea461fbbb0d4d9f489b7b35e47ad78f316e4fc8c8e9b57af",
+        "path": "evidence/16232/candidate-cc8165b58ec56e85ea461fbbb0d4d9f489b7b35e47ad78f316e4fc8c8e9b57af.svg",
+        "proportionsJudgement": "The emblem retains its original relative proportions under uniform scaling, is centered as a whole within the circular backing and has visible clearance. Exact Compose final renders are legible on white and dark themes; supplemental small-size previews remain recognizable.",
+        "rationale": "First icon addition for Banco Multiva using its official standalone white vector mark, with a dark circular field for contrast and square-cell usability.",
+        "role": "Standalone bank brand symbol for the catalog icon cell",
+        "sha256": "cc8165b58ec56e85ea461fbbb0d4d9f489b7b35e47ad78f316e4fc8c8e9b57af",
+        "sourceAssetUrl": "https://www.multiva.com.mx/documents/32731/378586/Multiva_Icon_vigneta.svg/7b1e4976-d8c3-401e-a441-a40770934e7f?t=1762394879883",
+        "sourceUrl": "https://www.multiva.com.mx/",
+        "transforms": [
+          "Added a #333e48 circular backing matching the source page context; this is a catalog adaptation, not a claimed official circular avatar.",
+          "Uniformly scaled the original white vector emblem by 0.85 and translated it by (31.5975, 48.1075) in a 500 by 500 viewBox to center it with clearance.",
+          "SVGO 4.1.0 trial with repository config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e increased size from 603 to 624 bytes; retained the 603-byte working version as final."
+        ],
+        "variant": "White standalone m on a dark slate circular catalog backing",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: there is no existing icon at the frozen base; the final images show a real Multiva symbol rather than a previously present icon."
+      },
+      "candidateIconHash": "cc8165b58ec56e85ea461fbbb0d4d9f489b7b35e47ad78f316e4fc8c8e9b57af",
+      "checkedAt": "2026-11-24T18:51:15.226739Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "de8962b9ebc8a894ff8c223bafcc36a01215aa16e4d06f126ff8dd55a721daaf",
+        "head": "bank-icon-maintenance/task-38eddb35f2b1-16232",
+        "headCommit": "3780daf8aa2abcb15af2111c6589c45f086a0854",
+        "number": 213,
+        "observedAt": "2026-11-24T19:00:58.784959Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Multiva (Company.id 16232)",
+        "url": "https://github.com/zenmoney/banks/pull/213"
+      },
+      "reason": "The bank's own current homepage embeds an original Illustrator-exported standalone Multiva symbol as an SVG. The record has no existing icon. The white emblem requires a suitable supported dark presentation; candidate preparation and platform rendering remain outstanding.",
+      "reviewPackage": {
+        "path": "evidence/16232/candidate-82e14844310a817ffa91098faeb5956bdc7293e78c261e8c5980fe0b9d475042.json",
+        "sha256": "82e14844310a817ffa91098faeb5956bdc7293e78c261e8c5980fe0b9d475042"
+      },
+      "sourceCandidate": {
+        "iconHash": "739079529e770b41ef650d922ef1778562c6b02cda6d305a4a240defd2629598",
+        "path": "evidence/16232/research-c1dbe1998d4940968fdfe6791c3120bf/fetch-08595b0f22684bd8a26f5f09466a0313/attempt-1/body.bin",
+        "rationale": "Original official SVG with standalone white Multiva mark, used on the current official homepage; dark background required for light-theme visibility.",
+        "retrieval": {
+          "path": "evidence/16232/research-c1dbe1998d4940968fdfe6791c3120bf/fetch-08595b0f22684bd8a26f5f09466a0313/receipt.json",
+          "sha256": "ac3a77ee81e12db98ceeea0ad92acc25a07623b44970110e3d241270af611c2d"
+        },
+        "sourceAssetUrl": "https://www.multiva.com.mx/documents/32731/378586/Multiva_Icon_vigneta.svg/7b1e4976-d8c3-401e-a441-a40770934e7f?t=1762394879883",
+        "sourceUrl": "https://www.multiva.com.mx/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.multiva.com.mx/documents/32731/378586/Multiva_Icon_vigneta.svg/7b1e4976-d8c3-401e-a441-a40770934e7f?t=1762394879883",
+          "checkedAt": "2026-11-24T18:49:46Z",
+          "independenceGroup": "Multiva official website and assets",
+          "kind": "official",
+          "observation": "The official homepage identifies its navigation brand as Banco Multiva and embeds this standalone white symbol in its Línea Multiva section; the section background is #333E48. The SVG is a 500 by 500 vector with an Illustrator export declaration and a white path, not embedded raster.",
+          "url": "https://www.multiva.com.mx/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "38eddb35f2b1cd5a6584a1c21a9e28b2e81f0f4ca5c34ebe433a6c9a58362d31",
+      "verification": {
+        "checkedAt": "2026-11-24T18:56:27.015644Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "cc8165b58ec56e85ea461fbbb0d4d9f489b7b35e47ad78f316e4fc8c8e9b57af",
+        "xmlSha256": "df1b99145a2870528dc3825f16c7163dd1bd55e4d7a04382ab56fdb9b94dca96"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "38eddb35f2b1cd5a6584a1c21a9e28b2e81f0f4ca5c34ebe433a6c9a58362d31",
+      "outcome": "published",
+      "processedAt": "2026-11-24T18:51:15.226739Z",
+      "publication": {
+        "candidateIconHash": "cc8165b58ec56e85ea461fbbb0d4d9f489b7b35e47ad78f316e4fc8c8e9b57af",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "de8962b9ebc8a894ff8c223bafcc36a01215aa16e4d06f126ff8dd55a721daaf",
+          "head": "bank-icon-maintenance/task-38eddb35f2b1-16232",
+          "headCommit": "3780daf8aa2abcb15af2111c6589c45f086a0854",
+          "number": 213,
+          "observedAt": "2026-11-24T19:00:58.784959Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Multiva (Company.id 16232)",
+          "url": "https://github.com/zenmoney/banks/pull/213"
+        }
+      },
+      "reason": "The bank's own current homepage embeds an original Illustrator-exported standalone Multiva symbol as an SVG. The record has no existing icon. The white emblem requires a suitable supported dark presentation; candidate preparation and platform rendering remain outstanding.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
