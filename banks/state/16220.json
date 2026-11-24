@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T19:58:57.254979Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "746f6942486a23ccaab434a69a1fb469b7eaf161c53faabe376964f0c2338d65",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T19:58:57.254979Z",
+      "reason": "The official site displays the current logo as raster; no usable original vector of its standalone emblem was established. The official rebrand PDF could not be extracted by the supported source-material tool. The baseline icon is absent.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
