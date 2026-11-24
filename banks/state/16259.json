@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:29:10.150670Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "33646bf01a4ac81a2ed04a88f0e1ba3e3ad9742e3c317b44d857b4197ec77037",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:29:10.150670Z",
+      "reason": "First addition has no existing icon. Official Colombian identity and general current symbol are corroborated, but the original bank SVG endpoint returned HTTP 403 and the located third-party SVG has documented alterations and unresolved origin. A raster app icon is research evidence only, not eligible source material.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
