@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:14:52.747396Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "95963264bb9b4255bb0174660481cdf47e4c246449f9b9cf30ec34187e9b9fdc",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:14:52.747396Z",
+      "reason": "No original applicable vector could be obtained. The official logo gallery could not be reached over HTTPS, and the third-party SVG download returned HTTP 403. The listed AI download redirected to HTML. The existing catalog entry has no icon; its absence is not evidence of a verified current mark.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
