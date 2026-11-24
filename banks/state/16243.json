@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:09:29.559029Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a5345fea0c51287a917a9c53a11819061df6f5ca1604465faa157db6412e85b1",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:09:29.559029Z",
+      "reason": "No applicable original vector for Mexican RappiCard was located. The official site uses a PNG wordmark; Brandfetch and the application returned 403. No icon existed at baseline.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
