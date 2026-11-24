@@ -1,0 +1,144 @@
+{
+  "lastAttemptAt": "2026-11-24T21:08:44.404693Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16205/assessed-2ca90ce82b072be4d69a452b04c7c54f64d79b233d4ab09f35458b29903db3d5.json",
+        "sha256": "2ca90ce82b072be4d69a452b04c7c54f64d79b233d4ab09f35458b29903db3d5"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The logo was observed in the active official website header on 2026-11-24; the current app listing also displays the same distinctive colored triangular brand motif.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The record names amobank, country Ukraine, and amobank.com. That website identifies itself as amobank and displays the selected original logo in its header.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The homepage and app listing are separate display contexts but both represent the brand; neither is treated as an independent editorial source. The directly observed official header is sufficient to identify the current source asset.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The standalone emblem is the complete 45 colored vector paths from the official website logo, omitting only the separate wordmark. Its triangular shape and colors are corroborated by the current app icon. The catalog candidate uses no invented backing or colors and requires final render review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/c30e63b483dacb1d9405ed4ae1d72ceaf952b6f474d2e36fe9d7deb6e0d49519.json",
+        "sha256": "c30e63b483dacb1d9405ed4ae1d72ceaf952b6f474d2e36fe9d7deb6e0d49519"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "All rows of colored bricks and intervening transparency match the source crop on both themes; no visible detail lost.",
+        "faithful": true,
+        "iconHash": "392364c13f3701b0203d91bdb691e37fec6e33c75c217774d3ab94238cf235cc",
+        "path": "evidence/16205/candidate-392364c13f3701b0203d91bdb691e37fec6e33c75c217774d3ab94238cf235cc.svg",
+        "proportionsJudgement": "The complete triangular emblem retains its source proportions; final is uniformly scaled within a padded square.",
+        "rationale": "Official amobank vector lockup contains a separable standalone emblem for this first addition.",
+        "role": "standalone triangular brand symbol extracted from official lockup",
+        "sha256": "392364c13f3701b0203d91bdb691e37fec6e33c75c217774d3ab94238cf235cc",
+        "sourceAssetUrl": "https://amobank.com/logos/logo.svg",
+        "sourceUrl": "https://amobank.com/",
+        "transforms": [
+          "Separated all 45 original colored emblem paths from three black wordmark paths, preserving their geometry and colors; removed the original clipping wrapper and padded the unchanged emblem in a square viewBox.",
+          "SVGO 4.1.0 with committed config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 3638 to 2678 bytes. Selected optimized output after visual comparison and desktop conversion."
+        ],
+        "variant": "Transparent colored brick triangle; no backing invented.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition; no baseline icon exists, and final-only light/dark frames show the complete new symbol."
+      },
+      "candidateIconHash": "392364c13f3701b0203d91bdb691e37fec6e33c75c217774d3ab94238cf235cc",
+      "checkedAt": "2026-11-24T21:08:44.404693Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "3083c03df06b7dbb7e6081531a481d83c1c4127462c206e4327167c60d8080a5",
+        "head": "bank-icon-maintenance/task-8564369db15f-16205",
+        "headCommit": "1a435d4aaccbe32ee9b7b1148cb28404432a847f",
+        "number": 221,
+        "observedAt": "2026-11-24T21:12:59.181982Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: amobank (Company.id 16205)",
+        "url": "https://github.com/zenmoney/banks/pull/221"
+      },
+      "reason": "The existing amobank Ukraine record has no icon. Its current official website displays an original vector logo containing a distinctive multicolored triangular emblem; the emblem can be isolated without redrawing and is suitable for square-cell candidate review.",
+      "reviewPackage": {
+        "path": "evidence/16205/candidate-3970b0368adeae1cf4397a57ef89bdc28d7e23f8e3877958636e2d7c664b2901.json",
+        "sha256": "3970b0368adeae1cf4397a57ef89bdc28d7e23f8e3877958636e2d7c664b2901"
+      },
+      "sourceCandidate": {
+        "iconHash": "1b4f30e7ca057c38ccbb1ddbb7ecddf1cb6d3de1262096d363ffdb244c2709a9",
+        "path": "evidence/16205/research-3676342ede6d48e6a5b777301e49a767/fetch-177964be40524763b50029277d003141/attempt-1/body.bin",
+        "rationale": "The official original vector contains a complete, separable colored triangular symbol, which can fit a square icon cell without the accompanying bank name. Preserve the original paths and compare the final candidate to the full source.",
+        "retrieval": {
+          "path": "evidence/16205/research-3676342ede6d48e6a5b777301e49a767/fetch-177964be40524763b50029277d003141/receipt.json",
+          "sha256": "f794c77bff7453bec539ef507e5871c2834163150491cd266aca67e50dbae201"
+        },
+        "sourceAssetUrl": "https://amobank.com/logos/logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/16205/source-material-c1eca0d183394300a92627115923c8e8/material.json",
+          "sha256": "ce23772c6c314041f9b5888f2c075d2b8618df77c6cac16194d8b9f90202531e"
+        },
+        "sourceUrl": "https://amobank.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://amobank.com/logos/logo.svg",
+          "checkedAt": "2026-11-24T21:04:36Z",
+          "independenceGroup": "amobank official website",
+          "kind": "official",
+          "observation": "Ukrainian-language amobank homepage displays this SVG in its header linked to the homepage with alt text Amo. The original SVG contains a colored brick-pattern triangle followed by a black AMO wordmark, on transparent canvas.",
+          "url": "https://amobank.com/"
+        },
+        {
+          "assetUrl": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/db/64/ba/db64ba15-8081-55bf-459a-29d22b1de05b/Placeholder.mill/400x400Icon.ApSiOS01-75.jpg",
+          "checkedAt": "2026-11-24T21:04:36Z",
+          "independenceGroup": "amobank app listing",
+          "kind": "official",
+          "observation": "Current amobank app listing shows a multicolored brick-pattern triangle above a white AMO wordmark on a dark field. The raster image provides corroborating context only, not source geometry. It does not show the triangle alone.",
+          "url": "https://apps.apple.com/ua/app/amobank-%D1%82%D0%B2%D1%96%D0%B9-%D0%BC%D0%BE%D0%B1%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9-%D0%B1%D0%B0%D0%BD%D0%BA/id6745878256"
+        }
+      ],
+      "status": "open",
+      "taskKey": "8564369db15f077d8ed85a3cb05126895583d93e2b6443f2f6040541a823f83c",
+      "verification": {
+        "checkedAt": "2026-11-24T21:09:54.306503Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "392364c13f3701b0203d91bdb691e37fec6e33c75c217774d3ab94238cf235cc",
+        "xmlSha256": "39e0d3bd0128e7da089d17ddc1cfe141011239d7e3dd4b1eede53e845e62c4ca"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "8564369db15f077d8ed85a3cb05126895583d93e2b6443f2f6040541a823f83c",
+      "outcome": "published",
+      "processedAt": "2026-11-24T21:08:44.404693Z",
+      "publication": {
+        "candidateIconHash": "392364c13f3701b0203d91bdb691e37fec6e33c75c217774d3ab94238cf235cc",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "3083c03df06b7dbb7e6081531a481d83c1c4127462c206e4327167c60d8080a5",
+          "head": "bank-icon-maintenance/task-8564369db15f-16205",
+          "headCommit": "1a435d4aaccbe32ee9b7b1148cb28404432a847f",
+          "number": 221,
+          "observedAt": "2026-11-24T21:12:59.181982Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: amobank (Company.id 16205)",
+          "url": "https://github.com/zenmoney/banks/pull/221"
+        }
+      },
+      "reason": "The existing amobank Ukraine record has no icon. Its current official website displays an original vector logo containing a distinctive multicolored triangular emblem; the emblem can be isolated without redrawing and is suitable for square-cell candidate review.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
