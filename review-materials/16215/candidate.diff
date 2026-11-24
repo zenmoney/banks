@@ -1,0 +1,9 @@
+--- /dev/null
++++ candidate/16215/icon.svg
+@@ -0,0 +1,6 @@
++<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -42.5 170.1 170.1">
++    <title>HSBC</title>
++    <path fill="#fff" d="M42.6 0h85v85h-85z"/>
++    <path fill="#db0011" d="M170.1 42.6 127.6 0v85.1zm-85 0L127.6 0h-85z"/>
++    <path fill="#db0011" d="m0 42.6 42.6 42.5V0zm85.1 0L42.6 85.1h85z"/>
++</svg>
