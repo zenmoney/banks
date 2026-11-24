@@ -1,0 +1,144 @@
+{
+  "lastAttemptAt": "2026-11-24T20:47:58.920247Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16211/assessed-c7500058821e32d0cb3fc9f2f29c7f12912e6803ac6990e461d0099352fb3e64.json",
+        "sha256": "c7500058821e32d0cb3fc9f2f29c7f12912e6803ac6990e461d0099352fb3e64"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The investor header is an observed current site use, with 2026 navigation; the separately hosted bank-published app listing has a 2026 update date and shows the related emblem.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The investor page identifies Banco Mercantil del Norte within Grupo Financiero Banorte, and the Google Play bank developer identifies the same institution and Banorte brand.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Investor relations and Google Play are distinct distribution channels, but the latter artwork is bank-published and is not independent brand authorship; its value is bank-specific corroboration, not independent geometry or color verification.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The investor SVG includes the complete red emblem in a separable three-path group; its structure corresponds to the bank app emblem, although the app is a different white-on-red anniversary presentation. The full group lockup is not itself a square-cell icon. The dark source field is preserved in the provisional catalog circle because its role is not confirmed incidental; the circle is a catalog adaptation, not an observed official circular variant. Final presentation and converter checks remain pending.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/8439fc928c6e65deb1df59ab3cc84edf4c6681c585a661b2dd67e0381d6c5ea1.json",
+        "sha256": "8439fc928c6e65deb1df59ab3cc84edf4c6681c585a661b2dd67e0381d6c5ea1"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The extracted red upper ellipse, split lower ellipse and tapered negative space match the full official source; the original field color is retained.",
+        "faithful": true,
+        "iconHash": "4adb96a8a3993b67aa3b97e8d2ee59a4bac637608bb48a4ce116c8ae76e00747",
+        "path": "evidence/16211/candidate-4adb96a8a3993b67aa3b97e8d2ee59a4bac637608bb48a4ce116c8ae76e00747.svg",
+        "proportionsJudgement": "The complete asymmetrical emblem retains its source geometry and fits centered within the circular field without clipping.",
+        "rationale": "The group vector contains a separable Banorte symbol corroborated by the bank app; a same-color circular field adapts the original plain rectangle for the catalog.",
+        "role": "standalone bank symbol",
+        "sha256": "4adb96a8a3993b67aa3b97e8d2ee59a4bac637608bb48a4ce116c8ae76e00747",
+        "sourceAssetUrl": "https://investors.banorte.com/~/media/Images/B/Banorte-IR/logo/logo-png.svg?h=159&iar=0&w=820",
+        "sourceUrl": "https://investors.banorte.com/es/company/structure",
+        "transforms": [
+          "Losslessly extracted three emblem paths; replaced the uniform source field with a same-color catalog circle, leaving the emblem geometry and colors intact. This circle is not claimed to be an official avatar.",
+          "SVGO 4.1.0 using config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 1697 bytes to 1337 bytes; selected optimized bytes after visual comparison and Desktop conversion."
+        ],
+        "variant": "Red Banorte symbol on dark source-color circular field, catalog adaptation.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no icon.svg exists at the frozen base; final frames show the new symbol without a fabricated baseline."
+      },
+      "candidateIconHash": "4adb96a8a3993b67aa3b97e8d2ee59a4bac637608bb48a4ce116c8ae76e00747",
+      "checkedAt": "2026-11-24T20:47:58.920247Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "43c1ff07e5aad7a5b820f7debe3b561cc477f48d53303d7528342ea5481c37bf",
+        "head": "bank-icon-maintenance/16211",
+        "headCommit": "52f05ee49776dbee7dbb6710c7e738b77c6c1c75",
+        "number": 219,
+        "observedAt": "2026-11-24T20:52:27.677269Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Banorte (Company.id 16211)",
+        "url": "https://github.com/zenmoney/banks/pull/219"
+      },
+      "reason": "Banorte has no icon at the frozen base. The investor-relations site supplies an original vector group lockup with a separable complete three-path emblem; the bank-published Play listing corroborates bank use of its distinctive emblem in a different presentation. The proposed source is for preparation, not approval.",
+      "reviewPackage": {
+        "path": "evidence/16211/candidate-40b16584e885ef6cbba584972894678eec47d34ceaac7c330e5a387f6493a115.json",
+        "sha256": "40b16584e885ef6cbba584972894678eec47d34ceaac7c330e5a387f6493a115"
+      },
+      "sourceCandidate": {
+        "iconHash": "5e8969616df0398a2155747933bb9187b587ab853d5259e9d0d0628ae31241ea",
+        "path": "evidence/16211/research-160274b6662e410baecc92e787f24192/fetch-82170dce497c4cbc9a3f05cbc4b7712f/attempt-1/body.bin",
+        "rationale": "The official source provides an original vector separable emblem for a first icon, with bank-specific corroboration of its design on a distinct platform. Complete symbol extraction and a square-cell catalog presentation require final visual and converter verification.",
+        "retrieval": {
+          "path": "evidence/16211/research-160274b6662e410baecc92e787f24192/fetch-82170dce497c4cbc9a3f05cbc4b7712f/receipt.json",
+          "sha256": "122064f5cf03cea6c71dd7dccff3578a691da948f3a8cdd81a0ea82692650f85"
+        },
+        "sourceAssetUrl": "https://investors.banorte.com/~/media/Images/B/Banorte-IR/logo/logo-png.svg?h=159&iar=0&w=820",
+        "sourceMaterial": {
+          "path": "evidence/16211/source-material-49c7645e636c4827b72efd47579f1bef/material.json",
+          "sha256": "66e9eead1c1af3a0b03357e0da673a9b763837935998d7dd51b014c4cd579711"
+        },
+        "sourceUrl": "https://investors.banorte.com/es/company/structure"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://investors.banorte.com/~/media/Images/B/Banorte-IR/logo/logo-png.svg?h=159&iar=0&w=820",
+          "checkedAt": "2026-11-24T20:35:38Z",
+          "independenceGroup": "Banorte investor relations",
+          "kind": "official",
+          "observation": "The corporate structure page names Banco Mercantil del Norte, S.A., Institución de Banca Múltiple, Grupo Financiero Banorte as an authorized Mexican credit institution; its header SVG is labeled Grupo Financiero Banorte. The page includes 2026 press-release navigation. The vector contains a red three-path emblem, white group name and a dark rectangular background. This is a current site observation, not a logo-launch date.",
+          "url": "https://investors.banorte.com/es/company/structure"
+        },
+        {
+          "assetUrl": "https://play-lh.googleusercontent.com/cEOI1ERTpKrhUuJnQwVh1t4-u0V5lL5zQZ7NgaWglRULXLNk6Wlpw2xHARsEdQylYFbnyZeq-KTsLzwgM8LrvtQ=s0-br30",
+          "checkedAt": "2026-11-24T20:41:34Z",
+          "independenceGroup": "Google Play listing, bank publisher",
+          "kind": "third-party",
+          "observation": "Google Play lists Banorte Móvil by Banorte Mobile Team, identifies Banco Mercantil del Norte as developer, and displays an update date of 9 November 2026. The inspected app artwork shows the Banorte name and a white emblem with upper ellipse, split lower ellipse and tapered negative-space wedge on a red 125th-anniversary design. Its distinctive structure matches the investor vector, but its colors and presentation differ; it does not verify exact geometry or official circular use of the red variant.",
+          "url": "https://play.google.com/store/apps/details?hl=es-MX&id=org.microemu.android.model.common.VTUserApplicationBNRTMB"
+        }
+      ],
+      "status": "open",
+      "taskKey": "c00e8e5f65b85c8eb808da856c2ff2f2caa0af8b7d4f3f021682c05be9e91746",
+      "verification": {
+        "checkedAt": "2026-11-24T20:49:13.694941Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4adb96a8a3993b67aa3b97e8d2ee59a4bac637608bb48a4ce116c8ae76e00747",
+        "xmlSha256": "3f7f78ef52fee4979e8062f6999362fc1d82f1d82b14d6f33c5c4260d85bf5eb"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "c00e8e5f65b85c8eb808da856c2ff2f2caa0af8b7d4f3f021682c05be9e91746",
+      "outcome": "published",
+      "processedAt": "2026-11-24T20:47:58.920247Z",
+      "publication": {
+        "candidateIconHash": "4adb96a8a3993b67aa3b97e8d2ee59a4bac637608bb48a4ce116c8ae76e00747",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "43c1ff07e5aad7a5b820f7debe3b561cc477f48d53303d7528342ea5481c37bf",
+          "head": "bank-icon-maintenance/16211",
+          "headCommit": "52f05ee49776dbee7dbb6710c7e738b77c6c1c75",
+          "number": 219,
+          "observedAt": "2026-11-24T20:52:27.677269Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Banorte (Company.id 16211)",
+          "url": "https://github.com/zenmoney/banks/pull/219"
+        }
+      },
+      "reason": "Banorte has no icon at the frozen base. The investor-relations site supplies an original vector group lockup with a separable complete three-path emblem; the bank-published Play listing corroborates bank use of its distinctive emblem in a different presentation. The proposed source is for preparation, not approval.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
