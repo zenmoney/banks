@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T20:09:39.595060Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "3bf44696c49f9586415849f8ae4b029a64c5a28d56fbf6968e6511badb820236",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T20:09:39.595060Z",
+      "reason": "No provenance-supported original vector found. Official site returned HTTP 403; a Wikimedia image is raster, and an Arcticons SVG is not established as original bank artwork.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
