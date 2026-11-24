@@ -1,0 +1,136 @@
+{
+  "lastAttemptAt": "2026-11-24T20:15:31.487722Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16215/assessed-7b5ad79abe70bb22b36528f17ab3e553b28fab3653fbfeb7617e894acb565618.json",
+        "sha256": "7b5ad79abe70bb22b36528f17ab3e553b28fab3653fbfeb7617e894acb565618"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The official Mexico site uses the vector logo at the recorded observation.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official Mexico site identifies HSBC Mexico and its banking context, matching the record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The Mexican official bank site directly supplies and displays the logo.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The geometric emblem is part of the official lockup; extraction and final square-cell fidelity require review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/579f434740ddbed979efe637ed13854c00937f8f240db98542baaeb09c758173.json",
+        "sha256": "579f434740ddbed979efe637ed13854c00937f8f240db98542baaeb09c758173"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The red hexagon and white triangular negative spaces match the official source; original white and red vector shapes are retained.",
+        "faithful": true,
+        "iconHash": "60b8ecd1c98c2c30d3278170ca1d4097c25dd3372932753e31b94e676489995e",
+        "path": "evidence/16215/candidate-60b8ecd1c98c2c30d3278170ca1d4097c25dd3372932753e31b94e676489995e.svg",
+        "proportionsJudgement": "The complete geometric mark retains its aspect ratio and is centered without clipping in the square viewport.",
+        "rationale": "The official Mexican bank site’s masterbrand vector supplies a standalone symbol, without the adjoining wordmark.",
+        "role": "standalone bank symbol",
+        "sha256": "60b8ecd1c98c2c30d3278170ca1d4097c25dd3372932753e31b94e676489995e",
+        "sourceAssetUrl": "https://www.about.hsbc.com.mx/-/media/pws171/Logos/HSBC-logo.svg",
+        "sourceUrl": "https://www.about.hsbc.com.mx/news-and-media",
+        "transforms": [
+          "Isolated the original white rectangle and four red polygons, omitted wordmark and centered the complete emblem in a square viewport; no traced geometry or added backing.",
+          "SVGO 4.1.0 config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 412 to 298 bytes. Inspected original and optimized renders on light and dark, then selected optimized bytes after successful Desktop conversion and visual checks."
+        ],
+        "variant": "Official HSBC Mexico masterbrand geometric emblem.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: there is no icon at the pinned baseline; actual final frames show the new mark."
+      },
+      "candidateIconHash": "60b8ecd1c98c2c30d3278170ca1d4097c25dd3372932753e31b94e676489995e",
+      "checkedAt": "2026-11-24T20:15:31.487722Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "3e8a1147955a913c498cbc99c4854e607cb8b3d3a9140da9f6703f49e3f089e8",
+        "head": "bank-icon-maintenance/16215",
+        "headCommit": "886ce78cfd48c89fb4510db0536046ffe61bc46f",
+        "number": 216,
+        "observedAt": "2026-11-24T20:21:17.847994Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: HSBC (Company.id 16215)",
+        "url": "https://github.com/zenmoney/banks/pull/216"
+      },
+      "reason": "No existing icon; HSBC Mexico’s official site uses an original vector masterbrand logo containing a separable geometric emblem.",
+      "reviewPackage": {
+        "path": "evidence/16215/candidate-256bb44754ea8e62cbcd2cbfe4dc6b9bdb22373042f3f82609d7f08be1e60a18.json",
+        "sha256": "256bb44754ea8e62cbcd2cbfe4dc6b9bdb22373042f3f82609d7f08be1e60a18"
+      },
+      "sourceCandidate": {
+        "iconHash": "9615877cfdd16992d70adb93bade8980e225558c9d4a4fd64c204e909fd14aa3",
+        "path": "evidence/16215/research-e9ed62e7c77b456d867a915cf5888c38/fetch-4a1417ee86064b818e60e0e21fc1cc54/attempt-1/body.bin",
+        "rationale": "The official vector includes the recognizable HSBC geometric emblem; this record has no icon.",
+        "retrieval": {
+          "path": "evidence/16215/research-e9ed62e7c77b456d867a915cf5888c38/fetch-4a1417ee86064b818e60e0e21fc1cc54/receipt.json",
+          "sha256": "f60b001a61a2275eaa8f07b346cbcbcc02155e25361ac8457432687d0ee1da5e"
+        },
+        "sourceAssetUrl": "https://www.about.hsbc.com.mx/-/media/pws171/Logos/HSBC-logo.svg",
+        "sourceMaterial": {
+          "path": "evidence/16215/source-material-c25e4f3408e24c1f87c91d57484a0474/material.json",
+          "sha256": "43a53d540566246fc2e9ec3788beffe38b26e87c21bc449ebdea01e4c964a92d"
+        },
+        "sourceUrl": "https://www.about.hsbc.com.mx/news-and-media"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.about.hsbc.com.mx/-/media/pws171/Logos/HSBC-logo.svg",
+          "checkedAt": "2026-11-24T20:07:16.446726Z",
+          "independenceGroup": "HSBC Mexico official site",
+          "kind": "official",
+          "observation": "HSBC Mexico’s official news page displays this original vector masterbrand lockup; it includes a red and white geometric emblem and black wordmark.",
+          "url": "https://www.about.hsbc.com.mx/news-and-media"
+        }
+      ],
+      "status": "open",
+      "taskKey": "31bda4029672921d8318184a657da3d5bf7221e8bfbc854244e984000199c707",
+      "verification": {
+        "checkedAt": "2026-11-24T20:17:58.634713Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "60b8ecd1c98c2c30d3278170ca1d4097c25dd3372932753e31b94e676489995e",
+        "xmlSha256": "9f1e1c96978a69088a64cd5757d92fa5c3548fbcc9d79171a543c8c610fd821e"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "31bda4029672921d8318184a657da3d5bf7221e8bfbc854244e984000199c707",
+      "outcome": "published",
+      "processedAt": "2026-11-24T20:15:31.487722Z",
+      "publication": {
+        "candidateIconHash": "60b8ecd1c98c2c30d3278170ca1d4097c25dd3372932753e31b94e676489995e",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "3e8a1147955a913c498cbc99c4854e607cb8b3d3a9140da9f6703f49e3f089e8",
+          "head": "bank-icon-maintenance/16215",
+          "headCommit": "886ce78cfd48c89fb4510db0536046ffe61bc46f",
+          "number": 216,
+          "observedAt": "2026-11-24T20:21:17.847994Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: HSBC (Company.id 16215)",
+          "url": "https://github.com/zenmoney/banks/pull/216"
+        }
+      },
+      "reason": "No existing icon; HSBC Mexico’s official site uses an original vector masterbrand logo containing a separable geometric emblem.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
