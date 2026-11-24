@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:56:57.588842Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "9a1143868bc38a573f240f729085e035c06ac15250a65e1525755339f9ff379c",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:56:57.588842Z",
+      "reason": "The BanjeCel Google Play icon confirms present use of a standalone eagle matching the shape in a Wikimedia SVG lockup, but the Commons SVG's original-vector provenance is not established: its source is a government web page, not an identified original vector download, and that page timed out. The SVG is an edited Illustrator-exported vector but metadata alone cannot exclude tracing. Its full eagle-plus-wordmark lockup is not a suitable square-cell icon. No replacement is proposed on this evidence.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
