@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:40:49.194650Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "8c5d08717e186a4a21ba305c4a3ccfc453a860eda238696caf45c1d5406396d1",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:40:49.194650Z",
+      "reason": "The official homepage shows the current mark in raster and links an SVG favicon, but retrieval of that vector failed. The community SVG depicts a different mark with separate wordmark and has unsupported original-vector provenance. No suitable verified original vector was found.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
