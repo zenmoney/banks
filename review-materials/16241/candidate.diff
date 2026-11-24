@@ -1,0 +1,7 @@
+--- /dev/null
++++ candidate/16241/icon.svg
+@@ -0,0 +1,4 @@
++<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
++    <circle cx="32" cy="32" r="32" fill="#1c1c1c"/>
++    <path fill="#fff" d="m30.1683 31.441-6.2736 7.5453V49h-4.9456V15h4.9456v17.6055L38.3194 15h6.1362L33.8318 27.8083 45.051 49h-5.724z"/>
++</svg>
