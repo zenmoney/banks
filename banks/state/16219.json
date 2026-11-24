@@ -1,0 +1,133 @@
+{
+  "lastAttemptAt": "2026-11-24T20:06:41.750044Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16219/assessed-c73386303d056ab35ef11b2a74da68e3019bc8411bf551ab287e7e0ffb2a8844.json",
+        "sha256": "c73386303d056ab35ef11b2a74da68e3019bc8411bf551ab287e7e0ffb2a8844"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The official operating banking homepage uses this logo at observation.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The metadata domain and official banking homepage identify Inbursa Mexico.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Official bank website directly supplies and displays the asset; independent attribution is not needed to establish the site’s own use.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The geometric emblem is part of the official logo; source-faithful extraction and final square-cell rendering need review.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/47841993d6a3377000980ad1ee48c76c13e2ffeb5ddd122dafffeec83a929328.json",
+        "sha256": "47841993d6a3377000980ad1ee48c76c13e2ffeb5ddd122dafffeec83a929328"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The navy four-arm emblem and circular center and transparent ring retain the original contours and color. The separate white circular backing is a catalog adaptation for contrast, not an observed official avatar.",
+        "faithful": true,
+        "iconHash": "f40a022a43fc464de7c71893426f34e8b81d187b871cf07afc5e5a0c3e3f220b",
+        "path": "evidence/16219/candidate-f40a022a43fc464de7c71893426f34e8b81d187b871cf07afc5e5a0c3e3f220b.svg",
+        "proportionsJudgement": "Uniform scale and translation retain source emblem proportions; the complete emblem is centered with clearance on the white circle.",
+        "rationale": "The bank’s current vector supplies a standalone mark; the white circular backing permits contrast on dark surfaces.",
+        "role": "standalone bank emblem",
+        "sha256": "f40a022a43fc464de7c71893426f34e8b81d187b871cf07afc5e5a0c3e3f220b",
+        "sourceAssetUrl": "https://www.inbursa.com/sites/gfi/image/logo-inbursa-optimiza.svg",
+        "sourceUrl": "https://www.inbursa.com/sites/gfi/home",
+        "transforms": [
+          "Extracted original emblem path, omitting wordmark and slogan; preserved navy #0A1D3F and internal transparency.",
+          "Uniform scale 0.8 and translation (9.2, 9.04) into 48 by 48 viewport; added white circular catalog backing for dark-theme contrast.",
+          "SVGO 4.1.0 with config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 611 to 567 bytes; optimized version selected after inspecting working and optimized render on both themes."
+        ],
+        "variant": "Official homepage geometric mark, with a catalog-only white circular backing.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: frozen base has no icon; the final frames show the complete standalone mark on light and dark backgrounds."
+      },
+      "candidateIconHash": "f40a022a43fc464de7c71893426f34e8b81d187b871cf07afc5e5a0c3e3f220b",
+      "checkedAt": "2026-11-24T20:06:41.750044Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "875b80393e0cffbc76951e5a18507921f81deda3fa5d8927f661b315bd98e5a1",
+        "head": "bank-icon-maintenance/16219",
+        "headCommit": "3d280f17bc4799827b05bee9b485d393ec71d6ee",
+        "number": 215,
+        "observedAt": "2026-11-24T20:14:00.451790Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Inbursa (Company.id 16219)",
+        "url": "https://github.com/zenmoney/banks/pull/215"
+      },
+      "reason": "No existing icon; official Inbursa site uses an original vector logo with a separable geometric emblem.",
+      "reviewPackage": {
+        "path": "evidence/16219/candidate-ca87a7ed3273d1581f76f3def50f23266fea42409e5648aa7fe539fbcb7223e8.json",
+        "sha256": "ca87a7ed3273d1581f76f3def50f23266fea42409e5648aa7fe539fbcb7223e8"
+      },
+      "sourceCandidate": {
+        "iconHash": "751ba78fbab8e5c448cc0a5db2e836e596c85b226d6bb50b2f0cbc2148945b47",
+        "path": "evidence/16219/research-86fec49073ac424397963c1979a38b10/fetch-b061f07ec035476fa746eaf990cc692a/attempt-1/body.bin",
+        "rationale": "The official vector includes a recognizable standalone geometric emblem; no icon exists for this record.",
+        "retrieval": {
+          "path": "evidence/16219/research-86fec49073ac424397963c1979a38b10/fetch-b061f07ec035476fa746eaf990cc692a/receipt.json",
+          "sha256": "d93269f9299df2c5f7ea04a2843ab2abb32ae706f8cc4b4c0258083fbbe70653"
+        },
+        "sourceAssetUrl": "https://www.inbursa.com/sites/gfi/image/logo-inbursa-optimiza.svg",
+        "sourceUrl": "https://www.inbursa.com/sites/gfi/home"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.inbursa.com/sites/gfi/image/logo-inbursa-optimiza.svg",
+          "checkedAt": "2026-11-24T20:04:02.558745Z",
+          "independenceGroup": "Inbursa official site",
+          "kind": "official",
+          "observation": "The Inbursa banking site displays this vector logo; its left-hand blue geometric emblem accompanies the bank name and slogan.",
+          "url": "https://www.inbursa.com/sites/gfi/home"
+        }
+      ],
+      "status": "open",
+      "taskKey": "98ffa1cff0d99fe2f0d1944cfa623fd771dedd270e4777e28249ea186ceb286a",
+      "verification": {
+        "checkedAt": "2026-11-24T20:10:40.969893Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "f40a022a43fc464de7c71893426f34e8b81d187b871cf07afc5e5a0c3e3f220b",
+        "xmlSha256": "8b3f09e00ac2b18ef361bf1d3d489a8f589aafbdfa2b4b42c900cfd4fc8ee025"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "98ffa1cff0d99fe2f0d1944cfa623fd771dedd270e4777e28249ea186ceb286a",
+      "outcome": "published",
+      "processedAt": "2026-11-24T20:06:41.750044Z",
+      "publication": {
+        "candidateIconHash": "f40a022a43fc464de7c71893426f34e8b81d187b871cf07afc5e5a0c3e3f220b",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "875b80393e0cffbc76951e5a18507921f81deda3fa5d8927f661b315bd98e5a1",
+          "head": "bank-icon-maintenance/16219",
+          "headCommit": "3d280f17bc4799827b05bee9b485d393ec71d6ee",
+          "number": 215,
+          "observedAt": "2026-11-24T20:14:00.451790Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Inbursa (Company.id 16219)",
+          "url": "https://github.com/zenmoney/banks/pull/215"
+        }
+      },
+      "reason": "No existing icon; official Inbursa site uses an original vector logo with a separable geometric emblem.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
