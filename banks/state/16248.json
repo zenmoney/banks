@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:57:24.562531Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "d7e7af7c9ad811224a75a1de3c1d677d4b9a34aa9cb46fc83fb15bf48e1d0993",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:57:24.562531Z",
+      "reason": "The selected existing record has no icon. Official Mexican branding and product identity were observed, including a standalone footer emblem, but the emblem is raster and no matching genuine original vector with supported provenance was identified. No raster tracing, raster embedding, or unsubstantiated substitute is permitted. An absent icon cannot be marked unchanged.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
