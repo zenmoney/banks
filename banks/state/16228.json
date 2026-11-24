@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T19:32:26.442208Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "6253a67ad76c151c903b314db636345d3bf2830ddfc53d132c38c22a4af3b3df",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T19:32:26.442208Z",
+      "reason": "No provenance-supported original standalone vector applicable to Openbank México was retrieved; the existing icon is absent. The Mexican site and Spanish press page returned HTTP 403, and the App Store image is raster research only.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
