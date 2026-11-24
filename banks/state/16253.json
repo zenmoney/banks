@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:41:24.731848Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "879659aff9b3b6bb715bad72045ee214f3cf379ae8c17edf40424e59278bc56b",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:41:24.731848Z",
+      "reason": "An independent report describes BBVA Colombia's 2025 identity refresh. A Wikimedia SVG attributes the logo to BBVA but links only a homepage, and edits and color overrides leave original-vector provenance and exact Colombian color unconfirmed. BBVA Colombia and the cited BBVA site returned 403.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
