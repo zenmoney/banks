@@ -1,0 +1,133 @@
+{
+  "lastAttemptAt": "2026-11-24T18:12:54.215376Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16241/assessed-0f0542d8887fdf2ca011679bc082c7fafc4bb2709a580abb3c4b0893fe5c872e.json",
+        "sha256": "0f0542d8887fdf2ca011679bc082c7fafc4bb2709a580abb3c4b0893fe5c872e"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Official current site embeds this vector and uses K webclip.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The metadata domain identifies Klar as a Mexican financial services platform.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Press page and webclip are both official Klar sources; no independent assertion of vector provenance is made.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The source wordmark contains a separable K path and the site uses a standalone K; matching and presentation require visual verification.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d107569521d3997a92d66c59b4deacd5148cd93bd9f4e9562847095f93bdd18e.json",
+        "sha256": "d107569521d3997a92d66c59b4deacd5148cd93bd9f4e9562847095f93bdd18e"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The white K retains the original stem and diagonals; the official webclip shows the same white K on near-black.",
+        "faithful": true,
+        "iconHash": "04f49fb2b7cc0671253034d95ae8ee4bd30dcbf2da72b265283fbd0830d9691b",
+        "path": "evidence/16241/candidate-04f49fb2b7cc0671253034d95ae8ee4bd30dcbf2da72b265283fbd0830d9691b.svg",
+        "proportionsJudgement": "Complete K uniformly scaled and centered in the field with no distortion; the retained plain field is adapted to a circle.",
+        "rationale": "Extract the K path from Klar's official vector wordmark for a first addition, using the official webclip's white-on-dark presentation.",
+        "role": "standalone lettermark",
+        "sha256": "04f49fb2b7cc0671253034d95ae8ee4bd30dcbf2da72b265283fbd0830d9691b",
+        "sourceAssetUrl": "https://cdn.prod.website-files.com/62f28d86df04385706ee23d7/6567394e1ac9ea9db19b702b_Klar-white.svg",
+        "sourceUrl": "https://www.klar.mx/sala-de-prensa",
+        "transforms": [
+          "Omitted separate lar paths; retained original K path and uniformly scaled and translated it.",
+          "Adapted the webclip's plain dark field to a centered same-color circle; this circular presentation is catalog adaptation, not a claimed official avatar.",
+          "Selected smaller SVGO version after independent visual comparison."
+        ],
+        "variant": "white K on near-black circular field",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: no baseline icon exists; exact final-only frames show the K on both themes."
+      },
+      "candidateIconHash": "04f49fb2b7cc0671253034d95ae8ee4bd30dcbf2da72b265283fbd0830d9691b",
+      "checkedAt": "2026-11-24T18:12:54.215376Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "eef9f37ae516f09744fc327b29af54b19e78c4642373ae85881ee92454a7e2fa",
+        "head": "bank-icon-maintenance/add-missing-16241",
+        "headCommit": "a45f28e2373582344ce0a935eed50f23e31eaff9",
+        "number": 209,
+        "observedAt": "2026-11-24T18:22:15.606249Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Klar (Company.id 16241)",
+        "url": "https://github.com/zenmoney/banks/pull/209"
+      },
+      "reason": "No icon exists at baseline. Klar's official Mexican website supplies an original vector wordmark whose first path is the K emblem; its official webclip presents a white K on dark background.",
+      "reviewPackage": {
+        "path": "evidence/16241/candidate-4827b6cdbd5ebdc414a6735d27f62e6137a3964b0f2a9c82a94a6911f8c556a4.json",
+        "sha256": "4827b6cdbd5ebdc414a6735d27f62e6137a3964b0f2a9c82a94a6911f8c556a4"
+      },
+      "sourceCandidate": {
+        "iconHash": "cc0026843634c4fe003bb73b9f375cb9e0f7ca0cd2fe51ede4579afcaa8a61e5",
+        "path": "evidence/16241/research-71567b71d32c47ce99338313796e765e/fetch-b2b09d355c0b45ab98aa0cd1d1c03da7/attempt-1/body.bin",
+        "rationale": "Official wordmark contains a separable K and the official webclip establishes standalone K use; check extracted path and backing fidelity.",
+        "retrieval": {
+          "path": "evidence/16241/research-71567b71d32c47ce99338313796e765e/fetch-b2b09d355c0b45ab98aa0cd1d1c03da7/receipt.json",
+          "sha256": "d964afa38ea39d7f14029dd6ae8fb77cb54c00a0d93866dde914c2458cd5854e"
+        },
+        "sourceAssetUrl": "https://cdn.prod.website-files.com/62f28d86df04385706ee23d7/6567394e1ac9ea9db19b702b_Klar-white.svg",
+        "sourceUrl": "https://www.klar.mx/sala-de-prensa"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://cdn.prod.website-files.com/62f28d86df04385706ee23d7/6567394e1ac9ea9db19b702b_Klar-white.svg",
+          "checkedAt": "2026-11-24T18:07:42.851324Z",
+          "independenceGroup": "Klar official",
+          "kind": "official",
+          "observation": "Klar's official press page embeds this white original path-based Klar wordmark; an official webclip uses a standalone white K on a dark field.",
+          "url": "https://www.klar.mx/sala-de-prensa"
+        }
+      ],
+      "status": "open",
+      "taskKey": "85019bfeb9f54285755160f87a696b751020079eff6839bfd9bc922704029253",
+      "verification": {
+        "checkedAt": "2026-11-24T18:19:56.764620Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "04f49fb2b7cc0671253034d95ae8ee4bd30dcbf2da72b265283fbd0830d9691b",
+        "xmlSha256": "567b0c487754101562649419fa249e4460e37e898cbc8255a2380878cde390dc"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "85019bfeb9f54285755160f87a696b751020079eff6839bfd9bc922704029253",
+      "outcome": "published",
+      "processedAt": "2026-11-24T18:12:54.215376Z",
+      "publication": {
+        "candidateIconHash": "04f49fb2b7cc0671253034d95ae8ee4bd30dcbf2da72b265283fbd0830d9691b",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "eef9f37ae516f09744fc327b29af54b19e78c4642373ae85881ee92454a7e2fa",
+          "head": "bank-icon-maintenance/add-missing-16241",
+          "headCommit": "a45f28e2373582344ce0a935eed50f23e31eaff9",
+          "number": 209,
+          "observedAt": "2026-11-24T18:22:15.606249Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Klar (Company.id 16241)",
+          "url": "https://github.com/zenmoney/banks/pull/209"
+        }
+      },
+      "reason": "No icon exists at baseline. Klar's official Mexican website supplies an original vector wordmark whose first path is the K emblem; its official webclip presents a white K on dark background.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
