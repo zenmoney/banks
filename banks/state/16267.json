@@ -1,0 +1,144 @@
+{
+  "lastAttemptAt": "2026-11-24T16:29:03.623158Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16267/assessed-6709427826f34e657f1886d08fe3a48fbcd7602d72ac079309c10b57b140d915.json",
+        "sha256": "6709427826f34e657f1886d08fe3a48fbcd7602d72ac079309c10b57b140d915"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "Current official homepage uses the downloaded vector as its desktop navigation logo and presents active financial services; its footer bears 2026.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Official Banco W about page describes a Colombian bank and gives addressCountry CO, matching the Banco W Colombia record.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The official homepage, official about page, and its hosted SVG are one institutional source group, not independent corroboration. The Colombian regulator listing returned HTTP 403.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The full official logo source displays a white W on a turquoise circular field beside orange Banco text. The complete W circle is a separable original vector symbol suitable for square-cell preparation; final fit and renderer fidelity remain to be reviewed.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/2a51dd76bb58fe72bccef88d43844968c6e81cdeb7c254fb365682192c5b0290.json",
+        "sha256": "2a51dd76bb58fe72bccef88d43844968c6e81cdeb7c254fb365682192c5b0290"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The white W and turquoise circle match the full original SVG in the source/final images; no emblem detail is missing.",
+        "faithful": true,
+        "iconHash": "ddb1502f51d26bd7f0ee0d97861402f4c1bfaa5df09001dad45f7cae83c538c0",
+        "path": "evidence/16267/candidate-ddb1502f51d26bd7f0ee0d97861402f4c1bfaa5df09001dad45f7cae83c538c0.svg",
+        "proportionsJudgement": "The original circular emblem and W proportions are preserved; the circle fills the square and the entire W remains legible on both themes.",
+        "rationale": "Extract the complete circular W emblem from the official homepage lockup for a first icon.",
+        "role": "symbol",
+        "sha256": "ddb1502f51d26bd7f0ee0d97861402f4c1bfaa5df09001dad45f7cae83c538c0",
+        "sourceAssetUrl": "https://storage.googleapis.com/strapi-banco-w/logo_w_ac2530054f/logo_w_ac2530054f.svg",
+        "sourceUrl": "https://www.bancow.com.co/",
+        "transforms": [
+          "Removed separate orange Banco wordmark paths and adjusted the viewBox around the original circular W; no recoloring or redrawing.",
+          "SVGO 4.1.0, config f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e: 2117 to 1514 bytes; working version retained because trial converter compatibility was not checked."
+        ],
+        "variant": "Official white W on turquoise circular field, extracted from the current website lockup.",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the pinned base has no icon.svg; both rendered frames show the new circular W."
+      },
+      "candidateIconHash": "ddb1502f51d26bd7f0ee0d97861402f4c1bfaa5df09001dad45f7cae83c538c0",
+      "checkedAt": "2026-11-24T16:29:03.623158Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "0f4c8975ccc8a930e0abdf8928e99acc0dc1d35c029372003291db492bd2c88f",
+        "head": "bank-icon-maintenance/16267",
+        "headCommit": "5700a86fd7e5b96dec2d409875a00c15bc8bbc0c",
+        "number": 204,
+        "observedAt": "2026-11-24T16:36:21.872962Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Banco W (Company.id 16267)",
+        "url": "https://github.com/zenmoney/banks/pull/204"
+      },
+      "reason": "First addition: the selected work order reports no baseline icon. Official current desktop navigation supplies an original path-based W-in-circle vector appropriate for further candidate review.",
+      "reviewPackage": {
+        "path": "evidence/16267/candidate-899eafad7f85aab7109ab84462c1a0f247dc7b367db3323ac7878a82477e6ad4.json",
+        "sha256": "899eafad7f85aab7109ab84462c1a0f247dc7b367db3323ac7878a82477e6ad4"
+      },
+      "sourceCandidate": {
+        "iconHash": "990fa04ec1f59bb2f99f3c51a177d4e119c7e05113cf763663dccf4d6a226a20",
+        "path": "evidence/16267/research-da7ee0cf692a43fa81ac61870877e28d/fetch-eefb74d1223948c9aac5aea229f4518e/attempt-1/body.bin",
+        "rationale": "The bank's current homepage directly uses this original vector logo; its complete standalone circular W mark can be isolated without redrawing or recoloring.",
+        "retrieval": {
+          "path": "evidence/16267/research-da7ee0cf692a43fa81ac61870877e28d/fetch-eefb74d1223948c9aac5aea229f4518e/receipt.json",
+          "sha256": "871ae23676f65024157da3661549cd4012bff077f6bd721cbb2fedd8d05860b7"
+        },
+        "sourceAssetUrl": "https://storage.googleapis.com/strapi-banco-w/logo_w_ac2530054f/logo_w_ac2530054f.svg",
+        "sourceMaterial": {
+          "path": "evidence/16267/source-material-cc478d0654d249efa243314fe75abc63/material.json",
+          "sha256": "2bd2e3324322a931bdad23043eac6a45879016244355e9368b1734f54b3e881e"
+        },
+        "sourceUrl": "https://www.bancow.com.co/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://storage.googleapis.com/strapi-banco-w/logo_w_ac2530054f/logo_w_ac2530054f.svg",
+          "checkedAt": "2026-11-24T16:27:58Z",
+          "independenceGroup": "Banco W official website and hosted assets",
+          "kind": "official",
+          "observation": "Live homepage desktop navigation references the downloaded vector. Independent SVG rasterization shows orange Banco wordmark beside a turquoise circle with a white W; source is paths, not an embedded raster.",
+          "url": "https://www.bancow.com.co/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-11-24T16:27:58Z",
+          "independenceGroup": "Banco W official website and hosted assets",
+          "kind": "official",
+          "observation": "The about page identifies Banco W as a Colombian bank with nationwide presence; organization data specifies CO.",
+          "url": "https://www.bancow.com.co/quienes-somos"
+        }
+      ],
+      "status": "open",
+      "taskKey": "c59752cd87325c9cd1e3e0c39a66d2e92da97ef346669ebf2257b3c64bc71db5",
+      "verification": {
+        "checkedAt": "2026-11-24T16:33:05.216839Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "ddb1502f51d26bd7f0ee0d97861402f4c1bfaa5df09001dad45f7cae83c538c0",
+        "xmlSha256": "967732d34ab522639f989c5e749778211ae1af34eaea2fe62917a4fae54073bc"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "c59752cd87325c9cd1e3e0c39a66d2e92da97ef346669ebf2257b3c64bc71db5",
+      "outcome": "published",
+      "processedAt": "2026-11-24T16:29:03.623158Z",
+      "publication": {
+        "candidateIconHash": "ddb1502f51d26bd7f0ee0d97861402f4c1bfaa5df09001dad45f7cae83c538c0",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "0f4c8975ccc8a930e0abdf8928e99acc0dc1d35c029372003291db492bd2c88f",
+          "head": "bank-icon-maintenance/16267",
+          "headCommit": "5700a86fd7e5b96dec2d409875a00c15bc8bbc0c",
+          "number": 204,
+          "observedAt": "2026-11-24T16:36:21.872962Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Banco W (Company.id 16267)",
+          "url": "https://github.com/zenmoney/banks/pull/204"
+        }
+      },
+      "reason": "First addition: the selected work order reports no baseline icon. Official current desktop navigation supplies an original path-based W-in-circle vector appropriate for further candidate review.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
