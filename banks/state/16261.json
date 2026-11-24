@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:15:23.822417Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "e8dd2807abe7a8b2f795d5135bfd1d00dee073467abaac4185624a6db21d927f",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:15:23.822417Z",
+      "reason": "No verified retrievable original vector was found for this missing icon in this investigation. The official homepage uses raster imagery; the search-discovered bank-hosted SVG and an independent SVG ZIP download returned HTTP 403. A candidate cannot be based on raster tracing or an unverified search result.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
