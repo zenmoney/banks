@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:11:16.506404Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "d6d3321ea90c5b849becf0f9af03aad17ce70c6ae9fdc2487088706489b1f0e4",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:11:16.506404Z",
+      "reason": "The first-addition record has no existing icon. A genuine SVG used by the official business site was retrieved, but the viewed asset is a wide wordmark with accompanying MOV lettering rather than a supported standalone square-cell mark. Independent vector listings did not yield a usable verified asset: vectorlogo.es returned HTTP 403 and the logosenvector tokenized download redirected to HTML. No appropriate original standalone vector has been established, so no candidate or unchanged result is justified.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
