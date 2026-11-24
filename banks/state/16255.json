@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:29:11.940970Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "ad7af1b82700c1397dccce13e320865e4f06080e99cc5b2520aa168d9f84ffcc",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:29:11.940970Z",
+      "reason": "The official current identity is visible in a raster header, but the retrieved vectors are not confirmed original current standalone assets. VectorSeek's SVG is watermarked and depicts the blue-symbol lockup; Commons describes its 2015 SVG as own work and its original provenance is unclear. An absent icon cannot be marked unchanged or filled by tracing.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
