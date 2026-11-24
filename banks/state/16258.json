@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:29:11.046498Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "f8b3dfec46b1f1ac5bd38305b49bac5bd6eaf5c54d54970ff7b08866ec69d7db",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:29:11.046498Z",
+      "reason": "This is a first addition with no baseline icon. No original vector was successfully retrieved or verified. The official page timed out after redirect; the indexed third-party listing timed out, a second listing returned HTTP 403, and the search-suggested SVG URL returned HTTP 404. The PDF obtained from the bank CDN was not extracted as an SVG. No candidate or visual approval is asserted.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
