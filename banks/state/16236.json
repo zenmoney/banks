@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T18:36:15.221320Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "7f37933b3cfb31eaf45bc9fe452fb24df41dff36b910ec9514418d5dd9a834fe",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T18:36:15.221320Z",
+      "reason": "No suitable original vector was obtained. The official site's displayed Forjadores logo and favicon are raster, while its title identifies BanFeliz; the applicable current brand variant remains uncertain. A found PDF could not be extracted by the supported source-material tool. No baseline icon exists.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
