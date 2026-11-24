@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:38:35.205000Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2ce512b6acf4d34a463be461f7e1c5b733e159179a375f74ed4a386be708539a",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:38:35.205000Z",
+      "reason": "The matching official compact mark exists as an inline SVG, but supported extraction is blocked; the other matching vector's provenance is unproven and the official downloadable wordmark differs in dot color.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
