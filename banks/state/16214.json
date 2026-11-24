@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T20:45:47.534783Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "2881ae6f07ded778f5f6fd8a4d981990a4120a68d4ec4ebb2b9259537be10997",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T20:45:47.534783Z",
+      "reason": "The record has no existing icon. Commons supplies a vector of a key-and-wordmark design but its original, non-traced lineage is not established and the bank's current Play app displays a different three-circle emblem. The bank's wqa-hosted site still uses a key, but its test-host context does not establish which variant is appropriate for the current catalog record. No provenance-supported original vector of the three-circle app mark was found.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
