@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:16:21.088021Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "f55d5c76cee9a6c6aa2d0105d2aeb7eef604bdf88f97623d4ee37761b3231c03",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:16:21.088021Z",
+      "reason": "No original vector with supported provenance and suitable square-cell mark was identified in this research. The official site and a bank document returned HTTP 403, and Brandfetch's indexed SVG listing could not be retrieved. The designer's wordmark reference is raster, and the long wordmark includes separate Banco lettering, so it is not a usable standalone icon. Other parallel research must be considered before recording this judgment.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
