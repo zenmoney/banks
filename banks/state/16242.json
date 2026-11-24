@@ -1,0 +1,132 @@
+{
+  "lastAttemptAt": "2026-11-24T18:11:08.344225Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16242/assessed-d0f76be461e38108196317623ce07e6a47af609548422dd63422304607ec2299.json",
+        "sha256": "d0f76be461e38108196317623ce07e6a47af609548422dd63422304607ec2299"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The current Mexican official site embeds this vector in its header.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The official metadata domain identifies DiDi Finanzas in Mexico and embeds this logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Source and app are both DiDi-controlled; independent El Economista reporting supports its Mexican credit operation, not the vector itself.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The source contains a separable DiDi emblem; app artwork also uses the emblem as a prominent identifier. Exact standalone treatment requires visual checks.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/7c0d9d76265261fe5e21f3571ea5a3d1cf5c41ae28e618cd81d1a42fdb966877.json",
+        "sha256": "7c0d9d76265261fe5e21f3571ea5a3d1cf5c41ae28e618cd81d1a42fdb966877"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The orange emblem preserves the rounded left corner, upper step, curved lower bowl, and transparent interior from the original; no wordmark remains.",
+        "faithful": true,
+        "iconHash": "a21e2bedeb9e583c6108e6716c9c6eb2cffa272bb2a02c265f38ac462abec5f1",
+        "path": "evidence/16242/candidate-a21e2bedeb9e583c6108e6716c9c6eb2cffa272bb2a02c265f38ac462abec5f1.svg",
+        "proportionsJudgement": "Uniformly reframed to a square without stretching; complete emblem fits centrally with adequate clearance.",
+        "rationale": "Original official standalone emblem path extracted from the wide DiDi Finanzas logo for a first icon addition.",
+        "role": "standalone brand emblem",
+        "sha256": "a21e2bedeb9e583c6108e6716c9c6eb2cffa272bb2a02c265f38ac462abec5f1",
+        "sourceAssetUrl": "https://manhattan-static.didiglobal.com/static/manhattan_global_static/us/prod/html-template/assets/m_black-DBLV_XGE.svg",
+        "sourceUrl": "https://didifinance.com/",
+        "transforms": [
+          "Removed separate wordmark paths and reframed the existing orange path in a square viewBox without recoloring or tracing.",
+          "SVGO trial selected after independent rendering comparison."
+        ],
+        "variant": "orange emblem on transparent background",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the pinned baseline has no icon; the final render shows the orange emblem on both themes."
+      },
+      "candidateIconHash": "a21e2bedeb9e583c6108e6716c9c6eb2cffa272bb2a02c265f38ac462abec5f1",
+      "checkedAt": "2026-11-24T18:11:08.344225Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "e8e6d5608da210753e0ee322892078794a49d8f113321bd1374fa3a92cd02c73",
+        "head": "bank-icon-maintenance/add-missing-16242",
+        "headCommit": "1cf90da8107340850449f4382ed4ad09a67a6242",
+        "number": 208,
+        "observedAt": "2026-11-24T18:18:24.557165Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: DiDi Finanzas (Company.id 16242)",
+        "url": "https://github.com/zenmoney/banks/pull/208"
+      },
+      "reason": "No icon exists at baseline. The official Mexican DiDi Finanzas website supplies an original vector containing its orange emblem alongside a wordmark; its standalone emblem is a possible square icon.",
+      "reviewPackage": {
+        "path": "evidence/16242/candidate-1a17e217d2c890c5e149e8e0f93d1a282f7e13c63b802396ade00bdf8d155dfa.json",
+        "sha256": "1a17e217d2c890c5e149e8e0f93d1a282f7e13c63b802396ade00bdf8d155dfa"
+      },
+      "sourceCandidate": {
+        "iconHash": "a4cbca923f12e4294465f2c95de3cb0308b8b6443ff0326d648e2375723a218a",
+        "path": "evidence/16242/research-97b30f1d87ce45159840af8a8b1d0143/fetch-c641427a803d4b64a6d2e9fb842eb35a/attempt-1/body.bin",
+        "rationale": "Official original SVG has a separable path for the emblem; preserve that path and assess the standalone treatment rather than using a wide lockup.",
+        "retrieval": {
+          "path": "evidence/16242/research-97b30f1d87ce45159840af8a8b1d0143/fetch-c641427a803d4b64a6d2e9fb842eb35a/receipt.json",
+          "sha256": "cd139f41adcc7173309920442cd6a7ee27a508cbff819d1f41ca33b04a1c5541"
+        },
+        "sourceAssetUrl": "https://manhattan-static.didiglobal.com/static/manhattan_global_static/us/prod/html-template/assets/m_black-DBLV_XGE.svg",
+        "sourceUrl": "https://didifinance.com/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://manhattan-static.didiglobal.com/static/manhattan_global_static/us/prod/html-template/assets/m_black-DBLV_XGE.svg",
+          "checkedAt": "2026-11-24T18:06:58.525936Z",
+          "independenceGroup": "DiDi official",
+          "kind": "official",
+          "observation": "Mexican DiDi Finanzas site embeds this original SVG as its header logo: orange emblem and dark DiDi Finanzas wordmark. Mexican App Store artwork also features the emblem, in white, above Finanzas lettering.",
+          "url": "https://didifinance.com/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "a609a337849019e90b4f2914a927645bcc6a44fe3305e4ab20e009d851a920cb",
+      "verification": {
+        "checkedAt": "2026-11-24T18:15:49.671781Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "a21e2bedeb9e583c6108e6716c9c6eb2cffa272bb2a02c265f38ac462abec5f1",
+        "xmlSha256": "ee1c1c8dd4a71e21f6f6fb938c9887b4f6b28dafc790e67f943f397c3152f8c6"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a609a337849019e90b4f2914a927645bcc6a44fe3305e4ab20e009d851a920cb",
+      "outcome": "published",
+      "processedAt": "2026-11-24T18:11:08.344225Z",
+      "publication": {
+        "candidateIconHash": "a21e2bedeb9e583c6108e6716c9c6eb2cffa272bb2a02c265f38ac462abec5f1",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "e8e6d5608da210753e0ee322892078794a49d8f113321bd1374fa3a92cd02c73",
+          "head": "bank-icon-maintenance/add-missing-16242",
+          "headCommit": "1cf90da8107340850449f4382ed4ad09a67a6242",
+          "number": 208,
+          "observedAt": "2026-11-24T18:18:24.557165Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: DiDi Finanzas (Company.id 16242)",
+          "url": "https://github.com/zenmoney/banks/pull/208"
+        }
+      },
+      "reason": "No icon exists at baseline. The official Mexican DiDi Finanzas website supplies an original vector containing its orange emblem alongside a wordmark; its standalone emblem is a possible square icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
