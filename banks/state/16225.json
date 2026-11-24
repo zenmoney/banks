@@ -1,0 +1,128 @@
+{
+  "lastAttemptAt": "2026-11-24T19:44:54.519759Z",
+  "lastAttemptResult": "unconfirmed",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [],
+        "finishedAt": "2026-11-24T19:44:54.519759Z",
+        "outcome": "unconfirmed",
+        "reason": "The bank-hosted SVG has a third-party logosandtypes_com identifier; the existing evidence does not establish original-vector lineage or rule out tracing. Further research is blocked by the session research adapter after the attempt transition. No asset write was attempted.",
+        "stage": "admission"
+      },
+      "proposal": {
+        "agentAssessment": {
+          "path": "evidence/16225/assessed-63a7b136c6d484f04a8127e8d5a27cb552339630d2ec2c9baa86857eb3c5dd39.json",
+          "sha256": "63a7b136c6d484f04a8127e8d5a27cb552339630d2ec2c9baa86857eb3c5dd39"
+        },
+        "agentVisualAssessment": "suitable",
+        "assessment": {
+          "currency": {
+            "basis": "The bank simulator currently links the dark green standalone vector; the main site also uses a brighter green rendition.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "The vector is linked and hosted on Afirme's own mortgage simulator domain matching this bank's metadata.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "Official simulator supplies both context and source; the main-site appearance is additional related brand context, not independent corroboration.",
+          "uncertainties": [],
+          "variant": {
+            "basis": "The original SVG is the standalone green emblem currently used on the official simulator; source/final and theme legibility remain to be inspected.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": null,
+        "candidate": {
+          "detailsJudgement": "The green diagonal elements, rounded tips and transparent gaps match the full original on source/final pairs; working and optimized independent renderings look identical.",
+          "faithful": true,
+          "iconHash": "273ac11170d395a9ccdee64061f0d3a2dcbe5cc3034309c08cb80d031c2b5f3e",
+          "path": "evidence/16225/candidate-273ac11170d395a9ccdee64061f0d3a2dcbe5cc3034309c08cb80d031c2b5f3e.svg",
+          "proportionsJudgement": "Complete triangular mark fits the square with no clipping and is recognizable on both themes; green contrast is lower on dark. Source proportions and transparency are retained.",
+          "rationale": "First icon for existing Afirme record from its official mortgage simulator favicon.",
+          "role": "standalone bank emblem",
+          "sha256": "273ac11170d395a9ccdee64061f0d3a2dcbe5cc3034309c08cb80d031c2b5f3e",
+          "sourceAssetUrl": "https://simuladorhipotecario.afirme.com/img/favicon.svg",
+          "sourceUrl": "https://simuladorhipotecario.afirme.com/",
+          "transforms": [
+            "No emblem or background transformation; transparent source preserved.",
+            "SVGO 4.1.0 with config SHA-256 f2a406e05dd8849e35cd5d2ce96862b6e160b135135064ceafd64efd126f477e reduced 909 to 851 bytes; optimized selected after working/optimized independent raster comparison."
+          ],
+          "variant": "Official dark-green triangular emblem on transparent canvas; no backing is needed on the inspected themes.",
+          "visibleDiff": true,
+          "visibleDiffExplanation": "First addition: no icon exists at frozen base; final frames show the actual icon, not a blank baseline."
+        },
+        "candidateIconHash": "273ac11170d395a9ccdee64061f0d3a2dcbe5cc3034309c08cb80d031c2b5f3e",
+        "checkedAt": "2026-11-24T19:37:51.130148Z",
+        "humanReview": "pending",
+        "reason": "The absent icon can be supplied from the bank-hosted standalone triangular vector used by its mortgage simulator. The darker green variant coexists with the brighter main-site branding; final fidelity, legibility and render checks remain.",
+        "reviewPackage": {
+          "path": "evidence/16225/candidate-a1002558f07ab114d19e8b3f10e351bbf67dcb329ec7fc87d1c15f40d3e8bb86.json",
+          "sha256": "a1002558f07ab114d19e8b3f10e351bbf67dcb329ec7fc87d1c15f40d3e8bb86"
+        },
+        "sourceCandidate": {
+          "iconHash": "86db17418c100d95ad785f9fef87980283107804cf1802d1cbc79f15c964cd9a",
+          "path": "evidence/16225/research-df7df53286d24c20b3715aafc5c45348/fetch-34bbbbd53b964b35a4302e0eebede519/attempt-1/body.bin",
+          "rationale": "The official Afirme mortgage simulator links the bank-hosted standalone SVG as its favicon. It consists of original vector paths, not a traced raster, with a dark-green triangular emblem. The current main-site raster variant is brighter; no recoloring is implied.",
+          "retrieval": {
+            "path": "evidence/16225/research-df7df53286d24c20b3715aafc5c45348/fetch-34bbbbd53b964b35a4302e0eebede519/receipt.json",
+            "sha256": "7cf61ec460b1c560e0c7314d75db3131538a1b0a9f9a8ec491ae87b67ac18b6c"
+          },
+          "sourceAssetUrl": "https://simuladorhipotecario.afirme.com/img/favicon.svg",
+          "sourceUrl": "https://simuladorhipotecario.afirme.com/"
+        },
+        "sources": [
+          {
+            "assetUrl": "https://simuladorhipotecario.afirme.com/img/favicon.svg",
+            "checkedAt": "2026-11-24T19:36:35.387903Z",
+            "independenceGroup": "Afirme mortgage simulator",
+            "kind": "official",
+            "observation": "Official bank mortgage simulator links an SVG favicon: a transparent standalone green triangular emblem. The main-site raster uses a brighter green, so the simulator variant is not claimed identical to that artwork.",
+            "url": "https://simuladorhipotecario.afirme.com/"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "bb6b786a725f33982a04f9be6ae6aa6db94b765692afda53a48ac4c0b0a53214",
+        "verification": {
+          "checkedAt": "2026-11-24T19:41:53.829468Z",
+          "compose": "1.12.0",
+          "converter": "com.android.tools:sdk-common:32.4.0",
+          "sourceSha256": "273ac11170d395a9ccdee64061f0d3a2dcbe5cc3034309c08cb80d031c2b5f3e",
+          "xmlSha256": "3f1337957b16073906d5c46f87ca99dca4a499b299c9a22688563fc8bb356f48"
+        }
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "273ac11170d395a9ccdee64061f0d3a2dcbe5cc3034309c08cb80d031c2b5f3e",
+        "evidence": [],
+        "finishedAt": "2026-11-24T19:44:54.519759Z",
+        "outcome": "unconfirmed",
+        "reason": "The bank-hosted SVG has a third-party logosandtypes_com identifier; the existing evidence does not establish original-vector lineage or rule out tracing. Further research is blocked by the session research adapter after the attempt transition. No asset write was attempted.",
+        "stage": "admission"
+      },
+      "history": [
+        {
+          "key": "bb6b786a725f33982a04f9be6ae6aa6db94b765692afda53a48ac4c0b0a53214",
+          "outcome": "candidate",
+          "processedAt": "2026-11-24T19:37:51.130148Z",
+          "reason": "The absent icon can be supplied from the bank-hosted standalone triangular vector used by its mortgage simulator. The darker green variant coexists with the brighter main-site branding; final fidelity, legibility and render checks remain.",
+          "review": null,
+          "sourceMR": null,
+          "task": "add-missing"
+        }
+      ],
+      "key": "bb6b786a725f33982a04f9be6ae6aa6db94b765692afda53a48ac4c0b0a53214",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T19:44:54.519759Z",
+      "reason": "The bank-hosted SVG has a third-party logosandtypes_com identifier; the existing evidence does not establish original-vector lineage or rule out tracing. Further research is blocked by the session research adapter after the attempt transition. No asset write was attempted.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
