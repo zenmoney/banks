@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T16:15:49.330714Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "a1ed195a248ee9f325fd18852df39dfdd98869de61656d332d821a3068f71019",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T16:15:49.330714Z",
+      "reason": "No usable original vector was established. The Iconape SVG contains an embedded PNG; the vectorlogo.es SVG archive was blocked and its browser listing presented a browser check. Official bank pages also returned HTTP 403. The existing record has no icon.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
