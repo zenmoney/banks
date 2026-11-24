@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:17:23.895455Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "611e71dffb4a4d3b3c650b04e932a7557abcd76646a42281bbcea1392c078a61",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:17:23.895455Z",
+      "reason": "No applicable original vector was obtained. The bank's home page, about page, 2026 report and visual-identity FAQ returned HTTP 403; a third-party listing for the Colombian bank advertises an SVG ZIP, but its actual download also returned 403. Its visually inspected JPEG is research only, not replacement artwork. Seeklogo's Banco Sudameris listing does not establish the country or current identity and its artwork was not retrieved.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
