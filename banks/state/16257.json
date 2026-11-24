@@ -1,0 +1,132 @@
+{
+  "lastAttemptAt": "2026-11-24T17:23:00.244146Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "agentAssessment": {
+        "path": "evidence/16257/assessed-fdbdcc7a27c65d5cbd8b233beba9d2c4d3c465bfdf09099c9a4ce843b78cff21.json",
+        "sha256": "fdbdcc7a27c65d5cbd8b233beba9d2c4d3c465bfdf09099c9a4ce843b78cff21"
+      },
+      "agentVisualAssessment": "suitable",
+      "assessment": {
+        "currency": {
+          "basis": "The official homepage included the linked logo in its navbar when retrieved on 2026-11-24.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "The catalog names Banco Agrario de Colombia in Colombia and lists bancoagrario.gov.co; that bank's official website labels this asset Banco Agrario de Colombia logo.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "The homepage and SVG are one primary source, not independent confirmations; direct current official use is sufficient for this identification.",
+        "uncertainties": [],
+        "variant": {
+          "basis": "The current official lockup contains a visually distinct multicolor symbol; its original SVG groups the three symbol paths separately from the wordmark. The symbol is recognizable without accompanying text and its proportions can fit a square cell. A faithful extracted candidate and its small-size legibility must still be checked.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/d6d80e601885a077f94fb10fe8ce275a6157077df9ee9aa27edf9de4ec30aac9.json",
+        "sha256": "d6d80e601885a077f94fb10fe8ce275a6157077df9ee9aa27edf9de4ec30aac9"
+      },
+      "baseIconHash": null,
+      "candidate": {
+        "detailsJudgement": "The yellow disc, green central V and blue outer leaves match the original full SVG symbol; separate brown wordmark omitted. No new backing; transparency preserved.",
+        "faithful": true,
+        "iconHash": "4cc1b91f7a4c53ab7646e0c0736b9de6ff9c891500b5cc0e3cf7f7199d25c203",
+        "path": "evidence/16257/candidate-4cc1b91f7a4c53ab7646e0c0736b9de6ff9c891500b5cc0e3cf7f7199d25c203.svg",
+        "proportionsJudgement": "The complete emblem retains source proportions and fits without clipping in a square; the desktop frames show adequate contrast on light and dark.",
+        "rationale": "First addition: isolate the recognizable standalone emblem from the official bank lockup for the catalog cell.",
+        "role": "standalone bank emblem",
+        "sha256": "4cc1b91f7a4c53ab7646e0c0736b9de6ff9c891500b5cc0e3cf7f7199d25c203",
+        "sourceAssetUrl": "https://www.bancoagrario.gov.co/themes/custom/bancoagrario/logo.svg",
+        "sourceUrl": "https://www.bancoagrario.gov.co/",
+        "transforms": [
+          "Isolate the original grouped three-path emblem and omit separate wordmark",
+          "Adjust square viewBox without stretching; optimize SVG with SVGO"
+        ],
+        "variant": "Official multicolor transparent emblem from current website lockup",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "First addition: the baseline icon is absent; the final frames show the new emblem, not a comparison with a blank icon."
+      },
+      "candidateIconHash": "4cc1b91f7a4c53ab7646e0c0736b9de6ff9c891500b5cc0e3cf7f7199d25c203",
+      "checkedAt": "2026-11-24T17:23:00.244146Z",
+      "humanReview": "pending",
+      "mr": {
+        "base": "main",
+        "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+        "bodySha256": "38326b1ef9ff68470d1c3ea243aa587732e21f88f420a6894a01681cdc80012d",
+        "head": "bank-icon-maintenance/16257",
+        "headCommit": "1199620cb0bf4d3016899dd4062260ab56c4c27a",
+        "number": 205,
+        "observedAt": "2026-11-24T17:30:05.671425Z",
+        "state": "open",
+        "target": "zenmoney/banks",
+        "title": "Bank icon: Banco Agrario (Company.id 16257)",
+        "url": "https://github.com/zenmoney/banks/pull/205"
+      },
+      "reason": "The existing Colombian Banco Agrario record has no icon. Its official website currently uses an original SVG logo containing a distinct recognizable symbol, suitable for preparation as a standalone square-cell icon without the separate wordmark.",
+      "reviewPackage": {
+        "path": "evidence/16257/candidate-f3a9bf611471b3a10e295709dc8b4d9aa5e6e4b89bed67b301ff1d5bd90af9c1.json",
+        "sha256": "f3a9bf611471b3a10e295709dc8b4d9aa5e6e4b89bed67b301ff1d5bd90af9c1"
+      },
+      "sourceCandidate": {
+        "iconHash": "fbe6d6efc47fc31ee5d55de4f91331f38689b1054e2fe0298fbee18e6522c23b",
+        "path": "evidence/16257/research-2fa8372f78f04f998dd899dc5fe626a0/fetch-80b51c61bbeb43e087f61cf72173ee6a/attempt-1/body.bin",
+        "rationale": "The official direct original vector contains separately grouped colored emblem paths and a distinct wordmark. Prepare only the emblem for the icon cell, retaining its original geometry and colors; verify against the full source.",
+        "retrieval": {
+          "path": "evidence/16257/research-2fa8372f78f04f998dd899dc5fe626a0/fetch-80b51c61bbeb43e087f61cf72173ee6a/receipt.json",
+          "sha256": "390ef0ebe856779086c25430e4535f1c98acbb14c8d5b48cebaf690e4f7f67d7"
+        },
+        "sourceAssetUrl": "https://www.bancoagrario.gov.co/themes/custom/bancoagrario/logo.svg",
+        "sourceUrl": "https://www.bancoagrario.gov.co/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.bancoagrario.gov.co/themes/custom/bancoagrario/logo.svg",
+          "checkedAt": "2026-11-24T17:21:21.861644Z",
+          "independenceGroup": "Banco Agrario official website and asset",
+          "kind": "official",
+          "observation": "The official homepage navbar displays this SVG with alt text Banco Agrario de Colombia logo. The original SVG renders a yellow sun, green V-shaped plant or person, and blue leaf-like shapes alongside a brown Banco Agrario de Colombia wordmark. The symbol is separately grouped in the original vector as Grupo_5805 with three colored paths.",
+          "url": "https://www.bancoagrario.gov.co/"
+        }
+      ],
+      "status": "open",
+      "taskKey": "b8f5b305236495dcaff556886ed0b69fab89b210ac1364d7bcb2e3bb5774f547",
+      "verification": {
+        "checkedAt": "2026-11-24T17:27:27.740940Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "4cc1b91f7a4c53ab7646e0c0736b9de6ff9c891500b5cc0e3cf7f7199d25c203",
+        "xmlSha256": "b3822255d42c1e0ffcb26d66d3560a1ed47f62f85e8bbd0fbf7d0c1a625e8b08"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "b8f5b305236495dcaff556886ed0b69fab89b210ac1364d7bcb2e3bb5774f547",
+      "outcome": "published",
+      "processedAt": "2026-11-24T17:23:00.244146Z",
+      "publication": {
+        "candidateIconHash": "4cc1b91f7a4c53ab7646e0c0736b9de6ff9c891500b5cc0e3cf7f7199d25c203",
+        "mr": {
+          "base": "main",
+          "baseCommit": "e2a40017d8bb32a0c4e27cf3050b5a67800dac54",
+          "bodySha256": "38326b1ef9ff68470d1c3ea243aa587732e21f88f420a6894a01681cdc80012d",
+          "head": "bank-icon-maintenance/16257",
+          "headCommit": "1199620cb0bf4d3016899dd4062260ab56c4c27a",
+          "number": 205,
+          "observedAt": "2026-11-24T17:30:05.671425Z",
+          "state": "open",
+          "target": "zenmoney/banks",
+          "title": "Bank icon: Banco Agrario (Company.id 16257)",
+          "url": "https://github.com/zenmoney/banks/pull/205"
+        }
+      },
+      "reason": "The existing Colombian Banco Agrario record has no icon. Its official website currently uses an original SVG logo containing a distinct recognizable symbol, suitable for preparation as a standalone square-cell icon without the separate wordmark.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
