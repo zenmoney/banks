@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:39:56.328636Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "94d246b75340f63f9b20e93e42383ac5bfa4158d304cab9e7d4537535d12e77e",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:39:56.328636Z",
+      "reason": "A third-party archive supplies an SVG with the Bradescard emblem and separate wordmark, but its original-vector provenance and absence of tracing are not established. The official Mexican application shows a similar mark in raster; the main site returned 403. No first icon is sufficiently supported.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
