@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T20:01:25.532823Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "16c1369ecfc4e8487d64387da45a9f8f5ec7fb2f4b6eaf5644007691dfa2a6d0",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T20:01:25.532823Z",
+      "reason": "An archived vector has a double-B symbol but its original lineage and current color applicability are unverified. Current app imagery is raster and visibly brighter red; the official site returned HTTP 403. The baseline icon is absent.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
