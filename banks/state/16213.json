@@ -1,0 +1,125 @@
+{
+  "lastAttemptAt": "2026-11-24T20:51:23.907647Z",
+  "lastAttemptResult": "unconfirmed",
+  "proposals": [],
+  "retiredLocalCandidates": [
+    {
+      "completion": {
+        "evidence": [
+          {
+            "path": "evidence/16213/desktop-candidate/bundle.json",
+            "sha256": "2927442692a6292a7a8ffb032be482c4c9a1f2e5891983408a335f0870349981"
+          }
+        ],
+        "finishedAt": "2026-11-24T20:51:23.907647Z",
+        "outcome": "unconfirmed",
+        "reason": "The official original vector rendered with weak dark-theme contrast: fine green crossing is difficult to distinguish at small size. An alternate white backing was explored, but the same-color vector was not verified in that presentation; the different-color official app icon cannot establish it. No suitable source-supported candidate was established.",
+        "stage": "render"
+      },
+      "proposal": {
+        "assessment": {
+          "currency": {
+            "basis": "The bank homepage and Grupo Elektra homepage were retrieved on 2026-11-24 and show the bank and logo in active website use; this is not a claim about a formal brand guideline.",
+            "finding": "confirmed"
+          },
+          "identity": {
+            "basis": "The Mexican Banco Azteca homepage identifies the bank and Grupo Elektra's homepage displays the SVG as Banco Azteca and links to that bank site.",
+            "finding": "confirmed"
+          },
+          "independenceRationale": "The bank and its corporate group's sites are related official sources, not independent corroboration. Wikimedia Commons credits Grupo Elektra and serves byte-identical artwork, so it is a copy, not an independent artwork source.",
+          "uncertainties": [
+            "The bank's raster and corporate vector differ in red and green shades; exact color equivalence is not established.",
+            "Standalone extraction and theme legibility require final-byte visual and converter checks; the vector was published as a full lockup."
+          ],
+          "variant": {
+            "basis": "The corporate vector contains a complete red-disc and green crossed-curve symbol, separable from the wordmark; the bank's own footer raster depicts the same general emblem. The vector has no backing behind the symbol, so the prepared standalone symbol retains transparency; exact candidate suitability on both themes remains for actual final renderer review.",
+            "finding": "confirmed"
+          }
+        },
+        "baseIconHash": null,
+        "candidate": {
+          "iconHash": "5ea042369dc13222e440410a9d8337bebcb415614400ff598ab1a8fbdac2eaca",
+          "path": "evidence/16213/research-d7fe0b668ca54c55801bd2d2570aa787/fetch-567301c1cd724175b4f1a98854c0fe34/attempt-1/body.bin",
+          "rationale": "The bank-linked corporate site directly publishes an original vector containing the complete bank symbol; the bank's current touch icon separately shows the standalone symbol in different colors. Extraction and final quality remain to be checked.",
+          "retrieval": {
+            "path": "evidence/16213/research-d7fe0b668ca54c55801bd2d2570aa787/fetch-567301c1cd724175b4f1a98854c0fe34/receipt.json",
+            "sha256": "4e12b09c6a5638713f64bb0831acd2464ecdf0def3567de3549bcbb343bfcbb1"
+          },
+          "sourceAssetUrl": "https://www.grupoelektra.com.mx/img/Logos_BAZ-color.svg",
+          "sourceMaterial": {
+            "path": "evidence/16213/source-material-2732b47964d34c19a7fdeeb638d3b189/material.json",
+            "sha256": "41a408b9b90efec05f6584b3992b6152270262604bfd7bdd51604be28b967900"
+          },
+          "sourceUrl": "https://www.grupoelektra.com.mx/"
+        },
+        "candidateIconHash": "5ea042369dc13222e440410a9d8337bebcb415614400ff598ab1a8fbdac2eaca",
+        "checkedAt": "2026-11-24T20:47:21.773253Z",
+        "reason": "Current corporate original vector supplies a separable complete bank symbol for preparation; no accepted icon exists at the frozen base according to the work order. This is not final candidate approval.",
+        "sources": [
+          {
+            "assetUrl": "https://www.bancoazteca.com.mx/etc.clientlibs/azteca-spa/clientlibs/clientlib-angular/resources/assets/img/banco-azteca-logo.png",
+            "checkedAt": "2026-11-24T20:35:06.069985Z",
+            "independenceGroup": "Banco Azteca and Grupo Elektra corporate sources",
+            "kind": "official",
+            "observation": "The bank homepage advertises Mexican bank services; its fetched site JavaScript identifies this raster as the footer logo. It depicts a green crossed curved emblem and red disk with a gray wordmark; raster is context, not vector geometry.",
+            "url": "https://www.bancoazteca.com.mx/"
+          },
+          {
+            "assetUrl": "https://www.grupoelektra.com.mx/img/Logos_BAZ-color.svg",
+            "checkedAt": "2026-11-24T20:37:06.395965Z",
+            "independenceGroup": "Banco Azteca and Grupo Elektra corporate sources",
+            "kind": "official",
+            "observation": "The corporate homepage directly displays this SVG as Banco Azteca with a link to the Mexican bank website. The retrieved vector includes the symbol and gray wordmark; its original SHA-256 is 5ea042369dc13222e440410a9d8337bebcb415614400ff598ab1a8fbdac2eaca.",
+            "url": "https://www.grupoelektra.com.mx/"
+          },
+          {
+            "assetUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Banco_Azteca_Logo.svg",
+            "checkedAt": "2026-11-24T20:35:46.245888Z",
+            "independenceGroup": "Banco Azteca and Grupo Elektra corporate sources",
+            "kind": "third-party",
+            "observation": "Commons credits Grupo Elektra and its site as source; the retrieved artwork is byte-identical to the corporate vector and cannot independently corroborate its design.",
+            "url": "https://commons.wikimedia.org/wiki/File:Banco_Azteca_Logo.svg"
+          }
+        ],
+        "status": "pending",
+        "taskKey": "3a66f6bfab488a6f5dd2582f84200992de7e61a31d79db8b4ee2983ce90028a5"
+      }
+    }
+  ],
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "completion": {
+        "candidateIconHash": "5ea042369dc13222e440410a9d8337bebcb415614400ff598ab1a8fbdac2eaca",
+        "evidence": [
+          {
+            "path": "evidence/16213/desktop-candidate/bundle.json",
+            "sha256": "2927442692a6292a7a8ffb032be482c4c9a1f2e5891983408a335f0870349981"
+          }
+        ],
+        "finishedAt": "2026-11-24T20:51:23.907647Z",
+        "outcome": "unconfirmed",
+        "reason": "The official original vector rendered with weak dark-theme contrast: fine green crossing is difficult to distinguish at small size. An alternate white backing was explored, but the same-color vector was not verified in that presentation; the different-color official app icon cannot establish it. No suitable source-supported candidate was established.",
+        "stage": "render"
+      },
+      "history": [
+        {
+          "key": "3a66f6bfab488a6f5dd2582f84200992de7e61a31d79db8b4ee2983ce90028a5",
+          "outcome": "candidate",
+          "processedAt": "2026-11-24T20:47:21.773253Z",
+          "reason": "Current corporate original vector supplies a separable complete bank symbol for preparation; no accepted icon exists at the frozen base according to the work order. This is not final candidate approval.",
+          "review": null,
+          "sourceMR": null,
+          "task": "add-missing"
+        }
+      ],
+      "key": "3a66f6bfab488a6f5dd2582f84200992de7e61a31d79db8b4ee2983ce90028a5",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T20:51:23.907647Z",
+      "reason": "The official original vector rendered with weak dark-theme contrast: fine green crossing is difficult to distinguish at small size. An alternate white backing was explored, but the same-color vector was not verified in that presentation; the different-color official app icon cannot establish it. No suitable source-supported candidate was established.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
