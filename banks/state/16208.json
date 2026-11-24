@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T21:07:46.429199Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "e7211709bbf4177068cf7e4c42d2ca777438e934d184d7c5949689e4da53af4d",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T21:07:46.429199Z",
+      "reason": "First addition has no accepted icon. Current official logo is visible as raster; no usable provenance-supported original vector of the flower was identified. Commons wordmark alone lacks the flower, VectorSeek SVG links a JPEG and carries a watermark, and PH4 EPS extraction is unsupported. These are source and variant gaps, not an unchanged or approved candidate result.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
