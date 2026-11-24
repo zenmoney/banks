@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T17:57:02.999112Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "b864bb7fe4e16fc06c420581a943b65d41c071c50b1a0167d28107e35ae20e7f",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T17:57:02.999112Z",
+      "reason": "No original vector with established provenance and current Mexican applicability was confirmed; the third-party SVG is not a supported candidate. The official Mexico site and merchant source timed out.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
