@@ -1,0 +1,16 @@
+{
+  "lastAttemptAt": "2026-11-24T20:48:13.147310Z",
+  "lastAttemptResult": "unconfirmed",
+  "schemaVersion": 1,
+  "taskResults": [
+    {
+      "key": "757087e3bb6b9f3cf503e5cff66976115476a0b477227e36b2d831a9010159b3",
+      "outcome": "unconfirmed",
+      "processedAt": "2026-11-24T20:48:13.147310Z",
+      "reason": "No suitable original vector has been established with sufficient lineage and current Mexico-specific variant evidence; bank-hosted research was hindered by timeout and HTTP 403. A community-hosted SVG was retrieved but cannot be assumed original or applicable solely from its attribution.",
+      "review": null,
+      "sourceMR": null,
+      "task": "add-missing"
+    }
+  ]
+}
